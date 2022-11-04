@@ -1,0 +1,8 @@
+button.btn.btn-success, button.btn-danger {
+  margin: 10%;
+  font-size: 2vw;
+}
+.points, .team{
+  margin: 10%;
+  font-size: 2vw;
+}
