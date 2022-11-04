@@ -1,0 +1,54 @@
+<div *ngIf="addTeamInputVisible">
+  <input type="text" [value]="name" (input)="save($event)"
+         placeholder="team name"
+         aria-label="teamName" aria-describedby="basic-addon1">
+  <button type="button" (click)="addTeam(name)">Dodaj drużynę</button>
+  <button type="button" (click)="hideInput()">Druzyny dodane</button>
+</div>
+
+<div class="table-responsive">
+  <table class="table  table-hover">
+    <thead>
+    <tr>
+      <th scope="col">Team name</th>
+      <th scope="col">Points</th>
+      <th scope="col">input</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let teams of this.players;"
+        id="{{teams.name.toLowerCase()}}">
+      <td class="team">{{teams.name}}</td>
+      <td class="points"><strong>{{teams.points}}</strong></td>
+      <td>
+        <button type="button" class="btn btn-success" (click)="addPoints(teams.id,1)">1</button>
+        <button type="button" class="btn btn-danger" (click)="addPoints(teams.id,-1)">1</button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-success" (click)="addPoints(teams.id,2)">2</button>
+        <button type="button" class="btn btn-danger" (click)="addPoints(teams.id,-2)">2</button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-success" (click)="addPoints(teams.id,3)">3</button>
+        <button type="button" class="btn btn-danger" (click)="addPoints(teams.id,-3)">3</button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-success" (click)="addPoints(teams.id,4)">4</button>
+        <button type="button" class="btn btn-danger" (click)="addPoints(teams.id,-4)">4</button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-success" (click)="addPoints(teams.id,5)">5</button>
+        <button type="button" class="btn btn-danger" (click)="addPoints(teams.id,-5)">5</button>
+      </td>
+      <td>
+        <button type="button" class="btn btn-success" (click)="addPoints(teams.id,10)">10</button>
+        <button type="button" class="btn btn-danger" (click)="addPoints(teams.id,-10)">10</button>
+      </td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="col-2 country">
+
+</div>
