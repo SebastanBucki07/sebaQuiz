@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import {AppComponent} from "../app.component";
+import {PlayersService} from "../players.service";
 
 export interface Player {
   id: number,
@@ -17,7 +19,10 @@ export class PlayersComponent implements OnInit {
   public players: Player[];
   public name: string;
 
-  constructor() {
+  constructor(
+    private playerService: PlayersService,
+    public myApp: AppComponent)
+  {
     this.players = []
     this.name = ''
   }
@@ -26,13 +31,11 @@ export class PlayersComponent implements OnInit {
   }
 
   addPoints(id: number, points: number) {
-    console.log(`player points: ${typeof(this.players[id].points)}` )
-    console.log(`points: ${typeof(points)}` )
     this.players[id].points += points;
   }
 
   addTeam(name: string) {
-    const playerLength = this.players.length
+    const playerLength = this.players.length-1
     const player: Player = {
       id: playerLength,
       name: name,
@@ -40,20 +43,26 @@ export class PlayersComponent implements OnInit {
       tmpPoints:0
     }
     this.players.push(player)
+    this.sendPlayers(this.players)
+    this.name = ''
   }
 
   save(event: any) {
-    const tmp2 = event.target.value.toLowerCase()
-    this.name = tmp2
+    this.name = event.target.value.toLowerCase()
   }
 
   savePoints(id:number, event: any) {
-    const point = parseFloat(event.target.value)
-    this.players[id].tmpPoints = point
+    this.players[id].tmpPoints = parseFloat(event.target.value)
   }
 
   hideInput(){
     this.addTeamInputVisible = false
+    this.myApp.confirmPlayers()
+  }
+
+  sendPlayers(players:Player[]){
+    this.playerService.setPlayers(players)
+    this.myApp.addPlayers()
   }
 
 }

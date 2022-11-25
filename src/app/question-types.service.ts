@@ -13,13 +13,11 @@ export class QuestionTypesService {
   }
 
   setCategories(categories:Category[]) {
-    console.log(`${JSON.stringify(categories)}`)
     this.categories = categories
     this.chosen = false
   }
 
   getCategories():Category[] {
-    console.log(`aaaa: ${JSON.stringify(this.categories)}`)
     return this.categories
   }
 }
