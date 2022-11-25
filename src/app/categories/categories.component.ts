@@ -40,9 +40,7 @@ export class CategoriesComponent implements OnInit {
   toggle($event: MatCheckboxChange, category: Category) {
     if ($event.checked) {
       const tmp = this.allCategories.indexOf(category)
-      console.log(tmp)
       this.allCategories.splice(tmp,1)
-      console.log(`all ${JSON.stringify(this.allCategories)}`)
       category.checkbox = true
       this.chosenCategories.push(
         {
@@ -50,18 +48,13 @@ export class CategoriesComponent implements OnInit {
           id: category.id,
           checkbox: true
         })
-      console.log(JSON.stringify(category))
-
-      console.log(`checked ${JSON.stringify(this.chosenCategories)}`)
     }
   }
 
   toggle2($event: MatCheckboxChange, category: Category) {
     if (!$event.checked) {
       const tmp = this.chosenCategories.indexOf(category)
-      console.log(tmp)
       this.chosenCategories.splice(tmp,1)
-      console.log(`all ${JSON.stringify(this.chosenCategories)}`)
       category.checkbox = true
       this.allCategories.push(
         {
@@ -69,9 +62,6 @@ export class CategoriesComponent implements OnInit {
           id: category.id,
           checkbox: false
         })
-      console.log(JSON.stringify(category))
-
-      console.log(`checked ${JSON.stringify(this.allCategories)}`)
     }
   }
 }

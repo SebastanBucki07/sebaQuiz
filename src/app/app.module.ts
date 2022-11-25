@@ -6,6 +6,7 @@ import { PlayersComponent } from './players/players.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CategoriesComponent } from './categories/categories.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
+import {MatSortModule} from "@angular/material/sort";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
   imports: [
     BrowserModule,
     NgbModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
