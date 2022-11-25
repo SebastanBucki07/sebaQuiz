@@ -7,10 +7,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CategoriesComponent } from './categories/categories.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSortModule} from "@angular/material/sort";
+import {BooksComponent, SongsComponent} from './fragments/fragments.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    SongsComponent,
+    BooksComponent,
     PlayersComponent,
     CategoriesComponent,
   ],

@@ -22,34 +22,28 @@
   </table>
 </div>
 <div *ngIf="categories.length >0" class="row">
-  <button type="button" class="btn btn-outline-info btn-lg btn-block col-12" (click)="setQuestionType(50); nextPlayer()">
+  <button type="button" class="btn btn-outline-info btn-lg btn-block col-12" (click)="setQuestionType(50)">
     Wylosuj
   </button>
   <div *ngFor="let category of categories">
-    <button type="button" class="btn btn-outline-info btn-lg btn-block col-12" (click)="setQuestionType(category.id); nextPlayer()">
+    <button type="button" class="btn btn-outline-info btn-lg btn-block col-12" (click)="setQuestionType(category.id)">
       {{category.name}}
     </button>
   </div>
 </div>
 
-<h3 *ngIf="!playerService.chosen">Teraz kolej na {{players[actualPlayer].name}}</h3>
+<h3 *ngIf="!playerService.chosen">Teraz kolej na {{players[playerService.actualPlayer].name}}</h3>
 
 
 <div *ngIf="!categoryService.chosen && !playerService.chosen" [ngSwitch]="questionType">
   <div class="row" *ngSwitchCase="0">
-    <h3>{{categories[0].name}}</h3>
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(actualPlayer,1)">1</button>
-    <button type="button" class="btn btn-danger" (click)="playerService.addPoints(actualPlayer,-1)">1</button>
+    <app-books></app-books>
   </div>
   <div class="row" *ngSwitchCase=1>
-    {{categories[1].name}}
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(actualPlayer,2)">2</button>
-    <button type="button" class="btn btn-danger" (click)="playerService.addPoints(actualPlayer,-2)">2</button>
+    <app-songs></app-songs>
   </div>
   <div class="row" *ngSwitchCase=2>
     {{categories[2].name}}
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(actualPlayer,3)">3</button>
-    <button type="button" class="btn btn-danger" (click)="playerService.addPoints(actualPlayer,-3)">3</button>
   </div>
   <div class="row" *ngSwitchDefault>
     <h1>Wybierz pytanie!</h1>
