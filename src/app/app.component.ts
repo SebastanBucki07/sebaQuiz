@@ -3,7 +3,6 @@ import {Category} from "./categories/categories.component";
 import {QuestionTypesService} from "./question-types.service";
 import {Player} from "./players/players.component";
 import {PlayersService} from "./players.service";
-import {getRandomNumber} from "../common/randomize.helper";
 
 @Component({
   selector: 'app-root',
@@ -15,9 +14,7 @@ export class AppComponent {
   questionType: number;
   categories: Category[] = []
   players: Player[] = []
-  playersCopy: Player[] = []
   categoriesId: number[] = []
-  actualPlayer: number = 0
 
   async ngOnInit(): Promise<void> {
     this.questionType = -1
@@ -41,8 +38,6 @@ export class AppComponent {
 
   confirmPlayers() {
     this.playerService.acceptPlayers()
-    this.actualPlayer = getRandomNumber(this.players.length)
-    this.playersCopy = this.players
   }
 
   setQuestionType(question: number) {
@@ -54,13 +49,7 @@ export class AppComponent {
     }
   }
 
-  nextPlayer() {
-    if (this.actualPlayer >= this.players.length - 1) {
-      this.actualPlayer = 0
-    } else {
-      this.actualPlayer = this.actualPlayer + 1
-    }
-  }
+
 
 }
 

@@ -1,0 +1,58 @@
+<!--<button class="btn btn-primary btn-lg btn-block answer" (click)="getQuestion()">Następne z kategorii wersy piosenek</button>-->
+
+<ng-container *ngIf="isModalVisible">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion1()">
+      fragment 1
+    </button>
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion2()">
+      fragment 2
+    </button>
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion3()">
+      fragment 3
+    </button>
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer1()">
+      Pokaż tytuł
+    </button>
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer2()">
+      Pokaż wykonawce
+    </button>
+    <div class="row">
+      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+      <div class="col-8">{{question}}</div>
+      <ng-container *ngIf="isQuestion1Visible">
+        <div class="info">
+          <div class="col-12 ">{{question1}}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="isQuestion2Visible">
+        <div class="info">
+          <div class="col-12 ">{{question2}}</div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="isQuestion3Visible">
+        <div class="info">
+          <div class="col-12 ">{{question3}}</div>
+        </div>
+      </ng-container>
+
+    </div>
+    <ng-container *ngIf="isAnswer1Visible">
+      <div class="info">
+        <div class="correct col-12 ">tytuł: {{answer1}}</div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="isAnswer2Visible">
+      <div class="info">
+        <div class="correct col-12 ">Wykonawca: {{answer2}}</div>
+      </div>
+    </ng-container>
+    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,6)">6</button>
+    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,3)">3</button>
+    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2)">2</button>
+    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,1)">1</button>
+    <button type="button" class="btn btn-danger" (click)="playerService.addPoints(playerService.actualPlayer,-3)">3</button>
+  </div>
+</ng-container>
