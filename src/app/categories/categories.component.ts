@@ -18,7 +18,7 @@ export class CategoriesComponent implements OnInit {
   public allCategories: Category[] = [
     {name: "Fragmenty ksiażek", id: 0, checkbox: false},
     {name: "Fragmenty piosenek", id: 1, checkbox: false},
-    {name: "test3", id: 1, checkbox: false},
+    {name: "Kraje", id: 2, checkbox: false},
   ]
   public chosenCategories: Category[] = []
 

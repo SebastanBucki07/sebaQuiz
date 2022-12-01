@@ -1,0 +1,1982 @@
+[
+  {
+    "id": 1,
+    "name": "Afganistan",
+    "continent": "Azja",
+    "capital": "Kabul",
+    "surface": 652230,
+    "population": 30419928,
+    "code": "AF",
+    "display": false
+  },
+  {
+    "id": 2,
+    "name": "Albania",
+    "continent": "Europa",
+    "capital": "Tirana",
+    "surface": 28748,
+    "population": 3195000,
+    "code": "AL",
+    "display": false
+  },
+  {
+    "id": 3,
+    "name": "Algieria",
+    "continent": "Afryka",
+    "capital": "Algier",
+    "surface": 2381741,
+    "population": 34178188,
+    "code": "DZ",
+    "display": false
+  },
+  {
+    "id": 4,
+    "name": "Andora",
+    "continent": "Europa",
+    "capital": "Andora",
+    "surface": 468,
+    "population": 84525,
+    "code": "AD",
+    "display": false
+  },
+  {
+    "id": 5,
+    "name": "Angola",
+    "continent": "Afryka",
+    "capital": "Luanda",
+    "surface": 1246700,
+    "population": 17312000,
+    "code": "AO",
+    "display": false
+  },
+  {
+    "id": 6,
+    "name": "Antigua i Barbuda",
+    "continent": "Ameryka Północna",
+    "capital": "Saint John’s",
+    "surface": 435.3,
+    "population": 85420,
+    "code": "AI",
+    "display": false
+  },
+  {
+    "id": 7,
+    "name": "Arabia Saudyjska",
+    "continent": "Azja",
+    "capital": "Rijad",
+    "surface": 2149690,
+    "population": 28686633,
+    "code": "SA",
+    "display": false
+  },
+  {
+    "id": 8,
+    "name": "Argentyna",
+    "continent": "Ameryka Południowa",
+    "capital": "Buenos Aires",
+    "surface": 2766890,
+    "population": 40913584,
+    "code": "AR",
+    "display": false
+  },
+  {
+    "id": 9,
+    "name": "Armenia",
+    "continent": "Azja",
+    "capital": "Erywań",
+    "surface": 29800,
+    "population": 3259100,
+    "code": "AM",
+    "display": false
+  },
+  {
+    "id": 10,
+    "name": "Australia",
+    "continent": "Australia i Oceania",
+    "capital": "Canberra",
+    "surface": 7686850,
+    "population": 22343203,
+    "code": "AU",
+    "display": false
+  },
+  {
+    "id": 11,
+    "name": "Austria",
+    "continent": "Europa",
+    "capital": "Wiedeń",
+    "surface": 83871,
+    "population": 8402549,
+    "code": "AT",
+    "display": false
+  },
+  {
+    "id": 12,
+    "name": "Azerbejdżan",
+    "continent": "Azja",
+    "capital": "Baku",
+    "surface": 86600,
+    "population": 9493600,
+    "code": "AZ",
+    "display": false
+  },
+  {
+    "id": 13,
+    "name": "Bahamy",
+    "continent": "Ameryka Północna",
+    "capital": "Nassau",
+    "surface": 13940,
+    "population": 307451,
+    "code": "BS",
+    "display": false
+  },
+  {
+    "id": 14,
+    "name": "Bahrajn",
+    "continent": "Azja",
+    "capital": "Manama",
+    "surface": 620,
+    "population": 1323535,
+    "code": "BH",
+    "display": false
+  },
+  {
+    "id": 15,
+    "name": "Bangladesz",
+    "continent": "Azja",
+    "capital": "Dhaka",
+    "surface": 144000,
+    "population": 162221000,
+    "code": "BD",
+    "display": false
+  },
+  {
+    "id": 16,
+    "name": "Barbados",
+    "continent": "Ameryka Północna",
+    "capital": "Bridgetown",
+    "surface": 431,
+    "population": 281968,
+    "code": "BB",
+    "display": false
+  },
+  {
+    "id": 17,
+    "name": "Belgia",
+    "continent": "Europa",
+    "capital": "Bruksela",
+    "surface": 30528,
+    "population": 10584534,
+    "code": "BE",
+    "display": false
+  },
+  {
+    "id": 18,
+    "name": "Belize",
+    "continent": "Ameryka Północna",
+    "capital": "Belmopan",
+    "surface": 22966,
+    "population": 266440,
+    "code": "BZ",
+    "display": false
+  },
+  {
+    "id": 19,
+    "name": "Benin",
+    "continent": "Afryka",
+    "capital": "Porto-Novo",
+    "surface": 112620,
+    "population": 8295000,
+    "code": "BJ",
+    "display": false
+  },
+  {
+    "id": 20,
+    "name": "Bhutan",
+    "continent": "Azja",
+    "capital": "Thimphu",
+    "surface": 47000,
+    "population": 682321,
+    "code": "BT",
+    "display": false
+  },
+  {
+    "id": 21,
+    "name": "Białoruś",
+    "continent": "Europa",
+    "capital": "Mińsk",
+    "surface": 207600,
+    "population": 9474200,
+    "code": "BY",
+    "display": false
+  },
+  {
+    "id": 22,
+    "name": "Boliwia",
+    "continent": "Ameryka Południowa",
+    "capital": "Sucre",
+    "surface": 1098580,
+    "population": 9248000,
+    "code": "BO",
+    "display": false
+  },
+  {
+    "id": 23,
+    "name": "Bośnia i Hercegowina",
+    "continent": "Europa",
+    "capital": "Sarajewo",
+    "surface": 51129,
+    "population": 4590310,
+    "code": "BA",
+    "display": false
+  },
+  {
+    "id": 24,
+    "name": "Botswana",
+    "continent": "Afryka",
+    "capital": "Gaborone",
+    "surface": 600370,
+    "population": 1842000,
+    "code": "BW",
+    "display": false
+  },
+  {
+    "id": 25,
+    "name": "Brazylia",
+    "continent": "Ameryka Południowa",
+    "capital": "Brasilia",
+    "surface": 8511965,
+    "population": 201103330,
+    "code": "BR",
+    "display": false
+  },
+  {
+    "id": 26,
+    "name": "Brunei",
+    "continent": "Azja",
+    "capital": "Bandar Seri Begawan",
+    "surface": 5770,
+    "population": 381371,
+    "code": "BN",
+    "display": false
+  },
+  {
+    "id": 27,
+    "name": "Bułgaria",
+    "continent": "Europa",
+    "capital": "Sofia",
+    "surface": 110910,
+    "population": 7531000,
+    "code": "BG",
+    "display": false
+  },
+  {
+    "id": 28,
+    "name": "Burkina Faso",
+    "continent": "Afryka",
+    "capital": "Wagadugu",
+    "surface": 274200,
+    "population": 15746232,
+    "code": "BF",
+    "display": false
+  },
+  {
+    "id": 29,
+    "name": "Burundi",
+    "continent": "Afryka",
+    "capital": "Gitega",
+    "surface": 27830,
+    "population": 8691000,
+    "code": "BI",
+    "display": false
+  },
+  {
+    "id": 30,
+    "name": "Chile",
+    "continent": "Ameryka Południowa",
+    "capital": "Santiago",
+    "surface": 756950,
+    "population": 16601707,
+    "code": "CL",
+    "display": false
+  },
+  {
+    "id": 31,
+    "name": "Chiny",
+    "continent": "Azja",
+    "capital": "Pekin",
+    "surface": 9596960,
+    "population": 1347374752,
+    "code": "CN",
+    "display": false
+  },
+  {
+    "id": 32,
+    "name": "Chorwacja",
+    "continent": "Europa",
+    "capital": "Zagrzeb",
+    "surface": 56542,
+    "population": 4437460,
+    "code": "HR",
+    "display": false
+  },
+  {
+    "id": 33,
+    "name": "Cypr",
+    "continent": "Azja",
+    "capital": "Nikozja",
+    "surface": 9250,
+    "population": 794600,
+    "code": "CY",
+    "display": false
+  },
+  {
+    "id": 34,
+    "name": "Czad",
+    "continent": "Afryka",
+    "capital": "Ndżamena",
+    "surface": 1284000,
+    "population": 10758945,
+    "code": "TD",
+    "display": false
+  },
+  {
+    "id": 35,
+    "name": "Czarnogóra",
+    "continent": "Europa",
+    "capital": "Podgorica",
+    "surface": 13812,
+    "population": 672180,
+    "code": "ME",
+    "display": false
+  },
+  {
+    "id": 36,
+    "name": "Czechy",
+    "continent": "Europa",
+    "capital": "Praga",
+    "surface": 78866,
+    "population": 10532770,
+    "code": "CZ",
+    "display": false
+  },
+  {
+    "id": 37,
+    "name": "Dania",
+    "continent": "Europa",
+    "capital": "Kopenhaga",
+    "surface": 43098.31,
+    "population": 5540241,
+    "code": "DK",
+    "display": false
+  },
+  {
+    "id": 38,
+    "name": "Demokratyczna Republika Konga",
+    "continent": "Afryka",
+    "capital": "Kinszasa",
+    "surface": 2344858,
+    "population": 66515000,
+    "code": "CD",
+    "display": false
+  },
+  {
+    "id": 39,
+    "name": "Dominika",
+    "continent": "Ameryka Północna",
+    "capital": "Roseau",
+    "surface": 754,
+    "population": 72000,
+    "code": "DM",
+    "display": false
+  },
+  {
+    "id": 40,
+    "name": "Dominikana",
+    "continent": "Ameryka Północna",
+    "capital": "Santo Domingo",
+    "surface": 48730,
+    "population": 9049595,
+    "code": "DO",
+    "display": false
+  },
+  {
+    "id": 41,
+    "name": "Dżibuti",
+    "continent": "Afryka",
+    "capital": "Dżibuti",
+    "surface": 23200,
+    "population": 506221,
+    "code": "DJ",
+    "display": false
+  },
+  {
+    "id": 42,
+    "name": "Egipt",
+    "continent": "Afryka",
+    "capital": "Kair",
+    "surface": 1001450,
+    "population": 80471869,
+    "code": "EG",
+    "display": false
+  },
+  {
+    "id": 43,
+    "name": "Ekwador",
+    "continent": "Ameryka Południowa",
+    "capital": "Quito",
+    "surface": 283560,
+    "population": 13928000,
+    "code": "EC",
+    "display": false
+  },
+  {
+    "id": 44,
+    "name": "Erytrea",
+    "continent": "Afryka",
+    "capital": "Asmara",
+    "surface": 121320,
+    "population": 5028000,
+    "code": "ER",
+    "display": false
+  },
+  {
+    "id": 45,
+    "name": "Estonia",
+    "continent": "Europa",
+    "capital": "Tallinn",
+    "surface": 45226,
+    "population": 1340122,
+    "code": "EE",
+    "display": false
+  },
+  {
+    "id": 46,
+    "name": "Eswatini",
+    "continent": "Afryka",
+    "capital": "Mbabane",
+    "surface": 17363,
+    "population": 1138227,
+    "code": "SZ",
+    "display": false
+  },
+  {
+    "id": 47,
+    "name": "Etiopia",
+    "continent": "Afryka",
+    "capital": "Addis Abeba",
+    "surface": 1127127,
+    "population": 81238000,
+    "code": "ET",
+    "display": false
+  },
+  {
+    "id": 48,
+    "name": "Fidżi",
+    "continent": "Australia i Oceania",
+    "capital": "Suva",
+    "surface": 18272,
+    "population": 849000,
+    "code": "FJ",
+    "display": false
+  },
+  {
+    "id": 49,
+    "name": "Filipiny",
+    "continent": "Azja",
+    "capital": "Manila",
+    "surface": 300000,
+    "population": 92681000,
+    "code": "PH",
+    "display": false
+  },
+  {
+    "id": 50,
+    "name": "Finlandia",
+    "continent": "Europa",
+    "capital": "Helsinki",
+    "surface": 338145,
+    "population": 5313026,
+    "code": "FI",
+    "display": false
+  },
+  {
+    "id": 51,
+    "name": "Francja",
+    "continent": "Europa",
+    "capital": "Paryż",
+    "surface": 675417,
+    "population": 66000000,
+    "code": "FR",
+    "display": false
+  },
+  {
+    "id": 52,
+    "name": "Gabon",
+    "continent": "Afryka",
+    "capital": "Libreville",
+    "surface": 267667,
+    "population": 1454867,
+    "code": "GA",
+    "display": false
+  },
+  {
+    "id": 53,
+    "name": "Gambia",
+    "continent": "Afryka",
+    "capital": "Bandżul",
+    "surface": 11295,
+    "population": 1690000,
+    "code": "GM",
+    "display": false
+  },
+  {
+    "id": 54,
+    "name": "Ghana",
+    "continent": "Afryka",
+    "capital": "Akra",
+    "surface": 239460,
+    "population": 23000000,
+    "code": "GH",
+    "display": false
+  },
+  {
+    "id": 55,
+    "name": "Grecja",
+    "continent": "Europa",
+    "capital": "Ateny",
+    "surface": 131957,
+    "population": 11216708,
+    "code": "GR",
+    "display": false
+  },
+  {
+    "id": 56,
+    "name": "Grenada",
+    "continent": "Ameryka Północna",
+    "capital": "Saint George’s",
+    "surface": 344,
+    "population": 89258,
+    "code": "GD",
+    "display": false
+  },
+  {
+    "id": 57,
+    "name": "Gruzja",
+    "continent": "Europa",
+    "capital": "Tbilisi",
+    "surface": 69700,
+    "population": 4630841,
+    "code": "GE",
+    "display": false
+  },
+  {
+    "id": 58,
+    "name": "Gujana",
+    "continent": "Ameryka Południowa",
+    "capital": "Georgetown",
+    "surface": 214970,
+    "population": 769095,
+    "code": "GY",
+    "display": false
+  },
+  {
+    "id": 59,
+    "name": "Gwatemala",
+    "continent": "Ameryka Północna",
+    "capital": "Gwatemala",
+    "surface": 108890,
+    "population": 12013907,
+    "code": "GT",
+    "display": false
+  },
+  {
+    "id": 60,
+    "name": "Gwinea",
+    "continent": "Afryka",
+    "capital": "Konakry",
+    "surface": 245857,
+    "population": 9950670,
+    "code": "GN",
+    "display": false
+  },
+  {
+    "id": 61,
+    "name": "Gwinea Bissau",
+    "continent": "Afryka",
+    "capital": "Bissau",
+    "surface": 36120,
+    "population": 1475000,
+    "code": "GW",
+    "display": false
+  },
+  {
+    "id": 62,
+    "name": "Gwinea Równikowa",
+    "continent": "Afryka",
+    "capital": "Malabo",
+    "surface": 28051.46,
+    "population": 616459,
+    "code": "GQ",
+    "display": false
+  },
+  {
+    "id": 63,
+    "name": "Haiti",
+    "continent": "Ameryka Północna",
+    "capital": "Port-au-Prince",
+    "surface": 27750,
+    "population": 8925000,
+    "code": "HT",
+    "display": false
+  },
+  {
+    "id": 64,
+    "name": "Hiszpania",
+    "continent": "Europa",
+    "capital": "Madryt",
+    "surface": 504645,
+    "population": 47150819,
+    "code": "ES",
+    "display": false
+  },
+  {
+    "id": 65,
+    "name": "Holandia",
+    "continent": "Europa",
+    "capital": "Amsterdam",
+    "surface": 41526,
+    "population": 16509303,
+    "code": "NL",
+    "display": false
+  },
+  {
+    "id": 66,
+    "name": "Honduras",
+    "continent": "Ameryka Północna",
+    "capital": "Tegucigalpa",
+    "surface": 112090,
+    "population": 7325000,
+    "code": "HN",
+    "display": false
+  },
+  {
+    "id": 67,
+    "name": "Indie",
+    "continent": "Azja",
+    "capital": "Nowe Delhi",
+    "surface": 3287590,
+    "population": 1166079217,
+    "code": "IN",
+    "display": false
+  },
+  {
+    "id": 68,
+    "name": "Indonezja",
+    "continent": "Azja",
+    "capital": "Dżakarta",
+    "surface": 1919440,
+    "population": 242968342,
+    "code": "ID",
+    "display": false
+  },
+  {
+    "id": 69,
+    "name": "Irak",
+    "continent": "Azja",
+    "capital": "Bagdad",
+    "surface": 438317,
+    "population": 30399572,
+    "code": "IQ",
+    "display": false
+  },
+  {
+    "id": 70,
+    "name": "Iran",
+    "continent": "Azja",
+    "capital": "Teheran",
+    "surface": 1648195,
+    "population": 70495782,
+    "code": "IR",
+    "display": false
+  },
+  {
+    "id": 71,
+    "name": "Irlandia",
+    "continent": "Europa",
+    "capital": "Dublin",
+    "surface": 70273,
+    "population": 4581269,
+    "code": "IE",
+    "display": false
+  },
+  {
+    "id": 72,
+    "name": "Islandia",
+    "continent": "Europa",
+    "capital": "Reykjavík",
+    "surface": 103125,
+    "population": 306694,
+    "code": "IS",
+    "display": false
+  },
+  {
+    "id": 73,
+    "name": "Izrael",
+    "continent": "Azja",
+    "capital": "Jerozolima",
+    "surface": 22072,
+    "population": 7653600,
+    "code": "IL",
+    "display": false
+  },
+  {
+    "id": 74,
+    "name": "Jamajka",
+    "continent": "Ameryka Północna",
+    "capital": "Kingston",
+    "surface": 10991,
+    "population": 2700000,
+    "code": "JM",
+    "display": false
+  },
+  {
+    "id": 75,
+    "name": "Japonia",
+    "continent": "Azja",
+    "capital": "Tokio",
+    "surface": 377835,
+    "population": 126475664,
+    "code": "JP",
+    "display": false
+  },
+  {
+    "id": 76,
+    "name": "Jemen",
+    "continent": "Azja",
+    "capital": "Sana",
+    "surface": 527968,
+    "population": 23495361,
+    "code": "YE",
+    "display": false
+  },
+  {
+    "id": 77,
+    "name": "Jordania",
+    "continent": "Azja",
+    "capital": "Amman",
+    "surface": 92300,
+    "population": 5759732,
+    "code": "JO",
+    "display": false
+  },
+  {
+    "id": 78,
+    "name": "Kambodża",
+    "continent": "Azja",
+    "capital": "Phnom Penh",
+    "surface": 181040,
+    "population": 13388910,
+    "code": "KH",
+    "display": false
+  },
+  {
+    "id": 79,
+    "name": "Kamerun",
+    "continent": "Afryka",
+    "capital": "Jaunde",
+    "surface": 475440,
+    "population": 18100000,
+    "code": "CM",
+    "display": false
+  },
+  {
+    "id": 80,
+    "name": "Kanada",
+    "continent": "Ameryka Północna",
+    "capital": "Ottawa",
+    "surface": 9976140,
+    "population": 34110000,
+    "code": "CA",
+    "display": false
+  },
+  {
+    "id": 81,
+    "name": "Katar",
+    "continent": "Azja",
+    "capital": "Doha",
+    "surface": 11437,
+    "population": 928635,
+    "code": "QA",
+    "display": false
+  },
+  {
+    "id": 82,
+    "name": "Kazachstan",
+    "continent": "Azja",
+    "capital": "Nur-Sułtan",
+    "surface": 2717300,
+    "population": 15399437,
+    "code": "KZ",
+    "display": false
+  },
+  {
+    "id": 83,
+    "name": "Kenia",
+    "continent": "Afryka",
+    "capital": "Nairobi",
+    "surface": 582650,
+    "population": 37953840,
+    "code": "KE",
+    "display": false
+  },
+  {
+    "id": 84,
+    "name": "Kirgistan",
+    "continent": "Azja",
+    "capital": "Biszkek",
+    "surface": 198500,
+    "population": 5357000,
+    "code": "KG",
+    "display": false
+  },
+  {
+    "id": 85,
+    "name": "Kiribati",
+    "continent": "Australia i Oceania",
+    "capital": "Bairiki",
+    "surface": 811,
+    "population": 103092,
+    "code": "KI",
+    "display": false
+  },
+  {
+    "id": 86,
+    "name": "Kolumbia",
+    "continent": "Ameryka Południowa",
+    "capital": "Bogota",
+    "surface": 1139825,
+    "population": 45730834,
+    "code": "CO",
+    "display": false
+  },
+  {
+    "id": 87,
+    "name": "Komory",
+    "continent": "Afryka",
+    "capital": "Moroni",
+    "surface": 2170,
+    "population": 671247,
+    "code": "KM",
+    "display": false
+  },
+  {
+    "id": 88,
+    "name": "Kongo",
+    "continent": "Afryka",
+    "capital": "Brazzaville",
+    "surface": 342000,
+    "population": 3756000,
+    "code": "cg",
+    "display": false
+  },
+  {
+    "id": 89,
+    "name": "Korea Południowa",
+    "continent": "Azja",
+    "capital": "Seul",
+    "surface": 99720,
+    "population": 50062000,
+    "code": "kr",
+    "display": false
+  },
+  {
+    "id": 90,
+    "name": "Korea Północna",
+    "continent": "Azja",
+    "capital": "Pjongjang",
+    "surface": 120540,
+    "population": 22757275,
+    "code": "kp",
+    "display": false
+  },
+  {
+    "id": 91,
+    "name": "Kostaryka",
+    "continent": "Ameryka Północna",
+    "capital": "San José",
+    "surface": 51100,
+    "population": 4325000,
+    "code": "CR",
+    "display": false
+  },
+  {
+    "id": 92,
+    "name": "Kuba",
+    "continent": "Ameryka Północna",
+    "capital": "Hawana",
+    "surface": 110860,
+    "population": 11424000,
+    "code": "CU",
+    "display": false
+  },
+  {
+    "id": 93,
+    "name": "Kuwejt",
+    "continent": "Azja",
+    "capital": "Kuwejt",
+    "surface": 17818,
+    "population": 2597000,
+    "code": "KW",
+    "display": false
+  },
+  {
+    "id": 94,
+    "name": "Laos",
+    "continent": "Azja",
+    "capital": "Wientian",
+    "surface": 236800,
+    "population": 6521998,
+    "code": "LA",
+    "display": false
+  },
+  {
+    "id": 95,
+    "name": "Lesotho",
+    "continent": "Afryka",
+    "capital": "Maseru",
+    "surface": 30355,
+    "population": 2031348,
+    "code": "LS",
+    "display": false
+  },
+  {
+    "id": 96,
+    "name": "Liban",
+    "continent": "Azja",
+    "capital": "Bejrut",
+    "surface": 10452,
+    "population": 3925502,
+    "code": "LB",
+    "display": false
+  },
+  {
+    "id": 97,
+    "name": "Liberia",
+    "continent": "Afryka",
+    "capital": "Monrovia",
+    "surface": 111370,
+    "population": 3200000,
+    "code": "LR",
+    "display": false
+  },
+  {
+    "id": 98,
+    "name": "Libia",
+    "continent": "Afryka",
+    "capital": "Trypolis",
+    "surface": 1759540,
+    "population": 6310434,
+    "code": "LY",
+    "display": false
+  },
+  {
+    "id": 99,
+    "name": "Liechtenstein",
+    "continent": "Europa",
+    "capital": "Vaduz",
+    "surface": 160,
+    "population": 34761,
+    "code": "LI",
+    "display": false
+  },
+  {
+    "id": 100,
+    "name": "Litwa",
+    "continent": "Europa",
+    "capital": "Wilno",
+    "surface": 65200,
+    "population": 3225346,
+    "code": "LT",
+    "display": false
+  },
+  {
+    "id": 101,
+    "name": "Luksemburg",
+    "continent": "Europa",
+    "capital": "Luksemburg",
+    "surface": 2586,
+    "population": 474413,
+    "code": "LU",
+    "display": false
+  },
+  {
+    "id": 102,
+    "name": "Łotwa",
+    "continent": "Europa",
+    "capital": "Ryga",
+    "surface": 64589,
+    "population": 2224400,
+    "code": "LV",
+    "display": false
+  },
+  {
+    "id": 103,
+    "name": "Macedonia Północna",
+    "continent": "Europa",
+    "capital": "Skopje",
+    "surface": 25713,
+    "population": 2061000,
+    "code": "MK",
+    "display": false
+  },
+  {
+    "id": 104,
+    "name": "Madagaskar",
+    "continent": "Afryka",
+    "capital": "Antananarywa",
+    "surface": 587040,
+    "population": 20653556,
+    "code": "MG",
+    "display": false
+  },
+  {
+    "id": 105,
+    "name": "Malawi",
+    "continent": "Afryka",
+    "capital": "Lilongwe",
+    "surface": 118480,
+    "population": 13600000,
+    "code": "MW",
+    "display": false
+  },
+  {
+    "id": 106,
+    "name": "Malediwy",
+    "continent": "Azja",
+    "capital": "Male",
+    "surface": 300,
+    "population": 396334,
+    "code": "MV",
+    "display": false
+  },
+  {
+    "id": 107,
+    "name": "Malezja",
+    "continent": "Azja",
+    "capital": "Kuala Lumpur",
+    "surface": 329750,
+    "population": 27730000,
+    "code": "MY",
+    "display": false
+  },
+  {
+    "id": 108,
+    "name": "Mali",
+    "continent": "Afryka",
+    "capital": "Bamako",
+    "surface": 1240192,
+    "population": 12666987,
+    "code": "ML",
+    "display": false
+  },
+  {
+    "id": 109,
+    "name": "Malta",
+    "continent": "Europa",
+    "capital": "Valletta",
+    "surface": 316,
+    "population": 403532,
+    "code": "MT",
+    "display": false
+  },
+  {
+    "id": 110,
+    "name": "Maroko",
+    "continent": "Afryka",
+    "capital": "Rabat",
+    "surface": 446550,
+    "population": 34859364,
+    "code": "MA",
+    "display": false
+  },
+  {
+    "id": 111,
+    "name": "Mauretania",
+    "continent": "Afryka",
+    "capital": "Nawakszut",
+    "surface": 1030700,
+    "population": 3250000,
+    "code": "MR",
+    "display": false
+  },
+  {
+    "id": 112,
+    "name": "Mauritius",
+    "continent": "Afryka",
+    "capital": "Port Louis",
+    "surface": 2045,
+    "population": 1230602,
+    "code": "MU",
+    "display": false
+  },
+  {
+    "id": 113,
+    "name": "Meksyk",
+    "continent": "Ameryka Północna",
+    "capital": "Meksyk",
+    "surface": 1972550,
+    "population": 112336538,
+    "code": "MX",
+    "display": false
+  },
+  {
+    "id": 114,
+    "name": "Mikronezja",
+    "continent": "Australia i Oceania",
+    "capital": "Palikir",
+    "surface": 702,
+    "population": 135000,
+    "code": "FM",
+    "display": false
+  },
+  {
+    "id": 115,
+    "name": "Mjanma",
+    "continent": "Azja",
+    "capital": "Naypyidaw",
+    "surface": 678500,
+    "population": 53414374,
+    "code": "MM",
+    "display": false
+  },
+  {
+    "id": 116,
+    "name": "Mołdawia",
+    "continent": "Europa",
+    "capital": "Kiszyniów",
+    "surface": 33843,
+    "population": 4324450,
+    "code": "MD",
+    "display": false
+  },
+  {
+    "id": 117,
+    "name": "Monako",
+    "continent": "Europa",
+    "capital": "Monako",
+    "surface": 1.95,
+    "population": 32796,
+    "code": "MC",
+    "display": false
+  },
+  {
+    "id": 118,
+    "name": "Mongolia",
+    "continent": "Azja",
+    "capital": "Ułan Bator",
+    "surface": 1564116,
+    "population": 2736800,
+    "code": "MN",
+    "display": false
+  },
+  {
+    "id": 119,
+    "name": "Mozambik",
+    "continent": "Afryka",
+    "capital": "Maputo",
+    "surface": 801590,
+    "population": 21000000,
+    "code": "MZ",
+    "display": false
+  },
+  {
+    "id": 120,
+    "name": "Namibia",
+    "continent": "Afryka",
+    "capital": "Windhuk",
+    "surface": 825418,
+    "population": 2089000,
+    "code": "NA",
+    "display": false
+  },
+  {
+    "id": 121,
+    "name": "Nauru",
+    "continent": "Australia i Oceania",
+    "capital": "Yaren",
+    "surface": 21.3,
+    "population": 14019,
+    "code": "NR",
+    "display": false
+  },
+  {
+    "id": 122,
+    "name": "Nepal",
+    "continent": "Azja",
+    "capital": "Katmandu",
+    "surface": 140800,
+    "population": 28635000,
+    "code": "NP",
+    "display": false
+  },
+  {
+    "id": 123,
+    "name": "Niemcy",
+    "continent": "Europa",
+    "capital": "Berlin",
+    "surface": 357114.22,
+    "population": 81772000,
+    "code": "DE",
+    "display": false
+  },
+  {
+    "id": 124,
+    "name": "Niger",
+    "continent": "Afryka",
+    "capital": "Niamey",
+    "surface": 1267000,
+    "population": 15306252,
+    "code": "NE",
+    "display": false
+  },
+  {
+    "id": 125,
+    "name": "Nigeria",
+    "continent": "Afryka",
+    "capital": "Abudża",
+    "surface": 923768,
+    "population": 154729000,
+    "code": "NG",
+    "display": false
+  },
+  {
+    "id": 126,
+    "name": "Nikaragua",
+    "continent": "Ameryka Północna",
+    "capital": "Managua",
+    "surface": 129494,
+    "population": 5570000,
+    "code": "NI",
+    "display": false
+  },
+  {
+    "id": 127,
+    "name": "Norwegia",
+    "continent": "Europa",
+    "capital": "Oslo",
+    "surface": 324220,
+    "population": 4769000,
+    "code": "NO",
+    "display": false
+  },
+  {
+    "id": 128,
+    "name": "Nowa Zelandia",
+    "continent": "Australia i Oceania",
+    "capital": "Wellington",
+    "surface": 268680,
+    "population": 4393500,
+    "code": "NZ",
+    "display": false
+  },
+  {
+    "id": 129,
+    "name": "Oman",
+    "continent": "Azja",
+    "capital": "Maskat",
+    "surface": 309500,
+    "population": 3312000,
+    "code": "OM",
+    "display": false
+  },
+  {
+    "id": 130,
+    "name": "Pakistan",
+    "continent": "Azja",
+    "capital": "Islamabad",
+    "surface": 803940,
+    "population": 176242949,
+    "code": "PK",
+    "display": false
+  },
+  {
+    "id": 131,
+    "name": "Palau",
+    "continent": "Australia i Oceania",
+    "capital": "Ngerulmud",
+    "surface": 508,
+    "population": 20800,
+    "code": "PA",
+    "display": false
+  },
+  {
+    "id": 132,
+    "name": "Panama",
+    "continent": "Ameryka Północna",
+    "capital": "Panama",
+    "surface": 78200,
+    "population": 3293000,
+    "code": "PA",
+    "display": false
+  },
+  {
+    "id": 133,
+    "name": "Papua-Nowa Gwinea",
+    "continent": "Australia i Oceania",
+    "capital": "Port Moresby",
+    "surface": 462840,
+    "population": 5932000,
+    "code": "PG",
+    "display": false
+  },
+  {
+    "id": 134,
+    "name": "Paragwaj",
+    "continent": "Ameryka Południowa",
+    "capital": "Asunción",
+    "surface": 406750,
+    "population": 6670000,
+    "code": "PY",
+    "display": false
+  },
+  {
+    "id": 135,
+    "name": "Peru",
+    "continent": "Ameryka Południowa",
+    "capital": "Lima",
+    "surface": 1285220,
+    "population": 29181000,
+    "code": "PE",
+    "display": false
+  },
+  {
+    "id": 136,
+    "name": "Polska",
+    "continent": "Europa",
+    "capital": "Warszawa",
+    "surface": 322575,
+    "population": 38200037,
+    "code": "PL",
+    "display": false
+  },
+  {
+    "id": 137,
+    "name": "RPA",
+    "continent": "Afryka",
+    "capital": "Pretoria",
+    "surface": 1219912,
+    "population": 48783000,
+    "code": "ZA",
+    "display": false
+  },
+  {
+    "id": 138,
+    "name": "Portugalia",
+    "continent": "Europa",
+    "capital": "Lizbona",
+    "surface": 92391,
+    "population": 10677000,
+    "code": "PT",
+    "display": false
+  },
+  {
+    "id": 139,
+    "name": "Republika Środkowoafrykańska",
+    "continent": "Afryka",
+    "capital": "Bangi",
+    "surface": 622984,
+    "population": 4370000,
+    "code": "CF",
+    "display": false
+  },
+  {
+    "id": 140,
+    "name": "Republika Zielonego Przylądka",
+    "continent": "Afryka",
+    "capital": "Praia",
+    "surface": 4033,
+    "population": 499796,
+    "code": "CV",
+    "display": false
+  },
+  {
+    "id": 141,
+    "name": "Rosja",
+    "continent": "Europa",
+    "capital": "Moskwa",
+    "surface": 17075400,
+    "population": 142914136,
+    "code": "RU",
+    "display": false
+  },
+  {
+    "id": 142,
+    "name": "Rumunia",
+    "continent": "Europa",
+    "capital": "Bukareszt",
+    "surface": 238391,
+    "population": 22215421,
+    "code": "RO",
+    "display": false
+  },
+  {
+    "id": 143,
+    "name": "Rwanda",
+    "continent": "Afryka",
+    "capital": "Kigali",
+    "surface": 26338,
+    "population": 10186000,
+    "code": "RW",
+    "display": false
+  },
+  {
+    "id": 144,
+    "name": "Saint Kitts i Nevis",
+    "continent": "Ameryka Północna",
+    "capital": "Basseterre",
+    "surface": 261,
+    "population": 38819,
+    "code": "KN",
+    "display": false
+  },
+  {
+    "id": 145,
+    "name": "Saint Lucia",
+    "continent": "Ameryka Północna",
+    "capital": "Castries",
+    "surface": 616,
+    "population": 164213,
+    "code": "LC",
+    "display": false
+  },
+  {
+    "id": 146,
+    "name": "Saint Vincent i Grenadyny",
+    "continent": "Ameryka Północna",
+    "capital": "Kingstown",
+    "surface": 389,
+    "population": 119000,
+    "code": "VC",
+    "display": false
+  },
+  {
+    "id": 147,
+    "name": "Salwador",
+    "continent": "Ameryka Północna",
+    "capital": "San Salvador",
+    "surface": 21040,
+    "population": 6820000,
+    "code": "SV",
+    "display": false
+  },
+  {
+    "id": 148,
+    "name": "Samoa",
+    "continent": "Australia i Oceania",
+    "capital": "Apia",
+    "surface": 2944,
+    "population": 177714,
+    "code": "WS",
+    "display": false
+  },
+  {
+    "id": 149,
+    "name": "San Marino",
+    "continent": "Europa",
+    "capital": "San Marino",
+    "surface": 61.6,
+    "population": 31817,
+    "code": "SM",
+    "display": false
+  },
+  {
+    "id": 150,
+    "name": "Senegal",
+    "continent": "Afryka",
+    "capital": "Dakar",
+    "surface": 196190,
+    "population": 12521851,
+    "code": "SN",
+    "display": false
+  },
+  {
+    "id": 151,
+    "name": "Serbia",
+    "continent": "Europa",
+    "capital": "Belgrad",
+    "surface": 77474,
+    "population": 7498001,
+    "code": "RS",
+    "display": false
+  },
+  {
+    "id": 152,
+    "name": "Seszele",
+    "continent": "Afryka",
+    "capital": "Victoria",
+    "surface": 455,
+    "population": 86525,
+    "code": "SC",
+    "display": false
+  },
+  {
+    "id": 153,
+    "name": "Sierra Leone",
+    "continent": "Afryka",
+    "capital": "Freetown",
+    "surface": 71740,
+    "population": 6150000,
+    "code": "SL",
+    "display": false
+  },
+  {
+    "id": 154,
+    "name": "Singapur",
+    "continent": "Azja",
+    "capital": "Singapur",
+    "surface": 692.7,
+    "population": 4608000,
+    "code": "SG",
+    "display": false
+  },
+  {
+    "id": 155,
+    "name": "Słowacja",
+    "continent": "Europa",
+    "capital": "Bratysława",
+    "surface": 49035,
+    "population": 5455000,
+    "code": "SK",
+    "display": false
+  },
+  {
+    "id": 156,
+    "name": "Słowenia",
+    "continent": "Europa",
+    "capital": "Lublana",
+    "surface": 20273,
+    "population": 2039399,
+    "code": "SI",
+    "display": false
+  },
+  {
+    "id": 157,
+    "name": "Somalia",
+    "continent": "Afryka",
+    "capital": "Mogadiszu",
+    "surface": 637700,
+    "population": 9559000,
+    "code": "SO",
+    "display": false
+  },
+  {
+    "id": 158,
+    "name": "Sri Lanka",
+    "continent": "Azja",
+    "capital": "Kolombo",
+    "surface": 65610,
+    "population": 20010000,
+    "code": "LK",
+    "display": false
+  },
+  {
+    "id": 159,
+    "name": "Stany Zjednoczone",
+    "continent": "Ameryka Północna",
+    "capital": "Waszyngton",
+    "surface": 9373967,
+    "population": 311280492,
+    "code": "US",
+    "display": false
+  },
+  {
+    "id": 160,
+    "name": "Sudan",
+    "continent": "Afryka",
+    "capital": "Chartum",
+    "surface": 1886068,
+    "population": 30894000,
+    "code": "SD",
+    "display": false
+  },
+  {
+    "id": 161,
+    "name": "Sudan Południowy",
+    "continent": "Afryka",
+    "capital": "Dżuba",
+    "surface": 589745,
+    "population": 8260490,
+    "code": "SS",
+    "display": false
+  },
+  {
+    "id": 162,
+    "name": "Surinam",
+    "continent": "Ameryka Południowa",
+    "capital": "Paramaribo",
+    "surface": 163270,
+    "population": 476000,
+    "code": "SR",
+    "display": false
+  },
+  {
+    "id": 163,
+    "name": "Syria",
+    "continent": "Azja",
+    "capital": "Damaszek",
+    "surface": 185180,
+    "population": 19748000,
+    "code": "SY",
+    "display": false
+  },
+  {
+    "id": 164,
+    "name": "Szwajcaria",
+    "continent": "Europa",
+    "capital": "Berno",
+    "surface": 41290,
+    "population": 7725200,
+    "code": "CH",
+    "display": false
+  },
+  {
+    "id": 165,
+    "name": "Szwecja",
+    "continent": "Europa",
+    "capital": "Sztokholm",
+    "surface": 449964,
+    "population": 9331523,
+    "code": "SE",
+    "display": false
+  },
+  {
+    "id": 166,
+    "name": "Tadżykistan",
+    "continent": "Azja",
+    "capital": "Duszanbe",
+    "surface": 143100,
+    "population": 7100000,
+    "code": "TJ",
+    "display": false
+  },
+  {
+    "id": 167,
+    "name": "Tajlandia",
+    "continent": "Azja",
+    "capital": "Bangkok",
+    "surface": 514000,
+    "population": 65493000,
+    "code": "TH",
+    "display": false
+  },
+  {
+    "id": 168,
+    "name": "Tanzania",
+    "continent": "Afryka",
+    "capital": "Dodoma",
+    "surface": 945087,
+    "population": 39384223,
+    "code": "TZ",
+    "display": false
+  },
+  {
+    "id": 169,
+    "name": "Timor Wschodni",
+    "continent": "Azja",
+    "capital": "Dili",
+    "surface": 15007,
+    "population": 1109000,
+    "code": "TL",
+    "display": false
+  },
+  {
+    "id": 170,
+    "name": "Togo",
+    "continent": "Afryka",
+    "capital": "Lomé",
+    "surface": 56785,
+    "population": 5400000,
+    "code": "TG",
+    "display": false
+  },
+  {
+    "id": 171,
+    "name": "Tonga",
+    "continent": "Australia i Oceania",
+    "capital": "Nuku‘alofa",
+    "surface": 748,
+    "population": 119009,
+    "code": "TO",
+    "display": false
+  },
+  {
+    "id": 172,
+    "name": "Trynidad i Tobago",
+    "continent": "Ameryka Południowa",
+    "capital": "Port-of-Spain",
+    "surface": 5128,
+    "population": 1229000,
+    "code": "TT",
+    "display": false
+  },
+  {
+    "id": 173,
+    "name": "Tunezja",
+    "continent": "Afryka",
+    "capital": "Tunis",
+    "surface": 163610,
+    "population": 10384000,
+    "code": "TN",
+    "display": false
+  },
+  {
+    "id": 174,
+    "name": "Turcja",
+    "continent": "Europa",
+    "capital": "Ankara",
+    "surface": 783562,
+    "population": 77804122,
+    "code": "TR",
+    "display": false
+  },
+  {
+    "id": 175,
+    "name": "Turkmenistan",
+    "continent": "Azja",
+    "capital": "Aszchabad",
+    "surface": 488100,
+    "population": 5180000,
+    "code": "TM",
+    "display": false
+  },
+  {
+    "id": 176,
+    "name": "Tuvalu",
+    "continent": "Australia i Oceania",
+    "capital": "Vaiaku",
+    "surface": 26,
+    "population": 12373,
+    "code": "TV",
+    "display": false
+  },
+  {
+    "id": 177,
+    "name": "Uganda",
+    "continent": "Afryka",
+    "capital": "Kampala",
+    "surface": 236036,
+    "population": 32369558,
+    "code": "UG",
+    "display": false
+  },
+  {
+    "id": 178,
+    "name": "Ukraina",
+    "continent": "Europa",
+    "capital": "Kijów",
+    "surface": 603700,
+    "population": 45706126,
+    "code": "UA",
+    "display": false
+  },
+  {
+    "id": 179,
+    "name": "Urugwaj",
+    "continent": "Ameryka Południowa",
+    "capital": "Montevideo",
+    "surface": 176220,
+    "population": 3477779,
+    "code": "UY",
+    "display": false
+  },
+  {
+    "id": 180,
+    "name": "Uzbekistan",
+    "continent": "Azja",
+    "capital": "Taszkent",
+    "surface": 447400,
+    "population": 27610000,
+    "code": "UZ",
+    "display": false
+  },
+  {
+    "id": 181,
+    "name": "Vanuatu",
+    "continent": "Australia i Oceania",
+    "capital": "Port Vila",
+    "surface": 12189,
+    "population": 243304,
+    "code": "VU",
+    "display": false
+  },
+  {
+    "id": 182,
+    "name": "Watykan",
+    "continent": "Europa",
+    "capital": "Watykan",
+    "surface": 0.44,
+    "population": 824,
+    "code": "VA",
+    "display": false
+  },
+  {
+    "id": 183,
+    "name": "Wenezuela",
+    "continent": "Ameryka Południowa",
+    "capital": "Caracas",
+    "surface": 916445,
+    "population": 30102382,
+    "code": "VE",
+    "display": false
+  },
+  {
+    "id": 184,
+    "name": "Węgry",
+    "continent": "Europa",
+    "capital": "Budapeszt",
+    "surface": 93030,
+    "population": 9982000,
+    "code": "HU",
+    "display": false
+  },
+  {
+    "id": 185,
+    "name": "Wielka Brytania",
+    "continent": "Europa",
+    "capital": "Londyn",
+    "surface": 244820,
+    "population": 62222000,
+    "code": "GB",
+    "display": false
+  },
+  {
+    "id": 186,
+    "name": "Wietnam",
+    "continent": "Azja",
+    "capital": "Hanoi",
+    "surface": 331051.4,
+    "population": 86024600,
+    "code": "VN",
+    "display": false
+  },
+  {
+    "id": 187,
+    "name": "Włochy",
+    "continent": "Europa",
+    "capital": "Rzym",
+    "surface": 301230,
+    "population": 60418711,
+    "code": "IT",
+    "display": false
+  },
+  {
+    "id": 188,
+    "name": "Wybrzeże Kości Słoniowej",
+    "continent": "Afryka",
+    "capital": "Jamusukro",
+    "surface": 322460,
+    "population": 18373000,
+    "code": "CI",
+    "display": false
+  },
+  {
+    "id": 189,
+    "name": "Wyspy Marshalla",
+    "continent": "Australia i Oceania",
+    "capital": "Majuro",
+    "surface": 181,
+    "population": 59071,
+    "code": "MH",
+    "display": false
+  },
+  {
+    "id": 190,
+    "name": "Wyspy Salomona",
+    "continent": "Australia i Oceania",
+    "capital": "Honiara",
+    "surface": 28450,
+    "population": 552000,
+    "code": "SB",
+    "display": false
+  },
+  {
+    "id": 191,
+    "name": "Wyspy Świętego Tomasza i Książęca",
+    "continent": "Afryka",
+    "capital": "Sao Tomé",
+    "surface": 1001,
+    "population": 193410,
+    "code": "ST",
+    "display": false
+  },
+  {
+    "id": 192,
+    "name": "Zambia",
+    "continent": "Afryka",
+    "capital": "Lusaka",
+    "surface": 752614,
+    "population": 11500000,
+    "code": "ZM",
+    "display": false
+  },
+  {
+    "id": 193,
+    "name": "Zimbabwe",
+    "continent": "Afryka",
+    "capital": "Harare",
+    "surface": 390580,
+    "population": 12383000,
+    "code": "ZW",
+    "display": false
+  },
+  {
+    "id": 194,
+    "name": "Zjednoczone Emiraty Arabskie",
+    "continent": "Azja",
+    "capital": "Abu Zabi",
+    "surface": 83600,
+    "population": 4621000,
+    "code": "AE",
+    "display": false
+  },
+  {
+    "id": 195,
+    "name": "Anglia",
+    "continent": "Europa",
+    "capital": "Londyn",
+    "surface": 130279,
+    "population": 55980000,
+    "code": "EN",
+    "display": false
+  },
+  {
+    "id": 196,
+    "name": "Szkocja",
+    "continent": "Europa",
+    "capital": "Edynburg",
+    "surface": 78782,
+    "population": 5454000,
+    "code": "SCO",
+    "display": false
+  },
+  {
+    "id": 197,
+    "name": "Walia",
+    "continent": "Europa",
+    "capital": "Cardiff",
+    "surface": 20779,
+    "population": 3113200,
+    "code": "WA",
+    "display": false
+  },
+  {
+    "id": 198,
+    "name": "Irlandia Północna",
+    "continent": "Europa",
+    "capital": "Belfast",
+    "surface": 14130,
+    "population": 1881641,
+    "code": "NIR",
+    "display": false
+  }
+]
