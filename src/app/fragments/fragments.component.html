@@ -25,16 +25,21 @@
       <ng-container *ngIf="isQuestion1Visible">
         <div class="info">
           <div class="col-12 ">{{question1}}</div>
+          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,6)">6</button>
+          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,3)">3</button>
+          <button type="button" class="btn btn-danger" (click)="playerService.addPoints(playerService.actualPlayer,-3)">3</button>
         </div>
       </ng-container>
       <ng-container *ngIf="isQuestion2Visible">
         <div class="info">
           <div class="col-12 ">{{question2}}</div>
+          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2)">2</button>
         </div>
       </ng-container>
       <ng-container *ngIf="isQuestion3Visible">
         <div class="info">
           <div class="col-12 ">{{question3}}</div>
+          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,1)">1</button>
         </div>
       </ng-container>
 
@@ -49,10 +54,6 @@
         <div class="correct col-12 ">Wykonawca: {{answer2}}</div>
       </div>
     </ng-container>
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,6)">6</button>
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,3)">3</button>
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2)">2</button>
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,1)">1</button>
-    <button type="button" class="btn btn-danger" (click)="playerService.addPoints(playerService.actualPlayer,-3)">3</button>
+
   </div>
 </ng-container>

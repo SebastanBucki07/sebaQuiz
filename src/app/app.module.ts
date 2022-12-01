@@ -8,6 +8,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSortModule} from "@angular/material/sort";
 import {BooksComponent, SongsComponent} from './fragments/fragments.component';
+import { CountryComponent } from './country/country.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import {BooksComponent, SongsComponent} from './fragments/fragments.component';
     BooksComponent,
     PlayersComponent,
     CategoriesComponent,
+    CountryComponent,
   ],
   imports: [
     BrowserModule,
