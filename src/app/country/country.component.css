@@ -47,22 +47,6 @@
   z-index: 5;
 }
 
-.correct{
-  color:greenyellow;
-}
-
-.close-button{
-  position: absolute;
-  top:0;
-  right:0;
-  height:100px;
-  width:100px;
-  background-image: url("../../assets/icons/x-circle.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-
 .modal {
   display: inline;
   position: fixed; /* Stay in place */
@@ -79,6 +63,24 @@
   text-align: center;
 }
 
+.close-button{
+  position: relative;
+  top:0;
+  right:0;
+  height:100px;
+  width:100px;
+  background-image: url("../../assets/icons/x-circle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+.correct{
+  color:greenyellow;
+  font-size: xxx-large;
+  padding-bottom: 10px;
+}
+
 @keyframes example {
   from {
     right:0;
@@ -90,7 +92,7 @@
 /* The element to apply the animation to */
 .modal div{
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
 .timer {

@@ -2,29 +2,29 @@
 
 <ng-container *ngIf="isModalVisible">
   <div class="modal">
-    <i class="bi bi-x-circle"></i>
-
-    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion1()">
-      fragment 1
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion2()">
-      fragment 2
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion3()">
-      fragment 3
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer1()">
-      Pokaż tytuł
-    </button>
-    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer2()">
-      Pokaż wykonawce
-    </button>
     <div class="row">
       <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-      <div class="col-8">{{question}}</div>
+      <div class="col-8 question">{{question}}</div>
+      <i class="bi bi-x-circle"></i>
+
+      <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion1()">
+        fragment 1
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion2()">
+        fragment 2
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion3()">
+        fragment 3
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer1()">
+        Pokaż tytuł
+      </button>
+      <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer2()">
+        Pokaż wykonawce
+      </button>
       <ng-container *ngIf="isQuestion1Visible">
         <div class="info">
-          <div class="col-12 ">{{question1}}</div>
+          <div class="col-12 tip">{{question1}}</div>
           <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,6)">6</button>
           <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,3)">3</button>
           <button type="button" class="btn btn-danger" (click)="playerService.addPoints(playerService.actualPlayer,-3)">3</button>
@@ -32,13 +32,13 @@
       </ng-container>
       <ng-container *ngIf="isQuestion2Visible">
         <div class="info">
-          <div class="col-12 ">{{question2}}</div>
+          <div class="col-12 tip">{{question2}}</div>
           <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2)">2</button>
         </div>
       </ng-container>
       <ng-container *ngIf="isQuestion3Visible">
         <div class="info">
-          <div class="col-12 ">{{question3}}</div>
+          <div class="col-12 tip">{{question3}}</div>
           <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,1)">1</button>
         </div>
       </ng-container>
