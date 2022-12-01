@@ -9,6 +9,7 @@ import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSortModule} from "@angular/material/sort";
 import {BooksComponent, SongsComponent} from './fragments/fragments.component';
 import { CountryComponent } from './country/country.component';
+import { TimerComponent } from './timer/timer.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CountryComponent } from './country/country.component';
     PlayersComponent,
     CategoriesComponent,
     CountryComponent,
+    TimerComponent,
   ],
   imports: [
     BrowserModule,

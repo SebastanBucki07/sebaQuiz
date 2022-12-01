@@ -9,6 +9,10 @@
       odp
     </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <ng-container *ngIf="isVisible">
+    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply);close()">{{points*multiply}}</button>
+    </ng-container>
+    <app-timer></app-timer>
     <div [ngSwitch]="question.id">
       <div class="row" *ngSwitchCase=0>
         <h1>{{question.questionName}}</h1>
@@ -96,7 +100,6 @@
       <ng-container *ngIf="isVisible">
         <div class="info">
           <div class="correct col-12 ">{{answer}}</div>
-          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply)">{{points*multiply}}</button>
         </div>
       </ng-container>
     </div>

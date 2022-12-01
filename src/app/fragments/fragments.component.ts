@@ -8,6 +8,8 @@ import {PlayersService} from "../players.service";
 })
 export abstract class Fragments {
   public random1: FragmentsModel = new FragmentBuilder(Category.SONG).build();
+  public points: number = 1
+  public multiply = 3
   public isAnswer1Visible = false;
   public isAnswer2Visible = false;
   public isModalVisible = false;
@@ -60,7 +62,12 @@ export abstract class Fragments {
     this.isQuestion3Visible = !this.isQuestion3Visible;
   }
 
+  setMultiply(multiply: number) {
+    this.multiply = multiply
+  }
+
   close() {
+    this.setMultiply(1)
     this.isAnswer1Visible = false;
     this.isAnswer2Visible = false;
     this.isModalVisible = false;

@@ -222,6 +222,7 @@ export class CountryComponent implements OnInit {
     })
     this.answersForCountries = []
     this.answer = ''
+    this.playerService.nextPlayer()
   }
 
   showAnswer() {
