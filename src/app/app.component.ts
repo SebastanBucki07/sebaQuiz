@@ -10,7 +10,7 @@ import {PlayersService} from "./players.service";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'heroku-angular';
+  title = 'seba Quiz';
   questionType: number;
   categories: Category[] = []
   players: Player[] = []

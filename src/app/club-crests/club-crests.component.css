@@ -85,19 +85,6 @@
   padding-bottom: 10px;
 }
 
-@keyframes example {
-  from {
-    right:0;
-    left:100%;}
-  to {left:0;
-    right:0;}
-}
-
-/* The element to apply the animation to */
-.modal div{
-  animation-name: example;
-  animation-duration: 2s;
-}
 
 .timer {
   text-align: center;
@@ -109,3 +96,13 @@
   font-size: 2em;
   margin: 0 3px 0 15px;
 }
+
+.test{
+border-style: solid;
+  border-color: red;
+  border-width: medium;
+}
+
+
+
+

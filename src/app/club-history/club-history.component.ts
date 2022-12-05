@@ -40,5 +40,4 @@ export class ClubHistoryComponent implements OnInit {
   showAnswer() {
     this.isVisible = !this.isVisible;
   }
-
 }

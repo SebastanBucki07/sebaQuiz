@@ -11,6 +11,7 @@ import {BooksComponent, SongsComponent} from './fragments/fragments.component';
 import { CountryComponent } from './country/country.component';
 import { TimerComponent } from './timer/timer.component';
 import { ClubHistoryComponent } from './club-history/club-history.component';
+import { ClubCrestsComponent } from './club-crests/club-crests.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ClubHistoryComponent } from './club-history/club-history.component';
     CountryComponent,
     TimerComponent,
     ClubHistoryComponent,
+    ClubCrestsComponent,
   ],
   imports: [
     BrowserModule,
