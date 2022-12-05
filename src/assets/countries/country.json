@@ -1946,7 +1946,7 @@
     "capital": "Londyn",
     "surface": 130279,
     "population": 55980000,
-    "code": "EN",
+    "code": "gb-eng",
     "display": false
   },
   {
@@ -1956,7 +1956,7 @@
     "capital": "Edynburg",
     "surface": 78782,
     "population": 5454000,
-    "code": "SCO",
+    "code": "gb-sct",
     "display": false
   },
   {
@@ -1966,7 +1966,7 @@
     "capital": "Cardiff",
     "surface": 20779,
     "population": 3113200,
-    "code": "WA",
+    "code": "gb-wls",
     "display": false
   },
   {
@@ -1976,7 +1976,7 @@
     "capital": "Belfast",
     "surface": 14130,
     "population": 1881641,
-    "code": "NIR",
+    "code": "gb-nir",
     "display": false
   }
 ]

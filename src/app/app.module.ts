@@ -10,6 +10,7 @@ import {MatSortModule} from "@angular/material/sort";
 import {BooksComponent, SongsComponent} from './fragments/fragments.component';
 import { CountryComponent } from './country/country.component';
 import { TimerComponent } from './timer/timer.component';
+import { ClubHistoryComponent } from './club-history/club-history.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TimerComponent } from './timer/timer.component';
     CategoriesComponent,
     CountryComponent,
     TimerComponent,
+    ClubHistoryComponent,
   ],
   imports: [
     BrowserModule,

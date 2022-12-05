@@ -1,0 +1,1662 @@
+[
+  {
+    "id": 1,
+    "osoba": "Jakub Czerwiński",
+    "narodowosc": "pl",
+    "klub1": "piastgliwice",
+    "klub2": "legiawarszawa",
+    "klub3": "pogonszczecin",
+    "klub4": "termalica",
+    "klub5": "okocimski"
+  },
+  {
+    "id": 2,
+    "osoba": "Michał Chrapek",
+    "narodowosc": "pl",
+    "klub1": "piastgliwice",
+    "klub2": "slaskwroclaw",
+    "klub3": "lechiagdansk",
+    "klub4": "cataniacalcio",
+    "klub5": "wislakrakow"
+  },
+  {
+    "id": 3,
+    "osoba": "Marcin Robak",
+    "narodowosc": "pl",
+    "klub1": "widzewlodz",
+    "klub2": "slaskwroclaw",
+    "klub3": "lechpoznan",
+    "klub4": "pogonszczecin",
+    "klub5": "piastgliwice"
+  },
+  {
+    "id": 4,
+    "osoba": "Mateusz klich",
+    "narodowosc": "pl",
+    "klub1": "leedsunited",
+    "klub2": "fcutrecht",
+    "klub3": "fctwente",
+    "klub4": "fckaiserslautern",
+    "klub5": "wolfsburg"
+  },
+  {
+    "id": 5,
+    "osoba": "Kaka",
+    "narodowosc": "br",
+    "klub1": "saopaulofc",
+    "klub2": "orlandocity",
+    "klub3": "acmilan",
+    "klub4": "realmadryt",
+    "klub5": "saopaulofc"
+  },
+  {
+    "id": 6,
+    "osoba": "Jerzy Dudek",
+    "narodowosc": "pl",
+    "klub1": "realmadryt",
+    "klub2": "liverpool",
+    "klub3": "feyenoord",
+    "klub4": "sokoltychy",
+    "klub5": "concordiaknurow"
+  },
+  {
+    "id": 7,
+    "osoba": "Jorge Félix",
+    "narodowosc": "es",
+    "klub1": "sivasspor",
+    "klub2": "piastgliwice",
+    "klub3": "lleidaesportiu",
+    "klub4": "rmajadahonda",
+    "klub5": "trivalvalderas"
+  },
+  {
+    "id": 8,
+    "osoba": "Joel Valencia",
+    "narodowosc": "es",
+    "klub1": "degraafschap",
+    "klub2": "legiawarszawa",
+    "klub3": "brentford",
+    "klub4": "piastgliwice",
+    "klub5": "fckoper"
+  },
+  {
+    "id": 9,
+    "osoba": "Mikkel Kirkeskov",
+    "narodowosc": "dk",
+    "klub1": "holsteinkiel",
+    "klub2": "piastgliwice",
+    "klub3": "aalesund",
+    "klub4": "odensebk",
+    "klub5": "aarhusgf"
+  },
+  {
+    "id": 10,
+    "osoba": "Cristiano Ronaldo",
+    "narodowosc": "pt",
+    "klub1": "manchasterunited",
+    "klub2": "juventus",
+    "klub3": "realmadryt",
+    "klub4": "manchasterunited",
+    "klub5": "sportinglisbona"
+  },
+  {
+    "id": 11,
+    "osoba": "James Milner",
+    "narodowosc": "gb-eng",
+    "klub1": "mancity",
+    "klub2": "astonvilla",
+    "klub3": "newcastle",
+    "klub4": "swidontown",
+    "klub5": "leedsunited"
+  },
+  {
+    "id": 12,
+    "osoba": "Paul Pogba",
+    "narodowosc": "fr",
+    "klub1": "manchasterunited",
+    "klub2": "juventus",
+    "klub3": "manchasterunited",
+    "klub4": "lehavreac",
+    "klub5": "torcy"
+  },
+  {
+    "id": 13,
+    "osoba": "Francisek Plach",
+    "narodowosc": "sk",
+    "klub1": "piastgliwice",
+    "klub2": "fksenica",
+    "klub3": "fkpohronie",
+    "klub4": "sksvaty",
+    "klub5": "mkszilina"
+  },
+  {
+    "id": 14,
+    "osoba": "Kuba Błaszczykowski",
+    "narodowosc": "pl",
+    "klub1": "wislakrakow",
+    "klub2": "wolfsburg",
+    "klub3": "fiorentina",
+    "klub4": "borussiadortmund",
+    "klub5": "wislakrakow"
+  },
+  {
+    "id": 15,
+    "osoba": "Artur Jędrzejczyk",
+    "narodowosc": "pl",
+    "klub1": "legiawarszawa",
+    "klub2": "fkkrasnodar",
+    "klub3": "koronakielce",
+    "klub4": "dolcanzabki",
+    "klub5": "gksjastrzebie"
+  },
+  {
+    "id": 16,
+    "osoba": "Michał Pazdan",
+    "narodowosc": "pl",
+    "klub1": "jagiellonia",
+    "klub2": "ankaragucu",
+    "klub3": "legiawarszawa",
+    "klub4": "jagiellonia",
+    "klub5": "gornikzabrze"
+  },
+  {
+    "id": 17,
+    "osoba": "Tomas Huk",
+    "narodowosc": "sk",
+    "klub1": "piastgliwice",
+    "klub2": "dunajskastreda",
+    "klub3": "vsskosice",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 18,
+    "osoba": "Wojciech Szczęsny",
+    "narodowosc": "pl",
+    "klub1": "juventus",
+    "klub2": "asroma",
+    "klub3": "brentford",
+    "klub4": "arsenal",
+    "klub5": "-"
+  },
+  {
+    "id": 19,
+    "osoba": "Kamil Wilczek",
+    "narodowosc": "pl",
+    "klub1": "piastgliwice",
+    "klub2": "fckopenhaga",
+    "klub3": "goztepe",
+    "klub4": "brondbyif",
+    "klub5": "carpi"
+  },
+  {
+    "id": 20,
+    "osoba": "Lucas Podolski",
+    "narodowosc": "de",
+    "klub1": "gornikzabrze",
+    "klub2": "antalyaspor",
+    "klub3": "visselkobe",
+    "klub4": "galatasaray",
+    "klub5": "arsenal"
+  },
+  {
+    "id": 21,
+    "osoba": "Dariusz Trela",
+    "narodowosc": "pl",
+    "klub1": "termalica",
+    "klub2": "koronakielce",
+    "klub3": "gksbelchatow",
+    "klub4": "lechiagdansk",
+    "klub5": "piastgliwice"
+  },
+  {
+    "id": 22,
+    "osoba": "Ronaldinhno",
+    "narodowosc": "br",
+    "klub1": "fluminense",
+    "klub2": "queretato",
+    "klub3": "atleticomineiro",
+    "klub4": "acmilan",
+    "klub5": "barcelona"
+  },
+  {
+    "id": 23,
+    "osoba": "Tibo Courtois",
+    "narodowosc": "be",
+    "klub1": "realmadryt",
+    "klub2": "alteticomadryt",
+    "klub3": "chelsea",
+    "klub4": "genk",
+    "klub5": "-"
+  },
+  {
+    "id": 24,
+    "osoba": "Konstantin Vassiljev",
+    "narodowosc": "ee",
+    "klub1": "floratalin",
+    "klub2": "piastgliwice",
+    "klub3": "jagiellonia",
+    "klub4": "piastgliwice",
+    "klub5": "amkarperm"
+  },
+  {
+    "id": 25,
+    "osoba": "N' Golo Kante",
+    "narodowosc": "fr",
+    "klub1": "chelsea",
+    "klub2": "leicester",
+    "klub3": "smcaen",
+    "klub4": "usboulogne",
+    "klub5": "-"
+  },
+  {
+    "id": 26,
+    "osoba": "Romelu Lukaku",
+    "narodowosc": "be",
+    "klub1": "inter",
+    "klub2": "chelsea",
+    "klub3": "inter",
+    "klub4": "manchasterunited",
+    "klub5": "everton"
+  },
+  {
+    "id": 27,
+    "osoba": "Zlatan Ibrahimović",
+    "narodowosc": "se",
+    "klub1": "acmilan",
+    "klub2": "lagalaxy",
+    "klub3": "manchasterunited",
+    "klub4": "psg",
+    "klub5": "acmilan"
+  },
+  {
+    "id": 28,
+    "osoba": "Mohamed Salah",
+    "narodowosc": "eg",
+    "klub1": "liverpool",
+    "klub2": "asroma",
+    "klub3": "fiorentina",
+    "klub4": "chelsea",
+    "klub5": "fcbasel"
+  },
+  {
+    "id": 29,
+    "osoba": "Lionel Messi",
+    "narodowosc": "ar",
+    "klub1": "psg",
+    "klub2": "barcelona",
+    "klub3": "barcelona",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 30,
+    "osoba": "Dawid Beckham",
+    "narodowosc": "gb-eng",
+    "klub1": "psg",
+    "klub2": "acmilan",
+    "klub3": "lagalaxy",
+    "klub4": "realmadryt",
+    "klub5": "manchasterunited"
+  },
+  {
+    "id": 31,
+    "osoba": "Aleksandar Sedlar",
+    "narodowosc": "rs",
+    "klub1": "mallorca",
+    "klub2": "piastgliwice",
+    "klub3": "fkmetalac",
+    "klub4": "boracnovysad",
+    "klub5": "-"
+  },
+  {
+    "id": 32,
+    "osoba": "Roberto Carlos",
+    "narodowosc": "br",
+    "klub1": "delhidynamos",
+    "klub2": "anzymachaczkala",
+    "klub3": "corinthiaspaulista",
+    "klub4": "fenerbahce",
+    "klub5": "realmadryt"
+  },
+  {
+    "id": 33,
+    "osoba": "Ronaldo",
+    "narodowosc": "br",
+    "klub1": "corinthiaspaulista",
+    "klub2": "acmilan",
+    "klub3": "realmadryt",
+    "klub4": "inter",
+    "klub5": "barcelona"
+  },
+  {
+    "id": 34,
+    "osoba": "Mateusz Matras",
+    "narodowosc": "pl",
+    "klub1": "stalmielec",
+    "klub2": "gornikzabrze",
+    "klub3": "zaglebielubin",
+    "klub4": "lechiagdansk",
+    "klub5": "pogonszczecin"
+  },
+  {
+    "id": 35,
+    "osoba": "Damian Kądzior",
+    "narodowosc": "pl",
+    "klub1": "piastgliwice",
+    "klub2": "sdeibar",
+    "klub3": "alanyaspor",
+    "klub4": "dinamozagrzeb",
+    "klub5": "gornikzabrze"
+  },
+  {
+    "id": 36,
+    "osoba": "Patryk Sokołowski",
+    "narodowosc": "pl",
+    "klub1": "legiawarszawa",
+    "klub2": "piastgliwice",
+    "klub3": "wigrysuwalki",
+    "klub4": "olimpiaelblag",
+    "klub5": "zniczpruszkow"
+  },
+  {
+    "id": 37,
+    "osoba": "Grzegorz Tomasiewicz",
+    "narodowosc": "pl",
+    "klub1": "piastgliwice",
+    "klub2": "stalmielec",
+    "klub3": "pogonsiedlce",
+    "klub4": "arkagdynia",
+    "klub5": "-"
+  },
+  {
+    "id": 38,
+    "osoba": "Tomasz Jodłowiec",
+    "narodowosc": "pl",
+    "klub1": "podbeskidziebielskobiala",
+    "klub2": "piastgliwice",
+    "klub3": "legiawarszawa",
+    "klub4": "slaskwroclaw",
+    "klub5": "poloniawarszawa"
+  },
+  {
+    "id": 39,
+    "osoba": "Tomasz Podgórski",
+    "narodowosc": "pl",
+    "klub1": "ruchchorzow",
+    "klub2": "podbeskidziebielskobiala",
+    "klub3": "ruchchorzow",
+    "klub4": "piastgliwice",
+    "klub5": "zawiszabydgoszcz"
+  },
+  {
+    "id": 40,
+    "osoba": "Wojciech Kędziora",
+    "narodowosc": "pl",
+    "klub1": "wilkiwilcza",
+    "klub2": "ruchchorzow",
+    "klub3": "gkskatowice",
+    "klub4": "termalica",
+    "klub5": "piastgliwice"
+  },
+  {
+    "id": 41,
+    "osoba": "Łukasz Hanzel",
+    "narodowosc": "pl",
+    "klub1": "goczlkowice",
+    "klub2": "skraczestochowa",
+    "klub3": "podbeskidziebielskobiala",
+    "klub4": "ruchchorzow",
+    "klub5": "wigrysuwalki"
+  },
+  {
+    "id": 42,
+    "osoba": "Igor Sapała",
+    "narodowosc": "pl",
+    "klub1": "rakowczestochowa",
+    "klub2": "piastgliwice",
+    "klub3": "gkskatowice",
+    "klub4": "dolcanzabki",
+    "klub5": "-"
+  },
+  {
+    "id": 43,
+    "osoba": "Jakub Suzmski",
+    "narodowosc": "pl",
+    "klub1": "samsunspor",
+    "klub2": "bberzurumspor",
+    "klub3": "rakowczestochowa",
+    "klub4": "legiawarszawa",
+    "klub5": "piastgliwice"
+  },
+  {
+    "id": 44,
+    "osoba": "Jakub Kuzdra",
+    "narodowosc": "pl",
+    "klub1": "chrobryglogow",
+    "klub2": "volosnps",
+    "klub3": "wartapoznan",
+    "klub4": "bytoviabytow",
+    "klub5": "piastgliwice"
+  },
+  {
+    "id": 45,
+    "osoba": "Jakub Holubek",
+    "narodowosc": "sk",
+    "klub1": "piastgliwice",
+    "klub2": "mkszilina",
+    "klub3": "astrencin",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 46,
+    "osoba": "Sasa Zivec",
+    "narodowosc": "sk",
+    "klub1": "zaglebielubin",
+    "klub2": "omonianikozja",
+    "klub3": "piastgliwice",
+    "klub4": "nkdomzale",
+    "klub5": "ndgorica"
+  },
+  {
+    "id": 47,
+    "osoba": "Martin Bukata",
+    "narodowosc": "sk",
+    "klub1": "spartaktrnava",
+    "klub2": "mfkkarvina",
+    "klub3": "benevento",
+    "klub4": "piastgliwice",
+    "klub5": "vsskosice"
+  },
+  {
+    "id": 48,
+    "osoba": "Jakub Rzeźniczak",
+    "narodowosc": "pl",
+    "klub1": "wislaplock",
+    "klub2": "qarabagfk",
+    "klub3": "legiawarszawa",
+    "klub4": "widzewlodz",
+    "klub5": "-"
+  },
+  {
+    "id": 49,
+    "osoba": "Tomasz Hajto",
+    "narodowosc": "pl",
+    "klub1": "lkslodz",
+    "klub2": "gornikzabrze",
+    "klub3": "lkslodz",
+    "klub4": "derbycounty",
+    "klub5": "southampton"
+  },
+  {
+    "id": 50,
+    "osoba": "Jacek Krzynówek",
+    "narodowosc": "pl",
+    "klub1": "hanover96",
+    "klub2": "wolfsburg",
+    "klub3": "bayer04leverkusen",
+    "klub4": "fcnurnberg",
+    "klub5": "gksbelchatow"
+  },
+  {
+    "id": 51,
+    "osoba": "Patryk Dziczek",
+    "narodowosc": "pl",
+    "klub1": "salernitana",
+    "klub2": "laziorzym",
+    "klub3": "piastgliwice",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 52,
+    "osoba": "Luka Modrić",
+    "narodowosc": "hr",
+    "klub1": "realmadryt",
+    "klub2": "tottenhamhotspur",
+    "klub3": "interzapresic",
+    "klub4": "zrinjskimostar",
+    "klub5": "dinamozagrzeb"
+  },
+  {
+    "id": 53,
+    "osoba": "Harry Kane",
+    "narodowosc": "gb-eng",
+    "klub1": "tottenhamhotspur",
+    "klub2": "leytonorient",
+    "klub3": "millwall",
+    "klub4": "norwichcity",
+    "klub5": "leicester City"
+  },
+  {
+    "id": 54,
+    "osoba": "David De Gea",
+    "narodowosc": "es",
+    "klub1": "manchasterunited",
+    "klub2": "alteticomadryt",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 55,
+    "osoba": "Jordi Alba",
+    "narodowosc": "es",
+    "klub1": "barcelona",
+    "klub2": "valenciacf",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 56,
+    "osoba": "Sergio Busquets",
+    "narodowosc": "es",
+    "klub1": "barcelona",
+    "klub2": "-",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 57,
+    "osoba": "Álvaro Morata",
+    "narodowosc": "es",
+    "klub1": "juventus",
+    "klub2": "alteticomadryt",
+    "klub3": "chelsea",
+    "klub4": "realmadryt",
+    "klub5": "-"
+  },
+  {
+    "id": 58,
+    "osoba": "João Moutinho",
+    "narodowosc": "es",
+    "klub1": "wolverhampton",
+    "klub2": "asmonaco",
+    "klub3": "fcporto",
+    "klub4": "sportinglisbona",
+    "klub5": "-"
+  },
+  {
+    "id": 59,
+    "osoba": "Pepe",
+    "narodowosc": "pt",
+    "klub1": "fcporto",
+    "klub2": "besiktasjk",
+    "klub3": "realmadryt",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 60,
+    "osoba": "Luis Figo",
+    "narodowosc": "pt",
+    "klub1": "inter",
+    "klub2": "realmadryt",
+    "klub3": "barcelona",
+    "klub4": "sportinglisbona",
+    "klub5": "-"
+  },
+  {
+    "id": 61,
+    "osoba": "Nani",
+    "narodowosc": "pt",
+    "klub1": "venezia",
+    "klub2": "orlandocity",
+    "klub3": "sportinglisbona",
+    "klub4": "laziorzym",
+    "klub5": "valenciacf"
+  },
+  {
+    "id": 62,
+    "osoba": "Ricardo Carvalho",
+    "narodowosc": "pt",
+    "klub1": "shanghaisipg",
+    "klub2": "asmonaco",
+    "klub3": "realmadryt",
+    "klub4": "chelsea",
+    "klub5": "fcporto"
+  },
+  {
+    "id": 63,
+    "osoba": "Luis Suárez",
+    "narodowosc": "uy",
+    "klub1": "nacional",
+    "klub2": "alteticomadryt",
+    "klub3": "barcelona",
+    "klub4": "liverpool",
+    "klub5": "ajax"
+  },
+  {
+    "id": 64,
+    "osoba": "Edinson Cavani",
+    "narodowosc": "uy",
+    "klub1": "valenciacf",
+    "klub2": "manchasterunited",
+    "klub3": "psg",
+    "klub4": "napoli",
+    "klub5": "palermo"
+  },
+  {
+    "id": 65,
+    "osoba": "Diego Forlán",
+    "narodowosc": "uy",
+    "klub1": "kitcheesc",
+    "klub2": "penarol",
+    "klub3": "cerezoosaka",
+    "klub4": "scinternacional",
+    "klub5": "inter"
+  },
+  {
+    "id": 66,
+    "osoba": "Hugo Lloris",
+    "narodowosc": "fr",
+    "klub1": "tottenhamhotspur",
+    "klub2": "olympiquelyon",
+    "klub3": "ogcnice",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 67,
+    "osoba": "Raphaël Varane",
+    "narodowosc": "fr",
+    "klub1": "manchasterunited",
+    "klub2": "realmadryt",
+    "klub3": "rclens",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 68,
+    "osoba": "Paul Pogba",
+    "narodowosc": "fr",
+    "klub1": "juventus",
+    "klub2": "manchasterunited",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 69,
+    "osoba": "Ousmane Dembélé",
+    "narodowosc": "fr",
+    "klub1": "barcelona",
+    "klub2": "borussiadortmund",
+    "klub3": "staderennais",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 70,
+    "osoba": "N Golo Kanté",
+    "narodowosc": "fr",
+    "klub1": "chelsea",
+    "klub2": "leicester",
+    "klub3": "smcaen",
+    "klub4": "usboulogne",
+    "klub5": "-"
+  },
+  {
+    "id": 71,
+    "osoba": "Antoine Griezmann",
+    "narodowosc": "fr",
+    "klub1": "alteticomadryt",
+    "klub2": "barcelona",
+    "klub3": "realsociedad",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 72,
+    "osoba": "Olivier Giroud",
+    "narodowosc": "fr",
+    "klub1": "acmilan",
+    "klub2": "chelsea",
+    "klub3": "arsenal",
+    "klub4": "montpellierhsc",
+    "klub5": "-"
+  },
+  {
+    "id": 73,
+    "osoba": "Kylian Mbappé",
+    "narodowosc": "fr",
+    "klub1": "psg",
+    "klub2": "asmonaco",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 74,
+    "osoba": "Karim Benzema",
+    "narodowosc": "fr",
+    "klub1": "realmadryt",
+    "klub2": "olympiquelyon",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 75,
+    "osoba": "Kasper Schmeichel",
+    "narodowosc": "dk",
+    "klub1": "ogcnice",
+    "klub2": "leicester",
+    "klub3": "leedsunited",
+    "klub4": "nottscounty",
+    "klub5": "coventrycity"
+  },
+  {
+    "id": 76,
+    "osoba": "Christian Eriksen",
+    "narodowosc": "dk",
+    "klub1": "manchasterunited",
+    "klub2": "brentford",
+    "klub3": "inter",
+    "klub4": "tottenhamhotspur",
+    "klub5": "ajax"
+  },
+  {
+    "id": 77,
+    "osoba": "Ivan Perišić",
+    "narodowosc": "hr",
+    "klub1": "tottenhamhotspur",
+    "klub2": "bayernmonachium",
+    "klub3": "inter",
+    "klub4": "wolfsburg",
+    "klub5": "borussiadortmund"
+  },
+  {
+    "id": 78,
+    "osoba": "Ivan Rakitić",
+    "narodowosc": "hr",
+    "klub1": "sevillafc",
+    "klub2": "barcelona",
+    "klub3": "fcschalke04",
+    "klub4": "fcbasel",
+    "klub5": "-"
+  },
+  {
+    "id": 79,
+    "osoba": "Mario Mandžukić",
+    "narodowosc": "hr",
+    "klub1": "acmilan",
+    "klub2": "alduhailsc",
+    "klub3": "juventus",
+    "klub4": "alteticomadryt",
+    "klub5": "bayernmonachium"
+  },
+  {
+    "id": 80,
+    "osoba": "Ángel Di María",
+    "narodowosc": "ar",
+    "klub1": "juventus",
+    "klub2": "psg",
+    "klub3": "manchasterunited",
+    "klub4": "realmadryt",
+    "klub5": "slbenfica"
+  },
+  {
+    "id": 81,
+    "osoba": "Javier Mascherano",
+    "narodowosc": "ar",
+    "klub1": "estudianteslaplata",
+    "klub2": "hebeichinafortune",
+    "klub3": "barcelona",
+    "klub4": "liverpool",
+    "klub5": "westhamunited"
+  },
+  {
+    "id": 82,
+    "osoba": "Javier Zanetti",
+    "narodowosc": "ar",
+    "klub1": "inter",
+    "klub2": "cabanfield",
+    "klub3": "talleresremediosdeescalada",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 83,
+    "osoba": "Sergio Agüero",
+    "narodowosc": "ar",
+    "klub1": "barcelona",
+    "klub2": "mancity",
+    "klub3": "alteticomadryt",
+    "klub4": "independiente",
+    "klub5": "-"
+  },
+  {
+    "id": 84,
+    "osoba": "Diego Maradona",
+    "narodowosc": "ar",
+    "klub1": "bocajuniors",
+    "klub2": "newellsoldboys",
+    "klub3": "sevillafc",
+    "klub4": "napoli",
+    "klub5": "barcelona"
+  },
+  {
+    "id": 85,
+    "osoba": "Cafu",
+    "narodowosc": "br",
+    "klub1": "acmilan",
+    "klub2": "asroma",
+    "klub3": "sepalmeiras",
+    "klub4": "ecjuventude",
+    "klub5": "realsaragossa"
+  },
+  {
+    "id": 86,
+    "osoba": "Dani Alves",
+    "narodowosc": "br",
+    "klub1": "pumasunam",
+    "klub2": "barcelona",
+    "klub3": "saopaulofc",
+    "klub4": "psg",
+    "klub5": "juventus"
+  },
+  {
+    "id": 87,
+    "osoba": "Neymar",
+    "narodowosc": "br",
+    "klub1": "psg",
+    "klub2": "barcelona",
+    "klub3": "santosfc",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 88,
+    "osoba": "Thiago Silva",
+    "narodowosc": "br",
+    "klub1": "chelsea",
+    "klub2": "psg",
+    "klub3": "acmilan",
+    "klub4": "fluminense",
+    "klub5": "dinamomoskwa"
+  },
+  {
+    "id": 89,
+    "osoba": "Robinho",
+    "narodowosc": "br",
+    "klub1": "santosfc",
+    "klub2": "istanbulbasaksehir",
+    "klub3": "sivasspor",
+    "klub4": "atleticomineiro",
+    "klub5": "guangzhouevergrande"
+  },
+  {
+    "id": 90,
+    "osoba": "Xherdan Shaqiri",
+    "narodowosc": "ch",
+    "klub1": "chicagofire",
+    "klub2": "olympiquelyon",
+    "klub3": "liverpool",
+    "klub4": "stokecity",
+    "klub5": "inter"
+  },
+  {
+    "id": 91,
+    "osoba": "Granit Xhaka",
+    "narodowosc": "ch",
+    "klub1": "arsenal",
+    "klub2": "borussiamonchengladbach",
+    "klub3": "fcbasel",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 92,
+    "osoba": "Jan Vertonghen",
+    "narodowosc": "be",
+    "klub1": "rscanderlecht",
+    "klub2": "slbenfica",
+    "klub3": "tottenhamhotspur",
+    "klub4": "ajax",
+    "klub5": "-"
+  },
+  {
+    "id": 93,
+    "osoba": "Axel Vitsel",
+    "narodowosc": "be",
+    "klub1": "alteticomadryt",
+    "klub2": "borussiadortmund",
+    "klub3": "tianjinquanjian",
+    "klub4": "zenitpetersburg",
+    "klub5": "slbenfica"
+  },
+  {
+    "id": 94,
+    "osoba": "Eden Hazard",
+    "narodowosc": "be",
+    "klub1": "realmadryt",
+    "klub2": "chelsea",
+    "klub3": "lille",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 95,
+    "osoba": "Dries Mertens",
+    "narodowosc": "be",
+    "klub1": "galatasaray",
+    "klub2": "napoli",
+    "klub3": "pseindhoven",
+    "klub4": "fcutrecht",
+    "klub5": "agovv"
+  },
+  {
+    "id": 96,
+    "osoba": "Romelu Lukaku",
+    "narodowosc": "be",
+    "klub1": "inter",
+    "klub2": "chelsea",
+    "klub3": "manchasterunited",
+    "klub4": "everton",
+    "klub5": "westbromwichalbion"
+  },
+  {
+    "id": 97,
+    "osoba": "Thibaut Courtois",
+    "narodowosc": "be",
+    "klub1": "realmadryt",
+    "klub2": "alteticomadryt",
+    "klub3": "chelsea",
+    "klub4": "genk",
+    "klub5": "-"
+  },
+  {
+    "id": 98,
+    "osoba": "Kevin De Bruyne",
+    "narodowosc": "be",
+    "klub1": "mancity",
+    "klub2": "wolfsburg",
+    "klub3": "werderbrema",
+    "klub4": "genk",
+    "klub5": "chelsea"
+  },
+  {
+    "id": 99,
+    "osoba": "Wayne Rooney",
+    "narodowosc": "gb-eng",
+    "klub1": "derbycounty",
+    "klub2": "dcunited",
+    "klub3": "everton",
+    "klub4": "manchasterunited",
+    "klub5": "-"
+  },
+  {
+    "id": 100,
+    "osoba": "David Beckham",
+    "narodowosc": "gb-eng",
+    "klub1": "psg",
+    "klub2": "acmilan",
+    "klub3": "lagalaxy",
+    "klub4": "realmadryt",
+    "klub5": "manchasterunited"
+  },
+  {
+    "id": 101,
+    "osoba": "Steven Gerrard",
+    "narodowosc": "gb-eng",
+    "klub1": "lagalaxy",
+    "klub2": "liverpool",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 102,
+    "osoba": "Frank Lampard",
+    "narodowosc": "gb-eng",
+    "klub1": "newyorkcity",
+    "klub2": "mancity",
+    "klub3": "chelsea",
+    "klub4": "swanseacity",
+    "klub5": "westhamunited"
+  },
+  {
+    "id": 103,
+    "osoba": "Kyle Walker",
+    "narodowosc": "gb-eng",
+    "klub1": "mancity",
+    "klub2": "astonvilla",
+    "klub3": "queensparkrangers",
+    "klub4": "sheffieldunited",
+    "klub5": "tottenhamhotspur"
+  },
+  {
+    "id": 104,
+    "osoba": "Luke Shaw",
+    "narodowosc": "gb-eng",
+    "klub1": "manchasterunited",
+    "klub2": "southampton",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 105,
+    "osoba": "Kieran Trippier",
+    "narodowosc": "gb-eng",
+    "klub1": "newcastle",
+    "klub2": "alteticomadryt",
+    "klub3": "tottenhamhotspur",
+    "klub4": "burnley",
+    "klub5": "mancity"
+  },
+  {
+    "id": 106,
+    "osoba": "David Ospina",
+    "narodowosc": "co",
+    "klub1": "napoli",
+    "klub2": "arsenal",
+    "klub3": "ogcnice",
+    "klub4": "atleticonacional",
+    "klub5": "-"
+  },
+  {
+    "id": 107,
+    "osoba": "Juan Cuadrado",
+    "narodowosc": "co",
+    "klub1": "juventus",
+    "klub2": "chelsea",
+    "klub3": "fiorentina",
+    "klub4": "udinesecalcio",
+    "klub5": "-"
+  },
+  {
+    "id": 108,
+    "osoba": "Radamel Falcao",
+    "narodowosc": "co",
+    "klub1": "rayovallecano",
+    "klub2": "galatasaray",
+    "klub3": "asmonaco",
+    "klub4": "alteticomadryt",
+    "klub5": "fcporto"
+  },
+  {
+    "id": 109,
+    "osoba": "James Rodríguez",
+    "narodowosc": "co",
+    "klub1": "olympiakospireus",
+    "klub2": "arrajjan",
+    "klub3": "everton",
+    "klub4": "bayernmonachium",
+    "klub5": "realmadryt"
+  },
+  {
+    "id": 110,
+    "osoba": "Shinji Kagawa",
+    "narodowosc": "jp",
+    "klub1": "sinttruidensevv",
+    "klub2": "paoksaloniki",
+    "klub3": "realsaragossa",
+    "klub4": "borussiadortmund",
+    "klub5": "manchasterunited"
+  },
+  {
+    "id": 111,
+    "osoba": "Robert Lewandowski",
+    "narodowosc": "pl",
+    "klub1": "barcelona",
+    "klub2": "bayernmonachium",
+    "klub3": "borussiadortmund",
+    "klub4": "lechpoznan",
+    "klub5": "zniczpruszkow"
+  },
+  {
+    "id": 112,
+    "osoba": "Jakub Błaszcyzkowski",
+    "narodowosc": "pl",
+    "klub1": "wislakrakow",
+    "klub2": "wolfsburg",
+    "klub3": "fiorentina",
+    "klub4": "borussiadortmund",
+    "klub5": "-"
+  },
+  {
+    "id": 113,
+    "osoba": "Michał Żewłakow",
+    "narodowosc": "pl",
+    "klub1": "legiawarszawa",
+    "klub2": "ankaragucu",
+    "klub3": "olympiakospireus",
+    "klub4": "rscanderlecht",
+    "klub5": "-"
+  },
+  {
+    "id": 114,
+    "osoba": "Kamil Glik",
+    "narodowosc": "pl",
+    "klub1": "benevento",
+    "klub2": "asmonaco",
+    "klub3": "torino",
+    "klub4": "palermo",
+    "klub5": "piastgliwice"
+  },
+  {
+    "id": 115,
+    "osoba": "Grzegorz Lato",
+    "narodowosc": "pl",
+    "klub1": "atlantefc",
+    "klub2": "ksclokeren",
+    "klub3": "stalmielec",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 116,
+    "osoba": "Kazimierz Deyna",
+    "narodowosc": "pl",
+    "klub1": "mancity",
+    "klub2": "legiawarszawa",
+    "klub3": "lkslodz",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 117,
+    "osoba": "Jacek Bąk",
+    "narodowosc": "pl",
+    "klub1": "austriawieden",
+    "klub2": "arrajjan",
+    "klub3": "rclens",
+    "klub4": "olympiquelyon",
+    "klub5": "lechpoznan"
+  },
+  {
+    "id": 118,
+    "osoba": "Grzegorz Krychowiak",
+    "narodowosc": "pl",
+    "klub1": "fkkrasnodar",
+    "klub2": "lokomotiwmoskwa",
+    "klub3": "westbromwichalbion",
+    "klub4": "psg",
+    "klub5": "sevillafc"
+  },
+  {
+    "id": 119,
+    "osoba": "Kamil Grosicki",
+    "narodowosc": "pl",
+    "klub1": "pogonszczecin",
+    "klub2": "westbromwichalbion",
+    "klub3": "hullcity",
+    "klub4": "staderennais",
+    "klub5": "sivasspor"
+  },
+  {
+    "id": 120,
+    "osoba": "Zbigniew Boniek",
+    "narodowosc": "pl",
+    "klub1": "asroma",
+    "klub2": "juventus",
+    "klub3": "widzewlodz",
+    "klub4": "zawiszabydgoszcz",
+    "klub5": "-"
+  },
+  {
+    "id": 121,
+    "osoba": "Włodzimierz Lubański",
+    "narodowosc": "pl",
+    "klub1": "krcmechelen",
+    "klub2": "valenciennesfc",
+    "klub3": "ksclokeren",
+    "klub4": "gornikzabrze",
+    "klub5": "-"
+  },
+  {
+    "id": 122,
+    "osoba": "Piotr Zieliński",
+    "narodowosc": "pl",
+    "klub1": "napoli",
+    "klub2": "empoli",
+    "klub3": "udinesecalcio",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 123,
+    "osoba": "Maciej Żurawski",
+    "narodowosc": "pl",
+    "klub1": "wislakrakow",
+    "klub2": "omonianikozja",
+    "klub3": "aelarisa",
+    "klub4": "celticfc",
+    "klub5": "-"
+  },
+  {
+    "id": 124,
+    "osoba": "Łukasz Piszczek",
+    "narodowosc": "pl",
+    "klub1": "goczlkowice",
+    "klub2": "borussiadortmund",
+    "klub3": "zaglebielubin",
+    "klub4": "herthabsc",
+    "klub5": "-"
+  },
+  {
+    "id": 125,
+    "osoba": "Maciej Rybus",
+    "narodowosc": "pl",
+    "klub1": "spartakmoskwa",
+    "klub2": "lokomotiwmoskwa",
+    "klub3": "olympiquelyon",
+    "klub4": "terekgrozny",
+    "klub5": "legiawarszawa"
+  },
+  {
+    "id": 126,
+    "osoba": "Dariusz Dudka",
+    "narodowosc": "pl",
+    "klub1": "lechpoznan",
+    "klub2": "wislakrakow",
+    "klub3": "birminghamcity",
+    "klub4": "levante",
+    "klub5": "ajauxerre"
+  },
+  {
+    "id": 127,
+    "osoba": "Artur Boruc",
+    "narodowosc": "pl",
+    "klub1": "legiawarszawa",
+    "klub2": "bournemouth",
+    "klub3": "southampton",
+    "klub4": "fiorentina",
+    "klub5": "celticfc"
+  },
+  {
+    "id": 128,
+    "osoba": "Arkadiusz Milik",
+    "narodowosc": "pl",
+    "klub1": "juventus",
+    "klub2": "olympiquemarsylia",
+    "klub3": "napoli",
+    "klub4": "ajax",
+    "klub5": "fcaugsburg"
+  },
+  {
+    "id": 129,
+    "osoba": "Euzebiusz Smolarek",
+    "narodowosc": "pl",
+    "klub1": "jagiellonia",
+    "klub2": "adodenhaag",
+    "klub3": "poloniawarszawa",
+    "klub4": "borussiadortmund",
+    "klub5": "feyenoord"
+  },
+  {
+    "id": 130,
+    "osoba": "Krzysztof Piątek",
+    "narodowosc": "pl",
+    "klub1": "salernitana",
+    "klub2": "fiorentina",
+    "klub3": "herthabsc",
+    "klub4": "acmilan",
+    "klub5": "genoa"
+  },
+  {
+    "id": 131,
+    "osoba": "Tomasz Frankowski",
+    "narodowosc": "pl",
+    "klub1": "jagiellonia",
+    "klub2": "chicagofire",
+    "klub3": "wolverhampton",
+    "klub4": "elche",
+    "klub5": "wislakrakow"
+  },
+  {
+    "id": 132,
+    "osoba": "Adam Buksa",
+    "narodowosc": "pl",
+    "klub1": "rclens",
+    "klub2": "newenglandrevolution",
+    "klub3": "pogonszczecin",
+    "klub4": "zaglebielubin",
+    "klub5": "lechiagdansk"
+  },
+  {
+    "id": 133,
+    "osoba": "Karol Świderski",
+    "narodowosc": "pl",
+    "klub1": "charlottefc",
+    "klub2": "paoksaloniki",
+    "klub3": "jagiellonia",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 134,
+    "osoba": "Łukasz Skorupski",
+    "narodowosc": "pl",
+    "klub1": "bologna",
+    "klub2": "empoli",
+    "klub3": "asroma",
+    "klub4": "gornikzabrze",
+    "klub5": "-"
+  },
+  {
+    "id": 135,
+    "osoba": "Bartłomiej Drągowski",
+    "narodowosc": "pl",
+    "klub1": "speziacalcio",
+    "klub2": "empoli",
+    "klub3": "fiorentina",
+    "klub4": "jagiellonia",
+    "klub5": "-"
+  },
+  {
+    "id": 136,
+    "osoba": "Robert Gumny",
+    "narodowosc": "pl",
+    "klub1": "fcaugsburg",
+    "klub2": "podbeskidziebielskobiala",
+    "klub3": "lechpoznan",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 137,
+    "osoba": "Jakub Kiwior",
+    "narodowosc": "pl",
+    "klub1": "speziacalcio",
+    "klub2": "mkszilina",
+    "klub3": "zeleziarnepodbrezova",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 138,
+    "osoba": "Jan Bednarek",
+    "narodowosc": "pl",
+    "klub1": "astonvilla",
+    "klub2": "southampton",
+    "klub3": "gornikleczna",
+    "klub4": "lechpoznan",
+    "klub5": "-"
+  },
+  {
+    "id": 139,
+    "osoba": "Mateusz Wieteska",
+    "narodowosc": "pl",
+    "klub1": "clermontfoot63",
+    "klub2": "legiawarszawa",
+    "klub3": "gornikzabrze",
+    "klub4": "chrobryglogow",
+    "klub5": "dolcanzabki"
+  },
+  {
+    "id": 140,
+    "osoba": "Bartosz Bereszyński",
+    "narodowosc": "pl",
+    "klub1": "ucsampdoria",
+    "klub2": "legiawarszawa",
+    "klub3": "wartapoznan",
+    "klub4": "lechpoznan",
+    "klub5": "-"
+  },
+  {
+    "id": 141,
+    "osoba": "Arkadiusz Reca",
+    "narodowosc": "pl",
+    "klub1": "speziacalcio",
+    "klub2": "fccrotone",
+    "klub3": "spal2013",
+    "klub4": "atalanta",
+    "klub5": "wislaplock"
+  },
+  {
+    "id": 142,
+    "osoba": "Szymon Żurkowski",
+    "narodowosc": "pl",
+    "klub1": "empoli",
+    "klub2": "gornikzabrze",
+    "klub3": "fiorentina",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 143,
+    "osoba": "Sebastian Szymański",
+    "narodowosc": "pl",
+    "klub1": "feyenoord",
+    "klub2": "dinamomoskwa",
+    "klub3": "legiawarszawa",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 144,
+    "osoba": "Mateusz klich",
+    "narodowosc": "pl",
+    "klub1": "fcutrecht",
+    "klub2": "leedsunited",
+    "klub3": "fctwente",
+    "klub4": "fckaiserslautern",
+    "klub5": "wolfsburg"
+  },
+  {
+    "id": 145,
+    "osoba": "Karol Linetty",
+    "narodowosc": "pl",
+    "klub1": "torino",
+    "klub2": "ucsampdoria",
+    "klub3": "lechpoznan",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 146,
+    "osoba": "Przemysław Frankowski",
+    "narodowosc": "pl",
+    "klub1": "rclens",
+    "klub2": "chicagofire",
+    "klub3": "jagiellonia",
+    "klub4": "lechiagdansk",
+    "klub5": "-"
+  },
+  {
+    "id": 147,
+    "osoba": "Sadio Mané",
+    "narodowosc": "snl",
+    "klub1": "bayernmonachium",
+    "klub2": "liverpool",
+    "klub3": "southampton",
+    "klub4": "redbullsalzburg",
+    "klub5": "fcmetz"
+  },
+  {
+    "id": 148,
+    "osoba": "Miroslav klose",
+    "narodowosc": "de",
+    "klub1": "laziorzym",
+    "klub2": "bayernmonachium",
+    "klub3": "werderbrema",
+    "klub4": "fckaiserslautern",
+    "klub5": "-"
+  },
+  {
+    "id": 149,
+    "osoba": "Bastian Schweinsteiger",
+    "narodowosc": "de",
+    "klub1": "chicagofire",
+    "klub2": "manchasterunited",
+    "klub3": "bayernmonachium",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 150,
+    "osoba": "Philipp Lahm",
+    "narodowosc": "de",
+    "klub1": "bayernmonachium",
+    "klub2": "vfbstuttgart",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 151,
+    "osoba": "Manuel Neuer",
+    "narodowosc": "de",
+    "klub1": "bayernmonachium",
+    "klub2": "fcschalke04",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 152,
+    "osoba": "Toni Kroos",
+    "narodowosc": "de",
+    "klub1": "realmadryt",
+    "klub2": "bayer04leverkusen",
+    "klub3": "bayernmonachium",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 153,
+    "osoba": "Michael Ballack",
+    "narodowosc": "de",
+    "klub1": "bayer04leverkusen",
+    "klub2": "chelsea",
+    "klub3": "bayernmonachium",
+    "klub4": "fckaiserslautern",
+    "klub5": "-"
+  },
+  {
+    "id": 154,
+    "osoba": "Enner Valencia",
+    "narodowosc": "ec",
+    "klub1": "fenerbahce",
+    "klub2": "tigresuanl",
+    "klub3": "everton",
+    "klub4": "westhamunited",
+    "klub5": "-"
+  },
+  {
+    "id": 155,
+    "osoba": "Christian Pulisic",
+    "narodowosc": "us",
+    "klub1": "borussiadortmund",
+    "klub2": "chelsea",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 156,
+    "osoba": "Sergiño Dest",
+    "narodowosc": "us",
+    "klub1": "acmilan",
+    "klub2": "barcelona",
+    "klub3": "ajax",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 157,
+    "osoba": "Gareth Bale",
+    "narodowosc": "gb-wls",
+    "klub1": "losangelesfc",
+    "klub2": "realmadryt",
+    "klub3": "tottenhamhotspur",
+    "klub4": "southampton",
+    "klub5": "-"
+  },
+  {
+    "id": 158,
+    "osoba": "Aaron Ramsey",
+    "narodowosc": "gb-wls",
+    "klub1": "ogcnice",
+    "klub2": "rangersfc",
+    "klub3": "juventus",
+    "klub4": "arsenal",
+    "klub5": "cardiffcity"
+  },
+  {
+    "id": 159,
+    "osoba": "Paulo Dybala",
+    "narodowosc": "ar",
+    "klub1": "asroma",
+    "klub2": "juventus",
+    "klub3": "palermo",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 160,
+    "osoba": "Javier Hernández",
+    "narodowosc": "mx",
+    "klub1": "lagalaxy",
+    "klub2": "sevillafc",
+    "klub3": "westhamunited",
+    "klub4": "bayer04leverkusen",
+    "klub5": "manchasterunited"
+  },
+  {
+    "id": 161,
+    "osoba": "Guillermo OCHOA",
+    "narodowosc": "mx",
+    "klub1": "america",
+    "klub2": "standardliege",
+    "klub3": "malaga",
+    "klub4": "ajaccio",
+    "klub5": "america"
+  },
+  {
+    "id": 162,
+    "osoba": "Kingsley Coman",
+    "narodowosc": "fr",
+    "klub1": "bayernmonachium",
+    "klub2": "juventus",
+    "klub3": "psg",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 163,
+    "osoba": "Eduardo Camavinga",
+    "narodowosc": "fr",
+    "klub1": "realmadryt",
+    "klub2": "rennes",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 164,
+    "osoba": "Aurélien Tchouaméni",
+    "narodowosc": "fr",
+    "klub1": "realmadryt",
+    "klub2": "asmonaco",
+    "klub3": "fcgirondinsdebordeaux",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 165,
+    "osoba": "Dayot Upamecano",
+    "narodowosc": "fr",
+    "klub1": "bayernmonachium",
+    "klub2": "rbleipzig",
+    "klub3": "redbullsalzburg",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 166,
+    "osoba": "Tim Cahill",
+    "narodowosc": "au",
+    "klub1": "millwall",
+    "klub2": "melbournecityfc",
+    "klub3": "hangzhougreentown",
+    "klub4": "shanghaishenhua",
+    "klub5": "newyorkredbulls"
+  }
+]

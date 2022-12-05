@@ -1744,5 +1744,14 @@
     "surface":83600,
     "population":4621000,
     "code": "AE"
+  },
+  {
+    "id":195,
+    "name": "Walia",
+    "continent": "Europa",
+    "capital": "Cardiff",
+    "surface":20779,
+    "population":3113200,
+    "code": "gb-wls"
   }
 ]
