@@ -64,38 +64,4 @@ export class CountriesQuestionService {
       }
     }
   }
-
-  /*putCountries(newArray: Country[] | string[], question: string): Country[] | string[] | any {
-    if (!this.init) {
-      this.initial()
-    }
-    switch (question) {
-      case 'capitalsLetters': {
-        this.capitalsLetters = newArray
-        break;
-      }
-      case 'countriesLetters': {
-        this.countriesLetters = newArray
-        break;
-      }
-      case 'continentsForCountries': {
-        this.continentsForCountries = newArray
-        break;
-      }
-      case 'continentsForCapitals': {
-        this.continentsForCapitals = newArray
-        break;
-      }
-      case 'countriesForCapitals': {
-        this.countriesForCapitals = newArray
-        break;
-      }
-      case 'countriesForFlags': {
-        return this.countriesForFlags = newArray
-      }
-      default: {
-        break;
-      }
-    }
-  }*/
 }

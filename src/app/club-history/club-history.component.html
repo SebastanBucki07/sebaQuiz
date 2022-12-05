@@ -1,0 +1,43 @@
+<ng-container *ngIf="isModalVisible">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+      odp
+    </button>
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <ng-container *ngIf="isVisible">
+      <button type="button" class="btn btn-success"
+              (click)="playerService.addPoints(playerService.actualPlayer,2);close()">2
+      </button>
+    </ng-container>
+    <app-timer></app-timer>
+    <div class="row">
+      <h1>To jest moja skrócona historia klubowa, kim jestem?</h1>
+      <div class="col-12">
+        <p>Narodowość:</p>
+        <img class="flague-image" src="assets/flagues/{{tip.toLowerCase()}}.png" alt="flaga {{tip}}">
+      </div>
+      <div class="col-12">
+        <img *ngIf="random1.klub1 != '-' " class="club-image" src="assets/clubs/{{random1.klub1.toLowerCase()}}.png"
+             alt="{{random1.klub1.toLowerCase()}}">
+        <img *ngIf="random1.klub2 != '-' " class="club-image" src="assets/clubs/{{random1.klub2.toLowerCase()}}.png"
+             alt="{{random1.klub2.toLowerCase()}}">
+        <img *ngIf="random1.klub3 != '-' " class="club-image" src="assets/clubs/{{random1.klub3.toLowerCase()}}.png"
+             alt="{{random1.klub3.toLowerCase()}}">
+        <img *ngIf="random1.klub4 != '-' " class="club-image" src="assets/clubs/{{random1.klub4.toLowerCase()}}.png"
+             alt="{{random1.klub4.toLowerCase()}}">
+        <img *ngIf="random1.klub5 != '-' " class="club-image" src="assets/clubs/{{random1.klub5.toLowerCase()}}.png"
+             alt="{{random1.klub5.toLowerCase()}}">
+      </div>
+    </div>
+
+    <ng-container *ngIf="isVisible">
+      <div class="info">
+        <div class="correct col-12 ">{{answer}}</div>
+      </div>
+    </ng-container>
+
+  </div>
+</ng-container>
+

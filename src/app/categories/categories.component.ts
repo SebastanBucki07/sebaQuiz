@@ -19,6 +19,7 @@ export class CategoriesComponent implements OnInit {
     {name: "Fragmenty ksiażek", id: 0, checkbox: false},
     {name: "Fragmenty piosenek", id: 1, checkbox: false},
     {name: "Kraje", id: 2, checkbox: false},
+    {name: "Klubowa Historia", id: 3, checkbox: false},
   ]
   public chosenCategories: Category[] = []
 
