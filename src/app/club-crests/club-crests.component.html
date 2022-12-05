@@ -1,0 +1,34 @@
+<ng-container *ngIf="isModalVisible">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+      odp
+    </button>
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <ng-container *ngIf="isVisible">
+      <button type="button" class="btn btn-success"
+              (click)="playerService.addPoints(playerService.actualPlayer,2);close()">2
+      </button>
+    </ng-container>
+    <app-timer></app-timer>
+    <div class="row">
+      <h1>Jakiego klubu to herb?</h1>
+
+      <div class="col-12 col-lg-4 offset-lg-4">
+        <div class="test" *ngIf="!isVisible" [ngStyle]="{
+      'background': 'url(assets/clubs/' + random1+') -50px -50px no-repeat','height':'300px','width':'300px','background-size': '300%'}"></div>
+      </div>
+
+      <ng-container *ngIf="isVisible">
+        <div [ngStyle]="{
+      'background': 'url(assets/clubs/' + random1+')  no-repeat','height':'300px','width':'300px','background-size': '50%'}"></div>
+        <h4>{{random1}}</h4>
+      </ng-container>
+    </div>
+
+
+
+  </div>
+</ng-container>
+
