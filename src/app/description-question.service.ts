@@ -5,6 +5,8 @@ import serialsData from "../assets/movies/serials.json";
 import gamesData from "../assets/games/games.json";
 import allDistricts from "../assets/poland/citiesPL.json";
 import allStadiums from "../assets/stadions/stadions.json";
+import allProverbs from "../assets/proverbs/proverbs.json";
+import allHistory from "../assets/history/history.json";
 import {getAndDeleteRandomElementFromArray} from "../common/randomize.helper";
 
 @Injectable({
@@ -16,6 +18,8 @@ export class DescriptionQuestionService {
   public allGames: DescriptionModel[] = []
   public allDisctricts: DescriptionModel[] = []
   public allStadiums: DescriptionModel[] = []
+  public allProverbs: DescriptionModel[] = []
+  public allHistory: DescriptionModel[] = []
   public init = false
 
   constructor() {
@@ -27,6 +31,8 @@ export class DescriptionQuestionService {
     this.allGames = gamesData
     this.allDisctricts = allDistricts
     this.allStadiums = allStadiums
+    this.allProverbs = allProverbs
+    this.allHistory = allHistory
     this.init = true
   }
 
@@ -63,5 +69,19 @@ export class DescriptionQuestionService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allStadiums)
+  }
+
+  getProverbQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allProverbs)
+  }
+
+  getHistoryQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allHistory)
   }
 }

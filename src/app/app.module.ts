@@ -14,8 +14,8 @@ import { ClubHistoryComponent } from './club-history/club-history.component';
 import { ClubCrestsComponent } from './club-crests/club-crests.component';
 import {
   DistrictsComponent,
-  GamesComponent,
-  MoviesComponent,
+  GamesComponent, HistoryComponent,
+  MoviesComponent, ProverbsComponent,
   SerialsComponent, StadiumsComponent
 } from './description/description.component';
 
@@ -34,7 +34,9 @@ import {
     SerialsComponent,
     GamesComponent,
     DistrictsComponent,
-    StadiumsComponent
+    StadiumsComponent,
+    ProverbsComponent,
+    HistoryComponent
   ],
   imports: [
     BrowserModule,

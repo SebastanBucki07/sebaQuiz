@@ -53,6 +53,18 @@ export abstract class DescriptionComponent {
         this.points = 4
         break
       }
+      case 'proverb': {
+        this.random1 = this.descriptionQuestionService.getProverbQuestion()
+        this.question = 'Dokończ przysłowie'
+        this.points = 2
+        break
+      }
+      case 'history': {
+        this.random1 = this.descriptionQuestionService.getHistoryQuestion()
+        this.question = 'Podaj datę'
+        this.points = 4
+        break
+      }
       default: {
         break;
       }
@@ -126,5 +138,27 @@ export class DistrictsComponent extends DescriptionComponent implements OnInit {
 export class StadiumsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('stadium')
+  }
+}
+
+@Component({
+  selector: 'app-proverbs',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class ProverbsComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('proverb')
+  }
+}
+
+@Component({
+  selector: 'app-history',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class HistoryComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('history')
   }
 }

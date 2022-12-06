@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "description": "Gdzie kucharek sześc",
+    "title": "Tam nie ma co jeść"
+  },
+  {
+    "id": 2,
+    "description": "Nie daleko pada",
+    "title": "jabłko od jabłoni"
+  },
+  {
+    "id": 3,
+    "description": "Co za dużo",
+    "title": "to nie zdrowo"
+  },
+  {
+    "id": 4,
+    "description": "a co po czyjej wielkości",
+    "title": "jak nie ma w głowie mądrości"
+  },
+  {
+    "id": 5,
+    "description": "co swój,",
+    "title": "to nie obcy"
+  },
+  {
+    "id": 6,
+    "description": "co wolno wojewodzie",
+    "title": "to nie tobie, smrodzie"
+  },
+  {
+    "id": 7,
+    "description": "fortuna często",
+    "title": "rozumowi przeczy"
+  },
+  {
+    "id": 8,
+    "description": "czekaj tatka latka",
+    "title": "aż kobyłkę wilki zjedzą"
+  },
+  {
+    "id": 9,
+    "description": "dał Pan Bóg zęby,",
+    "title": "da i chleb"
+  },
+  {
+    "id": 10,
+    "description": "dobrego syna nigdy",
+    "title": "Bóg nie zapomina"
+  },
+  {
+    "id": 11,
+    "description": "dzisiaj bal,",
+    "title": "jutro żal"
+  },
+  {
+    "id": 12,
+    "description": "dzieci i ryby",
+    "title": "głosu nie mają"
+  },
+  {
+    "id": 13,
+    "description": "człek do pracy stworzon,",
+    "title": "ptak do lotu"
+  },
+  {
+    "id": 14,
+    "description": "chłopa korcem",
+    "title": "nie mierzą"
+  },
+  {
+    "id": 15,
+    "description": "ciągnie swój",
+    "title": "do swego"
+  },
+  {
+    "id": 16,
+    "description": "chleb, piwo i świéca",
+    "title": "zdobią szlachcica"
+  },
+  {
+    "id": 17,
+    "description": "gdzie praca, pilność na straży,",
+    "title": "tam się bieda wejść nie waży"
+  },
+  {
+    "id": 18,
+    "description": "jedna owca parszywa",
+    "title": "całe stado zarazi"
+  },
+  {
+    "id": 19,
+    "description": "każda pliszka",
+    "title": "swój ogon chwali"
+  },
+  {
+    "id": 20,
+    "description": "kot się myje",
+    "title": "będą goście"
+  },
+  {
+    "id": 21,
+    "description": "kto ma szczęście",
+    "title": "temu i wół cielę urodzi"
+  },
+  {
+    "id": 22,
+    "description": "kochajmy się jak bracia",
+    "title": "liczmy się jak Żydzi"
+  },
+  {
+    "id": 23,
+    "description": "jakie jabłko, taka skórka",
+    "title": "jaka matka, taka córka"
+  },
+  {
+    "id": 24,
+    "description": "gdy Zuzanna z pogodą chadza,",
+    "title": "piękną jesień przyprowadza"
+  },
+  {
+    "id": 25,
+    "description": "konia kują,",
+    "title": "żaba nogę podstawia"
+  },
+  {
+    "id": 26,
+    "description": "na złodzieju",
+    "title": "czapka gore"
+  },
+  {
+    "id": 27,
+    "description": "nosił wilk razy kilka",
+    "title": "ponieśli i wilka"
+  },
+  {
+    "id": 28,
+    "description": "na świętego Grzegorza",
+    "title": "idą rzeki do morza"
+  },
+  {
+    "id": 29,
+    "description": "lepszy wróbel w ręku",
+    "title": "niż cietrzew na sęku"
+  },
+  {
+    "id": 30,
+    "description": "pijak podobny jest do zwierza:",
+    "title": "ni do roboty, ni do pacierza"
+  },
+  {
+    "id": 31,
+    "description": "sól świętej Agaty",
+    "title": "broni od ognia chaty"
+  },
+  {
+    "id": 32,
+    "description": "bez pracy",
+    "title": "nie ma kołaczy"
+  },
+  {
+    "id": 33,
+    "description": "darowanemu koniowi",
+    "title": "w zęby się nie zagląda"
+  },
+  {
+    "id": 34,
+    "description": "nie chwal dnia",
+    "title": "przed zachodem słońca"
+  },
+  {
+    "id": 35,
+    "description": "Fortuna",
+    "title": "kołem się toczy"
+  },
+  {
+    "id": 36,
+    "description": "apetyt rośnie",
+    "title": "w miarę jedzenia"
+  },
+  {
+    "id": 37,
+    "description": "co ma wisieć",
+    "title": "nie utonie"
+  },
+  {
+    "id": 38,
+    "description": "grosz do grosza",
+    "title": "a będzie kokosza"
+  },
+  {
+    "id": 39,
+    "description": "co nagle",
+    "title": "to po diable"
+  },
+  {
+    "id": 40,
+    "description": "gdy kota nie ma",
+    "title": "myszy harcuja"
+  },
+  {
+    "id": 41,
+    "description": "jak Kuba Bogu",
+    "title": "tak Bóg kubie"
+  },
+  {
+    "id": 42,
+    "description": "kto mieczem wojuje",
+    "title": "od miecza ginie"
+  },
+  {
+    "id": 43,
+    "description": "kto pyta",
+    "title": "nie błądzi"
+  },
+  {
+    "id": 44,
+    "description": "kuc żelazo",
+    "title": "póki gorące"
+  },
+  {
+    "id": 45,
+    "description": "modli się pod figurą",
+    "title": "a diabła ma za skórą"
+  },
+  {
+    "id": 46,
+    "description": "co z oczu",
+    "title": "to z serca"
+  },
+  {
+    "id": 47,
+    "description": "z dużej chmury",
+    "title": "mały deszcz"
+  },
+  {
+    "id": 48,
+    "description": "kto pod kim dołki kopie,",
+    "title": "sam w nie wpada"
+  },
+  {
+    "id": 49,
+    "description": "kradzione",
+    "title": "nie tuczy"
+  },
+  {
+    "id": 50,
+    "description": "nie rób komuś tego",
+    "title": "co tobie nie miłe"
+  },
+  {
+    "id": 51,
+    "description": "broda",
+    "title": "mędrcem nie czyni"
+  },
+  {
+    "id": 52,
+    "description": "im więcej masz",
+    "title": "tym więcej chcesz mieć"
+  }
+]
