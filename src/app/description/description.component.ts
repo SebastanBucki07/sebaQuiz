@@ -26,16 +26,25 @@ export abstract class DescriptionComponent {
       case 'movie': {
         this.random1 = this.descriptionQuestionService.getMoviesDescriptionQuestion()
         this.question = 'Co to za film?'
+        this.points = 2
         break
       }
       case 'serial': {
         this.random1 = this.descriptionQuestionService.getSerialsDescriptionQuestion()
         this.question = 'Co to za serial?'
+        this.points = 2
         break
       }
       case 'game': {
         this.random1 = this.descriptionQuestionService.getGamesDescriptionQuestion()
         this.question = 'Co to za gra'
+        this.points = 2
+        break
+      }
+      case 'district': {
+        this.random1 = this.descriptionQuestionService.getDistrictsDescriptionQuestion()
+        this.question = 'Z jakiego jestem województwa?'
+        this.points = 3
         break
       }
       default: {
@@ -89,5 +98,16 @@ export class SerialsComponent extends DescriptionComponent implements OnInit {
 export class GamesComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('game')
+  }
+}
+
+@Component({
+  selector: 'app-districts',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class DistrictsComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('district')
   }
 }

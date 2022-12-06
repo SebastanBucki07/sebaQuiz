@@ -13,6 +13,7 @@ import { TimerComponent } from './timer/timer.component';
 import { ClubHistoryComponent } from './club-history/club-history.component';
 import { ClubCrestsComponent } from './club-crests/club-crests.component';
 import {
+  DistrictsComponent,
   GamesComponent,
   MoviesComponent,
   SerialsComponent
@@ -31,7 +32,8 @@ import {
     ClubCrestsComponent,
     MoviesComponent,
     SerialsComponent,
-    GamesComponent
+    GamesComponent,
+    DistrictsComponent
   ],
   imports: [
     BrowserModule,
