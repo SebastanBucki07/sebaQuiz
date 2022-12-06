@@ -1,19 +1,10 @@
-<!--<button class="btn btn-primary btn-lg btn-block answer" (click)="getQuestion()">Następne z kategorii wersy piosenek</button>-->
-
 <ng-container *ngIf="isModalVisible">
   <div class="modal">
     <div class="row">
-      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-      <ng-container *ngIf="isAnswer1Visible">
-        <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">{{points*multiply}}</button>
-      </ng-container>
-      <ng-container *ngIf="isAnswer2Visible">
-        <button type="button" class="btn btn-danger" (click)="playerService.addPoints(playerService.actualPlayer,-3);close()">{{-3}}</button>
-        <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2*points*multiply);close()">{{2*points*multiply}}</button>
-      </ng-container>
-      <div class="col-8 question">{{question}}</div>
-      <i class="bi bi-x-circle"></i>
-
+      <div class="col-12 question">
+        <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+        <i class="bi bi-x-circle"></i>
+      </div>
       <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion1();setMultiply(3)">
         fragment 1
       </button>
@@ -29,6 +20,15 @@
       <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer2()">
         Pokaż wykonawce
       </button>
+
+      <ng-container *ngIf="isAnswer1Visible">
+        <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">{{points*multiply}}</button>
+      </ng-container>
+      <ng-container *ngIf="isAnswer2Visible">
+        <button type="button" class="btn btn-danger" (click)="playerService.addPoints(playerService.actualPlayer,-3);close()">{{-3}}</button>
+        <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2*points*multiply);close()">{{2*points*multiply}}</button>
+      </ng-container>
+      <div class="col-12 question">{{question}}</div>
       <ng-container *ngIf="isQuestion1Visible">
         <div class="info">
           <div class="col-12 tip">{{question1}}</div>

@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "title": "CZARNOBYL",
+    "description": "Po wybuchu elektrowni jądrowej w Czarnobylu ratownicy poświęcają zdrowie i życie, by ratować Europę przed skutkami katastrofy."
+  },
+  {
+    "id": 2,
+    "title": "GRA O TRON",
+    "description": "Adaptacja sagi George'a R.R. Martina. W królestwie Westeros walka o władzę, spiski oraz zbrodnie są na porządku dziennym."
+  },
+  {
+    "id": 3,
+    "title": "BREAKING BAD",
+    "description": "Gdy nauczyciel chemii dowiaduje się, że ma raka, postanawia rozpocząć produkcję metamfetaminy, by finansowo zabezpieczyć swoją rodzinę."
+  },
+  {
+    "id": 4,
+    "title": "OSTATNI TANIEC",
+    "description": "Serial dokumentalny o karierze Michaela Jordana i legendarnej drużynie Chicago Bulls z lat 90. Zawiera niepublikowane dotąd nagrania z sezonu 1997–1998."
+  },
+  {
+    "id": 5,
+    "title": "SHERLOCK",
+    "description": "John Watson jest lekarzem wojskowym, który niedawno wrócił z wojny. Gdy poznaje genialnego detektywa Sherlocka Holmesa, zaczyna pomagać mu w rozwiązywaniu zagadek kryminalnych."
+  },
+  {
+    "id": 6,
+    "title": "PEAKY BLINDERS",
+    "description": "Należący do gangsterskiej rodziny z Birmingham Tommy Shelby usiłuje zwiększyć swoje wpływy, wykorzystując skradziony transport broni."
+  },
+  {
+    "id": 7,
+    "title": "NARCOS",
+    "description": "Dwaj agenci zostają wysłani do Kolumbii, aby zakończyć działalność handlarza narkotyków."
+  },
+  {
+    "id": 8,
+    "title": "MIASTECZKO TWIN PEAKS",
+    "description": "W sennym i spokojnym miasteczku zostaje odnalezione ciało uczennicy, Laury Palmer."
+  },
+  {
+    "id": 9,
+    "title": "HOUSE OF CARDS",
+    "description": "Francis Underwood jest bezwzględnym politykiem próbującym się zemścić na prezydencie, który pominął go przy obsadzeniu stanowiska sekretarza stanu."
+  },
+  {
+    "id": 10,
+    "title": "WIKINGOWIE",
+    "description": "Młody wiking, Ragnar Lothbrok, pragnie, by wyprawy łupieżcze odbywały się nie tylko na wschód, ale także w kierunku przeciwnym."
+  },
+  {
+    "id": 11,
+    "title": "GOMORRA",
+    "description": "Jeden z przywódców kamorry trafia do więzienia. Rozpoczyna się walka o przejęcie władzy w mafii."
+  },
+  {
+    "id": 12,
+    "title": "STRANGER THINGS",
+    "description": "Podczas powrotu do domu znika dwunastoletni Will Byers. Zaginięcie chłopca jest początkiem dziwnych i niebezpiecznych wydarzeń trapiących prowincjonalne miasteczko."
+  },
+  {
+    "id": 13,
+    "title": "CZARNE LUSTRO",
+    "description": "W przyszłości ludzie mierzą się z problemami, których przysparzają im nowoczesne technologie i rozwój cywilizacji."
+  },
+  {
+    "id": 14,
+    "title": "PRZYJACIELE",
+    "description": "Losy szóstki przyjaciół, którzy mieszkają i pracują w Nowym Jorku."
+  },
+  {
+    "id": 15,
+    "title": "DOM Z PAPIERU",
+    "description": "Ośmioro zamaskowanych przestępców napada na hiszpańską mennicę narodową. Ich przedstawicielem jest tajemniczy Profesor, który prowadzi negocjacje z policją."
+  },
+  {
+    "id": 16,
+    "title": "DR HOUSE",
+    "description": "Grupa lekarzy na czele z charyzmatycznym, acz aspołecznym doktorem House'em diagnozuje nietypowe choroby, niejednokrotnie ratując życie pacjentom."
+  },
+  {
+    "id": 17,
+    "title": "DARK",
+    "description": "Zaginięcie dzieci ujawnia podwójne życie i nadszarpnięte relacje członków czterech rodzin, łącząc się z wydarzeniami sprzed trzydziestu lat."
+  },
+  {
+    "id": 18,
+    "title": "PitBull",
+    "description": "Warszawscy policjanci wydziału zabójstw zmagają się z problemami codziennego życia i stołeczną przestępczością."
+  },
+  {
+    "id": 19,
+    "title": "THE CROWN",
+    "description": "Po śmierci króla Jerzego VI nową władczynią Wielkiej Brytanii zostaje jego córka Elżbieta II. Kobieta obejmuje tron w momencie, kiedy imperium chyli się ku upadkowi."
+  },
+  {
+    "id": 20,
+    "title": "DEXTER",
+    "description": "Dexter prowadzi podwójne życie. Za dnia jest cenionym specjalistą ds. krwi w departamencie policji, a nocą zabija złoczyńców, którzy wymykają się organom sprawiedliwości."
+  },
+  {
+    "id": 21,
+    "title": "UTOPIA",
+    "description": "Grupa niezwiązanych ze sobą ludzi wchodzi w posiadanie manuskryptu legendarnej powieści graficznej. Tym samym stają się celem mrocznej i morderczej organizacji o nazwie \"Sieć\"."
+  },
+  {
+    "id": 22,
+    "title": "GAMBIT KRÓLOWEJ",
+    "description": "Mieszkająca w sierocińcu dziewczyna odkrywa swój wielki talent szachowy. Jednocześnie musi walczyć z uzależnieniem."
+  },
+  {
+    "id": 23,
+    "title": "W GARNITURACH",
+    "description": "Dzięki swojej fotograficznej pamięci i ponadprzeciętnej inteligencji Mike Ross zdobywa pracę u Harveya Spectera. Jednak firma, w której pracuje, zatrudnia jedynie prawników z Uniwersytetu Harvarda."
+  },
+  {
+    "id": 24,
+    "title": "SYNOWIE ANARCHII",
+    "description": "Jax Teller, wiceprezydent i syn założyciela motocyklowego gangu, odnajduje stare dzienniki ojca. Pod ich wpływem postanawia dokonać zmian w klubie."
+  },
+  {
+    "id": 25,
+    "title": "MŁODY PAPIEŻ",
+    "description": "Lenny Belardo przyjmuje imię Piusa XIII i zostaje pierwszym amerykańskim papieżem w historii kościoła."
+  },
+  {
+    "id": 26,
+    "title": "WATAHA",
+    "description": "Kapitan Wiktor Rebrow próbuje rozwikłać zagadkę zamachu bombowego, w którym zginęli jego przyjaciele ze Straży Granicznej w Bieszczadach."
+  },
+  {
+    "id": 27,
+    "title": "MR. ROBOT",
+    "description": "Młody programista komputerowy pracujący nad bezpieczeństwem sieciowym wielkich korporacji zostaje zwerbowany przez grupę hakerów."
+  },
+  {
+    "id": 28,
+    "title": "AMERICAN HORROR STORY: ASYLUM",
+    "description": "Lana zamierza napisać artykuł o seryjnym mordercy kobiet, więc włamuje się do zakładu psychiatrycznego. Zostaje schwytana przez pracowników i uwięziona w placówce."
+  },
+  {
+    "id": 29,
+    "title": "JAK POZNAŁEM WASZĄ MATKĘ",
+    "description": "Historia pięciorga przyjaciół opowiedziana po latach z perspektywy jednego z nich – architekta Teda, który z wszelkich sił stara się znaleźć tę jedyną."
+  },
+  {
+    "id": 30,
+    "title": "SPARTAKUS: KREW I PIACH",
+    "description": "Skazany na niewolę Spartakus jednoczy wokół siebie armię niewolników i podejmuje walkę z wojskami Republiki."
+  },
+  {
+    "id": 31,
+    "title": "CZAS HONORU",
+    "description": "Losy grupy młodych polskich oficerów - tzw. \"cichociemnych\" skoczków - zrzuconych na teren okupowanej Polski w czasie II wojny światowej."
+  },
+  {
+    "id": 32,
+    "title": "RZYM",
+    "description": "Juliusz Cezar po zakończeniu wojny w Galii i jej podbiciu wraca do Rzymu."
+  },
+  {
+    "id": 33,
+    "title": "TEORIA WIELKIEGO PODRYWU",
+    "description": "Dla Leonarda i Sheldona nie ma tajemnic w naukach ścisłych czy grach komputerowych. W relacjach damsko-męskich nie radzą sobie w ogóle."
+  },
+  {
+    "id": 34,
+    "title": "SQUID GAME",
+    "description": "Setki spłukanych graczy przyjmują dziwne zaproszenie do udziału w grach dla dzieci. Nagroda jest kusząca, ale stawka — przerażająco wysoka."
+  },
+  {
+    "id": 35,
+    "title": "Z ARCHIWUM X",
+    "description": "Dwójka agentów FBI pracuje w wydziale X zajmującym się zjawiskami paranormalnymi."
+  },
+  {
+    "id": 36,
+    "title": "EL CHAPO",
+    "description": "Serial oparty na prawdziwej historii wzlotów i upadków okrytego złą sławą meksykańskiego barona narkotykowego — Joaquína"
+  },
+  {
+    "id": 37,
+    "title": "THE WALKING DEAD",
+    "description": "Oficer policji Rick Grimes przewodzi grupie ocalałych w świecie opanowanym przez zombi."
+  },
+  {
+    "id": 38,
+    "title": "PACYFIK",
+    "description": "Prawdziwa historia trzech żołnierzy Korpusu Piechoty Morskiej Stanów Zjednoczonych, którzy walczą z Japończykami na wyspach Pacyfiku podczas II Wojny Światowej."
+  },
+  {
+    "id": 39,
+    "title": "KOMPANIA BRACI",
+    "description": "Losy Kompanii E, 506 pułku piechoty spadochronowej, 101 Dywizji Powietrznodesantowej Armii USA opowiedziane z perspektywy tych, którzy przeżyli drugą wojnę światową."
+  },
+  {
+    "id": 40,
+    "title": "LOST",
+    "description": "ZAGUBIENI"
+  },
+  {
+    "id": 41,
+    "title": "PAMIĘTNIKI WAMPIRÓW",
+    "description": "Dwóch braci wampirów wraca w rodzinne strony, gdzie poznają Elenę, nastolatkę uderzająco podobną do wampirzycy, która ich przemieniła."
+  },
+  {
+    "id": 42,
+    "title": "THE ORIGINALS",
+    "description": "Klaus, najstarszy wampir na świecie, wraz z rodzeństwem powraca do Nowego Orleanu, który wybudował kilkaset lat temu. Odkrywa, że władzę nad jego miastem sprawuje teraz Marcel."
+  },
+  {
+    "id": 43,
+    "title": "WAMPIRY: DZIEDZICTWO",
+    "description": "Hope Mikaelson - hybryda wampira i wilkołaka - rozpoczyna naukę w szkole dla nadprzyrodzonych istot."
+  },
+  {
+    "id": 44,
+    "title": "SHADOWHUNTERS",
+    "description": "Nastoletnia dziewczyna odkrywa, że pochodzi z rodu Nocnych Łowców. Jej przeznaczeniem jest chronić świat przed atakami demonów."
+  },
+  {
+    "id": 45,
+    "title": "CZYSTA KREW",
+    "description": "Sookie Stackhouse potrafi czytać w myślach. Lubi przebywać w towarzystwie wampirów, bo ich jako jedynych nie słyszy."
+  },
+  {
+    "id": 46,
+    "title": "SKAZANY NA SMIERĆ",
+    "description": "Młodszy brat skazanego na śmierć więźnia z Fox River postanawia go uratować. Pozoruje napad na bank, by trafić do tego samego zakładu karnego."
+  },
+  {
+    "id": 47,
+    "title": "SŁONECZNY PATROL",
+    "description": "Ratownicy patrolują plaże w Los Angeles, dbając o bezpieczeństwo turystów."
+  },
+  {
+    "id": 48,
+    "title": "SKAZANA",
+    "description": "Sędzia Alicja Mazur znana ze swojej surowości wobec przestępców zostaje oskarżona o zabójstwo, którego nie popełniła. Trafia do więzienia, gdzie musi przetrwać wśród kobiet, na które sama wydała wcześniej wyrok."
+  },
+  {
+    "id": 49,
+    "title": "KRUK",
+    "description": "Na Podlasiu zostaje porwany jedenastoletni chłopiec. Sprawą uprowadzenia ma zająć się inspektor Adam Kruk, który właśnie powrócił do swojego rodzinnego miasta."
+  },
+  {
+    "id": 50,
+    "title": "BELFER",
+    "description": "Do Dobrowic przyjeżdża Paweł Zawadzki, nauczyciel języka polskiego, który na własną rękę podejmuje śledztwo w sprawie śmierci uczennicy miejscowej szkoły średniej."
+  },
+  {
+    "id": 51,
+    "title": "DOLINA KRZEMOWA",
+    "description": "Pasjonaci najnowszej technologii otrzymują środki na wyprodukowanie kolejnych wynalazków."
+  },
+  {
+    "id": 52,
+    "title": "ODWRÓCENI",
+    "description": "Policjanci rozpracowujący gang pruszkowski próbują pozyskać informatora z wewnętrznego kręgu. Okazja nadarza się, gdy stojący wysoko w mafijnej hierarchii \"Blacha\" zostaje oskarżony o gwałt."
+  },
+  {
+    "id": 53,
+    "title": "WESTWORLD",
+    "description": "Naukowiec tworzy futurystyczny park rozrywki, który zamieszkany jest przez posiadające sztuczną inteligencję tzw. \"hosty\"."
+  },
+  {
+    "id": 54,
+    "title": "KLANGOR",
+    "description": "Gdy znika córka psychologa więziennego rozpoczyna on poszukiwania na własną rękę."
+  },
+  {
+    "id": 55,
+    "title": "ŚLEPNĄC OD ŚWIATEŁ",
+    "description": "Perfekcyjnie poukładane życie dilera kokainowego Kuby zmienia się w chaos, gdy z więzienia wychodzi Dario, gangster starej daty."
+  },
+  {
+    "id": 56,
+    "title": "PAKT",
+    "description": "Dziennikarz Piotr Grodecki odkrywa spisek na wysoką skalę, a sprawa jest bardziej zawiła, niż myślał."
+  },
+  {
+    "id": 57,
+    "title": "STULECIE WINNYCH",
+    "description": "Serial realizowany na motywach bestsellerowej, trzytomowej sagi Ałbeny Grabowskiej o tym samym tytule. Jest to pełna nieoczekiwanych zwrotów akcji opowieść o wielopokoleniowej rodzinie"
+  },
+  {
+    "id": 58,
+    "title": "OFICER",
+    "description": "Kruszon, oficer policji, otrzymuje zadanie polegające na wniknięciu w struktury zorganizowanej przestępczości."
+  },
+  {
+    "id": 59,
+    "title": "CZTEREJ PANCERNI I PIES",
+    "description": "Przygody żołnierzy młodego Wojska Polskiego, którzy w czołgu o numerze 102 przemierzają Polskę, walcząc o jej wyzwolenie."
+  },
+  {
+    "id": 60,
+    "title": "WIEDŹMIN",
+    "description": "Wiedźmin Geralt, zmutowany łowca potworów, szuka swojego miejsca w świecie, gdzie ludzie często okazują się gorsi niż najstraszniejsze monstra."
+  },
+  {
+    "id": 61,
+    "title": "KRÓL",
+    "description": "1937 rok. W Warszawie działa gang dowodzony przez Kuma Kaplicę i Jakuba Szapiro."
+  },
+  {
+    "id": 62,
+    "title": "07 ZGŁOŚ SIĘ",
+    "description": "Po zakończeniu służby na placówce w Wielkiej Brytanii Borewicz zostaje skierowany do Urzędu Spraw Wewnętrznych. Daje się tam poznać jako niekonwencjonalny i skuteczny śledczy."
+  },
+  {
+    "id": 63,
+    "title": "JANOSIK",
+    "description": "Tatrzański zbójnik przeciwstawia się austriackiemu zaborcy oraz staje w obronie uciśnionych chłopów."
+  },
+  {
+    "id": 64,
+    "title": "O MNIE SIĘ NIE MARTW",
+    "description": "Iga jest samotną matką wychowującą dwójkę dzieci. Wkrótce kobieta poznaje młodego adwokata."
+  },
+  {
+    "id": 65,
+    "title": "CZTERDZIESTOLATEK",
+    "description": "Inżynier Karwowski kończy czterdzieści lat. Jego życie rodzinne i zawodowe pełne jest niezwykłych perypetii."
+  },
+  {
+    "id": 66,
+    "title": "RANCZO",
+    "description": "Losy Amerykanki Lucy Wilskiej, która po przyjeździe do małej wioski na Podlasiu dostaje w spadku dworek. Z biegiem czasu jej życie zaczyna się coraz bardziej komplikować."
+  },
+  {
+    "id": 67,
+    "title": "POD POWIERZCHNIĄ",
+    "description": "Bartek jest dyrektorem szanowanego liceum i wspólnie z Mart, nauczycielką języka polskiego, tworzą pozornie kochające się małżeństwo. Traumatyczne przejścia powodują, że para przeżywa poważny kryzys. Czy uda im się uratować swój związek przed rozpadem?"
+  },
+  {
+    "id": 68,
+    "title": "DOLINA KRZEMOWA",
+    "description": "Pasjonaci najnowszej technologii otrzymują środki na wyprodukowanie kolejnych wynalazków."
+  },
+  {
+    "id": 69,
+    "title": "SKAZANE",
+    "description": "Historia czterech kobiet, które odwiedzają zakład karny, gdzie przybywają ich bliscy."
+  },
+  {
+    "id": 70,
+    "title": "DIAGNOZA",
+    "description": "Czasem jedno nieoczekiwane wydarzenie może nieodwracalnie zmienić dotychczasowe życie. Co się stanie, jeśli pewnego dnia ockniesz się i odkryjesz, że nie wiesz, kim jesteś, kogo kochasz i na czym ci zależy? Czy los może być aż tak okrutny, by odebrać wszystko, nawet tożsamość i wspomnienia? Jak na nowo ułożyć puzzle życia, gdy brakuje podstawowych elementów układanki?"
+  },
+  {
+    "id": 71,
+    "title": "ROJST",
+    "description": "Powódź stulecia” nawiedziła południowy zachód Polski latem 1997 roku. Woda zalewa część miasta odsłaniając zakopane w lesie ludzkie szczątki oraz ciało nastoletniego chłopca, który początkowo uznany zostaje za przypadkową ofiarę powodzi."
+  },
+  {
+    "id": 72,
+    "title": "PARADOKS",
+    "description": "Do zespołu inspektora Marka Kaszowskiego dołącza funkcjonariuszka Joanna Majewska, która ma przeprowadzić śledztwo w sprawie swojego przełożonego."
+  },
+  {
+    "id": 73,
+    "title": "KOWALSCY KONTRA KOWALSCY",
+    "description": "Dzieli ich wszystko, a łączy jedynie popularne polskie nazwisko. Kiedy pewnego dnia ich losy się skrzyżują, nic nie będzie takie, jakie było wcześniej."
+  },
+  {
+    "id": 74,
+    "title": "SINGIELKA",
+    "description": "Historia Elki, która postanawia znaleźć prawdziwą miłość w 274 dni."
+  },
+  {
+    "id": 75,
+    "title": "ZAWSZE WARTO",
+    "description": "Marta, Dorota i Ada. Na co dzień każda z innego świata, każda z innymi problemami, ale dzięki sile i determinacji wychodzą nawet z najmroczniejszych traum."
+  },
+  {
+    "id": 76,
+    "title": "MOTYW",
+    "description": "Każdy jest zdolny do zła, potrzebny jest tylko motyw."
+  },
+  {
+    "id": 77,
+    "title": "PRAWO AGATY",
+    "description": "Serial o trzydziestoparoletniej prawniczce, która z powodu utraty pracy staje przed wyzwaniem stworzenia własnej kancelarii, zmagając się z wieloma problemami i trudnościami."
+  },
+  {
+    "id": 78,
+    "title": "KOD GENETYCZNY",
+    "description": "Historia zakazanej namiętności, która nigdy nie powinna była się wydarzyć. Ojciec i syn wplątani w walkę o jedną kobietę tracą kontrolę nad swoim życiem."
+  },
+  {
+    "id": 79,
+    "title": "ŻYWIOŁY SASZY – OGIEŃ",
+    "description": "Po latach spędzonych w Wielkiej Brytanii, gdzie przez siedem lat studiowała i doskonaliła się w zawodzie profilerki, Sasza Załuska wraca do Polski i niemal natychmiast otrzymuje swoje pierwsze zadanie."
+  },
+  {
+    "id": 80,
+    "title": "PAJĘCZYNA",
+    "description": "Pełen napięcia thriller, którego akcja toczy się równolegle w dwóch czasach: w 1978 roku oraz w 2010 roku."
+  },
+  {
+    "id": 81,
+    "title": "SZADŹ",
+    "description": "Historia seryjnego mordercy oraz podążającej jego tropem komisarz policji."
+  },
+  {
+    "id": 82,
+    "title": "SEXIFY",
+    "description": "Natalia razem z przyjaciółkami postanawia opracować innowacyjną aplikację erotyczną. Jednak najpierw sama musi poznać tajniki sztuki kochania."
+  },
+  {
+    "id": 83,
+    "title": "OTWÓRZ OCZY",
+    "description": "Cierpiąca na amnezję nastolatka próbuje odzyskać swoje życie w klinice zaburzeń pamięci, jednak zaczyna nabierać podejrzeń co do niekonwencjonalnych metod leczenia."
+  },
+  {
+    "id": 84,
+    "title": "THE RAIN",
+    "description": "Sześć lat po tym, jak bezwzględny wirus spustoszył Skandynawię, brat i siostra dołączają do grupy młodych ocalałych w poszukiwaniu bezpieczeństwa oraz odpowiedzi."
+  },
+  {
+    "id": 85,
+    "title": "MROCZNE POŻĄDANIE",
+    "description": "Mężatka Alma wyjeżdża na weekend, który zapewnia jej cały wachlarz emocji - rozbudza namiętność, kończy się tragedią i zmusza do zadania trudnych pytań o najbliższych."
+  },
+  {
+    "id": 86,
+    "title": "TOY BOY",
+    "description": "Tancerz erotyczny zostaje oskarżony o zabicie męża swojej kochanki. Mężczyzna z pomocą młodej prawniczki próbuje ustalić, kto chce go wrobić w morderstwo."
+  },
+  {
+    "id": 87,
+    "title": "DARE ME",
+    "description": "Tajemnica, dramat i niebezpieczeństwo wstrząsają szkolną drużyną cheerleaderek, której przewodzi pewna siebie Beth, gdy do miasta przyjeżdża nowa trenerka."
+  },
+  {
+    "id": 88,
+    "title": "EL CLUB",
+    "description": "Grupa niedopasowanych bogatych dzieciaków z Meksyku rozkręca własny biznes z ecstasy, przez co szybko popada w konflikt z kartelami, prawem i własnymi rodzinami."
+  },
+  {
+    "id": 89,
+    "title": "COBRA KAI",
+    "description": "Kilkadziesiąt lat po turnieju, który odmienił ich życie, Johnny i Daniel znów rozpoczynają rywalizację."
+  },
+  {
+    "id": 90,
+    "title": "ARROW",
+    "description": "Po katastrofie morskiej na bezludnej wyspie zostaje odnaleziony milioner. Gdy mężczyzna wraca do cywilizacji, postanawia walczyć ze złem i łapać przestępców."
+  },
+  {
+    "id": 91,
+    "title": "PRZEKLĘTA",
+    "description": "Współczesna wersja legendy arturiańskiej. Nastolatka Nimue pomaga najemnikowi imieniem Artur znaleźć Merlina i dostarczyć mu starożytny miecz."
+  },
+  {
+    "id": 92,
+    "title": "BERLIŃSKIE PSY",
+    "description": "Zabójstwo na tle politycznym pchnie dwóch odmiennych detektywów do walki z berlińskim światem przestępczym i własnym zepsuciem"
+  },
+  {
+    "id": 93,
+    "title": "LUKE CAGE",
+    "description": "W trakcie nieudanego eksperymentu niesłusznie skazany mężczyzna zyskuje nadzwyczajną siłę oraz wytrzymałość. Dzięki nowym zdolnościom ucieka z więzienia i staje się najemnikiem."
+  },
+  {
+    "id": 94,
+    "title": "DOPASOWANI",
+    "description": "Ten poświęcony związkom serial dramatyczny oparty na książce Johna Marrsa próbuje odpowiedzieć na ciekawe pytanie — jak wyglądałby nasz świat, gdybyśmy mogli znaleźć idealnego partnera na podstawie dopasowania DNA?"
+  },
+  {
+    "id": 95,
+    "title": "1983",
+    "description": "Lata po ataku terrorystycznym z 1983 r. student prawa i oficer śledczy odkrywają spisek, przez który Polska stała się krajem policyjnym, a żelazna kurtyna nie upadła."
+  },
+  {
+    "id": 96,
+    "title": "GRZESZNICA",
+    "description": "Pewnego dnia podczas spaceru młoda kobieta zadaje śmiertelny cios przypadkowo spotkanemu mężczyźnie. Bohaterka nie ma pojęcia, co skłoniło ją do popełnienia zbrodni. Śledztwo w tej sprawie odsłoni ponure tajemnice z jej przeszłości."
+  },
+  {
+    "id": 97,
+    "title": "THE A LIST",
+    "description": "Bohaterom tego thrillera o zjawiskach nadprzyrodzonych - nastolatkom przebywającym na obozie na odległej wyspie - towarzyszą romanse, rywalizacja i mroczne tajemnice."
+  },
+  {
+    "id": 98,
+    "title": "RIVERDALLE",
+    "description": "W spokojnym miasteczku ginie nastolatek z wpływowej rodziny. Grupa przyjaciół próbuje rozwiązać zagadkę morderstwa."
+  },
+  {
+    "id": 99,
+    "title": "THE GOOD DOCTOR",
+    "description": "Młody, niezwykle uzdolniony lekarz z autyzmem otrzymuje pracę na oddziale chirurgii prestiżowego szpitala."
+  },
+  {
+    "id": 100,
+    "title": "SZKOŁA DLA ELITY",
+    "description": "Kiedy do ekskluzywnej hiszpańskiej szkoły trafia trójka pochodzących z klasy robotniczej uczniów, dochodzi do tragedii."
+  },
+  {
+    "id": 101,
+    "title": "PLEMIONA EUROPY",
+    "description": "Trójka rodzeństwa walczy o przetrwanie w podzielonej na mikropaństwa i targanej wojnami postapokaliptycznej Europie, której grozi całkowita zagłada."
+  },
+  {
+    "id": 102,
+    "title": "MARCO POLO",
+    "description": "Podróżnik Marco Polo dociera do Azji, gdzie zostaje gościem wielkiego władcy mongolskiego. Aby przeżyć na dworze pełnym intryg, musi wykorzystać swoje umiejętności w walce i politycznej grze."
+  },
+  {
+    "id": 103,
+    "title": "FRONTIER",
+    "description": "Ameryka Północna, XVIII wiek. Twardzi traperzy i pionierzy walczą z potężną Kompanią Zatoki Hudsona o przejęcie kontroli nad handlem futrami."
+  },
+  {
+    "id": 104,
+    "title": "SEX/LIFE",
+    "description": "Jest zwyczajną matką i żoną z przedmieść — ale nie zawsze tak było. Gdy przywołuje szaloną przeszłość, do głosu dochodzą jej długo skrywane pragnienia."
+  },
+  {
+    "id": 105,
+    "title": "THE 100",
+    "description": "Nuklearna wojna niszczy cywilizację na planecie. Po wielu latach ze statku kosmicznego z ocalałymi ludźmi zostaje wysłana na Ziemię grupa nieletnich przestępców w celu kolonizacji."
+  },
+  {
+    "id": 106,
+    "title": "ALTERED CARBON",
+    "description": "Daleka przyszłość, gdzie świadomość można przenosić z ciała do ciała. Pewien buntownik zostaje przywrócony do życia, aby rozwiązać skomplikowaną sprawę morderstwa."
+  },
+  {
+    "id": 107,
+    "title": "PIRACI",
+    "description": "Brytyjczycy chcą odzyskać swoją dawną kolonię, New Providence. Piraci, na czele z Kapitanem Flintem, walczą o przetrwanie nie tylko z najeźdźcą, ale także między sobą."
+  },
+  {
+    "id": 108,
+    "title": "DWÓCH I PÓŁ",
+    "description": "Świeżo rozwiedziony Alan Harper wprowadza się do mieszkania swojego brata – Charliego wraz z 10-letnim synem."
+  },
+  {
+    "id": 109,
+    "title": "SEE",
+    "description": "Dystopijna przyszłość, gdzie ludzkość utraciła zmysł wzroku i przystosowała się do nowych zasad przetrwania. Życie społeczeństwa ulega zmianie, gdy rodzą się zdolne do widzenia bliźnięta."
+  },
+  {
+    "id": 110,
+    "title": "UPADEK KRÓLESTWA",
+    "description": "Osierocony i wychowany przez Wikingów Uhtred z Bebbanburga walczy pod wodzą króla Alfreda Wielkiego, próbując odzyskać ziemie swoich przodków oraz zjednoczyć lud Wysp Brytyjskich."
+  },
+  {
+    "id": 111,
+    "title": "STRAŻNIK TEKSASU",
+    "description": "Cordell Walker walczy ze wszystkimi formami przestępczości w stanie Teksas. Pomagają mu w tym inni agenci na czele z Jimmym Trivettem"
+  },
+  {
+    "id": 112,
+    "title": "KOŁO CZASU",
+    "description": "Moiraine, przywódczyni organizacji kobiet o magicznych zdolnościach, wybiera pięć młodych osób, by wśród nich znaleźć tę, której jest pisane ocalenie lub zniszczenie świa"
+  }
+]
