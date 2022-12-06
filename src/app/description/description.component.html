@@ -5,20 +5,29 @@
     <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
       odp
     </button>
-    <div class="row">
-      <ng-container *ngIf="isVisible">
-        <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points); close()">{{points}}</button>
-      </ng-container>
-      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-      <app-timer></app-timer>
-      <div class="col-8 question">{{question}}</div>
-      <div class="col-12 tip">{{tip}}</div>
-
-    </div>
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
     <ng-container *ngIf="isVisible">
-      <div class="info">
-        <div class="correct col-12">{{answer}}</div>
-      </div>
+      <button type="button" class="btn btn-success"
+              (click)="playerService.addPoints(playerService.actualPlayer,2);close()">2
+      </button>
     </ng-container>
+    <app-timer></app-timer>
+    <div class="row">
+      <h1>{{question}}</h1>
+      <p>{{tip}}</p>
+
+      <div class="col-12 col-lg-4 offset-lg-4">
+        <div class="test" *ngIf="!isVisible" [ngStyle]="{
+      'background': 'url(assets/clubs/' + random1+') -50px -50px no-repeat','height':'300px','width':'300px','background-size': '300%'}"></div>
+      </div>
+
+      <ng-container *ngIf="isVisible">
+        <div class="info">
+          <div class="correct col-12">{{answer}}</div>
+        </div>
+      </ng-container>
+    </div>
   </div>
 </ng-container>
+
+
