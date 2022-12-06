@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "title": "SKAZANI NA SHAWSHANK",
+    "description": "Adaptacja opowiadania Stephena Kinga. Niesłusznie skazany na dożywocie bankier, stara się przetrwać w brutalnym, więziennym świecie."
+  },
+  {
+    "id": 2,
+    "title": "NIETYKALNI",
+    "description": "Sparaliżowany milioner zatrudnia do opieki młodego chłopaka z przedmieścia, który właśnie wyszedł z więzienia."
+  },
+  {
+    "id": 3,
+    "title": "ZIELONA MILA",
+    "description": "Emerytowany strażnik więzienny opowiada przyjaciółce o niezwykłym mężczyźnie, którego skazano na śmierć za zabójstwo dwóch 9-letnich dziewczynek."
+  },
+  {
+    "id": 4,
+    "title": "OJCIEC CHRZESTNY",
+    "description": "Opowieść o nowojorskiej rodzinie mafijnej. Starzejący się Don Corleone pragnie przekazać władzę swojemu synowi."
+  },
+  {
+    "id": 5,
+    "title": "DWUNASTU GNIEWNYCH LUDZI",
+    "description": "Nastoletni chłopiec zostaje oskarżony o morderstwo. Dwunastu przysięgłych debatuje nad wyrokiem skazującym na śmierć."
+  },
+  {
+    "id": 6,
+    "title": "FORREST GUMP",
+    "description": "Historia życia Forresta, chłopca o niskim ilorazie inteligencji z niedowładem kończyn, który staje się miliarderem i bohaterem wojny w Wietnamie."
+  },
+  {
+    "id": 7,
+    "title": "LOT NAD KUKUŁCZYM GNIAZDEM",
+    "description": "Historia złodzieja, szulera i chuligana, który, by uniknąć więzienia, udaje niepoczytalność. Trafia do szpitala dla umysłowo chorych, gdzie twardą ręką rządzi siostra Ratched."
+  },
+  {
+    "id": 8,
+    "title": "OJCIEC CHRZESTNY II",
+    "description": "Rok 1917. Młody Vito Corleone stawia pierwsze kroki w mafijnym świecie Nowego Jorku. Ponad 40 lat później jego syn Michael walczy o interesy i dobro rodziny."
+  },
+  {
+    "id": 9,
+    "title": "WŁADCA PIERŚCIENI: POWRÓT KRÓLA",
+    "description": "Zwieńczenie filmowej trylogii wg powieści Tolkiena. Aragorn jednoczy siły Śródziemia, szykując się do bitwy, która ma odwrócić uwagę Saurona od podążających w kierunku Góry Przeznaczenia hobbitów."
+  },
+  {
+    "id": 10,
+    "title": "LISTA SCHINDLERA",
+    "description": "Historia przedsiębiorcy Oskara Schindlera, który podczas II wojny światowej uratował przed pobytem w obozach koncentracyjnych 1100 Żydów."
+  },
+  {
+    "id": 11,
+    "title": "PULP FICTION",
+    "description": "Przemoc i odkupienie w opowieści o dwóch płatnych mordercach pracujących na zlecenie mafii, żonie gangstera, bokserze i parze okradającej ludzi w restauracji."
+  },
+  {
+    "id": 12,
+    "title": "ŻYCIE JEST PIĘKNE",
+    "description": "Zamknięty w obozie koncentracyjnym wraz z synem Guido próbuje przekonać chłopca, że okrutna rzeczywistość jest jedynie formą zabawy dla dorosłych."
+  },
+  {
+    "id": 13,
+    "title": "SIEDEM",
+    "description": "Dwóch policjantów stara się złapać seryjnego mordercę wybierającego swoje ofiary według specjalnego klucza - siedmiu grzechów głównych."
+  },
+  {
+    "id": 14,
+    "title": "WŁADCA PIERŚCIENI: DWIE WIEŻE",
+    "description": "Drużyna Pierścienia zostaje rozbita, lecz zdesperowany Frodo za wszelką cenę chce wypełnić powierzone mu zadanie. Aragorn z towarzyszami przygotowuje się, by odeprzeć atak hord Sarumana."
+  },
+  {
+    "id": 15,
+    "title": "PODZIEMNY KRĄG",
+    "description": "Cierpiący na bezsenność mężczyzna poznaje gardzącego konsumpcyjnym stylem życia Tylera Durdena, który jest jego zupełnym przeciwieństwem."
+  },
+  {
+    "id": 16,
+    "title": "JOKER",
+    "description": "Strudzony życiem komik popada w obłęd i staje się psychopatycznym mordercą."
+  },
+  {
+    "id": 17,
+    "title": "CHŁOPCY Z FERAJNY",
+    "description": "Kilkunastoletni Henry i Tommy DeVito trafiają pod opiekę potężnego gangstera. Obaj szybko uczą się panujących w mafii reguł."
+  },
+  {
+    "id": 18,
+    "title": "PIANISTA",
+    "description": "Podczas drugiej wojny światowej Władysław Szpilman, znakomity polski pianista, stara się przeżyć w okupowanej Warszawie."
+  },
+  {
+    "id": 19,
+    "title": "PIĘKNY UMYSŁ",
+    "description": "Geniusz matematyczny John Nash za wszelką cenę pragnie opracować teorię, dzięki której zostanie cenionym naukowcem. Przeszkodą staje się jego stopniowo rozwijająca choroba."
+  },
+  {
+    "id": 20,
+    "title": "INCEPCJA",
+    "description": "Czasy, gdy technologia pozwala na wchodzenie w świat snów. Złodziej Cobb ma za zadanie wszczepić myśl do śpiącego umysłu."
+  },
+  {
+    "id": 21,
+    "title": "DJANGO",
+    "description": "Łowca nagród Schultz i czarnoskóry niewolnik Django wyruszają w podróż, aby odbić żonę tego drugiego z rąk bezlitosnego Calvina Candie'ego."
+  },
+  {
+    "id": 22,
+    "title": "MILCZENIE OWIEC",
+    "description": "Seryjny morderca i inteligentna agentka łączą siły, by znaleźć przestępcę obdzierającego ze skóry swoje ofiary"
+  },
+  {
+    "id": 23,
+    "title": "KRÓL LEW",
+    "description": "Targany niesłusznymi wyrzutami sumienia po śmierci ojca mały lew Simba skazuje się na wygnanie, rezygnując z przynależnego mu miejsca na czele stada."
+  },
+  {
+    "id": 24,
+    "title": "CZŁOWIEK Z BLIZNĄ",
+    "description": "Rok 1980. Pochodzący z Kuby przestępca, Tony Montana, tworzy w Miami narkotykowe imperium."
+  },
+  {
+    "id": 25,
+    "title": "GRAN TORINO",
+    "description": "Walt Kowalski to emerytowany weteran żyjący we własnym poukładanym świecie. Jego spokój zostaje zburzony przez nowych sąsiadów z Azji, których syn spróbuje ukraść mu ulubione auto."
+  },
+  {
+    "id": 26,
+    "title": "WYSPA TAJEMNIC",
+    "description": "Szeryf federalny Daniels stara się dowiedzieć, jakim sposobem z zamkniętej celi w pilnie strzeżonym szpitalu dla chorych psychicznie przestępców zniknęła pacjentka."
+  },
+  {
+    "id": 27,
+    "title": "COCO",
+    "description": "Dwunastoletni meksykański chłopiec imieniem Miguel usiłuje zgłębić tajemnice rodzinnej legendy."
+  },
+  {
+    "id": 28,
+    "title": "WIĘZIEŃ NIENAWIŚCI",
+    "description": "Były neonazista po wyjściu z więzienia stara się przekonać młodszego brata, by nie podążał jego śladem."
+  },
+  {
+    "id": 29,
+    "title": "LEON ZAWODOWIEC",
+    "description": "Płatny morderca ratuje dwunastoletnią dziewczynkę, której rodzina została zabita przez skorumpowanych policjantów."
+  },
+  {
+    "id": 30,
+    "title": "GREEN BOOK",
+    "description": "Drobny cwaniaczek z Bronksu zostaje szoferem ekstrawaganckiego muzyka z wyższych sfer i razem wyruszają na wielotygodniowe tournée."
+  },
+  {
+    "id": 31,
+    "title": "GLADIATOR",
+    "description": "Generał Maximus - prawa ręka cesarza, szczęśliwy mąż i ojciec - w jednej chwili traci wszystko. Jako niewolnik-gladiator musi walczyć na arenie o przeżycie."
+  },
+  {
+    "id": 32,
+    "title": "SZEREGOWIEC RYAN",
+    "description": "W poszukiwaniu zaginionego szeregowca wysłany zostaje doborowy oddział żołnierzy."
+  },
+  {
+    "id": 33,
+    "title": "BRAVEHEART - WALECZNE SERCE",
+    "description": "Żona Williama Wallace'a zostaje zamordowana przez angielskich żołnierzy. Zrozpaczony Szkot mści się na oprawcach i prowadzi rodaków do walki o odzyskanie wolności."
+  },
+  {
+    "id": 34,
+    "title": "WHIPLASH",
+    "description": "Młody i ambitny perkusista za wszelką cenę pragnie dołączyć do czołówki najwybitniejszych artystów muzyki jazzowej."
+  },
+  {
+    "id": 35,
+    "title": "PRZEŁĘCZ OCALONYCH",
+    "description": "Schyłek II wojny światowej. Podczas krwawej bitwy o Okinawę amerykański sanitariusz odmawia noszenia broni i zabijania z powodów moralnych."
+  },
+  {
+    "id": 36,
+    "title": "BUNTOWNIK Z WYBORU",
+    "description": "Will, matematyczny geniusz gardzący formalnym wykształceniem, zostaje oskarżony o pobicie policjanta. Profesor MIT, świadomy talentu chłopaka, proponuje mu, aby w zamian za zwolnienie z aresztu podjął naukę i terapię psychologiczną."
+  },
+  {
+    "id": 37,
+    "title": "CZAS APOKALIPSY",
+    "description": "Adaptacja opowiadania Josepha Conrada \"Jądro ciemności\". Przeniesiona w realia wojny wietnamskiej historia kapitana Willarda, który otrzymuje misję odnalezienia i zlikwidowania pułkownika Kurtza."
+  },
+  {
+    "id": 38,
+    "title": "ZAPACH KOBIETY",
+    "description": "Niewidomy emerytowany pułkownik Frank Slade staje się najlepszym nauczycielem życia dla nieśmiałego studenta."
+  },
+  {
+    "id": 39,
+    "title": "PRESTIŻ",
+    "description": "Dwaj młodzi iluzjoniści żyją w przyjaznych stosunkach. Gdy ginie żona jednego z nich, mężczyźni stają się śmiertelnymi wrogami."
+  },
+  {
+    "id": 40,
+    "title": "AVENGERS: WOJNA BEZ GRANIC",
+    "description": "Potężny Thanos zbiera Kamienie Nieskończoności w celu narzucenia swojej woli wszystkim istnieniom we wszechświecie. Tylko drużyna superbohaterów znanych jako Avengers może go powstrzymać."
+  },
+  {
+    "id": 41,
+    "title": "GWIEZDNE WOJNY: CZĘŚĆ V - IMPERIUM KONTRATAKUJE",
+    "description": "Imperator rozkazuje swojemu uczniowi Darthowi Vaderowi odnalezienie Luke'a Skywalkera, by zmusić go do przejścia na ciemną stronę Mocy."
+  },
+  {
+    "id": 42,
+    "title": "DOBRY, ZŁY I BRZYDKI",
+    "description": "Dziki Zachód. Brzydki i Dobry usiłują dotrzeć do ukrytego przez wojsko skarbu. Po piętach depcze im Zły."
+  },
+  {
+    "id": 43,
+    "title": "DAWNO TEMU W AMERYCE",
+    "description": "Ponad trzydzieści lat po okresie prohibicji były gangster powraca na Manhattan, by skonfrontować się ze swoją przeszłością. Wspomina czasy, gdy wraz z przyjaciółmi pokonywał kolejne szczeble mafijnej hierarchii."
+  },
+  {
+    "id": 44,
+    "title": "GWIEZDNE WOJNY: CZĘŚĆ VI - POWRÓT JEDI",
+    "description": "Luke Skywalker skończył trening na rycerza jedi. Teraz jako wyszkolony wojownik musi walczyć z mrocznym lordem Vaderem."
+  },
+  {
+    "id": 45,
+    "title": "SŁUŻĄCE",
+    "description": "Lata 60. XX wieku. Początkująca dziennikarka spisuje historie czarnoskórych służących wywołując skandal wśród wyższych sfer."
+  },
+  {
+    "id": 46,
+    "title": "CHŁOPIEC W PASIASTEJ PIŻAMIE",
+    "description": "Ośmioletni syn niemieckiego oficera SS zaprzyjaźnia się z żydowskim chłopcem przebywającym w obozie."
+  },
+  {
+    "id": 47,
+    "title": "KASYNO",
+    "description": "Las Vegas, rok 1973. Hazardzista i bukmacher, Sam \"Ace\" Rothstein, na polecenie mafii zostaje szefem jednego z największych kasyn w mieście."
+  },
+  {
+    "id": 48,
+    "title": "W POGONI ZA SZCZĘŚCIEM",
+    "description": "Film oparty na faktach. Chris, samotny ojciec pozbawiony domu, stara się mimo przeciwności losu o posadę w biurze maklerskim."
+  },
+  {
+    "id": 49,
+    "title": "AMADEUSZ",
+    "description": "Dwudziestosześcioletni Mozart przybywa do Wiednia, by prezentować swoją twórczość. Jego obecność drażni nadwornego kompozytora Józefa II - Antonio Salieriego, co jest powodem rywalizacji między artystami."
+  },
+  {
+    "id": 50,
+    "title": "PARASITE",
+    "description": "Kiedy Ki-woo dostaje pracę jako korepetytor córki zamożnego małżeństwa, wymyśla sposób na zapewnienie zatrudnienia również reszcie swojej rodziny."
+  },
+  {
+    "id": 51,
+    "title": "GORĄCZKA",
+    "description": "Zawodowy przestępca Neil McCauley organizuje zbrojny napad na opancerzoną furgonetkę. Śledztwo w tej sprawie prowadzi Vincent Hanna."
+  },
+  {
+    "id": 52,
+    "title": "MROCZNY RYCERZ",
+    "description": "Batman, z pomocą porucznika Gordona oraz prokuratora Harveya Denta, występuje przeciwko przerażającemu i nieobliczalnemu Jokerowi, który chce pogrążyć Gotham City w chaosie."
+  },
+  {
+    "id": 53,
+    "title": "PLUTON",
+    "description": "Chris Taylor, młody żołnierz - ochotnik dołącza do plutonu walczącego w Wietnamie. Wkrótce doświadcza ogromnej potworności wojny."
+  },
+  {
+    "id": 54,
+    "title": "WŁADCA PIERŚCIENI: DRUŻYNA PIERŚCIENIA",
+    "description": "Podróż hobbita z Shire i jego ośmiu towarzyszy, której celem jest zniszczenie potężnego pierścienia pożądanego przez Czarnego Władcę - Saurona."
+  },
+  {
+    "id": 55,
+    "title": "PAMIĘTNIK",
+    "description": "Stary mężczyzna czyta chorej na Alzheimera kobiecie pamiętnik opisujący historię miłości dziewczyny z zamożnego domu i ubogiego pracownika tartaku."
+  },
+  {
+    "id": 56,
+    "title": "BĘKARTY WOJNY",
+    "description": "W okupowanej przez nazistów Francji oddział złożony z Amerykanów żydowskiego pochodzenia planuje zamach na Hitlera."
+  },
+  {
+    "id": 57,
+    "title": "INFILTRACJA",
+    "description": "Tajny policjant w szeregach grupy przestępczej i informator mafii w bostońskiej jednostce dochodzeniowej toczą ze sobą śmiertelną rozgrywkę."
+  },
+  {
+    "id": 58,
+    "title": "BOGOWIE",
+    "description": "Profesor Zbigniew Religa, utalentowany kardiochirurg wierzy, że jest w stanie dokonać przeszczepu serca. Nie poddaje się mimo wielu nieudanych operacji."
+  },
+  {
+    "id": 59,
+    "title": "ŁOWCA JELENI",
+    "description": "Trzech przyjaciół trafia do wietnamskiej niewoli. Udaje im się uciec, ale zostają rozdzieleni."
+  },
+  {
+    "id": 60,
+    "title": "AVENGERS",
+    "description": "Grupa superbohaterów, na czele z Thorem, Iron Manem i Hulkiem, łączy siły, by obronić Ziemię przed inwazją kosmitów."
+  },
+  {
+    "id": 61,
+    "title": "AVENGERS: CZAS ULTRONA",
+    "description": "Światu zagraża robot Ultron, który pragnie przejąć władzę. Superbohaterowie postanawiają temu zapobiec, stawiając czoło groźnemu najeźdźcy."
+  },
+  {
+    "id": 62,
+    "title": "AVENGERS: KONIEC GRY",
+    "description": "Po wymazaniu połowy życia we Wszechświecie przez Thanosa Avengersi starają się zrobić wszystko, co konieczne, aby pokonać szalonego tytana."
+  },
+  {
+    "id": 63,
+    "title": "CAPTAIN AMERICA: PIERWSZE STARCIE",
+    "description": "Młody Amerykanin bierze udział w tajnym wojskowym eksperymencie i jako superbohater staje do walki z nazistami."
+  },
+  {
+    "id": 64,
+    "title": "KAPITAN AMERYKA: WOJNA BOHATERÓW",
+    "description": "ONZ wprowadza przymusowy rejestr bohaterów, który doprowadza do konfliktu pomiędzy Kapitanem Ameryką a Iron Manem. Sytuację komplikuje zamach na króla Wakan"
+  },
+  {
+    "id": 65,
+    "title": "KAPITAN AMERYKA: ZIMOWY ŻOŁNIERZ",
+    "description": "Steve Rogers odkrywa, że Hydra, organizacja, z którą walczył podczas drugiej wojny światowej, ponownie rośnie w siłę."
+  },
+  {
+    "id": 66,
+    "title": "KAPITAN AMERYKA",
+    "description": "Kapitan Ameryka zostaje wydobyty spod lodu i przywrócony do życia. Wyrusza pojmać swojego odwiecznego wroga, Czerwoną Czaszkę."
+  },
+  {
+    "id": 67,
+    "title": "MÓJ PRZYJACIEL HACHIKO",
+    "description": "Profesor Parker Wilson poszukuje domu dla bezdomnego psa. Wkrótce między nim a zwierzęciem rodzi się niezwykła więź."
+  },
+  {
+    "id": 68,
+    "title": "PSYCHOZA",
+    "description": "Dziewczyna uciekająca ze skradzionymi pieniędzmi zatrzymuje się w pensjonacie prowadzonym przez młodego Normana Batesa."
+  },
+  {
+    "id": 69,
+    "title": "SIEDEM DUSZ",
+    "description": "Mężczyzna przedstawiający się jako urzędnik podatkowy pojawia się w domach siedmiu śmiertelnie chorych dłużników, by sprawdzić jakimi są ludźmi. Ma dla nich niezwykły dar."
+  },
+  {
+    "id": 70,
+    "title": "PRZEBUDZENIA",
+    "description": "Oparta na prawdziwych wydarzeniach opowieść o lekarzu, który za pomocą eksperymentalnego leku przywracał do świadomości pogrążonych w śpiączce pacjentów."
+  },
+  {
+    "id": 71,
+    "title": "MIASTO BOGA",
+    "description": "Oparta na faktach historia dwóch chłopców ze slumsów Rio de Janeiro. Jeden z nich dołączył do gangu, drugi wybrał sztukę i został fotografem."
+  },
+  {
+    "id": 72,
+    "title": "PRZEKRĘT",
+    "description": "Historia złożona z kilku gangsterskich opowieści, które splatają się wokół kradzieży drogocennego diamentu."
+  },
+  {
+    "id": 73,
+    "title": "RAIN MAN",
+    "description": "Karierowicz Charlie dostaje informację o śmierci ojca, z którym od lat nie miał kontaktu. Z testamentu dowiaduje się, że ma starszego brata chorego na autyzm."
+  },
+  {
+    "id": 74,
+    "title": "INTERSTELLAR",
+    "description": "Byt ludzkości na Ziemi dobiega końca wskutek zmian klimatycznych. Grupa naukowców odkrywa tunel czasoprzestrzenny, który umożliwia poszukiwanie nowego domu."
+  },
+  {
+    "id": 75,
+    "title": "MONTY PYTHON I ŚWIĘTY GRAAL",
+    "description": "Król Artur zbiera rycerzy i wyrusza na poszukiwanie Świętego Graala, skutkiem czego przeżyją wspólnie wiele absurdalnych przygód."
+  },
+  {
+    "id": 76,
+    "title": "ADWOKAT DIABŁA",
+    "description": "Kevin Lomax - wybitny adwokat, skuszony intratną propozycją pracy, przeprowadza się do Nowego Jorku. Nie zdaje sobie jednak sprawy z tego, kim jest jego chlebodawca."
+  },
+  {
+    "id": 77,
+    "title": "WŚCIEKŁE PSY",
+    "description": "Po nieudanym napadzie na sklep jubilerski kilku złodziei zdaje sobie sprawę, że jest wśród nich zdrajca, który powiedział policji o ich planie."
+  },
+  {
+    "id": 78,
+    "title": "FULL METAL JACKET",
+    "description": "Joker, młody rekrut, który pracuje jako korespondent wojenny, na własne oczy przekonuje się, czym jest wojna w Wietnamie."
+  },
+  {
+    "id": 79,
+    "title": "OJCIEC CHRZESTNY III",
+    "description": "Rok 1979. Starzejący się Michael Corleone chce zalegalizować swoje interesy i wyprowadzić rodzinę z mafijnego świata"
+  },
+  {
+    "id": 80,
+    "title": "GWIEZDNE WOJNY: CZĘŚĆ I - MROCZNE WIDM",
+    "description": "Dwaj rycerze Jedi wyruszają z misją ocalenia planety Naboo przed inwazją wojsk Federacji Handlowej. Trafiają na pustynny glob, gdzie pomoże im mały Anakin Skywalker."
+  },
+  {
+    "id": 81,
+    "title": "GWIEZDNE WOJNY: CZĘŚĆ II - ATAK KLONÓW",
+    "description": "Demokratyczne rządy Republiki są zagrożone przez podstępnego hrabiego Dooku. Tymczasem Anakin Skywalker łamie reguły zakonu Jedi i zakochuje się."
+  },
+  {
+    "id": 82,
+    "title": "GWIEZDNE WOJNY: CZĘŚĆ III - ZEMSTA SITHÓW",
+    "description": "Dwóch rycerzy Jedi - Obi-Wan Kenobi i Anakin Skywalker - wyrusza na pomoc porwanemu kanclerzowi Palpatine'owi."
+  },
+  {
+    "id": 83,
+    "title": "GWIEZDNE WOJNY: PRZEBUDZENIE MOCY",
+    "description": "Imperium zostaje zastąpione przez Najwyższy Porządek, który dąży do zdobycia władzy nad galaktyką. Plany złowrogiej organizacji może pokrzyżować tylko Ruch Oporu."
+  },
+  {
+    "id": 84,
+    "title": "GWIEZDNE WOJNY: OSTATNI JEDI",
+    "description": "Rey odnajduje Luke'a Skywalkera, by namówić go na powrót i walkę z Najwyższym Porządkiem. Tymczasem Rebelianci próbują uciec przed flotą wroga."
+  },
+  {
+    "id": 85,
+    "title": "GWIEZDNE WOJNY: SKYWALKER. ODRODZENIE",
+    "description": "Członkowie Ruchu Oporu stawiają czoła nowej organizacji militarnej zwanej Ostatecznym Porządkiem, dowodzonej przez odrodzonego Imperatora Palpatine'a."
+  },
+  {
+    "id": 86,
+    "title": "TRZY BILLBOARDY ZA EBBING, MISSOURI",
+    "description": "Samotna matka, która straciła córkę w wyniku morderstwa, wynajmuje trzy tablice reklamowe i umieszcza na nich prowokacyjny przekaz."
+  },
+  {
+    "id": 87,
+    "title": "BOHEMIAN RHAPSODY",
+    "description": "Dzięki oryginalnemu brzmieniu Queen staje się jednym z najpopularniejszych zespołów w historii muzyki."
+  },
+  {
+    "id": 88,
+    "title": "ZWIERZOGRÓD",
+    "description": "Nick Bajer – żyjący z drobnych przekrętów szczwany lis, i Judy Hops – pierwszy w historii królik zatrudniony w policji, łączą siły, by rozwiązać pewną kryminalną zagadkę."
+  },
+  {
+    "id": 89,
+    "title": "CINEMA PARADISO",
+    "description": "Zauroczony magią filmu Toto spędza w kinie cały wolny czas. Chłopiec zaprzyjaźnia się z operatorem Alfredo."
+  },
+  {
+    "id": 90,
+    "title": "NAJLEPSZY",
+    "description": "Historia życia Jerzego Górskiego, który mimo wielu przeciwności został mistrzem świata w podwójnym triatlonie."
+  },
+  {
+    "id": 91,
+    "title": "CONTRATIEMPO. NIEWIDZIALNY GOŚĆ",
+    "description": "Po przebudzeniu się w pokoju hotelowym obok martwej kochanki młody biznesmen zatrudnia wybitną adwokat, aby ustalić, do czego tak naprawdę doszło."
+  },
+  {
+    "id": 92,
+    "title": "MECHANICZNA POMARAŃCZA",
+    "description": "Alex DeLarge wraz ze swoim gangiem sieje spustoszenie na ulicach. Kiedy trafia do więzienia, otrzymuje propozycję odmiany swojego życia."
+  },
+  {
+    "id": 93,
+    "title": "SPIDER-MAN: BEZ DROGI DO DOMU",
+    "description": "Kiedy cały świat dowiaduje się, że pod maską Spider Mana skrywa się Peter Parker, superbohater decyduje się zwrócić o pomoc do Doktora Strange'a."
+  },
+  {
+    "id": 94,
+    "title": "SPIDER-MAN: DALEKO OD DOMU",
+    "description": "Peter Parker wyrusza na szkolne wakacje do Europy. Nie będzie mu dane odstawienie kostiumu Spider-mana na zbyt długo."
+  },
+  {
+    "id": 95,
+    "title": "NIESAMOWITY SPIDER-MAN 2",
+    "description": "Spider-Man staje w szranki z Electro. Do miasta powraca także Harry Osborn, dzięki któremu Peter odkrywa, że wszystkich złoczyńców łączy ze sobą OsCorp."
+  },
+  {
+    "id": 96,
+    "title": "NIESAMOWITY SPIDER-MAN",
+    "description": "Spider-Man razem ze swoją dziewczyną Gwen Stacy szukają sposobu, aby pokonać doktora Curta Connorsa, który stał się zmutowanym Jaszczurem."
+  },
+  {
+    "id": 97,
+    "title": "SPIDER-MAN 3",
+    "description": "Kostium Spider-Mana łączy się z substancją z kosmosu i zmienia kolor na czarny. Nowy strój daje Parkerowi olbrzymią siłę, ale też odkrywa mroczną stronę jego osobowości."
+  },
+  {
+    "id": 98,
+    "title": "SPIDER-MAN 2",
+    "description": "Peter Parker jest zmęczony byciem bohaterem i chce zostać zwykłym chłopakiem. Gdy jednak Doktor Octavius przemienia się w złego doktora, Spider-Man staje z nim do walki."
+  },
+  {
+    "id": 99,
+    "title": "SPIDER-MAN",
+    "description": "Nastoletni Peter Parker zmienia się w Spidermana, gdy mieszkańcom zagraża szalony Zielony Goblin."
+  },
+  {
+    "id": 100,
+    "title": "DOKTOR STRANGE W MULTIWERSUM OBŁĘDU",
+    "description": "Po wydarzeniach z \"Avengers: Koniec gry\" dr Stephen Strange kontynuuje walkę ze złem. Tym razem stawi czoło swojemu byłemu przyjacielowi Mordo."
+  },
+  {
+    "id": 101,
+    "title": "MORBIUS",
+    "description": "Biochemik Michael Morbius, próbując wyleczyć się z rzadkiej choroby krwi, niechcący zaraża się pewnym rodzajem wampiryzmu"
+  },
+  {
+    "id": 102,
+    "title": "VENOM 2: CARNAGE",
+    "description": "Eddie Brock próbuje zrobić karierę przeprowadzając wywiad z seryjnym mordercą, który nieoczekiwanie zdobywa moce symbionta."
+  },
+  {
+    "id": 103,
+    "title": "X-MEN: MROCZNA PHOENIX",
+    "description": "Kiedy Jean Gray zostaje uderzona przez tajemniczą kosmiczną siłę, która przemienia ją w kultową Dark Pheonix, X-Men musi się zjednoczyć, aby stawić czoła swojemu najbardziej niszczycielskiemu wrogowi - jednemu z nich."
+  },
+  {
+    "id": 104,
+    "title": "KAPITAN MARVEL",
+    "description": "Ziemska kobieta po kontakcie z obcą rasą Kree otrzymuje nadludzkie moce."
+  },
+  {
+    "id": 105,
+    "title": "DEADPOOL 2",
+    "description": "Oszpecony przez eksperymenty Deadpool nadal walczy ze złem na swój niepowtarzalny sposób."
+  },
+  {
+    "id": 106,
+    "title": "VENOM",
+    "description": "Kiedy Eddie Brock zdobywa moce symbionta, zmuszony jest uwolnić swoje alter-ego \"Venoma\", by ratować własne życie."
+  },
+  {
+    "id": 107,
+    "title": "VENOM",
+    "description": "Kiedy Eddie Brock zdobywa moce symbionta, zmuszony jest uwolnić swoje alter-ego \"Venoma\", by ratować własne życie."
+  },
+  {
+    "id": 108,
+    "title": "CZARNA PANTERA",
+    "description": "T'Challa, nowy władca królestwa Wakanda, musi bronić swojej ziemi przed rozszarpaniem duchowo przez wrogów z zewnątrz i wewnątrz kraju."
+  },
+  {
+    "id": 109,
+    "title": "STRAŻNICY GALAKTYKI VOL. 2",
+    "description": "Kosmiczna drużyna pod wodzą Star-Lorda kontynuuje swoją podróż po galaktyce, aby odkryć tajemnice rodzinne i bronić wszechświata."
+  },
+  {
+    "id": 110,
+    "title": "LOGAN: WOLVERINE",
+    "description": "Logan opiekuje się chorym Charlesem Xavierem, nie stroniąc od alkoholu. Jego wegetację przerywa prośba nieznajomej o przewiezienie małej Laury za kanadyjską granicę."
+  },
+  {
+    "id": 111,
+    "title": "THOR: RAGNAROK",
+    "description": "Thor mierzy się w walce bogów, podczas gdy Asgard jest zagrożony Ragnarokiem, nordycką apokalipsą."
+  },
+  {
+    "id": 112,
+    "title": "DOKTOR STRANGE",
+    "description": "Potężny czarodziej doktor Strange walczy z siłami ciemności, aby ocalić świat."
+  },
+  {
+    "id": 113,
+    "title": "DEADPOOL",
+    "description": "Były żołnierz oddziałów specjalnych zostaje poddany niebezpiecznemu eksperymentowi. Niebawem uwalnia swoje alter ego i rozpoczyna polowanie na człowieka, który niemal zniszczył jego życie"
+  },
+  {
+    "id": 114,
+    "title": "X-MEN: APOCALYPSE",
+    "description": "Kiedy jeden z najniebezpieczniejszych i najpotężniejszych mutantów, Apocalypse, chce zniszczyć całą planetę, powstrzymać go mogą tylko X-Meni."
+  },
+  {
+    "id": 115,
+    "title": "ANT-MAN",
+    "description": "Oszust Scott Lang, wyposażony w kombinezon pozwalający na zmniejszanie się, pomaga swojemu mentorowi, Hankowi, zaplanować i wykonać skok, od którego zależą losy świata."
+  },
+  {
+    "id": 116,
+    "title": "FANTASTYCZNA CZWÓRKA",
+    "description": "Podczas nieudanego eksperymentu czterech naukowców zyskuje nadludzkie umiejętności. Wykorzystują je, aby ocalić świat przed okrutnym tyranem."
+  },
+  {
+    "id": 117,
+    "title": "X-MEN: PRZESZŁOŚĆ, KTÓRA NADEJDZIE",
+    "description": "Bezlitośnie tropieni przez Strażników mutanci wysyłają Wolverina do 1973 roku. Aby próba zmiany historii się powiodła, skonfrontowani ze sobą młodzi Charles Xavier i Magneto muszą nawiązać współpracę."
+  },
+  {
+    "id": 118,
+    "title": "STRAŻNICY GALAKTYKI",
+    "description": "Po kradzieży potężnego artefaktu niezdarny awanturnik, Peter Quill, staje się celem Ronana, który pragnie wywołać wojnę w galaktyce. Aby przeżyć, łączy swoje siły z czterema innymi autsajderami."
+  },
+  {
+    "id": 119,
+    "title": "IRON MAN 3",
+    "description": "Tony Stark wyrusza w podróż, by zemścić się na tych, przez których jego świat legł w gruzach."
+  },
+  {
+    "id": 120,
+    "title": "THOR: MROCZNY ŚWIA",
+    "description": "Bóg Thor powraca, by ratować Ziemię, której zagraża starożytna rasa dowodzona przez żądnego zemsty niszczyciela."
+  },
+  {
+    "id": 121,
+    "title": "WOLVERINE",
+    "description": "Logan zakochuje się w córce japońskiego mafiosa, który nasyła na niego armię bezwzględnych zabójców."
+  },
+  {
+    "id": 122,
+    "title": "GHOST RIDER 2",
+    "description": "Ghost Rider staje do walki z ciemnymi mocami, aby ocalić chłopca, którego ciało pragnie przejąć szatan."
+  },
+  {
+    "id": 123,
+    "title": "THOR",
+    "description": "Syn władcy Asgardu - Thor walczy ze swoim bratem Lokim, aby uratować krainę Jotunheim."
+  },
+  {
+    "id": 124,
+    "title": "X-MEN: PIERWSZA KLASA",
+    "description": "Sebastian Shaw i jego sojusznicy chcą wywołać konflikt, który może zagrozić całemu światu. Jedyną nadzieją dla ludzkości są X-meni."
+  },
+  {
+    "id": 125,
+    "title": "IRON MAN 2",
+    "description": "Iron Man stawia czoło Iwanowi Wanko, znanemu jako Whiplash."
+  },
+  {
+    "id": 126,
+    "title": "X-MEN GENEZA: WOLVERINE",
+    "description": "Logan i Victor zostają zwerbowani przez pułkownika Strykera do wykonywania niecodziennych misji. Wolverine, widząc okrucieństwo, jakiego dopuszczają się pozostali najemnicy, odchodzi z jednostki."
+  },
+  {
+    "id": 127,
+    "title": "INCREDIBLE HULK",
+    "description": "Od czasu napromieniowania Bruce szuka antidotum, które pozwoli mu zachować ludzkie ciało. Na jego drodze staje amerykański generał i brytyjski superżołnierz."
+  },
+  {
+    "id": 128,
+    "title": "IRON MAN",
+    "description": "Tony Stark buduje supernowoczesną zbroję. Multimiliarder postanawia walczyć ze złem jako Iron Man."
+  },
+  {
+    "id": 129,
+    "title": "PUNISHER: STREFA WOJNY",
+    "description": "Podczas wykonywania misji Frank Castle oszpeca jednego z członków mafii. Gangster postanawia za wszelką cenę odegrać się na nim."
+  },
+  {
+    "id": 130,
+    "title": "FANTASTYCZNA CZWÓRKA: NARODZINY SREBRNEGO SURFERA",
+    "description": "Fantastyczna Czwórka musi pokonać Srebrnego Surfera, sługę potężnego Galactusa, który chce zniszczyć Ziemię."
+  },
+  {
+    "id": 131,
+    "title": "GHOST RIDER",
+    "description": "Johnny Blaze staje się Ghost Riderem, aby walczyć z synem diabła i innymi demonami."
+  },
+  {
+    "id": 132,
+    "title": "X-MEN: OSTATNI BASTION",
+    "description": "Trzecia część ekranizacji komiksów o tytułowych mutantach. Bohaterowie stają przed wyborem – pozostać sobą czy skorzystać z wynalezionego właśnie lekarstwa cofającego mutację."
+  },
+  {
+    "id": 133,
+    "title": "FANTASTYCZNA CZWÓRKA",
+    "description": "Na skutek promieniowania kosmicznego załoga promu nabywa supermoce, których używa w walce z wrogiem, Victorem von Doomem."
+  },
+  {
+    "id": 134,
+    "title": "BLADE: MROCZNA TRÓJCA",
+    "description": "Łowca wampirów Blade staje się celem agentów FBI i Draculi."
+  },
+  {
+    "id": 135,
+    "title": "X-MEN 2",
+    "description": "Sytuacja prześladowanych przez ludzi mutantów o nadnaturalnych zdolnościach pogarsza się, gdy jeden z nich atakuje prezydenta USA."
+  },
+  {
+    "id": 136,
+    "title": "HULK",
+    "description": "Młody naukowiec, Bruce Banner przyjmuje bardzo wysoką dawkę promieniowania gamma, która powoduje, że pod wpływem stresu przemienia się w zielonego olbrzyma Hulka."
+  },
+  {
+    "id": 137,
+    "title": "BLADE: WIECZNY ŁOWCA II",
+    "description": "Blade zawiera przymierze z wampirami, by pokonać nową, zmutowaną rasę potworów."
+  },
+  {
+    "id": 138,
+    "title": "BLADE - WIECZNY ŁOWCA",
+    "description": "Blade, pół-wampir, pół-człowiek, walczy z pobratymcami w obronie ludzkiej rasy."
+  },
+  {
+    "id": 139,
+    "title": "NICK FURY",
+    "description": "Agent tajnej organizacji powraca do służby, by powstrzymać terrorystów chcących rozpylić w USA zabójczego wirusa."
+  },
+  {
+    "id": 140,
+    "title": "ZŁAP MNIE, JEŚLI POTRAFISZ",
+    "description": "Oparta na faktach historia młodego fałszerza, który w latach 60., podając się za pilotów, lekarzy i profesorów, wyłudził z banków ponad 2,5 mln dolarów."
+  },
+  {
+    "id": 141,
+    "title": "LABIRYNT",
+    "description": "Sześcioletnia córka Kellera Dovera i jej koleżanka zostają uprowadzone. Zirytowany bezradnością policji ojciec bierze sprawy w swoje ręce."
+  },
+  {
+    "id": 142,
+    "title": "SIEDMIU SAMURAJÓW",
+    "description": "Nękani przez bandę zbirów mieszkańcy japońskiej wioski wynajmują siedmiu roninów, by bronili ich przed atakami."
+  },
+  {
+    "id": 143,
+    "title": "PRZERWANA LEKCJA MUZYKI",
+    "description": "Susanna poznaje Lisę w zakładzie psychiatrycznym. Od niej uczy się akceptacji siebie."
+  },
+  {
+    "id": 144,
+    "title": "KONESER",
+    "description": "Po śmierci rodziców Claire Ibbetson dziedziczy kolekcję dzieł sztuki o nieoszacowanej wartości. Dziewczyna zleca wycenę spadku panu Oldmanowi, szanowanemu właścicielowi domu aukcyjnego."
+  },
+  {
+    "id": 145,
+    "title": "REQUIEM DLA SNU",
+    "description": "Historia czwórki bohaterów, dla których używki są ucieczką przed otaczającą ich rzeczywistością."
+  },
+  {
+    "id": 146,
+    "title": "KLAUS",
+    "description": "Początkujący listonosz zostaje wysłany na niewielką wyspę za kołem podbiegunowym. Jej mieszkańcy są ze sobą skłóceni, a - co gorsza - nikt nie wysyła tam listów."
+  },
+  {
+    "id": 147,
+    "title": "JAK WYTRESOWAĆ SMOKA",
+    "description": "Chuderlawy Wiking przewróci porządek w wiosce, kiedy zamiast zabić w ramach inicjacji jakiegoś smoka, zaprzyjaźni się z najgroźniejszym z nich."
+  },
+  {
+    "id": 148,
+    "title": "ŻYWOT BRIANA",
+    "description": "Brian, rówieśnik Chrystusa, przychodzi na świat w Betlejem i zostaje omyłkowo uznany za Mesjasza."
+  },
+  {
+    "id": 149,
+    "title": "WSZYSTKO ZA ŻYCIE",
+    "description": "Christopher kończy studia, ale zamiast poświęcić się karierze zawodowej, wyrusza autostopem w kierunku Alaski."
+  },
+  {
+    "id": 150,
+    "title": "FILADELFIA",
+    "description": "Chorujący na AIDS prawnik zostaje zwolniony z pracy. Walcząc o godność, podaje do sądu byłych pracodawców."
+  },
+  {
+    "id": 151,
+    "title": "JAK ROZPĘTAŁEM DRUGĄ WOJNĘ ŚWIATOWĄ",
+    "description": "Pechowy szeregowiec Franek Dolas myśli, że rozpętał II wojnę światową. Chcąc zabłysnąć bohaterskimi czynami, plącze się w coraz większe tarapaty."
+  },
+  {
+    "id": 152,
+    "title": "OBCY - 8. PASAŻER \"NOSTROMO",
+    "description": "Załoga statku kosmicznego Nostromo odbiera tajemniczy sygnał i ląduje na niewielkiej planetoidzie, gdzie jeden z jej członków zostaje zaatakowany przez obcą formę życia."
+  },
+  {
+    "id": 153,
+    "title": "CZŁOWIEK W OGNIU",
+    "description": "Amerykanin po przejściach podejmuje się w Meksyku ochrony kilkuletniej córki bogatego biznesmena."
+  },
+  {
+    "id": 154,
+    "title": "SZÓSTY ZMYSŁ",
+    "description": "Psycholog dziecięcy próbuje pomóc ośmioletniemu chłopcu widzącemu zmarłych poradzić sobie z tym niezwykłym darem"
+  },
+  {
+    "id": 155,
+    "title": "SAMI SWOI",
+    "description": "Zwaśnione od wielu lat rodziny Pawlaków i Kargulów trafiają z Kresów Wschodnich na Ziemie Odzyskane."
+  },
+  {
+    "id": 156,
+    "title": "SHREK",
+    "description": "By odzyskać swój dom, brzydki ogr z gadatliwym osłem wyruszają uwolnić piękną księżniczkę."
+  },
+  {
+    "id": 157,
+    "title": "SHREK 2",
+    "description": "Shrek i Fiona postanawiają odwiedzić rodziców księżniczki, którzy nie wiedzą jednak, że poślubiła ona ogra, a sama zmieniła się w ogrzycę."
+  },
+  {
+    "id": 158,
+    "title": "SHREK TRZECI",
+    "description": "Shrek i Fiona nie czują się dobrze w roli pary królewskiej, więc ogr wyrusza na poszukiwanie innego następcy tronu."
+  },
+  {
+    "id": 159,
+    "title": "CHŁOPAKI NIE PŁACZĄ",
+    "description": "Kuba, młody skrzypek, trafia w sam środek gangsterskich porachunków."
+  },
+  {
+    "id": 160,
+    "title": "DZIEŃ ŚWIRA",
+    "description": "Adaś Miauczyński, 49-letni rozwiedziony polonista, żyje w kręgu swoich natręctw, nie potrafiąc wyrwać się z nudy i rutyny dnia codziennego."
+  },
+  {
+    "id": 161,
+    "title": "SEKSMISJA",
+    "description": "W roku 2044 zostają odhibernowani dwaj ostatni przedstawiciele płci męskiej, wprowadzając chaos do idealnego świata rządzonego przez Ligę Kobiet."
+  },
+  {
+    "id": 162,
+    "title": "EFEKT MOTYLA",
+    "description": "Evan, który potrafi podróżować w czasie, przekona się, że nawet najdrobniejsza zmiana w przeszłości ma kolosalny wpływ na teraźniejszość."
+  },
+  {
+    "id": 163,
+    "title": "HELIKOPTER W OGNIU",
+    "description": "Oparty na faktach film opowiada o nieudanej akcji amerykańskiego oddziału 120 Delta, który miał za zadanie porwać dwóch poruczników zbuntowanych wojsk Somalii."
+  },
+  {
+    "id": 164,
+    "title": "MIŚ",
+    "description": "Pełne paradoksów i komizmu życie prezesa klubu sportowego \"Tęcza\" w czasach PRL-u."
+  },
+  {
+    "id": 165,
+    "title": "WYŚCIG",
+    "description": "Lata 70. XX wieku. Dwaj kierowcy Formuły 1, Brytyjczyk James Hunt i Austriak Niki Lauda, toczą skrajnie niebezpieczną rywalizację o tytuł mistrza świata."
+  },
+  {
+    "id": 166,
+    "title": "ILUZJONISTA",
+    "description": "Wiedeń u progu XX w. Syn rzemieślnika, iluzjonista Eisenheim, wykorzystuje niezwykłe umiejętności, by zdobyć miłość arystokratki, narzeczonej austro-węgierskiego księcia."
+  },
+  {
+    "id": 167,
+    "title": "ŚWIĘCI Z BOSTONU",
+    "description": "Pracujący w jednej z bostońskich rzeźni bracia McManus wypowiadają bezkompromisową wojnę przestępczości. Ich działania zwracają uwagę specjalnego agenta FBI oraz członków lokalnej mafii."
+  },
+  {
+    "id": 168,
+    "title": "KILER",
+    "description": "Jerzy Kiler, warszawski taksówkarz, przypadkowo zostaje wzięty za płatnego zabójcę i umieszczony w areszcie. Wyciąga go stamtąd boss świata przestępczego, który oferuje mu nowe zadanie."
+  },
+  {
+    "id": 169,
+    "title": "KILER-ÓW 2-ÓCH",
+    "description": "Jurek Kiler stał się sławną osobą, lecz gangsterzy, których oszukał, planują zemstę."
+  },
+  {
+    "id": 170,
+    "title": "WILK Z WALL STREET",
+    "description": "Historia Jordana Belforta, brokera, którego błyskawiczna droga na szczyt i rozrzutny styl życia wzbudziły zainteresowanie FBI."
+  },
+  {
+    "id": 171,
+    "title": "WOŁYŃ",
+    "description": "Ojciec Zosi postanawia wydać ją za najbogatszego we wsi wdowca z dwójką dzieci, nie bacząc na to, że córka kocha ukraińskiego chłopca. Wkrótce życie lokalnej społeczności diametralnie zmienia II wojna światowa."
+  },
+  {
+    "id": 172,
+    "title": "SHERLOCK HOLMES",
+    "description": "Najsłynniejszy detektyw Sherlock Holmes z nieodłącznym przyjacielem dr. Watsonem szukają sprawcy rytualnych morderstw."
+  },
+  {
+    "id": 173,
+    "title": "PIRACI Z KARAIBÓW: KLĄTWA CZARNEJ PERŁY",
+    "description": "Kowal Will Turner sprzymierza się z kapitanem Jackiem Sparrowem, by odzyskać swoją miłość - porwaną córkę gubernatora."
+  },
+  {
+    "id": 174,
+    "title": "PIRACI Z KARAIBÓW: ZEMSTA SALAZARA",
+    "description": "Złowrogi korsarz ucieka z mitycznego więzienia i planuje zgładzić wszystkich piratów na morzach. Aby mu przeszkodzić, Jack Sparrow musi zdobyć Trójząb Posejdona."
+  },
+  {
+    "id": 175,
+    "title": "PIRACI Z KARAIBÓW: NA NIEZNANYCH WODACH",
+    "description": "Legendarny pirat Czarnobrody planuje zdobyć żywą syrenę i dwa kielichy, by się odmłodzić. Sprytny kapitan Jack Sparrow chce mu pokrzyżować plany."
+  },
+  {
+    "id": 176,
+    "title": "PIRACI Z KARAIBÓW: NA KRAŃCU ŚWIATA",
+    "description": "Will Turner i Elizabeth Swan wyruszają w podróż na kraniec świata, by uratować kapitana Jacka Sparrowa z pułapki Davy'ego Jonesa."
+  },
+  {
+    "id": 177,
+    "title": "PIRACI Z KARAIBÓW: SKRZYNIA UMARLAKA",
+    "description": "Jack Sparrow musi spłacić dług zaciągnięty wobec kapitana Latającego Holendra. Uniknie śmierci, gdy znajdzie i zniszczy serce Davy'ego Jonesa ukryte w Skrzyni Umarlaka."
+  },
+  {
+    "id": 178,
+    "title": "HARRY POTTER I KAMIEŃ FILOZOFICZNY",
+    "description": "W dniu jedenastych urodzin Harry dowiaduje się, że jest czarodziejem. Czeka na niego szkoła magii pełna tajemnic."
+  },
+  {
+    "id": 179,
+    "title": "HARRY POTTER I KOMNATA TAJEMNIC",
+    "description": "Uczniom i nauczycielom słynnej szkoły magii grozi niebezpieczeństwo. Tylko młody czarodziej Harry może przywrócić dawny porządek."
+  },
+  {
+    "id": 180,
+    "title": "HARRY POTTER I WIĘZIEŃ AZKABANU",
+    "description": "Z więzienia ucieka Syriusz Black, Harry nie może już czuć się bezpiecznie w szkole."
+  },
+  {
+    "id": 181,
+    "title": "HARRY POTTER I CZARA OGNIA",
+    "description": "Harry Potter musi wziąć udział w Turnieju Trójmagicznym, kiedy jego nazwisko zostaje wybrane przez tajemniczą Czarę Ognia."
+  },
+  {
+    "id": 182,
+    "title": "HARRY POTTER I ZAKON FENIKSA",
+    "description": "Harry i jego przyjaciele zakładają tajne stowarzyszenie \"Gwardię Dumbledore'a\", aby przygotować się do starcia z Voldemortem."
+  },
+  {
+    "id": 183,
+    "title": "HARRY POTTER I KSIĄŻĘ PÓŁKRWI",
+    "description": "Harry, by ostatecznie pokonać Voldemorta, musi poznać jego przeszłość."
+  },
+  {
+    "id": 184,
+    "title": "HARRY POTTER I INSYGNIA ŚMIERCI: CZĘŚĆ I",
+    "description": "Harry, Ron i Hermiona wyruszają odnaleźć horkruksy, dzięki którym Voldemort zapewnił sobie nieśmiertelność. Muszą je wszystkie zniszczyć, by go pokonać."
+  },
+  {
+    "id": 185,
+    "title": "HARRY POTTER I INSYGNIA ŚMIERCI: CZĘŚĆ II",
+    "description": "Młody czarodziej musi zniszczyć wszystkie horkruksy, aby ostatecznie pokonać Voldemorta."
+  },
+  {
+    "id": 186,
+    "title": "FANTASTYCZNE ZWIERZĘTA I JAK JE ZNALEŹĆ",
+    "description": "Nowy Jork jest terroryzowany przez tajemnicze bestie, które chcą dopaść członków organizacji Powtórzmy Salem. Tymczasem do miasta przyjeżdża pisarz Newt Scamander."
+  },
+  {
+    "id": 187,
+    "title": "FANTASTYCZNE ZWIERZĘTA: ZBRODNIE GRINDELWALDA",
+    "description": "Gellertowi Grindelwaldowi udaje się uciec z więzienia. Tylko Dumbledore z pomocą Newta Scamandera mogą go ponownie pokonać."
+  },
+  {
+    "id": 188,
+    "title": "FANTASTYCZNE ZWIERZĘTA: TAJEMNICE DUMBLEDORE'A",
+    "description": "Grindelwald wraz ze swoją armią dąży do przejęcia władzy na świecie. Dumbledore i Newt z pomocą przyjaciół chcą temu zapobiec."
+  },
+  {
+    "id": 189,
+    "title": "NIE CZAS UMIERAĆ",
+    "description": "Na prośbę swojego starego przyjaciela, Felixa Leitera z CIA, James Bond bierze udział w misji odbicia porwanego naukowca. Trop prowadzi do niebezpiecznego złoczyńcy."
+  },
+  {
+    "id": 190,
+    "title": "SPECTRE",
+    "description": "James Bond stara się odkryć prawdę dotyczącą złowrogiej organizacji WIDMO. Tymczasem w Londynie M toczy polityczną batalię o przyszłość MI6."
+  },
+  {
+    "id": 191,
+    "title": "SKYFALL",
+    "description": "Lojalność agenta 007 wobec M zostaje wystawiona na próbę po ataku na siedzibę MI6 i kradzieży tajnych danych. Trop wiedzie do osoby z przeszłości szefowej brytyjskiego wywiadu."
+  },
+  {
+    "id": 192,
+    "title": "007 QUANTUM OF SOLACE",
+    "description": "Agent 007 szuka osób odpowiedzialnych za śmierć ukochanej Vesper. Trop prowadzi do organizacji Quantum, której członkowie planują przejąć kontrolę nad wydobyciem jednego z najważniejszych surowców świata."
+  },
+  {
+    "id": 193,
+    "title": "CASINO ROYALE",
+    "description": "Po otrzymaniu statusu agenta 00 James Bond dostaje pierwsze ważne zadanie, w którym pomóc ma mu piękna Vesper Lynd. Jego przeciwnikiem jest bankier terrorystów Le Chiffre."
+  },
+  {
+    "id": 194,
+    "title": "ŚMIERĆ NADEJDZIE JUTRO",
+    "description": "Agent 007 musi odzyskać zaufanie przełożonych i odnaleźć zdrajcę w szeregach MI6."
+  },
+  {
+    "id": 195,
+    "title": "ŚWIAT TO ZA MAŁO",
+    "description": "W siedzibie MI6 wybucha bomba, zabijając magnata naftowego. M wysyła agenta 007 do Azerbejdżanu, by chronił spadkobierczynię majątku biznesmena - Elektrę King."
+  },
+  {
+    "id": 196,
+    "title": "JUTRO NIE UMIERA NIGDY",
+    "description": "Szalony magnat medialny Elliot Carver chce wywołać wojnę między Wielką Brytanią a Chinami, tylko agent James Bond może go powstrzymać."
+  },
+  {
+    "id": 197,
+    "title": "GOLDENEYE",
+    "description": "Programistka Natalia jest świadkiem kradzieży systemu GoldenEye, który kontroluje rosyjskie satelity nuklearne. Agent 007 dostaje zadanie odzyskania urządzenia."
+  },
+  {
+    "id": 198,
+    "title": "LICENCJA NA ZABIJANIE",
+    "description": "Przyjaciel Jamesa Bonda zostaje porwany i poważnie zraniony. Agent poprzysięga zemstę, zrywając z dotychczasową rolą."
+  },
+  {
+    "id": 199,
+    "title": "DOKTOR NO",
+    "description": "James Bond musi przeszkodzić Doktorowi No w zniszczeniu programu kosmicznego USA."
+  },
+  {
+    "id": 200,
+    "title": "POZDROWIENIA Z ROSJI",
+    "description": "Agent 007 musi powstrzymać organizację WIDMO, która chce przejąć kontrolę nad Lektorem - radziecką maszyną dekodującą wszelkie szyfry."
+  },
+  {
+    "id": 201,
+    "title": "GOLDFINGER",
+    "description": "Agent 007 mierzy się z multimilionerem Aurikiem Goldfingerem, który chce obrabować Fort Knox."
+  },
+  {
+    "id": 202,
+    "title": "W OBLICZU ŚMIERCI",
+    "description": "Agent 007 jedzie do Bratysławy celem ochrony radzieckiego generała Koskowa. Gdy przekonuje się o jego prawdziwych planach, podejmuje z nim niebezpieczną grę."
+  },
+  {
+    "id": 203,
+    "title": "ŻYJ I POZWÓL UMRZEĆ",
+    "description": "Agent 007 ma wyjaśnić sprawę śmierci kolegów. Podejrzanym jest Mr Big, przestępca powiązany z handlem heroiną i kultem voodoo."
+  },
+  {
+    "id": 204,
+    "title": "CZŁOWIEK ZE ZŁOTYM PISTOLETEM",
+    "description": "Do MI6 wysłany zostaje złoty pocisk z wygrawerowanym napisem 007. W ten sposób James Bond dowiaduje się, że jest celem największego płatnego mordercy na świecie."
+  },
+  {
+    "id": 205,
+    "title": "NIEZNISZCZALNI",
+    "description": "Grupa najemników otrzymuje zadanie obalenia dyktatora jednego z południowoamerykańskich państw. Wyruszają więc na samobójczą misję."
+  },
+  {
+    "id": 206,
+    "title": "NIEZNISZCZALNI 2",
+    "description": "Gdy podczas akcji \"Niezniszczalnych\" ginie jeden z członków grupy, pozostali postanawiają wyrównać rachunki i ukarać winnego."
+  },
+  {
+    "id": 207,
+    "title": "NIEZNISZCZALNI 3",
+    "description": "Niezniszczalni mierzą się ze starym przyjacielem oraz założycielem ekipy, który zszedł na złą drogę. Teraz pragnie on zemsty oraz zniszczenia swoich byłych towarzyszy."
+  },
+  {
+    "id": 208,
+    "title": "MACZETA ZABIJA",
+    "description": "Dwóch psychopatów zagraża całemu światu. Tylko brutalny meksykański agent może zażegnać globalny konflikt."
+  },
+  {
+    "id": 209,
+    "title": "DORWAĆ GRINGO",
+    "description": "Przestępca trafia do nietypowego meksykańskiego więzienia, które funkcjonuje niczym małe miasteczko. Zaprzyjaźnia się z dziesięcioletnim chłopcem, który uczy go zasad życia w zamknięciu."
+  },
+  {
+    "id": 210,
+    "title": "ZNAKI",
+    "description": "Po śmierci żony pastor Graham Hess zrywa z Kościołem. Pewnego dnia na polu kukurydzy tuż obok rodzinnej farmy znajduje tajemniczy symbol."
+  },
+  {
+    "id": 211,
+    "title": "ZABÓJCZA BROŃ",
+    "description": "Dwóch detektywów, szalony Martin Riggs i doświadczony Roger Murtaugh, zostaje partnerami. W pierwszej wspólnej sprawie badają okoliczności tajemniczego samobójstwa młodej kobiety."
+  },
+  {
+    "id": 212,
+    "title": "ZABÓJCZA BROŃ 2",
+    "description": "Martin Riggs i Roger Murtaugh ochraniają Leo Getza, świadka koronnego w procesie mafii. Ślad powiązań wiedzie policjantów do konsulatu RPA."
+  },
+  {
+    "id": 213,
+    "title": "ZABÓJCZA BROŃ 3",
+    "description": "Riggs i Murtaugh prowadzą śledztwo w sprawie kradzieży broni z policyjnych magazynów."
+  },
+  {
+    "id": 214,
+    "title": "ZABÓJCZA BROŃ 4",
+    "description": "Policjanci Martin Riggs i Roger Murtaugh muszą zbadać sprawę serii morderstw ludzi powiązanych z azjatycką mafią, która zajmuje się handlem żywym towarem."
+  },
+  {
+    "id": 215,
+    "title": "AMERICAN PIE",
+    "description": "Grupa licealistów pragnie do końca szkoły stracić dziewictwo i wkroczyć na studia jako pełnoprawni mężczyźni. Nie jest to jednak łatwe zadanie."
+  },
+  {
+    "id": 216,
+    "title": "AMERICAN PIE 2",
+    "description": "Czterech przyjaciół wybiera się na wspólne wakacje, by uczcić zakończenie pierwszego roku studiów."
+  },
+  {
+    "id": 217,
+    "title": "AMERICAN PIE: WESELE",
+    "description": "Grupa najlepszych przyjaciół z czasów liceum pomaga Jimowi w przygotowaniach do jego wesela."
+  },
+  {
+    "id": 218,
+    "title": "AMERICAN PIE: WAKACJE",
+    "description": "Tym razem uwaga została skupiona na Mattcie Stiflerze, młodszym bracie Steve'a. Po ty, jak został wydalony ze szkoły, Matt zostaje wysłany na obóz letni. Od razu próbuje ów obóz okablować i, za pomocą ukrytych kamer, podglądać dziewczyny. Ale kiedy straci głowę dla obozowej koleżanki Elyse, jego wysiłki, aby zdławienić swe \"drugiego ja\" (Stiffmeistera) - skończą się bardzo komicznie."
+  },
+  {
+    "id": 219,
+    "title": "AMERICAN PIE: NAGA MILA",
+    "description": "Eric dostaje pozwolenie od swojej purytańskiej dziewczyny na weekendowy wyjazd i stracenie swojej męskiej cnoty."
+  },
+  {
+    "id": 220,
+    "title": "AMERICAN PIE: BRACTWO BETA",
+    "description": "Dwóch nowych uczniów w collegu pragnie dołączyć do frywolnego Bractwa Beta, które rywalizuje z inną ekipą - kujonów i geeków."
+  },
+  {
+    "id": 221,
+    "title": "AMERICAN PIE: KSIĘGA MIŁOŚCI",
+    "description": "Trzech prawiczków odnajduję w szkolnej bibliotece Księgę Miłości - biblię dla każdego podrywacza i seksoholika."
+  },
+  {
+    "id": 222,
+    "title": "AMERICAN PIE: ZJAZD ABSOLWENTÓW",
+    "description": "Dziesięć lat po skończeniu liceum czterech kumpli spotyka się na zjeździe absolwentów. Okazuje się, że ani czas, ani doświadczenia życiowe nie zmieniły ich nawyków."
+  },
+  {
+    "id": 223,
+    "title": "AMERICAN PIE: DZIEWCZYNY RZĄDZĄ",
+    "description": "Mające przed sobą ostatni rok liceum cztery przyjaciółki zawierają pakt polegający na znalezieniu idealnych chłopaków i wspieraniu się w swoich dążeniach do celu."
+  },
+  {
+    "id": 224,
+    "title": "PIŁA",
+    "description": "Dwóch mężczyzn budzi się przykutych do zardzewiałej rury w piwnicy. Zdają sobie sprawę, że są uczestnikami krwawej gry szaleńca."
+  },
+  {
+    "id": 225,
+    "title": "PIŁA II",
+    "description": "FBI znajduje kryjówkę Jigsawa, jednak nowa gra już się rozpoczęła."
+  },
+  {
+    "id": 226,
+    "title": "PIŁA III",
+    "description": "Młoda lekarka zostaje porwana i zmuszona do zajmowania się umierającym Jigsawem, póki nowa gra nie dobiegnie końca."
+  },
+  {
+    "id": 227,
+    "title": "PIŁA IV",
+    "description": "Po śmierci Jigsawa ktoś kontynuuje jego dzieło. Tym razem ofiarami krwawej gry stają się dwaj agenci FBI."
+  },
+  {
+    "id": 228,
+    "title": "PIŁA V",
+    "description": "Mark Hoffman kontynuuje dzieło Jigsawa, ale agent Strahm trafia na jego trop."
+  },
+  {
+    "id": 229,
+    "title": "PIŁA VI",
+    "description": "Nieuczciwy handlarz ubezpieczeniami staje się kolejną ofiarą krwawej gry prowadzonej przez agenta Hoffmana."
+  },
+  {
+    "id": 230,
+    "title": "PIŁA 3D",
+    "description": "Mark Hoffman szykuje zemstę na Jill. W tym czasie rozpoczyna się gra, która ma ukończyć dzieło Jigsawa."
+  },
+  {
+    "id": 231,
+    "title": "PIŁA: DZIEDZICTWO",
+    "description": "Na terenie całego miasta pojawiają się ciała ludzi, którzy zginęli w różnych przerażających okolicznościach. Śledztwa zaczynają wskazywać nieprawdopodobnego sprawcę, a mianowicie nieżyjącego już Johna Kramera."
+  },
+  {
+    "id": 232,
+    "title": "WKRĘCENI",
+    "description": "Zwolnieni pracownicy fabryki samochodów postanawiają wydać swoje odprawy na szalony wyjazd do Warszawy. W małym miasteczku, gdzie się zatrzymują, przypadkowo zostają wzięci za biznesmenów."
+  },
+  {
+    "id": 233,
+    "title": "WKRĘCENI 2",
+    "description": "Szyja poznaje seksowną Klementynę, która zabiera go do Warszawy i wprowadza w świat show-biznesu. Jego zazdrosna żona Jadźka chce za wszelką cenę odzyskać męża, chociażby siłą."
+  },
+  {
+    "id": 234,
+    "title": "BOŻE CIAŁO",
+    "description": "Dwudziestoletni Daniel zostaje warunkowo zwolniony z poprawczaka. Wyjeżdża na drugi koniec Polski, żeby pracować w stolarni, ale zamiast tego zaczyna udawać księdza."
+  },
+  {
+    "id": 235,
+    "title": "SMALL WORLD",
+    "description": "W tajemniczych okolicznościach, sprzed rodzinnego domu, zostaje uprowadzona dziewczynka. Do czego będzie zdolny policjant, prowadzący śledztwo w sprawie?"
+  },
+  {
+    "id": 236,
+    "title": "KOBIETY MAFII 2",
+    "description": "Po objęciu władzy nad stolicą \"Niania\" wraz z gangiem postanawia wprowadzić do kraju narkotyki."
+  },
+  {
+    "id": 237,
+    "title": "MAYDAY",
+    "description": "Janek, posiadający dwie żony, umiejętnie lawiruje pomiędzy nimi. Do czasu, gdy pojawią się kłopoty i powstanie zagrożenie, że cała sprawa się wyda."
+  },
+  {
+    "id": 238,
+    "title": "NARZECZONY NA NIBY",
+    "description": "Karina, starając się stworzyć swój pierwszy szczęśliwy związek, okłamuje swojego partnera. Jedno małe kłamstewko doprowadza do serii nieprzewidzianych zdarzeń."
+  },
+  {
+    "id": 239,
+    "title": "SZTUKA KOCHANIA. HISTORIA MICHALINY WISŁOCKIEJ",
+    "description": "Michalina Wisłocka, najsłynniejsza seksuolog czasów PRL-u, walczy o wydanie książki, która na zawsze odmieni życie seksualne Polaków."
+  },
+  {
+    "id": 240,
+    "title": "TESTOSTERON",
+    "description": "Grupa podchmielonych mężczyzn na niedoszłym weselu dzieli się swoimi przemyśleniami na temat kobiet i miłości."
+  },
+  {
+    "id": 241,
+    "title": "GOL!",
+    "description": "Santiago mieszka w ubogiej dzielnicy Los Angeles i kocha piłkę nożną. Kiedy dostrzega go angielski selekcjoner, Glen Foy, proponuje mu wyjazd do Anglii oraz możliwość gry dla Newcastle United."
+  },
+  {
+    "id": 242,
+    "title": "GOL II: ŻYJĄC MARZENIEM",
+    "description": "Kariera Santiago nabiera rozpędu. Dzięki transferowi do Realu Madryt pojawiają się przed nim nowe możliwości, ale też trudne wybory."
+  },
+  {
+    "id": 243,
+    "title": "GOL 3",
+    "description": "Santiago Munez jest pewien powołania do kadry narodowej na Mistrzostwa Świata 2006. Wkrótce piłkarz ulega wypadkowi samochodowemu."
+  },
+  {
+    "id": 244,
+    "title": "SZYBCY I WŚCIEKLI",
+    "description": "Policjant przenika do grupy organizującej nielegalne wyścigi samochodowe. Sytuacja komplikuje się, gdy poznaje bliżej siostrę lidera przestępców."
+  },
+  {
+    "id": 245,
+    "title": "ZA SZYBCY, ZA WŚCIEKLI",
+    "description": "Jedyną szansą na schwytanie piorącego brudne pieniądze biznesmena jest infiltracja środowiska nielegalnych wyścigów samochodowych. Zadania podejmuje się były policjant."
+  },
+  {
+    "id": 246,
+    "title": "SZYBCY I WŚCIEKLI: TOKIO DRIFT",
+    "description": "Pasjonat nielegalnych wyścigów samochodowych ucieka przed więzieniem do Tokio. Ale tutaj też organizowane są niebezpieczne rajdy."
+  },
+  {
+    "id": 247,
+    "title": "SZYBKO I WŚCIEKLE",
+    "description": "Przestępca oraz tropiący go agent łączą swoje siły i przenikają do narkotykowego gangu, by dopaść jego przywódcę."
+  },
+  {
+    "id": 248,
+    "title": "SZYBCY I WŚCIEKLI 5",
+    "description": "Grupa kierowców naraża się niebezpiecznemu gangsterowi, organizuje ryzykowny napad i musi wymknąć się ścigającemu ich nieustępliwemu agentowi."
+  },
+  {
+    "id": 249,
+    "title": "SZYBCY I WŚCIEKLI 6",
+    "description": "Grupa świetnie wyszkolonych kierowców porywa transport wojskowej broni. W zamian za całkowitą abolicję Dom z przyjaciółmi zgadzają się pomóc agentowi Hobbsowi przy powstrzymaniu najemników."
+  },
+  {
+    "id": 250,
+    "title": "SZYBCY I WŚCIEKLI 7",
+    "description": "Dominic Toretto i jego ekipa ponownie łączą siły, aby pokonać rządnego zemsty brata Owena - Deckarda oraz przechwycić szpiegowski program zwany Okiem Boga."
+  },
+  {
+    "id": 251,
+    "title": "SZYBCY I WŚCIEKLI 8",
+    "description": "Szczęśliwy miesiąc miodowy Dominica i Letty przerywa pojawienie się tajemniczej kobiety, która ponownie wciąga mężczyznę w świat zbrodni."
+  },
+  {
+    "id": 252,
+    "title": "SZYBCY I WŚCIEKLI 9",
+    "description": "Cypher prosi Jakoba o pomoc w zemście na Domie i jego drużynie."
+  },
+  {
+    "id": 253,
+    "title": "SZYBCY I WŚCIEKLI: HOBBS I SHAW",
+    "description": "Stróż prawa Luke Hobbs i wyrzutek Deckard Shaw łączą swoje siły przeciwko cybernetycznie zmodyfikowanemu przestępcy zagrażającemu całej ludzkości."
+  },
+  {
+    "id": 254,
+    "title": "HOOLIGANS",
+    "description": "Matt Buckner po wyrzuceniu ze studiów przyjeżdża do siostry mieszkającej w Londynie. Tam wchodzi w środowisko kibiców lokalnych klubów piłkarskich."
+  },
+  {
+    "id": 255,
+    "title": "HOOLIGANS 2: DO OSTATNIEJ KRW",
+    "description": "Gruba krewkich kibiców drużyny West Ham trafia do zakładu karnego, w którym rządzą fani wrogiego Milwall."
+  },
+  {
+    "id": 256,
+    "title": "HOOLIGANS 3",
+    "description": "Były przywódca ekipy chuliganów powraca po latach do wschodniego Londynu, aby odszukać mordercę młodszego brata i wymierzyć sprawiedliwość."
+  },
+  {
+    "id": 257,
+    "title": "PITBULL",
+    "description": "Policjanci z warszawskiego Wydziału Zabójstw usiłują aresztować groźnego ormiańskiego przestępcę."
+  },
+  {
+    "id": 258,
+    "title": "PITBULL. NOWE PORZĄDKI",
+    "description": "Policjanci dwóch warszawskich komend łączą siły w walce z Grupą Mokotowską."
+  },
+  {
+    "id": 259,
+    "title": "PITBULL. NIEBEZPIECZNE KOBIETY",
+    "description": "Młode policjantki, \"Zuza\" i \"Jadźka\" dołączają do Pitbulla. Dziewczyny oprócz zmagań w życiu prywatnym muszą stawić czoła przestępczemu światu."
+  },
+  {
+    "id": 260,
+    "title": "PITBULL. OSTATNI PIES",
+    "description": "Po śmierci Soczka policjanci z warszawskiej komendy rozpoczynają śledztwo. Na wezwanie komendanta do stolicy przybywają Nielat zwany Quantico, Metyl oraz Despero, którzy mają za zadanie powstrzymać gangi walczące między sobą o miasto."
+  },
+  {
+    "id": 261,
+    "title": "PITBULL",
+    "description": "Gebels\" ściga konstruktora bomb. Trop prowadzi do grupy Pershinga."
+  },
+  {
+    "id": 262,
+    "title": "OSZUKAĆ PRZEZNACZENIE",
+    "description": "Przed startem samolotu młody mężczyzna doświadcza wizji, w której giną wszyscy pasażerowie. Przeczucie powoduje, że chce ich ostrzec, lecz zostaje usunięty z pokładu."
+  },
+  {
+    "id": 263,
+    "title": "OSZUKAĆ PRZEZNACZENIE 2",
+    "description": "Podczas jazdy samochodem Kimberly doświadcza wizji, w której widzi straszny karambol. Przeczucie powoduje, że dziewczyna blokuje wjazd na autostradę."
+  },
+  {
+    "id": 264,
+    "title": "OSZUKAĆ PRZEZNACZENIE 3",
+    "description": "Przeczucie śmiertelnego wypadku na rollercoasterze ratuje licealistkę i jej grupę znajomych. Śmierć chce wyrównać rachunki na tych, którzy uciekli przed swoim przeznaczeniem."
+  },
+  {
+    "id": 265,
+    "title": "OSZUKAĆ PRZEZNACZENIE 4",
+    "description": "Podczas oglądania wyścigów samochodowych młody mężczyzna doświadcza wizji, w której widzi śmierć setek ludzi na trybunach. Przeczucie powoduje, że wraz z przyjaciółmi opuszcza widownię."
+  },
+  {
+    "id": 266,
+    "title": "OSZUKAĆ PRZEZNACZENIE 5",
+    "description": "Jadąc autobusem przez most, Sam doświadcza wizji, w której konstrukcja się zawala. Przeczucie powoduje, że wraz z przyjaciółmi opuszcza pojazd."
+  },
+  {
+    "id": 267,
+    "title": "MORTAL KOMBAT",
+    "description": "Siły zła chcą podbić Ziemię. Aby to uczynić, muszą pokonać ziemskich wojowników w Mortal Kombat, turnieju na śmierć i życie."
+  },
+  {
+    "id": 268,
+    "title": "MORTAL KOMBAT",
+    "description": "Wojownicy podróżują do świątyni boga Raidena, aby przygotować się do krwawego turnieju zwanego jako Mortal Kombat."
+  },
+  {
+    "id": 269,
+    "title": "MORTAL KOMBAT 2: UNICESTWIENIE",
+    "description": "Ziemia zostaje zaatakowana przez siły ciemności. Grupa mistrzów wschodnich sztuk walki usiłuje zapobiec katastrofie."
+  },
+  {
+    "id": 270,
+    "title": "MATRIX",
+    "description": "Haker komputerowy Neo dowiaduje się od tajemniczych rebeliantów, że świat, w którym żyje, jest tylko obrazem przesyłanym do jego mózgu przez roboty."
+  },
+  {
+    "id": 271,
+    "title": "MATRIX REAKTYWACJA",
+    "description": "Maszyny chcą zniszczyć Syjon. Neo wyrusza z misją ocalenia ostatniego miasta ludzi."
+  },
+  {
+    "id": 272,
+    "title": "MATRIX REWOLUCJE",
+    "description": "Zbuntowany program Smith rozpoczyna przejmowanie kontroli w Matrixie, a armia maszyn zbliża się do Syjonu. Jedyną nadzieją na ratunek jest Neo."
+  },
+  {
+    "id": 273,
+    "title": "MATRIX ZMARTWYCHWSTANIA",
+    "description": "Podążaj za Neo, który prowadzi zwyczajne życie w San Francisco, gdzie jego terapeuta przepisuje mu niebieskie pigułki. Jednak Morfeusz oferuje mu czerwoną pigułkę i ponownie otwiera jego umysł na świat Matrix."
+  },
+  {
+    "id": 274,
+    "title": "TITANIC",
+    "description": "Rok 1912, brytyjski statek Titanic wyrusza w swój dziewiczy rejs do USA. Na pokładzie emigrant Jack przypadkowo spotyka arystokratkę Rose."
+  },
+  {
+    "id": 275,
+    "title": "BIG LOVE",
+    "description": "Szesnastoletnia Emilia poznaje o osiem lat starszego Maćka, który otwiera przed nią świat namiętności oraz młodzieńczego buntu."
+  },
+  {
+    "id": 276,
+    "title": "PSY",
+    "description": "Franz Maurer, były funkcjonariusz Służby Bezpieczeństwa, zaczyna pracę w policji. Tymczasem jego kolega oferuje swoje usługi przestępcom."
+  },
+  {
+    "id": 277,
+    "title": "PSY II: OSTATNIA KREW",
+    "description": "Franz Maurer po wyjściu z więzienia przystaje do grupy zajmującej się nielegalnym handlem bronią."
+  },
+  {
+    "id": 278,
+    "title": "PSY 3. W IMIĘ ZASAD",
+    "description": "Po 25 latach odsiadki Franz Maurer wkracza w nową Polskę, gdzie nic nie jest takie, jak zapamiętał. Wkrótce ponownie spotyka Nowego."
+  },
+  {
+    "id": 279,
+    "title": "FURIOZA",
+    "description": "Historia policjantki, która spróbuje rozbić układ, w którym się wychowała."
+  },
+  {
+    "id": 280,
+    "title": "7 UCZUĆ",
+    "description": "Adaś Miauczyński powraca do czasów swojego dzieciństwa, kiedy miał spory problem z nazywaniem towarzyszących mu emocji."
+  },
+  {
+    "id": 281,
+    "title": "SERCE NIE SŁUGA",
+    "description": "Związki ludzi, którzy przestali wierzyć w miłość, choć w głębi duszy właśnie na takie prawdziwe uczucie czekają."
+  },
+  {
+    "id": 282,
+    "title": "MIŁOŚĆ JEST WSZYSTKIM",
+    "description": "Po przybyciu Świętego Mikołaja mieszkańcy miasta doznają miłosnych wzlotów i upadków."
+  },
+  {
+    "id": 283,
+    "title": "KOCHAJ I TAŃCZ",
+    "description": "Początkująca dziennikarka z jasno sprecyzowanymi planami na przyszłość, wkracza do świata tańca, by odkryć prawdę o sobie."
+  },
+  {
+    "id": 284,
+    "title": "NIE KŁAM, KOCHANIE",
+    "description": "Kobieciarz wpada w finansowe tarapaty, a jedynym ratunkiem wydaje się majątek cioci z zagranicy. Mężczyzna musi jednak znaleźć narzeczoną i wziąć ślub, by bogata krewna mogła przepisać na niego swój dobytek."
+  },
+  {
+    "id": 285,
+    "title": "JUTRO IDZIEMY DO KINA",
+    "description": "Trzech przyjaciół zdaje maturę i stoi na progu dorosłości, a świat zdaje się otwierać przed nimi nieograniczone możliwości. Ich wielkie plany, marzenia zostają skonfrontowane z wybuchem wojny."
+  },
+  {
+    "id": 286,
+    "title": "PLANETA SINGLI",
+    "description": "Romantyczna Ania bierze udział w reality show ukazującym prawdziwą twarz facetów flirtujących w sieci i wyśmiewającym naiwność kobiet szukających tam ideału."
+  },
+  {
+    "id": 287,
+    "title": "PLANETA SINGLI 2",
+    "description": "Związek Ani i Tomka przeżywa kryzys, bo oboje mają względem siebie inne zamiary. Tymczasem na horyzoncie pojawia się zakochany w dziewczynie milioner."
+  },
+  {
+    "id": 288,
+    "title": "PLANETA SINGLI 3",
+    "description": "Ania i Tomek planują wesele na wsi u rodziny mężczyzny. Niespodziewany przyjazd ojca pana młodego jeszcze bardziej wszystko komplikuje."
+  },
+  {
+    "id": 289,
+    "title": "RESIDENT EVIL",
+    "description": "Na terenie tajnego kompleksu badawczego zostaje uwolniony wirus, zamieniający żywe istoty w zombie. Grupa ocalałych stara się wydostać z wrogiego miejsca."
+  },
+  {
+    "id": 290,
+    "title": "RESIDENT EVIL 2: APOKALIPSA",
+    "description": "Racoon City zostało całkowicie opanowane przez zombie. Aby się stamtąd wydostać, Alice wraz z garstką ocalałych musi odnaleźć małą dziewczynkę."
+  },
+  {
+    "id": 291,
+    "title": "RESIDENT EVIL: ZAGŁADA",
+    "description": "Wirus T opanował cały świat. Celem Alice i innych ocalałych jest przedostanie się z oblężonej przez zombie pustyni na Alaskę."
+  },
+  {
+    "id": 292,
+    "title": "RESIDENT EVIL: AFTERLIFE",
+    "description": "Alice wraz z innymi ocalałymi ukrywa się w opuszczonym więzieniu, które jest oblężone przez zarażonych. Próbuje jednocześnie przeniknąć na Arkadię, jedyne miejsce wolne od zombie."
+  },
+  {
+    "id": 293,
+    "title": "RESIDENT EVIL: RETRYBUCJA",
+    "description": "U boku ruchu oporu Alice walczy z korporacją Umbrella i nieumarłymi."
+  },
+  {
+    "id": 294,
+    "title": "RESIDENT EVIL: OSTATNI ROZDZIAŁ",
+    "description": "Alice wraz z innymi wyrusza do Ula, aby zniszczyć Czerwoną Królową, która ma na celu wyeliminowanie rasy ludzkiej."
+  },
+  {
+    "id": 295,
+    "title": "Cube",
+    "description": "Grupa osób budzi się w pełnym śmiertelnych pułapek sześcianie. Nieznajomi muszą zacząć współpracować ze sobą, by przeżyć."
+  },
+  {
+    "id": 296,
+    "title": "CUBE 2",
+    "description": "Kilkoro ludzi zostaje uwięzionych w hipersześcianie. By się z niego wydostać, muszą współpracować."
+  },
+  {
+    "id": 297,
+    "title": "CUBE ZERO",
+    "description": "Młody technik pracujący przy sześcianie postanawia pomóc kobiecie, która tam trafia."
+  },
+  {
+    "id": 298,
+    "title": "Mumia",
+    "description": "Poszukiwacze skarbów uwalniają mumię kapłana Ozyrysa, który trzy tysiące lat wcześniej sprzeniewierzył się faraonowi."
+  },
+  {
+    "id": 299,
+    "title": "MUMIA POWRACA",
+    "description": "Mumia ponownie ożywa i podejmuje walkę o władzę. Rodzina O'Connellów stara się powstrzymać potwora."
+  },
+  {
+    "id": 300,
+    "title": "MUMIA: GROBOWIEC CESARZA SMOKA",
+    "description": "Na Dalekim Wschodzie rodzina O'Connellów próbuje powstrzymać wskrzeszonego cesarza Hana i jego armię terakotowych wojowników przed zawładnięciem światem."
+  }
+]

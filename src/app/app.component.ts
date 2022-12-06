@@ -41,12 +41,15 @@ export class AppComponent {
   }
 
   setQuestionType(question: number) {
-    if (question === 50) {
-      const tmp = Math.floor(Math.random() * this.categories.length)
-      this.questionType = this.categories[tmp].id
-    } else {
-      this.questionType = question
-    }
+    const actualQuestion = this.questionType
+      if (question === 50) {
+        do{
+          const tmp = Math.floor(Math.random() * this.categories.length)
+          this.questionType = this.categories[tmp].id
+        }while (this.questionType === actualQuestion)
+      } else {
+        this.questionType = question
+      }
   }
 
 
