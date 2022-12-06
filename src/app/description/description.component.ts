@@ -47,6 +47,12 @@ export abstract class DescriptionComponent {
         this.points = 3
         break
       }
+      case 'stadium': {
+        this.random1 = this.descriptionQuestionService.getStadiumQuestion()
+        this.question = 'Jakiego klubu/reprezentacji jestem stadionem?'
+        this.points = 4
+        break
+      }
       default: {
         break;
       }
@@ -109,5 +115,16 @@ export class GamesComponent extends DescriptionComponent implements OnInit {
 export class DistrictsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('district')
+  }
+}
+
+@Component({
+  selector: 'app-stadium',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class StadiumsComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('stadium')
   }
 }

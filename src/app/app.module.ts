@@ -16,7 +16,7 @@ import {
   DistrictsComponent,
   GamesComponent,
   MoviesComponent,
-  SerialsComponent
+  SerialsComponent, StadiumsComponent
 } from './description/description.component';
 
 @NgModule({
@@ -33,7 +33,8 @@ import {
     MoviesComponent,
     SerialsComponent,
     GamesComponent,
-    DistrictsComponent
+    DistrictsComponent,
+    StadiumsComponent
   ],
   imports: [
     BrowserModule,
