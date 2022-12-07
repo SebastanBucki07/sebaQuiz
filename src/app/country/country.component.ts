@@ -3,6 +3,7 @@ import {CountriesQuestionService} from "../countries-question.service";
 import {Country} from "../model/country-model";
 import {randomFromArray} from "../../common/randomize.helper";
 import {PlayersService} from "../players.service";
+import data from "../../assets/flagues/countries.td.json"
 
 export class Question {
   id: number = 0
@@ -26,6 +27,7 @@ export class CountryComponent implements OnInit {
   public question: any
   public answer: string = ''
   public tip: string = ''
+  public photos = data
   public multiply = 1
   public questions: Question[] = [
     {id: 0, questionName: 'Z jakiego kraju jest ta flaga?'},

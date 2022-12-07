@@ -18,6 +18,7 @@ import {
   MoviesComponent, ProverbsComponent,
   SerialsComponent, StadiumsComponent
 } from './description/description.component';
+import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,9 @@ import {
     DistrictsComponent,
     StadiumsComponent,
     ProverbsComponent,
-    HistoryComponent
+    HistoryComponent,
+    FamousPeopleComponent,
+    BuildingsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+<ng-container *ngIf="isModalVisible">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+      odp
+    </button>
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <ng-container *ngIf="isVisible">
+      <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points);close()">{{points}}</button>
+    </ng-container>
+    <app-timer></app-timer>
+        <h1>{{question}}</h1>
+        <div class="col-12">
+          <img class="flague-image" src="{{tip}}" alt="{{random1.id}}">
+        </div>
+      <ng-container *ngIf="isVisible">
+        <div class="info">
+          <div class="correct col-12 ">{{answer}}</div>
+        </div>
+      </ng-container>
+  </div>
+</ng-container>
+
