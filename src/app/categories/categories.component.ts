@@ -28,6 +28,8 @@ export class CategoriesComponent implements OnInit {
     {name: "Stadiony świata", id: 9, checkbox: false},
     {name: "Przysłowia", id: 10, checkbox: false},
     {name: "Historia", id: 11, checkbox: false},
+    {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},
+    {name: "Rozpoznaj budowle ze zdjęcia", id: 13, checkbox: false},
   ]
   public chosenCategories: Category[] = []
 
