@@ -12,7 +12,7 @@
   {
     "id": 3,
     "name": "Alcatraz",
-    "photo": "https://www.alcatrazcruises.com/wp-content/uploads/2018/02/test-image-1155x650.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Alcatraz_aerial.jpg/320px-Alcatraz_aerial.jpg"
   },
   {
     "id": 4,
@@ -121,8 +121,8 @@
   },
   {
     "id": 25,
-    "name": "Radiostacja",
-    "photo": "https://nid.pl/imgResize.php?img=L3VwbG9hZC9pYmxvY2svNmU5LzZlOTYyNDNiZWViMWI5N2NkMDJmYjExMmNhMGVhYmM1LmpwZw==&scale=3"
+    "name": "Radiostacja Gliwice",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Maszt_04.JPG/320px-Maszt_04.JPG"
   },
   {
     "id": 26,
@@ -131,8 +131,8 @@
   },
   {
     "id": 27,
-    "name": "zamek Barokowy",
-    "photo": "http://veturo.pl/media/cache/34/8f/348f5ce4a46cc1e704e95d91fb841af0.jpg"
+    "name": "zamek Barokowy w Rydzynie",
+    "photo": "https://e-turysta.pl/zdjecia/galeria-glowna/max/70/Zamek-W-Rydzynie-Rydzyna-703058.jpg"
   },
   {
     "id": 28,
@@ -152,7 +152,7 @@
   {
     "id": 31,
     "name": "zamek w pszczynie",
-    "photo": "https://static.polskieszlaki.pl/zdjecia/wycieczki/2016-11/zamek-w-pszczynie-288965.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Pa%C5%82ac_w_Pszczynie_38.JPG/800px-Pa%C5%82ac_w_Pszczynie_38.JPG"
   },
   {
     "id": 32,
@@ -177,7 +177,7 @@
   {
     "id": 36,
     "name": "Dubai Frame",
-    "photo": "https://www.visitdubai.com/-/media/images/articles/dubai-frame/in-article-dubai-frame.jpg"
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Dubaiframe.jpg/320px-Dubaiframe.jpg"
   },
   {
     "id": 37,
@@ -186,8 +186,8 @@
   },
   {
     "id": 38,
-    "name": "Most Karola",
-    "photo": "https://www.tanie-loty.com.pl/media/reviews/photos/original/2c/c2/05/most-karola-81-1553075436.jpg"
+    "name": "Most Karola w Pradze",
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Praha_2005-09-20_karl%C5%AFv_most.jpg/1024px-Praha_2005-09-20_karl%C5%AFv_most.jpg"
   },
   {
     "id": 39,

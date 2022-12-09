@@ -1,17 +1,17 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 
-import { AppComponent } from './app.component';
-import { PlayersComponent } from './players/players.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { CategoriesComponent } from './categories/categories.component';
+import {AppComponent} from './app.component';
+import {PlayersComponent} from './players/players.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {CategoriesComponent} from './categories/categories.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSortModule} from "@angular/material/sort";
 import {BooksComponent, SongsComponent} from './fragments/fragments.component';
-import { CountryComponent } from './country/country.component';
-import { TimerComponent } from './timer/timer.component';
-import { ClubHistoryComponent } from './club-history/club-history.component';
-import { ClubCrestsComponent } from './club-crests/club-crests.component';
+import {CountryComponent} from './country/country.component';
+import {TimerComponent} from './timer/timer.component';
+import {ClubHistoryComponent} from './club-history/club-history.component';
+import {ClubCrestsComponent} from './club-crests/club-crests.component';
 import {
   DistrictsComponent,
   GamesComponent, HistoryComponent,
@@ -19,6 +19,7 @@ import {
   SerialsComponent, StadiumsComponent
 } from './description/description.component';
 import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.component';
+import {MoviesActorsComponent, SerialsActorsComponent} from './actors/actors.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,9 @@ import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.compone
     ProverbsComponent,
     HistoryComponent,
     FamousPeopleComponent,
-    BuildingsComponent
+    BuildingsComponent,
+    SerialsActorsComponent,
+    MoviesActorsComponent
   ],
   imports: [
     BrowserModule,
@@ -50,4 +53,5 @@ import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.compone
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

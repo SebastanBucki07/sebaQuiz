@@ -1,0 +1,35 @@
+<ng-container *ngIf="isModalVisible">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+      odp
+    </button>
+    <div class="row">
+      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+      <app-timer></app-timer>
+      <div class="row">
+        <h2 class="col-12">{{question}}</h2>
+        <div class="row " *ngIf="photos.length > 0; then printPhotos else printTip"></div>
+        <ng-template #printPhotos>
+          <div class="col-sm photos" *ngFor="let photo of photos">
+            <h4>{{photo.name}}</h4>
+            <img src="{{photo.photo}}" alt="{{photo.name}}" class="img-thumbnail">
+          </div>
+        </ng-template>
+        <ng-template class="row" #printTip>
+          <div class="col-sm photos" *ngFor="let tip of tips">
+            <h3 class="col-sm">{{tip}}</h3>
+          </div>
+        </ng-template>
+      </div>
+
+    </div>
+    <ng-container *ngIf="isVisible">
+      <div class="info">
+        <div class="correct col-12 ">{{answer}}</div>
+      </div>
+    </ng-container>
+  </div>
+</ng-container>
+
