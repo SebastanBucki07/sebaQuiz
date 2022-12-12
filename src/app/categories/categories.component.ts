@@ -31,7 +31,9 @@ export class CategoriesComponent implements OnInit {
     {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},
     {name: "Rozpoznaj budowle ze zdjęcia", id: 13, checkbox: false},
     {name: "W jakim filmie zagrała taka obsada?", id: 14, checkbox: false},
-    {name: "W jakim serialu zagrała taka obsada?", id: 15, checkbox: false}
+    {name: "W jakim serialu zagrała taka obsada?", id: 15, checkbox: false},
+    {name: "Jaka to melodia?", id: 16, checkbox: false},
+    {name: "Czołówka serialu", id: 17, checkbox: false},
   ]
   public chosenCategories: Category[] = []
 

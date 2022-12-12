@@ -1,0 +1,49 @@
+<ng-container *ngIf="isModalVisible">
+  <div class="modal">
+    <div class="row">
+      <div class="col-12 question">
+        <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+        <i class="bi bi-x-circle"></i>
+      </div>
+      <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAuthor()">
+        Pokaż tytuł
+      </button>
+      <ng-container *ngIf="isNotSerial">
+        <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showTitle()">
+          Pokaż wykonawce
+        </button>
+      </ng-container>
+
+
+      <ng-container *ngIf="isAuthorVisible">
+        <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points); close()">{{points}}</button>
+      </ng-container>
+      <ng-container *ngIf="isTitleVisible">
+        <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2*points);close()">{{2*points}}</button>
+      </ng-container>
+      <div class="col-12 question">{{question}}</div>
+        <div class="info">
+          <h5>{{tip}}</h5>
+          <iframe width="50" height="50"
+                  [src]="urlSafe"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+        </div>
+
+    </div>
+    <ng-container *ngIf="isAuthorVisible">
+      <div class="info">
+        <div class="correct col-12 ">tytuł: {{title}}</div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="isTitleVisible">
+      <div class="info">
+        <div class="correct col-12 ">Wykonawca: {{author}}</div>
+      </div>
+    </ng-container>
+
+  </div>
+</ng-container>
+
