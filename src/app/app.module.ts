@@ -20,6 +20,7 @@ import {
 } from './description/description.component';
 import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.component';
 import {MoviesActorsComponent, SerialsActorsComponent} from './actors/actors.component';
+import {YoutubeSerialsComponent, YoutubeSongComponent} from './youtube/youtube.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,9 @@ import {MoviesActorsComponent, SerialsActorsComponent} from './actors/actors.com
     FamousPeopleComponent,
     BuildingsComponent,
     SerialsActorsComponent,
-    MoviesActorsComponent
+    MoviesActorsComponent,
+    YoutubeSongComponent,
+    YoutubeSerialsComponent,
   ],
   imports: [
     BrowserModule,
