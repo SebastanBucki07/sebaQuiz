@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ActorsComponent } from './actors.component';
+import {ActorsComponent, MoviesActorsComponent, SerialsActorsComponent} from './actors.component';
 
 describe('ActorsComponent', () => {
-  let component: ActorsComponent;
-  let fixture: ComponentFixture<ActorsComponent>;
+  let component: MoviesActorsComponent;
+  let fixture: ComponentFixture<MoviesActorsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ActorsComponent ]
+      declarations: [ MoviesActorsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ActorsComponent);
+    fixture = TestBed.createComponent(MoviesActorsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -21,3 +21,24 @@ describe('ActorsComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+describe('SerialsActorsComponent', () => {
+  let component: SerialsActorsComponent;
+  let fixture: ComponentFixture<SerialsActorsComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ SerialsActorsComponent ]
+    })
+      .compileComponents();
+
+    fixture = TestBed.createComponent(SerialsActorsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
+

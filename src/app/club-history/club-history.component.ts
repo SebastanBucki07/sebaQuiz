@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {ClubHistory} from "../model/clubHistory-model";
 import {PlayersService} from "../players.service";
-import {ClubHistoryQuestionService} from "../club-history-question.service";
+import {QuestionDataService} from "../question-data.service";
 
 @Component({
   selector: 'app-club-history',
@@ -16,13 +16,13 @@ export class ClubHistoryComponent implements OnInit {
   public tip: string = ''
 
   constructor(
-    private clubHistoryQuestionService: ClubHistoryQuestionService,
+    private questionDataService: QuestionDataService,
     public playerService: PlayersService
   ) {
   }
 
   ngOnInit(): void {
-    this.random1 = this.clubHistoryQuestionService.getClubHistoryQuestion()
+    this.random1 = this.questionDataService.getClubHistoryQuestion()
     this.answer = this.random1.osoba
     this.tip = this.random1.narodowosc
     this.isModalVisible = true;

@@ -2,8 +2,8 @@ import {Component, OnInit} from '@angular/core';
 import {PhotoModel} from "../model/photo-model";
 import actors from "../../assets/photos/famousPeople.json"
 import {PlayersService} from "../players.service";
-import {ActorsQuestionService} from "../actors-question.service";
 import {ActorModel} from "../model/actor-model";
+import {QuestionDataService} from "../question-data.service";
 
 @Component({
   template: ''
@@ -20,7 +20,7 @@ export abstract class ActorsComponent {
   public points:number = 2
 
   constructor(
-    private actorsQuestionService: ActorsQuestionService,
+    private questionDataService: QuestionDataService,
     public playerService: PlayersService
   ) {
   }
@@ -30,6 +30,7 @@ export abstract class ActorsComponent {
     this.isModalVisible = false
     this.question = ''
     this.answer = ''
+    this.playerService.nextPlayer()
     this.photos = []
   }
 
@@ -70,13 +71,13 @@ export abstract class ActorsComponent {
   getQuestion(category: string) {
     switch (category) {
       case 'movieActors': {
-        this.random1 = this.actorsQuestionService.getMoviesActorsQuestion()
+        this.random1 = this.questionDataService.getMoviesActorsQuestion()
         this.question = 'W jakim filmie była taka obsada?'
         this.points = 2
         break
       }
       case 'serialsActors': {
-        this.random1 = this.actorsQuestionService.getSerialsActorsQuestion()
+        this.random1 = this.questionDataService.getSerialsActorsQuestion()
         this.question = 'W jakim serialu była taka obsada?'
         this.points = 2
         break

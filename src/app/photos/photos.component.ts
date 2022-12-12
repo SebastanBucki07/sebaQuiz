@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {PlayersService} from "../players.service";
-import {PhotosQuestionService} from "../photos-question.service";
 import {PhotoModel} from "../model/photo-model";
+import {QuestionDataService} from "../question-data.service";
 
 @Component({
   template: ''
@@ -16,7 +16,7 @@ export abstract class PhotosComponent {
   public answer: string = ''
 
   constructor(
-    public photosQuestionService: PhotosQuestionService,
+    public questionDataService: QuestionDataService,
     public playerService: PlayersService,
   ) {
   }
@@ -24,13 +24,13 @@ export abstract class PhotosComponent {
   getQuestion(category: string) {
     switch (category) {
       case 'famousPeople': {
-        this.random1 = this.photosQuestionService.getFamousPeoplePhotoQuestion()
+        this.random1 = this.questionDataService.getFamousPeoplePhotoQuestion()
         this.question = 'Kim jest osoba ze zdjęcia?'
         this.points = 2
         break
       }
       case 'buildings': {
-        this.random1 = this.photosQuestionService.getBuildingsPhotoQuestion()
+        this.random1 = this.questionDataService.getBuildingsPhotoQuestion()
         this.question = 'Jak nazywa sie budowla ze zdjęcia?'
         this.points = 2
         break

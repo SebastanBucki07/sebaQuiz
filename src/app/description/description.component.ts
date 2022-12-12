@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {DescriptionModel} from "../model/description-model";
 import {PlayersService} from "../players.service";
-import {DescriptionQuestionService} from "../description-question.service";
+import {QuestionDataService} from "../question-data.service";
 
 @Component({
   template: ''
@@ -16,7 +16,7 @@ export abstract class DescriptionComponent {
   public answer: string = ''
 
   constructor(
-    private descriptionQuestionService: DescriptionQuestionService,
+    private questionDataService: QuestionDataService,
     public playerService: PlayersService
   ) {
   }
@@ -24,43 +24,43 @@ export abstract class DescriptionComponent {
   getQuestion(category: string) {
     switch (category) {
       case 'movie': {
-        this.random1 = this.descriptionQuestionService.getMoviesDescriptionQuestion()
+        this.random1 = this.questionDataService.getMoviesDescriptionQuestion()
         this.question = 'Co to za film?'
         this.points = 2
         break
       }
       case 'serial': {
-        this.random1 = this.descriptionQuestionService.getSerialsDescriptionQuestion()
+        this.random1 = this.questionDataService.getSerialsDescriptionQuestion()
         this.question = 'Co to za serial?'
         this.points = 2
         break
       }
       case 'game': {
-        this.random1 = this.descriptionQuestionService.getGamesDescriptionQuestion()
+        this.random1 = this.questionDataService.getGamesDescriptionQuestion()
         this.question = 'Co to za gra'
         this.points = 2
         break
       }
       case 'district': {
-        this.random1 = this.descriptionQuestionService.getDistrictsDescriptionQuestion()
+        this.random1 = this.questionDataService.getDistrictsDescriptionQuestion()
         this.question = 'Z jakiego jestem województwa?'
         this.points = 3
         break
       }
       case 'stadium': {
-        this.random1 = this.descriptionQuestionService.getStadiumQuestion()
+        this.random1 = this.questionDataService.getStadiumQuestion()
         this.question = 'Jakiego klubu/reprezentacji jestem stadionem?'
         this.points = 4
         break
       }
       case 'proverb': {
-        this.random1 = this.descriptionQuestionService.getProverbQuestion()
+        this.random1 = this.questionDataService.getProverbQuestion()
         this.question = 'Dokończ przysłowie'
         this.points = 2
         break
       }
       case 'history': {
-        this.random1 = this.descriptionQuestionService.getHistoryQuestion()
+        this.random1 = this.questionDataService.getHistoryQuestion()
         this.question = 'Podaj datę'
         this.points = 4
         break

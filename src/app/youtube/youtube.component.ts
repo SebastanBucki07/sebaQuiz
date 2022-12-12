@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import {YoutubeModel} from "../model/youtube-model";
 import {PlayersService} from "../players.service";
-import {YoutubeQuestionService} from "../youtube-question.service";
+import {QuestionDataService} from "../question-data.service";
 
 @Component({
   selector: 'app-youtube',
@@ -23,7 +23,7 @@ export abstract class YoutubeComponent {
   public urlSafe: SafeResourceUrl = ''
 
   constructor(
-    public youtubeQuestionService: YoutubeQuestionService,
+    public questionDataService: QuestionDataService,
     public playerService: PlayersService,
     public sanitizer: DomSanitizer
   ) { }
@@ -31,13 +31,13 @@ export abstract class YoutubeComponent {
   getQuestion(category: string) {
     switch (category) {
       case 'song': {
-        this.random1 = this.youtubeQuestionService.getYoutubeSongQuestion()
+        this.random1 = this.questionDataService.getYoutubeSongQuestion()
         this.question = 'Podaj tytuł oraz wykonawcę'
         this.points = 2
         break
       }
       case 'opening': {
-        this.random1 = this.youtubeQuestionService.getYoutubeSerialsQuestion()
+        this.random1 = this.questionDataService.getYoutubeSerialsQuestion()
         this.question = 'Podaj tytuł serialu'
         this.points = 2
         this.isNotSerial = false
