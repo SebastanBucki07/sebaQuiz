@@ -1,18 +1,38 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { YoutubeComponent } from './youtube.component';
+import {YoutubeSerialsComponent, YoutubeSongComponent} from './youtube.component';
 
-describe('YoutubeComponent', () => {
-  let component: YoutubeComponent;
-  let fixture: ComponentFixture<YoutubeComponent>;
+describe('YoutubeSongComponent', () => {
+  let component: YoutubeSongComponent;
+  let fixture: ComponentFixture<YoutubeSongComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ YoutubeComponent ]
+      declarations: [ YoutubeSongComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(YoutubeComponent);
+    fixture = TestBed.createComponent(YoutubeSongComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
+
+describe('YoutubeSerialsComponent', () => {
+  let component: YoutubeSerialsComponent;
+  let fixture: ComponentFixture<YoutubeSerialsComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ YoutubeSerialsComponent ]
+    })
+      .compileComponents();
+
+    fixture = TestBed.createComponent(YoutubeSerialsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

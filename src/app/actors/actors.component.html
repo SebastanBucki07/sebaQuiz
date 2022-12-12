@@ -7,6 +7,11 @@
     </button>
     <div class="row">
       <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+      <ng-container *ngIf="isVisible">
+        <button type="button" class="btn btn-success"
+                (click)="playerService.addPoints(playerService.actualPlayer,2);close()">2
+        </button>
+      </ng-container>
       <app-timer></app-timer>
       <div class="row">
         <h2 class="col-12">{{question}}</h2>

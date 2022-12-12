@@ -1,9 +1,9 @@
 import {Component, OnInit} from '@angular/core';
-import {CountriesQuestionService} from "../countries-question.service";
 import {Country} from "../model/country-model";
 import {randomFromArray} from "../../common/randomize.helper";
 import {PlayersService} from "../players.service";
 import data from "../../assets/flagues/countries.td.json"
+import {QuestionDataService} from "../question-data.service";
 
 export class Question {
   id: number = 0
@@ -45,7 +45,7 @@ export class CountryComponent implements OnInit {
 
 
   constructor(
-    private countriesQuestionService: CountriesQuestionService,
+    private questionDataService: QuestionDataService,
     public playerService: PlayersService
   ) {
   }
@@ -84,7 +84,7 @@ export class CountryComponent implements OnInit {
 
   getQuestion(): void {
     this.question = randomFromArray(this.questions)
-    this.countries = this.countriesQuestionService.getCountries('allCountries')
+    this.countries = this.questionDataService.getCountries('allCountries')
     this.getData(this.question.id)
     this.isModalVisible = true;
   }
@@ -111,7 +111,7 @@ export class CountryComponent implements OnInit {
 
   getData(type: number) {
     if (type === 0) {
-      this.countryForQuestion = this.countriesQuestionService.getCountries('countriesForFlags')
+      this.countryForQuestion = this.questionDataService.getCountries('countriesForFlags')
       if (this.countryForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.countryForQuestion)} error: ${JSON.stringify(this.countryForQuestion)}`)
         this.getQuestion()
@@ -122,7 +122,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 1) {
-      this.countryForQuestion = this.countriesQuestionService.getCountries('countriesForCapitals')
+      this.countryForQuestion = this.questionDataService.getCountries('countriesForCapitals')
       if (this.countryForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.countryForQuestion)} error: ${JSON.stringify(this.countryForQuestion)}`)
         this.getQuestion()
@@ -134,7 +134,7 @@ export class CountryComponent implements OnInit {
     }
     if (type === 2) {
       this.setMultiplyForContinent(this.continentForQuestion)
-      this.continentForQuestion = this.countriesQuestionService.getCountries('continentsForCountries')
+      this.continentForQuestion = this.questionDataService.getCountries('continentsForCountries')
       if (this.continentForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.continentForQuestion)} error: ${JSON.stringify(this.continentForQuestion)}`)
         this.getQuestion()
@@ -144,7 +144,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 3) {
-      this.continentForQuestion = this.countriesQuestionService.getCountries('continentsForCapitals')
+      this.continentForQuestion = this.questionDataService.getCountries('continentsForCapitals')
       this.setMultiplyForContinent(this.continentForQuestion)
       if (this.continentForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.continentForQuestion)} error: ${JSON.stringify(this.continentForQuestion)}`)
@@ -155,7 +155,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 4) {
-      this.letterForCountriesQuestions = this.countriesQuestionService.getCountries('countriesLetters')
+      this.letterForCountriesQuestions = this.questionDataService.getCountries('countriesLetters')
       if (this.letterForCountriesQuestions?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.letterForCountriesQuestions)} error: ${JSON.stringify(this.letterForCountriesQuestions)}`)
         this.getQuestion()
@@ -165,7 +165,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 5) {
-      this.letterForCountriesQuestions = this.countriesQuestionService.getCountries('capitalsLetters')
+      this.letterForCountriesQuestions = this.questionDataService.getCountries('capitalsLetters')
       if (this.letterForCountriesQuestions?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.letterForCountriesQuestions)} error: ${JSON.stringify(this.letterForCountriesQuestions)}`)
         this.getQuestion()

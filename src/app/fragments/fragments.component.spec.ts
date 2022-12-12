@@ -1,18 +1,38 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FragmentsComponent } from './fragments.component';
+import {BooksComponent, SongsComponent} from './fragments.component';
 
-describe('FragmentsComponent', () => {
-  let component: FragmentsComponent;
-  let fixture: ComponentFixture<FragmentsComponent>;
+describe('SongsComponent', () => {
+  let component: SongsComponent;
+  let fixture: ComponentFixture<SongsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FragmentsComponent ]
+      declarations: [ SongsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FragmentsComponent);
+    fixture = TestBed.createComponent(SongsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
+
+describe('BooksComponent', () => {
+  let component: BooksComponent;
+  let fixture: ComponentFixture<BooksComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ BooksComponent ]
+    })
+      .compileComponents();
+
+    fixture = TestBed.createComponent(BooksComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
