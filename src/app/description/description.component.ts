@@ -65,12 +65,6 @@ export abstract class DescriptionComponent {
         this.points = 4
         break
       }
-      case 'chemistSymbol': {
-        this.random1 = this.questionDataService.getChemistQuestion()
-        this.question = 'Jaki to pierwiastek?'
-        this.points = 3
-        break
-      }
       default: {
         break;
       }
@@ -166,16 +160,5 @@ export class ProverbsComponent extends DescriptionComponent implements OnInit {
 export class HistoryComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('history')
-  }
-}
-
-@Component({
-  selector: 'app-chemistSymbol',
-  templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
-})
-export class ChemistSymbolComponent extends DescriptionComponent implements OnInit {
-  ngOnInit(): void {
-    this.getQuestion('chemistSymbol')
   }
 }

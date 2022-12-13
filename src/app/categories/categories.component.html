@@ -3,7 +3,7 @@
     <table class="table table-hover">
       <tbody>
       <tr>Wybierz Kategorie:</tr>
-      <tr class="table-danger" *ngFor="let category of this.smallCategories">
+      <tr class="table-danger" *ngFor="let category of this.allCategories">
         <td>{{category.name}}</td>
         <td>
           <mat-checkbox [checked]="category.checkbox" (change)="toggle($event,category)"></mat-checkbox>

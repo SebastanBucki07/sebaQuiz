@@ -34,19 +34,7 @@ export class CategoriesComponent implements OnInit {
     {name: "W jakim serialu zagrała taka obsada?", id: 15, checkbox: false},
     {name: "Jaka to melodia?", id: 16, checkbox: false},
     {name: "Czołówka serialu", id: 17, checkbox: false},
-    {name: "Pierwiastki", id: 18, checkbox: false},
   ]
-  public smallCategories: Category[] = [
-    {name: "Filmy", id: 0, checkbox: false},
-    {name: "Seriale", id: 1, checkbox: false},
-    {name: "Szkoła", id: 2, checkbox: false},
-    {name: "Muyzka", id: 3, checkbox: false},
-    {name: "Kraje", id: 4, checkbox: false},
-    {name: "piłka nożna", id: 5, checkbox: false},
-    {name: "Gry", id: 6, checkbox: false},
-    {name: "Życie", id: 7, checkbox: false},
-  ]
-
   public chosenCategories: Category[] = []
 
   constructor(
@@ -62,10 +50,12 @@ export class CategoriesComponent implements OnInit {
     this.myApp.confirm()
   }
 
+
+
   toggle($event: MatCheckboxChange, category: Category) {
     if ($event.checked) {
-      const tmp = this.smallCategories.indexOf(category)
-      this.smallCategories.splice(tmp,1)
+      const tmp = this.allCategories.indexOf(category)
+      this.allCategories.splice(tmp,1)
       category.checkbox = true
       this.chosenCategories.push(
         {
