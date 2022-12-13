@@ -20,6 +20,7 @@ import {Country} from "./model/country-model";
 import countriesData from "../assets/countries/country.json";
 import continentsData from "../assets/countries/continents.json";
 import lettersData from "../assets/letters.json";
+import chemicalElements from "../assets/chemist/chemist.json";
 import clubCrestsData from "../assets/clubs/clubCrests.json";
 import clubHistoryData from "../assets/clubs/clubsHistory.json";
 import {ClubHistory} from "./model/clubHistory-model";
@@ -46,6 +47,7 @@ export class QuestionDataService {
   public allMoviesActors: ActorModel[] = []
   public allSerialsActors: ActorModel[] = []
   public allClubsHistoryQuestion: ClubHistory[] = []
+  public allChemicalElements: DescriptionModel[] = []
   public countriesForFlags: Country[] | any = null
   public countriesForCapitals: Country[] | any = null
   public continentsForCountries: string[] | any = []
@@ -70,6 +72,7 @@ export class QuestionDataService {
     this.allSerialsActors = serialActors
     this.allDisctricts = allDistricts
     this.allStadiums = allStadiums
+    this.allChemicalElements = chemicalElements
     this.allProverbs = allProverbs
     this.allHistory = allHistory
     this.allClubsHistoryQuestion = clubHistoryData
@@ -81,6 +84,13 @@ export class QuestionDataService {
     this.countriesLetters = lettersData
     this.capitalsLetters = [...this.countriesLetters]
     this.init = true
+  }
+
+  getChemistQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allChemicalElements)
   }
 
   getYoutubeSongQuestion(){

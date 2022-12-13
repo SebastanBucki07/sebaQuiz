@@ -1,0 +1,592 @@
+[
+  {
+    "id": 1,
+    "title": "wodór",
+    "description": "H"
+  },
+  {
+    "id": 2,
+    "title": "hel",
+    "description": "He"
+  },
+  {
+    "id": 3,
+    "title": "lit",
+    "description": "Li"
+  },
+  {
+    "id": 4,
+    "title": "beryl",
+    "description": "Be"
+  },
+  {
+    "id": 5,
+    "title": "bor",
+    "description": "B"
+  },
+  {
+    "id": 6,
+    "title": "węgiel",
+    "description": "C"
+  },
+  {
+    "id": 7,
+    "title": "azot",
+    "description": "N"
+  },
+  {
+    "id": 8,
+    "title": "tlen",
+    "description": "O"
+  },
+  {
+    "id": 9,
+    "title": "fluor",
+    "description": "F"
+  },
+  {
+    "id": 10,
+    "title": "neon",
+    "description": "Ne"
+  },
+  {
+    "id": 11,
+    "title": "sód",
+    "description": "Na"
+  },
+  {
+    "id": 12,
+    "title": "magnez",
+    "description": "Mg"
+  },
+  {
+    "id": 13,
+    "title": "glin",
+    "description": "Al"
+  },
+  {
+    "id": 14,
+    "title": "krzem",
+    "description": "Si"
+  },
+  {
+    "id": 15,
+    "title": "fosfor",
+    "description": "P"
+  },
+  {
+    "id": 16,
+    "title": "siarka",
+    "description": "S"
+  },
+  {
+    "id": 17,
+    "title": "chlor",
+    "description": "Cl"
+  },
+  {
+    "id": 18,
+    "title": "argon",
+    "description": "Ar"
+  },
+  {
+    "id": 19,
+    "title": "potas",
+    "description": "K"
+  },
+  {
+    "id": 20,
+    "title": "wapń",
+    "description": "Ca"
+  },
+  {
+    "id": 21,
+    "title": "skand",
+    "description": "Sc"
+  },
+  {
+    "id": 22,
+    "title": "tytan",
+    "description": "Ti"
+  },
+  {
+    "id": 23,
+    "title": "wanad",
+    "description": "V"
+  },
+  {
+    "id": 24,
+    "title": "chrom",
+    "description": "Cr"
+  },
+  {
+    "id": 25,
+    "title": "mangan",
+    "description": "Mn"
+  },
+  {
+    "id": 26,
+    "title": "żelazo",
+    "description": "Fe"
+  },
+  {
+    "id": 27,
+    "title": "kobalt",
+    "description": "Co"
+  },
+  {
+    "id": 28,
+    "title": "nikiel",
+    "description": "Ni"
+  },
+  {
+    "id": 29,
+    "title": "miedź",
+    "description": "Cu"
+  },
+  {
+    "id": 30,
+    "title": "cynk",
+    "description": "Zn"
+  },
+  {
+    "id": 31,
+    "title": "gal",
+    "description": "Ga"
+  },
+  {
+    "id": 32,
+    "title": "german",
+    "description": "Ge"
+  },
+  {
+    "id": 33,
+    "title": "arsen",
+    "description": "As"
+  },
+  {
+    "id": 34,
+    "title": "selen",
+    "description": "Se"
+  },
+  {
+    "id": 35,
+    "title": "brom",
+    "description": "Br"
+  },
+  {
+    "id": 36,
+    "title": "krypton",
+    "description": "Kr"
+  },
+  {
+    "id": 37,
+    "title": "rubid",
+    "description": "Rb"
+  },
+  {
+    "id": 38,
+    "title": "stront",
+    "description": "Sr"
+  },
+  {
+    "id": 39,
+    "title": "itr",
+    "description": "Y"
+  },
+  {
+    "id": 40,
+    "title": "cyrkon",
+    "description": "Zr"
+  },
+  {
+    "id": 41,
+    "title": "niob",
+    "description": "Nb"
+  },
+  {
+    "id": 42,
+    "title": "molibden",
+    "description": "Mo"
+  },
+  {
+    "id": 43,
+    "title": "technet",
+    "description": "Tc"
+  },
+  {
+    "id": 44,
+    "title": "ruten",
+    "description": "Ru"
+  },
+  {
+    "id": 45,
+    "title": "rod",
+    "description": "Rh"
+  },
+  {
+    "id": 46,
+    "title": "pallad",
+    "description": "Pd"
+  },
+  {
+    "id": 47,
+    "title": "srebro",
+    "description": "Ag"
+  },
+  {
+    "id": 48,
+    "title": "kadm",
+    "description": "Cd"
+  },
+  {
+    "id": 49,
+    "title": "ind",
+    "description": "In"
+  },
+  {
+    "id": 50,
+    "title": "cyna",
+    "description": "Sn"
+  },
+  {
+    "id": 51,
+    "title": "antymon",
+    "description": "Sb"
+  },
+  {
+    "id": 52,
+    "title": "tellur",
+    "description": "Te"
+  },
+  {
+    "id": 53,
+    "title": "jod",
+    "description": "I"
+  },
+  {
+    "id": 54,
+    "title": "ksenon",
+    "description": "Xe"
+  },
+  {
+    "id": 55,
+    "title": "cez",
+    "description": "Cs"
+  },
+  {
+    "id": 56,
+    "title": "bar",
+    "description": "Ba"
+  },
+  {
+    "id": 57,
+    "title": "lantan",
+    "description": "La"
+  },
+  {
+    "id": 58,
+    "title": "cer",
+    "description": "Ce"
+  },
+  {
+    "id": 59,
+    "title": "prazeodym",
+    "description": "Pr"
+  },
+  {
+    "id": 60,
+    "title": "neodym",
+    "description": "Nd"
+  },
+  {
+    "id": 61,
+    "title": "promet",
+    "description": "Pm"
+  },
+  {
+    "id": 62,
+    "title": "samar",
+    "description": "Sm"
+  },
+  {
+    "id": 63,
+    "title": "europ",
+    "description": "Eu"
+  },
+  {
+    "id": 64,
+    "title": "gadolin",
+    "description": "Gd"
+  },
+  {
+    "id": 65,
+    "title": "terb",
+    "description": "Tb"
+  },
+  {
+    "id": 66,
+    "title": "dysproz",
+    "description": "Dy"
+  },
+  {
+    "id": 67,
+    "title": "holm",
+    "description": "Ho"
+  },
+  {
+    "id": 68,
+    "title": "erb",
+    "description": "Er"
+  },
+  {
+    "id": 69,
+    "title": "tul",
+    "description": "Tm"
+  },
+  {
+    "id": 70,
+    "title": "iterb",
+    "description": "Yb"
+  },
+  {
+    "id": 71,
+    "title": "lutet",
+    "description": "Lu"
+  },
+  {
+    "id": 72,
+    "title": "hafn",
+    "description": "Hf"
+  },
+  {
+    "id": 73,
+    "title": "tantal",
+    "description": "Ta"
+  },
+  {
+    "id": 74,
+    "title": "wolfram",
+    "description": "W"
+  },
+  {
+    "id": 75,
+    "title": "ren",
+    "description": "Re"
+  },
+  {
+    "id": 76,
+    "title": "osm",
+    "description": "Os"
+  },
+  {
+    "id": 77,
+    "title": "iryd",
+    "description": "Ir"
+  },
+  {
+    "id": 78,
+    "title": "platyna",
+    "description": "Pt"
+  },
+  {
+    "id": 79,
+    "title": "złoto",
+    "description": "Au"
+  },
+  {
+    "id": 80,
+    "title": "rtęć",
+    "description": "Hg"
+  },
+  {
+    "id": 81,
+    "title": "tal",
+    "description": "Tl"
+  },
+  {
+    "id": 82,
+    "title": "ołów",
+    "description": "Pb"
+  },
+  {
+    "id": 83,
+    "title": "bizmut",
+    "description": "Bi"
+  },
+  {
+    "id": 84,
+    "title": "polon",
+    "description": "Po"
+  },
+  {
+    "id": 85,
+    "title": "astat",
+    "description": "At"
+  },
+  {
+    "id": 86,
+    "title": "radon",
+    "description": "Rn"
+  },
+  {
+    "id": 87,
+    "title": "frans",
+    "description": "Fr"
+  },
+  {
+    "id": 88,
+    "title": "rad",
+    "description": "Ra"
+  },
+  {
+    "id": 89,
+    "title": "aktyn",
+    "description": "Ac"
+  },
+  {
+    "id": 90,
+    "title": "tor",
+    "description": "Th"
+  },
+  {
+    "id": 91,
+    "title": "protaktyn",
+    "description": "Pa"
+  },
+  {
+    "id": 92,
+    "title": "uran",
+    "description": "U"
+  },
+  {
+    "id": 93,
+    "title": "neptun",
+    "description": "Np"
+  },
+  {
+    "id": 94,
+    "title": "pluton",
+    "description": "Pu"
+  },
+  {
+    "id": 95,
+    "title": "ameryk",
+    "description": "Am"
+  },
+  {
+    "id": 96,
+    "title": "kiur",
+    "description": "Cm"
+  },
+  {
+    "id": 97,
+    "title": "berkel",
+    "description": "Bk"
+  },
+  {
+    "id": 98,
+    "title": "kaliforn",
+    "description": "Cf"
+  },
+  {
+    "id": 99,
+    "title": "einstein",
+    "description": "Es"
+  },
+  {
+    "id": 100,
+    "title": "ferm",
+    "description": "Fm"
+  },
+  {
+    "id": 101,
+    "title": "mendelew",
+    "description": "Md"
+  },
+  {
+    "id": 102,
+    "title": "nobel",
+    "description": "No"
+  },
+  {
+    "id": 103,
+    "title": "lorens",
+    "description": "Lr"
+  },
+  {
+    "id": 104,
+    "title": "rutherford",
+    "description": "Rf"
+  },
+  {
+    "id": 105,
+    "title": "dubn",
+    "description": "Db"
+  },
+  {
+    "id": 106,
+    "title": "seaborg",
+    "description": "Sg"
+  },
+  {
+    "id": 107,
+    "title": "bohr",
+    "description": "Bh"
+  },
+  {
+    "id": 108,
+    "title": "has",
+    "description": "Hs"
+  },
+  {
+    "id": 109,
+    "title": "meitner",
+    "description": "Mt"
+  },
+  {
+    "id": 110,
+    "title": "darmsztadt",
+    "description": "Ds"
+  },
+  {
+    "id": 111,
+    "title": "roentgen",
+    "description": "Rg"
+  },
+  {
+    "id": 112,
+    "title": "kopernik",
+    "description": "Cn"
+  },
+  {
+    "id": 113,
+    "title": "nihon",
+    "description": "Nh"
+  },
+  {
+    "id": 114,
+    "title": "flerow",
+    "description": "Fl"
+  },
+  {
+    "id": 115,
+    "title": "moskow",
+    "description": "Mc"
+  },
+  {
+    "id": 116,
+    "title": "liwermor",
+    "description": "Lv"
+  },
+  {
+    "id": 117,
+    "title": "tenes",
+    "description": "Ts"
+  },
+  {
+    "id": 118,
+    "title": "oganeson",
+    "description": "Og"
+  }
+]
