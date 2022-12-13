@@ -13,40 +13,42 @@ import {TimerComponent} from './timer/timer.component';
 import {ClubHistoryComponent} from './club-history/club-history.component';
 import {ClubCrestsComponent} from './club-crests/club-crests.component';
 import {
-  DistrictsComponent,
-  GamesComponent, HistoryComponent,
-  MoviesComponent, ProverbsComponent,
-  SerialsComponent, StadiumsComponent
+    ChemistSymbolComponent,
+    DistrictsComponent,
+    GamesComponent, HistoryComponent,
+    MoviesComponent, ProverbsComponent,
+    SerialsComponent, StadiumsComponent
 } from './description/description.component';
 import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.component';
 import {MoviesActorsComponent, SerialsActorsComponent} from './actors/actors.component';
 import {YoutubeSerialsComponent, YoutubeSongComponent} from './youtube/youtube.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    SongsComponent,
-    BooksComponent,
-    PlayersComponent,
-    CategoriesComponent,
-    CountryComponent,
-    TimerComponent,
-    ClubHistoryComponent,
-    ClubCrestsComponent,
-    MoviesComponent,
-    SerialsComponent,
-    GamesComponent,
-    DistrictsComponent,
-    StadiumsComponent,
-    ProverbsComponent,
-    HistoryComponent,
-    FamousPeopleComponent,
-    BuildingsComponent,
-    SerialsActorsComponent,
-    MoviesActorsComponent,
-    YoutubeSongComponent,
-    YoutubeSerialsComponent,
-  ],
+    declarations: [
+        AppComponent,
+        SongsComponent,
+        BooksComponent,
+        PlayersComponent,
+        CategoriesComponent,
+        CountryComponent,
+        TimerComponent,
+        ClubHistoryComponent,
+        ClubCrestsComponent,
+        MoviesComponent,
+        SerialsComponent,
+        GamesComponent,
+        DistrictsComponent,
+        StadiumsComponent,
+        ProverbsComponent,
+        HistoryComponent,
+        FamousPeopleComponent,
+        BuildingsComponent,
+        SerialsActorsComponent,
+        MoviesActorsComponent,
+        YoutubeSongComponent,
+        YoutubeSerialsComponent,
+        ChemistSymbolComponent,
+    ],
   imports: [
     BrowserModule,
     NgbModule,
