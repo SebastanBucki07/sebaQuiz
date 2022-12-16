@@ -18,6 +18,8 @@ export class PlayersComponent implements OnInit {
   public addTeamInputVisible = true
   public players: Player[];
   public name: string;
+  public addTeamsButtonDisabled = true
+  public addTeamButtonDisabled = true
 
   constructor(
     private playerService: PlayersService,
@@ -42,13 +44,18 @@ export class PlayersComponent implements OnInit {
       points: 0,
       tmpPoints:0
     }
+    this.name = ''
     this.players.push(player)
     this.sendPlayers(this.players)
-    this.name = ''
+    this.addTeamButtonDisabled = true
+    if (this.players.length > 1){
+      this.addTeamsButtonDisabled=false
+    }
   }
 
   save(event: any) {
     this.name = event.target.value.toLowerCase()
+    this.name.length >= 4 ? this.addTeamButtonDisabled=false : this.addTeamButtonDisabled=true
   }
 
   savePoints(id:number, event: any) {

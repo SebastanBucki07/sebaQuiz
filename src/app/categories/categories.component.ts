@@ -48,6 +48,7 @@ export class CategoriesComponent implements OnInit {
   ]
 
   public chosenCategories: Category[] = []
+  public acceptCategoriesButtonDisabled :boolean = true;
 
   constructor(
     private service: QuestionTypesService,
@@ -62,6 +63,10 @@ export class CategoriesComponent implements OnInit {
     this.myApp.confirm()
   }
 
+  validNumberOfRequiredCategory(){
+    this.chosenCategories.length >=2 ? this.acceptCategoriesButtonDisabled=false : this.acceptCategoriesButtonDisabled=true
+  }
+
   toggle($event: MatCheckboxChange, category: Category) {
     if ($event.checked) {
       const tmp = this.smallCategories.indexOf(category)
@@ -74,6 +79,7 @@ export class CategoriesComponent implements OnInit {
           checkbox: true
         })
     }
+    this.validNumberOfRequiredCategory()
   }
 
   toggle2($event: MatCheckboxChange, category: Category) {
@@ -81,12 +87,14 @@ export class CategoriesComponent implements OnInit {
       const tmp = this.chosenCategories.indexOf(category)
       this.chosenCategories.splice(tmp,1)
       category.checkbox = true
-      this.allCategories.push(
+      this.smallCategories.push(
         {
           name: category.name,
           id: category.id,
           checkbox: false
         })
+      console.log(`all categories: ${JSON.stringify(this.allCategories)}`)
     }
+    this.validNumberOfRequiredCategory()
   }
 }
