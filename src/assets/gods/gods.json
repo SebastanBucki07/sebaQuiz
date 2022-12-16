@@ -1,0 +1,267 @@
+[
+  {
+    "id": 1,
+    "title": "Afrodyta",
+    "description": "Grecka Najpiękniejsza bogini na Olimpie. Córka Zeusa. Urodziła się z piany morskiej na Cyprze. Żona Hefajstosa. Matka Erosa, Hermafrodyty i Eneasza. Bogini piękna, miłości, rozkoszy. Poświęcono jej gołębie, róże, mitr."
+  },
+  {
+    "id": 2,
+    "title": "Ambrozja",
+    "description": "Grecka Pokarm bogów, zapewniający im wieczną młodość oraz nieśmiertelność."
+  },
+  {
+    "id": 3,
+    "title": "Apollo",
+    "description": "Grecka Syn Latony i Zeusa. Brat-bliźniak Artemidy (Artemis). Lekarz \"schorzeń ciała i duszy\". Bóg słońca, światła, wróżb, wyroczni i nagłej śmierci. Opiekun sztuki, muzyki, piękna i poezji. Za jego atrybuty uważa się łuk i lirę. Święty ptak: łabędź, święte drzewo: laur. Posiadał 9 muz"
+  },
+  {
+    "id": 4,
+    "title": "Kalliope",
+    "description": "Grecka muza pieśni bohaterskiej, trzyma rylec i tabliczkę do pisania"
+  },
+  {
+    "id": 5,
+    "title": "Klio",
+    "description": "Grecka zajmuje się historią i ma zwój pergaminu"
+  },
+  {
+    "id": 6,
+    "title": "Euterpe",
+    "description": "Grecka patronka liryki, gra na flecie"
+  },
+  {
+    "id": 7,
+    "title": "Taleja",
+    "description": "Grecka pokazuje maskę komiczną jako muza komedii"
+  },
+  {
+    "id": 8,
+    "title": "Melpomene",
+    "description": "Grecka jest muzą tragedii i poznać ja można po smutnej masce, którą jej dają za godło"
+  },
+  {
+    "id": 9,
+    "title": "Terpsychora",
+    "description": "Grecka z wielką lirą w ręku uczy ludzi tańca"
+  },
+  {
+    "id": 10,
+    "title": "Erato",
+    "description": "Grecka na małej cytrze wygrywa pieśni miłosne"
+  },
+  {
+    "id": 11,
+    "title": "Polihymnia",
+    "description": "Grecka chodzi w głębokiej zasłonie, jakiej używało się przy obrzędach religijnych, albowiem zsyła natchnienie tym, którzy piszą hymny i pieśni pobożne"
+  },
+  {
+    "id": 12,
+    "title": "Urania",
+    "description": "Grecka dźwiga globus astralny, gdyż jej dziełem jest gwiaździarstwo."
+  },
+  {
+    "id": 13,
+    "title": "Ares",
+    "description": "Grecka Syn Zeusa i Hery. Ojciec Erosa. Bóg wojny i armii. Kłótliwy i brutalny. Poświęcono mu psa, wilka i sępa."
+  },
+  {
+    "id": 14,
+    "title": "Ariadna",
+    "description": "Grecka Córka króla Minosa."
+  },
+  {
+    "id": 15,
+    "title": "Nić Ariadny",
+    "description": "W przenośni oznacza sposób wybrnięcia z zawiłej sytuacji."
+  },
+  {
+    "id": 16,
+    "title": "Artemida",
+    "description": "Grecka Córka Latony i Zeusa. Siostra-bliźniaczka Apolla. Odznaczała się niezwykle brutalnymi zemstami, szczególnie na mężczyznach, którzy byli nią zafascynowani. Dziewicza bogini księżyca, lasu, zwierzyny łownej, łąk, myśliwych."
+  },
+  {
+    "id": 17,
+    "title": "Atena",
+    "description": "Grecka Najukochańsza córka Zeusa. Wyszła z głowy ojca w pełnej zbroi. Dziewicza bogini mądrości, sztuki wojennej, nauki."
+  },
+  {
+    "id": 18,
+    "title": "Cyklopi",
+    "description": "Grecka To olbrzymy z jednym okiem pośrodku czoła, zajmujące się pasterstwem i budową ogromnych murów"
+  },
+  {
+    "id": 19,
+    "title": "Dedal",
+    "description": "Grecka Aarchitekt i wynalazca. Zbudował labirynt dla Minotaura. Ojciec Ikara"
+  },
+  {
+    "id": 20,
+    "title": "Demeter",
+    "description": "Grecka Córka Kronosa i Rei. Siostra Zeusa, Hadesa, Posejdona, Hery i Hestii. Nieszczęśliwa matka Persefony i Plutosa. Bogini roli, ziemi, pól uprawnych, urodzaju, pór roku. Opiekunka życia osiadłego, ładu społecznego, bogactwa. Przedstawiana z bukietem kłosów zbóż w ręku."
+  },
+  {
+    "id": 21,
+    "title": "Dionizos",
+    "description": "Grecka Syn Zeusa i Semele. Inaczej Bakchos lub Bachus. Bóg ekstazy, wina i winnej latorośli. Opiekun pijaków. Ku jego czci urządzono teatr grecki. Posiadał własne święto - Dionizje. Wyobrażany w otoczeniu satyrów, sylenów i menad."
+  },
+  {
+    "id": 22,
+    "title": "Epimeteusz",
+    "description": "Grecka Nazywany myślącym od tyłu lub za późno. Syn Japetosato oraz bratAtlasa, Prometeusza iMenojtiosa, ojciec Pyrry. Mimo ostrzeżeń Prometeusza poślubił Pandorę, która była zesłaną przez bogów pierwszą kobietą"
+  },
+  {
+    "id": 23,
+    "title": "Eros",
+    "description": "Grecka Syn Afrodyty i Aresa. Bóg miłości i patron zakochanych. Przedstawiany jako grube, tłuste niemowlę z łukiem i strzałą, którą godzi w zakochanych, by ich ze sobą złączyć."
+  },
+  {
+    "id": 24,
+    "title": "Erynie",
+    "description": "Grecka Urodzone z krwi Uranosa. Boginie o wężowatych splotach zamiast włosów. Mścicielki m.in. przelanej krwi. Symbol zemsty. Opiekunki ziemi uprawnej i owocującej, zwane eumenidami."
+  },
+  {
+    "id": 25,
+    "title": "Gaja",
+    "description": "Grecka Ziemia-Matka. Wyłoniła się z Chaosu, uosabiała płodność i macierzyństwo."
+  },
+  {
+    "id": 26,
+    "title": "Hades",
+    "description": "Grecka Syn Kronosa i Rei. Brat Zeusa, Posejdona, Demeter, Hery, Hestii. Mąż Persefony (Kory). Władca podziemia i zmarłych, przez co często wzbudzał w ludziach lęk."
+  },
+  {
+    "id": 27,
+    "title": "Hefajstos",
+    "description": "Grecka  Syn Zeusa i Hery. Mąż Afrodyty. Opiekun ognia, kowali i złotników. Pracował całymi dniami w kuźniach w głębi Etny. Przedstawiany jako kulawy bóg i w odróżnieniu od pozostałych - brzydki i stary, z młotem lub obcęgami w ręku."
+  },
+  {
+    "id": 28,
+    "title": "Hera",
+    "description": "grecka Córka Kronosa i Rei. Siostra Posejdona, Hadesa, Hestii, Demeter. Żona i siostra Zeusa. Matka Hefajstosa, Hebe i Aresa. Władczyni Olimpu i nieba. Była bardzo zazdrosna o liczne kochanki swojego męża. Opiekunka małżeństw i wierności małżeńskiej. Patronka kobiet zamężnych. Poświęcono jej pawia i kukułkę. Natomiast w ofierze składano krowy."
+  },
+  {
+    "id": 29,
+    "title": "Helios",
+    "description": "Grecka Syn Hyperiona i Tei. Brat Selene i Eos. Bóg słońca, źródeł światła i życia. Regulował bieg dnia. Świadek wszystkich czynów i mściciel występków. Wyobrażany w złotym rydwanie zaprzężonym w cztery białe rumaki."
+  },
+  {
+    "id": 30,
+    "title": "Hermes",
+    "description": "grecka Ojciec Pana. Posłaniec bogów i przewodnik dusz do świata zmarłych. W młodości wygnany z Olimpu za drobne kradzieże, później wrócił do łask bogów. Opiekun kupców, złodziei, wynalazców, poetów, podróżnych, pasterzy i ich stad. Wyobrażany w kapeluszu podróżnym, w uskrzydlonych sandałach, z kerykejonem w ręce lub jako \"dobrego pasterza\" z owieczką na ramionach."
+  },
+  {
+    "id": 31,
+    "title": "Hestia",
+    "description": "Grecka Córka Kronosa i Rei. Siostra Zeusa, Posejdona, Hadesa, Demeter. Ślubowała pozostanie w dziewictwie. Ją pierwszą wzywano w przysięgach i jej pierwszej składano ofiary. Patronka ogniska domowego, rodziny, sierot i wdów."
+  },
+  {
+    "id": 32,
+    "title": "Hypnos",
+    "description": "grecka Syn Nocy i Ereba. Brat-bliźniak Tanatosa. Uosobienie snu. Wyobrażany ze skrzydłami u ramion i kwiatem maków ręce"
+  },
+  {
+    "id": 33,
+    "title": "Koń Trojański",
+    "description": "Grecka Drewniany koń, podłożony przez Greków pod Troję pod koniec wojny trojańskiej. Byli w nim ukryci żołnierze greccy."
+  },
+  {
+    "id": 34,
+    "title": "Kronos",
+    "description": "Grecka Tytan. Najmłodszy syn Gai i Uranosa. Brat i mąż Rei. Pokonał ojca, który nałożył na niego klątwę, że jego syn także odbierze mu władzę. Połykał swoje potomstwo: Herę, Hestię, Demeter, Posejdona, Hadesa. W skutek spisku Rei został obalony przez Zeusa, najmłodszego syna. Ojciec bogów."
+  },
+  {
+    "id": 35,
+    "title": "Minos",
+    "description": "Grecka Król Krety.\nPewnego dnia zorganizował konkurs muzyczny, którego nagrodą będzie wieniec laurowy."
+  },
+  {
+    "id": 36,
+    "title": "Minotaur",
+    "description": "grecka zazwyczaj przedstawiany jako człowiek z głową byka, jednak czasem w postaci istoty z torsem i głową człowieka, od pasa w dół zaś z ciałem byka."
+  },
+  {
+    "id": 37,
+    "title": "Nike",
+    "description": "Grecka Skrzydlata bogini zwycięstwa (w bitwach, sporcie lub sztuce)."
+  },
+  {
+    "id": 38,
+    "title": "Odys",
+    "description": "Grecka Król wyspy Itaki. Uczestnik wyprawy pod Troję oraz wojny trojańskiej. Przez 10 lat, prześladowany przez Posejdona starał się powrócić do domu. Błąkając się po morzu doznał wielu przygód (np. spotkanie ze Scyllą i Charybdą), stracił wszystkich towarzyszy, aż wreszcie dzięki pomocy bogini Pallas Atene powrócił do rodzinnego miasta. Tam czekała na niego wierna żona Penelopa i kochający syn Telemach."
+  },
+  {
+    "id": 39,
+    "title": "Pandora",
+    "description": "Grecka To pierwsza kobieta na Ziemi, którą Zeus zesłał jako karę dla ludzi za to, że Prometeusz wykradł bogom ogień z Olimpu. Matka Pyrry.\nNa rozkaz Zeusa, Hefajstos ulepił z gliny pierwszą kobietę, którą charyty i hory pięknie przyodziały. Atena nauczyła ją prac domowych, Afrodyta obdarowała piękną urodą, a Hermes podzielił się z nią swoimi cechami charakteru: kłamstwem, fałszem i pochlebstwem, i zaprowadził do Epimeteusza, który pojął ją za żonę wbrew ostrzeżeniom swojego brata Prometeusza."
+  },
+  {
+    "id": 40,
+    "title": "Puszka Pandory",
+    "description": "To symbol nieszczęść, coś, co wywołuje mnóstwo nieprzewidzianych trudności, źródło nie kończących się smutków i kłopotów."
+  },
+  {
+    "id": 41,
+    "title": "Persefona",
+    "description": "Grecka Inaczej Kora. Córka Demeter i Zeusa. Żona Hadesa, przez którego została uprowadzona po zerwaniu zakazanego kwiatu - narcyza. Okres wegetacji roślin spędzała na ziemi z matką, a resztę czasu w Hadesie."
+  },
+  {
+    "id": 42,
+    "title": "Posejdon",
+    "description": "Grecka Syn Kronosa i Rei. Brat Zeusa, Hadesa, Demeter, Hestii i Hery. Mąż Amfitryty. Władca oceanów, jezior, portów i mórz. Opiekun żeglarzy, którzy modlili się do niego o spokój na morzu, i rybaków. Przedstawiany na rydwanie unoszącym się na falach z trójzębem w ręku, którym wzburzał i uciszał wody, kruszył skały."
+  },
+  {
+    "id": 43,
+    "title": "Psyche",
+    "description": "Grecka Żona Erosa. Królewna, która z powodu swojej urody była prześladowana przez Afrodytę."
+  },
+  {
+    "id": 44,
+    "title": "Tanatos",
+    "description": "Grecka Syn Nocy i Ereba. Brat-bliźniak Hypnosa. Uosobienie śmierci. Przedstawiany w postaci uskrzydlonego młodzieńca ze zgaszoną pochodnią w ręce."
+  },
+  {
+    "id": 45,
+    "title": "Zeus",
+    "description": "Grecka Najważniejszym z bogów. Syn Rei i Kronosa, zabił ojca i uwolnił połknięte przez niego rodzeństwo: Posejdona, Hadesa, Hestię, Demeter i Herę (także żona). Władca Olimpu. Posiadał liczne potomstwo Opiekun królów i ładu na świecie. Pan i stwórca ziemi, nieba i burzy. Jego gniew szczególnie wzbudzali ludzie, którzy składali fałszywe przysięgi. Przedstawiany z piorunem w ręku. Za jego świętego ptaka uważa się orła, a za drzewo - dąb."
+  },
+  {
+    "id": 46,
+    "title": "Mars",
+    "description": "Rzymski  bóg wojny, utożsamiany z greckim Aresem."
+  },
+  {
+    "id": 47,
+    "title": "MERKURY",
+    "description": "Rzymski bóg handlu i zysku. Był opiekunem handlarzy."
+  },
+  {
+    "id": 48,
+    "title": "MINERWA",
+    "description": "rzymska bogini mądrości, opiekunka rzemiosł, sztuki i literatury."
+  },
+  {
+    "id": 49,
+    "title": "AMOR",
+    "description": "rzymski bożek miłości i pożądania. Był dzieckiem Wenus."
+  },
+  {
+    "id": 50,
+    "title": "JOWISZ",
+    "description": "rzymski najważniejszy z bogów. Bóg nieba i światła, pogody i wszelkich zjawisk przyrody. Jego była Junona."
+  },
+  {
+    "id": 51,
+    "title": "Neptun",
+    "description": "bóg chmur, deszczu i wód. Zamieszkał w morzu"
+  },
+  {
+    "id": 52,
+    "title": "Saturn",
+    "description": "Rzymski bog rolnictwa i zaświatów"
+  },
+  {
+    "id": 53,
+    "title": "WENUS",
+    "description": "rzymska bogini wiosny, roślinności i warzyw oraz piękna. Urodziła Amora - bożka miłości."
+  }
+]

@@ -1027,7 +1027,7 @@
     "id": 129,
     "author": "Maroon 5",
     "title": "this love",
-    "fragment1": "My pressure on your hips, I'm sinking my fingertips into\nEvery inch of you",
+    "fragment1": "My pressure on your hips, I m sinking my fingertips into\nEvery inch of you",
     "fragment2": "I was so high I did not recognize\nThe fire burning in her eyes",
     "fragment3": "This love has taken its toll on me\nShe said goodbye too many times before"
   },
@@ -1036,30 +1036,30 @@
     "author": "Justin timberlake",
     "title": "Cry me a river",
     "fragment1": "All of these things people told me\nKeep messing with my head",
-    "fragment2": "You were my sun, you were my earth\nBut you didn't know all the ways I loved you, no",
-    "fragment3": "Now it's your turn, to cry\nCry me a river"
+    "fragment2": "You were my sun, you were my earth\nBut you didn t know all the ways I loved you, no",
+    "fragment3": "Now it s your turn, to cry\nCry me a river"
   },
   {
     "id": 131,
     "author": "Snoop dogg",
     "title": "Still D R E",
-    "fragment1": "They want to know if he still got it\nThey say rap's changed",
-    "fragment2": "Yeah, nigga\nI'm still fucking with you",
-    "fragment3": "I'm representing for them gangstas all across the world"
+    "fragment1": "They want to know if he still got it\nThey say rap s changed",
+    "fragment2": "Yeah, nigga\nI m still fucking with you",
+    "fragment3": "I m representing for them gangstas all across the world"
   },
   {
     "id": 132,
     "author": "Estelle ft Kayne West",
     "title": "west american boy",
-    "fragment1": "I never been to Brooklyn and I'd like to see what's good\nDressed in all your fancy clothes",
+    "fragment1": "I never been to Brooklyn and I d like to see what s good\nDressed in all your fancy clothes",
     "fragment2": "This a number one champion sound\nYeah, Estelle, we about to get down",
-    "fragment3": "Take me on a trip I'd like to go some day\nTake me to New York, I'd love to see LA"
+    "fragment3": "Take me on a trip I d like to go some day\nTake me to New York, I d love to see LA"
   },
   {
     "id": 133,
     "author": "Sade",
     "title": "The Sweetest Taboo",
-    "fragment1": "That's why I'm in love with you (with you)",
+    "fragment1": "That s why I m in love with you (with you)",
     "fragment2": "If I tell you\nIf I tell you now",
     "fragment3": "You give me the sweetest taboo"
   },
@@ -1075,8 +1075,344 @@
     "id": 135,
     "author": "Stevie Wonder",
     "title": "Superstition",
-    "fragment1": "The devil's on his way,",
-    "fragment2": "When you believe in things\nThat you don't understand,",
-    "fragment3": "Very superstitious,\nWriting's on the wall,"
+    "fragment1": "The devil s on his way,",
+    "fragment2": "When you believe in things\nThat you don t understand,",
+    "fragment3": "Very superstitious,\nWriting s on the wall,"
+  },
+  {
+    "id": 136,
+    "author": "Gibbs",
+    "title": "Piękny świat",
+    "fragment1": "Naiwne spojrzenie na wszechświat\nTeraz się zawsze potwierdza",
+    "fragment2": "Łatwo się mówi, że przejdzie\nGorzej się znosi potknięcie",
+    "fragment3": "Lubię zapomnieć, że zło nas dosięga\nWystarczy łza"
+  },
+  {
+    "id": 137,
+    "author": "Gibbs & Szymi Szyms",
+    "title": "Oda do butli",
+    "fragment1": "Nim zostanie po nas wrak i będzie nam siebie brak\nBez oklasków i braw jestem dla ciebie sam",
+    "fragment2": "Gdyby miał już za coś pić, to za to żeby żyć",
+    "fragment3": "Zdobyłbym ten świat i jeszcze więcej"
+  },
+  {
+    "id": 138,
+    "author": "Gibbs",
+    "title": "ZTB",
+    "fragment1": "Na wyjazd ważne byś była obok mnie jak duch\nTam gdzie kończy się sen, a życie zaczyna",
+    "fragment2": "Piękny widok z osiemnastego piętra\nI tak przy twoim wymięka",
+    "fragment3": "Zatracić się, z tobą daleko gdzieś, z tobą"
+  },
+  {
+    "id": 139,
+    "author": "Gibbs i DOPEhouse",
+    "title": "Zodiak",
+    "fragment1": "Jej Chanel miesza się z mokrym asfaltem i Amnezją Haze",
+    "fragment2": "Zapętlony w słowach nie mam już ochoty zaczynać od nowa",
+    "fragment3": "Nad głową świeci mi neon dwa cztery jak aureola"
+  },
+  {
+    "id": 140,
+    "author": "Gibbs i DOPEhouse",
+    "title": "Pogoda, drinki, plaża",
+    "fragment1": "Lubię siedzieć w domu sam a jednak w ciągłych rozjazdach",
+    "fragment2": "Hej odkąd prędkość życia wzrasta",
+    "fragment3": "Nie marnuję już chwil chodzi tylko o vibe nam\nPoczułem życia smak kiedy przestałem zwalniać"
+  },
+  {
+    "id": 141,
+    "author": "Kacper HTA",
+    "title": "Puta madre",
+    "fragment1": "Zwykły Janusz sterczy w oknie niespełniony Bonaparte",
+    "fragment2": "Siekiera w klatce, siekiera w domu\nKiedyś tu więcej dymu a nie mefedronu",
+    "fragment3": "Nie zaprzątaj sobie nigdy nimi głowy\nKażdy z nich to tylko"
+  },
+  {
+    "id": 142,
+    "author": "Kacper HTA",
+    "title": "Nie zmieniam wizji",
+    "fragment1": "Demony w lustrze i demony w głowie, bo życie jest chore, nie mogę go znieść",
+    "fragment2": "Prawda, której nie chcesz znać o swoich bliskich, o sobie\nCzemu jestem własnym wrogiem?",
+    "fragment3": "Ja dalej nienawidzę hipokryzji\nA jako ludzie nosimy ją wszyscy"
+  },
+  {
+    "id": 143,
+    "author": "Kacper HTA & Gibbs",
+    "title": "Nirwana",
+    "fragment1": "Chciałem tylko pewność mieć wielką\nCzy serio już siebie znam",
+    "fragment2": "Wszystko co mogłem zostawiłem w rapie",
+    "fragment3": "Zrobię to sam\nTyle razy wróg już u bram"
+  },
+  {
+    "id": 144,
+    "author": "Janek",
+    "title": "Czarno na białym",
+    "fragment1": "Ludzie, pieniądze i fakty\nkażda chwila jak puste kartki",
+    "fragment2": "Powinienem skupić się na tym\nże w sumie tylko ja, nikt poza tym",
+    "fragment3": "skasowałem wszystkie kontakty"
+  },
+  {
+    "id": 145,
+    "author": "Tymek ft. Julia Wieniawa",
+    "title": "",
+    "fragment1": "Nieskazitelna łza\nTuż spod moich powiek",
+    "fragment2": "Co to jest za gość, tak dziwnie ubrany\nNie lubimy ram, przebijamy ściany",
+    "fragment3": "Każdy look i każdy krok, wymyśliłem słowa\nCo to znaczy \"być jak ktoś\", nie jako ikona"
+  },
+  {
+    "id": 146,
+    "author": "Guzior, Vito Bambino i Favst",
+    "title": "Chabo",
+    "fragment1": "Czy twój czek działa, żeby pani w banku mnie nie wyzywała",
+    "fragment2": "Rozmowy do późna, balaś z colą w kubkach\nNa dole taksówka, a",
+    "fragment3": "Bandyta czy hultaj, ryju z podwórka\nDawaj, bo zbiórka jest"
+  },
+  {
+    "id": 147,
+    "author": "Tymek & Ofelia",
+    "title": "Chcesz to ze mną bądź",
+    "fragment1": "Gadają za dużo, twoje koleżanki duszą mnie już tą rozmową\nO niczym i niczym",
+    "fragment2": "Czy to wszystko mi się śni?\nJacyś ludzie, brudny film",
+    "fragment3": "Odlatuję stąd, nie odstępują mnie nawet o krok"
+  },
+  {
+    "id": 148,
+    "author": "Gibbs & Przyłu",
+    "title": "Duchy",
+    "fragment1": "Nie mam już siły na bezdech\nZabrakło tlenu mi przez was już dawno",
+    "fragment2": "Moja wina\nPokazałem gdzie mnie ukłuć",
+    "fragment3": "Odkąd zapomniałem co to strach\nW moim domu nie ma żadnych duchów"
+  },
+  {
+    "id": 149,
+    "author": "Smolasty",
+    "title": "Sezon",
+    "fragment1": "I choć nie lubimy życia na pokaz masz na sobie bieliznę prosto z Milanu",
+    "fragment2": "Pijemy Bacardi za lepszy czas nie jesteś jak inne dziewczyny",
+    "fragment3": "W ten letni czas gdy smutku brak\nChcę przeżyć z tobą chwili szczęścia smak"
+  },
+  {
+    "id": 150,
+    "author": "Kartky",
+    "title": "Chmury",
+    "fragment1": "Kiedyś chciałem porozmawiać, znałem numer, teraz\nPołowy nie chcę pamiętać, ale taka cena",
+    "fragment2": "Ostatni raz dzisiaj piję Twoje zdrowie\nBo przez te lata byłeś dla mnie jak brat",
+    "fragment3": "Chciałaś mnie, jak byłem nikim, jestem taki sam\nPowiedz, ile lat mi zabierzesz więce"
+  },
+  {
+    "id": 151,
+    "author": "PlanBe",
+    "title": "Flash FM",
+    "fragment1": "Patrzymy kiedy całe miasto moknie w dzień\nTylko w telewizji",
+    "fragment2": "Potem skoczę sam do Santa Fe\nSamolotem, prawie private jet",
+    "fragment3": "Letni vibe 90 210\nDuży jacht, dużo miejsca w Mercedesie"
+  },
+  {
+    "id": 152,
+    "author": "Vito Bambino",
+    "title": "Poszło",
+    "fragment1": "Gdybym cię zobaczył to bym podszedł czy schował za czymś\nNiezakochani czekają na wiosnę",
+    "fragment2": "Jak wrócisz z nim na chawir\nTo nie zmieni się nic",
+    "fragment3": "Młoda jest jak u-u-uuu!\nBo ona lubi tańczyć\nOna lubi dogadywać się bez słów!"
+  },
+  {
+    "id": 153,
+    "author": "Vito Bambino",
+    "title": "Nudy",
+    "fragment1": "Tak sobie myślę, że Ty przecież też\nMiewasz gorszy dzień",
+    "fragment2": "Twoje serce ma długi też",
+    "fragment3": "Ale raczej tu nudy\nAle raczej to nie oczekuj nic"
+  },
+  {
+    "id": 154,
+    "author": "Kiwi",
+    "title": "Co chowasz",
+    "fragment1": "Zabierz mnie w głąb Twych lęków teraz\nChcę poznać najciemniejsze miejsce",
+    "fragment2": "Pokaż mi jak wołasz do diabła",
+    "fragment3": "Opowiedz mi swój marny dzień\nOpowiedz mi co chowasz w sercu"
+  },
+  {
+    "id": 155,
+    "author": "Kiwi",
+    "title": "Tańcz",
+    "fragment1": "Skieruj wzrok w drugą stronę\nNieważne to jest",
+    "fragment2": "Nie mów że to niemądre\nNiech się pali ten ogień\nOtwórz usta czerwone",
+    "fragment3": "I powiedz sobie głośno tańcz"
+  },
+  {
+    "id": 156,
+    "author": "Przyłu",
+    "title": "Usta",
+    "fragment1": "Gdzie zaczekasz na na tego typa gdy powróci tu\nMusisz bać, bać się, że nie ogarnę w bani syfu",
+    "fragment2": "Chodź zwiedzimy Meksyk, mam parę perspektyw\nŻadna z uczelni nie wchodzi w grę",
+    "fragment3": "Jestem gołosłowny, bo nie wiem w co je ubrać\nGęsia skóra, zimno, dzielę ogień na pół"
+  },
+  {
+    "id": 157,
+    "author": "Miętha",
+    "title": "Pewna",
+    "fragment1": "Nie dzwoń do mnie, jeśli się\nBoisz moich uczuć",
+    "fragment2": "Uwielbiam noc, latem jest piękna\nWodzę za nos siebie od dziecka",
+    "fragment3": "Pokaż mi to, oh, jak się tu mieszka\nKocham Twój gło-os, nie lubię mię-sa"
+  },
+  {
+    "id": 158,
+    "author": "Bajm",
+    "title": "Biała armia",
+    "fragment1": "Możesz wreszcie zabłądzić w wielkim mieście\nUrodziłeś się, by służyć nam",
+    "fragment2": "Właśnie nadszedł ten czas\nWoh, to jest właśnie ten czas",
+    "fragment3": "Jesteś żaglem, szalonym wiatrem\nTwoja siła to skarb"
+  },
+  {
+    "id": 159,
+    "author": "Bajm",
+    "title": "Ta sama chwila",
+    "fragment1": "Niech każdy dzień dodaje nam sił\nMoże znajdziemy siebie znów",
+    "fragment2": "Mów niech Twoje słowa zbudzą krew\nNiech wszystko będzie już okej",
+    "fragment3": "Nie odnajdzie więcej nas, ta sama chwila"
+  },
+  {
+    "id": 160,
+    "author": "Andrzej Dąbrowski",
+    "title": "Do zakochania jeden krok",
+    "fragment1": "Coś się gromadzi, coś dojrzewa w nas\nCo było ledwie nutką rzewną",
+    "fragment2": "Mijają dni, miesiące, mija rok\nPrawdziwe życie mija nas o krok",
+    "fragment3": "Dopóki się zapala wzrok, dopóki się splatają ręce"
+  },
+  {
+    "id": 161,
+    "author": "Feel",
+    "title": "A gdy jest już ciemno",
+    "fragment1": "Pod spojrzała, a Ty jesteś słaby, to patrz",
+    "fragment2": "Wiesz, zaufaj mi, jak chcesz\nZaczaruj mnie, jak chcesz",
+    "fragment3": "Chodź tu do mnie, poczuj się swobodnie, przy mnie bądź"
+  },
+  {
+    "id": 162,
+    "author": "Sanah & Daria Zawiałow",
+    "title": "Eldorado",
+    "fragment1": "Gdzieś za siódmą rzeką\nWe łzach znajdziesz mnie",
+    "fragment2": "Oczy były różowe\nDrogi blask świecił im",
+    "fragment3": "A w tobie ma Warszawo mój dom"
+  },
+  {
+    "id": 163,
+    "author": "Sanah & Daria Zawiałow",
+    "title": "Melodia",
+    "fragment1": "Nie uprzedził nikt, że wyleję łzy, czy za dużo ich\nTrochę to żałosne",
+    "fragment2": "Dla ciebie byłam jedną z wielu pań\nA ja już ślub planowałam",
+    "fragment3": "Mówię sobie tańcz, tańcz, tańcz\nAle nie wiem jak"
+  },
+  {
+    "id": 164,
+    "author": "Adele",
+    "title": "Someone like you",
+    "fragment1": "You know how the time flies\nOnly yesterday was the time of our lives",
+    "fragment2": "Sometimes it lasts in love, but sometimes it hurts instead",
+    "fragment3": "I wish nothing but the best for you\n\"Don't forget me, \" I beg"
+  },
+  {
+    "id": 165,
+    "author": "Sanah & Dawid Podsiadło",
+    "title": "Ostatnia nadzieja",
+    "fragment1": "Drżał jej we włosach piękny kwiat\nZe strachu, że go zmieni",
+    "fragment2": "Moja mama, mówiła\nOstatnia umiera nadzieja",
+    "fragment3": "Dziś odchodzę sam\nJuż nie zawrócę\nTo wszystko dziś porzucę"
+  },
+  {
+    "id": 166,
+    "author": "Boney M",
+    "title": "Rasputin",
+    "fragment1": "He was big and strong, in his eyes a flaming glow\nMost people looked at him with terror and with fear",
+    "fragment2": "Russia's greatest love machine\nIt was a shame how he carried on",
+    "fragment3": "Ra ra Rasputin\nLover of the Russian queen"
+  },
+  {
+    "id": 167,
+    "author": "Iris",
+    "title": "Goo Goo Dolls",
+    "fragment1": "And sooner or later, it's over\nI just don't wanna miss you tonight",
+    "fragment2": "I just want you to know who I am",
+    "fragment3": "And you can't fight the tears that ain't coming\nOr the moment of truth in your lies"
+  },
+  {
+    "id": 168,
+    "author": "Nickelback",
+    "title": "Trying not to love you",
+    "fragment1": "Now I see the silver lining, of what we're fighting for\nAnd if we just keep on trying, we could be much more",
+    "fragment2": "God knows I haven't found it yet\nBut I'm dying to, God I'm trying to",
+    "fragment3": "Cause trying not to love you\nOnly makes me love you more"
+  },
+  {
+    "id": 169,
+    "author": "Nickelback",
+    "title": "How you remind me",
+    "fragment1": "Yeah, yeah, are we having fun yet?",
+    "fragment2": "It's not like you to say \"Sorry\"\nI was waiting on a different story",
+    "fragment3": "This is how you remind me\nOf what I really am"
+  },
+  {
+    "id": 170,
+    "author": "Britney Spears",
+    "title": "Toxic",
+    "fragment1": "Intoxicate me now, with your lovin' now\nI think I'm ready now",
+    "fragment2": "Baby, can't you see I'm calling?\nA guy like you should wear a warning",
+    "fragment3": "With a taste of your lips, I'm on a ride\nYou're toxic, I'm slippin' under"
+  },
+  {
+    "id": 171,
+    "author": "Britney Spears",
+    "title": "Baby one more time",
+    "fragment1": "How was I supposed to know\nOh pretty baby",
+    "fragment2": "I must confess, that my loneliness\nIs killing me now",
+    "fragment3": "My loneliness is killing me\nI must confess, I still believe"
+  },
+  {
+    "id": 172,
+    "author": "Grzegorz Hyży",
+    "title": "Wstaję",
+    "fragment1": "Może gdzieś na końcu, na krzyk mój czeka ktoś",
+    "fragment2": "Już mi siły brak i słyszę swój głos\nMusi być tak, nie szkodzi, czasem idzie źle",
+    "fragment3": "Wstaje, mimo tylu ran i znów do góry głowę\nIdę dalej"
+  },
+  {
+    "id": 173,
+    "author": "Natalia Kukulska",
+    "title": "Im więcej Ciebie tym mniej",
+    "fragment1": "Im więcej słów dałeś mi już\nTym później mniej zostanie",
+    "fragment2": "Czy nie wiesz że\nJa nawet kiedy jesteś tak blisko mnie\nTęsknie już za tobą",
+    "fragment3": "Im więcej ciebie tym mniej\nBardziej to czuję niż wiem"
+  },
+  {
+    "id": 174,
+    "author": "Kasia Cerekwicka",
+    "title": "Na kolana",
+    "fragment1": "Zapomnij, zapomnij\nO wszystkim tym co było między nami",
+    "fragment2": "Od dziś jestem Twoim wrogiem, Ty moim wrogiem",
+    "fragment3": "To już nie działa na mnie żegnaj\nTwoja strata"
+  },
+  {
+    "id": 175,
+    "author": "Katy Perry",
+    "title": "I kissed a girl",
+    "fragment1": "I got so brave, drink in hand\nLost my discretion",
+    "fragment2": "Us girls, we are so magical\nSoft skin, red lips, so kissable",
+    "fragment3": "It felt so wrong, it felt so right\nDon't mean I'm in love tonight"
+  },
+  {
+    "id": 176,
+    "author": "Justin Timberlake",
+    "title": "Say something",
+    "fragment1": "Everyone knows all about my transgressions\nStill in my heart somewhere",
+    "fragment2": "Maybe I'm looking for something I can't have",
+    "fragment3": "Everybody says, say something"
+  },
+  {
+    "id": 177,
+    "author": "Twenty One Pilots",
+    "title": "Stressed out",
+    "fragment1": "It'd be to my brother, 'cause we have the same nose\nSame clothes, homegrown, a stone's throw from a creek we used to roam",
+    "fragment2": "Wish we could turn back time\nTo the good old days",
+    "fragment3": "When our mama sang us to sleep\nBut now we're stressed out"
   }
 ]

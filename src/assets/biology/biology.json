@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "title": "żołądek",
+    "description": "stanowi cześć przewodu pokarmowego pomiędzy przełykiem a dwunastnicą"
+  },
+  {
+    "id": 2,
+    "title": "wirus",
+    "description": "o cząstki zakaźne, które infekują wszelkie formy życia."
+  },
+  {
+    "id": 3,
+    "title": "anatomia",
+    "description": "Jest działem morfologii, nauką o budowie wewnętrznej organizmów"
+  },
+  {
+    "id": 4,
+    "title": "bakterie",
+    "description": "to królestwo żywych, jednokomórkowych organizmów, należące do prokariontów, czyli istot żywych, których komórki są pozbawione jądra komórkowego"
+  },
+  {
+    "id": 5,
+    "title": "bezkręgowce",
+    "description": "grupa zwierząt, która wyróżnia się przede wszystkim brakiem szkieletu wewnętrznego."
+  },
+  {
+    "id": 6,
+    "title": "biocenoza",
+    "description": "jest to zespół organizmów roślinnych, zwierzęcych, grzybów, bakterii powiązanych ze sobą różnymi czynnikami i zależnościami biologicznymi i ekologicznymi"
+  },
+  {
+    "id": 7,
+    "title": "biom",
+    "description": "jest to obszar scharakteryzowany przez określony klimat, rozległość geograficzną, szatę roślinną, glebę"
+  },
+  {
+    "id": 8,
+    "title": "biotop",
+    "description": "jest to środowisko życia biocenozy, nieożywiona część ekosystemu, środowisko życia, ale zmienione przez zespół organizmów, który go zasiedla i tworzy biocenozę."
+  },
+  {
+    "id": 9,
+    "title": "cytologia",
+    "description": "jest działem anatomii, nauką o budowie komórek organizmów, ich budowie chemicznej, funkcjach i strukturze, zachodzących w komórce procesach."
+  },
+  {
+    "id": 10,
+    "title": "defoliacja",
+    "description": "jest to pozbawienie rośliny liści"
+  },
+  {
+    "id": 11,
+    "title": "dendrochronologia",
+    "description": "jest to metoda wyciągania wniosków na podstawie rocznych przyrostów drewna, widocznych jako koncentryczne koła w przekroju."
+  },
+  {
+    "id": 12,
+    "title": "ekologia",
+    "description": "jest to nauka o wzajemnych relacjach między organizmami a środowiskiem ich życia oraz między samymi organizmami. To biologia środowiska."
+  },
+  {
+    "id": 13,
+    "title": "ekosystem",
+    "description": "jest to jednostka funkcjonalna przyrody, na którą składa się biocenoza i biotop."
+  },
+  {
+    "id": 14,
+    "title": "gady",
+    "description": "to kręgowce, które opanowały środowisko wodne i lądowe"
+  },
+  {
+    "id": 15,
+    "title": "gatunek",
+    "description": "jest to podstawowe pojęcie w systematyce oznaczające zbiór organizmów, które posiadają określony zespół cech, odróżniający go od innego zbioru osobników"
+  },
+  {
+    "id": 16,
+    "title": "grzyby",
+    "description": "to królestwo organizmów żywych, zaliczane do eukariontów, zróżnicowane pod względem budowy i przystosowania do środowiska."
+  },
+  {
+    "id": 17,
+    "title": "helotyzm",
+    "description": "jest formą symbiozy, w której oba gatunki odnoszą korzyści, jednakże jeden z nich podporządkowuje sobie drugi."
+  },
+  {
+    "id": 18,
+    "title": "hibernacja",
+    "description": "jest to fizjologiczne zjawisko obniżenia poziomu intensywności procesów życiowych niektórych organizmów w okresie zimowym"
+  },
+  {
+    "id": 19,
+    "title": "histologia",
+    "description": "jest działem anatomii, nauką o budowie tkanek. Histologia bada budowę, rozwój, a także funkcje, jakie tkanki spełniają w organizmie."
+  },
+  {
+    "id": 20,
+    "title": "jajorodnosc",
+    "description": "jest rodzajem reprodukcji zwierząt tkankowych, która polega na rozwoju zapłodnionej komórki jajowej w organizm poza ciałem samicy"
+  },
+  {
+    "id": 21,
+    "title": "kanibalizm",
+    "description": "jest to zjadanie osobników własnego gatunku"
+  },
+  {
+    "id": 22,
+    "title": "komensalizm",
+    "description": "jest to rodzaj symbiozy między różnymi, najczęściej dwoma gatunkami, rodzaj zależności międzygatunkowej, w której tylko jeden z nich, tak zwany komensal, czerpie wyraźne korzyści, nie szkodząc przy tym innym, ani nie czyniąc im żadnych korzyści."
+  },
+  {
+    "id": 23,
+    "title": "morfologia",
+    "description": "jest dziedziną biologii, której przedmiotem badań jest ukształtowanie oraz budowa wewnętrzna i zewnętrzna organizmów żywych i wymarłych, a także na każdym etapie ich życia."
+  },
+  {
+    "id": 24,
+    "title": "mutalizm",
+    "description": "jest rodzaj symbiozy organizmów, która jest korzystna i często konieczna dla obu gatunków (populacji). Ten rodzaj wzajemnego oddziaływania między gatunkami jest zatem konieczny do ich przeżycia."
+  },
+  {
+    "id": 25,
+    "title": "neuron",
+    "description": "jest to specjalny rodzaj komórki, która może przewodzić impulsy elektrochemiczne"
+  },
+  {
+    "id": 26,
+    "title": "neuston",
+    "description": "zespół organizmów, które żyją w przestrzeni błony powierzchniowej wody."
+  },
+  {
+    "id": 27,
+    "title": "pustynia",
+    "description": "jest to biom, który charakteryzuje skromna szata roślinna oraz bardzo uboga fauna lub obszar zupełnie pozbawiony objawów życia."
+  },
+  {
+    "id": 28,
+    "title": "saprobionty",
+    "description": "to organizmy odżywiające się rozkładającymi się szczątkami materii organicznej i żyjące w środowisku, które obfituje w nie."
+  },
+  {
+    "id": 29,
+    "title": "saprofagi",
+    "description": "to organizmy zwierzęce, które odżywiają się rozkładającymi się szczątkami materii organicznej, zgromadzonymi w glebie, mule, ściółce leśnej itp."
+  },
+  {
+    "id": 30,
+    "title": "saprofity",
+    "description": "inaczej roztocza to organizmy cudzożywne, odżywiające się związkami organicznymi pochodzącymi z rozkładu martwych szczątków roślin lub zwierząt zawartych w ściółce leśnej, glebie, mule, wodzie itp."
+  },
+  {
+    "id": 31,
+    "title": "symbioza",
+    "description": "jest to stałe lub okresowe współżycie organizmów różnych gatunków, występujące w sposób naturalny, które nie prowadzi do uszkodzenia lub śmierci jednego z organizmów."
+  }
+]
