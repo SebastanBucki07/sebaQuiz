@@ -26,8 +26,6 @@ export class ClubHistoryComponent implements OnInit {
     this.answer = this.random1.osoba
     this.tip = this.random1.narodowosc
     this.isModalVisible = true;
-    console.log('club history')
-    console.log(`club history: ${JSON.stringify(this.random1)}`)
   }
 
   close() {
