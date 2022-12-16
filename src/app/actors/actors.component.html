@@ -7,13 +7,8 @@
     </button>
     <div class="row">
       <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-      <ng-container *ngIf="isVisible">
-        <button type="button" class="btn btn-success"
-                (click)="playerService.addPoints(playerService.actualPlayer,2);close()">2
-        </button>
-      </ng-container>
       <app-timer></app-timer>
-      <div class="row">
+      <div class="row tips">
         <h2 class="col-12">{{question}}</h2>
         <div class="row " *ngIf="photos.length > 0; then printPhotos else printTip"></div>
         <ng-template #printPhotos>
@@ -32,7 +27,11 @@
     </div>
     <ng-container *ngIf="isVisible">
       <div class="info">
-        <div class="correct col-12 ">{{answer}}</div>
+        <div class="correct col-12 ">{{answer}}
+          <button type="button" class="btn btn-success"
+                  (click)="playerService.addPoints(playerService.actualPlayer,2);close()">Dodaj 2 punkty
+          </button></div>
+
       </div>
     </ng-container>
   </div>

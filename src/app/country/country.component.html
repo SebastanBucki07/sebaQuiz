@@ -9,9 +9,6 @@
       odp
     </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-    <ng-container *ngIf="isVisible">
-    <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply);close()">{{points*multiply}}</button>
-    </ng-container>
     <app-timer></app-timer>
     <div [ngSwitch]="question.id">
       <div class="row" *ngSwitchCase=0>
@@ -23,7 +20,7 @@
       <div class="row" *ngSwitchCase=1>
         <h1>{{question.questionName}} {{tip}}</h1>
       </div>
-      <div class="row" *ngSwitchCase=2>
+      <div class="row countries" *ngSwitchCase=2>
         <h2>Punkty: {{points}}/{{length}}</h2>
         <h2>  {{country}}</h2>
         <h1>{{question.questionName}} {{tip}}</h1>
@@ -99,7 +96,9 @@
       </div>
       <ng-container *ngIf="isVisible">
         <div class="info">
-          <div class="correct col-12 ">{{answer}}</div>
+          <div class="correct col-12 ">{{answer}}
+            <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply);close()">Dodaj {{points*multiply}} punkty</button>
+          </div>
         </div>
       </ng-container>
     </div>

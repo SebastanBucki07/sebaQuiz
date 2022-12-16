@@ -6,11 +6,6 @@
       odp
     </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-    <ng-container *ngIf="isVisible">
-      <button type="button" class="btn btn-success"
-              (click)="playerService.addPoints(playerService.actualPlayer,2);close()">2
-      </button>
-    </ng-container>
     <app-timer></app-timer>
     <div class="row">
       <h1>Jakiego klubu to herb?</h1>
@@ -22,11 +17,13 @@
 
       <ng-container *ngIf="isVisible">
         <div [ngStyle]="{
-      'background': 'url(assets/clubs/' + random1+')  no-repeat','height':'300px','width':'300px','background-size': '50%'}"></div>
-        <h4>{{random1}}</h4>
+      'background': 'url(assets/clubs/' + random1+')  no-repeat','height':'300px','width':'300px','margin-left':'50px','background-size': '50%'}"></div>
+        <h4 class="correct">{{random1}}<button type="button" class="btn btn-success"
+                                               (click)="playerService.addPoints(playerService.actualPlayer,2);close()">Dodaj 2 punkty
+        </button></h4>
+
       </ng-container>
     </div>
-
 
 
   </div>

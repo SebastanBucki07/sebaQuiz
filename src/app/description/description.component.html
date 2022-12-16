@@ -6,15 +6,10 @@
       odp
     </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-    <ng-container *ngIf="isVisible">
-      <button type="button" class="btn btn-success"
-              (click)="playerService.addPoints(playerService.actualPlayer,points);close()">{{points}}
-      </button>
-    </ng-container>
     <app-timer></app-timer>
     <div class="row">
       <h1>{{question}}</h1>
-      <p>{{tip}}</p>
+      <h2>{{tip}}</h2>
 
       <div class="col-12 col-lg-4 offset-lg-4">
         <div class="test" *ngIf="!isVisible" [ngStyle]="{
@@ -23,7 +18,11 @@
 
       <ng-container *ngIf="isVisible">
         <div class="info">
-          <div class="correct col-12">{{answer}}</div>
+          <div class="correct col-12">{{answer}}
+            <button type="button" class="btn btn-success"
+                    (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}} punkty
+            </button>
+          </div>
         </div>
       </ng-container>
     </div>
