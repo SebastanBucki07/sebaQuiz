@@ -28,7 +28,6 @@ export class ClubCrestsComponent implements OnInit {
     this.random1 = this.questionDataService.getClubCrestsQuestion()
     this.setSize()
     this.isModalVisible = true;
-    console.log(`${JSON.stringify(this.random1)}`)
   }
 
   close() {

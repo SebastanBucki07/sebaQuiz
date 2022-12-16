@@ -13,6 +13,7 @@ import {randomFromArray} from "../common/randomize.helper";
 export class AppComponent {
   title = 'seba Quiz';
   questionType: number;
+  categoryType: number;
   categories: Category[] = []
   players: Player[] = []
   categoriesId: number[] = []
@@ -52,11 +53,13 @@ export class AppComponent {
 
   async ngOnInit(): Promise<void> {
     this.questionType = -1
+    this.categoryType = -1
   }
 
   constructor(public categoryService: QuestionTypesService,
               public playerService: PlayersService) {
     this.questionType = -1
+    this.categoryType = -1
   }
 
   confirm() {
@@ -75,15 +78,16 @@ export class AppComponent {
   }
 
   setQuestionType(question: number) {
-    const actualQuestion = this.questionType
+    const actualCategory = this.categoryType
+    let category = question
     if (question === 50) {
       do {
-        const tmp = Math.floor(Math.random() * this.categories.length)
-        this.questionType = this.categories[tmp].id
-      } while (this.questionType === actualQuestion)
-    } else {
-      this.questionType = question
-      switch (question) {
+        const tmp = randomFromArray(this.categories)
+        category = tmp.id
+      } while (actualCategory  === category)
+    }
+      this.categoryType = category
+      switch (category) {
         case 0: {
           const tmp = randomFromArray(this.movieCategories)
           this.questionType = tmp.id
@@ -126,7 +130,6 @@ export class AppComponent {
           break;
         }
       }
-    }
   }
 }
 
