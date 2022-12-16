@@ -71,6 +71,18 @@ export abstract class DescriptionComponent {
         this.points = 3
         break
       }
+      case 'biology': {
+        this.random1 = this.questionDataService.getBiologyQuestion()
+        this.question = 'Co to jest?'
+        this.points = 3
+        break
+      }
+      case 'gods': {
+        this.random1 = this.questionDataService.getGodsQuestion()
+        this.question = 'O kogo/ o co chodzi?'
+        this.points = 3
+        break
+      }
       default: {
         break;
       }
@@ -177,5 +189,27 @@ export class HistoryComponent extends DescriptionComponent implements OnInit {
 export class ChemistSymbolComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('chemistSymbol')
+  }
+}
+
+@Component({
+  selector: 'app-biology',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class BiologyComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('biology')
+  }
+}
+
+@Component({
+  selector: 'app-gods',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class GodsComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('gods')
   }
 }

@@ -21,6 +21,8 @@ import countriesData from "../assets/countries/country.json";
 import continentsData from "../assets/countries/continents.json";
 import lettersData from "../assets/letters.json";
 import chemicalElements from "../assets/chemist/chemist.json";
+import biologyData from "../assets/biology/biology.json";
+import godsData from "../assets/gods/gods.json";
 import clubCrestsData from "../assets/clubs/clubCrests.json";
 import clubHistoryData from "../assets/clubs/clubsHistory.json";
 import {ClubHistory} from "./model/clubHistory-model";
@@ -39,10 +41,12 @@ export class QuestionDataService {
   public allMovies: DescriptionModel[] = []
   public allSerials: DescriptionModel[] = []
   public allGames: DescriptionModel[] = []
+  public allBiology: DescriptionModel[] = []
   public allDisctricts: DescriptionModel[] = []
   public allStadiums: DescriptionModel[] = []
   public allProverbs: DescriptionModel[] = []
   public allHistory: DescriptionModel[] = []
+  public allGods:DescriptionModel[] = []
   public allCountries: Country[] = []
   public allMoviesActors: ActorModel[] = []
   public allSerialsActors: ActorModel[] = []
@@ -68,7 +72,9 @@ export class QuestionDataService {
     this.allMovies = moviesData
     this.allSerials = serialsData
     this.allGames = gamesData
+    this.allBiology = biologyData
     this.allMoviesActors = movieActors
+    this.allGods = godsData
     this.allSerialsActors = serialActors
     this.allDisctricts = allDistricts
     this.allStadiums = allStadiums
@@ -91,6 +97,20 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allChemicalElements)
+  }
+
+  getGodsQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allGods)
+  }
+
+  getBiologyQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allBiology)
   }
 
   getYoutubeSongQuestion(){
