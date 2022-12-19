@@ -20,12 +20,15 @@ export class AppComponent {
   public movieCategories: Category[] = [
     {name: "Filmy - opis", id: 5, checkbox: false},
     {name: "W jakim filmie zagrała taka obsada?", id: 14, checkbox: false},
+    {name: "Rozpoznaj film po bohaterach", id: 23, checkbox: false},
+    {name: "Reżyser po filmach", id: 25, checkbox: false},
   ]
 
   public serialCategories: Category[] = [
     {name: "Seriale - opis", id: 6, checkbox: false},
     {name: "W jakim serialu zagrała taka obsada?", id: 15, checkbox: false},
     {name: "Czołówka serialu", id: 17, checkbox: false},
+    {name: "Rozpoznaj serial po bohaterach", id: 24, checkbox: false},
   ]
 
   public schoolCategories: Category[] = [
@@ -40,6 +43,7 @@ export class AppComponent {
   public musicCategories: Category[] = [
     {name: "Fragmenty piosenek", id: 1, checkbox: false},
     {name: "Jaka to melodia?", id: 16, checkbox: false},
+    {name: "Rozpoznaj artystę po tytułach piosenek", id: 21, checkbox: false},
   ]
   public footballCategories: Category[] = [
     {name: "Klubowa Historia", id: 3, checkbox: false},
@@ -50,7 +54,11 @@ export class AppComponent {
     {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},
     {name: "Przysłowia", id: 10, checkbox: false},
   ]
-  public countryCategory: Category = {name: "Kraje", id: 2, checkbox: false}
+
+  public countryCategory: Category[] = [
+    {name: "Kraje", id: 2, checkbox: false},
+    {name: "Państwo po miastach", id: 22, checkbox: false},
+  ]
   public gamesCategory: Category = {name: "Gra - opis", id: 7, checkbox: false}
 
   async ngOnInit(): Promise<void> {
@@ -111,7 +119,8 @@ export class AppComponent {
           break
         }
         case 4: {
-          this.questionType = this.countryCategory.id
+          const tmp = randomFromArray(this.countryCategory)
+          this.questionType = tmp.id
           break
         }
         case 5: {

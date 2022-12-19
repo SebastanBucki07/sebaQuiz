@@ -8,6 +8,8 @@ export interface FragmentsModel {
 }
 
 export enum Category {
+  CITIES = "cities",
   SONG = "song",
+  SONGTIPS = "songTips",
   LECTURE = "lecture"
 }

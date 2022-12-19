@@ -1,0 +1,31 @@
+<ng-container *ngIf="isModalVisible">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+      odp
+    </button>
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <app-timer></app-timer>
+    <div class="row">
+      <h1>{{question}}</h1>
+      <h2>{{tip}}</h2>
+      <h2>{{tip2}}</h2>
+      <ng-container *ngIf="hasTip3">
+        <h2>{{tip3}}</h2>
+      </ng-container>
+
+      <ng-container *ngIf="isVisible">
+        <div class="info">
+          <div class="correct col-12">{{answer}}
+            <button type="button" class="btn btn-success"
+                    (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}} punkty
+            </button>
+          </div>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+</ng-container>
+
+

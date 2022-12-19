@@ -7,7 +7,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {CategoriesComponent} from './categories/categories.component';
 import {MatCheckboxModule} from "@angular/material/checkbox";
 import {MatSortModule} from "@angular/material/sort";
-import {BooksComponent, SongsComponent} from './fragments/fragments.component';
+import {BooksComponent, CitiesTipsComponent, SongsComponent, SongTipsComponent} from './fragments/fragments.component';
 import {CountryComponent} from './country/country.component';
 import {TimerComponent} from './timer/timer.component';
 import {ClubHistoryComponent} from './club-history/club-history.component';
@@ -23,6 +23,7 @@ import {
 import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.component';
 import {MoviesActorsComponent, SerialsActorsComponent} from './actors/actors.component';
 import {YoutubeSerialsComponent, YoutubeSongComponent} from './youtube/youtube.component';
+import {DirectorsComponent, MoviesHeroComponent, SerialsHeroComponent, TipsComponent} from './tips/tips.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,13 @@ import {YoutubeSerialsComponent, YoutubeSongComponent} from './youtube/youtube.c
     YoutubeSerialsComponent,
     ChemistSymbolComponent,
     BiologyComponent,
-    GodsComponent
+    GodsComponent,
+    SongTipsComponent,
+    CitiesTipsComponent,
+    TipsComponent,
+    MoviesHeroComponent,
+    SerialsHeroComponent,
+    DirectorsComponent
   ],
   imports: [
     BrowserModule,

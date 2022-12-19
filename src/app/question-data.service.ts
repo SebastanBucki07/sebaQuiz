@@ -7,8 +7,11 @@ import famousPeopleData from "../assets/photos/famousPeople.json";
 import buildingsData from "../assets/photos/buildings.json";
 import {PhotoModel} from "./model/photo-model";
 import moviesData from "../assets/movies/movies.json";
+import allMoviesHeroData from "../assets/movies/moviesHero.json"
+import allSerialsHeroData from "../assets/movies/serialsHero.json"
 import serialsData from "../assets/movies/serials.json";
 import movieActors from "../assets/actors/movieActors.json";
+import directorsData from "../assets/movies/directors.json"
 import serialActors from "../assets/actors/serialActors.json";
 import gamesData from "../assets/games/games.json";
 import allDistricts from "../assets/poland/citiesPL.json";
@@ -27,6 +30,7 @@ import clubCrestsData from "../assets/clubs/clubCrests.json";
 import clubHistoryData from "../assets/clubs/clubsHistory.json";
 import {ClubHistory} from "./model/clubHistory-model";
 import {ActorModel} from "./model/actor-model";
+import {TipsModel} from "./model/tips-model";
 
 
 
@@ -40,6 +44,9 @@ export class QuestionDataService {
   public allBuilding: PhotoModel[] = []
   public allMovies: DescriptionModel[] = []
   public allSerials: DescriptionModel[] = []
+  public allMoviesHero: TipsModel[] = []
+  public allSerialsHero: TipsModel[] = []
+  public allDirectorsData: TipsModel[] = []
   public allGames: DescriptionModel[] = []
   public allBiology: DescriptionModel[] = []
   public allDisctricts: DescriptionModel[] = []
@@ -70,6 +77,8 @@ export class QuestionDataService {
     this.allFamousPeople = famousPeopleData
     this.allBuilding = buildingsData
     this.allMovies = moviesData
+    this.allMoviesHero = allMoviesHeroData
+    this.allSerialsHero = allSerialsHeroData
     this.allSerials = serialsData
     this.allGames = gamesData
     this.allBiology = biologyData
@@ -77,6 +86,7 @@ export class QuestionDataService {
     this.allGods = godsData
     this.allSerialsActors = serialActors
     this.allDisctricts = allDistricts
+    this.allDirectorsData = directorsData
     this.allStadiums = allStadiums
     this.allChemicalElements = chemicalElements
     this.allProverbs = allProverbs
@@ -97,6 +107,13 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allChemicalElements)
+  }
+
+  getDirectorsQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allDirectorsData)
   }
 
   getGodsQuestion(){
@@ -188,6 +205,20 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allHistory)
+  }
+
+  getMoviesHeroQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allMoviesHero)
+  }
+
+  getSerialsHeroQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allSerialsHero)
   }
 
   getCountries(question: string): Country[] | string[] | any {
