@@ -6,20 +6,22 @@
         <i class="bi bi-x-circle"></i>
       </div>
       <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion1();setMultiply(3)">
-        fragment 1
+        {{buttonText}} 1
       </button>
       <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion2();setMultiply(2)">
-        fragment 2
+        {{buttonText}} 2
       </button>
       <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion3();setMultiply(1)">
-        fragment 3
+        {{buttonText}} 3
       </button>
       <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer1()">
-        Pokaż tytuł
+        {{answerButtonText}}
       </button>
-      <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer2()">
-        Pokaż wykonawce
-      </button>
+      <ng-container *ngIf="!isTipQuestion">
+        <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer2()">
+          Pokaż wykonawce
+        </button>
+      </ng-container>
       <div class="col-12 question">{{question}}</div>
       <ng-container *ngIf="isQuestion1Visible">
         <div class="info">
@@ -40,7 +42,7 @@
     </div>
     <ng-container *ngIf="isAnswer1Visible">
       <div class="info">
-        <div class="correct col-12 ">tytuł: {{answer1}}
+        <div class="correct col-12 ">{{answerDescription}} {{answer1}}
           <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">Dodaj {{points*multiply}} punkty</button>
 
         </div>

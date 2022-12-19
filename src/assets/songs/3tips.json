@@ -1,0 +1,1114 @@
+[
+  {
+    "Id": 1,
+    "author": "Madonna",
+    "title": "-",
+    "fragment1": "Papa Don't Preach",
+    "fragment2": "Frozen",
+    "fragment3": "Hung Up"
+  },
+  {
+    "Id": 2,
+    "author": "Kizo",
+    "title": "-",
+    "fragment1": "Disney",
+    "fragment2": "JETLAG",
+    "fragment3": "MYTO"
+  },
+  {
+    "Id": 3,
+    "author": "Maryla Rodowicz",
+    "title": "-",
+    "fragment1": "To już było",
+    "fragment2": "Małgośka",
+    "fragment3": "wielka woda"
+  },
+  {
+    "Id": 4,
+    "author": "Krzysztof Krawczyk",
+    "title": "-",
+    "fragment1": "parostatek",
+    "fragment2": "ostatni raz zatańczysz ze mna",
+    "fragment3": "jak minął dzień"
+  },
+  {
+    "Id": 5,
+    "author": "Steven Tyler",
+    "title": "-",
+    "fragment1": "Dream on",
+    "fragment2": "Crazy",
+    "fragment3": "i dont want to miss a thing"
+  },
+  {
+    "Id": 6,
+    "author": "Mettalica",
+    "title": "-",
+    "fragment1": "Enter Sandman",
+    "fragment2": "nothing else matters",
+    "fragment3": "the unforgiven"
+  },
+  {
+    "Id": 7,
+    "author": "Shakira",
+    "title": "-",
+    "fragment1": "waka waka",
+    "fragment2": "hips dont lie",
+    "fragment3": "Monotonia"
+  },
+  {
+    "Id": 8,
+    "author": "Eminem",
+    "title": "-",
+    "fragment1": "Not afraid",
+    "fragment2": "without me",
+    "fragment3": "venom"
+  },
+  {
+    "Id": 9,
+    "author": "Sanah",
+    "title": "-",
+    "fragment1": "No sory",
+    "fragment2": "szampan",
+    "fragment3": "kawka"
+  },
+  {
+    "Id": 10,
+    "author": "paluch",
+    "title": "-",
+    "fragment1": "bez strachu",
+    "fragment2": "Szaman",
+    "fragment3": "gdybyś kiedyś"
+  },
+  {
+    "Id": 11,
+    "author": "Sobota",
+    "title": "-",
+    "fragment1": "bandycki raj",
+    "fragment2": "morda  nie szklanka",
+    "fragment3": "do góry łep"
+  },
+  {
+    "Id": 12,
+    "author": "kękę",
+    "title": "-",
+    "fragment1": "moja gwardia",
+    "fragment2": "gdy przyjdzie czas",
+    "fragment3": "nigdy ponad stan"
+  },
+  {
+    "Id": 13,
+    "author": "Marilyn Manson",
+    "title": "-",
+    "fragment1": "sweet dreams",
+    "fragment2": "we are the chaos",
+    "fragment3": "this is the new shit"
+  },
+  {
+    "Id": 14,
+    "author": "Jenifer lopez",
+    "title": "-",
+    "fragment1": "on my way",
+    "fragment2": "on the floor",
+    "fragment3": "Gabi"
+  },
+  {
+    "Id": 15,
+    "author": "50 cent",
+    "title": "-",
+    "fragment1": "candy shop",
+    "fragment2": "in tha club",
+    "fragment3": "just a lit bit"
+  },
+  {
+    "Id": 16,
+    "author": "czesław niemen",
+    "title": "-",
+    "fragment1": "sen o warszawie",
+    "fragment2": "dziwny jest ten świat",
+    "fragment3": "czas jak rzeka"
+  },
+  {
+    "Id": 17,
+    "author": "lady pank",
+    "title": "-",
+    "fragment1": "kryzysowa narzeczona",
+    "fragment2": "zawsze tam gdzie ty",
+    "fragment3": "zamki na piasku"
+  },
+  {
+    "Id": 18,
+    "author": "Wilki",
+    "title": "-",
+    "fragment1": "bohema",
+    "fragment2": "baśka",
+    "fragment3": "urke"
+  },
+  {
+    "Id": 19,
+    "author": "whitney houston",
+    "title": "-",
+    "fragment1": "i have nothing",
+    "fragment2": "how will i know",
+    "fragment3": "i will always love u"
+  },
+  {
+    "Id": 20,
+    "author": "celine dion",
+    "title": "-",
+    "fragment1": "iam alive",
+    "fragment2": "the power of love",
+    "fragment3": "my heart will go on"
+  },
+  {
+    "Id": 21,
+    "author": "Anna jantar",
+    "title": "-",
+    "fragment1": "tyle słońca w całym mieście",
+    "fragment2": "za każdy uśmiech",
+    "fragment3": "nic nie może wiecznie trwać"
+  },
+  {
+    "Id": 22,
+    "author": "Queen",
+    "title": "-",
+    "fragment1": "show must go on",
+    "fragment2": "forever",
+    "fragment3": "bohemian rhapsody"
+  },
+  {
+    "Id": 23,
+    "author": "michael jackson",
+    "title": "-",
+    "fragment1": "beat it",
+    "fragment2": "smooth criminal",
+    "fragment3": "bilie jean"
+  },
+  {
+    "Id": 24,
+    "author": "ed sheeran",
+    "title": "-",
+    "fragment1": "perfect",
+    "fragment2": "bad habits",
+    "fragment3": "shape of u"
+  },
+  {
+    "Id": 25,
+    "author": "charlotte de witte",
+    "title": "-",
+    "fragment1": "formula",
+    "fragment2": "age of love",
+    "fragment3": "doppler"
+  },
+  {
+    "Id": 26,
+    "author": "30 Second To mars",
+    "title": "-",
+    "fragment1": "Kings and Queens",
+    "fragment2": "Closer to the Edge",
+    "fragment3": "The Kill"
+  },
+  {
+    "Id": 27,
+    "author": "Ac/DC",
+    "title": "-",
+    "fragment1": "Back In Black",
+    "fragment2": "Highway to Hell",
+    "fragment3": "Hells Bells"
+  },
+  {
+    "Id": 28,
+    "author": "Aeromisth",
+    "title": "-",
+    "fragment1": "Jaded",
+    "fragment2": "What Could Have Been Love",
+    "fragment3": "Crazy"
+  },
+  {
+    "Id": 29,
+    "author": "After Party",
+    "title": "-",
+    "fragment1": "tylko ona jedyna",
+    "fragment2": "Nie daj życiu sie",
+    "fragment3": "Ona lubi pomarańcze"
+  },
+  {
+    "Id": 30,
+    "author": "Akon",
+    "title": "-",
+    "fragment1": "Beautiful",
+    "fragment2": "Lonely",
+    "fragment3": "Don't Matter"
+  },
+  {
+    "Id": 31,
+    "author": "Ariana Grande",
+    "title": "-",
+    "fragment1": "Into You",
+    "fragment2": "Side To Side",
+    "fragment3": "Bang Bang"
+  },
+  {
+    "Id": 32,
+    "author": "Avicii",
+    "title": "-",
+    "fragment1": "Levels",
+    "fragment2": "Wake Me Up",
+    "fragment3": "Hey Brother"
+  },
+  {
+    "Id": 33,
+    "author": "Bad Boys blue",
+    "title": "-",
+    "fragment1": "I Wanna Hear Your Heartbeat.",
+    "fragment2": "You're A Woman",
+    "fragment3": "Jungle In My Heart."
+  },
+  {
+    "Id": 34,
+    "author": "Bajm",
+    "title": "-",
+    "fragment1": "Ta sama chwila",
+    "fragment2": "Biała Armia",
+    "fragment3": "Co mi panie dasz"
+  },
+  {
+    "Id": 35,
+    "author": "Bayer Full",
+    "title": "-",
+    "fragment1": "Blondyneczka",
+    "fragment2": "Wszyscy Polacy to jedna rodzina",
+    "fragment3": "Majteczki w kropeczki"
+  },
+  {
+    "Id": 36,
+    "author": "bedoes",
+    "title": "-",
+    "fragment1": "Jumpman",
+    "fragment2": "Gustaw",
+    "fragment3": "Wpłatomat"
+  },
+  {
+    "Id": 37,
+    "author": "Białas",
+    "title": "-",
+    "fragment1": "Zosia",
+    "fragment2": "Grill u Gawrona",
+    "fragment3": "Na Serio"
+  },
+  {
+    "Id": 38,
+    "author": "Bober",
+    "title": "-",
+    "fragment1": "J**ać Ćpunów",
+    "fragment2": "Bałagan",
+    "fragment3": "Obraziłem się na hiphop"
+  },
+  {
+    "Id": 39,
+    "author": "Boys",
+    "title": "-",
+    "fragment1": "Jesteś szalona",
+    "fragment2": "Wolność",
+    "fragment3": "Chłop z Mazur"
+  },
+  {
+    "Id": 40,
+    "author": "Britney Spears",
+    "title": "-",
+    "fragment1": "Toxic",
+    "fragment2": "Gimme more",
+    "fragment3": "Oops!...I Did It Again"
+  },
+  {
+    "Id": 41,
+    "author": "Bruno Mars",
+    "title": "-",
+    "fragment1": "Grenade",
+    "fragment2": "Talking to the Moon",
+    "fragment3": "Young Girls"
+  },
+  {
+    "Id": 42,
+    "author": "Budka Suflera",
+    "title": "-",
+    "fragment1": "Jolka, Jolka pamiętasz",
+    "fragment2": "Takie Tango",
+    "fragment3": "Nie wierz nigdy kobiecie"
+  },
+  {
+    "Id": 43,
+    "author": "c Bool",
+    "title": "-",
+    "fragment1": "Wonderland",
+    "fragment2": "Never go away",
+    "fragment3": "House Baby"
+  },
+  {
+    "Id": 44,
+    "author": "Calvin Haris",
+    "title": "-",
+    "fragment1": "Giant",
+    "fragment2": "I´m Not Alone",
+    "fragment3": "Feel So Close"
+  },
+  {
+    "Id": 45,
+    "author": "Camila Cabello",
+    "title": "-",
+    "fragment1": "Crying in the Club",
+    "fragment2": "Señorita",
+    "fragment3": "Sangria Wine"
+  },
+  {
+    "Id": 46,
+    "author": "Carlos Santana",
+    "title": "-",
+    "fragment1": "Smooth",
+    "fragment2": "Maria",
+    "fragment3": "Oye Coma Va"
+  },
+  {
+    "Id": 47,
+    "author": "Christina Aguilera",
+    "title": "-",
+    "fragment1": "Moves like Jagger",
+    "fragment2": "Beautiful",
+    "fragment3": "Twice"
+  },
+  {
+    "Id": 48,
+    "author": "Coldplay",
+    "title": "-",
+    "fragment1": "Viva la Vida",
+    "fragment2": "Clocks",
+    "fragment3": "The Scientist"
+  },
+  {
+    "Id": 49,
+    "author": "Coma",
+    "title": "-",
+    "fragment1": "Los cebula i krokodyle łzy",
+    "fragment2": "Transfuzja",
+    "fragment3": "Leszek Żukowski"
+  },
+  {
+    "Id": 50,
+    "author": "Czadoman",
+    "title": "-",
+    "fragment1": "RUDA TANCZY JAK SZALONA",
+    "fragment2": "Dziewczyna z Instagrama",
+    "fragment3": "Jedziemy z Blondi"
+  },
+  {
+    "Id": 51,
+    "author": "Daft Punk",
+    "title": "-",
+    "fragment1": "Harder, better, faster, stronger",
+    "fragment2": "Love yourself to dance",
+    "fragment3": "Get Lucky"
+  },
+  {
+    "Id": 52,
+    "author": "Danzel",
+    "title": "-",
+    "fragment1": "Put Your Hands Up in the Air!",
+    "fragment2": "Clap Your Hands",
+    "fragment3": "Pump It Up!"
+  },
+  {
+    "Id": 53,
+    "author": "Dawid Podsiadło",
+    "title": "-",
+    "fragment1": "Pastempomat",
+    "fragment2": "Nieznajomy",
+    "fragment3": "Trójkąty i kwadraty"
+  },
+  {
+    "Id": 54,
+    "author": "Depeche Mode",
+    "title": "-",
+    "fragment1": "Just can't get enough",
+    "fragment2": "Never let me down again",
+    "fragment3": "Enjoy the silence"
+  },
+  {
+    "Id": 55,
+    "author": "Dua Lipa",
+    "title": "-",
+    "fragment1": "Break my hearth",
+    "fragment2": "New rules",
+    "fragment3": "IDGAF"
+  },
+  {
+    "Id": 56,
+    "author": "Dżem",
+    "title": "-",
+    "fragment1": "Jak malowany ptak",
+    "fragment2": "Autsajder",
+    "fragment3": "Sen o Victorii"
+  },
+  {
+    "Id": 57,
+    "author": "Elektryczne gitary",
+    "title": "-",
+    "fragment1": "Jestem z miasta",
+    "fragment2": "Co powie ryba",
+    "fragment3": "Dzieci wybiegły"
+  },
+  {
+    "Id": 58,
+    "author": "Enej",
+    "title": "-",
+    "fragment1": "Tak smakuje życie",
+    "fragment2": "Radio hello",
+    "fragment3": "Symetryczno-liryczna"
+  },
+  {
+    "Id": 59,
+    "author": "Europe",
+    "title": "-",
+    "fragment1": "Rock the night",
+    "fragment2": "Carrie",
+    "fragment3": "The final countdown"
+  },
+  {
+    "Id": 60,
+    "author": "Evanescence",
+    "title": "-",
+    "fragment1": "Going under",
+    "fragment2": "My immortal",
+    "fragment3": "Bring me to life"
+  },
+  {
+    "Id": 61,
+    "author": "Ewa Farna",
+    "title": "-",
+    "fragment1": "Ciało",
+    "fragment2": "Wszystko albo nic",
+    "fragment3": "Cicho"
+  },
+  {
+    "Id": 62,
+    "author": "Feel",
+    "title": "-",
+    "fragment1": "W odpowiedzi na twój list",
+    "fragment2": "No kochaj mnie",
+    "fragment3": "No pokaż na co cię stać"
+  },
+  {
+    "Id": 63,
+    "author": "Frank Sinatra",
+    "title": "-",
+    "fragment1": "My way",
+    "fragment2": "Strangers in the night",
+    "fragment3": "New york New York"
+  },
+  {
+    "Id": 64,
+    "author": "Gibbs",
+    "title": "-",
+    "fragment1": "Za wcześnie",
+    "fragment2": "Cień przypadku",
+    "fragment3": "Piękny świat"
+  },
+  {
+    "Id": 65,
+    "author": "Gosia Andrzejewicz",
+    "title": "-",
+    "fragment1": "Piękno",
+    "fragment2": "Lustro",
+    "fragment3": "Słowa"
+  },
+  {
+    "Id": 66,
+    "author": "Green Day",
+    "title": "-",
+    "fragment1": "American idiot",
+    "fragment2": "Wake me up when september ends",
+    "fragment3": "21 guns"
+  },
+  {
+    "Id": 67,
+    "author": "Grubson",
+    "title": "-",
+    "fragment1": "Naprawimy to",
+    "fragment2": "Nowa fala",
+    "fragment3": "Na szczycie"
+  },
+  {
+    "Id": 68,
+    "author": "Guns N'Roses",
+    "title": "-",
+    "fragment1": "Paradise city",
+    "fragment2": "Welcome to the jungle",
+    "fragment3": "November rain"
+  },
+  {
+    "Id": 69,
+    "author": "Guzior",
+    "title": "-",
+    "fragment1": "Fala",
+    "fragment2": "Kushkoma",
+    "fragment3": "Blueberry"
+  },
+  {
+    "Id": 70,
+    "author": "Ich Troje",
+    "title": "-",
+    "fragment1": "Powiedz",
+    "fragment2": "A wszystko to",
+    "fragment3": "Zawsze z Tobą chciałbym być"
+  },
+  {
+    "Id": 71,
+    "author": "Jamiroquai",
+    "title": "-",
+    "fragment1": "You give me something",
+    "fragment2": "Cosmic girl",
+    "fragment3": "Automaton"
+  },
+  {
+    "Id": 72,
+    "author": "jeden Osiem L",
+    "title": "-",
+    "fragment1": "Kilka chwil",
+    "fragment2": "Kiedyś było inaczej",
+    "fragment3": "Jak zapomnieć"
+  },
+  {
+    "Id": 73,
+    "author": "Justin Bieber",
+    "title": "-",
+    "fragment1": "As long as you love me",
+    "fragment2": "Yummy",
+    "fragment3": "Baby"
+  },
+  {
+    "Id": 74,
+    "author": "Justin Timberlake",
+    "title": "-",
+    "fragment1": "Rock your body",
+    "fragment2": "Sexy back",
+    "fragment3": "Cry me a river"
+  },
+  {
+    "Id": 75,
+    "author": "Kacper HTA",
+    "title": "-",
+    "fragment1": "Nirwana",
+    "fragment2": "Puta madre",
+    "fragment3": "Nie zmieniam wizji"
+  },
+  {
+    "Id": 76,
+    "author": "Kaliber 44",
+    "title": "-",
+    "fragment1": "Plus i minus",
+    "fragment2": "Film",
+    "fragment3": "Nieodwracalne zmiany"
+  },
+  {
+    "Id": 77,
+    "author": "Kate Ryan",
+    "title": "-",
+    "fragment1": "Libertine",
+    "fragment2": "Ella Elle L A",
+    "fragment3": "Voyage voyage"
+  },
+  {
+    "Id": 78,
+    "author": "katy perry",
+    "title": "-",
+    "fragment1": "Roar",
+    "fragment2": "Dark horse",
+    "fragment3": "Hot n Cold"
+  },
+  {
+    "Id": 79,
+    "author": "Kings of Leon",
+    "title": "-",
+    "fragment1": "Closer",
+    "fragment2": "Use somebody",
+    "fragment3": "Sex on fire"
+  },
+  {
+    "Id": 80,
+    "author": "Kiwi",
+    "title": "-",
+    "fragment1": "Duch",
+    "fragment2": "Miły",
+    "fragment3": "Co chowasz"
+  },
+  {
+    "Id": 81,
+    "author": "Kombi",
+    "title": "-",
+    "fragment1": "Black and white",
+    "fragment2": "Słodkiego miłego życia",
+    "fragment3": "Nasze randez vouz"
+  },
+  {
+    "Id": 82,
+    "author": "Kortez",
+    "title": "-",
+    "fragment1": "Dla mnie to już koniec",
+    "fragment2": "Dobry moment",
+    "fragment3": "Hej wy"
+  },
+  {
+    "Id": 83,
+    "author": "kukon",
+    "title": "-",
+    "fragment1": "Miss pleasure",
+    "fragment2": "Miniówa",
+    "fragment3": "Halo"
+  },
+  {
+    "Id": 84,
+    "author": "Kult",
+    "title": "-",
+    "fragment1": "Dziewczyna o perłowych włosach",
+    "fragment2": "Baranek",
+    "fragment3": "Gdy nie ma dzieci"
+  },
+  {
+    "Id": 85,
+    "author": "Kwiat jabłoni",
+    "title": "-",
+    "fragment1": "Pochodnia",
+    "fragment2": "Szary świat",
+    "fragment3": "Dziś późno pójdę spać"
+  },
+  {
+    "Id": 86,
+    "author": "Lady gaga",
+    "title": "-",
+    "fragment1": "Judas",
+    "fragment2": "Telephone",
+    "fragment3": "Alejandro"
+  },
+  {
+    "Id": 87,
+    "author": "Liber",
+    "title": "-",
+    "fragment1": "Dobre myśli",
+    "fragment2": "Skarby",
+    "fragment3": "Mijamy się"
+  },
+  {
+    "Id": 88,
+    "author": "Limp Bizkit",
+    "title": "-",
+    "fragment1": "My generation",
+    "fragment2": "Break stuff",
+    "fragment3": "Behind blue eyes"
+  },
+  {
+    "Id": 89,
+    "author": "Linkin Park",
+    "title": "-",
+    "fragment1": "New divide",
+    "fragment2": "In the end",
+    "fragment3": "Numb"
+  },
+  {
+    "Id": 90,
+    "author": "Lipa",
+    "title": "-",
+    "fragment1": "Bezprawie",
+    "fragment2": "Samotnia",
+    "fragment3": "Nie liczę na cud"
+  },
+  {
+    "Id": 91,
+    "author": "Łobuzy",
+    "title": "-",
+    "fragment1": "Urok",
+    "fragment2": "Zbuntowany anioł",
+    "fragment3": "Ona czuje we mnie piniądz"
+  },
+  {
+    "Id": 92,
+    "author": "Margaret",
+    "title": "-",
+    "fragment1": "What you do",
+    "fragment2": "Thank you very much",
+    "fragment3": "Cool me down"
+  },
+  {
+    "Id": 93,
+    "author": "Maroon 5",
+    "title": "-",
+    "fragment1": "Girls like you",
+    "fragment2": "Sugar",
+    "fragment3": "Moves like Jagger"
+  },
+  {
+    "Id": 94,
+    "author": "Mesajah",
+    "title": "-",
+    "fragment1": "Lepsza połowa",
+    "fragment2": "Szukając szczęścia",
+    "fragment3": "Każdego dnia"
+  },
+  {
+    "Id": 95,
+    "author": "Mezo",
+    "title": "-",
+    "fragment1": "Zemsta",
+    "fragment2": "Ważne",
+    "fragment3": "Sacrum"
+  },
+  {
+    "Id": 96,
+    "author": "Mietha",
+    "title": "-",
+    "fragment1": "Wino",
+    "fragment2": "Pewna",
+    "fragment3": "Jaraj"
+  },
+  {
+    "Id": 97,
+    "author": "modern talking",
+    "title": "-",
+    "fragment1": "Brother Louie",
+    "fragment2": "You're my heart, you're my soul",
+    "fragment3": "Cheri cheri lady"
+  },
+  {
+    "Id": 98,
+    "author": "Modjo",
+    "title": "-",
+    "fragment1": "Music takes you back",
+    "fragment2": "Chillin",
+    "fragment3": "Lady"
+  },
+  {
+    "Id": 99,
+    "author": "Myslovitz",
+    "title": "-",
+    "fragment1": "Peggy brown",
+    "fragment2": "Scenariusz dla moich sąsiadów",
+    "fragment3": "Długość dźwięku samotności"
+  },
+  {
+    "Id": 100,
+    "author": "Nickelback",
+    "title": "-",
+    "fragment1": "Far away",
+    "fragment2": "When we stand together",
+    "fragment3": "How you remind me"
+  },
+  {
+    "Id": 101,
+    "author": "Nirvana",
+    "title": "-",
+    "fragment1": "Lithium",
+    "fragment2": "Come as you are",
+    "fragment3": "Smells like teen spirit"
+  },
+  {
+    "Id": 102,
+    "author": "OKI",
+    "title": "-",
+    "fragment1": "Pieniądze, dziewczyny, zwrotki",
+    "fragment2": "Jakie to uczucie",
+    "fragment3": "Jeżyk"
+  },
+  {
+    "Id": 103,
+    "author": "One Republic",
+    "title": "-",
+    "fragment1": "Something I need",
+    "fragment2": "Counting stars",
+    "fragment3": "Apologize"
+  },
+  {
+    "Id": 104,
+    "author": "Patrycja Markowska",
+    "title": "-",
+    "fragment1": "Gdy zgasną światła",
+    "fragment2": "Dzień za dniem",
+    "fragment3": "Świat się pomylił"
+  },
+  {
+    "Id": 105,
+    "author": "Perfect",
+    "title": "-",
+    "fragment1": "Niepokonani",
+    "fragment2": "Chcemy być sobą",
+    "fragment3": "Autobiografia"
+  },
+  {
+    "Id": 106,
+    "author": "Pitbull",
+    "title": "-",
+    "fragment1": "Feel this moment",
+    "fragment2": "Give me everything",
+    "fragment3": "I know you want me"
+  },
+  {
+    "Id": 107,
+    "author": "Prometh",
+    "title": "-",
+    "fragment1": "Gra w życie",
+    "fragment2": "Slow potion",
+    "fragment3": "Ta piosenka nie jest smutna"
+  },
+  {
+    "Id": 108,
+    "author": "Przyłu",
+    "title": "-",
+    "fragment1": "Nie miałaś serca",
+    "fragment2": "Carnival",
+    "fragment3": "Usta"
+  },
+  {
+    "Id": 109,
+    "author": "Quebonafide",
+    "title": "-",
+    "fragment1": "Bogini",
+    "fragment2": "Refren trochę jak Lana del Rey",
+    "fragment3": "Szubienicapestycydybroń"
+  },
+  {
+    "Id": 110,
+    "author": "Red Hot Chili Peppers",
+    "title": "-",
+    "fragment1": "Snow",
+    "fragment2": "Otherside",
+    "fragment3": "Californication"
+  },
+  {
+    "Id": 111,
+    "author": "Rihanna",
+    "title": "-",
+    "fragment1": "Pon de replay",
+    "fragment2": "We found love",
+    "fragment3": "Umbrella"
+  },
+  {
+    "Id": 112,
+    "author": "Sam Smith",
+    "title": "-",
+    "fragment1": "Dancing with a stranger",
+    "fragment2": "I'm not the only one",
+    "fragment3": "Stay with me"
+  },
+  {
+    "Id": 113,
+    "author": "Sarius",
+    "title": "-",
+    "fragment1": "Powiedział mi ktoś",
+    "fragment2": "Wiking",
+    "fragment3": "Dziecko wojny"
+  },
+  {
+    "Id": 114,
+    "author": "Scooter",
+    "title": "-",
+    "fragment1": "Jumping all over the world",
+    "fragment2": "Hyper hyper",
+    "fragment3": "How much is the fish?"
+  },
+  {
+    "Id": 115,
+    "author": "Sean Paul",
+    "title": "-",
+    "fragment1": "No lie",
+    "fragment2": "Got 2 luv u",
+    "fragment3": "She doesn't mind"
+  },
+  {
+    "Id": 116,
+    "author": "Shaggy",
+    "title": "-",
+    "fragment1": "Angel",
+    "fragment2": "It wasn't me",
+    "fragment3": "Bombastic"
+  },
+  {
+    "Id": 117,
+    "author": "Sistars",
+    "title": "-",
+    "fragment1": "Skąd ja cię mam",
+    "fragment2": "Siła sióstr",
+    "fragment3": "Sutra"
+  },
+  {
+    "Id": 118,
+    "author": "Slawomir",
+    "title": "-",
+    "fragment1": "Megiera",
+    "fragment2": "Weselny pyton",
+    "fragment3": "Miłość w Zakopanem"
+  },
+  {
+    "Id": 119,
+    "author": "Smolasty",
+    "title": "-",
+    "fragment1": "Uzależniony",
+    "fragment2": "Raj",
+    "fragment3": "Sezon"
+  },
+  {
+    "Id": 120,
+    "author": "Snoop dogg",
+    "title": "-",
+    "fragment1": "Sweat",
+    "fragment2": "Drop it like it's hot",
+    "fragment3": "What's my name (Who am I?)"
+  },
+  {
+    "Id": 121,
+    "author": "Sobel",
+    "title": "-",
+    "fragment1": "Impreza",
+    "fragment2": "Piękni ludzie",
+    "fragment3": "Testarossa"
+  },
+  {
+    "Id": 122,
+    "author": "Stachursky",
+    "title": "-",
+    "fragment1": "Czuję i wiem",
+    "fragment2": "Jedwab",
+    "fragment3": "Z każdym twym oddechem"
+  },
+  {
+    "Id": 123,
+    "author": "Stevie Wonder",
+    "title": "-",
+    "fragment1": "Part-time lover",
+    "fragment2": "Isn't she lovely",
+    "fragment3": "I just called to say I love you"
+  },
+  {
+    "Id": 124,
+    "author": "STING",
+    "title": "-",
+    "fragment1": "Shape of my heart",
+    "fragment2": "Every breath you take",
+    "fragment3": "Englishman in New York"
+  },
+  {
+    "Id": 125,
+    "author": "Strachy na lachy",
+    "title": "-",
+    "fragment1": "Moralne Salto",
+    "fragment2": "Piła Tango",
+    "fragment3": "Czarny chleb i czarna kawa"
+  },
+  {
+    "Id": 126,
+    "author": "Sylwia Grzeszczak",
+    "title": "-",
+    "fragment1": "Małe Rzeczy",
+    "fragment2": "Sen O Przyszłości",
+    "fragment3": "Księżniczka"
+  },
+  {
+    "Id": 127,
+    "author": "T-Love",
+    "title": "-",
+    "fragment1": "Taczanka na stepie",
+    "fragment2": "Chłopaki nie płaczą",
+    "fragment3": "Warszawa"
+  },
+  {
+    "Id": 128,
+    "author": "Taco Hemingway",
+    "title": "-",
+    "fragment1": "Marsz, marsz",
+    "fragment2": "W piątki leżę w wannie",
+    "fragment3": "Fiji"
+  },
+  {
+    "Id": 129,
+    "author": "Taconafide",
+    "title": "-",
+    "fragment1": "8 Kobiet",
+    "fragment2": "Tamagotchi",
+    "fragment3": "Sectumsempra"
+  },
+  {
+    "Id": 130,
+    "author": "The Black Eyed Peace",
+    "title": "-",
+    "fragment1": "Anxiety",
+    "fragment2": "Boom Boom Pow",
+    "fragment3": "Don't You Worry"
+  },
+  {
+    "Id": 131,
+    "author": "Three days grace",
+    "title": "-",
+    "fragment1": "Riot",
+    "fragment2": "Animal I Have Become",
+    "fragment3": "I Hate Everything About You"
+  },
+  {
+    "Id": 132,
+    "author": "trzeci Wymiar",
+    "title": "-",
+    "fragment1": "Skamieniali",
+    "fragment2": "Zapomnij o Tym",
+    "fragment3": "Dla Mnie Masz Stajla"
+  },
+  {
+    "Id": 133,
+    "author": "Twenty One Pilots",
+    "title": "-",
+    "fragment1": "Stressed Out",
+    "fragment2": "Car Radio",
+    "fragment3": "Doubt"
+  },
+  {
+    "Id": 134,
+    "author": "Tymek",
+    "title": "-",
+    "fragment1": "Poza kontrolą",
+    "fragment2": "Jezyk ciała",
+    "fragment3": "Anioły i demony"
+  },
+  {
+    "Id": 135,
+    "author": "Virgin",
+    "title": "-",
+    "fragment1": "Znak pokoju",
+    "fragment2": "2 bajki",
+    "fragment3": "Dżaga"
+  },
+  {
+    "Id": 136,
+    "author": "Wham",
+    "title": "-",
+    "fragment1": "Everything She Wants",
+    "fragment2": "Club Tropicana",
+    "fragment3": "Wake Me Up Before You Go-Go"
+  },
+  {
+    "Id": 137,
+    "author": "Wilhelm",
+    "title": "-",
+    "fragment1": "Ibuprofen",
+    "fragment2": "Sprawy",
+    "fragment3": "Zachód"
+  },
+  {
+    "Id": 138,
+    "author": "Zakopower",
+    "title": "-",
+    "fragment1": "Chwila",
+    "fragment2": "Boso",
+    "fragment3": "Bóg wie gdzie"
+  },
+  {
+    "Id": 139,
+    "author": "Zbigniew Wodecki",
+    "title": "-",
+    "fragment1": "Zacznij od Bacha",
+    "fragment2": "Lubię wracać tam gdzie byłem.",
+    "fragment3": "Najszczęśliwszy maj"
+  }
+]

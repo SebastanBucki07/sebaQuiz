@@ -1,0 +1,786 @@
+[
+  {
+    "Id": 1,
+    "Answer": "CZARNOBYL",
+    "Tip1": "Walerij Legasow",
+    "Tip2": "Boris Szczerbina",
+    "Tip3": "-"
+  },
+  {
+    "Id": 2,
+    "Answer": "GRA O TRON",
+    "Tip1": "Tyrion Lannister",
+    "Tip2": "Jon Snow",
+    "Tip3": "-"
+  },
+  {
+    "Id": 3,
+    "Answer": "BREAKING BAD",
+    "Tip1": "Walter Hartwell White",
+    "Tip2": "Jesse Pinkman",
+    "Tip3": "-"
+  },
+  {
+    "Id": 4,
+    "Answer": "OSTATNI TANIEC",
+    "Tip1": "Michael Jordan",
+    "Tip2": "Phil Jackson",
+    "Tip3": "-"
+  },
+  {
+    "Id": 5,
+    "Answer": "SHERLOCK",
+    "Tip1": "Sherlock Holmes",
+    "Tip2": "Doktor John Watson",
+    "Tip3": "-"
+  },
+  {
+    "Id": 6,
+    "Answer": "PEAKY BLINDERS",
+    "Tip1": "Thomas \"Tommy\" Shelby",
+    "Tip2": "Ciotka Polly Gray",
+    "Tip3": "-"
+  },
+  {
+    "Id": 7,
+    "Answer": "NARCOS",
+    "Tip1": "Javier Peña",
+    "Tip2": "Pablo Escobar",
+    "Tip3": "-"
+  },
+  {
+    "Id": 8,
+    "Answer": "MIASTECZKO TWIN PEAKS",
+    "Tip1": "Agent specjalny FBI Dale Cooper",
+    "Tip2": "Szeryf Harry S. Truman",
+    "Tip3": "-"
+  },
+  {
+    "Id": 9,
+    "Answer": "HOUSE OF CARDS",
+    "Tip1": "Francis Underwood",
+    "Tip2": "Claire Underwood",
+    "Tip3": "-"
+  },
+  {
+    "Id": 10,
+    "Answer": "WIKINGOWIE",
+    "Tip1": "Ragnar Lothbrok",
+    "Tip2": "Lagertha Lothbrok",
+    "Tip3": "-"
+  },
+  {
+    "Id": 11,
+    "Answer": "GOMORRA",
+    "Tip1": "Gennaro \"Genny\" Savastano",
+    "Tip2": "Ciro Di Marzio",
+    "Tip3": "-"
+  },
+  {
+    "Id": 12,
+    "Answer": "STRANGER THINGS",
+    "Tip1": "Joyce Byers",
+    "Tip2": "Komendant Jim Hopper",
+    "Tip3": "-"
+  },
+  {
+    "Id": 13,
+    "Answer": "CZARNE LUSTRO",
+    "Tip1": "Bingham \"Bing\" Madsen",
+    "Tip2": "Abi Khan",
+    "Tip3": "-"
+  },
+  {
+    "Id": 14,
+    "Answer": "PRZYJACIELE",
+    "Tip1": "Rachel Green",
+    "Tip2": "Monica Geller",
+    "Tip3": "-"
+  },
+  {
+    "Id": 15,
+    "Answer": "DOM Z PAPIERU",
+    "Tip1": "Tokio",
+    "Tip2": "Profesor",
+    "Tip3": "-"
+  },
+  {
+    "Id": 16,
+    "Answer": "DR HOUSE",
+    "Tip1": "Dr Gregory House",
+    "Tip2": "Dr James Wilson",
+    "Tip3": "-"
+  },
+  {
+    "Id": 17,
+    "Answer": "DARK",
+    "Tip1": "Ulrich Nielsen",
+    "Tip2": "Charlotte Doppler",
+    "Tip3": "-"
+  },
+  {
+    "Id": 18,
+    "Answer": "PitBull",
+    "Tip1": "Podkomisarz Sławomir Desperski",
+    "Tip2": "Starszy aspirant Jacek Goc \"Gebels",
+    "Tip3": "-"
+  },
+  {
+    "Id": 19,
+    "Answer": "THE CROWN",
+    "Tip1": "Królowa Elżbieta II",
+    "Tip2": "Filip Mountbatten, Książę Edynburga",
+    "Tip3": "-"
+  },
+  {
+    "Id": 20,
+    "Answer": "DEXTER",
+    "Tip1": "Dexter Morgan",
+    "Tip2": "Debra Morgan",
+    "Tip3": "-"
+  },
+  {
+    "Id": 21,
+    "Answer": "UTOPIA",
+    "Tip1": "Becky",
+    "Tip2": "Wilson Wilson",
+    "Tip3": "-"
+  },
+  {
+    "Id": 22,
+    "Answer": "GAMBIT KRÓLOWEJ",
+    "Tip1": "Beth Harmon",
+    "Tip2": "Vasily Borgov",
+    "Tip3": "-"
+  },
+  {
+    "Id": 23,
+    "Answer": "W GARNITURACH",
+    "Tip1": "Harvey Reginald Specter",
+    "Tip2": "Michael \"Mike\" James Ross",
+    "Tip3": "-"
+  },
+  {
+    "Id": 24,
+    "Answer": "SYNOWIE ANARCHII",
+    "Tip1": "Jackson \"Jax\" Teller",
+    "Tip2": "Gemma Teller Morrow",
+    "Tip3": "-"
+  },
+  {
+    "Id": 25,
+    "Answer": "MŁODY PAPIEŻ",
+    "Tip1": "Lenny Belardo",
+    "Tip2": "Siostra Mary",
+    "Tip3": "-"
+  },
+  {
+    "Id": 26,
+    "Answer": "WATAHA",
+    "Tip1": "Wiktor Rebrow",
+    "Tip2": "Adam Grzywaczewski \"Grzywa",
+    "Tip3": "-"
+  },
+  {
+    "Id": 27,
+    "Answer": "MR. ROBOT",
+    "Tip1": "Elliot Alderson",
+    "Tip2": "Pan Robot",
+    "Tip3": "-"
+  },
+  {
+    "Id": 28,
+    "Answer": "AMERICAN HORROR STORY: ASYLUM",
+    "Tip1": "Siostra Jude Martin",
+    "Tip2": "Lana Winters",
+    "Tip3": "-"
+  },
+  {
+    "Id": 29,
+    "Answer": "JAK POZNAŁEM WASZĄ MATKĘ",
+    "Tip1": "Ted Mosby",
+    "Tip2": "Marshall Eriksen",
+    "Tip3": "-"
+  },
+  {
+    "Id": 30,
+    "Answer": "SPARTAKUS: KREW I PIACH",
+    "Tip1": "Spartakus",
+    "Tip2": "Kwintus Lentulus Batiatus",
+    "Tip3": "-"
+  },
+  {
+    "Id": 31,
+    "Answer": "CZAS HONORU",
+    "Tip1": "Bronek Woyciechowski",
+    "Tip2": "Michał Konarski",
+    "Tip3": "-"
+  },
+  {
+    "Id": 32,
+    "Answer": "RZYM",
+    "Tip1": "Lucjusz Worenus",
+    "Tip2": "Tytus Pullo",
+    "Tip3": "-"
+  },
+  {
+    "Id": 33,
+    "Answer": "TEORIA WIELKIEGO PODRYWU",
+    "Tip1": "Sheldon Lee Cooper",
+    "Tip2": "Leonard Leakey Hofstadter",
+    "Tip3": "-"
+  },
+  {
+    "Id": 34,
+    "Answer": "SQUID GAME",
+    "Tip1": "Gi-hun Seong",
+    "Tip2": "Sang-woo Jo",
+    "Tip3": "-"
+  },
+  {
+    "Id": 35,
+    "Answer": "Z ARCHIWUM X",
+    "Tip1": "Dana Scully / Agentka OSS",
+    "Tip2": "Fox Mulder",
+    "Tip3": "-"
+  },
+  {
+    "Id": 36,
+    "Answer": "EL CHAPO",
+    "Tip1": "Joaquín Guzmán",
+    "Tip2": "Conrado Higuera Sol \"Don Sol",
+    "Tip3": "-"
+  },
+  {
+    "Id": 37,
+    "Answer": "THE WALKING DEAD",
+    "Tip1": "Rick Grimes",
+    "Tip2": "Daryl Dixon",
+    "Tip3": "-"
+  },
+  {
+    "Id": 38,
+    "Answer": "PACYFIK",
+    "Tip1": "Starszy szeregowiec Robert Leckie",
+    "Tip2": "Starszy szeregowiec Eugene B. Sledge",
+    "Tip3": "-"
+  },
+  {
+    "Id": 39,
+    "Answer": "KOMPANIA BRACI",
+    "Tip1": "Major Richard D. Winters",
+    "Tip2": "Pułkownik Robert Sink",
+    "Tip3": "-"
+  },
+  {
+    "Id": 40,
+    "Answer": "LOST",
+    "Tip1": "Dr Jack Shephard",
+    "Tip2": "Katherine \"Kate\" Anne Austen",
+    "Tip3": "-"
+  },
+  {
+    "Id": 41,
+    "Answer": "PAMIĘTNIKI WAMPIRÓW",
+    "Tip1": "Stefan Salvatore",
+    "Tip2": "Damon Salvatore",
+    "Tip3": "-"
+  },
+  {
+    "Id": 42,
+    "Answer": "THE ORIGINALS",
+    "Tip1": "Klaus Mikaelson",
+    "Tip2": "Elijah Mikaelson",
+    "Tip3": "-"
+  },
+  {
+    "Id": 43,
+    "Answer": "WAMPIRY: DZIEDZICTWO",
+    "Tip1": "Hope Andrea Mikaelson",
+    "Tip2": "Josette \"Josie\" Saltzman",
+    "Tip3": "-"
+  },
+  {
+    "Id": 44,
+    "Answer": "SHADOWHUNTERS",
+    "Tip1": "Clary Fray",
+    "Tip2": "Jace Wayland",
+    "Tip3": "-"
+  },
+  {
+    "Id": 45,
+    "Answer": "CZYSTA KREW",
+    "Tip1": "Sookie Stackhouse",
+    "Tip2": "Bill Compton",
+    "Tip3": "-"
+  },
+  {
+    "Id": 46,
+    "Answer": "SKAZANY NA SMIERĆ",
+    "Tip1": "Michael Scofield",
+    "Tip2": "Lincoln Burrows",
+    "Tip3": "-"
+  },
+  {
+    "Id": 47,
+    "Answer": "SŁONECZNY PATROL",
+    "Tip1": "Mitch Buchannon",
+    "Tip2": "Roberta \"Summer\" Quinn",
+    "Tip3": "-"
+  },
+  {
+    "Id": 48,
+    "Answer": "SKAZANA",
+    "Tip1": "Sędzia Alicja Mazur",
+    "Tip2": "Paweł Witkowski",
+    "Tip3": "-"
+  },
+  {
+    "Id": 49,
+    "Answer": "KRUK",
+    "Tip1": "Komisarz Adam Kruk",
+    "Tip2": "Sławek",
+    "Tip3": "-"
+  },
+  {
+    "Id": 50,
+    "Answer": "BELFER",
+    "Tip1": "Paweł Zawadzki",
+    "Tip2": "Katarzyna Molenda",
+    "Tip3": "-"
+  },
+  {
+    "Id": 51,
+    "Answer": "DOLINA KRZEMOWA",
+    "Tip1": "Richard Hendricks",
+    "Tip2": "Erlich Bachman",
+    "Tip3": "-"
+  },
+  {
+    "Id": 52,
+    "Answer": "ODWRÓCENI",
+    "Tip1": "Jan \"Blacha\" Blachowski",
+    "Tip2": "Paweł Sikora",
+    "Tip3": "-"
+  },
+  {
+    "Id": 53,
+    "Answer": "WESTWORLD",
+    "Tip1": "Dr Robert Ford",
+    "Tip2": "Dolores Abernathy",
+    "Tip3": "-"
+  },
+  {
+    "Id": 54,
+    "Answer": "KLANGOR",
+    "Tip1": "Psycholog więzienny Rafał Wejman",
+    "Tip2": "Magda Wejman",
+    "Tip3": "-"
+  },
+  {
+    "Id": 55,
+    "Answer": "ŚLEPNĄC OD ŚWIATEŁ",
+    "Tip1": "Kuba Nitecki",
+    "Tip2": "Dario",
+    "Tip3": "-"
+  },
+  {
+    "Id": 56,
+    "Answer": "PAKT",
+    "Tip1": "Piotr Grodecki",
+    "Tip2": "Anna Wagner",
+    "Tip3": "-"
+  },
+  {
+    "Id": 57,
+    "Answer": "STULECIE WINNYCH",
+    "Tip1": "Bronisława Winna",
+    "Tip2": "Stanisław Winny",
+    "Tip3": "-"
+  },
+  {
+    "Id": 58,
+    "Answer": "OFICER",
+    "Tip1": "Podkomisarz Tomasz Kruszyński \"Kruszon",
+    "Tip2": "Nadkomisarz Krzysztof Ryś",
+    "Tip3": "-"
+  },
+  {
+    "Id": 59,
+    "Answer": "CZTEREJ PANCERNI I PIES",
+    "Tip1": "Janek Kos",
+    "Tip2": "Gustlik Jeleń",
+    "Tip3": "-"
+  },
+  {
+    "Id": 60,
+    "Answer": "WIEDŹMIN",
+    "Tip1": "Geralt z Rivii",
+    "Tip2": "Yennefer z Vengerbergu",
+    "Tip3": "-"
+  },
+  {
+    "Id": 61,
+    "Answer": "KRÓL",
+    "Tip1": "Jakub Szapiro",
+    "Tip2": "Mosze Bernsztajn",
+    "Tip3": "-"
+  },
+  {
+    "Id": 62,
+    "Answer": "07 ZGŁOŚ SIĘ",
+    "Tip1": "Porucznik Sławomir Borewicz",
+    "Tip2": "Porucznik Antoni Zubek",
+    "Tip3": "-"
+  },
+  {
+    "Id": 63,
+    "Answer": "JANOSIK",
+    "Tip1": "Maryna",
+    "Tip2": "Waluś Kwiczoł",
+    "Tip3": "-"
+  },
+  {
+    "Id": 64,
+    "Answer": "O MNIE SIĘ NIE MARTW",
+    "Tip1": "Sylwia Małecka",
+    "Tip2": "Mecenas Paweł Radecki",
+    "Tip3": "-"
+  },
+  {
+    "Id": 65,
+    "Answer": "CZTERDZIESTOLATEK",
+    "Tip1": "Inżynier Stefan Karwowski",
+    "Tip2": "Magda Karwowska, żona Stefana",
+    "Tip3": "-"
+  },
+  {
+    "Id": 66,
+    "Answer": "RANCZO",
+    "Tip1": "Lucy Wilska",
+    "Tip2": "Wójt Paweł Kozioł",
+    "Tip3": "-"
+  },
+  {
+    "Id": 67,
+    "Answer": "POD POWIERZCHNIĄ",
+    "Tip1": "Marta Gajewska",
+    "Tip2": "Bartek Gajewski",
+    "Tip3": "-"
+  },
+  {
+    "Id": 68,
+    "Answer": "DOLINA KRZEMOWA",
+    "Tip1": "Richard Hendricks",
+    "Tip2": "Erlich Bachman",
+    "Tip3": "-"
+  },
+  {
+    "Id": 69,
+    "Answer": "SKAZANE",
+    "Tip1": "Sylwia Miller",
+    "Tip2": "Marta Janisz",
+    "Tip3": "-"
+  },
+  {
+    "Id": 70,
+    "Answer": "DIAGNOZA",
+    "Tip1": "Anna Leśniewska vel Nowak",
+    "Tip2": "Doktor Michał Wolski",
+    "Tip3": "-"
+  },
+  {
+    "Id": 71,
+    "Answer": "ROJST",
+    "Tip1": "Piotr Zarzycki",
+    "Tip2": "Witold Wanycz",
+    "Tip3": "-"
+  },
+  {
+    "Id": 72,
+    "Answer": "PARADOKS",
+    "Tip1": "Podkomisarz Joanna Majewska",
+    "Tip2": "Podinspektor Marek Kaszowski",
+    "Tip3": "-"
+  },
+  {
+    "Id": 73,
+    "Answer": "KOWALSCY KONTRA KOWALSCY",
+    "Tip1": "Anna Kowalska",
+    "Tip2": "Jadwiga Kowalska",
+    "Tip3": "-"
+  },
+  {
+    "Id": 74,
+    "Answer": "SINGIELKA",
+    "Tip1": "Ela Kowalik",
+    "Tip2": "Mikołaj Suszyński",
+    "Tip3": "-"
+  },
+  {
+    "Id": 75,
+    "Answer": "ZAWSZE WARTO",
+    "Tip1": "Marta",
+    "Tip2": "Dorota",
+    "Tip3": "-"
+  },
+  {
+    "Id": 76,
+    "Answer": "MOTYW",
+    "Tip1": "Luiza Porębska",
+    "Tip2": "Anna \"Czarna\" Czarnecka",
+    "Tip3": "-"
+  },
+  {
+    "Id": 77,
+    "Answer": "PRAWO AGATY",
+    "Tip1": "Agata Przybysz",
+    "Tip2": "Marek Dębski",
+    "Tip3": "-"
+  },
+  {
+    "Id": 78,
+    "Answer": "KOD GENETYCZNY",
+    "Tip1": "Tomasz Skowroński",
+    "Tip2": "Iza Berger",
+    "Tip3": "-"
+  },
+  {
+    "Id": 79,
+    "Answer": "ŻYWIOŁY SASZY – OGIEŃ",
+    "Tip1": "Sasza Załuska",
+    "Tip2": "Jacek \"Cuki\" Borkowski",
+    "Tip3": "-"
+  },
+  {
+    "Id": 80,
+    "Answer": "PAJĘCZYNA",
+    "Tip1": "Kornelia Titko",
+    "Tip2": "Teresa Titko, matka Kornelii",
+    "Tip3": "-"
+  },
+  {
+    "Id": 81,
+    "Answer": "SZADŹ",
+    "Tip1": "Piotr Wolnicki",
+    "Tip2": "Agnieszka Polkowska",
+    "Tip3": "-"
+  },
+  {
+    "Id": 82,
+    "Answer": "SEXIFY",
+    "Tip1": "Natalia Dumała",
+    "Tip2": "Paulina Malinowska",
+    "Tip3": "-"
+  },
+  {
+    "Id": 83,
+    "Answer": "OTWÓRZ OCZY",
+    "Tip1": "Julka",
+    "Tip2": "Adam",
+    "Tip3": "-"
+  },
+  {
+    "Id": 84,
+    "Answer": "THE RAIN",
+    "Tip1": "Simone",
+    "Tip2": "Rasmus",
+    "Tip3": "-"
+  },
+  {
+    "Id": 85,
+    "Answer": "MROCZNE POŻĄDANIE",
+    "Tip1": "Alma Solares",
+    "Tip2": "Esteban Solares",
+    "Tip3": "-"
+  },
+  {
+    "Id": 86,
+    "Answer": "TOY BOY",
+    "Tip1": "Hugo Beltrán",
+    "Tip2": "Macarena Medina de Solís",
+    "Tip3": "-"
+  },
+  {
+    "Id": 87,
+    "Answer": "DARE ME",
+    "Tip1": "Addy Hanlon",
+    "Tip2": "Colette French",
+    "Tip3": "-"
+  },
+  {
+    "Id": 88,
+    "Answer": "EL CLUB",
+    "Tip1": "Sofía",
+    "Tip2": "Pablo",
+    "Tip3": "-"
+  },
+  {
+    "Id": 89,
+    "Answer": "COBRA KAI",
+    "Tip1": "Johnny Lawrence",
+    "Tip2": "Daniel LaRusso",
+    "Tip3": "-"
+  },
+  {
+    "Id": 90,
+    "Answer": "ARROW",
+    "Tip1": "Oliver Queen",
+    "Tip2": "John Diggle",
+    "Tip3": "-"
+  },
+  {
+    "Id": 91,
+    "Answer": "PRZEKLĘTA",
+    "Tip1": "Nimue",
+    "Tip2": "Arthur",
+    "Tip3": "-"
+  },
+  {
+    "Id": 92,
+    "Answer": "BERLIŃSKIE PSY",
+    "Tip1": "Petrovic",
+    "Tip2": "Kurt Grimmer",
+    "Tip3": "-"
+  },
+  {
+    "Id": 93,
+    "Answer": "LUKE CAGE",
+    "Tip1": "Carl Lucas",
+    "Tip2": "Mariah Dillard",
+    "Tip3": "-"
+  },
+  {
+    "Id": 94,
+    "Answer": "DOPASOWANI",
+    "Tip1": "Rebecca Webb",
+    "Tip2": "Connor Martin",
+    "Tip3": "-"
+  },
+  {
+    "Id": 95,
+    "Answer": "1983",
+    "Tip1": "Inspektor Anatol Janów",
+    "Tip2": "Kajetan Skowron",
+    "Tip3": "-"
+  },
+  {
+    "Id": 96,
+    "Answer": "GRZESZNICA",
+    "Tip1": "Meg Muldoon",
+    "Tip2": "Percy Muldoon",
+    "Tip3": "-"
+  },
+  {
+    "Id": 97,
+    "Answer": "THE A LIST",
+    "Tip1": "Mia",
+    "Tip2": "Amber",
+    "Tip3": "-"
+  },
+  {
+    "Id": 98,
+    "Answer": "RIVERDALLE",
+    "Tip1": "Archie Andrews",
+    "Tip2": "Betty Cooper",
+    "Tip3": "-"
+  },
+  {
+    "Id": 99,
+    "Answer": "THE GOOD DOCTOR",
+    "Tip1": "Dr Shaun Murphy",
+    "Tip2": "Dr Claire Brown",
+    "Tip3": "-"
+  },
+  {
+    "Id": 100,
+    "Answer": "SZKOŁA DLA ELITY",
+    "Tip1": "Samuel García Domínguez",
+    "Tip2": "Carla Rosón Caleruega",
+    "Tip3": "-"
+  },
+  {
+    "Id": 101,
+    "Answer": "PLEMIONA EUROPY",
+    "Tip1": "Liv",
+    "Tip2": "Kiano",
+    "Tip3": "-"
+  },
+  {
+    "Id": 102,
+    "Answer": "MARCO POLO",
+    "Tip1": "Marco Polo",
+    "Tip2": "Kublai Khan",
+    "Tip3": "-"
+  },
+  {
+    "Id": 103,
+    "Answer": "FRONTIER",
+    "Tip1": "Declan Harp",
+    "Tip2": "Lord Benton",
+    "Tip3": "-"
+  },
+  {
+    "Id": 104,
+    "Answer": "SEX/LIFE",
+    "Tip1": "Billie Connelly",
+    "Tip2": "Cooper Connelly",
+    "Tip3": "-"
+  },
+  {
+    "Id": 105,
+    "Answer": "THE 100",
+    "Tip1": "Clarke Griffin",
+    "Tip2": "Dr Abigail Griffin",
+    "Tip3": "-"
+  },
+  {
+    "Id": 106,
+    "Answer": "ALTERED CARBON",
+    "Tip1": "Takeshi Kovacs",
+    "Tip2": "Laurens Bancroft",
+    "Tip3": "-"
+  },
+  {
+    "Id": 107,
+    "Answer": "PIRACI",
+    "Tip1": "John Silver",
+    "Tip2": "Eleanor Guthrie",
+    "Tip3": "-"
+  },
+  {
+    "Id": 108,
+    "Answer": "DWÓCH I PÓŁ",
+    "Tip1": "Charlie Harper",
+    "Tip2": "Alan Harper / Sid",
+    "Tip3": "-"
+  },
+  {
+    "Id": 109,
+    "Answer": "SEE",
+    "Tip1": "Baba Voss",
+    "Tip2": "Paris",
+    "Tip3": "-"
+  },
+  {
+    "Id": 110,
+    "Answer": "UPADEK KRÓLESTWA",
+    "Tip1": "Uhtred z Bebbanburga",
+    "Tip2": "Beocca",
+    "Tip3": "-"
+  },
+  {
+    "Id": 111,
+    "Answer": "STRAŻNIK TEKSASU",
+    "Tip1": "Cordell Walker",
+    "Tip2": "Jimmy Trivette",
+    "Tip3": "-"
+  },
+  {
+    "Id": 112,
+    "Answer": "KOŁO CZASU",
+    "Tip1": "Moiraine Damodred",
+    "Tip2": "Rand al’Thor",
+    "Tip3": "-"
+  }
+]

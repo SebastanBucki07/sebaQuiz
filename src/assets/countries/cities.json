@@ -1,0 +1,602 @@
+[
+  {
+    "Id": 1,
+    "author": "Polska",
+    "title": "-",
+    "fragment1": "Kraków",
+    "fragment2": "Katowice",
+    "fragment3": "Gdańsk"
+  },
+  {
+    "Id": 2,
+    "author": "Anglia",
+    "title": "-",
+    "fragment1": "Liverpool",
+    "fragment2": "Manchaster",
+    "fragment3": "Birmingham"
+  },
+  {
+    "Id": 3,
+    "author": "Afganistan",
+    "title": "-",
+    "fragment1": "Herat",
+    "fragment2": "Farah",
+    "fragment3": "Kandahar"
+  },
+  {
+    "Id": 4,
+    "author": "Albania",
+    "title": "-",
+    "fragment1": "Saranda",
+    "fragment2": "Durres",
+    "fragment3": "Korcza"
+  },
+  {
+    "Id": 5,
+    "author": "Algieria",
+    "title": "-",
+    "fragment1": "Oran",
+    "fragment2": "Annaba",
+    "fragment3": "Al-Bulajda"
+  },
+  {
+    "Id": 6,
+    "author": "Andora",
+    "title": "-",
+    "fragment1": "Encamp",
+    "fragment2": "La Massana",
+    "fragment3": "Ordino"
+  },
+  {
+    "Id": 7,
+    "author": "Angola",
+    "title": "-",
+    "fragment1": "Lobito",
+    "fragment2": "Kuito",
+    "fragment3": "Dongo"
+  },
+  {
+    "Id": 8,
+    "author": "Arabia Saudyjska",
+    "title": "-",
+    "fragment1": "Mekka",
+    "fragment2": "Medina",
+    "fragment3": "Dżedda"
+  },
+  {
+    "Id": 9,
+    "author": "Argentyna",
+    "title": "-",
+    "fragment1": "Cordoba",
+    "fragment2": "Rosario",
+    "fragment3": "Mar del Plata"
+  },
+  {
+    "Id": 10,
+    "author": "Armenia",
+    "title": "-",
+    "fragment1": "Goris",
+    "fragment2": "Ararat",
+    "fragment3": "Dilidżan"
+  },
+  {
+    "Id": 11,
+    "author": "Australia",
+    "title": "-",
+    "fragment1": "Melbourne",
+    "fragment2": "Canberra",
+    "fragment3": "Adelaide"
+  },
+  {
+    "Id": 12,
+    "author": "Austria",
+    "title": "-",
+    "fragment1": "Innsbruck",
+    "fragment2": "Salzburg",
+    "fragment3": "Eisenstadt"
+  },
+  {
+    "Id": 13,
+    "author": "Azerbejdżan",
+    "title": "-",
+    "fragment1": "Liman",
+    "fragment2": "Gandża",
+    "fragment3": "Szyrwan"
+  },
+  {
+    "Id": 14,
+    "author": "Bahamy",
+    "title": "-",
+    "fragment1": "Port Nelson",
+    "fragment2": "Alice Town",
+    "fragment3": "Freeport"
+  },
+  {
+    "Id": 15,
+    "author": "Bahrajn",
+    "title": "-",
+    "fragment1": "Al-Hadd",
+    "fragment2": "Madinat Hamad",
+    "fragment3": "Al-Muharrak"
+  },
+  {
+    "Id": 16,
+    "author": "Bangladesz",
+    "title": "-",
+    "fragment1": "Khulna",
+    "fragment2": "Tongi",
+    "fragment3": "Bogra"
+  },
+  {
+    "Id": 17,
+    "author": "Belgia",
+    "title": "-",
+    "fragment1": "Antwerpia",
+    "fragment2": "Gandawa",
+    "fragment3": "Namur"
+  },
+  {
+    "Id": 18,
+    "author": "Białoruś",
+    "title": "-",
+    "fragment1": "Grodno",
+    "fragment2": "Brześć",
+    "fragment3": "Połock"
+  },
+  {
+    "Id": 19,
+    "author": "Boliwia",
+    "title": "-",
+    "fragment1": "Cochabamba",
+    "fragment2": "Sucre",
+    "fragment3": "Sacaba"
+  },
+  {
+    "Id": 20,
+    "author": "Bośnia i Hercegowina",
+    "title": "-",
+    "fragment1": "Mostar",
+    "fragment2": "Jajce",
+    "fragment3": "Trebinje"
+  },
+  {
+    "Id": 21,
+    "author": "Brazylia",
+    "title": "-",
+    "fragment1": "Rio de Janeiro",
+    "fragment2": "Sao Paulo",
+    "fragment3": "Salvador"
+  },
+  {
+    "Id": 22,
+    "author": "Bułgaria",
+    "title": "-",
+    "fragment1": "Warna",
+    "fragment2": "Burgas",
+    "fragment3": "Płowdiw"
+  },
+  {
+    "Id": 23,
+    "author": "Chiny",
+    "title": "-",
+    "fragment1": "Shanghaj",
+    "fragment2": "Wuhan",
+    "fragment3": "Nankin"
+  },
+  {
+    "Id": 24,
+    "author": "Chorwacja",
+    "title": "-",
+    "fragment1": "Dubrownik",
+    "fragment2": "Split",
+    "fragment3": "Zadar"
+  },
+  {
+    "Id": 25,
+    "author": "Cypr",
+    "title": "-",
+    "fragment1": "Pafos",
+    "fragment2": "Larnaka",
+    "fragment3": "Limassol"
+  },
+  {
+    "Id": 26,
+    "author": "Czarnogóra",
+    "title": "-",
+    "fragment1": "Kotor",
+    "fragment2": "Cetynia",
+    "fragment3": "Perast"
+  },
+  {
+    "Id": 27,
+    "author": "Czechy",
+    "title": "-",
+    "fragment1": "Brno",
+    "fragment2": "Ostrawa",
+    "fragment3": "Ołomuniec"
+  },
+  {
+    "Id": 28,
+    "author": "Dania",
+    "title": "-",
+    "fragment1": "Aarhus",
+    "fragment2": "Odense",
+    "fragment3": "Aalborg"
+  },
+  {
+    "Id": 29,
+    "author": "Egipt",
+    "title": "-",
+    "fragment1": "Luksor",
+    "fragment2": "Giza",
+    "fragment3": "Hurghada"
+  },
+  {
+    "Id": 30,
+    "author": "Ekwador",
+    "title": "-",
+    "fragment1": "Loja",
+    "fragment2": "Manta",
+    "fragment3": "Portoviejo"
+  },
+  {
+    "Id": 31,
+    "author": "Estonia",
+    "title": "-",
+    "fragment1": "Tartu",
+    "fragment2": "Narwa",
+    "fragment3": "Maardu"
+  },
+  {
+    "Id": 32,
+    "author": "Finlandia",
+    "title": "-",
+    "fragment1": "Tempere",
+    "fragment2": "Vantaa",
+    "fragment3": "Oulu"
+  },
+  {
+    "Id": 33,
+    "author": "Francja",
+    "title": "-",
+    "fragment1": "Marsylia",
+    "fragment2": "Lyon",
+    "fragment3": "Tuluza"
+  },
+  {
+    "Id": 34,
+    "author": "Grecja",
+    "title": "-",
+    "fragment1": "Saloniki",
+    "fragment2": "Chania",
+    "fragment3": "Retimno"
+  },
+  {
+    "Id": 35,
+    "author": "Gruzja",
+    "title": "-",
+    "fragment1": "Batumi",
+    "fragment2": "Gori",
+    "fragment3": "Poti"
+  },
+  {
+    "Id": 36,
+    "author": "Hiszpania",
+    "title": "-",
+    "fragment1": "Sewilla",
+    "fragment2": "Barcelona",
+    "fragment3": "Malaga"
+  },
+  {
+    "Id": 37,
+    "author": "Holandia",
+    "title": "-",
+    "fragment1": "Haga",
+    "fragment2": "Rotterdam",
+    "fragment3": "Breda"
+  },
+  {
+    "Id": 38,
+    "author": "Indie",
+    "title": "-",
+    "fragment1": "Bombaj",
+    "fragment2": "Agra",
+    "fragment3": "Kolkata"
+  },
+  {
+    "Id": 39,
+    "author": "Irak",
+    "title": "-",
+    "fragment1": "Mosul",
+    "fragment2": "Kirkuk",
+    "fragment3": "An-Nadżaf"
+  },
+  {
+    "Id": 40,
+    "author": "Irlandia",
+    "title": "-",
+    "fragment1": "Cork",
+    "fragment2": "Galway",
+    "fragment3": "Limerick"
+  },
+  {
+    "Id": 41,
+    "author": "Izrael",
+    "title": "-",
+    "fragment1": "Hajfa",
+    "fragment2": "Tel Awiw",
+    "fragment3": "Nazaret"
+  },
+  {
+    "Id": 42,
+    "author": "Japonia",
+    "title": "-",
+    "fragment1": "Kobe",
+    "fragment2": "Osaka",
+    "fragment3": "Kioto"
+  },
+  {
+    "Id": 43,
+    "author": "Kanada",
+    "title": "-",
+    "fragment1": "Montreal",
+    "fragment2": "Vancouver",
+    "fragment3": "Toronto"
+  },
+  {
+    "Id": 44,
+    "author": "Kenia",
+    "title": "-",
+    "fragment1": "Kisumu",
+    "fragment2": "Nakuru",
+    "fragment3": "Mombasa"
+  },
+  {
+    "Id": 45,
+    "author": "Kuba",
+    "title": "-",
+    "fragment1": "Bayamo",
+    "fragment2": "Holguín",
+    "fragment3": "Guantánamo"
+  },
+  {
+    "Id": 46,
+    "author": "Litwa",
+    "title": "-",
+    "fragment1": "Troki",
+    "fragment2": "Kłajpeda",
+    "fragment3": "Kowno"
+  },
+  {
+    "Id": 47,
+    "author": "Łotwa",
+    "title": "-",
+    "fragment1": "Jełgawa",
+    "fragment2": "Windawa",
+    "fragment3": "Lipawa"
+  },
+  {
+    "Id": 48,
+    "author": "Malta",
+    "title": "-",
+    "fragment1": "Isla",
+    "fragment2": "Bormla",
+    "fragment3": "Rabat"
+  },
+  {
+    "Id": 49,
+    "author": "Meksyk",
+    "title": "-",
+    "fragment1": "Guadalajara",
+    "fragment2": "Cancún",
+    "fragment3": "Tulum"
+  },
+  {
+    "Id": 50,
+    "author": "Mołdawia",
+    "title": "-",
+    "fragment1": "Rybnica",
+    "fragment2": "Kaguł",
+    "fragment3": "Soroki"
+  },
+  {
+    "Id": 51,
+    "author": "Niemcy",
+    "title": "-",
+    "fragment1": "Lipsk",
+    "fragment2": "Hamburg",
+    "fragment3": "Monachium"
+  },
+  {
+    "Id": 52,
+    "author": "Norwegia",
+    "title": "-",
+    "fragment1": "Alesund",
+    "fragment2": "Trondheim",
+    "fragment3": "Bergen"
+  },
+  {
+    "Id": 53,
+    "author": "Peru",
+    "title": "-",
+    "fragment1": "Iquitos",
+    "fragment2": "Tarapoto",
+    "fragment3": "Cuzco"
+  },
+  {
+    "Id": 54,
+    "author": "Portugalia",
+    "title": "-",
+    "fragment1": "Aveiro",
+    "fragment2": "Sintro",
+    "fragment3": "Porto"
+  },
+  {
+    "Id": 55,
+    "author": "Rosja",
+    "title": "-",
+    "fragment1": "Jekaterynburg",
+    "fragment2": "Nowosybirsk",
+    "fragment3": "Petersburg"
+  },
+  {
+    "Id": 56,
+    "author": "Rumunia",
+    "title": "-",
+    "fragment1": "Konstanca",
+    "fragment2": "Sybin",
+    "fragment3": "Braszów"
+  },
+  {
+    "Id": 57,
+    "author": "Senegal",
+    "title": "-",
+    "fragment1": "Saint-Louis",
+    "fragment2": "Kolda",
+    "fragment3": "Tambacounda"
+  },
+  {
+    "Id": 58,
+    "author": "Słowacja",
+    "title": "-",
+    "fragment1": "Żylina",
+    "fragment2": "Poprad",
+    "fragment3": "Koszyce"
+  },
+  {
+    "Id": 59,
+    "author": "Słowenia",
+    "title": "-",
+    "fragment1": "Ptuj",
+    "fragment2": "Piran",
+    "fragment3": "Maribor"
+  },
+  {
+    "Id": 60,
+    "author": "Stany Zjednoczone",
+    "title": "-",
+    "fragment1": "Detroit",
+    "fragment2": "Phoenix",
+    "fragment3": "Los Angeles"
+  },
+  {
+    "Id": 61,
+    "author": "Syria",
+    "title": "-",
+    "fragment1": "Nawa",
+    "fragment2": "Hama",
+    "fragment3": "Aleppo"
+  },
+  {
+    "Id": 62,
+    "author": "Szwajcaria",
+    "title": "-",
+    "fragment1": "Lucerna",
+    "fragment2": "Bazylea",
+    "fragment3": "Genewa"
+  },
+  {
+    "Id": 63,
+    "author": "Szwecja",
+    "title": "-",
+    "fragment1": "Uppsala",
+    "fragment2": "Malmo",
+    "fragment3": "Goteborg"
+  },
+  {
+    "Id": 64,
+    "author": "Tajlandia",
+    "title": "-",
+    "fragment1": "Lampang",
+    "fragment2": "Chiang Mai",
+    "fragment3": "Phuket"
+  },
+  {
+    "Id": 65,
+    "author": "Tunezja",
+    "title": "-",
+    "fragment1": "Al-Dżamm",
+    "fragment2": "Monastyr",
+    "fragment3": "Susa"
+  },
+  {
+    "Id": 66,
+    "author": "Turcja",
+    "title": "-",
+    "fragment1": "Izmir",
+    "fragment2": "Antalya",
+    "fragment3": "Alanya"
+  },
+  {
+    "Id": 67,
+    "author": "Ukraina",
+    "title": "-",
+    "fragment1": "Odessa",
+    "fragment2": "Donieck",
+    "fragment3": "Mariupol"
+  },
+  {
+    "Id": 68,
+    "author": "Wenezuela",
+    "title": "-",
+    "fragment1": "Ciudad Bolívar",
+    "fragment2": "Maturín",
+    "fragment3": "Maracaibo"
+  },
+  {
+    "Id": 69,
+    "author": "Węgry",
+    "title": "-",
+    "fragment1": "Debreczyn",
+    "fragment2": "Gyor",
+    "fragment3": "Eger"
+  },
+  {
+    "Id": 70,
+    "author": "Wielka Brytania",
+    "title": "-",
+    "fragment1": "Leicester",
+    "fragment2": "Brimingham",
+    "fragment3": "Manchester"
+  },
+  {
+    "Id": 71,
+    "author": "Włochy",
+    "title": "-",
+    "fragment1": "Werona",
+    "fragment2": "Florencja",
+    "fragment3": "Wenecja"
+  },
+  {
+    "Id": 72,
+    "author": "Zjednoczone Emiraty Arabskie",
+    "title": "-",
+    "fragment1": "Fudżajra",
+    "fragment2": "Szardża",
+    "fragment3": "Dubaj"
+  },
+  {
+    "Id": 73,
+    "author": "Szkocja",
+    "title": "-",
+    "fragment1": "Perth",
+    "fragment2": "Stirling",
+    "fragment3": "Glasgow"
+  },
+  {
+    "Id": 74,
+    "author": "Walia",
+    "title": "-",
+    "fragment1": "Caerleon",
+    "fragment2": "Wrexham",
+    "fragment3": "Conwy"
+  },
+  {
+    "Id": 75,
+    "author": "Irlandia Północna",
+    "title": "-",
+    "fragment1": "Newcastle",
+    "fragment2": "Banngor",
+    "fragment3": "Banbridge"
+  }
+]

@@ -1,7 +1,9 @@
 import {Category, FragmentsModel} from "../model/fragments-model";
 import {randomFromArray} from "../../common/randomize.helper";
 import songData from "../../assets/songs/songs.json"
+import songTipsData from "../../assets/songs/3tips.json"
 import lectureData from "../../assets/books/books.json"
+import citiesData from "../../assets/countries/cities.json"
 
 export class FragmentBuilder {
   private category: Category = Category.SONG
@@ -30,8 +32,14 @@ export class FragmentBuilder {
   randomDataFromArray(count: number) {
     const array: FragmentsModel | any = []
     let data:any[] = []
+    if (this.category === Category.CITIES){
+      data = citiesData
+    }
     if (this.category === Category.SONG){
       data = songData
+    }
+    if (this.category === Category.SONGTIPS){
+      data = songTipsData
     }
     if (this.category === Category.LECTURE){
       data = lectureData
