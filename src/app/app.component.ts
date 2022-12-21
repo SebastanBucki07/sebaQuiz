@@ -49,6 +49,8 @@ export class AppComponent {
     {name: "Klubowa Historia", id: 3, checkbox: false},
     {name: "Klubowe herby", id: 4, checkbox: false},
     {name: "Stadiony świata", id: 9, checkbox: false},
+    {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
+    {name: "Zawodnik/klub/reprezentacja", id: 27, checkbox: false},
   ]
   public lifeCategories: Category[] = [
     {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},

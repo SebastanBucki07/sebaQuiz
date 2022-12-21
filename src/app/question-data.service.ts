@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import youtubeSongData from "../assets/youTube/youtubeSongs.json";
 import youtubeSerialsIntroData from "../assets/youTube/youtubeSerialsIntros.json";
+import youtubeMundialData from "../assets/youTube/youtubeMundialSongs.json"
 import {getAndDeleteRandomElementFromArray} from "../common/randomize.helper";
 import {YoutubeModel} from "./model/youtube-model";
 import famousPeopleData from "../assets/photos/famousPeople.json";
@@ -15,6 +16,7 @@ import directorsData from "../assets/movies/directors.json"
 import serialActors from "../assets/actors/serialActors.json";
 import gamesData from "../assets/games/games.json";
 import allDistricts from "../assets/poland/citiesPL.json";
+import allFootballData from "../assets/football/football.json"
 import allStadiums from "../assets/stadions/stadions.json";
 import allProverbs from "../assets/proverbs/proverbs.json";
 import allHistory from "../assets/history/history.json";
@@ -40,6 +42,7 @@ import {TipsModel} from "./model/tips-model";
 export class QuestionDataService {
   public allYoutubeSongs: YoutubeModel[] = []
   public allYoutubeSerialIntros: YoutubeModel[] = []
+  public allYoutubeMundial: YoutubeModel[] = []
   public allFamousPeople: PhotoModel[] = []
   public allBuilding: PhotoModel[] = []
   public allMovies: DescriptionModel[] = []
@@ -52,6 +55,7 @@ export class QuestionDataService {
   public allDisctricts: DescriptionModel[] = []
   public allStadiums: DescriptionModel[] = []
   public allProverbs: DescriptionModel[] = []
+  public allFootball: DescriptionModel[] = []
   public allHistory: DescriptionModel[] = []
   public allGods:DescriptionModel[] = []
   public allCountries: Country[] = []
@@ -72,6 +76,7 @@ export class QuestionDataService {
 
   initial(){
     this.allYoutubeSongs = youtubeSongData
+    this.allYoutubeMundial = youtubeMundialData
     this.allClubsCrests = clubCrestsData
     this.allYoutubeSerialIntros = youtubeSerialsIntroData
     this.allFamousPeople = famousPeopleData
@@ -82,6 +87,7 @@ export class QuestionDataService {
     this.allSerials = serialsData
     this.allGames = gamesData
     this.allBiology = biologyData
+    this.allFootball = allFootballData
     this.allMoviesActors = movieActors
     this.allGods = godsData
     this.allSerialsActors = serialActors
@@ -107,6 +113,20 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allChemicalElements)
+  }
+
+  getMundialQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allYoutubeMundial)
+  }
+
+  getFootballQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allFootball)
   }
 
   getDirectorsQuestion(){

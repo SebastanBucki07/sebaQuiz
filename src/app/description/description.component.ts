@@ -83,6 +83,12 @@ export abstract class DescriptionComponent {
         this.points = 3
         break
       }
+      case 'football': {
+        this.random1 = this.questionDataService.getFootballQuestion()
+        this.question = 'Podaj Reprezentacje lub klub lub zawodnika'
+        this.points = 2
+        break
+      }
       default: {
         break;
       }
@@ -211,5 +217,16 @@ export class BiologyComponent extends DescriptionComponent implements OnInit {
 export class GodsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('gods')
+  }
+}
+
+@Component({
+  selector: 'app-football',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class FootballComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('football')
   }
 }

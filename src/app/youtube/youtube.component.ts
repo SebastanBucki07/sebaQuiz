@@ -17,6 +17,7 @@ export abstract class YoutubeComponent {
   public isNotSerial = true
   public isAuthorVisible = false
   public isModalVisible = false
+  public answerDescription = 'Tytuł:'
   public tip: string = ''
   public title: string = ''
   public author: string = ''
@@ -43,6 +44,14 @@ export abstract class YoutubeComponent {
         this.isNotSerial = false
         break
       }
+      case 'mundial': {
+        this.random1 = this.questionDataService.getMundialQuestion()
+        this.question = 'W jakiej imprezie sportowej ta piosenka była głowną?'
+        this.points = 2
+        this.isNotSerial = false
+        this.answerDescription = 'Impreza:'
+        break
+      }
       default: {
         break;
       }
@@ -61,6 +70,7 @@ export abstract class YoutubeComponent {
     this.title = ''
     this.author = ''
     this.isNotSerial = true
+    this.answerDescription = 'Tytuł'
     this.playerService.nextPlayer()
   }
 
@@ -91,5 +101,15 @@ export class YoutubeSongComponent extends YoutubeComponent implements OnInit {
 export class YoutubeSerialsComponent extends YoutubeComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('opening')
+  }
+}
+@Component({
+  selector: 'app-mundial-youtube',
+  templateUrl: './youtube.component.html',
+  styleUrls: ['./youtube.component.css']
+})
+export class YoutubeMundialComponent extends YoutubeComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('mundial')
   }
 }
