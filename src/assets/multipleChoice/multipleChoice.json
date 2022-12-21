@@ -1,0 +1,578 @@
+[
+  {
+    "id": 1,
+    "category": "Muzyka",
+    "text": "Co pamięta Jolka weług budki suflera",
+    "a": "plażę",
+    "b": "Lato ze snu",
+    "c": "Drinki z palemką",
+    "answer": "Lato ze snu"
+  },
+  {
+    "id": 2,
+    "category": "Podróże",
+    "text": "Najdalej wysuniętym na północ miejscem w kontynentalnej Europie jest?",
+    "a": "Tromso",
+    "b": "Przylądek nordkinn",
+    "c": "Skarsvag",
+    "answer": "Przylądek nordkinn"
+  },
+  {
+    "id": 3,
+    "category": "LifeStyle",
+    "text": "Cyzm jest pepitka?",
+    "a": "narzędziem do pobierania cieczy",
+    "b": "Wzorem na tkaninie",
+    "c": "Chustką",
+    "answer": "Wzorem na tkaninie"
+  },
+  {
+    "id": 4,
+    "category": "Filmy i Seriale",
+    "text": "Do czego porównywał życie Forrest Gump?",
+    "a": "Do pustyni",
+    "b": "Do pudełka czekoladek",
+    "c": "Do potańcówki",
+    "answer": "Do pudełka czekoladek"
+  },
+  {
+    "id": 5,
+    "category": "Kim jestem?",
+    "text": "Jestem laureatem Orła za pierwszoplanową role w filmie Pokłosie",
+    "a": "Jerzy Radziwiłowicz",
+    "b": "Ireneusz Czop",
+    "c": "Maciej Stuhr",
+    "answer": "Maciej Stuhr"
+  },
+  {
+    "id": 6,
+    "category": "Muzyka",
+    "text": "W jakim zespole na początku swojej kariery muzycznej występowała Natalia Przybysz?",
+    "a": "The Sis",
+    "b": "Siostry",
+    "c": "Sistars",
+    "answer": "Sistars"
+  },
+  {
+    "id": 7,
+    "category": "Podróże",
+    "text": "W którym mieście ma swój początek U.S. Route 66?",
+    "a": "w Nowym Jorku",
+    "b": "w Kansas City",
+    "c": "w Chicago",
+    "answer": "w Chicago"
+  },
+  {
+    "id": 8,
+    "category": "LifeStyle",
+    "text": "Najwyższy wymiar kary w internecie to?",
+    "a": "Error",
+    "b": "Spam",
+    "c": "Ban",
+    "answer": "Ban"
+  },
+  {
+    "id": 9,
+    "category": "Filmy i Seriale",
+    "text": "Ile części liczy filmowa ekranizacja przygód Harrego Pottera?",
+    "a": 6,
+    "b": 7,
+    "c": 8,
+    "answer": 8
+  },
+  {
+    "id": 10,
+    "category": "Kim jestem?",
+    "text": "Jestem małym błazenkiem, którego próbuje odnaleźć mój tata.",
+    "a": "Darwin",
+    "b": "Dory",
+    "c": "Nemo",
+    "answer": "Nemo"
+  },
+  {
+    "id": 11,
+    "category": "Muzyka",
+    "text": "W co Lady Pank zamieni każdy oddech?",
+    "a": "w miłość",
+    "b": "w pocałunek",
+    "c": "w niespokojny wiatr",
+    "answer": "w niespokojny wiatr"
+  },
+  {
+    "id": 12,
+    "category": "Podróże",
+    "text": "Jakie jest najludniejsze miasto USA?",
+    "a": "Nowy Jork",
+    "b": "Los Angeles",
+    "c": "Waszyngton",
+    "answer": "Nowy Jork"
+  },
+  {
+    "id": 13,
+    "category": "LifeStyle",
+    "text": "Jaki smak miała guma turbo?",
+    "a": "Brzoskwini",
+    "b": "Coca-coli",
+    "c": "Jabłka",
+    "answer": "Brzoskwini"
+  },
+  {
+    "id": 14,
+    "category": "Filmy i Seriale",
+    "text": "Kto wyreżyserował amerykański dramat \"Wilk z Wall Street\"?",
+    "a": "Martin Scorcese",
+    "b": "Zack Snyder",
+    "c": "James Cameron",
+    "answer": "Martin Scorcese"
+  },
+  {
+    "id": 15,
+    "category": "Kim jestem?",
+    "text": "Odgryzłem ucho przeciwnikowi w czasie walki bokserskiej.",
+    "a": "Muhammad Ali",
+    "b": "Mike Tyson",
+    "c": "Bernard Hopkins",
+    "answer": "Mike Tyson"
+  },
+  {
+    "id": 16,
+    "category": "Muzyka",
+    "text": "Jaki zapach ma Warszawa według Taco Hemigwaya?",
+    "a": "Kebabu i smogu",
+    "b": "Szlugów i kalafiorów",
+    "c": "Spalin i pączków",
+    "answer": "Szlugów i kalafiorów"
+  },
+  {
+    "id": 17,
+    "category": "Podróże",
+    "text": "W jakim morzu wykąpiemy się na wakacjach w Antalyi?",
+    "a": "Czarnym",
+    "b": "Śródziemnym",
+    "c": "Czerwonym",
+    "answer": "Śródziemnym"
+  },
+  {
+    "id": 18,
+    "category": "LifeStyle",
+    "text": "Dziełem jakiej firmy jest gra \"Wiedźmin\"?",
+    "a": "11bit Studios",
+    "b": "CD Projekt Red",
+    "c": "Techland",
+    "answer": "CD Projekt Red"
+  },
+  {
+    "id": 19,
+    "category": "Filmy i Seriale",
+    "text": "Jak ma na imię była żona Blake'a Carringtona z serialu \"Dynastia\"?",
+    "a": "Jessica",
+    "b": "Cameron",
+    "c": "Alexis",
+    "answer": "Alexis"
+  },
+  {
+    "id": 20,
+    "category": "Kim jestem?",
+    "text": "Jestem bezwzględnym gangsterem, najbogatszym człowiekiem w Tulczynie oraz głównym antagonistą w serialu \"Plebania\".",
+    "a": "Marian Płacz",
+    "b": "Karol Pracz",
+    "c": "Janusz Tracz",
+    "answer": "Janusz Tracz"
+  },
+  {
+    "id": 21,
+    "category": "Muzyka",
+    "text": "W spodniach czy w sukience?\" śpiewała?",
+    "a": "Monika Brodka",
+    "b": "Mela Koteluk",
+    "c": "Ania Dąbrowska",
+    "answer": "Ania Dąbrowska"
+  },
+  {
+    "id": 22,
+    "category": "Podróże",
+    "text": "Jaki symbol nosi ubezpieczenie kosztów leczenia w turystyce?",
+    "a": "PZU",
+    "b": "NNW",
+    "c": "KL",
+    "answer": "KL"
+  },
+  {
+    "id": 23,
+    "category": "LifeStyle",
+    "text": "Co oznaczało czerwone słoneczko na Gadu-Gadu?",
+    "a": "Status dostępny",
+    "b": "Status niewidoczny",
+    "c": "Status niedostępny",
+    "answer": "Status niedostępny"
+  },
+  {
+    "id": 24,
+    "category": "Filmy i Seriale",
+    "text": "Która modelka wcieliła się w rolę tytułowej \"Żylety\"?",
+    "a": "Dorota \"Doda\" Rabczewska",
+    "b": "Carmen Electra",
+    "c": "Pamela Anderson",
+    "answer": "Pamela Anderson"
+  },
+  {
+    "id": 25,
+    "category": "Kim jestem?",
+    "text": "Prowadziłem program \"Ojczyzna polszczyzna\", którego tytuł zaczerpnąłem z wiersza \"Zieleń\" Juliana Tuwima.",
+    "a": "Prof. Jerzy Bralczyk",
+    "b": "Prof. Mirosław Bańko",
+    "c": "Prof. Jan Miodek",
+    "answer": "Prof. Jan Miodek"
+  },
+  {
+    "id": 26,
+    "category": "Muzyka",
+    "text": "Jak nazywa się pierwsza płyta zespołu \"Queen\"?",
+    "a": "Hot Space",
+    "b": "Innuendo",
+    "c": "Queen",
+    "answer": "Queen"
+  },
+  {
+    "id": 27,
+    "category": "Podróże",
+    "text": "Gdzie znajdziemy trykające się rogami koziołki?",
+    "a": "w Pacanowie",
+    "b": "w Kaliszu",
+    "c": "w Poznaniu",
+    "answer": "w Poznaniu"
+  },
+  {
+    "id": 28,
+    "category": "LifeStyle",
+    "text": "Gatunek małpy, który w memach reprezentuje Polaka to?",
+    "a": "Mandryl barwnolicy",
+    "b": "Makak Iwi",
+    "c": "Nosacz sundajski",
+    "answer": "Nosacz sundajski"
+  },
+  {
+    "id": 29,
+    "category": "Filmy i Seriale",
+    "text": "Ile Oscarów zdobyła łącznie kinowa trylogia \"Władca pierścieni\"?",
+    "a": 1,
+    "b": 5,
+    "c": 11,
+    "answer": 11
+  },
+  {
+    "id": 30,
+    "category": "Kim jestem?",
+    "text": "Jako Rose w \"Titanicu\" powiedziałam, aby namalował mnie \"jako jedną ze swoich francuskich dziewczyn\".",
+    "a": "Mischa Barton",
+    "b": "Emily Blunt",
+    "c": "Kate Winslet",
+    "answer": "Kate Winslet"
+  },
+  {
+    "id": 31,
+    "category": "Muzyka",
+    "text": "Ile miał lat autor utworu grupy Perfect \"Autobiografia\", gdy świat usłyszał o Elvisie Presley'u?",
+    "a": "Osiem",
+    "b": "Dziewięć",
+    "c": "Dziesięć",
+    "answer": "Dziesięć"
+  },
+  {
+    "id": 32,
+    "category": "Podróże",
+    "text": "Druga najdłuższa rzeka Europy to:",
+    "a": "Dniepr",
+    "b": "Dunaj",
+    "c": "Wołga",
+    "answer": "Wołga"
+  },
+  {
+    "id": 33,
+    "category": "LifeStyle",
+    "text": "Na jakim produkcie pojawia się logo Ray-Ban?",
+    "a": "Na meblach",
+    "b": "Na sztućcach",
+    "c": "Na okularach",
+    "answer": "Na okularach"
+  },
+  {
+    "id": 34,
+    "category": "Filmy i Seriale",
+    "text": "Jak nazywa się podkomisarz grany przez Marcina Dorocińskiego w serialu \"Pitbull\"?",
+    "a": "Benek",
+    "b": "Gebels",
+    "c": "Despero",
+    "answer": "Despero"
+  },
+  {
+    "id": 35,
+    "category": "Kim jestem?",
+    "text": "Moi sąsiedzi to Boczek i ta menda Paździoch.",
+    "a": "Cezary Cezary",
+    "b": "Karol Krawczyk",
+    "c": "Ferdynand Kiepski",
+    "answer": "Ferdynand Kiepski"
+  },
+  {
+    "id": 36,
+    "category": "Muzyka",
+    "text": "W jakim boysbandzie śpiewał Justin Timberlake?",
+    "a": "Backstreet Boys",
+    "b": "NSYNC",
+    "c": "Just 5",
+    "answer": "NSYNC"
+  },
+  {
+    "id": 37,
+    "category": "Podróże",
+    "text": "Gdzie znajduje się największy zamek na świecie?",
+    "a": "w Londynie",
+    "b": "w Malborku",
+    "c": "w Burghausen",
+    "answer": "w Malborku"
+  },
+  {
+    "id": 38,
+    "category": "LifeStyle",
+    "text": "Jak ma na imię pierworodna córka Anny i Roberta Lewandowskich?",
+    "a": "Nina",
+    "b": "Klara",
+    "c": "Łucja",
+    "answer": "Klara"
+  },
+  {
+    "id": 39,
+    "category": "Filmy i Seriale",
+    "text": "W którym kraju toczy się akcja trzeciego sezonu serialu \"Narcos\"?",
+    "a": "w Kolumbii",
+    "b": "w Meksyku",
+    "c": "na Kubie",
+    "answer": "w Meksyku"
+  },
+  {
+    "id": 40,
+    "category": "Kim jestem?",
+    "text": "Jestem laureatem nagrody Nobla, a także autorem powieści \"Ogniem i Mieczem\".",
+    "a": "Władysław Reymont",
+    "b": "Henryk Sienkiewicz",
+    "c": "Czesław Miłosz",
+    "answer": "Henryk Sienkiewicz"
+  },
+  {
+    "id": 41,
+    "category": "Muzyka",
+    "text": "Skąd pochodzi piosenkarka Sia?",
+    "a": "z Norwegii",
+    "b": "z Australii",
+    "c": "z Danii",
+    "answer": "z Australii"
+  },
+  {
+    "id": 42,
+    "category": "Podróże",
+    "text": "Gdzie w Polsce występują żubry?",
+    "a": "w Borach Tucholskich",
+    "b": "w Puszczy Białowieskiej",
+    "c": "w Bieszczadach",
+    "answer": "w Puszczy Białowieskiej"
+  },
+  {
+    "id": 43,
+    "category": "LifeStyle",
+    "text": "Jak nazywa się gra wydana w 1998 roku na telefon Nokia 6110?",
+    "a": "Bounce",
+    "b": "Snake",
+    "c": "Bomb It",
+    "answer": "Snake"
+  },
+  {
+    "id": 44,
+    "category": "Filmy i Seriale",
+    "text": "Jaki nosi tytuł pierwsza część filmowych przygód Indiany Jonesa?",
+    "a": "Królestwo Kryształowej Czaszki",
+    "b": "Poszukiwacze zaginionej Arki",
+    "c": "Ostatnia Krucjata",
+    "answer": "Poszukiwacze zaginionej Arki"
+  },
+  {
+    "id": 45,
+    "category": "Kim jestem?",
+    "text": "Jestem bałwankiem, przyjacielem Anny i Elsy.",
+    "a": "Alan",
+    "b": "Olaf",
+    "c": "Adam",
+    "answer": "Olaf"
+  },
+  {
+    "id": 46,
+    "category": "Muzyka",
+    "text": "Co Piasek serwuje na śniadanie?",
+    "a": "Piosenkę",
+    "b": "Nowe życie",
+    "c": "Kiełbaski",
+    "answer": "Nowe życie"
+  },
+  {
+    "id": 47,
+    "category": "Podróże",
+    "text": "Jak nazywa się hotel w Dubaju w kształcie żagla?",
+    "a": "Burdż Chalifa",
+    "b": "Burdż-al-Arab",
+    "c": "Shangri-La Hotel",
+    "answer": "Burdż-al-Arab"
+  },
+  {
+    "id": 48,
+    "category": "LifeStyle",
+    "text": "Jak nazywa się festiwal muzyczny odbywający się cyklicznie na początku lata w Gdyni?",
+    "a": "Orange",
+    "b": "Opener",
+    "c": "Eska Music",
+    "answer": "Opener"
+  },
+  {
+    "id": 49,
+    "category": "Filmy i Seriale",
+    "text": "Jak w serialu \"Na Wspólnej\" nazywa się syn Marii i Włodka Ziębów, ukrywający się przed mafią, świadek koronny?",
+    "a": "Michał",
+    "b": "Grzegorz",
+    "c": "Maks",
+    "answer": "Grzegorz"
+  },
+  {
+    "id": 50,
+    "category": "Muzyka",
+    "text": "Pierwszy singiel zespołu Coldplay to?",
+    "a": "The scientist",
+    "b": "Yellow",
+    "c": "Fix you",
+    "answer": "Yellow"
+  },
+  {
+    "id": 51,
+    "category": "Podróże",
+    "text": "Które miasto jest największe pod względem liczby mieszkańców?",
+    "a": "Wrocław",
+    "b": "Poznań",
+    "c": "Łódź",
+    "answer": "Łódź"
+  },
+  {
+    "id": 52,
+    "category": "LifeStyle",
+    "text": "Jaki typ nadwozia ma porsche macan?",
+    "a": "Coupe",
+    "b": "Cabrio",
+    "c": "SUV",
+    "answer": "SUV"
+  },
+  {
+    "id": 53,
+    "category": "Filmy i Seriale",
+    "text": "Jak ma na nazwisko Newt - główna postać z filmu \"Fantastyczne zwierzęta i jak je znaleźć\"?",
+    "a": "Salamander",
+    "b": "Skafander",
+    "c": "Skamander",
+    "answer": "Skamander"
+  },
+  {
+    "id": 54,
+    "category": "Kim jestem?",
+    "text": "Przez 27 lat byłem menedżerem Machesteru United i mam tytuł szlachecki.",
+    "a": "Santiago Solari",
+    "b": "Alex Ferguson",
+    "c": "Jose Mourinho",
+    "answer": "Alex Ferguson"
+  },
+  {
+    "id": 55,
+    "category": "Muzyka",
+    "text": "Kto jest wykonawcą piosenki pod tytułem \"Live is Life\"?",
+    "a": "Bee Gees",
+    "b": "Opus",
+    "c": "Pink Floyd",
+    "answer": "Opus"
+  },
+  {
+    "id": 56,
+    "category": "Podróże",
+    "text": "Najwyższy szczyt Ameryki Południowej to?",
+    "a": "Sajama",
+    "b": "Veladero",
+    "c": "Aconcagua",
+    "answer": "Aconcagua"
+  },
+  {
+    "id": 57,
+    "category": "LifeStyle",
+    "text": "Jak nazywa się program tvn prowadzony przez Kubę Wojewódzkiego?",
+    "a": "Kuba Show",
+    "b": "Kuba Wojewódzki",
+    "c": "Wojewódzki Talk",
+    "answer": "Kuba Wojewódzki"
+  },
+  {
+    "id": 58,
+    "category": "Filmy i Seriale",
+    "text": "Który z czwórki głównych bohaterów \"Teorii wielkiego podrywu\" jako jedyny nie ma tytułu doktora?",
+    "a": "Howard Wolowitz",
+    "b": "Leonard Hofstadter",
+    "c": "Sheldon Cooper",
+    "answer": "Howard Wolowitz"
+  },
+  {
+    "id": 59,
+    "category": "Kim jestem?",
+    "text": "Jestem kobietą na krańcu świata.",
+    "a": "Beata Pawlikowska",
+    "b": "Martyna Wojciechowska",
+    "c": "Domonika Kulczyk",
+    "answer": "Martyna Wojciechowska"
+  },
+  {
+    "id": 60,
+    "category": "Muzyka",
+    "text": "Której z tych piosenek nie wykonywał Michael Jackson?",
+    "a": "Zombie",
+    "b": "Thriller",
+    "c": "Heal the world",
+    "answer": "Zombie"
+  },
+  {
+    "id": 61,
+    "category": "Podróże",
+    "text": "Ile metrów liczy wieża Eiffla?",
+    "a": "424m",
+    "b": "324m",
+    "c": "224m",
+    "answer": "324m"
+  },
+  {
+    "id": 62,
+    "category": "LifeStyle",
+    "text": "Ile megabajtów ma jeden gigabajt?",
+    "a": 1024,
+    "b": 128,
+    "c": 264,
+    "answer": 1024
+  },
+  {
+    "id": 63,
+    "category": "Filmy i Seriale",
+    "text": "Kogo zagrał Jan Frycz w serialu HBO \"Ślepnąc od świateł\"?",
+    "a": "Dario",
+    "b": "Jacka",
+    "c": "Stryja",
+    "answer": "Dario"
+  },
+  {
+    "id": 64,
+    "category": "Kim jestem?",
+    "text": "Śpiewam \"do łezki łezka, aż będę niebieska\".",
+    "a": "Beata Kozidrak",
+    "b": "Kayah",
+    "c": "Maryla Rodowicz",
+    "answer": "Maryla Rodowicz"
+  }
+]

@@ -194,7 +194,6 @@ export class CountryComponent implements OnInit {
         this.country = ''
       } else {
         this.changeMessage(tmp2)
-        //this.country = ''
       }
     }
   }

@@ -24,6 +24,7 @@ import {BuildingsComponent, FamousPeopleComponent} from './photos/photos.compone
 import {MoviesActorsComponent, SerialsActorsComponent} from './actors/actors.component';
 import {YoutubeMundialComponent, YoutubeSerialsComponent, YoutubeSongComponent} from './youtube/youtube.component';
 import {DirectorsComponent, MoviesHeroComponent, SerialsHeroComponent, TipsComponent} from './tips/tips.component';
+import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import {DirectorsComponent, MoviesHeroComponent, SerialsHeroComponent, TipsCompo
     SerialsHeroComponent,
     DirectorsComponent,
     YoutubeMundialComponent,
-    FootballComponent
+    FootballComponent,
+    MultipleChoiceComponent
   ],
   imports: [
     BrowserModule,
