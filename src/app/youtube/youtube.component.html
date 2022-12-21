@@ -26,7 +26,7 @@
     </div>
     <ng-container *ngIf="isAuthorVisible">
       <div class="info">
-        <div class="correct col-12 ">tytuł: {{title}}
+        <div class="correct col-12 ">{{answerDescription}} {{title}}
           <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points); close()">Dodaj {{points}} punkty</button>
         </div>
       </div>

@@ -42,6 +42,8 @@ export class CategoriesComponent implements OnInit {
     {name: "Rozpoznaj film po bohaterach", id: 23, checkbox: false},
     {name: "Rozpoznaj serial po bohaterach", id: 24, checkbox: false},
     {name: "Reżyser po filmach", id: 25, checkbox: false},
+    {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
+    {name: "Zawodnik/klub/reprezentacja", id: 27, checkbox: false},
   ]
   public smallCategories: Category[] = [
     {name: "Filmy", id: 0, checkbox: false},

@@ -1658,5 +1658,335 @@
     "klub3": "hangzhougreentown",
     "klub4": "shanghaishenhua",
     "klub5": "newyorkredbulls"
+  },
+  {
+    "id": 167,
+    "osoba": "Vladan Kovačević",
+    "narodowosc": "ba",
+    "klub1": "rakowczestochowa",
+    "klub2": "fksarajewo.png",
+    "klub3": "-",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 168,
+    "osoba": "Łukasz Zwoliński",
+    "narodowosc": "pl",
+    "klub1": "lechiagdansk",
+    "klub2": "hnkgorica",
+    "klub3": "pogonszczecin",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 169,
+    "osoba": "Bartosz Salamon",
+    "narodowosc": "pl",
+    "klub1": "lechpoznan",
+    "klub2": "spal2013",
+    "klub3": "cagliari",
+    "klub4": "ucsampdoria",
+    "klub5": "acmilan"
+  },
+  {
+    "id": 170,
+    "osoba": "Ivi López",
+    "narodowosc": "es",
+    "klub1": "rakowczestochowa",
+    "klub2": "levante",
+    "klub3": "sevilaatletico",
+    "klub4": "getafe",
+    "klub5": "-"
+  },
+  {
+    "id": 171,
+    "osoba": "Flávio Paixão",
+    "narodowosc": "pt",
+    "klub1": "lechiagdansk",
+    "klub2": "slaskwroclaw",
+    "klub3": "teraktorsazitebriz",
+    "klub4": "hamiltonacademical",
+    "klub5": "benidormcf"
+  },
+  {
+    "id": 172,
+    "osoba": "Mikael Ishak",
+    "narodowosc": "se",
+    "klub1": "lechpoznan",
+    "klub2": "fcnurnberg",
+    "klub3": "randersfc",
+    "klub4": "parma",
+    "klub5": "fckoln"
+  },
+  {
+    "id": 173,
+    "osoba": "Fabian Piasecki",
+    "narodowosc": "pl",
+    "klub1": "rakowczestochowa",
+    "klub2": "stalmielec",
+    "klub3": "slaskwroclaw",
+    "klub4": "zaglebiesosnowiec",
+    "klub5": "miedzlegnica"
+  },
+  {
+    "id": 174,
+    "osoba": "Dante Stipica",
+    "narodowosc": "hr",
+    "klub1": "pogonszczecin",
+    "klub2": "cskasofia",
+    "klub3": "hajduksplit",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 175,
+    "osoba": "Filip Mladenović",
+    "narodowosc": "rs",
+    "klub1": "legiawarszawa",
+    "klub2": "lechiagdansk",
+    "klub3": "standardliege",
+    "klub4": "fckoln",
+    "klub5": "bateborysow"
+  },
+  {
+    "id": 176,
+    "osoba": "Lucas Lima Linhares",
+    "narodowosc": "br",
+    "klub1": "newyorkredbulls",
+    "klub2": "legiawarszawa",
+    "klub3": "cdaves",
+    "klub4": "slbenfica",
+    "klub5": "-"
+  },
+  {
+    "id": 177,
+    "osoba": "Tomáš Pekhart",
+    "narodowosc": "cz",
+    "klub1": "gaziantepfk",
+    "klub2": "legiawarszawa",
+    "klub3": "laspalmas",
+    "klub4": "hapoelbeerszewa",
+    "klub5": "aekateny"
+  },
+  {
+    "id": 178,
+    "osoba": "Jesús Imaz",
+    "narodowosc": "es",
+    "klub1": "jagiellonia",
+    "klub2": "wislakrakow",
+    "klub3": "cadizcf",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 179,
+    "osoba": "Dušan Kuciak",
+    "narodowosc": "sk",
+    "klub1": "lechiagdansk",
+    "klub2": "hullcity",
+    "klub3": "legiawarszawa",
+    "klub4": "mkszilina",
+    "klub5": "astrencin"
+  },
+  {
+    "id": 180,
+    "osoba": "Christian Gytkjær",
+    "narodowosc": "dk",
+    "klub1": "acmonza",
+    "klub2": "lechpoznan",
+    "klub3": "tsv1860munchen",
+    "klub4": "rosenborgbk",
+    "klub5": "-"
+  },
+  {
+    "id": 181,
+    "osoba": "Igor Angulo",
+    "narodowosc": "es",
+    "klub1": "mumbaicityfc",
+    "klub2": "fcgoa",
+    "klub3": "gornikzabrze",
+    "klub4": "plataniachanion",
+    "klub5": "apollonsmyrnis"
+  },
+  {
+    "id": 182,
+    "osoba": "Arkadiusz Malarz",
+    "narodowosc": "pl",
+    "klub1": "lkslodz",
+    "klub2": "legiawarszawa",
+    "klub3": "gksbelchatow",
+    "klub4": "ethnikosachna",
+    "klub5": "aellimassol"
+  },
+  {
+    "id": 183,
+    "osoba": "Michał Helik",
+    "narodowosc": "pl",
+    "klub1": "huddersfieldtown",
+    "klub2": "barnsley",
+    "klub3": "cracovia",
+    "klub4": "ruchchorzow",
+    "klub5": "-"
+  },
+  {
+    "id": 184,
+    "osoba": "Rafał Kurzawa",
+    "narodowosc": "pl",
+    "klub1": "pogonszczecin",
+    "klub2": "fcmidtjylland",
+    "klub3": "amienssc",
+    "klub4": "gornikzabrze",
+    "klub5": "-"
+  },
+  {
+    "id": 185,
+    "osoba": "Carlitos",
+    "narodowosc": "es",
+    "klub1": "legiawarszawa",
+    "klub2": "panathinaikosao",
+    "klub3": "al-wahdaabuzabi",
+    "klub4": "legiawarszawa",
+    "klub5": "wislakrakow"
+  },
+  {
+    "id": 186,
+    "osoba": "Sebastian Mila",
+    "narodowosc": "pl",
+    "klub1": "lechiagdansk",
+    "klub2": "slaskwroclaw",
+    "klub3": "austriawieden",
+    "klub4": "-",
+    "klub5": "-"
+  },
+  {
+    "id": 187,
+    "osoba": "Matúš Putnocký",
+    "narodowosc": "sk",
+    "klub1": "sandecjanowysacz",
+    "klub2": "slaskwroclaw",
+    "klub3": "lechpoznan",
+    "klub4": "ruchchorzow",
+    "klub5": "slovanbratyslawa"
+  },
+  {
+    "id": 188,
+    "osoba": "Maciej Dąbrowski",
+    "narodowosc": "pl",
+    "klub1": "lkslodz",
+    "klub2": "zaglebielubin",
+    "klub3": "legiawarszawa",
+    "klub4": "zaglebielubin",
+    "klub5": "pogonszczecin"
+  },
+  {
+    "id": 189,
+    "osoba": "Vadis Odjidja-Ofoe",
+    "narodowosc": "Belgia",
+    "klub1": "kaagent",
+    "klub2": "olympiakospireus",
+    "klub3": "legiawarszawa",
+    "klub4": "norwichcity",
+    "klub5": "clubbrugge"
+  },
+  {
+    "id": 190,
+    "osoba": "Jarosław Niezgoda",
+    "narodowosc": "pl",
+    "klub1": "portlandtimbers",
+    "klub2": "legiawarszawa",
+    "klub3": "ruchchorzow",
+    "klub4": "legiawarszawa",
+    "klub5": "wislapulawy"
+  },
+  {
+    "id": 191,
+    "osoba": "Jakub Szmatuła",
+    "narodowosc": "pl",
+    "klub1": "piastgliwice",
+    "klub2": "gornikzabrze",
+    "klub3": "piastgliwice",
+    "klub4": "wartapoznan",
+    "klub5": "gornikpolkowice"
+  },
+  {
+    "id": 192,
+    "osoba": "Patrik Mráz",
+    "narodowosc": "sk",
+    "klub1": "zaglebiesosnowiec",
+    "klub2": "sandecjanowysacz",
+    "klub3": "piastgliwice",
+    "klub4": "gornikleczna",
+    "klub5": "slaskwroclaw"
+  },
+  {
+    "id": 193,
+    "osoba": "Rafał Murawski",
+    "narodowosc": "pl",
+    "klub1": "pogonszczecin",
+    "klub2": "lechpoznan",
+    "klub3": "rubinkazan",
+    "klub4": "lechpoznan",
+    "klub5": "amicawronki"
+  },
+  {
+    "id": 194,
+    "osoba": "Nemanja Nikolić",
+    "narodowosc": "hu",
+    "klub1": "fehervarfc",
+    "klub2": "chicagofire",
+    "klub3": "legiawarszawa",
+    "klub4": "fehervarfc",
+    "klub5": "-"
+  },
+  {
+    "id": 195,
+    "osoba": "Bartosz Kapustka",
+    "narodowosc": "pl",
+    "klub1": "legiawarszawa",
+    "klub2": "scfreiburg",
+    "klub3": "leicester",
+    "klub4": "cracovia",
+    "klub5": "-"
+  },
+  {
+    "id": 196,
+    "osoba": "Jarosław Fojut",
+    "narodowosc": "pl",
+    "klub1": "stalrzeszow",
+    "klub2": "wislaplock",
+    "klub3": "pogonszczecin",
+    "klub4": "dundeeunited",
+    "klub5": "slaskwroclaw"
+  },
+  {
+    "id": 197,
+    "osoba": "Michał Masłowski",
+    "narodowosc": "pl",
+    "klub1": "zaglebiesosnowiec",
+    "klub2": "hnkgorica",
+    "klub3": "piastgliwice",
+    "klub4": "legiawarszawa",
+    "klub5": "zawiszabydgoszcz"
+  },
+  {
+    "id": 198,
+    "osoba": "Miroslav Radović",
+    "narodowosc": "rs",
+    "klub1": "legiawarszawa",
+    "klub2": "fkpartizan",
+    "klub3": "olimpijalublana",
+    "klub4": "legiawarszawa",
+    "klub5": "fkpartizan"
+  },
+  {
+    "id": 199,
+    "osoba": "Arkadiusz Głowacki",
+    "narodowosc": "pl",
+    "klub1": "wislakrakow",
+    "klub2": "trabzonspor",
+    "klub3": "wislakrakow",
+    "klub4": "lechpoznan",
+    "klub5": "-"
   }
 ]
