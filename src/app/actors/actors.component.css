@@ -2,6 +2,10 @@
   color: black;
 }
 
+.row{
+  padding-bottom: 50px !important;
+}
+
 .card-deck{
   padding-bottom: 50px;
 }
@@ -17,7 +21,7 @@
 
 .correct{
   color:greenyellow;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
   font-size: 6vw;
 }
 

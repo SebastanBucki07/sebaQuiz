@@ -3,6 +3,9 @@
   display: inline;
   z-index: 5;
 }
+.row{
+  padding-bottom: 50px !important;
+}
 
 .modal {
   display: inline;
@@ -35,7 +38,7 @@
 .correct {
   color: greenyellow;
   font-size: xxx-large;
-  padding-bottom: 100px;
+  padding-bottom: 20px;
 }
 
 .question {

@@ -10,7 +10,8 @@
   z-index: 1;
 }
 
-.answer{
+.row{
+  padding-bottom: 50px !important;
 }
 
 .modal {

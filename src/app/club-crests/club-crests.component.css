@@ -17,6 +17,10 @@
   z-index: 5;
 }
 
+.row{
+  padding-bottom: 50px !important;
+}
+
 .modal {
   display: inline;
   position: fixed; /* Stay in place */
@@ -48,6 +52,7 @@
 .correct{
   color:black;
   font-size: xxx-large;
+  padding-bottom: 20px;
 }
 
 
