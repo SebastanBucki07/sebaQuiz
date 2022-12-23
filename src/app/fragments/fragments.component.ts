@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {Category, FragmentsModel} from "../model/fragments-model";
 import {FragmentBuilder} from "../builder/fragment-builder";
 import {PlayersService} from "../players.service";
+import {TimerService} from "../timer.service";
 
 @Component({
   template: ''
@@ -27,11 +28,13 @@ export abstract class Fragments {
   public answer1 = ''
   public answer2 = ''
 
-  constructor(public playerService: PlayersService) {
+  constructor(public playerService: PlayersService,
+              private timerService: TimerService) {
 
   }
 
   getQuestion(category: Category) {
+    this.timerService.setTimer(3)
     this.random1 = new FragmentBuilder(category).randomDataFromArray(1)
     if (category === Category.SONGTIPS ){
       this.isTipQuestion = true
@@ -45,7 +48,7 @@ export abstract class Fragments {
       this.isTipQuestion = true
       this.buttonText = 'Miasto '
       this.answerButtonText = 'Pokaż Panstwo'
-      this.question = 'Z jakiego Państwa są te maista?'
+      this.question = 'Z jakiego Państwa są te miasta?'
       this.answerDescription = 'Panstwo'
       this.answer1 = this.random1.author;
     }
@@ -74,6 +77,7 @@ export abstract class Fragments {
   }
 
   showQuestion1() {
+
     this.isQuestion1Visible = !this.isQuestion1Visible;
   }
 

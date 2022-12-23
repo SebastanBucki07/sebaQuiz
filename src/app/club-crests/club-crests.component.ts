@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {PlayersService} from "../players.service";
 import {randomFromArray} from "../../common/randomize.helper";
 import {QuestionDataService} from "../question-data.service";
+import {TimerService} from "../timer.service";
 
 @Component({
   selector: 'app-club-crests',
@@ -21,13 +22,15 @@ export class ClubCrestsComponent implements OnInit {
 
   constructor(
     public questionDataService: QuestionDataService,
-    public playerService: PlayersService) {
+    public playerService: PlayersService,
+    private timerService: TimerService) {
   }
 
   ngOnInit(): void {
     this.random1 = this.questionDataService.getClubCrestsQuestion()
     this.setSize()
     this.isModalVisible = true;
+    this.timerService.setTimer(1)
   }
 
   close() {

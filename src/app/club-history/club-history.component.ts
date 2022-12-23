@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ClubHistory} from "../model/clubHistory-model";
 import {PlayersService} from "../players.service";
 import {QuestionDataService} from "../question-data.service";
+import {TimerService} from "../timer.service";
 
 @Component({
   selector: 'app-club-history',
@@ -18,11 +19,13 @@ export class ClubHistoryComponent implements OnInit {
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService
+    public playerService: PlayersService,
+    private timerService: TimerService,
   ) {
   }
 
   ngOnInit(): void {
+    this.timerService.setTimer(1)
     this.random1 = this.questionDataService.getClubHistoryQuestion()
     this.answer = this.random1.osoba
     this.tip = this.random1.narodowosc

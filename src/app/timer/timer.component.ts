@@ -1,5 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {interval, Subscription} from "rxjs";
+import {TimerService} from "../timer.service";
 
 @Component({
   selector: 'app-timer',
@@ -22,12 +23,13 @@ export class TimerComponent implements OnInit {
   public secondsToDday: any;
   public minutesToDday: any;
 
-  constructor() {
+  constructor(private timerService: TimerService) {
+    this.setTimer(this.timerService.getTimer())
   }
 
-  setTimer() {
+  setTimer(timer:number) {
     this.dateNow = new Date();
-    this.dDay = new Date(this.dateNow.getTime() + this.minutesToAdd * 60000);
+    this.dDay = new Date(this.dateNow.getTime() + timer * 60000);
     this.subscription = interval(1000)
       .subscribe(x => {
         this.getTimeDifference();
@@ -35,7 +37,7 @@ export class TimerComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.setTimer()
+
   }
 
   ngOnDestroy() {

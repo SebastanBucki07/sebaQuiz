@@ -4,6 +4,7 @@ import {QuestionMultipleChoice} from '../model/question-model';
 import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {getAndDeleteRandomElementFromArray} from "../../common/randomize.helper";
+import {TimerService} from "../timer.service";
 
 @Component({
   selector: 'app-multiple-choice',
@@ -22,10 +23,12 @@ export class MultipleChoiceComponent implements OnInit {
 
   constructor(
     public questionDataService: QuestionDataService,
+    private timerService: TimerService,
     public playerService: PlayersService) {
   }
 
   ngOnInit(): void {
+    this.timerService.setTimer(1)
     this.settedQuestion = this.questionDataService.getMultipleChoiceQuestion()
     const arrray = [this.settedQuestion.a, this.settedQuestion.b, this.settedQuestion.c]
     const indexes = [0, 1, 2]

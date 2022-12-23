@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {TipsModel} from "../model/tips-model";
 import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
+import {TimerService} from "../timer.service";
 
 
 @Component({
@@ -21,6 +22,7 @@ export class TipsComponent {
 
   constructor(
     private questionDataService: QuestionDataService,
+    private timerService: TimerService,
     public playerService: PlayersService
   ) {
   }
@@ -49,6 +51,7 @@ export class TipsComponent {
         break;
       }
     }
+    this.timerService.setTimer(1)
     this.tip = this.random1.Tip1
     this.tip2 = this.random1.Tip2
     this.tip3 = this.random1.Tip3

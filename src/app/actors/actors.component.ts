@@ -4,6 +4,7 @@ import actors from "../../assets/photos/famousPeople.json"
 import {PlayersService} from "../players.service";
 import {ActorModel} from "../model/actor-model";
 import {QuestionDataService} from "../question-data.service";
+import {TimerService} from "../timer.service";
 
 @Component({
   template: ''
@@ -21,7 +22,8 @@ export abstract class ActorsComponent {
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService
+    public playerService: PlayersService,
+    private timerService: TimerService
   ) {
   }
 
@@ -69,6 +71,7 @@ export abstract class ActorsComponent {
   }
 
   getQuestion(category: string) {
+    this.timerService.setTimer(1)
     switch (category) {
       case 'movieActors': {
         this.random1 = this.questionDataService.getMoviesActorsQuestion()

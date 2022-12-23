@@ -63,16 +63,19 @@ import { BackgroundSoundComponent } from './background-sound/background-sound.co
     YoutubeMundialComponent,
     FootballComponent,
     MultipleChoiceComponent,
-    BackgroundSoundComponent
+    BackgroundSoundComponent,
   ],
   imports: [
     BrowserModule,
     NgbModule,
     MatCheckboxModule,
-    MatSortModule
+    MatSortModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[
+    TimerComponent
+  ]
 })
 export class AppModule {
 }
