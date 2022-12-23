@@ -25,6 +25,7 @@ import {MoviesActorsComponent, SerialsActorsComponent} from './actors/actors.com
 import {YoutubeMundialComponent, YoutubeSerialsComponent, YoutubeSongComponent} from './youtube/youtube.component';
 import {DirectorsComponent, MoviesHeroComponent, SerialsHeroComponent, TipsComponent} from './tips/tips.component';
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
+import { BackgroundSoundComponent } from './background-sound/background-sound.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.compo
     DirectorsComponent,
     YoutubeMundialComponent,
     FootballComponent,
-    MultipleChoiceComponent
+    MultipleChoiceComponent,
+    BackgroundSoundComponent
   ],
   imports: [
     BrowserModule,
