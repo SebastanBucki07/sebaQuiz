@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="country.component.css">
 <ngb-alert #selfClosingAlert *ngIf="showMessage" type="danger" (closed)="changeMessage('już było')">{{ successMessage }}
 </ngb-alert>
 
@@ -10,11 +11,21 @@
     </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
     <app-timer></app-timer>
+    <ng-container *ngIf="isVisible">
+      <div class="info">
+        <div class="correct col-12 ">{{answer}}
+          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply);close()">Dodaj {{points*multiply}} punkty</button>
+        </div>
+      </div>
+    </ng-container>
     <div [ngSwitch]="question.id">
       <div class="row" *ngSwitchCase=0>
-        <h1>{{question.questionName}}</h1>
-        <div class="col-8">
-          <img class="flague-image" src="assets/flagues/{{tip.toLowerCase()}}.png" alt="flaga {{tip}}">
+        <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
+          <h2 class="d-none d-lg-flex font-weight-bold">{{question.questionName}}</h2>
+          <h4 class="d-md-flex d-lg-none font-weight-bold">{{question.questionName}}</h4>
+          <div class="card" style="width: 30rem;">
+            <img class="card-img-top" src="assets/flagues/{{tip.toLowerCase()}}.png" alt="flaga {{tip}}">
+          </div>
         </div>
       </div>
       <div class="row" *ngSwitchCase=1>
@@ -92,15 +103,7 @@
       </div>
       <div class="row" *ngSwitchDefault>
         <h1>Wyczerpały się juz pytania w kategorii countries</h1>
-
       </div>
-      <ng-container *ngIf="isVisible">
-        <div class="info">
-          <div class="correct col-12 ">{{answer}}
-            <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply);close()">Dodaj {{points*multiply}} punkty</button>
-          </div>
-        </div>
-      </ng-container>
     </div>
   </div>
 </ng-container>

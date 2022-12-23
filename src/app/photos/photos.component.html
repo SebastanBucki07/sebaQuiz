@@ -7,17 +7,24 @@
     </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
     <app-timer></app-timer>
-        <h1>{{question}}</h1>
-        <div class="col-12">
-          <img class="flague-image" src="{{tip}}" alt="{{random1.id}}">
+    <ng-container *ngIf="isVisible">
+      <div class="info">
+        <div class="correct col-12 ">{{answer}}
+          <button type="button" class="btn btn-success"
+                  (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}} punkty
+          </button>
         </div>
-      <ng-container *ngIf="isVisible">
-        <div class="info">
-          <div class="correct col-12 ">{{answer}}
-            <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}} punkty</button>
-          </div>
+      </div>
+    </ng-container>
+    <div class="row">
+      <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
+        <h2 class="d-none d-lg-flex font-weight-bold"> {{question}}</h2>
+        <h4 class="d-md-flex d-lg-none font-weight-bold">{{question}}</h4>
+        <div class="card" style="width: 30rem;">
+          <img class="card-img-top" src="{{tip}}" alt="{{random1.id}}">
         </div>
-      </ng-container>
+      </div>
+    </div>
   </div>
 </ng-container>
 

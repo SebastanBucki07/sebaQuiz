@@ -32,10 +32,10 @@ export class CountryComponent implements OnInit {
   public questions: Question[] = [
     {id: 0, questionName: 'Z jakiego kraju jest ta flaga?'},
     {id: 1, questionName: 'Jaka jest stolica kraju '},
-    {id: 2, questionName: 'Wymień wszystkie kraje z '},
-    {id: 3, questionName: 'Wymień wszystkie stolice z '},
-    {id: 4, questionName: 'Wymień kraje na literę '},
-    {id: 5, questionName: 'Wymień stolice na literę '}
+    // {id: 2, questionName: 'Wymień wszystkie kraje z '},
+    // {id: 3, questionName: 'Wymień wszystkie stolice z '},
+    // {id: 4, questionName: 'Wymień kraje na literę '},
+    // {id: 5, questionName: 'Wymień stolice na literę '}
   ]
 
   public length: number = 0;
