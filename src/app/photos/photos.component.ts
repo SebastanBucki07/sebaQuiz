@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {PlayersService} from "../players.service";
 import {PhotoModel} from "../model/photo-model";
 import {QuestionDataService} from "../question-data.service";
+import {TimerService} from "../timer.service";
 
 @Component({
   template: ''
@@ -17,6 +18,7 @@ export abstract class PhotosComponent {
 
   constructor(
     public questionDataService: QuestionDataService,
+    private timerService: TimerService,
     public playerService: PlayersService,
   ) {
   }
@@ -39,6 +41,7 @@ export abstract class PhotosComponent {
         break;
       }
     }
+    this.timerService.setTimer(1)
     this.tip = this.random1.photo
     this.answer = this.random1.name
     this.isModalVisible = true;

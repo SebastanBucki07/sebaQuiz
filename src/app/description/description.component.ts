@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {DescriptionModel} from "../model/description-model";
 import {PlayersService} from "../players.service";
 import {QuestionDataService} from "../question-data.service";
+import {TimerService} from "../timer.service";
 
 @Component({
   template: ''
@@ -17,6 +18,7 @@ export abstract class DescriptionComponent {
 
   constructor(
     private questionDataService: QuestionDataService,
+    private timerService: TimerService,
     public playerService: PlayersService
   ) {
   }
@@ -50,7 +52,7 @@ export abstract class DescriptionComponent {
       case 'stadium': {
         this.random1 = this.questionDataService.getStadiumQuestion()
         this.question = 'Jakiego klubu/reprezentacji jestem stadionem?'
-        this.points = 4
+        this.points = 3
         break
       }
       case 'proverb': {
@@ -62,7 +64,7 @@ export abstract class DescriptionComponent {
       case 'history': {
         this.random1 = this.questionDataService.getHistoryQuestion()
         this.question = 'Podaj datę'
-        this.points = 4
+        this.points = 3
         break
       }
       case 'chemistSymbol': {
@@ -93,6 +95,7 @@ export abstract class DescriptionComponent {
         break;
       }
     }
+    this.timerService.setTimer(1)
     this.tip = this.random1.description
     this.answer = this.random1.title
     this.isModalVisible = true;

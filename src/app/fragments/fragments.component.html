@@ -1,10 +1,27 @@
 <ng-container *ngIf="isModalVisible">
+  <app-background-sound></app-background-sound>
   <div class="modal">
     <div class="row">
       <div class="col-12 question">
         <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+        <app-timer></app-timer>
         <i class="bi bi-x-circle"></i>
       </div>
+      <ng-container *ngIf="isAnswer1Visible">
+        <div class="info">
+          <div class="correct col-12 ">{{answerDescription}} {{answer1}}
+            <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">Dodaj {{points*multiply}} punkty</button>
+
+          </div>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="isAnswer2Visible">
+        <div class="info">
+          <div class="correct col-12 ">Wykonawca: {{answer2}}
+            <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2*points*multiply);close()">Dodaj {{2*points*multiply}} punkty</button>
+          </div>
+        </div>
+      </ng-container>
       <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showQuestion1();setMultiply(3)">
         {{buttonText}} 1
       </button>
@@ -40,21 +57,7 @@
       </ng-container>
 
     </div>
-    <ng-container *ngIf="isAnswer1Visible">
-      <div class="info">
-        <div class="correct col-12 ">{{answerDescription}} {{answer1}}
-          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">Dodaj {{points*multiply}} punkty</button>
 
-        </div>
-      </div>
-    </ng-container>
-    <ng-container *ngIf="isAnswer2Visible">
-      <div class="info">
-        <div class="correct col-12 ">Wykonawca: {{answer2}}
-          <button type="button" class="btn btn-success" (click)="playerService.addPoints(playerService.actualPlayer,2*points*multiply);close()">Dodaj {{2*points*multiply}} punkty</button>
-        </div>
-      </div>
-    </ng-container>
 
   </div>
 </ng-container>

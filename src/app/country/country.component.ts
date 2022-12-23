@@ -4,6 +4,7 @@ import {randomFromArray} from "../../common/randomize.helper";
 import {PlayersService} from "../players.service";
 import data from "../../assets/flagues/countries.td.json"
 import {QuestionDataService} from "../question-data.service";
+import {TimerService} from "../timer.service";
 
 export class Question {
   id: number = 0
@@ -46,6 +47,7 @@ export class CountryComponent implements OnInit {
 
   constructor(
     private questionDataService: QuestionDataService,
+    private timerService: TimerService,
     public playerService: PlayersService
   ) {
   }
@@ -68,13 +70,13 @@ export class CountryComponent implements OnInit {
         this.setMultiply(2)
         break
       case 'Ameryka Południowa':
-        this.setMultiply(3)
+        this.setMultiply(2)
         break
       case 'Ameryka Północna':
-        this.setMultiply(3)
+        this.setMultiply(2)
         break
       case 'Australia i Oceania':
-        this.setMultiply(4)
+        this.setMultiply(3)
         break
       case 'Azja':
         this.setMultiply(2)
@@ -84,6 +86,7 @@ export class CountryComponent implements OnInit {
 
   getQuestion(): void {
     this.question = randomFromArray(this.questions)
+    this.points=0
     this.countries = this.questionDataService.getCountries('allCountries')
     this.getData(this.question.id)
     this.isModalVisible = true;
@@ -111,6 +114,7 @@ export class CountryComponent implements OnInit {
 
   getData(type: number) {
     if (type === 0) {
+      this.timerService.setTimer(1)
       this.countryForQuestion = this.questionDataService.getCountries('countriesForFlags')
       if (this.countryForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.countryForQuestion)} error: ${JSON.stringify(this.countryForQuestion)}`)
@@ -122,6 +126,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 1) {
+      this.timerService.setTimer(1)
       this.countryForQuestion = this.questionDataService.getCountries('countriesForCapitals')
       if (this.countryForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.countryForQuestion)} error: ${JSON.stringify(this.countryForQuestion)}`)
@@ -133,7 +138,9 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 2) {
+      this.timerService.setTimer(1)
       this.setMultiplyForContinent(this.continentForQuestion)
+      this.timerService.setTimer(3)
       this.continentForQuestion = this.questionDataService.getCountries('continentsForCountries')
       if (this.continentForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.continentForQuestion)} error: ${JSON.stringify(this.continentForQuestion)}`)
@@ -144,6 +151,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 3) {
+      this.timerService.setTimer(3)
       this.continentForQuestion = this.questionDataService.getCountries('continentsForCapitals')
       this.setMultiplyForContinent(this.continentForQuestion)
       if (this.continentForQuestion?.errorCode) {
@@ -155,6 +163,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 4) {
+      this.timerService.setTimer(3)
       this.letterForCountriesQuestions = this.questionDataService.getCountries('countriesLetters')
       if (this.letterForCountriesQuestions?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.letterForCountriesQuestions)} error: ${JSON.stringify(this.letterForCountriesQuestions)}`)
@@ -165,6 +174,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 5) {
+      this.timerService.setTimer(3)
       this.letterForCountriesQuestions = this.questionDataService.getCountries('capitalsLetters')
       if (this.letterForCountriesQuestions?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.letterForCountriesQuestions)} error: ${JSON.stringify(this.letterForCountriesQuestions)}`)
@@ -194,7 +204,6 @@ export class CountryComponent implements OnInit {
         this.country = ''
       } else {
         this.changeMessage(tmp2)
-        //this.country = ''
       }
     }
   }

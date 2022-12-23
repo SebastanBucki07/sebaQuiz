@@ -55,6 +55,7 @@ export class AppComponent {
   public lifeCategories: Category[] = [
     {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},
     {name: "Przysłowia", id: 10, checkbox: false},
+    {name: "Pytanie wielokrotnego wyboru", id: 28, checkbox: false},
   ]
 
   public countryCategory: Category[] = [

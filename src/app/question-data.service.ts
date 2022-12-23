@@ -5,6 +5,7 @@ import youtubeMundialData from "../assets/youTube/youtubeMundialSongs.json"
 import {getAndDeleteRandomElementFromArray} from "../common/randomize.helper";
 import {YoutubeModel} from "./model/youtube-model";
 import famousPeopleData from "../assets/photos/famousPeople.json";
+import multipleChoiceData from "../assets/multipleChoice/multipleChoice.json"
 import buildingsData from "../assets/photos/buildings.json";
 import {PhotoModel} from "./model/photo-model";
 import moviesData from "../assets/movies/movies.json";
@@ -33,6 +34,7 @@ import clubHistoryData from "../assets/clubs/clubsHistory.json";
 import {ClubHistory} from "./model/clubHistory-model";
 import {ActorModel} from "./model/actor-model";
 import {TipsModel} from "./model/tips-model";
+import {QuestionMultipleChoice} from "./model/question-model";
 
 
 
@@ -56,6 +58,7 @@ export class QuestionDataService {
   public allStadiums: DescriptionModel[] = []
   public allProverbs: DescriptionModel[] = []
   public allFootball: DescriptionModel[] = []
+  public allMultipleChoice: QuestionMultipleChoice[] = []
   public allHistory: DescriptionModel[] = []
   public allGods:DescriptionModel[] = []
   public allCountries: Country[] = []
@@ -87,6 +90,7 @@ export class QuestionDataService {
     this.allSerials = serialsData
     this.allGames = gamesData
     this.allBiology = biologyData
+    this.allMultipleChoice = multipleChoiceData
     this.allFootball = allFootballData
     this.allMoviesActors = movieActors
     this.allGods = godsData
@@ -113,6 +117,13 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allChemicalElements)
+  }
+
+  getMultipleChoiceQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allMultipleChoice)
   }
 
   getMundialQuestion(){
