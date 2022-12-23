@@ -50,7 +50,7 @@ export abstract class DescriptionComponent {
       case 'stadium': {
         this.random1 = this.questionDataService.getStadiumQuestion()
         this.question = 'Jakiego klubu/reprezentacji jestem stadionem?'
-        this.points = 4
+        this.points = 3
         break
       }
       case 'proverb': {
@@ -62,7 +62,7 @@ export abstract class DescriptionComponent {
       case 'history': {
         this.random1 = this.questionDataService.getHistoryQuestion()
         this.question = 'Podaj datę'
-        this.points = 4
+        this.points = 3
         break
       }
       case 'chemistSymbol': {

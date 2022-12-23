@@ -68,13 +68,13 @@ export class CountryComponent implements OnInit {
         this.setMultiply(2)
         break
       case 'Ameryka Południowa':
-        this.setMultiply(3)
+        this.setMultiply(2)
         break
       case 'Ameryka Północna':
-        this.setMultiply(3)
+        this.setMultiply(2)
         break
       case 'Australia i Oceania':
-        this.setMultiply(4)
+        this.setMultiply(3)
         break
       case 'Azja':
         this.setMultiply(2)
@@ -84,6 +84,7 @@ export class CountryComponent implements OnInit {
 
   getQuestion(): void {
     this.question = randomFromArray(this.questions)
+    this.points=0
     this.countries = this.questionDataService.getCountries('allCountries')
     this.getData(this.question.id)
     this.isModalVisible = true;
