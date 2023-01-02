@@ -37,7 +37,7 @@ export class AppComponent {
     {name: "Miasto - Województwo", id: 8, checkbox: false},
     {name: "Historia", id: 11, checkbox: false},
     {name: "Pierwiastki", id: 18, checkbox: false},
-    {name: "Biologia", id: 19, checkbox: false},
+    // {name: "Biologia", id: 19, checkbox: false},
     {name: "Bogowie", id: 20, checkbox: false},
   ]
   public musicCategories: Category[] = [
