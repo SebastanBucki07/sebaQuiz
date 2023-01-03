@@ -18,7 +18,7 @@ export class CategoriesComponent implements OnInit {
   public allCategories: Category[] = [
     {name: "Fragmenty ksiażek", id: 0, checkbox: false},
     {name: "Fragmenty piosenek", id: 1, checkbox: false},
-    {name: "Kraje", id: 2, checkbox: false},
+    {name: "Wypisz kraje lub stolice", id: 2, checkbox: false},
     {name: "Klubowa Historia", id: 3, checkbox: false},
     {name: "Klubowe herby", id: 4, checkbox: false},
     {name: "Filmy - opis", id: 5, checkbox: false},
@@ -45,6 +45,8 @@ export class CategoriesComponent implements OnInit {
     {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
     {name: "Zawodnik/klub/reprezentacja", id: 27, checkbox: false},
     {name: "Pytanie wielokrotnego wyboru", id: 28, checkbox: false},
+    {name: "Z jakiego krjau jest ta flaga?", id: 29, checkbox: false},
+    {name: "Stolice krajów?", id: 30, checkbox: false},
   ]
   public smallCategories: Category[] = [
     {name: "Filmy", id: 0, checkbox: false},
@@ -56,6 +58,7 @@ export class CategoriesComponent implements OnInit {
     {name: "Gry", id: 6, checkbox: false},
     {name: "Wiedza ogólna A/B/C/D", id: 7, checkbox: false},
     {name: "Znane postacie", id: 8, checkbox: false},
+    {name: "Wypisz kraje lub stolice", id: 9, checkbox: false},
   ]
 
   public chosenCategories: Category[] = []

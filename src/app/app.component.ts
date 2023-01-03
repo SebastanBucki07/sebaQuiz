@@ -63,9 +63,13 @@ export class AppComponent {
 
 
   public countryCategory: Category[] = [
-    {name: "Kraje", id: 2, checkbox: false},
+    //{name: "Kraje", id: 2, checkbox: false},
     {name: "Państwo po miastach", id: 22, checkbox: false},
+    {name: "Z jakiego krjau jest ta flaga?", id: 29, checkbox: false},
+    {name: "Stolice krajów?", id: 30, checkbox: false}
   ]
+  public countryInputCategory: Category = {name: "Wypisz kraje lub stolice", id: 2, checkbox: false}
+
   public gamesCategory: Category = {name: "Gra - opis", id: 7, checkbox: false}
 
   async ngOnInit(): Promise<void> {
@@ -146,6 +150,10 @@ export class AppComponent {
         }
         case 8: {
           this.questionType = this.famousPeople.id
+          break
+        }
+        case 9: {
+          this.questionType = this.countryInputCategory.id
           break
         }
         default: {

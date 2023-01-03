@@ -14,6 +14,7 @@ export abstract class PhotosComponent {
   public isVisible = false
   public isModalVisible = false
   public tip: string = ''
+  public isFlague = false
   public answer: string = ''
 
   constructor(
@@ -37,6 +38,13 @@ export abstract class PhotosComponent {
         this.points = 2
         break
       }
+      case 'flagues': {
+        this.random1 = this.questionDataService.getCountries('countriesForFlags');
+        this.question = 'Z jakiego kraju jest ta flaga?'
+        this.isFlague = true
+        this.points = 2
+        break
+      }
       default: {
         break;
       }
@@ -50,6 +58,7 @@ export abstract class PhotosComponent {
   close() {
     this.isVisible = false;
     this.isModalVisible = false
+    this.isFlague = false
     this.answer = ''
     this.playerService.nextPlayer()
   }
@@ -78,5 +87,16 @@ export class FamousPeopleComponent extends PhotosComponent implements OnInit {
 export class BuildingsComponent extends PhotosComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('buildings')
+  }
+}
+
+@Component({
+  selector: 'app-flagues',
+  templateUrl: './photos.component.html',
+  styleUrls: ['./photos.component.css']
+})
+export class FlaguesComponent extends PhotosComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('flagues')
   }
 }
