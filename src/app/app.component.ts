@@ -54,9 +54,13 @@ export class AppComponent {
   ]
   public lifeCategories: Category[] = [
     {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},
-    {name: "Przysłowia", id: 10, checkbox: false},
+    // {name: "Przysłowia", id: 10, checkbox: false},
     {name: "Pytanie wielokrotnego wyboru", id: 28, checkbox: false},
   ]
+
+  public famousPeople: Category =
+    {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false}
+
 
   public countryCategory: Category[] = [
     {name: "Kraje", id: 2, checkbox: false},
@@ -138,6 +142,10 @@ export class AppComponent {
         case 7: {
           const tmp = randomFromArray(this.lifeCategories)
           this.questionType = tmp.id
+          break
+        }
+        case 8: {
+          this.questionType = this.famousPeople.id
           break
         }
         default: {
