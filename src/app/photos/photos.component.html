@@ -22,7 +22,12 @@
         <h2 class="d-none d-lg-flex font-weight-bold"> {{question}}</h2>
         <h4 class="d-md-flex d-lg-none font-weight-bold">{{question}}</h4>
         <div class="card" style="width: 30rem;">
-          <img class="card-img-top" src="{{tip}}" alt="{{random1.id}}">
+          <ng-container *ngIf="isFlague">
+            <img class="card-img-top" src="assets/flagues/{{random1.code.toLowerCase()}}.png" alt="flaga {{tip}}">
+          </ng-container>
+          <ng-container *ngIf="!isFlague">
+            <img class="card-img-top" src="{{tip}}" alt="{{random1.id}}">
+          </ng-container>
         </div>
       </div>
     </div>

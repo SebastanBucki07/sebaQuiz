@@ -37,7 +37,7 @@ export class AppComponent {
     {name: "Miasto - Województwo", id: 8, checkbox: false},
     {name: "Historia", id: 11, checkbox: false},
     {name: "Pierwiastki", id: 18, checkbox: false},
-    {name: "Biologia", id: 19, checkbox: false},
+    // {name: "Biologia", id: 19, checkbox: false},
     {name: "Bogowie", id: 20, checkbox: false},
   ]
   public musicCategories: Category[] = [
@@ -54,14 +54,22 @@ export class AppComponent {
   ]
   public lifeCategories: Category[] = [
     {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},
-    {name: "Przysłowia", id: 10, checkbox: false},
+    // {name: "Przysłowia", id: 10, checkbox: false},
     {name: "Pytanie wielokrotnego wyboru", id: 28, checkbox: false},
   ]
 
+  public famousPeople: Category =
+    {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false}
+
+
   public countryCategory: Category[] = [
-    {name: "Kraje", id: 2, checkbox: false},
+    //{name: "Kraje", id: 2, checkbox: false},
     {name: "Państwo po miastach", id: 22, checkbox: false},
+    {name: "Z jakiego krjau jest ta flaga?", id: 29, checkbox: false},
+    {name: "Stolice krajów?", id: 30, checkbox: false}
   ]
+  public countryInputCategory: Category = {name: "Wypisz kraje lub stolice", id: 2, checkbox: false}
+
   public gamesCategory: Category = {name: "Gra - opis", id: 7, checkbox: false}
 
   async ngOnInit(): Promise<void> {
@@ -138,6 +146,14 @@ export class AppComponent {
         case 7: {
           const tmp = randomFromArray(this.lifeCategories)
           this.questionType = tmp.id
+          break
+        }
+        case 8: {
+          this.questionType = this.famousPeople.id
+          break
+        }
+        case 9: {
+          this.questionType = this.countryInputCategory.id
           break
         }
         default: {

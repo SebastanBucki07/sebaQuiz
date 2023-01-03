@@ -27,12 +27,13 @@ export class CountryComponent implements OnInit {
   public letterForCountriesQuestions: string | any = ""
   public question: any
   public answer: string = ''
+  public correct:number = 0
   public tip: string = ''
   public photos = data
   public multiply = 1
   public questions: Question[] = [
-    {id: 0, questionName: 'Z jakiego kraju jest ta flaga?'},
-    {id: 1, questionName: 'Jaka jest stolica kraju '},
+    // {id: 0, questionName: 'Z jakiego kraju jest ta flaga?'},
+    // {id: 1, questionName: 'Jaka jest stolica kraju '},
     {id: 2, questionName: 'Wymień wszystkie kraje z '},
     {id: 3, questionName: 'Wymień wszystkie stolice z '},
     {id: 4, questionName: 'Wymień kraje na literę '},
@@ -67,19 +68,19 @@ export class CountryComponent implements OnInit {
         this.setMultiply(1)
         break;
       case 'Afryka':
-        this.setMultiply(2)
+        this.setMultiply(1)
         break
       case 'Ameryka Południowa':
-        this.setMultiply(2)
+        this.setMultiply(1)
         break
       case 'Ameryka Północna':
-        this.setMultiply(2)
+        this.setMultiply(1)
         break
       case 'Australia i Oceania':
-        this.setMultiply(3)
+        this.setMultiply(2)
         break
       case 'Azja':
-        this.setMultiply(2)
+        this.setMultiply(1)
         break
     }
   }
@@ -200,11 +201,36 @@ export class CountryComponent implements OnInit {
       }
       if (!this.answersForCountries[tmp].display) {
         this.answersForCountries[tmp].display = true;
-        this.points++
+        this.correct++
         this.country = ''
       } else {
         this.changeMessage(tmp2)
       }
+    }
+  }
+
+  countPoints(correct:number,allAnswers:number){
+    let percent = (correct/allAnswers) * 100
+    if (percent === 100){
+      this.points = 10*this.multiply
+    }
+    else if ((percent < 100) && (percent>=80)){
+      this.points = 8*this.multiply
+    }
+    else if ((percent < 80) && (percent>=60)){
+      this.points = 6*this.multiply
+    }
+    else if ((percent < 60) && (percent>=40)){
+      this.points = 4*this.multiply
+    }
+    else if ((percent < 40) && (percent>=20)){
+      this.points = 2*this.multiply
+    }
+    else if ((percent < 20) && (percent>0)){
+      this.points = this.multiply
+    }
+    else{
+      this.points = 0
     }
   }
 
@@ -234,14 +260,19 @@ export class CountryComponent implements OnInit {
     this.answersForCountries = []
     this.answer = ''
     this.playerService.nextPlayer()
+    this.correct = 0
+    this.length = 0
+    this.multiply = 1
   }
 
   showAnswer() {
     this.isVisible = !this.isVisible;
     if (this.answersForCountries.length > 0) {
+      this.countPoints(this.correct,this.length)
       this.answersForCountries.forEach((answer) => {
         answer.display = true
       })
     }
+
   }
 }

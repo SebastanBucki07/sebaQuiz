@@ -78,6 +78,7 @@ export class QuestionDataService {
   constructor() { }
 
   initial(){
+    console.log('initial sdasdas')
     this.allYoutubeSongs = youtubeSongData
     this.allYoutubeMundial = youtubeMundialData
     this.allClubsCrests = clubCrestsData

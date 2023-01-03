@@ -28,66 +28,84 @@ export abstract class DescriptionComponent {
       case 'movie': {
         this.random1 = this.questionDataService.getMoviesDescriptionQuestion()
         this.question = 'Co to za film?'
+        this.answer = this.random1.title
         this.points = 2
         break
       }
       case 'serial': {
         this.random1 = this.questionDataService.getSerialsDescriptionQuestion()
         this.question = 'Co to za serial?'
+        this.answer = this.random1.title
         this.points = 2
         break
       }
       case 'game': {
         this.random1 = this.questionDataService.getGamesDescriptionQuestion()
         this.question = 'Co to za gra'
+        this.answer = this.random1.title
         this.points = 2
         break
       }
       case 'district': {
         this.random1 = this.questionDataService.getDistrictsDescriptionQuestion()
         this.question = 'Z jakiego jestem województwa?'
+        this.answer = this.random1.title
         this.points = 3
         break
       }
       case 'stadium': {
         this.random1 = this.questionDataService.getStadiumQuestion()
         this.question = 'Jakiego klubu/reprezentacji jestem stadionem?'
+        this.answer = this.random1.title
         this.points = 3
         break
       }
       case 'proverb': {
         this.random1 = this.questionDataService.getProverbQuestion()
         this.question = 'Dokończ przysłowie'
+        this.answer = this.random1.title
         this.points = 2
         break
       }
       case 'history': {
         this.random1 = this.questionDataService.getHistoryQuestion()
         this.question = 'Podaj datę'
+        this.answer = this.random1.title
         this.points = 3
         break
       }
       case 'chemistSymbol': {
         this.random1 = this.questionDataService.getChemistQuestion()
         this.question = 'Jaki to pierwiastek?'
+        this.answer = this.random1.title
         this.points = 3
         break
       }
       case 'biology': {
         this.random1 = this.questionDataService.getBiologyQuestion()
         this.question = 'Co to jest?'
+        this.answer = this.random1.title
         this.points = 3
         break
       }
       case 'gods': {
         this.random1 = this.questionDataService.getGodsQuestion()
         this.question = 'O kogo/ o co chodzi?'
+        this.answer = this.random1.title
         this.points = 3
         break
       }
       case 'football': {
         this.random1 = this.questionDataService.getFootballQuestion()
         this.question = 'Podaj Reprezentacje lub klub lub zawodnika'
+        this.answer = this.random1.title
+        this.points = 2
+        break
+      }
+      case 'capitals': {
+        this.random1 = this.questionDataService.getCountries('countriesForCapitals')
+        this.question = `Jaka jest stolica ${this.random1.name}`
+        this.answer = this.random1.capital
         this.points = 2
         break
       }
@@ -97,7 +115,6 @@ export abstract class DescriptionComponent {
     }
     this.timerService.setTimer(1)
     this.tip = this.random1.description
-    this.answer = this.random1.title
     this.isModalVisible = true;
   }
 
@@ -231,5 +248,16 @@ export class GodsComponent extends DescriptionComponent implements OnInit {
 export class FootballComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
     this.getQuestion('football')
+  }
+}
+
+@Component({
+  selector: 'app-capitals',
+  templateUrl: './description.component.html',
+  styleUrls: ['./description.component.css']
+})
+export class CapitalsComponent extends DescriptionComponent implements OnInit {
+  ngOnInit(): void {
+    this.getQuestion('capitals')
   }
 }
