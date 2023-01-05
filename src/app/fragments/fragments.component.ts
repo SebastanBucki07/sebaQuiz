@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {Category, FragmentsModel} from "../model/fragments-model";
-import {FragmentBuilder} from "../builder/fragment-builder";
 import {PlayersService} from "../players.service";
 import {TimerService} from "../timer.service";
+import {FragmentBuilder} from "../builder/fragment-builder";
 
 @Component({
   template: ''

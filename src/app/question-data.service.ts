@@ -14,6 +14,7 @@ import allSerialsHeroData from "../assets/movies/serialsHero.json"
 import serialsData from "../assets/movies/serials.json";
 import movieActors from "../assets/actors/movieActors.json";
 import directorsData from "../assets/movies/directors.json"
+import familiadaData from "../assets/familiada/familiada.json"
 import serialActors from "../assets/actors/serialActors.json";
 import gamesData from "../assets/games/games.json";
 import allDistricts from "../assets/poland/citiesPL.json";
@@ -35,6 +36,7 @@ import {ClubHistory} from "./model/clubHistory-model";
 import {ActorModel} from "./model/actor-model";
 import {TipsModel} from "./model/tips-model";
 import {QuestionMultipleChoice} from "./model/question-model";
+import {FamiliadaModel} from "./model/familiada-model";
 
 
 
@@ -42,6 +44,7 @@ import {QuestionMultipleChoice} from "./model/question-model";
   providedIn: 'root'
 })
 export class QuestionDataService {
+  public allFamiliadaData: FamiliadaModel[] = []
   public allYoutubeSongs: YoutubeModel[] = []
   public allYoutubeSerialIntros: YoutubeModel[] = []
   public allYoutubeMundial: YoutubeModel[] = []
@@ -100,6 +103,7 @@ export class QuestionDataService {
     this.allDirectorsData = directorsData
     this.allStadiums = allStadiums
     this.allChemicalElements = chemicalElements
+    this.allFamiliadaData = familiadaData
     this.allProverbs = allProverbs
     this.allHistory = allHistory
     this.allClubsHistoryQuestion = clubHistoryData
@@ -132,6 +136,13 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allYoutubeMundial)
+  }
+
+  getFamiliadaQuestion(){
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allFamiliadaData)
   }
 
   getFootballQuestion(){

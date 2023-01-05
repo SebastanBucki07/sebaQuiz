@@ -70,6 +70,8 @@ export class AppComponent {
   ]
   public countryInputCategory: Category = {name: "Wypisz kraje lub stolice", id: 2, checkbox: false}
 
+  public familiada: Category = {name: "Familiada", id: 31, checkbox: false}
+
   public gamesCategory: Category = {name: "Gra - opis", id: 7, checkbox: false}
 
   async ngOnInit(): Promise<void> {
@@ -99,6 +101,7 @@ export class AppComponent {
   }
 
   setQuestionType(question: number) {
+    this.playerService.setModal(true);
     const actualCategory = this.categoryType
     let category = question
     if (question === 50) {
@@ -154,6 +157,10 @@ export class AppComponent {
         }
         case 9: {
           this.questionType = this.countryInputCategory.id
+          break
+        }
+        case 10: {
+          this.questionType = this.familiada.id
           break
         }
         default: {

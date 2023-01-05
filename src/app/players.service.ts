@@ -8,6 +8,7 @@ export class PlayersService {
   public players:Player[] = []
   public actualPlayer:number = 0
   public chosen: boolean
+  public isModalVisible = false
 
   constructor() {
     this.chosen= true;
@@ -15,6 +16,10 @@ export class PlayersService {
 
   setPlayers(players:Player[]){
     this.players = players
+  }
+
+  setModal(modal:boolean){
+    this.isModalVisible = modal
   }
 
   setActualPlayer(playerId:number){

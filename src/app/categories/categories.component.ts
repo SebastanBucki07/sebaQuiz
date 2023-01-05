@@ -47,6 +47,7 @@ export class CategoriesComponent implements OnInit {
     {name: "Pytanie wielokrotnego wyboru", id: 28, checkbox: false},
     {name: "Z jakiego krjau jest ta flaga?", id: 29, checkbox: false},
     {name: "Stolice krajów?", id: 30, checkbox: false},
+    {name: "Familiada", id: 31, checkbox: false},
   ]
   public smallCategories: Category[] = [
     {name: "Filmy", id: 0, checkbox: false},
@@ -59,6 +60,7 @@ export class CategoriesComponent implements OnInit {
     {name: "Wiedza ogólna A/B/C/D", id: 7, checkbox: false},
     {name: "Znane postacie", id: 8, checkbox: false},
     {name: "Wypisz kraje lub stolice", id: 9, checkbox: false},
+    {name: "Familiada", id: 10, checkbox: false},
   ]
 
   public chosenCategories: Category[] = []

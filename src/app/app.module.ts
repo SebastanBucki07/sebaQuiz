@@ -26,6 +26,7 @@ import {YoutubeMundialComponent, YoutubeSerialsComponent, YoutubeSongComponent} 
 import {DirectorsComponent, MoviesHeroComponent, SerialsHeroComponent, TipsComponent} from './tips/tips.component';
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
 import { BackgroundSoundComponent } from './background-sound/background-sound.component';
+import { FamiliadaComponent } from './familiada/familiada.component';
 
 @NgModule({
   declarations: [
@@ -65,7 +66,8 @@ import { BackgroundSoundComponent } from './background-sound/background-sound.co
     MultipleChoiceComponent,
     BackgroundSoundComponent,
     FlaguesComponent,
-    CapitalsComponent
+    CapitalsComponent,
+    FamiliadaComponent
   ],
   imports: [
     BrowserModule,
