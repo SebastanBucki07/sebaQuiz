@@ -42,7 +42,7 @@ export class AppComponent {
   ]
   public musicCategories: Category[] = [
     {name: "Fragmenty piosenek", id: 1, checkbox: false},
-    {name: "Jaka to melodia?", id: 16, checkbox: false},
+    // {name: "Jaka to melodia?", id: 16, checkbox: false},
     {name: "Rozpoznaj artystę po tytułach piosenek", id: 21, checkbox: false},
   ]
   public footballCategories: Category[] = [
@@ -53,7 +53,6 @@ export class AppComponent {
     {name: "Zawodnik/klub/reprezentacja", id: 27, checkbox: false},
   ]
   public lifeCategories: Category[] = [
-    {name: "Rozpoznaj osobe ze zdjęcia", id: 12, checkbox: false},
     // {name: "Przysłowia", id: 10, checkbox: false},
     {name: "Pytanie wielokrotnego wyboru", id: 28, checkbox: false},
   ]
@@ -63,7 +62,6 @@ export class AppComponent {
 
 
   public countryCategory: Category[] = [
-    //{name: "Kraje", id: 2, checkbox: false},
     {name: "Państwo po miastach", id: 22, checkbox: false},
     {name: "Z jakiego krjau jest ta flaga?", id: 29, checkbox: false},
     {name: "Stolice krajów?", id: 30, checkbox: false}

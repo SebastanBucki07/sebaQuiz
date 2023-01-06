@@ -24,7 +24,7 @@ export class ClubHistoryComponent implements OnInit {
   ) {
   }
 
-  ngOnInit(): void {
+  init(){
     this.timerService.setTimer(1)
     this.random1 = this.questionDataService.getClubHistoryQuestion()
     this.answer = this.random1.osoba
@@ -47,11 +47,17 @@ export class ClubHistoryComponent implements OnInit {
     this.isModalVisible = true;
   }
 
+  ngOnInit(): void {
+    this.init();
+  }
+
   close() {
     this.isVisible = false;
-    this.isModalVisible = false
     this.answer = ''
+    this.photos = []
     this.playerService.nextPlayer()
+    this.init()
+    this.playerService.setModal(false);
   }
 
   showAnswer() {

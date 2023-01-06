@@ -11,8 +11,8 @@ export abstract class PhotosComponent {
   public random1: PhotoModel | any = {}
   public points: number = 2
   public question: string = ''
+  public category = ''
   public isVisible = false
-  public isModalVisible = false
   public tip: string = ''
   public isFlague = false
   public answer: string = ''
@@ -24,8 +24,12 @@ export abstract class PhotosComponent {
   ) {
   }
 
-  getQuestion(category: string) {
-    switch (category) {
+  init(){
+    this.getQuestion()
+  }
+
+  getQuestion() {
+    switch (this.category) {
       case 'famousPeople': {
         this.random1 = this.questionDataService.getFamousPeoplePhotoQuestion()
         this.question = 'Kim jest osoba ze zdjęcia?'
@@ -52,15 +56,16 @@ export abstract class PhotosComponent {
     this.timerService.setTimer(1)
     this.tip = this.random1.photo
     this.answer = this.random1.name
-    this.isModalVisible = true;
   }
 
   close() {
     this.isVisible = false;
-    this.isModalVisible = false
     this.isFlague = false
+    this.question = ''
     this.answer = ''
     this.playerService.nextPlayer()
+    this.init()
+    this.playerService.setModal(false)
   }
 
   showAnswer() {
@@ -75,7 +80,8 @@ export abstract class PhotosComponent {
 })
 export class FamousPeopleComponent extends PhotosComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('famousPeople')
+    this.category = 'famousPeople'
+    this.init()
   }
 }
 
@@ -86,7 +92,8 @@ export class FamousPeopleComponent extends PhotosComponent implements OnInit {
 })
 export class BuildingsComponent extends PhotosComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('buildings')
+    this.category = 'buildings'
+    this.init()
   }
 }
 
@@ -97,6 +104,7 @@ export class BuildingsComponent extends PhotosComponent implements OnInit {
 })
 export class FlaguesComponent extends PhotosComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('flagues')
+    this.category = 'flagues'
+    this.init()
   }
 }

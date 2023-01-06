@@ -15,6 +15,7 @@ export class TipsComponent {
   public isVisible = false;
   public isModalVisible = false;
   public hasTip3 = true
+  public category = ''
   public tip: string = ''
   public tip2: string = ''
   public tip3: string = ''
@@ -27,8 +28,13 @@ export class TipsComponent {
   ) {
   }
 
-  getQuestion(category: string) {
-    switch (category) {
+  init(){
+    this.getQuestion()
+  }
+
+
+  getQuestion() {
+    switch (this.category) {
       case 'moviesHero': {
         this.random1 = this.questionDataService.getMoviesHeroQuestion()
         this.question = 'W jakim filmie byli ci bohaterowie:?'
@@ -64,10 +70,12 @@ export class TipsComponent {
 
   close() {
     this.isVisible = false;
-    this.isModalVisible = false
+    this.question = ''
     this.answer = ''
     this.hasTip3 = true
     this.playerService.nextPlayer()
+    this.init()
+    this.playerService.setModal(false)
   }
 
   showAnswer() {
@@ -81,7 +89,8 @@ export class TipsComponent {
 })
 export class MoviesHeroComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('moviesHero')
+    this.category = 'moviesHero'
+    this.init()
   }
 }
 @Component({
@@ -91,7 +100,8 @@ export class MoviesHeroComponent extends TipsComponent implements OnInit {
 })
 export class SerialsHeroComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('serialsHero')
+    this.category = 'serialsHero'
+    this.init()
   }
 }
 @Component({
@@ -101,6 +111,7 @@ export class SerialsHeroComponent extends TipsComponent implements OnInit {
 })
 export class DirectorsComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('directors')
+    this.category = 'directors'
+    this.init()
   }
 }

@@ -32,8 +32,6 @@ export class CountryComponent implements OnInit {
   public photos = data
   public multiply = 1
   public questions: Question[] = [
-    // {id: 0, questionName: 'Z jakiego kraju jest ta flaga?'},
-    // {id: 1, questionName: 'Jaka jest stolica kraju '},
     {id: 2, questionName: 'Wymień wszystkie kraje z '},
     {id: 3, questionName: 'Wymień wszystkie stolice z '},
     {id: 4, questionName: 'Wymień kraje na literę '},
@@ -263,6 +261,8 @@ export class CountryComponent implements OnInit {
     this.correct = 0
     this.length = 0
     this.multiply = 1
+    this.playerService.setModal(false);
+    this.getQuestion()
   }
 
   showAnswer() {

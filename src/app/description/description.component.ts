@@ -11,6 +11,7 @@ export abstract class DescriptionComponent {
   public random1: DescriptionModel | any = {}
   public points: number = 2
   public question: string = ''
+  public category = ''
   public isVisible = false;
   public isModalVisible = false;
   public tip: string = ''
@@ -23,8 +24,12 @@ export abstract class DescriptionComponent {
   ) {
   }
 
-  getQuestion(category: string) {
-    switch (category) {
+  init(){
+    this.getQuestion()
+  }
+
+  getQuestion() {
+    switch (this.category) {
       case 'movie': {
         this.random1 = this.questionDataService.getMoviesDescriptionQuestion()
         this.question = 'Co to za film?'
@@ -120,9 +125,11 @@ export abstract class DescriptionComponent {
 
   close() {
     this.isVisible = false;
-    this.isModalVisible = false
+    this.question = ''
     this.answer = ''
     this.playerService.nextPlayer()
+    this.init()
+    this.playerService.setModal(false)
   }
 
   showAnswer() {
@@ -137,7 +144,8 @@ export abstract class DescriptionComponent {
 })
 export class MoviesComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('movie')
+    this.category = 'movie'
+    this.init()
   }
 }
 
@@ -148,7 +156,8 @@ export class MoviesComponent extends DescriptionComponent implements OnInit {
 })
 export class SerialsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('serial')
+    this.category = 'serial'
+    this.init()
   }
 }
 
@@ -159,7 +168,8 @@ export class SerialsComponent extends DescriptionComponent implements OnInit {
 })
 export class GamesComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('game')
+    this.category = 'game'
+    this.init()
   }
 }
 
@@ -170,7 +180,8 @@ export class GamesComponent extends DescriptionComponent implements OnInit {
 })
 export class DistrictsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('district')
+    this.category = 'district'
+    this.init()
   }
 }
 
@@ -181,7 +192,8 @@ export class DistrictsComponent extends DescriptionComponent implements OnInit {
 })
 export class StadiumsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('stadium')
+    this.category = 'stadium'
+    this.init()
   }
 }
 
@@ -192,7 +204,8 @@ export class StadiumsComponent extends DescriptionComponent implements OnInit {
 })
 export class ProverbsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('proverb')
+    this.category = 'proverb'
+    this.init()
   }
 }
 
@@ -203,7 +216,8 @@ export class ProverbsComponent extends DescriptionComponent implements OnInit {
 })
 export class HistoryComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('history')
+    this.category = 'history'
+    this.init()
   }
 }
 
@@ -214,7 +228,8 @@ export class HistoryComponent extends DescriptionComponent implements OnInit {
 })
 export class ChemistSymbolComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('chemistSymbol')
+    this.category = 'chemistSymbol'
+    this.init()
   }
 }
 
@@ -225,7 +240,8 @@ export class ChemistSymbolComponent extends DescriptionComponent implements OnIn
 })
 export class BiologyComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('biology')
+    this.category = 'biology'
+    this.init()
   }
 }
 
@@ -236,7 +252,8 @@ export class BiologyComponent extends DescriptionComponent implements OnInit {
 })
 export class GodsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('gods')
+    this.category = 'gods'
+    this.init()
   }
 }
 
@@ -247,7 +264,8 @@ export class GodsComponent extends DescriptionComponent implements OnInit {
 })
 export class FootballComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('football')
+    this.category = 'football'
+    this.init()
   }
 }
 
@@ -258,6 +276,7 @@ export class FootballComponent extends DescriptionComponent implements OnInit {
 })
 export class CapitalsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('capitals')
+    this.category = 'capitals'
+    this.init()
   }
 }

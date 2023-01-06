@@ -1,6 +1,5 @@
 import {Component, OnInit} from '@angular/core';
 import {QuestionDataService} from "../question-data.service";
-import {TimerService} from "../timer.service";
 import {PlayersService} from "../players.service";
 import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
 
@@ -11,7 +10,6 @@ import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
 })
 export class FamiliadaComponent implements OnInit {
   public random1: FamiliadaModel | any = {}
-  public isModalVisible = true
   public userAnswer: string = ''
   public isVisible = false
   public answers: FamiliadaAnswer[] = []
@@ -41,7 +39,6 @@ export class FamiliadaComponent implements OnInit {
     this.wrong = 0
     this.answers = []
     this.blockedButton = false
-    this.isModalVisible = false
     this.playerService.nextPlayer()
     this.init()
   }
