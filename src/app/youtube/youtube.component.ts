@@ -16,7 +16,7 @@ export abstract class YoutubeComponent {
   public isTitleVisible = false
   public isNotSerial = true
   public isAuthorVisible = false
-  public isModalVisible = false
+  public category = ''
   public answerDescription = 'Tytuł:'
   public tip: string = ''
   public title: string = ''
@@ -29,8 +29,12 @@ export abstract class YoutubeComponent {
     public sanitizer: DomSanitizer
   ) { }
 
-  getQuestion(category: string) {
-    switch (category) {
+  init(){
+    this.getQuestion()
+  }
+
+  getQuestion() {
+    switch (this.category) {
       case 'song': {
         this.random1 = this.questionDataService.getYoutubeSongQuestion()
         this.question = 'Podaj tytuł oraz wykonawcę'
@@ -60,18 +64,18 @@ export abstract class YoutubeComponent {
     this.urlSafe= this.sanitizer.bypassSecurityTrustResourceUrl(this.tip);
     this.title = this.random1.title
     this.author = this.random1.author
-    this.isModalVisible = true;
   }
 
   close() {
     this.isAuthorVisible = false;
     this.isTitleVisible = false;
-    this.isModalVisible = false
     this.title = ''
     this.author = ''
     this.isNotSerial = true
     this.answerDescription = 'Tytuł'
     this.playerService.nextPlayer()
+    this.init()
+    this.playerService.setModal(false)
   }
 
   showTitle() {
@@ -89,7 +93,8 @@ export abstract class YoutubeComponent {
 })
 export class YoutubeSongComponent extends YoutubeComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('song')
+    this.category = 'song'
+    this.init()
   }
 }
 
@@ -100,7 +105,8 @@ export class YoutubeSongComponent extends YoutubeComponent implements OnInit {
 })
 export class YoutubeSerialsComponent extends YoutubeComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('opening')
+    this.category = 'opening'
+    this.init()
   }
 }
 @Component({
@@ -110,6 +116,7 @@ export class YoutubeSerialsComponent extends YoutubeComponent implements OnInit 
 })
 export class YoutubeMundialComponent extends YoutubeComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('mundial')
+    this.category = 'mundial'
+    this.init()
   }
 }

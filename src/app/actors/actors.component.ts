@@ -14,6 +14,7 @@ export abstract class ActorsComponent {
   public isVisible = false;
   public isModalVisible = false;
   public question: string = ''
+  public category:string =''
   public answer: string = ''
   public photosData: PhotoModel[] = actors
   public photos: PhotoModel[] = []
@@ -29,11 +30,13 @@ export abstract class ActorsComponent {
 
   close() {
     this.isVisible = false;
-    this.isModalVisible = false
     this.question = ''
     this.answer = ''
     this.playerService.nextPlayer()
     this.photos = []
+    this.tips =[]
+    this.init()
+    this.playerService.setModal(false)
   }
 
   showAnswer() {
@@ -70,9 +73,9 @@ export abstract class ActorsComponent {
     })
   }
 
-  getQuestion(category: string) {
+  getQuestion() {
     this.timerService.setTimer(1)
-    switch (category) {
+    switch (this.category) {
       case 'movieActors': {
         this.random1 = this.questionDataService.getMoviesActorsQuestion()
         this.question = 'W jakim filmie była taka obsada?'
@@ -90,7 +93,7 @@ export abstract class ActorsComponent {
       }
     }
     this.answer = this.random1.title
-    this.isModalVisible = true;
+    this.playerService.setModal(true)
     this.tips.push(this.random1.actor1)
     this.tips.push(this.random1.actor2)
     this.tips.push(this.random1.actor3)
@@ -102,6 +105,10 @@ export abstract class ActorsComponent {
     this.tips.push(this.random1.actor9)
     this.getAllPhotos(this.tips)
   }
+
+  init(){
+    this.getQuestion()
+  }
 }
 
 @Component({
@@ -111,7 +118,8 @@ export abstract class ActorsComponent {
 })
 export class MoviesActorsComponent extends ActorsComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('movieActors')
+    this.category = 'movieActors'
+    this.init()
   }
 }
 
@@ -122,6 +130,7 @@ export class MoviesActorsComponent extends ActorsComponent implements OnInit {
 })
 export class SerialsActorsComponent extends ActorsComponent implements OnInit {
   ngOnInit(): void {
-    this.getQuestion('serialsActors')
+    this.category = 'serialsActors'
+    this.init()
   }
 }

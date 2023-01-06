@@ -1,8 +1,8 @@
 import {Component, OnInit} from '@angular/core';
 import {Category, FragmentsModel} from "../model/fragments-model";
-import {FragmentBuilder} from "../builder/fragment-builder";
 import {PlayersService} from "../players.service";
 import {TimerService} from "../timer.service";
+import {FragmentBuilder} from "../builder/fragment-builder";
 
 @Component({
   template: ''
@@ -11,6 +11,7 @@ export abstract class Fragments {
   public random1: FragmentsModel = new FragmentBuilder(Category.SONG).build();
   public points: number = 1
   public buttonText = ''
+  public category:Category = Category.SONG
   public answerButtonText = ''
   public answerDescription = ''
   public multiply = 3
@@ -33,10 +34,14 @@ export abstract class Fragments {
 
   }
 
-  getQuestion(category: Category) {
+  init(){
+    this.getQuestion()
+  }
+
+  getQuestion() {
     this.timerService.setTimer(3)
-    this.random1 = new FragmentBuilder(category).randomDataFromArray(1)
-    if (category === Category.SONGTIPS ){
+    this.random1 = new FragmentBuilder(this.category).randomDataFromArray(1)
+    if (this.category === Category.SONGTIPS ){
       this.isTipQuestion = true
       this.buttonText = 'piosenka'
       this.answerButtonText = 'Pokaż wykonawce'
@@ -44,7 +49,7 @@ export abstract class Fragments {
       this.answerDescription = 'Wykonawca'
       this.answer1 = this.random1.author;
     }
-    else if (category === Category.CITIES ){
+    else if (this.category === Category.CITIES ){
       this.isTipQuestion = true
       this.buttonText = 'Miasto '
       this.answerButtonText = 'Pokaż Panstwo'
@@ -112,6 +117,8 @@ export abstract class Fragments {
     this.answer1 = ''
     this.answer2 = ''
     this.playerService.nextPlayer()
+    this.init()
+    this.playerService.setModal(false)
   }
 }
 
@@ -123,7 +130,8 @@ export abstract class Fragments {
 export class SongsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
     this.random1 = new FragmentBuilder(Category.SONG).build()
-    this.getQuestion(Category.SONG)
+    this.category = Category.SONG
+    this.init()
   }
 
 }
@@ -136,7 +144,8 @@ export class SongsComponent extends Fragments implements OnInit {
 export class BooksComponent extends Fragments implements OnInit {
   ngOnInit(): void {
     this.random1 = new FragmentBuilder(Category.LECTURE).build()
-    this.getQuestion(Category.LECTURE)
+    this.category = Category.LECTURE
+    this.init()
   }
 
 }
@@ -149,7 +158,8 @@ export class BooksComponent extends Fragments implements OnInit {
 export class SongTipsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
     this.random1 = new FragmentBuilder(Category.SONGTIPS).build()
-    this.getQuestion(Category.SONGTIPS)
+    this.category = Category.SONGTIPS
+    this.init()
   }
 
 }
@@ -162,7 +172,9 @@ export class SongTipsComponent extends Fragments implements OnInit {
 export class CitiesTipsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
     this.random1 = new FragmentBuilder(Category.CITIES).build()
-    this.getQuestion(Category.CITIES)
+    this.category = Category.CITIES
+    this.init()
+
   }
 
 }

@@ -1,0 +1,682 @@
+[
+  {
+    "id": 1,
+    "question": "Co możemy ściąć?",
+    "answer1": "Paznokcie",
+    "answer2": "Włosy",
+    "answer3": "Drzewo",
+    "answer4": "zakręt",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 2,
+    "question": "Co zjadamy wprost z opakowania",
+    "answer1": "Chipsy",
+    "answer2": "lody",
+    "answer3": "jogurt",
+    "answer4": "słodycze",
+    "answer5": "paluszki",
+    "answer6": "orzeszki"
+  },
+  {
+    "id": 3,
+    "question": "Wymień rodzaje orzechów",
+    "answer1": "włoski",
+    "answer2": "laskowy",
+    "answer3": "ziemny",
+    "answer4": "kokos",
+    "answer5": "migdały",
+    "answer6": "nerkowca"
+  },
+  {
+    "id": 4,
+    "question": "Częsci ubioru mężczyzny",
+    "answer1": "spodnie",
+    "answer2": "bielizny",
+    "answer3": "koszulka",
+    "answer4": "bluza",
+    "answer5": "buty",
+    "answer6": "czapka"
+  },
+  {
+    "id": 5,
+    "question": "Co możmey znaleźć na placu zabaw?",
+    "answer1": "hustawka",
+    "answer2": "piaskownica",
+    "answer3": "zjezdzalnia",
+    "answer4": "karuzela",
+    "answer5": "drabinka",
+    "answer6": "zabawki"
+  },
+  {
+    "id": 6,
+    "question": "Z czego po przebiciu uchodzi powietrze?",
+    "answer1": "koło",
+    "answer2": "piłka",
+    "answer3": "balon",
+    "answer4": "ponton",
+    "answer5": "dmuchany basen",
+    "answer6": "-"
+  },
+  {
+    "id": 7,
+    "question": "Jak można wyleczyć się z czkawki",
+    "answer1": "napić się wody",
+    "answer2": "przestraszyć się",
+    "answer3": "wstryzmac powietrze",
+    "answer4": "zjeśc łyżkę cukru",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 8,
+    "question": "Drzewa liściaste",
+    "answer1": "dąb",
+    "answer2": "brzoza",
+    "answer3": "buk",
+    "answer4": "lipa",
+    "answer5": "klon",
+    "answer6": "jesion"
+  },
+  {
+    "id": 9,
+    "question": "jaki może być pilot",
+    "answer1": "telewizyjny",
+    "answer2": "samolotu",
+    "answer3": "rajdowy",
+    "answer4": "wycieczek",
+    "answer5": "do bramy",
+    "answer6": "do samochodu"
+  },
+  {
+    "id": 10,
+    "question": "Symbole pryznoszące szczęście",
+    "answer1": "czterolistna koniczyna",
+    "answer2": "królicza łapka",
+    "answer3": "podkowa",
+    "answer4": "słonik",
+    "answer5": "grosz",
+    "answer6": "cyfra siedem"
+  },
+  {
+    "id": 11,
+    "question": "Rzeczy ktore łatwo sie roztapiaja",
+    "answer1": "lody",
+    "answer2": "snieg",
+    "answer3": "czekolada",
+    "answer4": "masło",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 12,
+    "question": "Katastrofy naturalnie wystepujace w Europie",
+    "answer1": "huragan",
+    "answer2": "trzesienie ziemi",
+    "answer3": "powodz",
+    "answer4": "susza",
+    "answer5": "wybuch wulkanu",
+    "answer6": "pozar"
+  },
+  {
+    "id": 13,
+    "question": "Co może sie spóźnić?",
+    "answer1": "samolot",
+    "answer2": "wypłata",
+    "answer3": "okres",
+    "answer4": "pociąg",
+    "answer5": "zegar",
+    "answer6": "autobus"
+  },
+  {
+    "id": 14,
+    "question": "AKCESORIA ROWEROWE",
+    "answer1": "LICZNIK",
+    "answer2": "LAMPKA",
+    "answer3": "DZWONEK",
+    "answer4": "BIDON",
+    "answer5": "POMPKA",
+    "answer6": "KASK"
+  },
+  {
+    "id": 15,
+    "question": "ARTYŚCI WYSTĘPUJĄCY NA ULICACH MIAST",
+    "answer1": "MUZYCY",
+    "answer2": "MALARZE",
+    "answer3": "TANCERZE",
+    "answer4": "MIMOWIE",
+    "answer5": "MAGICY",
+    "answer6": "-"
+  },
+  {
+    "id": 16,
+    "question": "CO CEDZIMY?",
+    "answer1": "SŁOWA",
+    "answer2": "MAKARON",
+    "answer3": "RYŻ",
+    "answer4": "-",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 17,
+    "question": "CO JEST CZARNO-BIAŁE?",
+    "answer1": "ZEBRA",
+    "answer2": "FILM",
+    "answer3": "GAZETA",
+    "answer4": "PANDA",
+    "answer5": "PINGWIN",
+    "answer6": "ZDJĘCIE"
+  },
+  {
+    "id": 18,
+    "question": "CO JEMY Z BUŁKĄ TARTĄ?",
+    "answer1": "KALAFIOR",
+    "answer2": "SZPARAGI",
+    "answer3": "KROKIETY",
+    "answer4": "KOTLETY",
+    "answer5": "LENIWE",
+    "answer6": "-"
+  },
+  {
+    "id": 19,
+    "question": "CO NAUCZYCIEL ZABIERA UCZNIOWI PODCZAS LEKCJI?",
+    "answer1": "TELEFON",
+    "answer2": "ŚCIĄGĘ",
+    "answer3": "SŁUCHAWKI",
+    "answer4": "ZESZYT",
+    "answer5": "ZABAWKĘ",
+    "answer6": "SPRAWDZIAN"
+  },
+  {
+    "id": 20,
+    "question": "CO MOŻNA ZAKRĘCIĆ?",
+    "answer1": "BUTELKĘ",
+    "answer2": "KUREK",
+    "answer3": "KOMUŚ W GŁOWIE",
+    "answer4": "WŁOSY",
+    "answer5": "KOREK",
+    "answer6": "-"
+  },
+  {
+    "id": 21,
+    "question": "CO MOŻNA ZROBIĆ Z PAPIERU?",
+    "answer1": "SAMOLOT",
+    "answer2": "ORIGAMI",
+    "answer3": "CZAPKĘ",
+    "answer4": "ŁÓDKĘ",
+    "answer5": "PUDEŁKO",
+    "answer6": "-"
+  },
+  {
+    "id": 22,
+    "question": "CO NAS CHRONI PRZED SŁOŃCEM?",
+    "answer1": "KAPELUSZ",
+    "answer2": "OKULARY",
+    "answer3": "KREM Z FILTREM",
+    "answer4": "PARASOL",
+    "answer5": "DRZEWO",
+    "answer6": "-"
+  },
+  {
+    "id": 23,
+    "question": "CO ŚWIĘTUJEMY?",
+    "answer1": "URODZINY",
+    "answer2": "IMIENINY",
+    "answer3": "ROCZNICĘ",
+    "answer4": "NOWY ROK",
+    "answer5": "AWANS",
+    "answer6": "-"
+  },
+  {
+    "id": 24,
+    "question": "CO ZNAJDUJE SIĘ NA PLANIE FILMOWYM?",
+    "answer1": "KAMERA",
+    "answer2": "AKTORZY",
+    "answer3": "EKIPA",
+    "answer4": "ŚWIATŁO",
+    "answer5": "REKWIZYTY",
+    "answer6": "-"
+  },
+  {
+    "id": 25,
+    "question": "CO WPISUJEMY W CV?",
+    "answer1": "DANE OSOBOWE",
+    "answer2": "WYKSZTAŁCENIE",
+    "answer3": "DOŚWIADCZENIE",
+    "answer4": "ZAINTERESOWANIA",
+    "answer5": "UMIEJĘTNOŚCI",
+    "answer6": "-"
+  },
+  {
+    "id": 26,
+    "question": "DAWNA NAZWA RESTAURACJI:",
+    "answer1": "KARCZMA",
+    "answer2": "GOSPODA",
+    "answer3": "OBERŻA",
+    "answer4": "ZAJAZD",
+    "answer5": "SZYNK",
+    "answer6": "-"
+  },
+  {
+    "id": 27,
+    "question": "CZYM NIE LUBIMY SIĘ DZIELIĆ?",
+    "answer1": "UBRANIAMI",
+    "answer2": "JEDZENIEM",
+    "answer3": "PIENIĘDZMI",
+    "answer4": "TAJEMNICAMI",
+    "answer5": "SZCZOTECZKĄ",
+    "answer6": "-"
+  },
+  {
+    "id": 28,
+    "question": "INSTRUMENT, KTÓRY TRUDNO BYŁOBY ZABRAĆ DO SAMOLOTU:",
+    "answer1": "FORTEPIAN",
+    "answer2": "PERKUSJA",
+    "answer3": "KONTRABAS",
+    "answer4": "HARFA",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 29,
+    "question": "JAKA MOŻE BYĆ KUCHENKA?",
+    "answer1": "GAZOWA",
+    "answer2": "INDUKCYJNA",
+    "answer3": "MIKROFALOWA",
+    "answer4": "ELEKTRYCZNA",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 30,
+    "question": "GRUBE ZWIERZACZKI:",
+    "answer1": "ŚWINIA",
+    "answer2": "SŁOŃ",
+    "answer3": "KROWA",
+    "answer4": "HIPOPOTAM",
+    "answer5": "FOKA",
+    "answer6": "-"
+  },
+  {
+    "id": 31,
+    "question": "JAKIE SĄ RODZAJE BUŁEK?",
+    "answer1": "KAJZERKA",
+    "answer2": "TARTA",
+    "answer3": "BAGIETKA",
+    "answer4": "RAZOWA",
+    "answer5": "MAŚLANA",
+    "answer6": "DROŻDŻOWA"
+  },
+  {
+    "id": 32,
+    "question": "JAKIE SĄ RODZAJE APARATU?",
+    "answer1": "FOTOGRAFICZNY",
+    "answer2": "SŁUCHOWY",
+    "answer3": "ORTODONTYCZNY",
+    "answer4": "GĘBOWY",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 33,
+    "question": "JAKIE SĄ RODZAJE GUMEK?",
+    "answer1": "",
+    "answer2": "DO MAZANIA",
+    "answer3": "RECEPTURKA",
+    "answer4": "DO WŁOSÓW",
+    "answer5": "PREZERWATYWA",
+    "answer6": ""
+  },
+  {
+    "id": 34,
+    "question": "JAKIE SĄ RODZAJE MAJTEK?",
+    "answer1": "BOKSERKI",
+    "answer2": "STRINGI",
+    "answer3": "SLIPY",
+    "answer4": "FIGI",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 35,
+    "question": "ATRYBUT ŻOŁNIERZA",
+    "answer1": "MUNDUR",
+    "answer2": "BROŃ",
+    "answer3": "HEŁM",
+    "answer4": "BUTY WOJSKOWE",
+    "answer5": "BERET",
+    "answer6": "-"
+  },
+  {
+    "id": 36,
+    "question": "ATRYBUTY KRÓLEWSKIE",
+    "answer1": "KORONA",
+    "answer2": "TRON",
+    "answer3": "ZAMEK",
+    "answer4": "JABŁKO",
+    "answer5": "BERŁO",
+    "answer6": "SZATA"
+  },
+  {
+    "id": 37,
+    "question": "BOGOWIE RZYMSCY",
+    "answer1": "JOWISZ",
+    "answer2": "WENUS",
+    "answer3": "MARS",
+    "answer4": "NEPTUN",
+    "answer5": "SATURN",
+    "answer6": "PLUTON"
+  },
+  {
+    "id": 38,
+    "question": "BOHATEROWIE SERIALU „ŚWIAT WEDŁUG KIEPSKICH”:",
+    "answer1": "FERDEK",
+    "answer2": "HALINKA",
+    "answer3": "PAŹDZIOCH",
+    "answer4": "BOCZEK",
+    "answer5": "WALDEK",
+    "answer6": "MARIOLKA"
+  },
+  {
+    "id": 39,
+    "question": "ATRYBUTY ŚW. MIKOŁAJA:",
+    "answer1": "PREZENTY",
+    "answer2": "SANIE",
+    "answer3": "CZERWONY STRÓJ",
+    "answer4": "RENIFERY",
+    "answer5": "BRODA",
+    "answer6": "WOREK"
+  },
+  {
+    "id": 40,
+    "question": "CO KUPIMY NA POLSKIEJ PLAŻY?",
+    "answer1": "KUKURYDZĘ",
+    "answer2": "PIWO",
+    "answer3": "LODY",
+    "answer4": "GOFRY",
+    "answer5": "Hot Doga",
+    "answer6": "Orzeszki"
+  },
+  {
+    "id": 41,
+    "question": "CO BARDZO TRUDNO POWIEDZIEĆ?",
+    "answer1": "KOCHAM CIĘ",
+    "answer2": "PRZEPRASZAM",
+    "answer3": "PRAWDĘ",
+    "answer4": "PROSZĘ",
+    "answer5": "DZIĘKUJĘ",
+    "answer6": "-"
+  },
+  {
+    "id": 42,
+    "question": "CO KOSZTUJE MNIEJ NIŻ ZŁOTÓWKĘ?",
+    "answer1": "JAJKO",
+    "answer2": "LIZAK",
+    "answer3": "DŁUGOPIS",
+    "answer4": "CUKIEREK",
+    "answer5": "GUMA DO ŻUCIA",
+    "answer6": "BUŁKA"
+  },
+  {
+    "id": 43,
+    "question": "CO MOŻEMY ZOBACZYĆ, ALE NIE MOŻEMY DOTKNĄĆ?",
+    "answer1": "CHMURY",
+    "answer2": "SŁOŃCE",
+    "answer3": "KSIĘŻYC",
+    "answer4": "TĘCZA",
+    "answer5": "ŚWIATŁO",
+    "answer6": "GWIAZDY"
+  },
+  {
+    "id": 44,
+    "question": "CZĘŚĆ CIAŁA NA 3 LITERY:",
+    "answer1": "OKO",
+    "answer2": "NOS",
+    "answer3": "UDO",
+    "answer4": "ZĄB",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 45,
+    "question": "INACZEJ UBIÓR:",
+    "answer1": "UBRANIE",
+    "answer2": "STRÓJ",
+    "answer3": "CIUCH",
+    "answer4": "KOSTIUM",
+    "answer5": "KREACJA",
+    "answer6": "SZATA"
+  },
+  {
+    "id": 46,
+    "question": "JAKĄ POTRAWĘ JEMY NAJGŁOŚNIEJ?",
+    "answer1": "CHIPSY",
+    "answer2": "POPCORN",
+    "answer3": "ZUPĘ",
+    "answer4": "MARCHEWKĘ",
+    "answer5": "PALUSZKI",
+    "answer6": "JABŁKO"
+  },
+  {
+    "id": 47,
+    "question": "JAKIE ZWIERZĘTA SĄ W POLSCE POD OCHRONĄ?",
+    "answer1": "ŻUBR",
+    "answer2": "RYŚ",
+    "answer3": "BIELIK",
+    "answer4": "BOCIAN",
+    "answer5": "ŻMIJA",
+    "answer6": "ZASKRONIEC"
+  },
+  {
+    "id": 48,
+    "question": "JAKIE KWIATY NAJCZĘŚCIEJ SADZIMY W OGRODZIE?",
+    "answer1": "TULIPANY",
+    "answer2": "RÓŻE",
+    "answer3": "LILIE",
+    "answer4": "FIOŁKI",
+    "answer5": "BRATKI",
+    "answer6": "-"
+  },
+  {
+    "id": 49,
+    "question": "Stacja Teleiwzyjna",
+    "answer1": "TVN",
+    "answer2": "Polsat",
+    "answer3": "TVP",
+    "answer4": "EskaTV",
+    "answer5": "MTV",
+    "answer6": "Puls"
+  },
+  {
+    "id": 50,
+    "question": "Znany teleturniej",
+    "answer1": "awantura o kase",
+    "answer2": "Gra w ciemno",
+    "answer3": "milionerzy",
+    "answer4": "Postaw na Milion",
+    "answer5": "The Wall",
+    "answer6": "-"
+  },
+  {
+    "id": 51,
+    "question": "Więcej niż jedno zwierze to?",
+    "answer1": "Owca",
+    "answer2": "Lama",
+    "answer3": "Stado",
+    "answer4": "Grupa",
+    "answer5": "Wataha",
+    "answer6": "-"
+  },
+  {
+    "id": 52,
+    "question": "WYGLĄDASZ PROFESJONALNIE NA CALLU, ALE CO MASZ NA SOBIE OD PASA W DÓŁ?",
+    "answer1": "bielizna",
+    "answer2": "Nic",
+    "answer3": "Leginsy",
+    "answer4": "Piżama",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 53,
+    "question": "NAZWIJ PRACĘ, KTÓRA ZACZYNA SIĘ OD LITERY J",
+    "answer1": "Jeździec",
+    "answer2": "jubiler",
+    "answer3": "Jasnowidz",
+    "answer4": "Jutuber",
+    "answer5": "Java Developer",
+    "answer6": "-"
+  },
+  {
+    "id": 54,
+    "question": "NAZWIJ PRACĘ, W KTÓREJ KRZYCZENIE JEST W PORZĄDKU",
+    "answer1": "trener sportowy",
+    "answer2": "Nauczyciel",
+    "answer3": "policjant",
+    "answer4": "strażak",
+    "answer5": "Makler giełdowy",
+    "answer6": "-"
+  },
+  {
+    "id": 55,
+    "question": "WYMIEŃ CZĘSTY POWÓD SPÓŹNIENIA DO PRACY",
+    "answer1": "korek",
+    "answer2": "zaspanie",
+    "answer3": "pogoda",
+    "answer4": "kłopoty z autem",
+    "answer5": "zapomnienie czegoś",
+    "answer6": "Kac"
+  },
+  {
+    "id": 56,
+    "question": "KAŻDY TWIERDZI, ŻE JEST W TYM DOBRY PODCZAS ROZMOWY O PRACĘ, CHOCIAŻ CZĘSTO TO KŁAMSTWO",
+    "answer1": "Obsługa MS Office",
+    "answer2": "Komunikacja",
+    "answer3": "Punktualność",
+    "answer4": "Wielozadaniowość",
+    "answer5": "Organizacja",
+    "answer6": "-"
+  },
+  {
+    "id": 57,
+    "question": "CO POWINNO ZNALEŹĆ SIĘ W OGŁOSZENIU O PRACĘ",
+    "answer1": "Wynagrodzenie",
+    "answer2": "Nazwa stanowiska",
+    "answer3": "Godziny",
+    "answer4": "Obowiązki",
+    "answer5": "Lokalizacja",
+    "answer6": "-"
+  },
+  {
+    "id": 58,
+    "question": "Co zmieniamy podczas jazdy samochodem?",
+    "answer1": "Biegi",
+    "answer2": "koła",
+    "answer3": "pasy",
+    "answer4": "nogi na pedałach",
+    "answer5": "-",
+    "answer6": "-"
+  },
+  {
+    "id": 59,
+    "question": "Jakie znasz drapieżne zwierze?",
+    "answer1": "Lew",
+    "answer2": "Tygrys",
+    "answer3": "Wilk",
+    "answer4": "Gepard",
+    "answer5": "Wąż",
+    "answer6": "-"
+  },
+  {
+    "id": 60,
+    "question": "Co musisz zabrać ze sobą w góry?",
+    "answer1": "Piwo",
+    "answer2": "Plecak",
+    "answer3": "buty",
+    "answer4": "kompas",
+    "answer5": "telefon",
+    "answer6": "prowiant"
+  },
+  {
+    "id": 61,
+    "question": "Podaj nazwę zielonego owocu",
+    "answer1": "Limonka",
+    "answer2": "Kiwi",
+    "answer3": "Jabłko",
+    "answer4": "niedojrzały banan",
+    "answer5": "awokado",
+    "answer6": "-"
+  },
+  {
+    "id": 62,
+    "question": "Wymień książkę napisaną przez Henryka Sienkiewicza",
+    "answer1": "Potop",
+    "answer2": "W pustyni i w puszczy",
+    "answer3": "Quo Vadis",
+    "answer4": "Ogniem i mieczem",
+    "answer5": "Krzyżacy",
+    "answer6": "Pan Wołodyjowski"
+  },
+  {
+    "id": 63,
+    "question": "Ma skrzydła i nie lata",
+    "answer1": "pingwin",
+    "answer2": "Kura",
+    "answer3": "Struś",
+    "answer4": "Tupolew",
+    "answer5": "Adam Małysz",
+    "answer6": "kiwi"
+  },
+  {
+    "id": 64,
+    "question": "Rywale Piasta w europejskich pucharach",
+    "answer1": "Bate borysów",
+    "answer2": "FK Kopenhaga",
+    "answer3": "IFK Goteborg",
+    "answer4": "Qarabag Agdam",
+    "answer5": "Dynamo Mińsk",
+    "answer6": "Fc Ryga"
+  },
+  {
+    "id": 65,
+    "question": "Kluby ekstraklasy sezonu 2021/2022, które nigdy wczesniej nie były mistrzami Polski",
+    "answer1": "Raków Częstochowa",
+    "answer2": "Pogoń Szczecin",
+    "answer3": "Jagiellonia Białystok",
+    "answer4": "Lechia Gdańsk",
+    "answer5": "Radomiak Radom",
+    "answer6": "Wisła Płock"
+  },
+  {
+    "id": 66,
+    "question": "Byli prezesi Piasta Gliwice",
+    "answer1": "Paweł Żelem",
+    "answer2": "Adam Sarkowicz",
+    "answer3": "Marek Kwiatek",
+    "answer4": "Grzegorz Jaworski",
+    "answer5": "Jarosław Kołodziejczyk",
+    "answer6": "Józef Drabicki"
+  },
+  {
+    "id": 67,
+    "question": "Najwięcej razy wygrali lige mistrzów",
+    "answer1": "Real Madryt",
+    "answer2": "AC Milan",
+    "answer3": "Bayern Monachium",
+    "answer4": "Liverpool",
+    "answer5": "FC Barcelona",
+    "answer6": "Ajax Amsterdam"
+  },
+  {
+    "id": 68,
+    "question": "Najwięcej razy wygrali lige Europy",
+    "answer1": "Sevilla FC",
+    "answer2": "Inter Mediolan",
+    "answer3": "Liverpool",
+    "answer4": "Juventus Turyn",
+    "answer5": "Atletico Madryt",
+    "answer6": "Tottenham Hotspur"
+  }
+]

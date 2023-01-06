@@ -27,6 +27,10 @@ export class ClubCrestsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.init()
+  }
+
+  init(){
     this.random1 = this.questionDataService.getClubCrestsQuestion()
     this.setSize()
     this.isModalVisible = true;
@@ -34,10 +38,11 @@ export class ClubCrestsComponent implements OnInit {
   }
 
   close() {
+    this.playerService.setModal(false);
     this.isVisible = false;
-    this.isModalVisible = false
     this.answer = ''
     this.playerService.nextPlayer()
+    this.init()
   }
 
   showAnswer() {
