@@ -27,7 +27,7 @@ export class MultipleChoiceComponent implements OnInit {
     public playerService: PlayersService) {
   }
 
-  ngOnInit(): void {
+  init(){
     this.timerService.setTimer(1)
     this.settedQuestion = this.questionDataService.getMultipleChoiceQuestion()
     const arrray = [this.settedQuestion.a, this.settedQuestion.b, this.settedQuestion.c]
@@ -45,14 +45,20 @@ export class MultipleChoiceComponent implements OnInit {
     this.answer = this.settedQuestion.answer
   }
 
+  ngOnInit(): void {
+   this.init()
+  }
+
   close() {
     this.isVisible = false;
-    this.isModalVisible = false
     this.answer = ''
     this.correct = false
     this.submitAnswerButtonEnabled = true
     this.answerButtonsDisabled = false
     this.playerService.nextPlayer()
+    this.init()
+    this.playerService.setModal(false);
+    this.selectedAnswer = ''
   }
 
   showAnswer() {

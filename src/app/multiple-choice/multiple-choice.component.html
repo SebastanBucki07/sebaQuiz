@@ -1,4 +1,4 @@
-<ng-container *ngIf="isModalVisible">
+<ng-container *ngIf="playerService.isModalVisible">
   <app-background-sound></app-background-sound>
   <div class="modal">
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
@@ -6,8 +6,8 @@
     <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
       <h2 class="d-none d-lg-flex font-weight-bold">Kategoria: {{settedQuestion.category}}</h2>
       <h4 class="d-md-flex d-lg-none font-weight-bold">Kateogria: {{settedQuestion.category}}</h4>
-      <h2 class="d-none d-lg-flex font-weight-bold">Twoja odpowiedź: {{settedQuestion.text}}</h2>
-      <h4 class="d-md-flex d-lg-none font-weight-bold">Twoja odpowiedź:{{settedQuestion.text}}</h4>
+      <h2 class="d-none d-lg-flex font-weight-bold">Pytanie: {{settedQuestion.text}}</h2>
+      <h4 class="d-md-flex d-lg-none font-weight-bold">Pytanie:{{settedQuestion.text}}</h4>
       <ng-container *ngIf="isVisible">
         <h2 class="d-none d-lg-flex font-weight-bold">Poprawna odpowiedź: {{settedQuestion.answer}}</h2>
         <h4 class="d-md-flex d-lg-none font-weight-bold">Poprawna odpowiedź: {{settedQuestion.answer}}</h4>
