@@ -1,5 +1,5 @@
 .card-title{
-  color: black;
+  color: #000000;
 }
 
 .row{
@@ -20,7 +20,7 @@
 }
 
 .correct{
-  color:greenyellow;
+  color: #adff2f;
   padding-bottom: 20px;
   font-size: 6vw;
 }
@@ -39,22 +39,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
-}
-
-.modal {
-  display: inline;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 45px;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: #5710B2;
-  color: white;
-  font-size: 2vw;
-  text-align: center;
-  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 @keyframes example {

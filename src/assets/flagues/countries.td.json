@@ -192,7 +192,7 @@
     "id":22,
     "name": " Boliwia",
     "continent": "Ameryka Południowa",
-    "capital": "Sucre (stolica konstytucyjna), La Paz (siedziba rządu)",
+    "capital": "Sucre",
     "surface":1098580,
     "population":9248000,
     "code": "BO"
@@ -579,7 +579,7 @@
     "id":65,
     "name": " Holandia",
     "continent": "Europa",
-    "capital": "Amsterdam (stolica konstytucyjna), Haga (stolica administracyjna)",
+    "capital": "Amsterdam",
     "surface":41526,
     "population":16509303,
     "code": "NL"
@@ -597,7 +597,7 @@
     "id":67,
     "name": " Indie",
     "continent": "Azja",
-    "capital": "Nowe Delhi",
+    "capital": "New Delhi",
     "surface":3287590,
     "population":1166079217,
     "code": "IN"
@@ -642,7 +642,7 @@
     "id":72,
     "name": " Islandia",
     "continent": "Europa",
-    "capital": "Reykjavík",
+    "capital": "Reykjavik",
     "surface":103125,
     "population":306694,
     "code": "IS"
@@ -651,7 +651,7 @@
     "id":73,
     "name": " Izrael",
     "continent": "Azja",
-    "capital": "Jerozolima[30][31]",
+    "capital": "Jerozolima",
     "surface":22072,
     "population":7653600,
     "code": "IL"
@@ -731,8 +731,8 @@
   {
     "id":82,
     "name": " Kazachstan",
-    "continent": "Azja, Europa",
-    "capital": "Nur-Sułtan",
+    "continent": "Azja",
+    "capital": "Astana",
     "surface":2717300,
     "population":15399437,
     "code": "KZ"
@@ -813,7 +813,7 @@
     "id":91,
     "name": " Kostaryka",
     "continent": "Ameryka Północna",
-    "capital": "San José",
+    "capital": "San Jose",
     "surface":51100,
     "population":4325000,
     "code": "CR"
@@ -1200,7 +1200,7 @@
     "id":134,
     "name": " Paragwaj",
     "continent": "Ameryka Południowa",
-    "capital": "Asunción",
+    "capital": "Asuncion",
     "surface":406750,
     "population":6670000,
     "code": "PY"
@@ -1225,9 +1225,9 @@
   },
   {
     "id":137,
-    "name": " Południowa Afryka",
+    "name": "RPA",
     "continent": "Afryka",
-    "capital": "Pretoria (stolica egzekutywna)",
+    "capital": "Pretoria",
     "surface":1219912,
     "population":48783000,
     "code": "ZA"
@@ -1470,7 +1470,7 @@
     "id":164,
     "name": " Szwajcaria",
     "continent": "Europa",
-    "capital": "brak oficjalnej stolicy, siedzibą rządu jest Berno",
+    "capital": "Berno",
     "surface":41290,
     "population":7725200,
     "code": "CH"
@@ -1524,7 +1524,7 @@
     "id":170,
     "name": " Togo",
     "continent": "Afryka",
-    "capital": "Lomé",
+    "capital": "Lome",
     "surface":56785,
     "population":5400000,
     "code": "TG"
@@ -1713,7 +1713,7 @@
     "id":191,
     "name": " Wyspy Świętego Tomasza i Książęca",
     "continent": "Afryka",
-    "capital": "Sao Tomé",
+    "capital": "Sao Tome",
     "surface":1001,
     "population":193410,
     "code": "ST"

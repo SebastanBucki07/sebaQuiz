@@ -6,7 +6,7 @@
   margin-left: 40px;
   margin-top: 10px;
   background-color: rgba(32,212,137,255);
-  color: black;
+  color: #000000;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -19,8 +19,8 @@
   padding: 10px;
   margin-left: 40px;
   margin-top: 10px;
-  background-color: blue;
-  color: white;
+  background-color: #0000ff;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -29,8 +29,8 @@
   padding: 10px;
   margin-left: 40px;
   margin-top: 10px;
-  background-color: blue;
-  color: white;
+  background-color: #0000ff;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -39,8 +39,8 @@
   padding: 10px;
   margin-left: 40px;
   margin-top: 10px;
-  background-color: blue;
-  color: white;
+  background-color: #0000ff;
+  color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -53,22 +53,6 @@
   /*display:none;*/
   display: inline;
   z-index: 5;
-}
-
-.modal {
-  display: inline;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 45px;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: #5710B2;
-  color: white;
-  font-size: 2vw;
-  text-align: center;
-  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
 .close-button{
@@ -84,7 +68,7 @@
 }
 
 .correct{
-  color:greenyellow;
+  color: #adff2f;
   font-size: xxx-large;
   padding-bottom: 20px;
 }
@@ -124,7 +108,7 @@
     /*width: 85vw;*/
     /*padding: 10vw;*/
     background-color: #5710B2;
-    color: white;
+    color: #ffffff;
   }
   .answers {
     display: grid;
@@ -144,7 +128,7 @@
     /*width: 80vw;*/
     /*padding: 10vw;*/
     background-color: #5710B2;
-    color: white;
+    color: #ffffff;
   }
   .answers {
     display: grid;

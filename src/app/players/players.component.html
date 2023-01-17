@@ -1,11 +1,12 @@
-<h2>1. Aby zagrać dodaj <strong>minimum dwie drużyny!</strong></h2>
-<h2>2. Nazwa drużyny <strong>nie może</strong> być krótsza niż 4 znaki!</h2>
+<h2 class="title">1. Aby zagrać dodaj <strong>minimum dwie drużyny!</strong></h2>
+<h2 class="title">2. Nazwa drużyny <strong>nie może</strong> być krótsza niż 4 znaki!</h2>
 <div *ngIf="addTeamInputVisible">
   <input type="text" [value]="name" (input)="save($event)"
          placeholder="team name"
+         id="inputForAddPlayer"
          aria-label="teamName" aria-describedby="basic-addon1">
-  <button [disabled]="addTeamButtonDisabled" type="button" (click)="addTeam(name)">Dodaj drużynę</button>
-  <button [disabled]="addTeamsButtonDisabled" type="button" (click)="hideInput()">Druzyny dodane</button>
+  <button id="addTeam" [disabled]="addTeamButtonDisabled" type="button" (click)="addTeam(name)">Dodaj drużynę</button>
+  <button id="addTeamCompleted" [disabled]="addTeamsButtonDisabled" type="button" (click)="hideInput()">Druzyny dodane</button>
 </div>
 
 <!--<div class="table-responsive">

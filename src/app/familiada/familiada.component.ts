@@ -139,7 +139,7 @@ export class FamiliadaComponent implements OnInit {
     const input = document.getElementById('userAnswer') as HTMLInputElement | null;
     const value = input?.value;
     if (input != null) {
-      let tmp = this.answers.findIndex(el => el.answer.toLowerCase() === value)
+      let tmp = this.answers.findIndex(el => el.answer.toLowerCase() === value?.toLowerCase())
       if (tmp !== -1) {
         if (!this.answers[tmp].display) {
           this.answers[tmp].display = true;

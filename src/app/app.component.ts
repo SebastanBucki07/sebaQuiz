@@ -42,7 +42,7 @@ export class AppComponent {
   ]
   public musicCategories: Category[] = [
     {name: "Fragmenty piosenek", id: 1, checkbox: false},
-    // {name: "Jaka to melodia?", id: 16, checkbox: false},
+    {name: "Jaka to melodia?", id: 16, checkbox: false},
     {name: "Rozpoznaj artystę po tytułach piosenek", id: 21, checkbox: false},
   ]
   public footballCategories: Category[] = [

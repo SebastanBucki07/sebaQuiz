@@ -14,22 +14,6 @@
   padding-bottom: 50px !important;
 }
 
-.modal {
-  display: inline;
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 45px;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  color: white;
-  font-size: 2vw;
-  text-align: center;
-  background-color: #5710B2;
-  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-}
-
 .green{
   background-color: rgba(32,212,137,255);
 }
@@ -48,7 +32,7 @@
     /*width: 85vw;*/
     /*padding: 10vw;*/
     background-color: #5710B2;
-    color: white;
+    color: #ffffff;
   }
   .answers {
     display: grid;
@@ -68,7 +52,7 @@
     /*width: 80vw;*/
     /*padding: 10vw;*/
     background-color: #5710B2;
-    color: white;
+    color: #ffffff;
   }
   .answers {
     display: grid;

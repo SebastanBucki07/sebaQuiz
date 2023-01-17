@@ -8,7 +8,7 @@
         <h2 class="text-center">Familiada</h2>
         <ng-container *ngIf="isVisible">
           <div class="info">
-            <button type="button" class="btn btn-success"
+            <button type="button" class="btn btn-success addPointsButton"
                     (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}} punkty
             </button>
           </div>
@@ -43,7 +43,7 @@
           </tbody>
         </table>
         <ng-container *ngIf="!isVisible">
-          <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+          <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
             odp
           </button>
         </ng-container>
