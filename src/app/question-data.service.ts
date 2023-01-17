@@ -4,7 +4,7 @@ import youtubeSerialsIntroData from "../assets/youTube/youtubeSerialsIntros.json
 import youtubeMundialData from "../assets/youTube/youtubeMundialSongs.json"
 import {getAndDeleteRandomElementFromArray} from "../common/randomize.helper";
 import {YoutubeModel} from "./model/youtube-model";
-import famousPeopleData from "../assets/photos/famousPeople.json";
+import famousPeopleData from "../assets/photos/famousPeopleForCategory.json";
 import multipleChoiceData from "../assets/multipleChoice/multipleChoice.json"
 import buildingsData from "../assets/photos/buildings.json";
 import {PhotoModel} from "./model/photo-model";
