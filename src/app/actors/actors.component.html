@@ -3,19 +3,19 @@
   <div class="modal">
     <i class="bi bi-x-circle"></i>
 
-    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
       odp
     </button>
     <div class="row">
       <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
       <app-timer></app-timer>
       <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
-        <h2 class="d-none d-lg-flex font-weight-bold">{{question}}</h2>
-        <h4 class="d-md-flex d-lg-none font-weight-bold">{{question}}</h4>
+        <h2 class="d-none d-lg-flex font-weight-bold question">{{question}}</h2>
+        <h4 class="d-md-flex d-lg-none font-weight-bold question">{{question}}</h4>
         <ng-container *ngIf="isVisible">
           <div class="info">
             <div class="correct col-12 ">{{answer}}
-              <button type="button" class="btn btn-success"
+              <button type="button" class="btn btn-success addPointsButton"
                       (click)="playerService.addPoints(playerService.actualPlayer,2);close()">Dodaj 2 punkty
               </button></div>
 

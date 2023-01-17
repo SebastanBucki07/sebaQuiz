@@ -3,7 +3,7 @@
   <div class="modal">
     <i class="bi bi-x-circle"></i>
 
-    <button type="button" class="btn btn-primary btn-lg btn-block answer" (click)="showAnswer()">
+    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
       odp
     </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
@@ -19,7 +19,7 @@
       <ng-container *ngIf="isVisible">
         <div class="info">
           <div class="correct col-12">{{answer}}
-            <button type="button" class="btn btn-success"
+            <button type="button" class="btn btn-success addPointsButton"
                     (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}} punkty
             </button>
           </div>
