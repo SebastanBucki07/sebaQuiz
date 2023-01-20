@@ -1,10 +1,11 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import youtubeSongData from "../assets/youTube/youtubeSongs.json";
 import youtubeSerialsIntroData from "../assets/youTube/youtubeSerialsIntros.json";
 import youtubeMundialData from "../assets/youTube/youtubeMundialSongs.json"
 import {getAndDeleteRandomElementFromArray} from "../common/randomize.helper";
 import {YoutubeModel} from "./model/youtube-model";
 import famousPeopleData from "../assets/photos/famousPeopleForCategory.json";
+import footballGamesData from "../assets/football/footballGames.json"
 import multipleChoiceData from "../assets/multipleChoice/multipleChoice.json"
 import buildingsData from "../assets/photos/buildings.json";
 import {PhotoModel} from "./model/photo-model";
@@ -37,7 +38,7 @@ import {ActorModel} from "./model/actor-model";
 import {TipsModel} from "./model/tips-model";
 import {QuestionMultipleChoice} from "./model/question-model";
 import {FamiliadaModel} from "./model/familiada-model";
-
+import {FootballGamesModel} from "./model/footballgames-model";
 
 
 @Injectable({
@@ -45,6 +46,7 @@ import {FamiliadaModel} from "./model/familiada-model";
 })
 export class QuestionDataService {
   public allFamiliadaData: FamiliadaModel[] = []
+  public allFootballGames: FootballGamesModel[] = []
   public allYoutubeSongs: YoutubeModel[] = []
   public allYoutubeSerialIntros: YoutubeModel[] = []
   public allYoutubeMundial: YoutubeModel[] = []
@@ -63,7 +65,7 @@ export class QuestionDataService {
   public allFootball: DescriptionModel[] = []
   public allMultipleChoice: QuestionMultipleChoice[] = []
   public allHistory: DescriptionModel[] = []
-  public allGods:DescriptionModel[] = []
+  public allGods: DescriptionModel[] = []
   public allCountries: Country[] = []
   public allMoviesActors: ActorModel[] = []
   public allSerialsActors: ActorModel[] = []
@@ -78,10 +80,10 @@ export class QuestionDataService {
   public allClubsCrests: string[] = []
   public init = false
 
-  constructor() { }
+  constructor() {
+  }
 
-  initial(){
-    console.log('initial sdasdas')
+  initial() {
     this.allYoutubeSongs = youtubeSongData
     this.allYoutubeMundial = youtubeMundialData
     this.allClubsCrests = clubCrestsData
@@ -96,6 +98,7 @@ export class QuestionDataService {
     this.allBiology = biologyData
     this.allMultipleChoice = multipleChoiceData
     this.allFootball = allFootballData
+    this.allFootballGames = footballGamesData
     this.allMoviesActors = movieActors
     this.allGods = godsData
     this.allSerialsActors = serialActors
@@ -117,147 +120,154 @@ export class QuestionDataService {
     this.init = true
   }
 
-  getChemistQuestion(){
+  getChemistQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allChemicalElements)
   }
 
-  getMultipleChoiceQuestion(){
+  getMultipleChoiceQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allMultipleChoice)
   }
 
-  getMundialQuestion(){
+  getMundialQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allYoutubeMundial)
   }
 
-  getFamiliadaQuestion(){
+  getFamiliadaQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allFamiliadaData)
   }
 
-  getFootballQuestion(){
+  getFootballGameQuestion() {
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allFootballGames)
+  }
+
+  getFootballQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allFootball)
   }
 
-  getDirectorsQuestion(){
+  getDirectorsQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allDirectorsData)
   }
 
-  getGodsQuestion(){
+  getGodsQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allGods)
   }
 
-  getBiologyQuestion(){
+  getBiologyQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allBiology)
   }
 
-  getYoutubeSongQuestion(){
+  getYoutubeSongQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allYoutubeSongs)
   }
 
-  getYoutubeSerialsQuestion(){
+  getYoutubeSerialsQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allYoutubeSerialIntros)
   }
 
-  getFamousPeoplePhotoQuestion(){
+  getFamousPeoplePhotoQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allFamousPeople)
   }
 
-  getBuildingsPhotoQuestion(){
+  getBuildingsPhotoQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allBuilding)
   }
 
-  getMoviesDescriptionQuestion(){
+  getMoviesDescriptionQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allMovies)
   }
 
-  getSerialsDescriptionQuestion(){
+  getSerialsDescriptionQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allSerials)
   }
 
-  getGamesDescriptionQuestion(){
+  getGamesDescriptionQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allGames)
   }
 
-  getDistrictsDescriptionQuestion(){
+  getDistrictsDescriptionQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allDisctricts)
   }
 
-  getStadiumQuestion(){
+  getStadiumQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allStadiums)
   }
 
-  getProverbQuestion(){
+  getProverbQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allProverbs)
   }
 
-  getHistoryQuestion(){
+  getHistoryQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allHistory)
   }
 
-  getMoviesHeroQuestion(){
+  getMoviesHeroQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allMoviesHero)
   }
 
-  getSerialsHeroQuestion(){
+  getSerialsHeroQuestion() {
     if (!this.init) {
       this.initial()
     }
@@ -297,28 +307,28 @@ export class QuestionDataService {
     }
   }
 
-  getClubCrestsQuestion(){
+  getClubCrestsQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allClubsCrests)
   }
 
-  getClubHistoryQuestion(){
+  getClubHistoryQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allClubsHistoryQuestion)
   }
 
-  getSerialsActorsQuestion(){
+  getSerialsActorsQuestion() {
     if (!this.init) {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allSerialsActors)
   }
 
-  getMoviesActorsQuestion(){
+  getMoviesActorsQuestion() {
     if (!this.init) {
       this.initial()
     }

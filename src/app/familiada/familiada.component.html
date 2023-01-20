@@ -6,14 +6,38 @@
     <div class="row">
       <div class="col-12">
         <h2 class="text-center">Familiada</h2>
-        <ng-container *ngIf="isVisible">
+        <h2 class="text-center">{{random1.question}}</h2>
+        <ng-container *ngIf="winner !== null">
           <div class="info">
-            <button type="button" class="btn btn-success addPointsButton"
-                    (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}} punkty
-            </button>
+            <div class="correct col-12 ">
+              <button type="button" class="btn btn-success addPointsButton"
+                      (click)="playerService.addPoints(players[0].id,points);close()">
+                Dodaj {{points}} punkty {{players[0].name}}
+              </button>
+            </div>
           </div>
         </ng-container>
-        <h2 class="text-center">{{random1.question}}</h2>
+        <ng-container *ngIf="!isVisible">
+          <h2>Aktualna drużyna: {{actualPlayer.name}}</h2>
+          <div class="table table-responsive table-bordered table-striped">
+            <table class="table">
+              <thead class="thead-dark">
+              <tr>
+                <th>Drużyna</th>
+                <th>Złe odpowiedzi</th>
+              </tr>
+              </thead>
+              <tr *ngFor="let row of players">
+                <td>
+                  {{row.name}}
+                </td>
+                <td>
+                  {{row.wrong}}/3
+                </td>
+              </tr>
+            </table>
+          </div>
+        </ng-container>
         <input [disabled]="blockedButton" id="userAnswer" type="text" class="form-control country-input"
                [value]="userAnswer"
                placeholder="userAnswer"
@@ -42,11 +66,6 @@
           </tr>
           </tbody>
         </table>
-        <ng-container *ngIf="!isVisible">
-          <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
-            odp
-          </button>
-        </ng-container>
       </div>
     </div>
   </div>

@@ -14,27 +14,30 @@
     </ng-container>
     <ng-container *ngIf="!isVisible">
       <h2>Aktualna drużyna: {{actualPlayer.name}}</h2>
-    <div class="table table-responsive table-bordered table-striped">
-      <table class="table">
-        <thead class="thead-dark">
-        <tr>
-          <th>Drużyna</th>
-          <th>Złe odpowiedzi</th>
-        </tr>
-        </thead>
-        <tr *ngFor="let row of players">
-          <td>
-            {{row.name}}
-          </td>
-          <td>
-            {{row.wrong}}/3
-          </td>
-        </tr>
-      </table>
-    </div>
+      <h2>Pomyłki: {{actualPlayer.wrong}}/3</h2>
+      <div class="table table-responsive table-bordered table-striped">
+        <table class="table">
+          <thead class="thead-dark">
+          <tr>
+            <th>Drużyna</th>
+            <th>Złe odpowiedzi</th>
+          </tr>
+          </thead>
+          <tr *ngFor="let row of players">
+            <td>
+              {{row.name}}
+            </td>
+            <td>
+              {{row.wrong}}/3
+            </td>
+          </tr>
+        </table>
+      </div>
     </ng-container>
     <div class="row countries">
-      <h1>{{question.questionName}} {{tip}}</h1>
+
+      <h1>{{question}}</h1>
+      <h1>{{tip}}</h1>
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1"></span>
         <input [disabled]="blockedButton" id="userAnswer" type="text" class="form-control country-input"
@@ -45,7 +48,7 @@
           Sprawdź
         </button>
       </div>
-      <div class="col-2 country" *ngFor="let answer of this.answersForCountries;"
+      <div class="col-2 country" *ngFor="let answer of this.answerForSquad;"
            id="{{answer.inputAnswer.toLowerCase()}}">
         <ng-container *ngIf="answer.display">
           <p>{{ answer.inputAnswer }}</p>

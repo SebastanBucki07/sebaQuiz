@@ -51,6 +51,7 @@ export class AppComponent {
     {name: "Stadiony świata", id: 9, checkbox: false},
     {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
     {name: "Zawodnik/klub/reprezentacja", id: 27, checkbox: false},
+    {name: "Był taki mecz", id: 32, checkbox: false},
   ]
   public lifeCategories: Category[] = [
     // {name: "Przysłowia", id: 10, checkbox: false},

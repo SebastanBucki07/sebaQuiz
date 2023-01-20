@@ -48,6 +48,7 @@ export class CategoriesComponent implements OnInit {
     {name: "Z jakiego krjau jest ta flaga?", id: 29, checkbox: false},
     {name: "Stolice krajów?", id: 30, checkbox: false},
     {name: "Familiada", id: 31, checkbox: false},
+    {name: "Był taki mecz", id: 32, checkbox: false},
   ]
   public smallCategories: Category[] = [
     {name: "Filmy", id: 0, checkbox: false},
@@ -109,7 +110,6 @@ export class CategoriesComponent implements OnInit {
           id: category.id,
           checkbox: false
         })
-      console.log(`all categories: ${JSON.stringify(this.allCategories)}`)
     }
     this.validNumberOfRequiredCategory()
   }

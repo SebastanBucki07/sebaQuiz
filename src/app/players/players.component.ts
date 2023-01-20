@@ -9,6 +9,12 @@ export interface Player {
   tmpPoints:number
 }
 
+export interface PlayerForFamiliada {
+  id: number,
+  name: string,
+  wrong:number
+}
+
 @Component({
   selector: 'app-players',
   templateUrl: './players.component.html',
@@ -37,7 +43,7 @@ export class PlayersComponent implements OnInit {
   }
 
   addTeam(name: string) {
-    const playerLength = this.players.length-1
+    const playerLength = this.players.length
     const player: Player = {
       id: playerLength,
       name: name,
