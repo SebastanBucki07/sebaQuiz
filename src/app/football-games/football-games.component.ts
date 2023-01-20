@@ -38,7 +38,6 @@ export class FootballGamesComponent implements OnInit {
 
   setPlayersForFamiliada() {
     const tmp = this.playerService.getPlayers();
-    console.log(`players:${JSON.stringify(tmp)}`)
     tmp.forEach((player) => {
       this.players.push({
         id: player.id,
@@ -55,13 +54,11 @@ export class FootballGamesComponent implements OnInit {
   }
 
   nextPlayer() {
-    console.log(`players: ${JSON.stringify(this.players)}`)
     if (this.actualPlayer.wrong >= 3) {
       const index = this.players.indexOf(this.actualPlayer, 0);
       if (index > -1) {
         this.players.splice(index, 1);
       }
-      console.log(`players after delete: ${JSON.stringify(this.players)}`)
     }
     if (this.players.length === 1) {
       this.winner = this.players[0]

@@ -110,7 +110,6 @@ export class CategoriesComponent implements OnInit {
           id: category.id,
           checkbox: false
         })
-      console.log(`all categories: ${JSON.stringify(this.allCategories)}`)
     }
     this.validNumberOfRequiredCategory()
   }

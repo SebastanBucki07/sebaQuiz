@@ -36,7 +36,6 @@ export class MultipleChoiceComponent implements OnInit {
     do {
       let tmp = getAndDeleteRandomElementFromArray(indexes)
       array2.push(arrray[tmp])
-      console.log(arrray[tmp])
     } while (indexes.length > 0)
     this.settedQuestion.a = array2[0]
     this.settedQuestion.b = array2[1]
