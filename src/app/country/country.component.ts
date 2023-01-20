@@ -7,7 +7,7 @@ import {QuestionDataService} from "../question-data.service";
 import {TimerService} from "../timer.service";
 
 export class Question {
-  id: number = 0
+  id: number = 0;
   questionName: string = ''
 }
 
@@ -18,9 +18,9 @@ export class Question {
 })
 export class CountryComponent implements OnInit {
   public countries: Country[] = [];
-  public answersForCountries: Country[] = []
-  public countryForQuestion: Country | any = {}
-  public continentForQuestion: string | any = ""
+  public answersForCountries: Country[] = [];
+  public countryForQuestion: Country | any = {};
+  public continentForQuestion: string | any = "";
   public isVisible = false;
   public isModalVisible = false;
   public showMessage: boolean = false;
@@ -36,12 +36,12 @@ export class CountryComponent implements OnInit {
     {id: 3, questionName: 'Wymień wszystkie stolice z '},
     {id: 4, questionName: 'Wymień kraje na literę '},
     {id: 5, questionName: 'Wymień stolice na literę '}
-  ]
+  ];
 
   public length: number = 0;
-  public country: string | undefined = ''
-  public points: number = 0
-  public successMessage: string = 'Już było!'
+  public country: string | undefined = '';
+  public points: number = 0;
+  public successMessage: string = 'Już było!';
 
 
   constructor(

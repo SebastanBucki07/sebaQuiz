@@ -27,6 +27,7 @@ import {DirectorsComponent, MoviesHeroComponent, SerialsHeroComponent, TipsCompo
 import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.component';
 import { BackgroundSoundComponent } from './background-sound/background-sound.component';
 import { FamiliadaComponent } from './familiada/familiada.component';
+import { FootballGamesComponent } from './football-games/football-games.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { FamiliadaComponent } from './familiada/familiada.component';
     BackgroundSoundComponent,
     FlaguesComponent,
     CapitalsComponent,
-    FamiliadaComponent
+    FamiliadaComponent,
+    FootballGamesComponent
   ],
   imports: [
     BrowserModule,

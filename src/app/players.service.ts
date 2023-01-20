@@ -1,36 +1,36 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Player} from "./players/players.component";
 
 @Injectable({
   providedIn: 'root'
 })
 export class PlayersService {
-  public players:Player[] = []
-  public actualPlayer:number = 0
-  public chosen: boolean
-  public isModalVisible = false
+  public players: Player[] = [];
+  public actualPlayer: number = 0;
+  public chosen: boolean;
+  public isModalVisible = false;
 
   constructor() {
-    this.chosen= true;
+    this.chosen = true;
   }
 
-  setPlayers(players:Player[]){
+  setPlayers(players: Player[]) {
     this.players = players
   }
 
-  setModal(modal:boolean){
+  setModal(modal: boolean) {
     this.isModalVisible = modal
   }
 
-  setActualPlayer(playerId:number){
+  setActualPlayer(playerId: number) {
     this.actualPlayer = playerId
   }
 
-  getPlayers():Player[]{
+  getPlayers(): Player[] {
     return this.players
   }
 
-  acceptPlayers(){
+  acceptPlayers() {
     this.chosen = false
   }
 
@@ -45,5 +45,4 @@ export class PlayersService {
       this.setActualPlayer(this.actualPlayer + 1)
     }
   }
-
 }
