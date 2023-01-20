@@ -4,7 +4,8 @@ import {randomFromArray} from "../../common/randomize.helper";
 import {PlayersService} from "../players.service";
 import data from "../../assets/flagues/countries.td.json"
 import {QuestionDataService} from "../question-data.service";
-import {TimerService} from "../timer.service";
+import {PlayerForFamiliada} from "../players/players.component";
+import {InputAnswerModel} from "../model/footballgames-model";
 
 export class Question {
   id: number = 0;
@@ -17,20 +18,23 @@ export class Question {
   styleUrls: ['./country.component.css']
 })
 export class CountryComponent implements OnInit {
+  public actualPlayer: PlayerForFamiliada | any = null;
   public countries: Country[] = [];
-  public answersForCountries: Country[] = [];
+  public answersForCountries: InputAnswerModel[] = [];
   public countryForQuestion: Country | any = {};
   public continentForQuestion: string | any = "";
+  public blockedButton = false;
   public isVisible = false;
   public isModalVisible = false;
   public showMessage: boolean = false;
   public letterForCountriesQuestions: string | any = ""
   public question: any
   public answer: string = ''
-  public correct:number = 0
+  public inputAnswer: string | undefined = '';
+  public correct: number = 0
+  public players: PlayerForFamiliada[] = [];
   public tip: string = ''
   public photos = data
-  public multiply = 1
   public questions: Question[] = [
     {id: 2, questionName: 'Wymień wszystkie kraje z '},
     {id: 3, questionName: 'Wymień wszystkie stolice z '},
@@ -42,11 +46,11 @@ export class CountryComponent implements OnInit {
   public country: string | undefined = '';
   public points: number = 0;
   public successMessage: string = 'Już było!';
+  public winner: PlayerForFamiliada | any = null;
 
 
   constructor(
     private questionDataService: QuestionDataService,
-    private timerService: TimerService,
     public playerService: PlayersService
   ) {
   }
@@ -55,65 +59,87 @@ export class CountryComponent implements OnInit {
     this.getQuestion()
   }
 
-
-  setMultiply(multiply: number) {
-    this.multiply = multiply
+  setPlayersForFamiliada() {
+    if (this.players.length >=1){
+      this.players = []
+    }
+    const tmp = this.playerService.getPlayers();
+    tmp.forEach((player) => {
+      this.players.push({
+        id: player.id,
+        name: player.name,
+        wrong: 0
+      })
+    })
+    let playerIndex = this.players.findIndex(el => el.id === this.playerService.actualPlayer)
+    this.setActualPlayer(this.players[playerIndex])
   }
 
-  setMultiplyForContinent(continent: string) {
-    switch (continent) {
-      case 'Europa':
-        this.setMultiply(1)
-        break;
-      case 'Afryka':
-        this.setMultiply(1)
-        break
-      case 'Ameryka Południowa':
-        this.setMultiply(1)
-        break
-      case 'Ameryka Północna':
-        this.setMultiply(1)
-        break
-      case 'Australia i Oceania':
-        this.setMultiply(2)
-        break
-      case 'Azja':
-        this.setMultiply(1)
-        break
-    }
+  setWinner(){
+    this.winner = this.players[0]
+    this.blockedButton=true
+    this.isVisible = true
+    this.showAnswer()
   }
 
   getQuestion(): void {
+    this.setPlayersForFamiliada()
+    this.points = 5;
     this.question = randomFromArray(this.questions)
-    this.points=0
     this.countries = this.questionDataService.getCountries('allCountries')
     this.getData(this.question.id)
-    this.isModalVisible = true;
   }
 
   getCountryForLetter(letter: string) {
-    this.answersForCountries = [...this.countries.filter(country => country.name[0] === letter)]
-    this.length = this.answersForCountries.length
+    const tmp = [...this.countries.filter(country => country.name[0] === letter)]
+    tmp.forEach((country) => {
+      this.answersForCountries.push(
+        {
+          inputAnswer: country.name,
+          display: false
+        }
+      )
+    })
   }
 
   getCapitalsForLetter(letter: string) {
-    this.answersForCountries = [...this.countries.filter(country => country.capital[0] === letter)]
-    this.length = this.answersForCountries.length
+    const tmp = [...this.countries.filter(country => country.capital[0] === letter)]
+    tmp.forEach((country) => {
+      this.answersForCountries.push(
+        {
+          inputAnswer: country.capital,
+          display: false
+        }
+      )
+    })
   }
 
   getCountryForContinent(continent: string) {
-    this.answersForCountries = [...this.countries.filter(country => country.continent === continent)]
-    this.length = this.answersForCountries.length
+    const tmp = [...this.countries.filter(country => country.continent === continent)]
+    tmp.forEach((country) => {
+      this.answersForCountries.push(
+        {
+          inputAnswer: country.name,
+          display: false
+        }
+      )
+    })
   }
 
   getCapitalsForContinent(continent: string) {
-    this.answersForCountries = [...this.countries.filter(country => country.continent === continent)]
-    this.length = this.answersForCountries.length
+    const tmp = [...this.countries.filter(country => country.continent === continent)]
+    tmp.forEach((country) => {
+      this.answersForCountries.push(
+        {
+          inputAnswer: country.capital,
+          display: false
+        }
+      )
+    })
   }
 
   getData(type: number) {
     if (type === 0) {
-      this.timerService.setTimer(1)
       this.countryForQuestion = this.questionDataService.getCountries('countriesForFlags')
       if (this.countryForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.countryForQuestion)} error: ${JSON.stringify(this.countryForQuestion)}`)
@@ -121,11 +147,9 @@ export class CountryComponent implements OnInit {
       } else {
         this.tip = this.countryForQuestion.code
         this.answer = this.countryForQuestion.name
-        this.points = 2
       }
     }
     if (type === 1) {
-      this.timerService.setTimer(1)
       this.countryForQuestion = this.questionDataService.getCountries('countriesForCapitals')
       if (this.countryForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.countryForQuestion)} error: ${JSON.stringify(this.countryForQuestion)}`)
@@ -133,13 +157,9 @@ export class CountryComponent implements OnInit {
       } else {
         this.tip = this.countryForQuestion.name
         this.answer = this.countryForQuestion.capital
-        this.points = 2
       }
     }
     if (type === 2) {
-      this.timerService.setTimer(1)
-      this.setMultiplyForContinent(this.continentForQuestion)
-      this.timerService.setTimer(3)
       this.continentForQuestion = this.questionDataService.getCountries('continentsForCountries')
       if (this.continentForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.continentForQuestion)} error: ${JSON.stringify(this.continentForQuestion)}`)
@@ -150,9 +170,7 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 3) {
-      this.timerService.setTimer(3)
       this.continentForQuestion = this.questionDataService.getCountries('continentsForCapitals')
-      this.setMultiplyForContinent(this.continentForQuestion)
       if (this.continentForQuestion?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.continentForQuestion)} error: ${JSON.stringify(this.continentForQuestion)}`)
         this.getQuestion()
@@ -162,7 +180,6 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 4) {
-      this.timerService.setTimer(3)
       this.letterForCountriesQuestions = this.questionDataService.getCountries('countriesLetters')
       if (this.letterForCountriesQuestions?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.letterForCountriesQuestions)} error: ${JSON.stringify(this.letterForCountriesQuestions)}`)
@@ -173,7 +190,6 @@ export class CountryComponent implements OnInit {
       }
     }
     if (type === 5) {
-      this.timerService.setTimer(3)
       this.letterForCountriesQuestions = this.questionDataService.getCountries('capitalsLetters')
       if (this.letterForCountriesQuestions?.errorCode) {
         console.log(`ErrorModel: ${typeof (this.letterForCountriesQuestions)} error: ${JSON.stringify(this.letterForCountriesQuestions)}`)
@@ -186,50 +202,60 @@ export class CountryComponent implements OnInit {
 
   }
 
-  save(event: any) {
-    const tmp2 = event.target.value.toLowerCase()
-    let tmp = 0
-    this.country = tmp2
-    if (document.getElementById(tmp2) && this.answersForCountries !== undefined) {
-      if (this.question.id === 4 || this.question.id === 2) {
-        tmp = this.answersForCountries.findIndex(el => el.name.toLowerCase() === tmp2)
-      }
-      if (this.question.id === 5 || this.question.id === 3) {
-        tmp = this.answersForCountries.findIndex(el => el.capital.toLowerCase() === tmp2)
-      }
-      if (!this.answersForCountries[tmp].display) {
-        this.answersForCountries[tmp].display = true;
-        this.correct++
-        this.country = ''
+  save() {
+    const input = document.getElementById('userAnswer') as HTMLInputElement | null;
+    const value = input?.value;
+    if (input != null) {
+      let tmp = this.answersForCountries.findIndex(el => el.inputAnswer.toLowerCase() === value?.toLowerCase())
+      if (tmp !== -1) {
+        if (!this.answersForCountries[tmp].display) {
+          this.answersForCountries[tmp].display = true;
+          this.inputAnswer = ''
+          const audio = new Audio("../../assets/mp3/1z10dobrzee.mp3");
+          audio.play();
+          audio.playbackRate = 1;
+        } else {
+          this.setWrong()
+        }
       } else {
-        this.changeMessage(tmp2)
+        this.setWrong()
       }
+      this.inputAnswer = '';
+      this.nextPlayer();
     }
   }
 
-  countPoints(correct:number,allAnswers:number){
-    let percent = (correct/allAnswers) * 100
-    if (percent === 100){
-      this.points = 10*this.multiply
+  setActualPlayer(player: PlayerForFamiliada) {
+    this.actualPlayer = player
+  }
+
+  nextPlayer() {
+    const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
+    let nextPlayer = {}
+    if (indexofActualPlayer + 1 === this.players.length) {
+      nextPlayer = this.players[0]
+    } else {
+      nextPlayer = this.players[this.players.indexOf(this.actualPlayer) + 1]
     }
-    else if ((percent < 100) && (percent>=80)){
-      this.points = 8*this.multiply
+    if (this.actualPlayer.wrong >= 3) {
+      const index = this.players.indexOf(this.actualPlayer, 0);
+      if (index > -1) {
+        this.players.splice(index, 1);
+      }
     }
-    else if ((percent < 80) && (percent>=60)){
-      this.points = 6*this.multiply
+    if (this.players.length === 1) {
+      this.setWinner()
+      this.showAnswer()
+    } else {
+      this.actualPlayer = nextPlayer
     }
-    else if ((percent < 60) && (percent>=40)){
-      this.points = 4*this.multiply
-    }
-    else if ((percent < 40) && (percent>=20)){
-      this.points = 2*this.multiply
-    }
-    else if ((percent < 20) && (percent>0)){
-      this.points = this.multiply
-    }
-    else{
-      this.points = 0
-    }
+  }
+
+  setWrong() {
+    this.actualPlayer.wrong++
+    const audio = new Audio("../../assets/mp3/1z10zle.mp3");
+    audio.play();
+    audio.playbackRate = 1.2;
   }
 
   changeMessage(text: string | undefined) {
@@ -247,10 +273,11 @@ export class CountryComponent implements OnInit {
   }
 
   close() {
-    this.setMultiply(1)
     this.isVisible = false;
     this.isModalVisible = false
     this.question = ''
+    this.winner = null;
+    this.blockedButton=false
     this.countryForQuestion = {}
     this.answersForCountries.forEach((answer) => {
       answer.display = false
@@ -260,15 +287,15 @@ export class CountryComponent implements OnInit {
     this.playerService.nextPlayer()
     this.correct = 0
     this.length = 0
-    this.multiply = 1
     this.playerService.setModal(false);
     this.getQuestion()
+
   }
 
   showAnswer() {
-    this.isVisible = !this.isVisible;
+    this.isVisible = true
+    this.blockedButton=false
     if (this.answersForCountries.length > 0) {
-      this.countPoints(this.correct,this.length)
       this.answersForCountries.forEach((answer) => {
         answer.display = true
       })

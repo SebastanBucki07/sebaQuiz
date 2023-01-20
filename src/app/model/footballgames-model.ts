@@ -4,7 +4,7 @@ export interface FootballGamesModel {
   "squad": string[]
 }
 
-export interface FootballGamesAnswerModel{
-  footballer:string
+export interface InputAnswerModel {
+  inputAnswer:string
   display:Boolean
 }

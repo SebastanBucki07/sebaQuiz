@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
+import {PlayerForFamiliada} from "../players/players.component";
 
 @Component({
   selector: 'app-familiada',
@@ -10,9 +11,13 @@ import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
 })
 export class FamiliadaComponent implements OnInit {
   public random1: FamiliadaModel | any = {}
+  public question: string = '';
   public userAnswer: string = ''
   public isVisible = false
   public answers: FamiliadaAnswer[] = []
+  public players: PlayerForFamiliada[] = [];
+  public actualPlayer: PlayerForFamiliada | any = null;
+  public winner: PlayerForFamiliada | any = null;
   public correct: number = 0
   public points: number = 0
   public wrong: number = 0
@@ -26,14 +31,37 @@ export class FamiliadaComponent implements OnInit {
     this.init();
   }
 
-  init(){
+  setPlayersForFamiliada() {
+    if (this.players.length >= 1) {
+      this.players = []
+    }
+    const tmp = this.playerService.getPlayers();
+    tmp.forEach((player) => {
+      this.players.push({
+        id: player.id,
+        name: player.name,
+        wrong: 0
+      })
+    })
+    let playerIndex = this.players.findIndex(el => el.id === this.playerService.actualPlayer)
+    this.setActualPlayer(this.players[playerIndex])
+  }
+
+  setActualPlayer(player: PlayerForFamiliada) {
+    this.actualPlayer = player
+  }
+
+  init() {
     this.isVisible = false
+    this.setPlayersForFamiliada()
+    this.points = 5;
     this.random1 = this.questionDataService.getFamiliadaQuestion()
     this.setAnswers()
   }
 
   close() {
     this.playerService.setModal(false);
+    this.winner = null;
     this.userAnswer = ''
     this.correct = 0
     this.wrong = 0
@@ -43,28 +71,8 @@ export class FamiliadaComponent implements OnInit {
     this.init()
   }
 
-  countPoints(correct: number, allAnswers: number) {
-    let percent = (correct / allAnswers) * 100
-    if (percent === 100) {
-      this.points = 6
-    } else if ((percent < 100) && (percent >= 80)) {
-      this.points = 5
-    } else if ((percent < 80) && (percent >= 60)) {
-      this.points = 4
-    } else if ((percent < 60) && (percent >= 40)) {
-      this.points = 3
-    } else if ((percent < 40) && (percent >= 20)) {
-      this.points = 2
-    } else if ((percent < 20) && (percent > 0)) {
-      this.points = 1
-    } else {
-      this.points = 0
-    }
-  }
-
   showAnswer() {
     if (this.answers.length > 0) {
-      this.countPoints(this.correct, this.answers.length)
       this.answers.forEach((answer) => {
         answer.display = true
       })
@@ -74,6 +82,7 @@ export class FamiliadaComponent implements OnInit {
   }
 
   setAnswers() {
+    this.question = this.random1.question
     if (this.random1.answer1 != '-') {
       this.answers.push(
         {
@@ -128,11 +137,7 @@ export class FamiliadaComponent implements OnInit {
     const audio = new Audio("../../assets/mp3/wrong.mp3");
     audio.play();
     audio.playbackRate = 1.2;
-    this.wrong++
-    if (this.wrong === 3) {
-      this.blockedButton = true
-      this.showAnswer()
-    }
+    this.actualPlayer.wrong++
   }
 
   save() {
@@ -143,7 +148,6 @@ export class FamiliadaComponent implements OnInit {
       if (tmp !== -1) {
         if (!this.answers[tmp].display) {
           this.answers[tmp].display = true;
-          this.correct++
           this.userAnswer = ''
           const audio = new Audio("../../assets/mp3/correct.mp3");
           audio.play();
@@ -154,7 +158,38 @@ export class FamiliadaComponent implements OnInit {
       } else {
         this.setWrong()
       }
+      this.userAnswer = '';
+      this.nextPlayer();
     }
+  }
+
+  nextPlayer() {
+    const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
+    let nextPlayer = {}
+    if (indexofActualPlayer + 1 === this.players.length) {
+      nextPlayer = this.players[0]
+    } else {
+      nextPlayer = this.players[this.players.indexOf(this.actualPlayer) + 1]
+    }
+    if (this.actualPlayer.wrong >= 3) {
+      const index = this.players.indexOf(this.actualPlayer, 0);
+      if (index > -1) {
+        this.players.splice(index, 1);
+      }
+    }
+    if (this.players.length === 1) {
+      this.setWinner()
+      this.showAnswer()
+    } else {
+      this.actualPlayer = nextPlayer
+    }
+  }
+
+  setWinner() {
+    this.winner = this.players[0]
+    this.blockedButton = true
+    this.isVisible = true
+    this.showAnswer()
   }
 
 }

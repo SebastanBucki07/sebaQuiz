@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
-import {FootballGamesAnswerModel, FootballGamesModel} from "../model/footballgames-model";
+import {InputAnswerModel, FootballGamesModel} from "../model/footballgames-model";
 import {PlayerForFamiliada} from "../players/players.component";
 
 @Component({
@@ -13,11 +13,11 @@ export class FootballGamesComponent implements OnInit {
 
   public points: number = 5;
   public footballGames: FootballGamesModel | any = {};
-  public answerForSquad: FootballGamesAnswerModel[] = [];
+  public answerForSquad: InputAnswerModel[] = [];
   public question: string = '';
   public tip: string = '';
   public userAnswer: string = '';
-  public footballer: string | undefined = '';
+  public inputAnswer: string | undefined = '';
   public players: PlayerForFamiliada[] = [];
   public actualPlayer: PlayerForFamiliada | any = null;
   public blockedButton = false;
@@ -37,6 +37,9 @@ export class FootballGamesComponent implements OnInit {
   }
 
   setPlayersForFamiliada() {
+    if (this.players.length >=1){
+      this.players = []
+    }
     const tmp = this.playerService.getPlayers();
     tmp.forEach((player) => {
       this.players.push({
@@ -54,6 +57,13 @@ export class FootballGamesComponent implements OnInit {
   }
 
   nextPlayer() {
+    const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
+    let nextPlayer = {}
+    if (indexofActualPlayer + 1 === this.players.length) {
+      nextPlayer = this.players[0]
+    } else {
+      nextPlayer = this.players[this.players.indexOf(this.actualPlayer) + 1]
+    }
     if (this.actualPlayer.wrong >= 3) {
       const index = this.players.indexOf(this.actualPlayer, 0);
       if (index > -1) {
@@ -61,17 +71,10 @@ export class FootballGamesComponent implements OnInit {
       }
     }
     if (this.players.length === 1) {
-      this.winner = this.players[0]
-      this.isVisible = true
+      this.setWinner()
       this.showAnswer()
     } else {
-      const tmp = this.players[this.players.length - 1]
-      if (this.actualPlayer.id === tmp.id
-      ) {
-        this.setActualPlayer(this.players[0])
-      } else {
-        this.setActualPlayer(this.players[this.players.indexOf(this.actualPlayer) + 1])
-      }
+      this.actualPlayer = nextPlayer
     }
   }
 
@@ -90,7 +93,7 @@ export class FootballGamesComponent implements OnInit {
     this.footballGames.squad.forEach((player: string) => {
       this.answerForSquad.push(
         {
-          footballer: player,
+          inputAnswer: player,
           display: false
         }
       )
@@ -99,6 +102,7 @@ export class FootballGamesComponent implements OnInit {
 
   close() {
     this.question = '';
+    this.winner = null;
     this.footballGames = {};
     this.answerForSquad = [];
     this.blockedButton=false
@@ -106,6 +110,13 @@ export class FootballGamesComponent implements OnInit {
     this.playerService.setModal(false);
     this.getQuestion()
     this.playerService.nextPlayer()
+  }
+
+  setWinner(){
+    this.winner = this.players[0]
+    this.blockedButton=true
+    this.isVisible = true
+    this.showAnswer()
   }
 
   showAnswer() {
@@ -122,11 +133,11 @@ export class FootballGamesComponent implements OnInit {
     const input = document.getElementById('userAnswer') as HTMLInputElement | null;
     const value = input?.value;
     if (input != null) {
-      let tmp = this.answerForSquad.findIndex(el => el.footballer.toLowerCase() === value?.toLowerCase())
+      let tmp = this.answerForSquad.findIndex(el => el.inputAnswer.toLowerCase() === value?.toLowerCase())
       if (tmp !== -1) {
         if (!this.answerForSquad[tmp].display) {
           this.answerForSquad[tmp].display = true;
-          this.footballer = ''
+          this.inputAnswer = ''
           const audio = new Audio("../../assets/mp3/1z10dobrzee.mp3");
           audio.play();
           audio.playbackRate = 1;
@@ -136,7 +147,7 @@ export class FootballGamesComponent implements OnInit {
       } else {
         this.setWrong()
       }
-      this.footballer = '';
+      this.inputAnswer = '';
       this.nextPlayer();
     }
   }

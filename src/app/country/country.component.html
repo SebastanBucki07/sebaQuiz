@@ -1,109 +1,56 @@
-<link rel="stylesheet" href="country.component.css">
-<ngb-alert #selfClosingAlert *ngIf="showMessage" type="danger" (closed)="changeMessage('już było')">{{ successMessage }}
-</ngb-alert>
-
 <ng-container *ngIf="playerService.isModalVisible">
-  <app-background-sound></app-background-sound>
   <div class="modal">
     <i class="bi bi-x-circle"></i>
-
-    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
-      odp
-    </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-    <app-timer></app-timer>
-    <ng-container *ngIf="isVisible">
+    <ng-container *ngIf="winner !== null">
       <div class="info">
-        <div class="correct col-12 ">{{answer}}
-          <button type="button" class="btn btn-success addPointsButton" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply);close()">Dodaj {{points*multiply}} punkty</button>
+        <div class="correct col-12 ">
+          <button type="button" class="btn btn-success addPointsButton"
+                  (click)="playerService.addPoints(players[0].id,points);close()">
+            Dodaj {{points}} punkty {{players[0].name}}
+          </button>
         </div>
       </div>
     </ng-container>
-    <div [ngSwitch]="question.id">
-      <div class="row" *ngSwitchCase=0>
-        <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
-          <h2 class="d-none d-lg-flex font-weight-bold question" id="{{question.questionName}}">{{question.questionName}}</h2>
-          <h4 class="d-md-flex d-lg-none font-weight-bold question" id="{{question.questionName}}">{{question.questionName}}</h4>
-          <div class="card" style="width: 30rem;">
-            <img class="card-img-top" src="assets/flagues/{{tip.toLowerCase()}}.png" alt="flaga {{tip}}">
-          </div>
-        </div>
+    <ng-container *ngIf="!isVisible">
+      <h2>Aktualna drużyna: {{actualPlayer.name}}</h2>
+    <div class="table table-responsive table-bordered table-striped">
+      <table class="table">
+        <thead class="thead-dark">
+        <tr>
+          <th>Drużyna</th>
+          <th>Złe odpowiedzi</th>
+        </tr>
+        </thead>
+        <tr *ngFor="let row of players">
+          <td>
+            {{row.name}}
+          </td>
+          <td>
+            {{row.wrong}}/3
+          </td>
+        </tr>
+      </table>
+    </div>
+    </ng-container>
+    <div class="row countries">
+      <h1>{{question.questionName}} {{tip}}</h1>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1"></span>
+        <input [disabled]="blockedButton" id="userAnswer" type="text" class="form-control country-input"
+               [value]="inputAnswer"
+               placeholder="userAnswer"
+               aria-label="userAnswer" aria-describedby="basic-addon1">
+        <button [disabled]="blockedButton" type="button" class="btn btn-primary btn-lg btn-block" (click)="save()">
+          Sprawdź
+        </button>
       </div>
-      <div class="row" *ngSwitchCase=1>
-        <h1>{{question.questionName}} {{tip}}</h1>
-      </div>
-      <div class="row countries" *ngSwitchCase=2>
-        <h2>Punkty: {{correct}}/{{length}}</h2>
-        <h2>  {{country}}</h2>
-        <h1>{{question.questionName}} {{tip}}</h1>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon1"></span>
-          <input type="text" class="form-control country-input" [value]="country" (input)="save($event)"
-                 placeholder="country"
-                 aria-label="country" aria-describedby="basic-addon1">
-        </div>
-        <div class="col-2 country" *ngFor="let answer of this.answersForCountries;"
-             id="{{answer.name.toLowerCase()}}">
-          <ng-container *ngIf="answer.display">
-            <p>{{ answer.name }}</p>
-          </ng-container>
+      <div class="col-2 country" *ngFor="let answer of this.answersForCountries;"
+           id="{{answer.inputAnswer.toLowerCase()}}">
+        <ng-container *ngIf="answer.display">
+          <p>{{ answer.inputAnswer }}</p>
+        </ng-container>
 
-        </div>
-      </div>
-      <div class="row" *ngSwitchCase=3>
-        <h2>Poprawne: {{correct}}/{{length}}</h2>
-        <h2>  {{country}}</h2>
-        <h1>{{question.questionName}} {{tip}}</h1>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon2"></span>
-          <input type="text" class="form-control country-input" [value]="country" (input)="save($event)"
-                 placeholder="country"
-                 aria-label="country" aria-describedby="basic-addon1">
-        </div>
-        <div class="col-2 country" *ngFor="let answer of this.answersForCountries;"
-             id="{{answer.capital.toLowerCase()}}">
-          <ng-container *ngIf="answer.display">
-            <p>{{ answer.capital }}</p>
-          </ng-container>
-
-        </div>
-      </div>
-      <div class="row" *ngSwitchCase=4>
-        <h2>Punkty: {{correct}}/{{length}}</h2>
-        <h2>  {{country}}</h2>
-        <h1>{{question.questionName}} {{tip}}</h1>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon4"></span>
-          <input type="text" class="form-control country-input" [value]="country" (input)="save($event)"
-                 placeholder="country"
-                 aria-label="country" aria-describedby="basic-addon1">
-        </div>
-        <div class="col-2 country" *ngFor="let answer of this.answersForCountries;"
-             id="{{answer.name.toLowerCase()}}">
-          <ng-container *ngIf="answer.display">
-            <p>{{ answer.name }}</p>
-          </ng-container>
-        </div>
-      </div>
-      <div class="row" *ngSwitchCase=5>
-        <h2>Punkty: {{correct}}/{{length}}</h2>
-        <h2>  {{country}}</h2>
-        <h1>{{question.questionName}} {{tip}}</h1>
-        <div class="input-group mb-3">
-          <span class="input-group-text" id="basic-addon3"></span>
-          <input type="text" class="form-control country-input" [value]="country" (input)="save($event)"
-                 placeholder="country"
-                 aria-label="country" aria-describedby="basic-addon1">
-        </div>
-        <div class="col-2 country" *ngFor="let answer of this.answersForCountries;"
-             id="{{answer.capital.toLowerCase()}}">
-          <ng-container *ngIf="answer.display">
-            <p>{{ answer.capital }}</p>
-          </ng-container>
-        </div>
-      </div>
-      <div class="row" *ngSwitchDefault>
-        <h1>Wyczerpały się juz pytania w kategorii countries</h1>
       </div>
     </div>
   </div>

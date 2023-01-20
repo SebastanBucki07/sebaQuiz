@@ -21,6 +21,7 @@
     </tbody>
   </table>
 </div>
+<h3 *ngIf="!playerService.chosen" class="actualPlayer">Teraz kolej na {{players[playerService.actualPlayer].name}}</h3>
 <div *ngIf="categories.length >0" class="row">
   <button type="button" class="btn btn-outline-info btn-lg btn-block col-12 randomButton" (click)="setQuestionType(50)">
     Wylosuj
@@ -32,7 +33,7 @@
   </div>
 </div>
 
-<h3 *ngIf="!playerService.chosen" class="actualPlayer">Teraz kolej na {{players[playerService.actualPlayer].name}}</h3>
+
 
 
 <div *ngIf="!categoryService.chosen && !playerService.chosen" [ngSwitch]="questionType">

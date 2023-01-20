@@ -1,12 +1,8 @@
 <ng-container *ngIf="playerService.isModalVisible">
   <div class="modal">
     <i class="bi bi-x-circle"></i>
-
-    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
-      odp
-    </button>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-    <ng-container *ngIf="isVisible">
+    <ng-container *ngIf="winner !== null">
       <div class="info">
         <div class="correct col-12 ">
           <button type="button" class="btn btn-success addPointsButton"
@@ -16,17 +12,36 @@
         </div>
       </div>
     </ng-container>
+    <ng-container *ngIf="!isVisible">
+      <h2>Aktualna drużyna: {{actualPlayer.name}}</h2>
+      <h2>Pomyłki: {{actualPlayer.wrong}}/3</h2>
+      <div class="table table-responsive table-bordered table-striped">
+        <table class="table">
+          <thead class="thead-dark">
+          <tr>
+            <th>Drużyna</th>
+            <th>Złe odpowiedzi</th>
+          </tr>
+          </thead>
+          <tr *ngFor="let row of players">
+            <td>
+              {{row.name}}
+            </td>
+            <td>
+              {{row.wrong}}/3
+            </td>
+          </tr>
+        </table>
+      </div>
+    </ng-container>
     <div class="row countries">
-      <ng-container *ngIf="!isVisible">
-        <h2>Aktualna drużyna: {{actualPlayer.name}}</h2>
-        <h2>Pomyłki: {{actualPlayer.wrong}}/3</h2>
-      </ng-container>
+
       <h1>{{question}}</h1>
       <h1>{{tip}}</h1>
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1"></span>
         <input [disabled]="blockedButton" id="userAnswer" type="text" class="form-control country-input"
-               [value]="footballer"
+               [value]="inputAnswer"
                placeholder="userAnswer"
                aria-label="userAnswer" aria-describedby="basic-addon1">
         <button [disabled]="blockedButton" type="button" class="btn btn-primary btn-lg btn-block" (click)="save()">
@@ -34,9 +49,9 @@
         </button>
       </div>
       <div class="col-2 country" *ngFor="let answer of this.answerForSquad;"
-           id="{{answer.footballer.toLowerCase()}}">
+           id="{{answer.inputAnswer.toLowerCase()}}">
         <ng-container *ngIf="answer.display">
-          <p>{{ answer.footballer }}</p>
+          <p>{{ answer.inputAnswer }}</p>
         </ng-container>
 
       </div>

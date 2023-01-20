@@ -46,11 +46,11 @@ export class AppComponent {
     {name: "Rozpoznaj artystę po tytułach piosenek", id: 21, checkbox: false},
   ]
   public footballCategories: Category[] = [
-    // {name: "Klubowa Historia", id: 3, checkbox: false},
-    // {name: "Klubowe herby", id: 4, checkbox: false},
-    // {name: "Stadiony świata", id: 9, checkbox: false},
-    // {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
-    // {name: "Zawodnik/klub/reprezentacja", id: 27, checkbox: false},
+    {name: "Klubowa Historia", id: 3, checkbox: false},
+    {name: "Klubowe herby", id: 4, checkbox: false},
+    {name: "Stadiony świata", id: 9, checkbox: false},
+    {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
+    {name: "Zawodnik/klub/reprezentacja", id: 27, checkbox: false},
     {name: "Był taki mecz", id: 32, checkbox: false},
   ]
   public lifeCategories: Category[] = [
