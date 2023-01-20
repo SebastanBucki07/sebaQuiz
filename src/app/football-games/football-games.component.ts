@@ -83,7 +83,7 @@ export class FootballGamesComponent implements OnInit {
     this.points = 5;
     this.footballGames = this.questionDataService.getFootballGameQuestion();
     this.setAnswerForSquads();
-    this.question = 'Wymień piłakrzy z meczu';
+    this.question = 'Wymień piłkarzy z meczu';
     this.tip = this.footballGames.mecz;
     this.isVisible = false
 
