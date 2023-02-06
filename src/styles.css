@@ -84,3 +84,10 @@
 .card{
   min-width: 10rem;margin-top:10px;
 }
+
+.correct{
+  color: #adff2f;
+  font-size: xxx-large;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
