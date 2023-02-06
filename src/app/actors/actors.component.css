@@ -23,18 +23,6 @@
   padding-bottom: 50px;
 }
 
-.close-button{
-  position: absolute;
-  top:0;
-  right:0;
-  height:100px;
-  width:100px;
-  background-image: url("../../assets/icons/x-circle.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 1;
-}
-
 @keyframes example {
   from {
     right:0;
