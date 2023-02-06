@@ -13,12 +13,6 @@
   float: left;
 }
 
-.info{
-  /*display:none;*/
-  display: inline;
-  z-index: 5;
-}
-
 .correct{
   color: #adff2f;
   padding-bottom: 20px;

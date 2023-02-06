@@ -6,12 +6,6 @@
   color: #000000;
 }
 
-.info{
-  /*display:none;*/
-  display: inline;
-  z-index: 5;
-}
-
 .row{
   padding-bottom: 50px !important;
 }

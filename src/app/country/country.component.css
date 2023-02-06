@@ -49,12 +49,6 @@
   width:60%;
 }
 
-.info{
-  /*display:none;*/
-  display: inline;
-  z-index: 5;
-}
-
 .close-button{
   position: relative;
   top:0;

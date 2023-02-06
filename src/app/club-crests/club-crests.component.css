@@ -11,14 +11,20 @@
   width:20%;
 }
 
-.info{
-  /*display:none;*/
-  display: inline;
-  z-index: 5;
-}
-
 .row{
   padding-bottom: 50px !important;
+}
+
+.close-button{
+  position: absolute;
+  top:0;
+  right:0;
+  height:100px;
+  width:100px;
+  background-image: url("../../assets/icons/x-circle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
 }
 
 .correct{
