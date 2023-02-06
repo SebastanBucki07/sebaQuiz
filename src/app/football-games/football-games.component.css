@@ -1,49 +1,6 @@
 .row{
   padding-bottom: 50px !important;
 }
-.country {
-  padding: 10px;
-  margin-left: 40px;
-  margin-top: 10px;
-  background-color: rgba(32,212,137,255);
-  color: #000000;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.continentCountry {
-  padding: 10px;
-  margin-left: 40px;
-  margin-top: 10px;
-  background-color: #0000ff;
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.continentCapital {
-  padding: 10px;
-  margin-left: 40px;
-  margin-top: 10px;
-  background-color: #0000ff;
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.capital {
-  padding: 10px;
-  margin-left: 40px;
-  margin-top: 10px;
-  background-color: #0000ff;
-  color: #ffffff;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.flague-image{
-  width:60%;
-}
 
 .correct{
   color: #adff2f;
@@ -88,16 +45,6 @@
     background-color: #5710B2;
     color: #ffffff;
   }
-  .answers {
-    display: grid;
-    grid-template-columns: 60vw;
-    grid-template-rows: 12vh 12vh 12vh 12vh;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-  }
-  .answers-btn {
-    line-height: 1.1;
-  }
 }
 
 @media screen and (min-width: 769px) {
@@ -107,20 +54,6 @@
     /*padding: 10vw;*/
     background-color: #5710B2;
     color: #ffffff;
-  }
-  .answers {
-    display: grid;
-    grid-template-columns: 27vw 27vw;
-    grid-template-rows: 15vh 15vh;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    padding-bottom: 100px;
-  }
-  .answers-btn {
-    padding: .2rem .4rem;
-    font-size: 1.25rem;
-    line-height: 1.1;
-    border-radius: .3rem;
   }
 }
 

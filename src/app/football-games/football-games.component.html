@@ -40,7 +40,7 @@
       <h1>{{tip}}</h1>
       <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1"></span>
-        <input [disabled]="blockedButton" id="userAnswer" type="text" class="form-control country-input"
+        <input [disabled]="blockedButton" id="userAnswer" type="text" class="form-control footballPlayer-input"
                [value]="inputAnswer"
                placeholder="userAnswer"
                aria-label="userAnswer" aria-describedby="basic-addon1">
@@ -48,7 +48,7 @@
           Sprawdź
         </button>
       </div>
-      <div class="col-2 country" *ngFor="let answer of this.answerForSquad;"
+      <div class="col-2 answersForInput" *ngFor="let answer of this.answerForSquad;"
            id="{{answer.inputAnswer.toLowerCase()}}">
         <ng-container *ngIf="answer.display">
           <p>{{ answer.inputAnswer }}</p>
