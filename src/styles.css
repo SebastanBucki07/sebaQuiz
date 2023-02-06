@@ -80,3 +80,7 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+.card{
+  min-width: 10rem;margin-top:10px;
+}

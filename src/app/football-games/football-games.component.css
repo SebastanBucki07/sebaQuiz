@@ -12,25 +12,8 @@
   padding-bottom: 100px;
 }
 
-@media screen and (max-width: 768px) {
-  .question-bg {
-    /*min-height: 94vh;*/
-    /*width: 85vw;*/
-    /*padding: 10vw;*/
-    background-color: #5710B2;
-    color: #ffffff;
-  }
-}
 
-@media screen and (min-width: 769px) {
-  .question-bg {
-    /*height: 62vh;*/
-    /*width: 80vw;*/
-    /*padding: 10vw;*/
-    background-color: #5710B2;
-    color: #ffffff;
-  }
-}
+
 
 
 
