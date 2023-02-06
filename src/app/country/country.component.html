@@ -45,7 +45,7 @@
           Sprawdź
         </button>
       </div>
-      <div class="col-2 country" *ngFor="let answer of this.answersForCountries;"
+      <div class="col-2 answersForInput" *ngFor="let answer of this.answersForCountries;"
            id="{{answer.inputAnswer.toLowerCase()}}">
         <ng-container *ngIf="answer.display">
           <p>{{ answer.inputAnswer }}</p>

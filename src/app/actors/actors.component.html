@@ -24,13 +24,13 @@
         <div class="card-deck">
           <div class="row " *ngIf="photos.length > 0; then printPhotos else printTip"></div>
           <ng-template #printPhotos>
-            <div class="card col-6 col-lg-2"  style="min-width: 10rem; margin-top:10px;" *ngFor="let photo of photos">
+            <div class="card col-6 col-lg-2"  *ngFor="let photo of photos">
               <img class="card-img-top" src="{{photo.photo}}" alt="{{photo.name}}">
               <h5 class="card-title">{{photo.name}}</h5>
             </div>
           </ng-template>
           <ng-template class="row" #printTip>
-            <div class="card col-6 col-lg-2 " style="min-width: 10rem;margin-top:10px;"  *ngFor="let tip of tips">
+            <div class="card col-6 col-lg-2 "   *ngFor="let tip of tips">
               <h5 class="card-title">{{tip}}</h5>
             </div>
           </ng-template>
