@@ -23,7 +23,7 @@ export class TimerComponent implements OnInit {
   public secondsToDday: any;
   public minutesToDday: any;
 
-  constructor(private timerService: TimerService) {
+  constructor(public timerService: TimerService) {
     this.setTimer(this.timerService.getTimer())
   }
 
@@ -32,7 +32,7 @@ export class TimerComponent implements OnInit {
     this.dDay = new Date(this.dateNow.getTime() + timer * 60000);
     this.subscription = interval(1000)
       .subscribe(x => {
-        this.getTimeDifference();
+        this.timerService.getTimeDifference()
       })
   }
 
@@ -44,22 +44,6 @@ export class TimerComponent implements OnInit {
     this.subscription.unsubscribe();
   }
 
-  /* timer */
-  private getTimeDifference() {
-    if (this.timeDifference <= 0) {
-      this.inputDisabled = true
-      this.subscription.unsubscribe();
-    } else {
-      this.timeDifference = this.dDay.getTime() - new Date().getTime();
-      this.allocateTimeUnits(this.timeDifference);
-    }
-  }
 
-  private allocateTimeUnits(timeDifference: any) {
-    this.secondsToDday = Math.floor((timeDifference) / (this.milliSecondsInASecond) % this.SecondsInAMinute);
-    this.minutesToDday = Math.floor((timeDifference) / (this.milliSecondsInASecond * this.minutesInAnHour) % this.SecondsInAMinute);
-  }
-
-  /* end timer */
 
 }

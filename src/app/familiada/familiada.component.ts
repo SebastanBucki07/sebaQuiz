@@ -3,6 +3,7 @@ import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
 import {PlayerForFamiliada} from "../players/players.component";
+import {TimerService} from "../timer.service";
 
 @Component({
   selector: 'app-familiada',
@@ -24,6 +25,7 @@ export class FamiliadaComponent implements OnInit {
   public blockedButton = false
 
   constructor(private questionDataService: QuestionDataService,
+              public timerService: TimerService,
               public playerService: PlayersService) {
   }
 
@@ -57,6 +59,7 @@ export class FamiliadaComponent implements OnInit {
     this.points = 5;
     this.random1 = this.questionDataService.getFamiliadaQuestion()
     this.setAnswers()
+    this.timerService.setTimer(0.35)
   }
 
   close() {
@@ -164,6 +167,7 @@ export class FamiliadaComponent implements OnInit {
   }
 
   nextPlayer() {
+    this.timerService.setTimer(0.35)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
     let nextPlayer = {}
     if (indexofActualPlayer + 1 === this.players.length) {
