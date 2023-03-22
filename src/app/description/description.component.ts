@@ -118,7 +118,7 @@ export abstract class DescriptionComponent {
         break;
       }
     }
-    this.timerService.setTimer(1)
+    this.timerService.setTimer(0.15)
     this.tip = this.random1.description
     this.isModalVisible = true;
   }

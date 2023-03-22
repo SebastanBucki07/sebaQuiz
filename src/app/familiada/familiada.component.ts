@@ -167,7 +167,7 @@ export class FamiliadaComponent implements OnInit {
   }
 
   nextPlayer() {
-    this.timerService.setTimer(0.35)
+    this.timerService.setTimer(0.15)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
     let nextPlayer = {}
     if (indexofActualPlayer + 1 === this.players.length) {
