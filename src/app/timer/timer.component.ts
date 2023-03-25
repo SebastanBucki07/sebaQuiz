@@ -25,12 +25,10 @@ export class TimerComponent implements OnInit {
   public secondsToDday: any;
 
   constructor(public timerService: TimerService) {
-    this.setTimer(this.timerService.getTimer())
+    this.setTimer()
   }
 
-  setTimer(timer:number) {
-    this.dateNow = new Date();
-    this.dDay = new Date(this.dateNow.getTime() + timer * 60000);
+  setTimer() {
     this.subscription = this.timerService.getTimers()
       .subscribe(x => {
         this.timers = x
@@ -44,7 +42,4 @@ export class TimerComponent implements OnInit {
   ngOnDestroy() {
     this.subscription.unsubscribe();
   }
-
-
-
 }
