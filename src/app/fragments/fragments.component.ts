@@ -3,11 +3,13 @@ import {Category, FragmentsModel} from "../model/fragments-model";
 import {PlayersService} from "../players.service";
 import {TimerService} from "../timer.service";
 import {FragmentBuilder} from "../builder/fragment-builder";
+import {Subscription} from "rxjs";
 
 @Component({
   template: ''
 })
 export abstract class Fragments {
+  private subscription: Subscription | any;
   public random1: FragmentsModel = new FragmentBuilder(Category.SONG).build();
   public points: number = 1
   public buttonText = ''
@@ -30,7 +32,7 @@ export abstract class Fragments {
   public answer2 = ''
 
   constructor(public playerService: PlayersService,
-              private timerService: TimerService) {
+              public timerService: TimerService) {
 
   }
 
@@ -39,7 +41,14 @@ export abstract class Fragments {
   }
 
   getQuestion() {
-    this.timerService.setTimer(3)
+    this.timerService.setTimer(0.5)
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.isAnswer1Visible = true
+          this.isAnswer2Visible = true
+        }
+      })
     this.random1 = new FragmentBuilder(this.category).randomDataFromArray(1)
     if (this.category === Category.SONGTIPS ){
       this.isTipQuestion = true
@@ -75,26 +84,33 @@ export abstract class Fragments {
 
   showAnswer1() {
     this.isAnswer1Visible = !this.isAnswer1Visible;
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 
   showAnswer2() {
     this.isAnswer2Visible = !this.isAnswer2Visible;
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 
   showQuestion1() {
 
     this.isQuestion1Visible = !this.isQuestion1Visible;
+    this.timerService.setTimer(0.5)
   }
 
   showQuestion2() {
     this.isQuestion1Visible = false;
     this.isQuestion2Visible = !this.isQuestion2Visible;
+    this.timerService.setTimer(0.5)
 
   }
 
   showQuestion3() {
     this.isQuestion2Visible = false;
     this.isQuestion3Visible = !this.isQuestion3Visible;
+    this.timerService.setTimer(0.5)
   }
 
   setMultiply(multiply: number) {
@@ -119,13 +135,16 @@ export abstract class Fragments {
     this.playerService.nextPlayer()
     this.init()
     this.playerService.setModal(false)
+    this.timerService.setTimer(0.5)
+    this.timerService.timeout=false
   }
 }
 
 @Component({
   selector: 'app-songs',
   templateUrl: './fragments.component.html',
-  styleUrls: ['./fragments.component.css']
+  styleUrls: ['./fragments.component.css'],
+  providers: [TimerService]
 })
 export class SongsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
@@ -139,7 +158,8 @@ export class SongsComponent extends Fragments implements OnInit {
 @Component({
   selector: 'app-books',
   templateUrl: './fragments.component.html',
-  styleUrls: ['./fragments.component.css']
+  styleUrls: ['./fragments.component.css'],
+  providers: [TimerService]
 })
 export class BooksComponent extends Fragments implements OnInit {
   ngOnInit(): void {
@@ -153,7 +173,8 @@ export class BooksComponent extends Fragments implements OnInit {
 @Component({
   selector: 'app-tips',
   templateUrl: './fragments.component.html',
-  styleUrls: ['./fragments.component.css']
+  styleUrls: ['./fragments.component.css'],
+  providers: [TimerService]
 })
 export class SongTipsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
@@ -167,7 +188,8 @@ export class SongTipsComponent extends Fragments implements OnInit {
 @Component({
   selector: 'app-cities-tips',
   templateUrl: './fragments.component.html',
-  styleUrls: ['./fragments.component.css']
+  styleUrls: ['./fragments.component.css'],
+  providers: [TimerService]
 })
 export class CitiesTipsComponent extends Fragments implements OnInit {
   ngOnInit(): void {

@@ -1,13 +1,16 @@
-import {Component, OnInit} from '@angular/core';
+import {Component,OnInit} from '@angular/core';
 import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
 import {PlayerForFamiliada} from "../players/players.component";
+import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-familiada',
   templateUrl: './familiada.component.html',
-  styleUrls: ['./familiada.component.css']
+  styleUrls: ['./familiada.component.css'],
+  providers: [TimerService]
 })
 export class FamiliadaComponent implements OnInit {
   public random1: FamiliadaModel | any = {}
@@ -22,9 +25,12 @@ export class FamiliadaComponent implements OnInit {
   public points: number = 0
   public wrong: number = 0
   public blockedButton = false
+  private subscription: Subscription | any;
 
   constructor(private questionDataService: QuestionDataService,
-              public playerService: PlayersService) {
+              public timerService: TimerService,
+              public playerService: PlayersService,
+  ) {
   }
 
   ngOnInit(): void {
@@ -52,22 +58,34 @@ export class FamiliadaComponent implements OnInit {
   }
 
   init() {
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.setWrong()
+          this.nextPlayer()
+          this.timerService.timeout=false
+        }
+      })
+    this.correct = 0
+    this.wrong = 0
     this.isVisible = false
     this.setPlayersForFamiliada()
     this.points = 5;
     this.random1 = this.questionDataService.getFamiliadaQuestion()
     this.setAnswers()
+    this.timerService.setTimer(0.5)
+    this.timerService.timeout=false
   }
 
   close() {
     this.playerService.setModal(false);
     this.winner = null;
     this.userAnswer = ''
-    this.correct = 0
-    this.wrong = 0
     this.answers = []
     this.blockedButton = false
     this.playerService.nextPlayer()
+    this.timerService.timeout=false
+    this.subscription.unsubscribe()
     this.init()
   }
 
@@ -164,6 +182,7 @@ export class FamiliadaComponent implements OnInit {
   }
 
   nextPlayer() {
+    this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
     let nextPlayer = {}
     if (indexofActualPlayer + 1 === this.players.length) {
@@ -186,6 +205,9 @@ export class FamiliadaComponent implements OnInit {
   }
 
   setWinner() {
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
+    //this.timerService.setTimer(0)
     this.winner = this.players[0]
     this.blockedButton = true
     this.isVisible = true

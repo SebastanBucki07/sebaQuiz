@@ -3,11 +3,14 @@ import {DescriptionModel} from "../model/description-model";
 import {PlayersService} from "../players.service";
 import {QuestionDataService} from "../question-data.service";
 import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 @Component({
-  template: ''
+  template: '',
+  providers: [TimerService]
 })
 export abstract class DescriptionComponent {
+  private subscription: Subscription | any;
   public random1: DescriptionModel | any = {}
   public points: number = 2
   public question: string = ''
@@ -19,7 +22,7 @@ export abstract class DescriptionComponent {
 
   constructor(
     private questionDataService: QuestionDataService,
-    private timerService: TimerService,
+    public timerService: TimerService,
     public playerService: PlayersService
   ) {
   }
@@ -29,6 +32,12 @@ export abstract class DescriptionComponent {
   }
 
   getQuestion() {
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.isVisible = true
+        }
+      })
     switch (this.category) {
       case 'movie': {
         this.random1 = this.questionDataService.getMoviesDescriptionQuestion()
@@ -118,7 +127,7 @@ export abstract class DescriptionComponent {
         break;
       }
     }
-    this.timerService.setTimer(1)
+    this.timerService.setTimer(0.5)
     this.tip = this.random1.description
     this.isModalVisible = true;
   }
@@ -130,10 +139,15 @@ export abstract class DescriptionComponent {
     this.playerService.nextPlayer()
     this.init()
     this.playerService.setModal(false)
+    this.timerService.setTimer(0.5)
+    this.timerService.timeout=false
   }
 
   showAnswer() {
+
     this.isVisible = !this.isVisible;
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 }
 

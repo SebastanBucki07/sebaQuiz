@@ -3,14 +3,17 @@ import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {InputAnswerModel, FootballGamesModel} from "../model/footballgames-model";
 import {PlayerForFamiliada} from "../players/players.component";
+import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-football-games',
   templateUrl: './football-games.component.html',
-  styleUrls: ['./football-games.component.css']
+  styleUrls: ['./football-games.component.css'],
+  providers: [TimerService]
 })
 export class FootballGamesComponent implements OnInit {
-
+  private subscription: Subscription | any;
   public points: number = 5;
   public footballGames: FootballGamesModel | any = {};
   public answerForSquad: InputAnswerModel[] = [];
@@ -28,7 +31,8 @@ export class FootballGamesComponent implements OnInit {
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService
+    public playerService: PlayersService,
+    public timerService: TimerService,
   ) {
   }
 
@@ -37,7 +41,7 @@ export class FootballGamesComponent implements OnInit {
   }
 
   setPlayersForFamiliada() {
-    if (this.players.length >=1){
+    if (this.players.length >= 1) {
       this.players = []
     }
     const tmp = this.playerService.getPlayers();
@@ -57,6 +61,7 @@ export class FootballGamesComponent implements OnInit {
   }
 
   nextPlayer() {
+    this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
     let nextPlayer = {}
     if (indexofActualPlayer + 1 === this.players.length) {
@@ -79,6 +84,15 @@ export class FootballGamesComponent implements OnInit {
   }
 
   getQuestion(): void {
+    this.timerService.setTimer(0.5)
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if (x) {
+          this.setWrong()
+          this.nextPlayer()
+          this.timerService.timeout = false
+        }
+      })
     this.setPlayersForFamiliada()
     this.points = 5;
     this.footballGames = this.questionDataService.getFootballGameQuestion();
@@ -105,16 +119,20 @@ export class FootballGamesComponent implements OnInit {
     this.winner = null;
     this.footballGames = {};
     this.answerForSquad = [];
-    this.blockedButton=false
+    this.blockedButton = false
     this.playerService.nextPlayer();
     this.playerService.setModal(false);
+    this.timerService.timeout=false
+    this.subscription.unsubscribe()
     this.getQuestion()
     this.playerService.nextPlayer()
   }
 
-  setWinner(){
+  setWinner() {
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
     this.winner = this.players[0]
-    this.blockedButton=true
+    this.blockedButton = true
     this.isVisible = true
     this.showAnswer()
   }

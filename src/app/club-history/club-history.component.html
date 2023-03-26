@@ -1,34 +1,39 @@
 <ng-container *ngIf="playerService.isModalVisible">
   <app-background-sound></app-background-sound>
   <div class="modal">
-    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
-      odp
-    </button>
+    <ng-container *ngIf="!isVisible">
+      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
+        odp
+      </button>
+    </ng-container>
     <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
     <div class="row">
       <app-timer></app-timer>
       <ng-container *ngIf="isVisible">
         <div class="info">
           <div class="correct col-12 ">{{answer}}
-            <button type="button" class="btn btn-success addPointsButton"
-                    (click)="playerService.addPoints(playerService.actualPlayer,2);close()">Dodaj 2 punkty
-            </button>
+            <ng-container *ngIf="!timerService.timeout">
+              <button type="button" class="btn btn-success addPointsButton"
+                      (click)="playerService.addPoints(playerService.actualPlayer,2);close()">Dodaj 2 punkty
+              </button>
+            </ng-container>
           </div>
         </div>
       </ng-container>
       <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
         <h2 class="d-none d-lg-flex font-weight-bold question">To jest moja skrócona historia klubowa, kim jestem?</h2>
-        <h4 class="d-md-flex d-lg-none font-weight-bold question">To jest moja skrócona historia klubowa, kim jestem?</h4>
+        <h4 class="d-md-flex d-lg-none font-weight-bold question">To jest moja skrócona historia klubowa, kim
+          jestem?</h4>
         <div class="card" style="width: 30rem;">
           <h5 class="card-title">Narodowość:</h5>
           <img class="card-img-top" src="assets/flagues/{{tip.toLowerCase()}}.png" alt="flaga {{tip}}">
 
         </div>
         <div class="card-deck">
-            <div class="card col-6 col-lg-2"  *ngFor="let photo of photos">
-              <img class="card-img-top" src="assets/clubs/{{photo.toLowerCase()}}.png" alt="{{photo.name}}">
-              <h5 class="card-title">{{photo}}</h5>
-            </div>
+          <div class="card col-6 col-lg-2" *ngFor="let photo of photos">
+            <img class="card-img-top" src="assets/clubs/{{photo.toLowerCase()}}.png" alt="{{photo.name}}">
+            <h5 class="card-title">{{photo}}</h5>
+          </div>
         </div>
       </div>
 

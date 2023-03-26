@@ -5,12 +5,14 @@ import {PlayersService} from "../players.service";
 import {ActorModel} from "../model/actor-model";
 import {QuestionDataService} from "../question-data.service";
 import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 @Component({
-  template: ''
+  template: '',
 })
 export abstract class ActorsComponent {
-  public random1: ActorModel | any = {}
+  public random1: ActorModel | any = {};
+  private subscription: Subscription | any;
   public isVisible = false;
   public isModalVisible = false;
   public question: string = ''
@@ -24,7 +26,7 @@ export abstract class ActorsComponent {
   constructor(
     private questionDataService: QuestionDataService,
     public playerService: PlayersService,
-    private timerService: TimerService
+    public timerService: TimerService
   ) {
   }
 
@@ -41,6 +43,8 @@ export abstract class ActorsComponent {
 
   showAnswer() {
     this.isVisible = !this.isVisible;
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 
   getPhoto(name: string) {
@@ -74,7 +78,13 @@ export abstract class ActorsComponent {
   }
 
   getQuestion() {
-    this.timerService.setTimer(1)
+    this.timerService.setTimer(0.5)
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.isVisible = true
+        }
+      })
     switch (this.category) {
       case 'movieActors': {
         this.random1 = this.questionDataService.getMoviesActorsQuestion()
@@ -114,7 +124,8 @@ export abstract class ActorsComponent {
 @Component({
   selector: 'app-movieActors',
   templateUrl: './actors.component.html',
-  styleUrls: ['./actors.component.css']
+  styleUrls: ['./actors.component.css'],
+  providers: [TimerService]
 })
 export class MoviesActorsComponent extends ActorsComponent implements OnInit {
   ngOnInit(): void {
@@ -126,7 +137,8 @@ export class MoviesActorsComponent extends ActorsComponent implements OnInit {
 @Component({
   selector: 'app-serialsActors',
   templateUrl: './actors.component.html',
-  styleUrls: ['./actors.component.css']
+  styleUrls: ['./actors.component.css'],
+  providers: [TimerService]
 })
 export class SerialsActorsComponent extends ActorsComponent implements OnInit {
   ngOnInit(): void {

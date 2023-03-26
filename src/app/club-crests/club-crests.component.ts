@@ -3,13 +3,16 @@ import {PlayersService} from "../players.service";
 import {randomFromArray} from "../../common/randomize.helper";
 import {QuestionDataService} from "../question-data.service";
 import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-club-crests',
   templateUrl: './club-crests.component.html',
-  styleUrls: ['./club-crests.component.css']
+  styleUrls: ['./club-crests.component.css'],
+  providers: [TimerService]
 })
 export class ClubCrestsComponent implements OnInit {
+  private subscription: Subscription | any;
   public isModalVisible = false;
   public random1 = ''
   public isVisible = false;
@@ -23,7 +26,7 @@ export class ClubCrestsComponent implements OnInit {
   constructor(
     public questionDataService: QuestionDataService,
     public playerService: PlayersService,
-    private timerService: TimerService) {
+    public timerService: TimerService) {
   }
 
   ngOnInit(): void {
@@ -31,10 +34,16 @@ export class ClubCrestsComponent implements OnInit {
   }
 
   init(){
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.isVisible = true
+        }
+      })
     this.random1 = this.questionDataService.getClubCrestsQuestion()
     this.setSize()
     this.isModalVisible = true;
-    this.timerService.setTimer(1)
+    this.timerService.setTimer(0.5)
   }
 
   close() {
@@ -47,6 +56,8 @@ export class ClubCrestsComponent implements OnInit {
 
   showAnswer() {
     this.isVisible = !this.isVisible;
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 
   setSize(){

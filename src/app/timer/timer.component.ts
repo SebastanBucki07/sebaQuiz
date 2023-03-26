@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {interval, Subscription} from "rxjs";
-import {TimerService} from "../timer.service";
+import {Timer, TimerService} from "../timer.service";
 
 @Component({
   selector: 'app-timer',
@@ -16,23 +16,22 @@ export class TimerComponent implements OnInit {
   public minutesToAdd = 3
   public dDay: Date | any
   milliSecondsInASecond = 1000;
-  minutesInAnHour = 60;
-  SecondsInAMinute = 60;
+  public timers: Timer = {
+    secondsToDday: 0,
+    minutesToDday: 0
+  }
 
   public timeDifference: any;
   public secondsToDday: any;
-  public minutesToDday: any;
 
-  constructor(private timerService: TimerService) {
-    this.setTimer(this.timerService.getTimer())
+  constructor(public timerService: TimerService) {
+    this.setTimer()
   }
 
-  setTimer(timer:number) {
-    this.dateNow = new Date();
-    this.dDay = new Date(this.dateNow.getTime() + timer * 60000);
-    this.subscription = interval(1000)
+  setTimer() {
+    this.subscription = this.timerService.getTimers()
       .subscribe(x => {
-        this.getTimeDifference();
+        this.timers = x
       })
   }
 
@@ -43,23 +42,4 @@ export class TimerComponent implements OnInit {
   ngOnDestroy() {
     this.subscription.unsubscribe();
   }
-
-  /* timer */
-  private getTimeDifference() {
-    if (this.timeDifference <= 0) {
-      this.inputDisabled = true
-      this.subscription.unsubscribe();
-    } else {
-      this.timeDifference = this.dDay.getTime() - new Date().getTime();
-      this.allocateTimeUnits(this.timeDifference);
-    }
-  }
-
-  private allocateTimeUnits(timeDifference: any) {
-    this.secondsToDday = Math.floor((timeDifference) / (this.milliSecondsInASecond) % this.SecondsInAMinute);
-    this.minutesToDday = Math.floor((timeDifference) / (this.milliSecondsInASecond * this.minutesInAnHour) % this.SecondsInAMinute);
-  }
-
-  /* end timer */
-
 }

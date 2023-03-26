@@ -3,13 +3,16 @@ import {ClubHistory} from "../model/clubHistory-model";
 import {PlayersService} from "../players.service";
 import {QuestionDataService} from "../question-data.service";
 import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-club-history',
   templateUrl: './club-history.component.html',
-  styleUrls: ['./club-history.component.css']
+  styleUrls: ['./club-history.component.css'],
+  providers: [TimerService]
 })
 export class ClubHistoryComponent implements OnInit {
+  private subscription: Subscription | any;
   public isModalVisible = false;
   public random1: ClubHistory | any = {}
   public isVisible = false;
@@ -20,12 +23,18 @@ export class ClubHistoryComponent implements OnInit {
   constructor(
     private questionDataService: QuestionDataService,
     public playerService: PlayersService,
-    private timerService: TimerService,
+    public timerService: TimerService,
   ) {
   }
 
   init(){
-    this.timerService.setTimer(1)
+    this.timerService.setTimer(0.5)
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.isVisible = true
+        }
+      })
     this.random1 = this.questionDataService.getClubHistoryQuestion()
     this.answer = this.random1.osoba
     this.tip = this.random1.narodowosc
@@ -62,5 +71,7 @@ export class ClubHistoryComponent implements OnInit {
 
   showAnswer() {
     this.isVisible = !this.isVisible;
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 }

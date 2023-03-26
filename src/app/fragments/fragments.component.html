@@ -10,25 +10,37 @@
       <ng-container *ngIf="isAnswer1Visible">
         <div class="info">
           <div class="correct col-12 ">{{answerDescription}} {{answer1}}
-            <button type="button" class="btn btn-success addPointsButton" (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">Dodaj {{points*multiply}} punkty</button>
-
+            <ng-container *ngIf="!timerService.timeout">
+              <button type="button" class="btn btn-success addPointsButton"
+                      (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">
+                Dodaj {{points * multiply}} punkty
+              </button>
+            </ng-container>
           </div>
         </div>
       </ng-container>
       <ng-container *ngIf="isAnswer2Visible">
         <div class="info">
           <div class="correct col-12 ">Wykonawca: {{answer2}}
-            <button type="button" class="btn btn-success addPointsButton" (click)="playerService.addPoints(playerService.actualPlayer,2*points*multiply);close()">Dodaj {{2*points*multiply}} punkty</button>
+            <ng-container *ngIf="!timerService.timeout">
+              <button type="button" class="btn btn-success addPointsButton"
+                      (click)="playerService.addPoints(playerService.actualPlayer,2*points*multiply);close()">
+                Dodaj {{2 * points * multiply}} punkty
+              </button>
+            </ng-container>
           </div>
         </div>
       </ng-container>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showQuestion1();setMultiply(3)">
+      <button type="button" class="btn btn-primary btn-lg btn-block answerButton"
+              (click)="showQuestion1();setMultiply(3)">
         {{buttonText}} 1
       </button>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showQuestion2();setMultiply(2)">
+      <button type="button" class="btn btn-primary btn-lg btn-block answerButton"
+              (click)="showQuestion2();setMultiply(2)">
         {{buttonText}} 2
       </button>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showQuestion3();setMultiply(1)">
+      <button type="button" class="btn btn-primary btn-lg btn-block answerButton"
+              (click)="showQuestion3();setMultiply(1)">
         {{buttonText}} 3
       </button>
       <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer1()">

@@ -6,6 +6,8 @@ import data from "../../assets/flagues/countries.td.json"
 import {QuestionDataService} from "../question-data.service";
 import {PlayerForFamiliada} from "../players/players.component";
 import {InputAnswerModel} from "../model/footballgames-model";
+import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 export class Question {
   id: number = 0;
@@ -15,9 +17,11 @@ export class Question {
 @Component({
   selector: 'app-country',
   templateUrl: './country.component.html',
-  styleUrls: ['./country.component.css']
+  styleUrls: ['./country.component.css'],
+  providers: [TimerService]
 })
 export class CountryComponent implements OnInit {
+  private subscription: Subscription | any;
   public actualPlayer: PlayerForFamiliada | any = null;
   public countries: Country[] = [];
   public answersForCountries: InputAnswerModel[] = [];
@@ -51,7 +55,8 @@ export class CountryComponent implements OnInit {
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService
+    public playerService: PlayersService,
+    public timerService: TimerService,
   ) {
   }
 
@@ -76,6 +81,8 @@ export class CountryComponent implements OnInit {
   }
 
   setWinner(){
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
     this.winner = this.players[0]
     this.blockedButton=true
     this.isVisible = true
@@ -83,6 +90,15 @@ export class CountryComponent implements OnInit {
   }
 
   getQuestion(): void {
+    this.timerService.setTimer(0.5)
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.setWrong()
+          this.nextPlayer()
+          this.timerService.timeout=false
+        }
+      })
     this.setPlayersForFamiliada()
     this.points = 5;
     this.question = randomFromArray(this.questions)
@@ -230,6 +246,7 @@ export class CountryComponent implements OnInit {
   }
 
   nextPlayer() {
+    this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
     let nextPlayer = {}
     if (indexofActualPlayer + 1 === this.players.length) {
@@ -288,13 +305,15 @@ export class CountryComponent implements OnInit {
     this.correct = 0
     this.length = 0
     this.playerService.setModal(false);
+    this.timerService.timeout=false
+    this.subscription.unsubscribe()
     this.getQuestion()
 
   }
 
   showAnswer() {
     this.isVisible = true
-    this.blockedButton=false
+    this.blockedButton=true
     if (this.answersForCountries.length > 0) {
       this.answersForCountries.forEach((answer) => {
         answer.display = true

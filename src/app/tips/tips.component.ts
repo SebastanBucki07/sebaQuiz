@@ -3,12 +3,14 @@ import {TipsModel} from "../model/tips-model";
 import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 
 @Component({
   template: ''
 })
 export class TipsComponent {
+  private subscription: Subscription | any;
   public random1: TipsModel | any = {}
   public points: number = 2
   public question: string = ''
@@ -23,7 +25,7 @@ export class TipsComponent {
 
   constructor(
     private questionDataService: QuestionDataService,
-    private timerService: TimerService,
+    public timerService: TimerService,
     public playerService: PlayersService
   ) {
   }
@@ -57,7 +59,13 @@ export class TipsComponent {
         break;
       }
     }
-    this.timerService.setTimer(1)
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.isVisible = true
+        }
+      })
+    this.timerService.setTimer(0.5)
     this.tip = this.random1.Tip1
     this.tip2 = this.random1.Tip2
     this.tip3 = this.random1.Tip3
@@ -80,12 +88,15 @@ export class TipsComponent {
 
   showAnswer() {
     this.isVisible = !this.isVisible;
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 }
 @Component({
   selector: 'app-movies-hero',
   templateUrl: './tips.component.html',
-  styleUrls: ['./tips.component.css']
+  styleUrls: ['./tips.component.css'],
+  providers: [TimerService]
 })
 export class MoviesHeroComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
@@ -96,7 +107,8 @@ export class MoviesHeroComponent extends TipsComponent implements OnInit {
 @Component({
   selector: 'app-serials-hero',
   templateUrl: './tips.component.html',
-  styleUrls: ['./tips.component.css']
+  styleUrls: ['./tips.component.css'],
+  providers: [TimerService]
 })
 export class SerialsHeroComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
@@ -107,7 +119,8 @@ export class SerialsHeroComponent extends TipsComponent implements OnInit {
 @Component({
   selector: 'app-directors',
   templateUrl: './tips.component.html',
-  styleUrls: ['./tips.component.css']
+  styleUrls: ['./tips.component.css'],
+  providers: [TimerService]
 })
 export class DirectorsComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
