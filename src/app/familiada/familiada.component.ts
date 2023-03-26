@@ -1,15 +1,16 @@
-import {Component, OnInit} from '@angular/core';
+import {Component,OnInit} from '@angular/core';
 import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
 import {PlayerForFamiliada} from "../players/players.component";
 import {TimerService} from "../timer.service";
-import {interval, Subscription} from "rxjs";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-familiada',
   templateUrl: './familiada.component.html',
-  styleUrls: ['./familiada.component.css']
+  styleUrls: ['./familiada.component.css'],
+  providers: [TimerService]
 })
 export class FamiliadaComponent implements OnInit {
   public random1: FamiliadaModel | any = {}
@@ -28,7 +29,8 @@ export class FamiliadaComponent implements OnInit {
 
   constructor(private questionDataService: QuestionDataService,
               public timerService: TimerService,
-              public playerService: PlayersService) {
+              public playerService: PlayersService,
+  ) {
   }
 
   ngOnInit(): void {
@@ -79,7 +81,6 @@ export class FamiliadaComponent implements OnInit {
     this.playerService.setModal(false);
     this.winner = null;
     this.userAnswer = ''
-
     this.answers = []
     this.blockedButton = false
     this.playerService.nextPlayer()

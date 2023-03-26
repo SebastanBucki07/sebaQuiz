@@ -6,7 +6,8 @@ import {TimerService} from "../timer.service";
 import {Subscription} from "rxjs";
 
 @Component({
-  template: ''
+  template: '',
+  providers: [TimerService]
 })
 export abstract class DescriptionComponent {
   private subscription: Subscription | any;

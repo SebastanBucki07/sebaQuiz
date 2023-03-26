@@ -5,6 +5,7 @@ import {QuestionDataService} from "../question-data.service";
 import {PlayersService} from "../players.service";
 import {getAndDeleteRandomElementFromArray} from "../../common/randomize.helper";
 import {TimerService} from "../timer.service";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-multiple-choice',
@@ -12,6 +13,7 @@ import {TimerService} from "../timer.service";
   styleUrls: ['./multiple-choice.component.css']
 })
 export class MultipleChoiceComponent implements OnInit {
+  private subscription: Subscription | any;
   public isVisible = false;
   public isModalVisible = false
   public answer = ''
@@ -23,12 +25,20 @@ export class MultipleChoiceComponent implements OnInit {
 
   constructor(
     public questionDataService: QuestionDataService,
-    private timerService: TimerService,
+    public timerService: TimerService,
     public playerService: PlayersService) {
   }
 
   init(){
-    this.timerService.setTimer(1)
+    this.timerService.setTimer(0.1)
+    this.subscription = this.timerService.getBooleean()
+      .subscribe(x => {
+        if(x){
+          this.isVisible = true
+          this.submitAnswerButtonEnabled=true
+          this.answerButtonsDisabled=true
+        }
+      })
     this.settedQuestion = this.questionDataService.getMultipleChoiceQuestion()
     const arrray = [this.settedQuestion.a, this.settedQuestion.b, this.settedQuestion.c]
     const indexes = [0, 1, 2]
@@ -52,10 +62,12 @@ export class MultipleChoiceComponent implements OnInit {
     this.isVisible = false;
     this.answer = ''
     this.correct = false
-    this.submitAnswerButtonEnabled = true
+    this.submitAnswerButtonEnabled = false
     this.answerButtonsDisabled = false
     this.playerService.nextPlayer()
+    this.timerService.resetTimeout()
     this.init()
+    this.timerService.setTimer(0.15)
     this.playerService.setModal(false);
     this.selectedAnswer = ''
   }
@@ -67,6 +79,8 @@ export class MultipleChoiceComponent implements OnInit {
     if (this.selectedAnswer.includes(this.settedQuestion.answer)) {
       this.correct = true
     }
+    this.subscription.unsubscribe()
+    this.timerService.resetTimeout()
   }
 
   @Input() question = this.settedQuestion as QuestionMultipleChoice

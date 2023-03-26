@@ -54,7 +54,7 @@ export class CategoriesComponent implements OnInit {
     {name: "Filmy", id: 0, checkbox: false},
     {name: "Seriale", id: 1, checkbox: false},
     {name: "Szkoła", id: 2, checkbox: false},
-    {name: "Muyzka", id: 3, checkbox: false},
+    {name: "Muzyka", id: 3, checkbox: false},
     {name: "Kraje", id: 4, checkbox: false},
     {name: "piłka nożna", id: 5, checkbox: false},
     {name: "Gry", id: 6, checkbox: false},
