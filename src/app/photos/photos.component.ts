@@ -61,7 +61,7 @@ export abstract class PhotosComponent {
         break;
       }
     }
-    this.timerService.setTimer(0.1)
+    this.timerService.setTimer(0.5)
     this.tip = this.random1.photo
     this.answer = this.random1.name
   }
@@ -74,7 +74,7 @@ export abstract class PhotosComponent {
     this.playerService.nextPlayer()
     this.init()
     this.playerService.setModal(false)
-    this.timerService.setTimer(0.15)
+    this.timerService.setTimer(0.5)
     this.timerService.timeout=false
   }
 

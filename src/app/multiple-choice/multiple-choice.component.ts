@@ -30,7 +30,7 @@ export class MultipleChoiceComponent implements OnInit {
   }
 
   init(){
-    this.timerService.setTimer(0.1)
+    this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean()
       .subscribe(x => {
         if(x){
@@ -67,7 +67,7 @@ export class MultipleChoiceComponent implements OnInit {
     this.playerService.nextPlayer()
     this.timerService.resetTimeout()
     this.init()
-    this.timerService.setTimer(0.15)
+    this.timerService.setTimer(0.5)
     this.playerService.setModal(false);
     this.selectedAnswer = ''
   }

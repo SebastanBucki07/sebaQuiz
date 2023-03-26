@@ -65,7 +65,7 @@ export class TipsComponent {
           this.isVisible = true
         }
       })
-    this.timerService.setTimer(0.1)
+    this.timerService.setTimer(0.5)
     this.tip = this.random1.Tip1
     this.tip2 = this.random1.Tip2
     this.tip3 = this.random1.Tip3

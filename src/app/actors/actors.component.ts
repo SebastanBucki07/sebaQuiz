@@ -78,7 +78,7 @@ export abstract class ActorsComponent {
   }
 
   getQuestion() {
-    this.timerService.setTimer(0.1)
+    this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean()
       .subscribe(x => {
         if(x){

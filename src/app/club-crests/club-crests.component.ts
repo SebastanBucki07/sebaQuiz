@@ -43,7 +43,7 @@ export class ClubCrestsComponent implements OnInit {
     this.random1 = this.questionDataService.getClubCrestsQuestion()
     this.setSize()
     this.isModalVisible = true;
-    this.timerService.setTimer(0.10)
+    this.timerService.setTimer(0.5)
   }
 
   close() {

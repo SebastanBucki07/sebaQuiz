@@ -41,7 +41,7 @@ export abstract class Fragments {
   }
 
   getQuestion() {
-    this.timerService.setTimer(3)
+    this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean()
       .subscribe(x => {
         if(x){
@@ -97,20 +97,20 @@ export abstract class Fragments {
   showQuestion1() {
 
     this.isQuestion1Visible = !this.isQuestion1Visible;
-    this.timerService.setTimer(0.15)
+    this.timerService.setTimer(0.5)
   }
 
   showQuestion2() {
     this.isQuestion1Visible = false;
     this.isQuestion2Visible = !this.isQuestion2Visible;
-    this.timerService.setTimer(0.15)
+    this.timerService.setTimer(0.5)
 
   }
 
   showQuestion3() {
     this.isQuestion2Visible = false;
     this.isQuestion3Visible = !this.isQuestion3Visible;
-    this.timerService.setTimer(0.15)
+    this.timerService.setTimer(0.5)
   }
 
   setMultiply(multiply: number) {
@@ -135,7 +135,7 @@ export abstract class Fragments {
     this.playerService.nextPlayer()
     this.init()
     this.playerService.setModal(false)
-    this.timerService.setTimer(0.15)
+    this.timerService.setTimer(0.5)
     this.timerService.timeout=false
   }
 }

@@ -90,7 +90,7 @@ export class CountryComponent implements OnInit {
   }
 
   getQuestion(): void {
-    this.timerService.setTimer(0.35)
+    this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean()
       .subscribe(x => {
         if(x){
@@ -246,7 +246,7 @@ export class CountryComponent implements OnInit {
   }
 
   nextPlayer() {
-    this.timerService.setTimer(0.04)
+    this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
     let nextPlayer = {}
     if (indexofActualPlayer + 1 === this.players.length) {

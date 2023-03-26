@@ -28,7 +28,7 @@ export class ClubHistoryComponent implements OnInit {
   }
 
   init(){
-    this.timerService.setTimer(0.10)
+    this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean()
       .subscribe(x => {
         if(x){
