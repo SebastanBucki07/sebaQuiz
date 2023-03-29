@@ -5,6 +5,7 @@ import {FamiliadaAnswer, FamiliadaModel} from "../model/familiada-model";
 import {PlayerForFamiliada} from "../players/players.component";
 import {TimerService} from "../timer.service";
 import {Subscription} from "rxjs";
+import {formatStrings} from "../../common/string.helper";
 
 @Component({
   selector: 'app-familiada',
@@ -159,10 +160,10 @@ export class FamiliadaComponent implements OnInit {
   }
 
   save() {
-    const input = document.getElementById('userAnswer') as HTMLInputElement | null;
-    const value = input?.value;
+    const input = document.getElementById('userAnswer') as HTMLInputElement;
+    const value = input.value.toString();
     if (input != null) {
-      let tmp = this.answers.findIndex(el => el.answer.toLowerCase() === value?.toLowerCase())
+      let tmp = this.answers.findIndex(el => formatStrings(el.answer) === formatStrings(value))
       if (tmp !== -1) {
         if (!this.answers[tmp].display) {
           this.answers[tmp].display = true;

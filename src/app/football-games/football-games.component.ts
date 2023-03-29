@@ -5,6 +5,7 @@ import {InputAnswerModel, FootballGamesModel} from "../model/footballgames-model
 import {PlayerForFamiliada} from "../players/players.component";
 import {TimerService} from "../timer.service";
 import {Subscription} from "rxjs";
+import {formatStrings} from "../../common/string.helper";
 
 @Component({
   selector: 'app-football-games',
@@ -148,10 +149,10 @@ export class FootballGamesComponent implements OnInit {
   }
 
   save() {
-    const input = document.getElementById('userAnswer') as HTMLInputElement | null;
+    const input = document.getElementById('userAnswer') as HTMLInputElement;
     const value = input?.value;
     if (input != null) {
-      let tmp = this.answerForSquad.findIndex(el => el.inputAnswer.toLowerCase() === value?.toLowerCase())
+      let tmp = this.answerForSquad.findIndex(el => formatStrings(el.inputAnswer) === formatStrings(value))
       if (tmp !== -1) {
         if (!this.answerForSquad[tmp].display) {
           this.answerForSquad[tmp].display = true;
