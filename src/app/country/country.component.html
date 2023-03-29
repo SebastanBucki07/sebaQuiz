@@ -41,7 +41,8 @@
         <input [disabled]="blockedButton" id="userAnswer" type="text" class="form-control country-input"
                [value]="inputAnswer"
                placeholder="userAnswer"
-               aria-label="userAnswer" aria-describedby="basic-addon1">
+               aria-label="userAnswer" aria-describedby="basic-addon1"
+               (keyup.enter)="save()">
         <button [disabled]="blockedButton" type="button" class="btn btn-primary btn-lg btn-block" (click)="save()">
           Sprawdź
         </button>

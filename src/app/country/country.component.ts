@@ -245,6 +245,7 @@ export class CountryComponent implements OnInit {
     this.actualPlayer = player
   }
 
+
   nextPlayer() {
     this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0);
