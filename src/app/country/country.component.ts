@@ -8,6 +8,7 @@ import {PlayerForFamiliada} from "../players/players.component";
 import {InputAnswerModel} from "../model/footballgames-model";
 import {TimerService} from "../timer.service";
 import {Subscription} from "rxjs";
+import {formatStrings} from "../../common/string.helper";
 
 export class Question {
   id: number = 0;
@@ -219,10 +220,10 @@ export class CountryComponent implements OnInit {
   }
 
   save() {
-    const input = document.getElementById('userAnswer') as HTMLInputElement | null;
-    const value = input?.value;
+    const input = document.getElementById('userAnswer') as HTMLInputElement;
+    const value = input.value;
     if (input != null) {
-      let tmp = this.answersForCountries.findIndex(el => el.inputAnswer.toLowerCase() === value?.toLowerCase())
+      let tmp = this.answersForCountries.findIndex(el => formatStrings(el.inputAnswer) === formatStrings(value))
       if (tmp !== -1) {
         if (!this.answersForCountries[tmp].display) {
           this.answersForCountries[tmp].display = true;
