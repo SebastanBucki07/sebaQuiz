@@ -1,43 +1,41 @@
-import {Component, OnInit} from '@angular/core';
-import {DescriptionModel} from "../model/description-model";
-import {PlayersService} from "../players.service";
-import {QuestionDataService} from "../question-data.service";
-import {TimerService} from "../timer.service";
-import {Subscription} from "rxjs";
+import { Component, OnInit } from '@angular/core'
+import { DescriptionModel } from '../model/description-model'
+import { PlayersService } from '../players.service'
+import { QuestionDataService } from '../question-data.service'
+import { TimerService } from '../timer.service'
+import { Subscription } from 'rxjs'
 
 @Component({
   template: '',
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export abstract class DescriptionComponent {
-  private subscription: Subscription | any;
+  private subscription: Subscription | any
   public random1: DescriptionModel | any = {}
-  public points: number = 2
-  public question: string = ''
+  public points = 2
+  public question = ''
   public category = ''
-  public isVisible = false;
-  public isModalVisible = false;
-  public tip: string = ''
-  public answer: string = ''
+  public isVisible = false
+  public isModalVisible = false
+  public tip = ''
+  public answer = ''
 
   constructor(
     private questionDataService: QuestionDataService,
     public timerService: TimerService,
     public playerService: PlayersService
-  ) {
-  }
+  ) {}
 
-  init(){
+  init() {
     this.getQuestion()
   }
 
   getQuestion() {
-    this.subscription = this.timerService.getBooleean()
-      .subscribe(x => {
-        if(x){
-          this.isVisible = true
-        }
-      })
+    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+      if (x) {
+        this.isVisible = true
+      }
+    })
     switch (this.category) {
       case 'movie': {
         this.random1 = this.questionDataService.getMoviesDescriptionQuestion()
@@ -124,28 +122,27 @@ export abstract class DescriptionComponent {
         break
       }
       default: {
-        break;
+        break
       }
     }
     this.timerService.setTimer(0.5)
     this.tip = this.random1.description
-    this.isModalVisible = true;
+    this.isModalVisible = true
   }
 
   close() {
-    this.isVisible = false;
+    this.isVisible = false
     this.question = ''
     this.answer = ''
     this.playerService.nextPlayer()
     this.init()
     this.playerService.setModal(false)
     this.timerService.setTimer(0.5)
-    this.timerService.timeout=false
+    this.timerService.timeout = false
   }
 
   showAnswer() {
-
-    this.isVisible = !this.isVisible;
+    this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
@@ -154,7 +151,7 @@ export abstract class DescriptionComponent {
 @Component({
   selector: 'app-movies',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class MoviesComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -166,7 +163,7 @@ export class MoviesComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-serials',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class SerialsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -178,7 +175,7 @@ export class SerialsComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-games',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class GamesComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -190,7 +187,7 @@ export class GamesComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-districts',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class DistrictsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -202,7 +199,7 @@ export class DistrictsComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-stadium',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class StadiumsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -214,7 +211,7 @@ export class StadiumsComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-proverbs',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class ProverbsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -226,7 +223,7 @@ export class ProverbsComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-history',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class HistoryComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -238,7 +235,7 @@ export class HistoryComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-chemistSymbol',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class ChemistSymbolComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -250,7 +247,7 @@ export class ChemistSymbolComponent extends DescriptionComponent implements OnIn
 @Component({
   selector: 'app-biology',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class BiologyComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -262,7 +259,7 @@ export class BiologyComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-gods',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class GodsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -274,7 +271,7 @@ export class GodsComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-football',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class FootballComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {
@@ -286,7 +283,7 @@ export class FootballComponent extends DescriptionComponent implements OnInit {
 @Component({
   selector: 'app-capitals',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
 })
 export class CapitalsComponent extends DescriptionComponent implements OnInit {
   ngOnInit(): void {

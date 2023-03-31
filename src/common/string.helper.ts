@@ -111,4 +111,4 @@ export function formatStrings(text: string) {
     result += replacements[entry] ?? entry;
   }
   return result.toLowerCase();
-};
+}

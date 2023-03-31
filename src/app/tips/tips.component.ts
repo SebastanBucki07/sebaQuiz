@@ -1,39 +1,36 @@
-import { Component, OnInit } from '@angular/core';
-import {TipsModel} from "../model/tips-model";
-import {QuestionDataService} from "../question-data.service";
-import {PlayersService} from "../players.service";
-import {TimerService} from "../timer.service";
-import {Subscription} from "rxjs";
-
+import { Component, OnInit } from '@angular/core'
+import { TipsModel } from '../model/tips-model'
+import { QuestionDataService } from '../question-data.service'
+import { PlayersService } from '../players.service'
+import { TimerService } from '../timer.service'
+import { Subscription } from 'rxjs'
 
 @Component({
-  template: ''
+  template: '',
 })
 export class TipsComponent {
-  private subscription: Subscription | any;
+  private subscription: Subscription | any
   public random1: TipsModel | any = {}
-  public points: number = 2
-  public question: string = ''
-  public isVisible = false;
-  public isModalVisible = false;
+  public points = 2
+  public question = ''
+  public isVisible = false
+  public isModalVisible = false
   public hasTip3 = true
   public category = ''
-  public tip: string = ''
-  public tip2: string = ''
-  public tip3: string = ''
-  public answer: string = ''
+  public tip = ''
+  public tip2 = ''
+  public tip3 = ''
+  public answer = ''
 
   constructor(
     private questionDataService: QuestionDataService,
     public timerService: TimerService,
     public playerService: PlayersService
-  ) {
-  }
+  ) {}
 
-  init(){
+  init() {
     this.getQuestion()
   }
-
 
   getQuestion() {
     switch (this.category) {
@@ -56,28 +53,27 @@ export class TipsComponent {
         break
       }
       default: {
-        break;
+        break
       }
     }
-    this.subscription = this.timerService.getBooleean()
-      .subscribe(x => {
-        if(x){
-          this.isVisible = true
-        }
-      })
+    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+      if (x) {
+        this.isVisible = true
+      }
+    })
     this.timerService.setTimer(0.5)
     this.tip = this.random1.Tip1
     this.tip2 = this.random1.Tip2
     this.tip3 = this.random1.Tip3
-    if (this.tip3 === "-"){
+    if (this.tip3 === '-') {
       this.hasTip3 = false
     }
     this.answer = this.random1.Answer
-    this.isModalVisible = true;
+    this.isModalVisible = true
   }
 
   close() {
-    this.isVisible = false;
+    this.isVisible = false
     this.question = ''
     this.answer = ''
     this.hasTip3 = true
@@ -87,16 +83,17 @@ export class TipsComponent {
   }
 
   showAnswer() {
-    this.isVisible = !this.isVisible;
+    this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
 }
+
 @Component({
   selector: 'app-movies-hero',
   templateUrl: './tips.component.html',
   styleUrls: ['./tips.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class MoviesHeroComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
@@ -104,11 +101,12 @@ export class MoviesHeroComponent extends TipsComponent implements OnInit {
     this.init()
   }
 }
+
 @Component({
   selector: 'app-serials-hero',
   templateUrl: './tips.component.html',
   styleUrls: ['./tips.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class SerialsHeroComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {
@@ -116,11 +114,12 @@ export class SerialsHeroComponent extends TipsComponent implements OnInit {
     this.init()
   }
 }
+
 @Component({
   selector: 'app-directors',
   templateUrl: './tips.component.html',
   styleUrls: ['./tips.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class DirectorsComponent extends TipsComponent implements OnInit {
   ngOnInit(): void {

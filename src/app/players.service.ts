@@ -1,17 +1,17 @@
-import {Injectable} from '@angular/core';
-import {Player} from "./players/players.component";
+import { Injectable } from '@angular/core'
+import { Player } from './players/players.component'
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class PlayersService {
-  public players: Player[] = [];
-  public actualPlayer: number = 0;
-  public chosen: boolean;
-  public isModalVisible = false;
+  public players: Player[] = []
+  public actualPlayer = 0
+  public chosen: boolean
+  public isModalVisible = false
 
   constructor() {
-    this.chosen = true;
+    this.chosen = true
   }
 
   setPlayers(players: Player[]) {
@@ -35,7 +35,7 @@ export class PlayersService {
   }
 
   addPoints(id: number, points: number) {
-    this.players[id].points += points;
+    this.players[id].points += points
   }
 
   nextPlayer() {

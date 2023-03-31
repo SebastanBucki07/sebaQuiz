@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "heroku-postbuild": "ng build --configuration production --aot"
+    "heroku-postbuild": "ng build --configuration production --aot",
+    "lint": "eslint . --ext .ts"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +25,7 @@
     "@ng-bootstrap/ng-bootstrap": "^13.1.0",
     "@popperjs/core": "^2.10.2",
     "bootstrap": "^5.2.2",
+    "eslint": "^8.37.0",
     "express": "^4.18.2",
     "jquery": "^3.6.1",
     "popper.js": "^1.16.1",
@@ -37,12 +39,14 @@
     "@angular/compiler-cli": "^14.2.0",
     "@angular/localize": "^14.2.0",
     "@types/jasmine": "~4.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.0.0",
+    "prettier": "^2.8.7",
     "typescript": "~4.7.2"
   }
 }
