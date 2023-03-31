@@ -51,7 +51,7 @@ export class FootballGamesComponent implements OnInit {
         wrong: 0,
       })
     })
-    let playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
+    const playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
     this.setActualPlayer(this.players[playerIndex])
   }
 
@@ -146,7 +146,7 @@ export class FootballGamesComponent implements OnInit {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input?.value
     if (input != null) {
-      let tmp = this.answerForSquad.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
+      const tmp = this.answerForSquad.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
       if (tmp !== -1) {
         if (!this.answerForSquad[tmp].display) {
           this.answerForSquad[tmp].display = true

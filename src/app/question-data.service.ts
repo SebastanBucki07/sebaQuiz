@@ -1,48 +1,47 @@
-import {Injectable} from '@angular/core';
-import youtubeSongData from "../assets/youTube/youtubeSongs.json";
-import youtubeSerialsIntroData from "../assets/youTube/youtubeSerialsIntros.json";
-import youtubeMundialData from "../assets/youTube/youtubeMundialSongs.json"
-import {getAndDeleteRandomElementFromArray} from "../common/randomize.helper";
-import {YoutubeModel} from "./model/youtube-model";
-import famousPeopleData from "../assets/photos/famousPeopleForCategory.json";
-import footballGamesData from "../assets/football/footballGames.json"
-import multipleChoiceData from "../assets/multipleChoice/multipleChoice.json"
-import buildingsData from "../assets/photos/buildings.json";
-import {PhotoModel} from "./model/photo-model";
-import moviesData from "../assets/movies/movies.json";
-import allMoviesHeroData from "../assets/movies/moviesHero.json"
-import allSerialsHeroData from "../assets/movies/serialsHero.json"
-import serialsData from "../assets/movies/serials.json";
-import movieActors from "../assets/actors/movieActors.json";
-import directorsData from "../assets/movies/directors.json"
-import familiadaData from "../assets/familiada/familiada.json"
-import serialActors from "../assets/actors/serialActors.json";
-import gamesData from "../assets/games/games.json";
-import allDistricts from "../assets/poland/citiesPL.json";
-import allFootballData from "../assets/football/football.json"
-import allStadiums from "../assets/stadions/stadions.json";
-import allProverbs from "../assets/proverbs/proverbs.json";
-import allHistory from "../assets/history/history.json";
-import {DescriptionModel} from "./model/description-model";
-import {Country} from "./model/country-model";
-import countriesData from "../assets/countries/country.json";
-import continentsData from "../assets/countries/continents.json";
-import lettersData from "../assets/letters.json";
-import chemicalElements from "../assets/chemist/chemist.json";
-import biologyData from "../assets/biology/biology.json";
-import godsData from "../assets/gods/gods.json";
-import clubCrestsData from "../assets/clubs/clubCrests.json";
-import clubHistoryData from "../assets/clubs/clubsHistory.json";
-import {ClubHistory} from "./model/clubHistory-model";
-import {ActorModel} from "./model/actor-model";
-import {TipsModel} from "./model/tips-model";
-import {QuestionMultipleChoice} from "./model/question-model";
-import {FamiliadaModel} from "./model/familiada-model";
-import {FootballGamesModel} from "./model/footballgames-model";
-
+import { Injectable } from '@angular/core'
+import youtubeSongData from '../assets/youTube/youtubeSongs.json'
+import youtubeSerialsIntroData from '../assets/youTube/youtubeSerialsIntros.json'
+import youtubeMundialData from '../assets/youTube/youtubeMundialSongs.json'
+import { getAndDeleteRandomElementFromArray } from '../common/randomize.helper'
+import { YoutubeModel } from './model/youtube-model'
+import famousPeopleData from '../assets/photos/famousPeopleForCategory.json'
+import footballGamesData from '../assets/football/footballGames.json'
+import multipleChoiceData from '../assets/multipleChoice/multipleChoice.json'
+import buildingsData from '../assets/photos/buildings.json'
+import { PhotoModel } from './model/photo-model'
+import moviesData from '../assets/movies/movies.json'
+import allMoviesHeroData from '../assets/movies/moviesHero.json'
+import allSerialsHeroData from '../assets/movies/serialsHero.json'
+import serialsData from '../assets/movies/serials.json'
+import movieActors from '../assets/actors/movieActors.json'
+import directorsData from '../assets/movies/directors.json'
+import familiadaData from '../assets/familiada/familiada.json'
+import serialActors from '../assets/actors/serialActors.json'
+import gamesData from '../assets/games/games.json'
+import allDistricts from '../assets/poland/citiesPL.json'
+import allFootballData from '../assets/football/football.json'
+import allStadiums from '../assets/stadions/stadions.json'
+import allProverbs from '../assets/proverbs/proverbs.json'
+import allHistory from '../assets/history/history.json'
+import { DescriptionModel } from './model/description-model'
+import { Country } from './model/country-model'
+import countriesData from '../assets/countries/country.json'
+import continentsData from '../assets/countries/continents.json'
+import lettersData from '../assets/letters.json'
+import chemicalElements from '../assets/chemist/chemist.json'
+import biologyData from '../assets/biology/biology.json'
+import godsData from '../assets/gods/gods.json'
+import clubCrestsData from '../assets/clubs/clubCrests.json'
+import clubHistoryData from '../assets/clubs/clubsHistory.json'
+import { ClubHistory } from './model/clubHistory-model'
+import { ActorModel } from './model/actor-model'
+import { TipsModel } from './model/tips-model'
+import { QuestionMultipleChoice } from './model/question-model'
+import { FamiliadaModel } from './model/familiada-model'
+import { FootballGamesModel } from './model/footballgames-model'
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class QuestionDataService {
   public allFamiliadaData: FamiliadaModel[] = []
@@ -79,9 +78,6 @@ export class QuestionDataService {
   public capitalsLetters: string[] | any = null
   public allClubsCrests: string[] = []
   public init = false
-
-  constructor() {
-  }
 
   initial() {
     this.allYoutubeSongs = youtubeSongData
@@ -299,10 +295,9 @@ export class QuestionDataService {
       }
       case 'countriesForFlags': {
         return getAndDeleteRandomElementFromArray(this.countriesForFlags)
-
       }
       default: {
-        break;
+        break
       }
     }
   }

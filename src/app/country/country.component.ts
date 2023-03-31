@@ -11,8 +11,8 @@ import { Subscription } from 'rxjs'
 import { formatStrings } from '../../common/string.helper'
 
 export class Question {
-  id: number = 0
-  questionName: string = ''
+  id = 0
+  questionName = ''
 }
 
 @Component({
@@ -31,7 +31,7 @@ export class CountryComponent implements OnInit {
   public blockedButton = false
   public isVisible = false
   public isModalVisible = false
-  public showMessage: boolean = false
+  public showMessage = false
   public letterForCountriesQuestions: string | any = ''
   public question: any
   public answer = ''
@@ -75,7 +75,7 @@ export class CountryComponent implements OnInit {
         wrong: 0,
       })
     })
-    let playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
+    const playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
     this.setActualPlayer(this.players[playerIndex])
   }
 
@@ -223,7 +223,7 @@ export class CountryComponent implements OnInit {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input.value
     if (input != null) {
-      let tmp = this.answersForCountries.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
+      const tmp = this.answersForCountries.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
       if (tmp !== -1) {
         if (!this.answersForCountries[tmp].display) {
           this.answersForCountries[tmp].display = true
