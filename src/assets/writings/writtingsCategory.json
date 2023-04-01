@@ -1,0 +1,270 @@
+[
+  {
+    "id": 1,
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 2,
+    "category": "Pokemon 1 seria"
+  },
+  {
+    "id": 3,
+    "category": "Pokemon 2 seria"
+  },
+  {
+    "id": 4,
+    "category": "Pokemon 3 seria"
+  },
+  {
+    "id": 5,
+    "category": "Postacie spider-man bajka Fox Kids"
+  },
+  {
+    "id": 6,
+    "category": "Postacie x-man bajka Fox Kids"
+  },
+  {
+    "id": 7,
+    "category": "tytułowi bochaterowie Marvela"
+  },
+  {
+    "id": 8,
+    "category": "tytułowi bochaterowie DC"
+  },
+  {
+    "id": 9,
+    "category": "bajki oraz seriale aktorskie FoxKids"
+  },
+  {
+    "id": 10,
+    "category": "bajki oraz seriale aktorskie Jetix"
+  },
+  {
+    "id": 11,
+    "category": "bajki oraz seriale aktorskie MiniMax"
+  },
+  {
+    "id": 12,
+    "category": "bajki oraz seriale aktorskie zigzap"
+  },
+  {
+    "id": 13,
+    "category": "bajki oraz seriale aktorskie carton Network"
+  },
+  {
+    "id": 14,
+    "category": "Kolory power rangersów"
+  },
+  {
+    "id": 15,
+    "category": "Tytuły serii power rangers"
+  },
+  {
+    "id": 16,
+    "category": "zaklęcia w serii Harry Potter"
+  },
+  {
+    "id": 17,
+    "category": "Rywale Piasta Gliwice na poziomie Ekstraklasy"
+  },
+  {
+    "id": 18,
+    "category": "Postacie z serialu gra o tron"
+  },
+  {
+    "id": 19,
+    "category": "Postacie z Władcy pierścieni"
+  },
+  {
+    "id": 20,
+    "category": "Postacie z Harrego Pottera"
+  },
+  {
+    "id": 21,
+    "category": "Teleturnieje"
+  },
+  {
+    "id": 22,
+    "category": "Postacie dające misje w GTA III"
+  },
+  {
+    "id": 23,
+    "category": "Postacie GTA VC"
+  },
+  {
+    "id": 24,
+    "category": "Postacie z GTA SA"
+  },
+  {
+    "id": 25,
+    "category": "Postacie z GTA IV"
+  },
+  {
+    "id": 26,
+    "category": "Postacie z GTA IV TBOGT"
+  },
+  {
+    "id": 27,
+    "category": "Polskie seriale kryminalne"
+  },
+  {
+    "id": 28,
+    "category": "Polskie seriale paradokumentalne"
+  },
+  {
+    "id": 29,
+    "category": "Polskie seriale komediowe"
+  },
+  {
+    "id": 30,
+    "category": "Postacie mortal kombat"
+  },
+  {
+    "id": 31,
+    "category": "Postacie Tekken"
+  },
+  {
+    "id": 32,
+    "category": "Stany Zjednoczone"
+  },
+  {
+    "id": 33,
+    "category": "Marki samochodów"
+  },
+  {
+    "id": 34,
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 35,
+    "category": "Sieci handlowe w Polsce ( wikipedia)"
+  },
+  {
+    "id": 36,
+    "category": "Polskie Województwa"
+  },
+  {
+    "id": 37,
+    "category": "Specjalizacje Lekarskie"
+  },
+  {
+    "id": 38,
+    "category": "Owoce"
+  },
+  {
+    "id": 39,
+    "category": "Warzywa"
+  },
+  {
+    "id": 40,
+    "category": "Przyprawy kuchenne"
+  },
+  {
+    "id": 41,
+    "category": "Smaki chipsów Lays"
+  },
+  {
+    "id": 42,
+    "category": "Gry Rockstar Games"
+  },
+  {
+    "id": 43,
+    "category": "Gry z serii Need For Speed"
+  },
+  {
+    "id": 44,
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 45,
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 46,
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 47,
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 48,
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 49,
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 50,
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 51,
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 52,
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 53,
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 54,
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 55,
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 56,
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 57,
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 58,
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 59,
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 60,
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 61,
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 62,
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 63,
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 64,
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 65,
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 66,
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 67,
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  }
+]

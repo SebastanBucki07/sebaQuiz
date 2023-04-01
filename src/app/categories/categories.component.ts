@@ -49,6 +49,8 @@ export class CategoriesComponent implements OnInit {
     { name: 'Stolice krajów?', id: 30, checkbox: false },
     { name: 'Familiada', id: 31, checkbox: false },
     { name: 'Był taki mecz', id: 32, checkbox: false },
+    { name: 'Wypisywanie róznych wspólnych', id: 33, checkbox: false },
+    { name: 'Wypisywanie róznych wspólnych - piłka nożna', id: 34, checkbox: false },
   ]
   public smallCategories: Category[] = [
     { name: 'Filmy', id: 0, checkbox: false },
@@ -62,6 +64,7 @@ export class CategoriesComponent implements OnInit {
     { name: 'Znane postacie', id: 8, checkbox: false },
     { name: 'Wypisz kraje lub stolice', id: 9, checkbox: false },
     { name: 'Familiada', id: 10, checkbox: false },
+    { name: 'Wypisywanie róznych wspólnych', id: 11, checkbox: false },
   ]
 
   public chosenCategories: Category[] = []

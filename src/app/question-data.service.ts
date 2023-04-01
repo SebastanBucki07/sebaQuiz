@@ -13,6 +13,7 @@ import moviesData from '../assets/movies/movies.json'
 import allMoviesHeroData from '../assets/movies/moviesHero.json'
 import allSerialsHeroData from '../assets/movies/serialsHero.json'
 import serialsData from '../assets/movies/serials.json'
+import writtingsCattegory from '../assets/writings/writtingsCategory.json'
 import movieActors from '../assets/actors/movieActors.json'
 import directorsData from '../assets/movies/directors.json'
 import familiadaData from '../assets/familiada/familiada.json'
@@ -23,6 +24,7 @@ import allFootballData from '../assets/football/football.json'
 import allStadiums from '../assets/stadions/stadions.json'
 import allProverbs from '../assets/proverbs/proverbs.json'
 import allHistory from '../assets/history/history.json'
+import writtingsData from '../assets/writings/writings.json'
 import { DescriptionModel } from './model/description-model'
 import { Country } from './model/country-model'
 import countriesData from '../assets/countries/country.json'
@@ -39,6 +41,7 @@ import { TipsModel } from './model/tips-model'
 import { QuestionMultipleChoice } from './model/question-model'
 import { FamiliadaModel } from './model/familiada-model'
 import { FootballGamesModel } from './model/footballgames-model'
+import { WrittingData, WrittingsCategoryModel } from './model/writtingsCategory-model'
 
 @Injectable({
   providedIn: 'root',
@@ -70,6 +73,10 @@ export class QuestionDataService {
   public allSerialsActors: ActorModel[] = []
   public allClubsHistoryQuestion: ClubHistory[] = []
   public allChemicalElements: DescriptionModel[] = []
+  public writtingsCategoryElements: WrittingsCategoryModel[] = []
+  public writtingsCategoryFootballElements: WrittingsCategoryModel[] = []
+  public writtingsData: WrittingData[] = []
+  public writtingsFootballData: WrittingData[] = []
   public countriesForFlags: Country[] | any = null
   public countriesForCapitals: Country[] | any = null
   public continentsForCountries: string[] | any = []
@@ -113,6 +120,8 @@ export class QuestionDataService {
     this.continentsForCapitals = [...this.continentsForCountries]
     this.countriesLetters = lettersData
     this.capitalsLetters = [...this.countriesLetters]
+    this.writtingsCategoryElements = writtingsCattegory
+    this.writtingsData = writtingsData
     this.init = true
   }
 
@@ -268,6 +277,20 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allSerialsHero)
+  }
+
+  getWritingsCategoryQuestion(): WrittingsCategoryModel {
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.writtingsCategoryElements)
+  }
+
+  getWritingsCategoryDataQuestion(): WrittingData[] {
+    const category = this.getWritingsCategoryQuestion()
+    const tmp = this.writtingsData.filter((data) => data.category === category.category)
+    console.log(JSON.stringify(tmp))
+    return tmp
   }
 
   getCountries(question: string): Country[] | string[] | any {
