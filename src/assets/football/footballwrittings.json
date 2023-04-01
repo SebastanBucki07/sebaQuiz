@@ -1,0 +1,4702 @@
+[
+  {
+    "id": 1,
+    "name": "Raków Częstochowa",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 2,
+    "name": "Legia Warszawa",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 3,
+    "name": "Lech Poznań",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 4,
+    "name": "Pogoń Szczecin",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 5,
+    "name": "Warta Poznań",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 6,
+    "name": "Widzew Łódź",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 7,
+    "name": "Cracovia",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 8,
+    "name": "Wisła Płock",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 9,
+    "name": "Radomiak Radom",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 10,
+    "name": "Piast Gliwice",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 11,
+    "name": "Stal Mielec",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 12,
+    "name": "Śląsk Wrocław",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 13,
+    "name": "Zagłębie Lubin",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 14,
+    "name": "Jagiellonia Białystok",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 15,
+    "name": "Górnik Zabrze",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 16,
+    "name": "Korona Kielce",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 17,
+    "name": "Lechia Gdańsk",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 18,
+    "name": "Miedź Legnica",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 19,
+    "name": "ŁKS Łódź",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 20,
+    "name": "Ruch Chorzów",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 21,
+    "name": "Wisła Kraków",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 22,
+    "name": "Bruk-Bet Termalica Nieciecza",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 23,
+    "name": "Puszcza Niepołomice",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 24,
+    "name": "Arka Gdynia",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 25,
+    "name": "Podbeskidzie Bielsko-Biała",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 26,
+    "name": "Chrobry Głogów",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 27,
+    "name": "Stal Rzeszów",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 28,
+    "name": "GKS Katowice",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 29,
+    "name": "GKS Tychy",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 30,
+    "name": "Górnik Łęczna",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 31,
+    "name": "Resovia",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 32,
+    "name": "Zagłębie Sosnowiec",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 33,
+    "name": "Odra Opole",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 34,
+    "name": "Sandecja Nowy Sącz",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 35,
+    "name": "Skra Częstochowa",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 36,
+    "name": "Chojniczanka Chojnice",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 37,
+    "name": "Kotwica Kołobrzeg",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 38,
+    "name": "KKS 1925 Kalisz",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 39,
+    "name": "Polonia Warszawa",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 40,
+    "name": "Olimpia Elbląg",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 41,
+    "name": "Znicz Pruszków",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 42,
+    "name": "Stomil Olsztyn",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 43,
+    "name": "Wisła Puławy",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 44,
+    "name": "Motor Lublin",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 45,
+    "name": "Lech II Poznań",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 46,
+    "name": "GKS Jastrzębie",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 47,
+    "name": "Pogoń Siedlce",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 48,
+    "name": "Radunia Stężyca",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 49,
+    "name": "Hutnik Kraków",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 50,
+    "name": "Górnik Polkowice",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 51,
+    "name": "Garbarnia Kraków",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 52,
+    "name": "Zagłębie II Lubin",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 53,
+    "name": "Siarka Tarnobrzeg",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 54,
+    "name": "Śląsk II Wrocław",
+    "category": "polskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 55,
+    "name": "Arsenal Londyn",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 56,
+    "name": "Manchester City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 57,
+    "name": "Manchester United",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 58,
+    "name": "Tottenham Hotspur",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 59,
+    "name": "Newcastle United",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 60,
+    "name": "Liverpool",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 61,
+    "name": "Brighton",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 62,
+    "name": "Brentford",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 63,
+    "name": "Fulham",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 64,
+    "name": "Chelsea Londyn",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 65,
+    "name": "Aston Villa",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 66,
+    "name": "Crystal Palace",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 67,
+    "name": "Wolverhampton Wanderers",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 68,
+    "name": "Leeds",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 69,
+    "name": "Everton",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 70,
+    "name": "Nottingham Forest",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 71,
+    "name": "Leicester City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 72,
+    "name": "West Ham United",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 73,
+    "name": "Bournemouth",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 74,
+    "name": "Southampton",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 75,
+    "name": "Burnley",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 76,
+    "name": "Sheffield United",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 77,
+    "name": "Middlesbrough",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 78,
+    "name": "Luton Town",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 79,
+    "name": "Blackburn Rovers",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 80,
+    "name": "Millwall",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 81,
+    "name": "Norwich City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 82,
+    "name": "Coventry City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 83,
+    "name": "West Bromwich Albion",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 84,
+    "name": "Watford",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 85,
+    "name": "Sunderland",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 86,
+    "name": "Preston North End",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 87,
+    "name": "Stoke City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 88,
+    "name": "Bristol City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 89,
+    "name": "Hull City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 90,
+    "name": "Swansea City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 91,
+    "name": "Birmingham City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 92,
+    "name": "Reading",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 93,
+    "name": "Queens Park Rangers",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 94,
+    "name": "Rotherham United",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 95,
+    "name": "Cardiff City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 96,
+    "name": "Huddersfield town",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 97,
+    "name": "Blackpool",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 98,
+    "name": "Wigan Athletic",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 99,
+    "name": "Plymouth Argyle",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 100,
+    "name": "Sheffield Wednesday",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 101,
+    "name": "Ipswich Town",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 102,
+    "name": "Barnsley",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 103,
+    "name": "Bolton Wanderers",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 104,
+    "name": "Derby Country",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 105,
+    "name": "Peterborough united",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 106,
+    "name": "Wycombe Wanderers",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 107,
+    "name": "Portsmouth",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 108,
+    "name": "Shrewsbury Town",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 109,
+    "name": "Exeter City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 110,
+    "name": "Charlton Athletic",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 111,
+    "name": "Fleetwood Town",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 112,
+    "name": "Lincoln City",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 113,
+    "name": "Bristol Rovers",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 114,
+    "name": "Port Vale",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 115,
+    "name": "Cheltenham Town",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 116,
+    "name": "Burton Albion",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 117,
+    "name": "Milton Keynes Dons",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 118,
+    "name": "Oxford United",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 119,
+    "name": "Accrington Stanley",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 120,
+    "name": "Morecambe",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 121,
+    "name": "Cambridge United",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 122,
+    "name": "Forest Green Rovers",
+    "category": "angielskie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 123,
+    "name": "Napoli",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 124,
+    "name": "Lazio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 125,
+    "name": "Inter Mediolan",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 126,
+    "name": "AC Milan",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 127,
+    "name": "AS Roma",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 128,
+    "name": "Atalanta",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 129,
+    "name": "Juventus Turyn",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 130,
+    "name": "Udinese",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 131,
+    "name": "Fiorentina",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 132,
+    "name": "Bologna",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 133,
+    "name": "Torino",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 134,
+    "name": "Sassuolo Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 135,
+    "name": "Monza",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 136,
+    "name": "Empoli",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 137,
+    "name": "Lecce",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 138,
+    "name": "Salernitana",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 139,
+    "name": "Spezia Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 140,
+    "name": "Hellas Verona",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 141,
+    "name": "Sampdoria",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 142,
+    "name": "Cremonese",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 143,
+    "name": "Frosinone Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 144,
+    "name": "Genoa",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 145,
+    "name": "Sudtirol",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 146,
+    "name": "Bari",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 147,
+    "name": "Pisa",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 148,
+    "name": "Cagliari Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 149,
+    "name": "Reggina",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 150,
+    "name": "Palermo",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 151,
+    "name": "Parma Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 152,
+    "name": "Como",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 153,
+    "name": "Ternana Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 154,
+    "name": "Modena",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 155,
+    "name": "Ascoli Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 156,
+    "name": "Cittadella",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 157,
+    "name": "Perugia Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 158,
+    "name": "Venezia",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 159,
+    "name": "Cosenza Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 160,
+    "name": "Benevento Calcio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 161,
+    "name": "Spal",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 162,
+    "name": "Brescia",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 163,
+    "name": "PSG",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 164,
+    "name": "Olympique Marsylia",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 165,
+    "name": "RC Lens",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 166,
+    "name": "AS Monaco",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 167,
+    "name": "Stade Rennais",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 168,
+    "name": "LOSC Lille",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 169,
+    "name": "OGC Nice",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 170,
+    "name": "FC Lorient",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 171,
+    "name": "STADE DE REIMS",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 172,
+    "name": "Olympique Lyon",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 173,
+    "name": "Montpellier HSC",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 174,
+    "name": "Toulouse",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 175,
+    "name": "Clermont Foot 63",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 176,
+    "name": "Nantes",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 177,
+    "name": "RC Strasbourg",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 178,
+    "name": "Stade Brestois 29",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 179,
+    "name": "AJ Auxerre",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 180,
+    "name": "Troyes AC",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 181,
+    "name": "AC Ajaccio",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 182,
+    "name": "Angers SCO",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 183,
+    "name": "Le Havre AC",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 184,
+    "name": "Girondins Bordeaux",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 185,
+    "name": "Sochaux-Montbéliard",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 186,
+    "name": "Metz",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 187,
+    "name": "Bastia",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 188,
+    "name": "Caen",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 189,
+    "name": "Grenoble Foot 38",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 190,
+    "name": "Quevilly Rouen",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 191,
+    "name": "En Avant Guingamp",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 192,
+    "name": "Paris FC",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 193,
+    "name": "Amiens SC",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 194,
+    "name": "AS Saint-Étienne",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 195,
+    "name": "Annecy",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 196,
+    "name": "Valenciennes",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 197,
+    "name": "Pau FC",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 198,
+    "name": "Rodez",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 199,
+    "name": "Stade Lavallois",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 200,
+    "name": "Dijon FCO",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 201,
+    "name": "Nîmes Olympique",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 202,
+    "name": "Chamois Niortais FC",
+    "category": "włoskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 203,
+    "name": "FC Barcelona",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 204,
+    "name": "Real Madryt",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 205,
+    "name": "Atlético Madryt",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 206,
+    "name": "Real Sociedad",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 207,
+    "name": "Real Betis",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 208,
+    "name": "Villarreal CF",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 209,
+    "name": "Athletic Bilbao",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 210,
+    "name": "Rayo Vallecano",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 211,
+    "name": "CA Osasuna",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 212,
+    "name": "Celta Vigo",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 213,
+    "name": "RCD Mallorca",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 214,
+    "name": "Girona",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 215,
+    "name": "Getafe",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 216,
+    "name": "Sevilla",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 217,
+    "name": "Cadiz",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 218,
+    "name": "Real Valladolid",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 219,
+    "name": "RCD Espanyol",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 220,
+    "name": "Valencia CF",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 221,
+    "name": "UD Almería",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 222,
+    "name": "Elche CF",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 223,
+    "name": "SD Eibar",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 224,
+    "name": "Granada CF",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 225,
+    "name": "UD Las Palmas",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 226,
+    "name": "Levante UD",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 227,
+    "name": "Deportivo Alavés",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 228,
+    "name": "Albacete Balompié",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 229,
+    "name": "FC Cartagena",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 230,
+    "name": "Burgos CF",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 231,
+    "name": "Villarreal B",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 232,
+    "name": "SD Huesca",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 233,
+    "name": "Andorra",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 234,
+    "name": "CD Tenerife",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 235,
+    "name": "CD Mirandés",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 236,
+    "name": "Real Saragossa",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 237,
+    "name": "CD Leganés",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 238,
+    "name": "Real Oviedo",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 239,
+    "name": "Racing Santander",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 240,
+    "name": "Sporting Gijón",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 241,
+    "name": "SD Ponferradina",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 242,
+    "name": "Malaga CF",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 243,
+    "name": "UD Ibiza",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 244,
+    "name": "CD Lugo",
+    "category": "hiszpanskie drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 245,
+    "name": "Borussia Dortmund",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 246,
+    "name": "Bayern Monachium",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 247,
+    "name": "FC Union Berlin",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 248,
+    "name": "SC Freiburg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 249,
+    "name": "RB Lipsk",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 250,
+    "name": "Eintracht Frankfurt",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 251,
+    "name": "VfL Wolfsburg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 252,
+    "name": "Bayer Leverkusen",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 253,
+    "name": "FSV Mainz 05",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 254,
+    "name": "Borussia Mönchengladbach",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 255,
+    "name": "Werder Brema",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 256,
+    "name": "FC Augsburg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 257,
+    "name": "FC Koeln",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 258,
+    "name": "VfL Bochum",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 259,
+    "name": "TSG Hoffenheim",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 260,
+    "name": "Hertha Berlin",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 261,
+    "name": "FC Schalke 04",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 262,
+    "name": "VfB Stuttgart",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 263,
+    "name": "SV Darmstadt 98",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 264,
+    "name": "FC Heidenheim",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 265,
+    "name": "Hamburger SV",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 266,
+    "name": "Fortuna Düsseldorf",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 267,
+    "name": "St. Pauli",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 268,
+    "name": "SC Paderborn 07",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 269,
+    "name": "FC Kaiserslautern",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 270,
+    "name": "Holstein Kiel",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 271,
+    "name": "Karlsruher",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 272,
+    "name": "Hannover 96",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 273,
+    "name": "SpVgg Greuther Fürth",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 274,
+    "name": "FC Nürnberg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 275,
+    "name": "FC Magdeburg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 276,
+    "name": "SSV Jahn Regensburg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 277,
+    "name": "Arminia Bielefeld",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 278,
+    "name": "Eintracht Brunszwik",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 279,
+    "name": "Hansa Rostock",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 280,
+    "name": "SV Sandhausen",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 281,
+    "name": "SV 07 Elversberg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 282,
+    "name": "SC Freiburg II",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 283,
+    "name": "SV Wehen Wiesbaden",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 284,
+    "name": "VfL Osnabrück",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 285,
+    "name": "Dynamo Dresden",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 286,
+    "name": "FC Saarbrücken",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 287,
+    "name": "SV Waldhof Mannheim",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 288,
+    "name": "FC Viktoria Köln",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 289,
+    "name": "TSV 1860 Monachium",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 290,
+    "name": "SC Verl",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 291,
+    "name": "MSV Duisburg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 292,
+    "name": "FC Erzgebirge Aue",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 293,
+    "name": "FC Ingolstadt 04",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 294,
+    "name": "Rot-Weiss Essen",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 295,
+    "name": "Borussia Dortmund II",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 296,
+    "name": "Hallescher FC",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 297,
+    "name": "SpVgg Bayreuth",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 298,
+    "name": "VfB Oldenburg",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 299,
+    "name": "FSV Zwickau",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 300,
+    "name": "SV Meppen",
+    "category": "niemieckie drużyny piłki nożnej 3ligi stan na 2022/2023"
+  },
+  {
+    "id": 301,
+    "name": "Red Bull Salzburg",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 302,
+    "name": "SK Sturm Graz",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 303,
+    "name": "LASK Linz",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 304,
+    "name": "Rapid Wiedeń",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 305,
+    "name": "Austria Wiedeń",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 306,
+    "name": "SK Austria Klagenfurt",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 307,
+    "name": "WSG Tirol",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 308,
+    "name": "Austria Lustenau",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 309,
+    "name": "Wolfsberger AC",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 310,
+    "name": "TSV Hartberg",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 311,
+    "name": "SV Ried",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 312,
+    "name": "Rheindorf Altach",
+    "category": "Austriackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 313,
+    "name": "KRC Genk",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 314,
+    "name": "Royale Union Saint-Gilloise",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 315,
+    "name": "Royal Antwerp FC",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 316,
+    "name": "KAA Gent",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 317,
+    "name": "Club Brugge",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 318,
+    "name": "KVC Westerlo",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 319,
+    "name": "Standard Liège",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 320,
+    "name": "RSC Anderlecht",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 321,
+    "name": "Royal Charleroi",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 322,
+    "name": "Cercle Brugge",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 323,
+    "name": "Oud-Heverlee Leuven",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 324,
+    "name": "Sint-Truidense VV",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 325,
+    "name": "KV Mechelen",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 326,
+    "name": "KV Kortrijk",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 327,
+    "name": "KAS Eupen",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 328,
+    "name": "KV Oostende",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 329,
+    "name": "SV Zulte Waregem",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 330,
+    "name": "RFC Seraing",
+    "category": "Belgijskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 331,
+    "name": "Dynamo Mińsk",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 332,
+    "name": "BATE Borysów",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 333,
+    "name": "FC Mińsk",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 334,
+    "name": "Szachcior Soligorsk",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 335,
+    "name": "FK Smorgonie",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 336,
+    "name": "Torpedo Zhodino",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 337,
+    "name": "Eniergietyk-BDU Mińsk",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 338,
+    "name": "Nioman Grodno",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 339,
+    "name": "Naftan Nowopołock",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 340,
+    "name": "Dynamo Brześć",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 341,
+    "name": "Biełszyna Bobrujsk",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 342,
+    "name": "FK Słuck",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 343,
+    "name": "FK Homel",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 344,
+    "name": "Sławija Mozyrz",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 345,
+    "name": "Isłacz Minski Rajon",
+    "category": "Białoruskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 346,
+    "name": "ALVES TIAGO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 347,
+    "name": "AMEYAW MICHAEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 348,
+    "name": "ANDRASZAK RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 349,
+    "name": "ANGIELSKI KAROL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 350,
+    "name": "APPIAH KOFI KYERE",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 351,
+    "name": "AQUINO DANI",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 352,
+    "name": "AYONG KARSTEN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 353,
+    "name": "BADIA GERARD",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 354,
+    "name": "BAJCER PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 355,
+    "name": "BALUL TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 356,
+    "name": "BAŁUSZYŃSKI HENRYK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 357,
+    "name": "BANAŚ ADAM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 358,
+    "name": "BAŃKA ARTUR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 359,
+    "name": "BARISIĆ JOSIP",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 360,
+    "name": "BEDNARZ ANDRZEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 361,
+    "name": "BIAŁEK MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 362,
+    "name": "BISKUP JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 363,
+    "name": "BŁACHUT MARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 364,
+    "name": "BOCHENEK DARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 365,
+    "name": "BODYS MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 366,
+    "name": "BODZIOCH JANUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 367,
+    "name": "BODZIOCH MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 368,
+    "name": "BOJARSKI MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 369,
+    "name": "BOK ADRIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 370,
+    "name": "BORKAŁA REMIGIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 371,
+    "name": "BRONOWICKI PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 372,
+    "name": "BROŻEK PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 373,
+    "name": "BUDKA MIROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 374,
+    "name": "BUDZICH DAWID",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 375,
+    "name": "BUDZIK DOMINIK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 376,
+    "name": "BUKATA MARTIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 377,
+    "name": "BUKOWIEC MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 378,
+    "name": "BURYAN JAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 379,
+    "name": "BYRTEK DAMIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 380,
+    "name": "BZDĘGA TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 381,
+    "name": "CALIJURI MAYCON",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 382,
+    "name": "CHAŁBIŃSKI MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 383,
+    "name": "CHAMERA MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 384,
+    "name": "CHARMUŁOWICZ SŁAWOMIR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 385,
+    "name": "CHOLEWA DAWID",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 386,
+    "name": "CHRAPEK MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 387,
+    "name": "CHYLASZEK DANIEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 388,
+    "name": "CHYŁA MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 389,
+    "name": "CICMAN PAVOL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 390,
+    "name": "CIECHAŃSKI DANIEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 391,
+    "name": "CIFUENTES ALBERTO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 392,
+    "name": "CMELIK LUKAS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 393,
+    "name": "CUERDA FERNANDO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 394,
+    "name": "CZEKAJ SŁAWOMIR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 395,
+    "name": "CZEKAŃSKI WITOLD",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 396,
+    "name": "CZERWIŃSKI JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 397,
+    "name": "DĄBROWSKI MIROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 398,
+    "name": "DĄBROWSKI WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 399,
+    "name": "DEMIANIUK CEZARY",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 400,
+    "name": "DŁUGOŁĘCKI MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 401,
+    "name": "DOCEKAL TOMAS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 402,
+    "name": "DUMAŁA RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 403,
+    "name": "DUNAJCZYK WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 404,
+    "name": "DUSZARA PRZEMYSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 405,
+    "name": "DYBOWSKI KAROL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 406,
+    "name": "DYTKO PATRICK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 407,
+    "name": "DZICZEK PATRYK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 408,
+    "name": "FEĆ MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 409,
+    "name": "FELIX JORGE",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 410,
+    "name": "FILIPCZYK MAREK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 411,
+    "name": "FILIPOWICZ MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 412,
+    "name": "FILIPOWICZ GRZEGORZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 413,
+    "name": "FLIS MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 414,
+    "name": "FOLC MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 415,
+    "name": "FREITAG JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 416,
+    "name": "GAŁUSZKA RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 417,
+    "name": "GAMLA PAWEŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 418,
+    "name": "GARDIASZ ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 419,
+    "name": "GENDERA MAKSYM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 420,
+    "name": "GIL GRZEGORZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 421,
+    "name": "GIRDVAINIS EDVINAS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 422,
+    "name": "GLIK KAMIL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 423,
+    "name": "GŁOWIENKO JAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 424,
+    "name": "GOJKO DENIS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 425,
+    "name": "GONTAREWICZ WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 426,
+    "name": "GORCZYCA JACEK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 427,
+    "name": "GOTAL SANDRO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 428,
+    "name": "GRAJNER TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 429,
+    "name": "GROBORZ KAMIL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 430,
+    "name": "GROLIK MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 431,
+    "name": "GRYMEL MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 432,
+    "name": "GRZEMSKI BARTŁOMIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 433,
+    "name": "HADJ SAID MOHAMED AMINE",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 434,
+    "name": "HAŁGAS KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 435,
+    "name": "HANZEL ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 436,
+    "name": "HATELEY TOM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 437,
+    "name": "HEBERT",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 438,
+    "name": "HOLUBEK JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 439,
+    "name": "HORVATH CSABA",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 440,
+    "name": "HUK TOMAS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 441,
+    "name": "HUMERSKI MACIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 442,
+    "name": "HYJEK JAVIER AJENJO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 443,
+    "name": "IPSA KRISTIJAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 444,
+    "name": "IWAN BARTOSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 445,
+    "name": "IWAN DANIEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 446,
+    "name": "IWANICKI LESZEK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 447,
+    "name": "IZVOLT MATEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 448,
+    "name": "JAGIEŁŁO ALEKSANDER",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 449,
+    "name": "JANCZAREK ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 450,
+    "name": "JANCZYK DAWID",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 451,
+    "name": "JANKOWSKI MACIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 452,
+    "name": "JARKIEWICZ ANDRZEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 453,
+    "name": "JELONEK BARTŁOMIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 454,
+    "name": "JODŁOWIEC TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 455,
+    "name": "JOHN COLLINS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 456,
+    "name": "JURADO ALVARO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 457,
+    "name": "JURADO RUBEN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 458,
+    "name": "KAMIŃSKI WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 459,
+    "name": "KAPUSTA ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 460,
+    "name": "KAPUT MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 461,
+    "name": "KARASAUSKS ARTURS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 462,
+    "name": "KARWAN PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 463,
+    "name": "KASPRZIK TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 464,
+    "name": "KASPRZIK GRZEGORZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 465,
+    "name": "KASZOWSKI JAROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 466,
+    "name": "KATRANIS ALEXANDROS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 467,
+    "name": "KĄDZIOR DAMIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 468,
+    "name": "KĘDZIORA WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 469,
+    "name": "KIREJCZYK GABRIEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 470,
+    "name": "KIRKESKOV MIKKEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 471,
+    "name": "KLEPCZYŃSKI ADRIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 472,
+    "name": "KLUPŚ TYMOTEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 473,
+    "name": "KMIETOWICZ KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 474,
+    "name": "KNAP TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 475,
+    "name": "KOCUR MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 476,
+    "name": "KOCYBA RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 477,
+    "name": "KOCZON DANIEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 478,
+    "name": "KOLASIŃSKI KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 479,
+    "name": "KOŁACKI DARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 480,
+    "name": "KOŁSUT RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 481,
+    "name": "KOMAR MARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 482,
+    "name": "KOMPAŁA ADAM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 483,
+    "name": "KONCZKOWSKI MARTIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 484,
+    "name": "KORBECKI MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 485,
+    "name": "KORONA KAROL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 486,
+    "name": "KORUN UROS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 487,
+    "name": "KOSTADINOV TIHOMIR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 488,
+    "name": "KOWALIK IGOR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 489,
+    "name": "KOWALSKI MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 490,
+    "name": "KOZIK KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 491,
+    "name": "KRAKOWCZYK ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 492,
+    "name": "KRÓL WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 493,
+    "name": "KRÓL KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 494,
+    "name": "KRÓLICKI BARTŁOMIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 495,
+    "name": "KRUPA PAWEŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 496,
+    "name": "KRYGER ADAM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 497,
+    "name": "KRZYCKI ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 498,
+    "name": "KRZYWKO RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 499,
+    "name": "KUKIEŁKA KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 500,
+    "name": "KUKULSKI KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 501,
+    "name": "KUPIS JAROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 502,
+    "name": "KUREK KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 503,
+    "name": "KUZDRA JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 504,
+    "name": "KWAPISZ RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 505,
+    "name": "KWAŚNIEWSKI PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 506,
+    "name": "LASOTA TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 507,
+    "name": "LAZDINS ARTIS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 508,
+    "name": "LECH SŁAWOMIR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 509,
+    "name": "LENARCIK MAREK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 510,
+    "name": "LENARTOWSKI ARTUR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 511,
+    "name": "LESZCZYŃSKI RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 512,
+    "name": "LEŚNIAK OSKAR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 513,
+    "name": "LEWCZUK IGOR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 514,
+    "name": "LEŻAŁA GRZEGORZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 515,
+    "name": "LIPSKI PATRYK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 516,
+    "name": "LISOWSKI PAWEŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 517,
+    "name": "LISOWSKI WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 518,
+    "name": "LISZEWSKI PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 519,
+    "name": "LORENS MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 520,
+    "name": "ŁABOJKO JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 521,
+    "name": "ŁUCZAK BARTOSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 522,
+    "name": "ŁUDZIŃSKI PRZEMYSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 523,
+    "name": "ŁUPIEŻOWIEC TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 524,
+    "name": "MACIEJAK ROMAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 525,
+    "name": "MAK MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 526,
+    "name": "MALARCZYK PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 527,
+    "name": "MARTINEZ CARLES MARC",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 528,
+    "name": "MASŁOWSKI MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 529,
+    "name": "MATRAS MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 530,
+    "name": "MATUSIAK JAROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 531,
+    "name": "MATUSZEK SZYMON",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 532,
+    "name": "MAZUR TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 533,
+    "name": "MAZUR KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 534,
+    "name": "MICHNIEWICZ MACIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 535,
+    "name": "MIDO EL MEHDI SIDQY",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 536,
+    "name": "MILEWSKI SEBASTIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 537,
+    "name": "MIZGAJSKI MACIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 538,
+    "name": "MŁOCEK KAMIL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 539,
+    "name": "MODLISZEWSKI MACIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 540,
+    "name": "MOKWA TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 541,
+    "name": "MOSKWIK PAWEŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 542,
+    "name": "MOSÓR ARIEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 543,
+    "name": "MÓJTA ADAM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 544,
+    "name": "MRAZ PATRIK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 545,
+    "name": "MUCHA DAMIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 546,
+    "name": "MUCHA SZCZEPAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 547,
+    "name": "MUNOZ MIGUEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 548,
+    "name": "MURAWSKI RADOSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 549,
+    "name": "MUSIOLIK SEBASTIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 550,
+    "name": "MUSZALIK MARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 551,
+    "name": "NALEPA MACIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 552,
+    "name": "NALEPA PATRYK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 553,
+    "name": "NESPOR MARTIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 554,
+    "name": "NIEBRZYDOWSKI PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 555,
+    "name": "NIEDBAŁA JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 556,
+    "name": "NIEVES ARMANDO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 557,
+    "name": "NIKIEMA VICTOR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 558,
+    "name": "NOWAK MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 559,
+    "name": "OLSZAR SEBASTIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 560,
+    "name": "OPELDUS ARTUR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 561,
+    "name": "OSYRA KORNEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 562,
+    "name": "PALUCHOWSKI ADRIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 563,
+    "name": "PAŁKUS PRZEMYSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 564,
+    "name": "PAPADOPULOS MICHAL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 565,
+    "name": "PARADZIEJ MARIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 566,
+    "name": "PARZYSZEK PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 567,
+    "name": "PAULAUSKAS GEDIMINAS",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 568,
+    "name": "PETASZ PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 569,
+    "name": "PIECHOCKI ADAM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 570,
+    "name": "PIECHOTA PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 571,
+    "name": "PIEKARSKI ROBERT",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 572,
+    "name": "PIETREK ROBERT",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 573,
+    "name": "PIETROŃ MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 574,
+    "name": "PIETROWSKI MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 575,
+    "name": "PIETRZAK RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 576,
+    "name": "PIEWKO JAROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 577,
+    "name": "PLACH FRANTISEK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 578,
+    "name": "PLEWA JANUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 579,
+    "name": "PŁATEK DAMIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 580,
+    "name": "POCIECHA SEBASTIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 581,
+    "name": "PODGÓRSKI TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 582,
+    "name": "POLAK JAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 583,
+    "name": "PONICHTERA ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 584,
+    "name": "PREUSS WIKTOR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 585,
+    "name": "PRĘDOTA PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 586,
+    "name": "PRZEWOŹNIAK CEZARY",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 587,
+    "name": "PRZYBYŁA MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 588,
+    "name": "PYRKA ARKADIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 589,
+    "name": "RABIN PAWEŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 590,
+    "name": "RABIOLA",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 591,
+    "name": "RADZEWICZ MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 592,
+    "name": "REINER CONSTANTIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 593,
+    "name": "RISS ANDRZEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 594,
+    "name": "ROBAK MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 595,
+    "name": "ROGALSKI MARCIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 596,
+    "name": "RUBAJ TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 597,
+    "name": "RUGASEVIĆ DARIO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 598,
+    "name": "RUSOV DOBRIVOJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 599,
+    "name": "RYMANIAK BARTOSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 600,
+    "name": "RYŃ ALEKSANDER",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 601,
+    "name": "SALA ANDRZEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 602,
+    "name": "SAMAD SURAJ ABDUL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 603,
+    "name": "SAPAŁA IGOR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 604,
+    "name": "SAPPINEN RAUNO",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 605,
+    "name": "SARATOWICZ PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 606,
+    "name": "SEDLACEK LUMIR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 607,
+    "name": "SEDLAR ALEKSANDAR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 608,
+    "name": "SEGOVIA KEITH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 609,
+    "name": "SEKULSKI ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 610,
+    "name": "SEWERYN DAMIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 611,
+    "name": "SIELEWSKI BARTŁOMIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 612,
+    "name": "SIELSKI ANDRZEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 613,
+    "name": "SIERKA ROBERT",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 614,
+    "name": "SIKORA MIECZYSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 615,
+    "name": "SIKORA ADRIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 616,
+    "name": "SŁODCZYK GRZEGORZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 617,
+    "name": "SMEKTAŁA JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 618,
+    "name": "SOBCZYK ALEX",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 619,
+    "name": "SOKOŁOWSKI PATRYK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 620,
+    "name": "SOLNICA DARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 621,
+    "name": "SOPEL ALEKSANDER",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 622,
+    "name": "SOPEL BARTOSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 623,
+    "name": "STACHERA TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 624,
+    "name": "STANEK KAROL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 625,
+    "name": "STANICZEK RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 626,
+    "name": "STANIEK RYSZARD",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 627,
+    "name": "STAWICKI MARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 628,
+    "name": "STECZYK DOMINIK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 629,
+    "name": "STĘPIEŃ TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 630,
+    "name": "STOJILJKOVIĆ NIKOLA",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 631,
+    "name": "STOLARZ MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 632,
+    "name": "SZARY SŁAWOMIR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 633,
+    "name": "SZCZEPANIAK MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 634,
+    "name": "SZCZYRBA MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 635,
+    "name": "SZEJA TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 636,
+    "name": "SZELIGA BARTOSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 637,
+    "name": "SZMATIUK MACIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 638,
+    "name": "SZMATUŁA JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 639,
+    "name": "SZTORC TADEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 640,
+    "name": "SZUMSKI KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 641,
+    "name": "SZUMSKI JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 642,
+    "name": "SZYMAŃSKI KAROL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 643,
+    "name": "ŚWIĄTEK ADRIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 644,
+    "name": "ŚWIERCZOK JAKUB",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 645,
+    "name": "TARASZKIEWICZ ARKADIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 646,
+    "name": "TOMANEK DAWID",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 647,
+    "name": "TOMASIEWICZ GRZEGORZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 648,
+    "name": "TOMCZYK PAWEŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 649,
+    "name": "TRELA DARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 650,
+    "name": "TUSZYŃSKI PATRYK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 651,
+    "name": "TYMIŃSKI ADAM",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 652,
+    "name": "URBAN RUDOLF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 653,
+    "name": "USS PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 654,
+    "name": "VACEK KAMIL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 655,
+    "name": "VALENCIA JOEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 656,
+    "name": "VASSILJEV KONSTANTIN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 657,
+    "name": "VIDA KRISTOPHER",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 658,
+    "name": "VRANA PAVEL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 659,
+    "name": "VRANJES STOJAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 660,
+    "name": "WALKOWIAK ROBERT",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 661,
+    "name": "WARSZEWSKI ANDRZEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 662,
+    "name": "WARZECHA PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 663,
+    "name": "WASILEWSKI TOMASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 664,
+    "name": "WESECKI ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 665,
+    "name": "WĘGIER PRZEMYSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 666,
+    "name": "WIDUCH MIROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 667,
+    "name": "WILCZEK KAMIL",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 668,
+    "name": "WILK BARTŁOMIEJ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 669,
+    "name": "WILUK WOJCIECH",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 670,
+    "name": "WINCIERSZ MATEUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 671,
+    "name": "WINIARCZYK ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 672,
+    "name": "WIŚNIEWSKI DARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 673,
+    "name": "WIŚNIEWSKI ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 674,
+    "name": "WIŚNIOWSKI KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 675,
+    "name": "WOLNY FRYDERYK",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 676,
+    "name": "WRÓBEL STANISŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 677,
+    "name": "WYSOCKI PRZEMYSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 678,
+    "name": "WYSOGLĄD PIOTR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 679,
+    "name": "ZACHARIASZ RAFAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 680,
+    "name": "ZACHCIAŁ MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 681,
+    "name": "ZADYLAK JAROSŁAW",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 682,
+    "name": "ZAGÓRSKI KRZYSZTOF",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 683,
+    "name": "ZAJĄCZKOWSKI PAWEŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 684,
+    "name": "ZBOZIEŃ DAMIAN",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 685,
+    "name": "ZGANIACZ MARIUSZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 686,
+    "name": "ZIVEC SASA",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 687,
+    "name": "ZUBEL SŁAWOMIR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 688,
+    "name": "ŻAK ARTUR",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 689,
+    "name": "ŻBIKOWSKI ROBERT",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 690,
+    "name": "ŻYRKOWSKI ŁUKASZ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 691,
+    "name": "ŻYRO MICHAŁ",
+    "category": "Piłkarze Piasta Gliwice obecni i historyczni"
+  },
+  {
+    "id": 692,
+    "name": "Dinamo Zagrzeb",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 693,
+    "name": "Hajduk Split",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 694,
+    "name": "NK Osijek",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 695,
+    "name": "NK Varaždin",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 696,
+    "name": "NK Istra 1961",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 697,
+    "name": "HNK Rijeka",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 698,
+    "name": "NK Slaven Belupo",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 699,
+    "name": "NK Lokomotiv Zagrzeb",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 700,
+    "name": "HNK Šibenik",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 701,
+    "name": "HNK Gorica",
+    "category": "Chorwackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 702,
+    "name": "CSKA Sofia",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 703,
+    "name": "Łudogorec Razgrad",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 704,
+    "name": "CSKA 1948 Sofia",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 705,
+    "name": "Lewski Sofia",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 706,
+    "name": "Łokomotiw Płowdiw",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 707,
+    "name": "Czerno More Warna",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 708,
+    "name": "Slavia Sofia",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 709,
+    "name": "Arda Kyrdżali",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 710,
+    "name": "Łokomotiw Sofia",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 711,
+    "name": "Botew Płowdiw",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 712,
+    "name": "Botev Vratsa",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 713,
+    "name": "Septemvri Sofia",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 714,
+    "name": "Beroe Stara Zagora",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 715,
+    "name": "Pirin Błagojewgrad",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 716,
+    "name": "FC Hebar Pazardzhik",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 717,
+    "name": "Spartak Varna",
+    "category": "Bułgarskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 718,
+    "name": "APOEL FC",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 719,
+    "name": "AEK Larnaka",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 720,
+    "name": "Aris Limassol",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 721,
+    "name": "AEP Pafos",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 722,
+    "name": "Apollon Limassol",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 723,
+    "name": "Omonia Nikozja",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 724,
+    "name": "Nea Salamis",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 725,
+    "name": "AEL Limassol",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 726,
+    "name": "Anorthosis Famagusta",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 727,
+    "name": "Karmiotissa",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 728,
+    "name": "Enosis Neon Paralimni",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 729,
+    "name": "Doksa Katokopia",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 730,
+    "name": "Olympiakos Nikozja",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 731,
+    "name": "Akritas Chlorakas",
+    "category": "Cypryjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 732,
+    "name": "Slavia Praga",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 733,
+    "name": "Sparta Praga",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 734,
+    "name": "FC Viktoria Plzeň",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 735,
+    "name": "Bohemians Praga 1905",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 736,
+    "name": "FC Slovácko",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 737,
+    "name": "Sigma Ołomuniec",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 738,
+    "name": "Hradec Kralove",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 739,
+    "name": "Mlada Bolesław",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 740,
+    "name": "FK Jablonec",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 741,
+    "name": "Dynamo Czeskie Budziejowice",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 742,
+    "name": "Slovan Liberec",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 743,
+    "name": "FC Zbrojovka Brno",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 744,
+    "name": "Banik Ostrava",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 745,
+    "name": "FK Pardubice",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 746,
+    "name": "FK Teplice",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 747,
+    "name": "FC Trinity Zlin",
+    "category": "Czeskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 748,
+    "name": "Nordsjaelland",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 749,
+    "name": "FC Kopenhaga",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 750,
+    "name": "Viborg FF",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 751,
+    "name": "Aarhus GF",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 752,
+    "name": "Randers FC",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 753,
+    "name": "Brøndby IF",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 754,
+    "name": "Silkeborg IF",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 755,
+    "name": "FC Midtjylland",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 756,
+    "name": "Odense Boldklub",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 757,
+    "name": "AC Horsens",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 758,
+    "name": "Lyngby BK",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 759,
+    "name": "Aalborg BK",
+    "category": "Dunskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 760,
+    "name": "Panathinaikos AO",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 761,
+    "name": "AEK Ateny",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 762,
+    "name": "Olympiakos Pireus",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 763,
+    "name": "PAOK Saloniki",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 764,
+    "name": "Aris Salonik",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 765,
+    "name": "Volos NFC",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 766,
+    "name": "Panetolikos GFS",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 767,
+    "name": "PAE Atromitos",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 768,
+    "name": "OFI 1925",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 769,
+    "name": "Asteras Tripolis",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 770,
+    "name": "PAS Giannina",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 771,
+    "name": "AO Ionikos",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 772,
+    "name": "PAS Lamia 1964",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 773,
+    "name": "APO Lewadiakos",
+    "category": "Greckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 774,
+    "name": "Dinamo Tbilisi",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 775,
+    "name": "Dinamo Batumi",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 776,
+    "name": "Torpedo Kutaisi",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 777,
+    "name": "Samgurali Ckaltubo",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 778,
+    "name": "Dila Gori",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 779,
+    "name": "Saburtalo Tbilisi",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 780,
+    "name": "FC Telavi",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 781,
+    "name": "SK Samtredia",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 782,
+    "name": "Shukura Kobuleti",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 783,
+    "name": "FC Gagra",
+    "category": "Gruzińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 784,
+    "name": "Feyenoord Rotterdam",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 785,
+    "name": "Ajax Amsterdam",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 786,
+    "name": "PSV Eindhoven",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 787,
+    "name": "AZ Alkmaar",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 788,
+    "name": "FC Twente",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 789,
+    "name": "Sparta Rotterdam",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 790,
+    "name": "FC Utrecht",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 791,
+    "name": "NEC Nijmegen",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 792,
+    "name": "sc Heerenveen",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 793,
+    "name": "RKC Waalwijk",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 794,
+    "name": "Go Ahead Eagles",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 795,
+    "name": "Fortuna Sittard",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 796,
+    "name": "FC Volendam",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 797,
+    "name": "SBV Vitesse",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 798,
+    "name": "Excelsior Rotterdam",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 799,
+    "name": "FC Emmen",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 800,
+    "name": "FC Groningen",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 801,
+    "name": "SC Cambuur",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 802,
+    "name": "PEC Zwolle",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 803,
+    "name": "Heracles Almelo",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 804,
+    "name": "Almere City FC",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 805,
+    "name": "VVV Venlo",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 806,
+    "name": "Willem II Tilburg",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 807,
+    "name": "FC Eindhoven",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 808,
+    "name": "MVV Maastricht",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 809,
+    "name": "NAC Breda",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 810,
+    "name": "SC Telstar",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 811,
+    "name": "Roda JC Kerkrade",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 812,
+    "name": "Jong AZ ALKMAR",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 813,
+    "name": "De Graafschap",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 814,
+    "name": "ADO Den Haag",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 815,
+    "name": "Jong PSV Eindhoven",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 816,
+    "name": "Helmond Sport",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 817,
+    "name": "Jong Ajax Amsterdam",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 818,
+    "name": "TOP Oss",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 819,
+    "name": "FC Den Bosch",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 820,
+    "name": "FC Dordrecht",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 821,
+    "name": "Jong Utrecht",
+    "category": "Holenderskie  drużyny piłki nożnej 2ligi stan na 2022/2023"
+  },
+  {
+    "id": 822,
+    "name": "Stabæk Fotball",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 823,
+    "name": "Aalesunds FK",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 824,
+    "name": "SK Brann",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 825,
+    "name": "Molde FK",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 826,
+    "name": "Strømsgodset IF",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 827,
+    "name": "Hamarkameratene",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 828,
+    "name": "Tromsø IL",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 829,
+    "name": "Rosenborg BK",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 830,
+    "name": "Viking FK",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 831,
+    "name": "Vålerenga Fotball",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 832,
+    "name": "FK Bodø/Glimt",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 833,
+    "name": "Lillestrøm SK",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 834,
+    "name": "FK Haugesund",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 835,
+    "name": "Odds BK",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 836,
+    "name": "Sandefjord Fotball",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 837,
+    "name": "Sarpsborg 08 FF",
+    "category": "Norweskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 838,
+    "name": "SL Benfica",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 839,
+    "name": "FC Porto",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 840,
+    "name": "SC Braga",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 841,
+    "name": "Sporting CP",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 842,
+    "name": "Vitoria Guimarães SC",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 843,
+    "name": "FC Arouca",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 844,
+    "name": "Casa Pia AC",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 845,
+    "name": "Rio Ave FC",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 846,
+    "name": "FC Famalicão",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 847,
+    "name": "FC Vizela",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 848,
+    "name": "GD Chaves",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 849,
+    "name": "Boavista FC",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 850,
+    "name": "Gil Vicente FC",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 851,
+    "name": "Portimonense SC",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 852,
+    "name": "GD Estoril Praia",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 853,
+    "name": "CS Marítimo",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 854,
+    "name": "FC Paços de Ferreira",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 855,
+    "name": "CD Santa Clara",
+    "category": "Portugalskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 856,
+    "name": "DAC 1904 Dunajská Streda",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 857,
+    "name": "Slovan Bratysława",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 858,
+    "name": "Spartak Trnawa",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 859,
+    "name": "FK Železiarne Podbrezová",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 860,
+    "name": "MŠK Žilina",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 861,
+    "name": "FK Dukla Bańska Bystrzyca",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 862,
+    "name": "MFK Ružomberok",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 863,
+    "name": "MFK Zemplín Michalovce",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 864,
+    "name": "FC ViOn Zlaté Moravce",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 865,
+    "name": "FK AS Trenčín",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 866,
+    "name": "MFK Skalica",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 867,
+    "name": "Tatran Liptovsky Mikulas",
+    "category": "Słowackie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 868,
+    "name": "NK Olimpija Lublana",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 869,
+    "name": "NK Maribor",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 870,
+    "name": "NK Celj",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 871,
+    "name": "FC Koper",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 872,
+    "name": "NK Domžale",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 873,
+    "name": "NK Mura",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 874,
+    "name": "NK Bravo",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 875,
+    "name": "NK Radomlje",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 876,
+    "name": "HNK Gorica",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 877,
+    "name": "NK Tabor Sežana",
+    "category": "Słoweńskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 878,
+    "name": "Celtic Glasgow",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 879,
+    "name": "Rangers",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 880,
+    "name": "Heart of Midlothian",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 881,
+    "name": "Aberdeen",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 882,
+    "name": "Hibernian",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 883,
+    "name": "Livingston",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 884,
+    "name": "St. Mirren",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 885,
+    "name": "St. Johnstone",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 886,
+    "name": "Motherwell",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 887,
+    "name": "Kilmarnock",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 888,
+    "name": "Ross County",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 889,
+    "name": "Dundee United",
+    "category": "Szkockie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 890,
+    "name": "Galatasaray",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 891,
+    "name": "Fenerbahce",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 892,
+    "name": "Besiktas",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 893,
+    "name": "Adana Demirspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 894,
+    "name": "Trabzonspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 895,
+    "name": "Istanbul Başakşehir",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 896,
+    "name": "Kayserispor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 897,
+    "name": "Konyaspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 898,
+    "name": "Fatih Karagümrük",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 899,
+    "name": "Antalyaspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 900,
+    "name": "Alanyaspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 901,
+    "name": "Sivasspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 902,
+    "name": "Kasimpasa",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 903,
+    "name": "Gaziantep",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 904,
+    "name": "MKE Ankaragücü",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 905,
+    "name": "Istanbulspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 906,
+    "name": "Giresunspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 907,
+    "name": "Hatayspor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 908,
+    "name": "Umraniyespor",
+    "category": "Tureckie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 909,
+    "name": "Szachtar Donieck",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 910,
+    "name": "SK Dnipro-1",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 911,
+    "name": "FK Zoria Ługańsk",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 912,
+    "name": "Dynamo Kijów",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 913,
+    "name": "Oleksandriya",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 914,
+    "name": "Kołos Kowaliwka",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 915,
+    "name": "Kryvbas Kryvy Rih",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 916,
+    "name": "Metalist 1925 Charków",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 917,
+    "name": "Worskła Połtawa",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 918,
+    "name": "Inhułeć Petrowe",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 919,
+    "name": "Czornomoreć Odessa",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 920,
+    "name": "Weres Równe",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 921,
+    "name": "FK Mynaj",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 922,
+    "name": "Ruch Lwów",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 923,
+    "name": "Metalist Charków",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 924,
+    "name": "FC Lwów",
+    "category": "Ukraińskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 925,
+    "name": "Zenit Petersburg",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 926,
+    "name": "FK Rostów",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 927,
+    "name": "Spartak Moskwa",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 928,
+    "name": "Dynamo Moskwa",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 929,
+    "name": "CSKA Moskwa",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 930,
+    "name": "Akhmat Grozny",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 931,
+    "name": "Orenburg",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 932,
+    "name": "Krasnodar",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 933,
+    "name": "Soczi",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 934,
+    "name": "Urał Jekaterynburg",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 935,
+    "name": "Lokomotiv Moskwa",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 936,
+    "name": "Krylja Sowietow Samara",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 937,
+    "name": "Nizhny Novgorod",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 938,
+    "name": "Fakieł Woroneż",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 939,
+    "name": "Khimki",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  },
+  {
+    "id": 940,
+    "name": "Torpedo Moskwa",
+    "category": "Rosyjskie drużyny piłki nożnej 1liga stan na 2022/2023"
+  }
+]
