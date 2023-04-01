@@ -1,16 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-import mp3Data from "../../assets/mp3/mp3.json";
+import { Component, OnInit } from '@angular/core'
+import mp3Data from '../../assets/mp3/mp3.json'
 
 @Component({
   selector: 'app-background-sound',
   templateUrl: './background-sound.component.html',
-  styleUrls: ['./background-sound.component.css']
+  styleUrls: ['./background-sound.component.css'],
 })
 export class BackgroundSoundComponent implements OnInit {
-  public song: string =''
-  public songs: string[] =[]
-
-  constructor() { }
+  public song = ''
+  public songs: string[] = []
 
   ngOnInit(): void {
     this.getSongs()
@@ -25,5 +23,4 @@ export class BackgroundSoundComponent implements OnInit {
     const random = Math.floor(Math.random() * this.songs.length)
     this.song = this.songs[random]
   }
-
 }

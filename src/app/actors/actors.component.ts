@@ -1,77 +1,75 @@
-import {Component, OnInit} from '@angular/core';
-import {PhotoModel} from "../model/photo-model";
-import actors from "../../assets/photos/famousPeople.json"
-import {PlayersService} from "../players.service";
-import {ActorModel} from "../model/actor-model";
-import {QuestionDataService} from "../question-data.service";
-import {TimerService} from "../timer.service";
-import {Subscription} from "rxjs";
+import { Component, OnInit } from '@angular/core'
+import { PhotoModel } from '../model/photo-model'
+import actors from '../../assets/photos/famousPeople.json'
+import { PlayersService } from '../players.service'
+import { ActorModel } from '../model/actor-model'
+import { QuestionDataService } from '../question-data.service'
+import { TimerService } from '../timer.service'
+import { Subscription } from 'rxjs'
 
 @Component({
   template: '',
 })
 export abstract class ActorsComponent {
-  public random1: ActorModel | any = {};
-  private subscription: Subscription | any;
-  public isVisible = false;
-  public isModalVisible = false;
-  public question: string = ''
-  public category:string =''
-  public answer: string = ''
+  public random1: ActorModel | any = {}
+  private subscription: Subscription | any
+  public isVisible = false
+  public isModalVisible = false
+  public question = ''
+  public category = ''
+  public answer = ''
   public photosData: PhotoModel[] = actors
   public photos: PhotoModel[] = []
   public tips: string[] = []
-  public points:number = 2
+  public points = 2
 
   constructor(
     private questionDataService: QuestionDataService,
     public playerService: PlayersService,
     public timerService: TimerService
-  ) {
-  }
+  ) {}
 
   close() {
-    this.isVisible = false;
+    this.isVisible = false
     this.question = ''
     this.answer = ''
     this.playerService.nextPlayer()
     this.photos = []
-    this.tips =[]
+    this.tips = []
     this.init()
     this.playerService.setModal(false)
   }
 
   showAnswer() {
-    this.isVisible = !this.isVisible;
+    this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
 
   getPhoto(name: string) {
-    const actor = this.photosData.find(el => el.name == name)
+    const actor = this.photosData.find((el) => el.name == name)
     if (actor !== undefined) {
       this.photos.push(actor)
-    }
-    else if (actor === "Brak danych") {
+    } else if (actor === 'Brak danych') {
       this.photos.push({
         id: 901,
         name: name,
-        photo: "https://icon-library.com/images/no-data-icon/no-data-icon-10.jpg"
+        photo: 'https://icon-library.com/images/no-data-icon/no-data-icon-10.jpg',
       })
     } else {
       this.photos.push({
         id: 901,
         name: name,
-        photo: "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+        photo: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
       })
     }
   }
 
   getAllPhotos(tips: string[]) {
-    tips.forEach(tip => {
+    tips.forEach((tip) => {
       this.getPhoto(tip)
     })
-    this.photos.forEach(el => {
+    this.photos.forEach((el) => {
       const index = this.tips.indexOf(el.name)
       this.tips.slice(index, 1)
     })
@@ -79,12 +77,11 @@ export abstract class ActorsComponent {
 
   getQuestion() {
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean()
-      .subscribe(x => {
-        if(x){
-          this.isVisible = true
-        }
-      })
+    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+      if (x) {
+        this.isVisible = true
+      }
+    })
     switch (this.category) {
       case 'movieActors': {
         this.random1 = this.questionDataService.getMoviesActorsQuestion()
@@ -99,7 +96,7 @@ export abstract class ActorsComponent {
         break
       }
       default: {
-        break;
+        break
       }
     }
     this.answer = this.random1.title
@@ -116,7 +113,7 @@ export abstract class ActorsComponent {
     this.getAllPhotos(this.tips)
   }
 
-  init(){
+  init() {
     this.getQuestion()
   }
 }
@@ -125,7 +122,7 @@ export abstract class ActorsComponent {
   selector: 'app-movieActors',
   templateUrl: './actors.component.html',
   styleUrls: ['./actors.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class MoviesActorsComponent extends ActorsComponent implements OnInit {
   ngOnInit(): void {
@@ -138,7 +135,7 @@ export class MoviesActorsComponent extends ActorsComponent implements OnInit {
   selector: 'app-serialsActors',
   templateUrl: './actors.component.html',
   styleUrls: ['./actors.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class SerialsActorsComponent extends ActorsComponent implements OnInit {
   ngOnInit(): void {

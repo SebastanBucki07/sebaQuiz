@@ -1,42 +1,40 @@
-import {Component, OnInit} from '@angular/core';
-import {PlayersService} from "../players.service";
-import {PhotoModel} from "../model/photo-model";
-import {QuestionDataService} from "../question-data.service";
-import {TimerService} from "../timer.service";
-import {Subscription} from "rxjs";
+import { Component, OnInit } from '@angular/core'
+import { PlayersService } from '../players.service'
+import { PhotoModel } from '../model/photo-model'
+import { QuestionDataService } from '../question-data.service'
+import { TimerService } from '../timer.service'
+import { Subscription } from 'rxjs'
 
 @Component({
-  template: ''
+  template: '',
 })
 export abstract class PhotosComponent {
-  private subscription: Subscription | any;
+  private subscription: Subscription | any
   public random1: PhotoModel | any = {}
-  public points: number = 2
-  public question: string = ''
+  public points = 2
+  public question = ''
   public category = ''
   public isVisible = false
-  public tip: string = ''
+  public tip = ''
   public isFlague = false
-  public answer: string = ''
+  public answer = ''
 
   constructor(
     public questionDataService: QuestionDataService,
     public timerService: TimerService,
-    public playerService: PlayersService,
-  ) {
-  }
+    public playerService: PlayersService
+  ) {}
 
-  init(){
+  init() {
     this.getQuestion()
   }
 
   getQuestion() {
-    this.subscription = this.timerService.getBooleean()
-      .subscribe(x => {
-        if(x){
-          this.isVisible = true
-        }
-      })
+    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+      if (x) {
+        this.isVisible = true
+      }
+    })
     switch (this.category) {
       case 'famousPeople': {
         this.random1 = this.questionDataService.getFamousPeoplePhotoQuestion()
@@ -51,14 +49,14 @@ export abstract class PhotosComponent {
         break
       }
       case 'flagues': {
-        this.random1 = this.questionDataService.getCountries('countriesForFlags');
+        this.random1 = this.questionDataService.getCountries('countriesForFlags')
         this.question = 'Z jakiego kraju jest ta flaga?'
         this.isFlague = true
         this.points = 2
         break
       }
       default: {
-        break;
+        break
       }
     }
     this.timerService.setTimer(0.5)
@@ -67,7 +65,7 @@ export abstract class PhotosComponent {
   }
 
   close() {
-    this.isVisible = false;
+    this.isVisible = false
     this.isFlague = false
     this.question = ''
     this.answer = ''
@@ -75,11 +73,11 @@ export abstract class PhotosComponent {
     this.init()
     this.playerService.setModal(false)
     this.timerService.setTimer(0.5)
-    this.timerService.timeout=false
+    this.timerService.timeout = false
   }
 
   showAnswer() {
-    this.isVisible = !this.isVisible;
+    this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
@@ -89,7 +87,7 @@ export abstract class PhotosComponent {
   selector: 'app-famouspeople',
   templateUrl: './photos.component.html',
   styleUrls: ['./photos.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class FamousPeopleComponent extends PhotosComponent implements OnInit {
   ngOnInit(): void {
@@ -102,7 +100,7 @@ export class FamousPeopleComponent extends PhotosComponent implements OnInit {
   selector: 'app-buildings',
   templateUrl: './photos.component.html',
   styleUrls: ['./photos.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class BuildingsComponent extends PhotosComponent implements OnInit {
   ngOnInit(): void {
@@ -115,7 +113,7 @@ export class BuildingsComponent extends PhotosComponent implements OnInit {
   selector: 'app-flagues',
   templateUrl: './photos.component.html',
   styleUrls: ['./photos.component.css'],
-  providers: [TimerService]
+  providers: [TimerService],
 })
 export class FlaguesComponent extends PhotosComponent implements OnInit {
   ngOnInit(): void {
