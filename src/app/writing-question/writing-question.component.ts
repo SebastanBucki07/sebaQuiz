@@ -8,13 +8,6 @@ import { PlayerForFamiliada } from '../players/players.component'
 import { formatStrings } from '../../common/string.helper'
 import { WrittingData } from '../model/writtingsCategory-model'
 
-// @Component({
-//   selector: 'app-writing-question',
-//   templateUrl: './writing-question.component.html',
-//   styleUrls: ['./writing-question.component.css'],
-//   providers: [TimerService],
-// })
-
 @Component({
   template: '',
   providers: [TimerService],
