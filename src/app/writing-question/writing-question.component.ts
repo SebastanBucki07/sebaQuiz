@@ -9,12 +9,10 @@ import { formatStrings } from '../../common/string.helper'
 import { WrittingData } from '../model/writtingsCategory-model'
 
 @Component({
-  selector: 'app-writing-question',
-  templateUrl: './writing-question.component.html',
-  styleUrls: ['./writing-question.component.css'],
+  template: '',
   providers: [TimerService],
 })
-export class WritingQuestionComponent {
+export abstract class WritingQuestionComponent {
   private subscription: Subscription | any
   public points = 5
   public writingQuestion: WrittingData | any = {}
@@ -23,6 +21,7 @@ export class WritingQuestionComponent {
   public tip = ''
   public userAnswer = ''
   public inputAnswer: string | undefined = ''
+  public category = ''
   public players: PlayerForFamiliada[] = []
   public actualPlayer: PlayerForFamiliada | any = null
   public blockedButton = false
@@ -36,11 +35,19 @@ export class WritingQuestionComponent {
     public timerService: TimerService
   ) {}
 
-  ngOnInit(): void {
+  init(): void {
+    this.timerService.setTimer(0.5)
+    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+      if (x) {
+        this.setWrong()
+        this.nextPlayer()
+        this.timerService.timeout = false
+      }
+    })
     this.getQuestion()
   }
 
-  setPlayersForFamiliada() {
+  setPlayersForFamiliada(): void {
     if (this.players.length >= 1) {
       this.players = []
     }
@@ -56,11 +63,11 @@ export class WritingQuestionComponent {
     this.setActualPlayer(this.players[playerIndex])
   }
 
-  setActualPlayer(player: PlayerForFamiliada) {
+  setActualPlayer(player: PlayerForFamiliada): void {
     this.actualPlayer = player
   }
 
-  nextPlayer() {
+  nextPlayer(): void {
     this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0)
     let nextPlayer = {}
@@ -84,6 +91,21 @@ export class WritingQuestionComponent {
   }
 
   getQuestion(): void {
+    switch (this.category) {
+      case 'football': {
+        this.writingQuestion = this.questionDataService.getWritingsFootballCategoryDataQuestion()
+        this.points = 2
+        break
+      }
+      case 'rest': {
+        this.writingQuestion = this.questionDataService.getWritingsCategoryDataQuestion()
+        this.points = 2
+        break
+      }
+      default: {
+        break
+      }
+    }
     this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
@@ -92,15 +114,15 @@ export class WritingQuestionComponent {
         this.timerService.timeout = false
       }
     })
+    this.question = `Wypisz ${this.writingQuestion.category}`
     this.setPlayersForFamiliada()
     this.points = 5
-    this.writingQuestion = this.questionDataService.getWritingsCategoryDataQuestion()
     this.setAnswerForSquads()
     this.question = `Wypisz ${this.writingQuestion[0].category}`
     this.isVisible = false
   }
 
-  setAnswerForSquads() {
+  setAnswerForSquads(): void {
     this.writingQuestion.forEach((answer: WrittingData) => {
       this.answerForSquad.push({
         inputAnswer: answer.name,
@@ -109,7 +131,7 @@ export class WritingQuestionComponent {
     })
   }
 
-  close() {
+  close(): void {
     this.question = ''
     this.winner = null
     this.writingQuestion = {}
@@ -123,7 +145,7 @@ export class WritingQuestionComponent {
     this.playerService.nextPlayer()
   }
 
-  setWinner() {
+  setWinner(): void {
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
     this.winner = this.players[0]
@@ -132,7 +154,7 @@ export class WritingQuestionComponent {
     this.showAnswer()
   }
 
-  showAnswer() {
+  showAnswer(): void {
     if (this.answerForSquad.length > 0) {
       this.answerForSquad.forEach((answer) => {
         answer.display = true
@@ -142,7 +164,7 @@ export class WritingQuestionComponent {
     this.blockedButton = true
   }
 
-  save() {
+  save(): void {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input?.value
     if (input != null) {
@@ -165,10 +187,34 @@ export class WritingQuestionComponent {
     }
   }
 
-  setWrong() {
+  setWrong(): void {
     this.actualPlayer.wrong++
     const audio = new Audio('../../assets/mp3/1z10zle.mp3')
     audio.play()
     audio.playbackRate = 1.2
+  }
+}
+
+@Component({
+  selector: 'app-writing-question-football',
+  templateUrl: './writing-question.component.html',
+  styleUrls: ['./writing-question.component.css'],
+})
+export class WritingQuestionFootballComponent extends WritingQuestionComponent implements OnInit {
+  ngOnInit(): void {
+    this.category = 'football'
+    this.init()
+  }
+}
+
+@Component({
+  selector: 'app-writing-question-rest',
+  templateUrl: './writing-question.component.html',
+  styleUrls: ['./writing-question.component.css'],
+})
+export class WritingQuestionRestComponent extends WritingQuestionComponent implements OnInit {
+  ngOnInit(): void {
+    this.category = 'rest'
+    this.init()
   }
 }

@@ -38,7 +38,7 @@ export class FamiliadaComponent implements OnInit {
     this.init()
   }
 
-  setPlayersForFamiliada() {
+  setPlayersForFamiliada(): void {
     if (this.players.length >= 1) {
       this.players = []
     }
@@ -54,11 +54,11 @@ export class FamiliadaComponent implements OnInit {
     this.setActualPlayer(this.players[playerIndex])
   }
 
-  setActualPlayer(player: PlayerForFamiliada) {
+  setActualPlayer(player: PlayerForFamiliada): void {
     this.actualPlayer = player
   }
 
-  init() {
+  init(): void {
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
         this.setWrong()
@@ -77,7 +77,7 @@ export class FamiliadaComponent implements OnInit {
     this.timerService.timeout = false
   }
 
-  close() {
+  close(): void {
     this.playerService.setModal(false)
     this.winner = null
     this.userAnswer = ''
@@ -89,7 +89,7 @@ export class FamiliadaComponent implements OnInit {
     this.init()
   }
 
-  showAnswer() {
+  showAnswer(): void {
     if (this.answers.length > 0) {
       this.answers.forEach((answer) => {
         answer.display = true
@@ -99,7 +99,7 @@ export class FamiliadaComponent implements OnInit {
     this.blockedButton = true
   }
 
-  setAnswers() {
+  setAnswers(): void {
     this.question = this.random1.question
     if (this.random1.answer1 != '-') {
       this.answers.push({
@@ -145,14 +145,14 @@ export class FamiliadaComponent implements OnInit {
     }
   }
 
-  setWrong() {
+  setWrong(): void {
     const audio = new Audio('../../assets/mp3/wrong.mp3')
     audio.play()
     audio.playbackRate = 1.2
     this.actualPlayer.wrong++
   }
 
-  save() {
+  save(): void {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input.value.toString()
     if (input != null) {
@@ -175,7 +175,7 @@ export class FamiliadaComponent implements OnInit {
     }
   }
 
-  nextPlayer() {
+  nextPlayer(): void {
     this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0)
     let nextPlayer = {}
@@ -198,7 +198,7 @@ export class FamiliadaComponent implements OnInit {
     }
   }
 
-  setWinner() {
+  setWinner(): void {
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
     //this.timerService.setTimer(0)

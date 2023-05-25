@@ -63,7 +63,7 @@ export class CountryComponent implements OnInit {
     this.getQuestion()
   }
 
-  setPlayersForFamiliada() {
+  setPlayersForFamiliada(): void {
     if (this.players.length >= 1) {
       this.players = []
     }
@@ -79,7 +79,7 @@ export class CountryComponent implements OnInit {
     this.setActualPlayer(this.players[playerIndex])
   }
 
-  setWinner() {
+  setWinner(): void {
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
     this.winner = this.players[0]
@@ -104,7 +104,7 @@ export class CountryComponent implements OnInit {
     this.getData(this.question.id)
   }
 
-  getCountryForLetter(letter: string) {
+  getCountryForLetter(letter: string): void {
     const tmp = [...this.countries.filter((country) => country.name[0] === letter)]
     tmp.forEach((country) => {
       this.answersForCountries.push({
@@ -114,7 +114,7 @@ export class CountryComponent implements OnInit {
     })
   }
 
-  getCapitalsForLetter(letter: string) {
+  getCapitalsForLetter(letter: string): void {
     const tmp = [...this.countries.filter((country) => country.capital[0] === letter)]
     tmp.forEach((country) => {
       this.answersForCountries.push({
@@ -124,7 +124,7 @@ export class CountryComponent implements OnInit {
     })
   }
 
-  getCountryForContinent(continent: string) {
+  getCountryForContinent(continent: string): void {
     const tmp = [...this.countries.filter((country) => country.continent === continent)]
     tmp.forEach((country) => {
       this.answersForCountries.push({
@@ -134,7 +134,7 @@ export class CountryComponent implements OnInit {
     })
   }
 
-  getCapitalsForContinent(continent: string) {
+  getCapitalsForContinent(continent: string): void {
     const tmp = [...this.countries.filter((country) => country.continent === continent)]
     tmp.forEach((country) => {
       this.answersForCountries.push({
@@ -144,7 +144,7 @@ export class CountryComponent implements OnInit {
     })
   }
 
-  getData(type: number) {
+  getData(type: number): void {
     if (type === 0) {
       this.countryForQuestion = this.questionDataService.getCountries('countriesForFlags')
       if (this.countryForQuestion?.errorCode) {
@@ -219,7 +219,7 @@ export class CountryComponent implements OnInit {
     }
   }
 
-  save() {
+  save(): void {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input.value
     if (input != null) {
@@ -242,11 +242,11 @@ export class CountryComponent implements OnInit {
     }
   }
 
-  setActualPlayer(player: PlayerForFamiliada) {
+  setActualPlayer(player: PlayerForFamiliada): void {
     this.actualPlayer = player
   }
 
-  nextPlayer() {
+  nextPlayer(): void {
     this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0)
     let nextPlayer = {}
@@ -269,28 +269,28 @@ export class CountryComponent implements OnInit {
     }
   }
 
-  setWrong() {
+  setWrong(): void {
     this.actualPlayer.wrong++
     const audio = new Audio('../../assets/mp3/1z10zle.mp3')
     audio.play()
     audio.playbackRate = 1.2
   }
 
-  changeMessage(text: string | undefined) {
+  changeMessage(text: string | undefined): void {
     this.showMessage = !this.showMessage
     this.successMessage = text + ' już było'
     setTimeout(() => (this.showMessage = !this.showMessage), 1000)
   }
 
-  setTip(text: string) {
+  setTip(text: string): void {
     this.tip = text
   }
 
-  setAnswer(answer: string) {
+  setAnswer(answer: string): void {
     this.answer = answer
   }
 
-  close() {
+  close(): void {
     this.isVisible = false
     this.isModalVisible = false
     this.question = ''
@@ -311,7 +311,7 @@ export class CountryComponent implements OnInit {
     this.getQuestion()
   }
 
-  showAnswer() {
+  showAnswer(): void {
     this.isVisible = true
     this.blockedButton = true
     if (this.answersForCountries.length > 0) {

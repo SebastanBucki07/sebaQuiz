@@ -25,11 +25,11 @@ export abstract class PhotosComponent {
     public playerService: PlayersService
   ) {}
 
-  init() {
+  init(): void {
     this.getQuestion()
   }
 
-  getQuestion() {
+  getQuestion(): void {
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
         this.isVisible = true
@@ -64,7 +64,7 @@ export abstract class PhotosComponent {
     this.answer = this.random1.name
   }
 
-  close() {
+  close(): void {
     this.isVisible = false
     this.isFlague = false
     this.question = ''
@@ -76,7 +76,7 @@ export abstract class PhotosComponent {
     this.timerService.timeout = false
   }
 
-  showAnswer() {
+  showAnswer(): void {
     this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()

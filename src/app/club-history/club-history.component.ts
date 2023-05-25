@@ -26,7 +26,7 @@ export class ClubHistoryComponent implements OnInit {
     public timerService: TimerService
   ) {}
 
-  init() {
+  init(): void {
     this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
@@ -58,7 +58,7 @@ export class ClubHistoryComponent implements OnInit {
     this.init()
   }
 
-  close() {
+  close(): void {
     this.isVisible = false
     this.answer = ''
     this.photos = []
@@ -67,7 +67,7 @@ export class ClubHistoryComponent implements OnInit {
     this.playerService.setModal(false)
   }
 
-  showAnswer() {
+  showAnswer(): void {
     this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()

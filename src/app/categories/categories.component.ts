@@ -72,20 +72,22 @@ export class CategoriesComponent implements OnInit {
 
   constructor(private service: QuestionTypesService, public myApp: AppComponent) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    console.log(`init CategoriesComponent`)
+  }
 
-  sendCategories(category: Category[]) {
+  sendCategories(category: Category[]): void {
     this.service.setCategories(category)
     this.myApp.confirm()
   }
 
-  validNumberOfRequiredCategory() {
+  validNumberOfRequiredCategory(): void {
     this.chosenCategories.length >= 2
       ? (this.acceptCategoriesButtonDisabled = false)
       : (this.acceptCategoriesButtonDisabled = true)
   }
 
-  toggle($event: MatCheckboxChange, category: Category) {
+  toggle($event: MatCheckboxChange, category: Category): void {
     if ($event.checked) {
       const tmp = this.smallCategories.indexOf(category)
       this.smallCategories.splice(tmp, 1)
@@ -99,7 +101,7 @@ export class CategoriesComponent implements OnInit {
     this.validNumberOfRequiredCategory()
   }
 
-  toggle2($event: MatCheckboxChange, category: Category) {
+  toggle2($event: MatCheckboxChange, category: Category): void {
     if (!$event.checked) {
       const tmp = this.chosenCategories.indexOf(category)
       this.chosenCategories.splice(tmp, 1)
