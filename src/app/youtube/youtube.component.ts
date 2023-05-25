@@ -29,11 +29,11 @@ export abstract class YoutubeComponent {
     public sanitizer: DomSanitizer
   ) {}
 
-  init() {
+  init(): void {
     this.getQuestion()
   }
 
-  getQuestion() {
+  getQuestion(): void {
     switch (this.category) {
       case 'song': {
         this.random1 = this.questionDataService.getYoutubeSongQuestion()
@@ -66,7 +66,7 @@ export abstract class YoutubeComponent {
     this.author = this.random1.author
   }
 
-  close() {
+  close(): void {
     this.isAuthorVisible = false
     this.isTitleVisible = false
     this.title = ''
@@ -78,10 +78,10 @@ export abstract class YoutubeComponent {
     this.playerService.setModal(false)
   }
 
-  showTitle() {
+  showTitle(): void {
     this.isTitleVisible = !this.isTitleVisible
   }
-  showAuthor() {
+  showAuthor(): void {
     this.isAuthorVisible = !this.isAuthorVisible
   }
 }

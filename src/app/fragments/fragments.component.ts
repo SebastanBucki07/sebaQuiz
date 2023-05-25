@@ -33,11 +33,11 @@ export abstract class Fragments {
 
   constructor(public playerService: PlayersService, public timerService: TimerService) {}
 
-  init() {
+  init(): void {
     this.getQuestion()
   }
 
-  getQuestion() {
+  getQuestion(): void {
     this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
@@ -76,40 +76,40 @@ export abstract class Fragments {
     this.isModalVisible = true
   }
 
-  showAnswer1() {
+  showAnswer1(): void {
     this.isAnswer1Visible = !this.isAnswer1Visible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
 
-  showAnswer2() {
+  showAnswer2(): void {
     this.isAnswer2Visible = !this.isAnswer2Visible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
 
-  showQuestion1() {
+  showQuestion1(): void {
     this.isQuestion1Visible = !this.isQuestion1Visible
     this.timerService.setTimer(0.5)
   }
 
-  showQuestion2() {
+  showQuestion2(): void {
     this.isQuestion1Visible = false
     this.isQuestion2Visible = !this.isQuestion2Visible
     this.timerService.setTimer(0.5)
   }
 
-  showQuestion3() {
+  showQuestion3(): void {
     this.isQuestion2Visible = false
     this.isQuestion3Visible = !this.isQuestion3Visible
     this.timerService.setTimer(0.5)
   }
 
-  setMultiply(multiply: number) {
+  setMultiply(multiply: number): void {
     this.multiply = multiply
   }
 
-  close() {
+  close(): void {
     this.setMultiply(1)
     this.isAnswer1Visible = false
     this.isAnswer2Visible = false

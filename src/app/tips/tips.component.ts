@@ -28,11 +28,11 @@ export class TipsComponent {
     public playerService: PlayersService
   ) {}
 
-  init() {
+  init(): void {
     this.getQuestion()
   }
 
-  getQuestion() {
+  getQuestion(): void {
     switch (this.category) {
       case 'moviesHero': {
         this.random1 = this.questionDataService.getMoviesHeroQuestion()
@@ -72,7 +72,7 @@ export class TipsComponent {
     this.isModalVisible = true
   }
 
-  close() {
+  close(): void {
     this.isVisible = false
     this.question = ''
     this.answer = ''
@@ -82,7 +82,7 @@ export class TipsComponent {
     this.playerService.setModal(false)
   }
 
-  showAnswer() {
+  showAnswer(): void {
     this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()

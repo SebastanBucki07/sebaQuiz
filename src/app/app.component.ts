@@ -52,6 +52,7 @@ export class AppComponent {
     // {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
     { name: 'Zawodnik/klub/reprezentacja', id: 27, checkbox: false },
     { name: 'Był taki mecz', id: 32, checkbox: false },
+    { name: 'Wypisywanie róznych wspólnych - piłka nożna', id: 34, checkbox: false },
   ]
   public lifeCategories: Category[] = [
     // {name: "Przysłowia", id: 10, checkbox: false},
@@ -73,32 +74,32 @@ export class AppComponent {
 
   public writtingCategory: Category = { name: 'Wypisywanie róznych wspólnych', id: 33, checkbox: false }
 
-  async ngOnInit(): Promise<void> {
-    this.questionType = -1
-    this.categoryType = -1
-  }
-
   constructor(public categoryService: QuestionTypesService, public playerService: PlayersService) {
     this.questionType = -1
     this.categoryType = -1
   }
 
-  confirm() {
+  async ngOnInit(): Promise<void> {
+    this.questionType = -1
+    this.categoryType = -1
+  }
+
+  confirm(): void {
     this.categories = this.categoryService.getCategories()
     this.categories.forEach((category) => {
       this.categoriesId.push(category.id)
     })
   }
 
-  addPlayers() {
+  addPlayers(): void {
     this.players = this.playerService.getPlayers()
   }
 
-  confirmPlayers() {
+  confirmPlayers(): void {
     this.playerService.acceptPlayers()
   }
 
-  setQuestionType(question: number) {
+  setQuestionType(question: number): void {
     this.playerService.setModal(true)
     const actualCategory = this.categoryType
     let category = question

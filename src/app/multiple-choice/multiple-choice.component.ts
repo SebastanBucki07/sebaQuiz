@@ -23,13 +23,19 @@ export class MultipleChoiceComponent implements OnInit {
   public submitAnswerButtonEnabled = true
   public answerButtonsDisabled = false
 
+  @Input() question = this.settedQuestion as QuestionMultipleChoice
+  @Input() number = 0
+  @Output() setAnswer = new EventEmitter<UserAnswer>()
+
+  selectedAnswer = ''
+
   constructor(
     public questionDataService: QuestionDataService,
     public timerService: TimerService,
     public playerService: PlayersService
   ) {}
 
-  init() {
+  init(): void {
     this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
@@ -57,7 +63,7 @@ export class MultipleChoiceComponent implements OnInit {
     this.init()
   }
 
-  close() {
+  close(): void {
     this.isVisible = false
     this.answer = ''
     this.correct = false
@@ -71,7 +77,7 @@ export class MultipleChoiceComponent implements OnInit {
     this.selectedAnswer = ''
   }
 
-  showAnswer() {
+  showAnswer(): void {
     this.isVisible = true
     this.answerButtonsDisabled = true
     this.submitAnswerButtonEnabled = true
@@ -82,13 +88,7 @@ export class MultipleChoiceComponent implements OnInit {
     this.timerService.resetTimeout()
   }
 
-  @Input() question = this.settedQuestion as QuestionMultipleChoice
-  @Input() number = 0
-  @Output() setAnswer = new EventEmitter<UserAnswer>()
-
-  selectedAnswer = ''
-
-  pickAnswer(id: number, answer: string, value: string) {
+  pickAnswer(id: number, answer: string, value: string): void {
     this.submitAnswerButtonEnabled = false
     this.selectedAnswer = `[${answer}] ${value}`
     this.setAnswer.emit({ questionId: id, value: answer })

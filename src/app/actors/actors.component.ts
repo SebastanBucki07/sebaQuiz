@@ -29,7 +29,7 @@ export abstract class ActorsComponent {
     public timerService: TimerService
   ) {}
 
-  close() {
+  close(): void {
     this.isVisible = false
     this.question = ''
     this.answer = ''
@@ -40,13 +40,13 @@ export abstract class ActorsComponent {
     this.playerService.setModal(false)
   }
 
-  showAnswer() {
+  showAnswer(): void {
     this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
 
-  getPhoto(name: string) {
+  getPhoto(name: string): void {
     const actor = this.photosData.find((el) => el.name == name)
     if (actor !== undefined) {
       this.photos.push(actor)
@@ -65,7 +65,7 @@ export abstract class ActorsComponent {
     }
   }
 
-  getAllPhotos(tips: string[]) {
+  getAllPhotos(tips: string[]): void {
     tips.forEach((tip) => {
       this.getPhoto(tip)
     })
@@ -75,7 +75,7 @@ export abstract class ActorsComponent {
     })
   }
 
-  getQuestion() {
+  getQuestion(): void {
     this.timerService.setTimer(0.5)
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
@@ -113,7 +113,7 @@ export abstract class ActorsComponent {
     this.getAllPhotos(this.tips)
   }
 
-  init() {
+  init(): void {
     this.getQuestion()
   }
 }

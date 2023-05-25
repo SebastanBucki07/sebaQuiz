@@ -39,7 +39,7 @@ export class FootballGamesComponent implements OnInit {
     this.getQuestion()
   }
 
-  setPlayersForFamiliada() {
+  setPlayersForFamiliada(): void {
     if (this.players.length >= 1) {
       this.players = []
     }
@@ -55,11 +55,11 @@ export class FootballGamesComponent implements OnInit {
     this.setActualPlayer(this.players[playerIndex])
   }
 
-  setActualPlayer(player: PlayerForFamiliada) {
+  setActualPlayer(player: PlayerForFamiliada): void {
     this.actualPlayer = player
   }
 
-  nextPlayer() {
+  nextPlayer(): void {
     this.timerService.setTimer(0.5)
     const indexofActualPlayer = this.players.indexOf(this.actualPlayer, 0)
     let nextPlayer = {}
@@ -100,7 +100,7 @@ export class FootballGamesComponent implements OnInit {
     this.isVisible = false
   }
 
-  setAnswerForSquads() {
+  setAnswerForSquads(): void {
     this.footballGames.squad.forEach((player: string) => {
       this.answerForSquad.push({
         inputAnswer: player,
@@ -109,7 +109,7 @@ export class FootballGamesComponent implements OnInit {
     })
   }
 
-  close() {
+  close(): void {
     this.question = ''
     this.winner = null
     this.footballGames = {}
@@ -123,7 +123,7 @@ export class FootballGamesComponent implements OnInit {
     this.playerService.nextPlayer()
   }
 
-  setWinner() {
+  setWinner(): void {
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
     this.winner = this.players[0]
@@ -132,7 +132,7 @@ export class FootballGamesComponent implements OnInit {
     this.showAnswer()
   }
 
-  showAnswer() {
+  showAnswer(): void {
     if (this.answerForSquad.length > 0) {
       this.answerForSquad.forEach((answer) => {
         answer.display = true
@@ -142,7 +142,7 @@ export class FootballGamesComponent implements OnInit {
     this.blockedButton = true
   }
 
-  save() {
+  save(): void {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input?.value
     if (input != null) {
@@ -165,7 +165,7 @@ export class FootballGamesComponent implements OnInit {
     }
   }
 
-  setWrong() {
+  setWrong(): void {
     this.actualPlayer.wrong++
     const audio = new Audio('../../assets/mp3/1z10zle.mp3')
     audio.play()

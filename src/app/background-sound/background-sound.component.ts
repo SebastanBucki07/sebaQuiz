@@ -19,7 +19,7 @@ export class BackgroundSoundComponent implements OnInit {
     this.songs = [...mp3Data]
   }
 
-  getRandomSong() {
+  getRandomSong(): void {
     const random = Math.floor(Math.random() * this.songs.length)
     this.song = this.songs[random]
   }

@@ -14,15 +14,15 @@ export class PlayersService {
     this.chosen = true
   }
 
-  setPlayers(players: Player[]) {
+  setPlayers(players: Player[]): void {
     this.players = players
   }
 
-  setModal(modal: boolean) {
+  setModal(modal: boolean): void {
     this.isModalVisible = modal
   }
 
-  setActualPlayer(playerId: number) {
+  setActualPlayer(playerId: number): void {
     this.actualPlayer = playerId
   }
 
@@ -30,15 +30,15 @@ export class PlayersService {
     return this.players
   }
 
-  acceptPlayers() {
+  acceptPlayers(): void {
     this.chosen = false
   }
 
-  addPoints(id: number, points: number) {
+  addPoints(id: number, points: number): void {
     this.players[id].points += points
   }
 
-  nextPlayer() {
+  nextPlayer(): void {
     if (this.actualPlayer >= this.players.length - 1) {
       this.setActualPlayer(0)
     } else {

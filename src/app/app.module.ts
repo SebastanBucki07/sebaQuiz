@@ -34,7 +34,10 @@ import { MultipleChoiceComponent } from './multiple-choice/multiple-choice.compo
 import { BackgroundSoundComponent } from './background-sound/background-sound.component'
 import { FamiliadaComponent } from './familiada/familiada.component'
 import { FootballGamesComponent } from './football-games/football-games.component'
-import { WritingQuestionComponent } from './writing-question/writing-question.component'
+import {
+  WritingQuestionFootballComponent,
+  WritingQuestionRestComponent,
+} from './writing-question/writing-question.component'
 
 @NgModule({
   declarations: [
@@ -77,7 +80,8 @@ import { WritingQuestionComponent } from './writing-question/writing-question.co
     CapitalsComponent,
     FamiliadaComponent,
     FootballGamesComponent,
-    WritingQuestionComponent,
+    WritingQuestionRestComponent,
+    WritingQuestionFootballComponent,
   ],
   imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule],
   providers: [],

@@ -14,6 +14,7 @@ import allMoviesHeroData from '../assets/movies/moviesHero.json'
 import allSerialsHeroData from '../assets/movies/serialsHero.json'
 import serialsData from '../assets/movies/serials.json'
 import writtingsCattegory from '../assets/writings/writtingsCategory.json'
+import writtingsFootballCattegory from '../assets/writings/writtingsFootballCategory.json'
 import movieActors from '../assets/actors/movieActors.json'
 import directorsData from '../assets/movies/directors.json'
 import familiadaData from '../assets/familiada/familiada.json'
@@ -76,7 +77,6 @@ export class QuestionDataService {
   public writtingsCategoryElements: WrittingsCategoryModel[] = []
   public writtingsCategoryFootballElements: WrittingsCategoryModel[] = []
   public writtingsData: WrittingData[] = []
-  public writtingsFootballData: WrittingData[] = []
   public countriesForFlags: Country[] | any = null
   public countriesForCapitals: Country[] | any = null
   public continentsForCountries: string[] | any = []
@@ -86,7 +86,7 @@ export class QuestionDataService {
   public allClubsCrests: string[] = []
   public init = false
 
-  initial() {
+  initial(): void {
     this.allYoutubeSongs = youtubeSongData
     this.allYoutubeMundial = youtubeMundialData
     this.allClubsCrests = clubCrestsData
@@ -121,6 +121,7 @@ export class QuestionDataService {
     this.countriesLetters = lettersData
     this.capitalsLetters = [...this.countriesLetters]
     this.writtingsCategoryElements = writtingsCattegory
+    this.writtingsCategoryFootballElements = writtingsFootballCattegory
     this.writtingsData = writtingsData
     this.init = true
   }
@@ -286,8 +287,22 @@ export class QuestionDataService {
     return getAndDeleteRandomElementFromArray(this.writtingsCategoryElements)
   }
 
+  getWritingsFootballCategoryQuestion(): WrittingsCategoryModel {
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.writtingsCategoryFootballElements)
+  }
+
   getWritingsCategoryDataQuestion(): WrittingData[] {
     const category = this.getWritingsCategoryQuestion()
+    const tmp = this.writtingsData.filter((data) => data.category === category.category)
+    console.log(JSON.stringify(tmp))
+    return tmp
+  }
+
+  getWritingsFootballCategoryDataQuestion(): WrittingData[] {
+    const category = this.getWritingsFootballCategoryQuestion()
     const tmp = this.writtingsData.filter((data) => data.category === category.category)
     console.log(JSON.stringify(tmp))
     return tmp

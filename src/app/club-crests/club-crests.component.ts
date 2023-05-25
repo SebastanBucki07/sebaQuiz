@@ -31,7 +31,7 @@ export class ClubCrestsComponent implements OnInit {
     this.init()
   }
 
-  init() {
+  init(): void {
     this.subscription = this.timerService.getBooleean().subscribe((x) => {
       if (x) {
         this.isVisible = true
@@ -43,7 +43,7 @@ export class ClubCrestsComponent implements OnInit {
     this.timerService.setTimer(0.5)
   }
 
-  close() {
+  close(): void {
     this.playerService.setModal(false)
     this.isVisible = false
     this.answer = ''
@@ -51,13 +51,13 @@ export class ClubCrestsComponent implements OnInit {
     this.init()
   }
 
-  showAnswer() {
+  showAnswer(): void {
     this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
   }
 
-  setSize() {
+  setSize(): void {
     this.size1 = randomFromArray(this.sizes)
     this.size2 = randomFromArray(this.sizes)
   }
