@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "team": "Lech Poznań",
+    "crest": "lechpoznan"
+  },
+  {
+    "id": 2,
+    "team": "Legia Warszawa",
+    "crest": "legiawarszawa"
+  },
+  {
+    "id": 3,
+    "team": "Piast Gliwice",
+    "crest": "piastgliwice"
+  },
+  {
+    "id": 4,
+    "team": "Śląsk Wrocław",
+    "crest": "slaskwroclaw"
+  },
+  {
+    "id": 5,
+    "team": "Lechia Gdańsk",
+    "crest": "lechiagdansk"
+  },
+  {
+    "id": 6,
+    "team": "Górnik Zabrze",
+    "crest": "gornikzabrze"
+  },
+  {
+    "id": 7,
+    "team": "Stal Mielec",
+    "crest": "stalmielec"
+  },
+  {
+    "id": 8,
+    "team": "Zagłębie Lubin",
+    "crest": "zaglebielubin"
+  },
+  {
+    "id": 9,
+    "team": "Pogoń Szczecin",
+    "crest": "pogonszczecin"
+  },
+  {
+    "id": 10,
+    "team": "Wisła Płock",
+    "crest": "wislaplock"
+  },
+  {
+    "id": 11,
+    "team": "Korona Kielce",
+    "crest": "koronakielce"
+  },
+  {
+    "id": 12,
+    "team": "Widzew Łódź",
+    "crest": "widzewlodz"
+  },
+  {
+    "id": 13,
+    "team": "Jagiellonia Białystok",
+    "crest": "jagiellonia"
+  },
+  {
+    "id": 14,
+    "team": "Miedź Legnica",
+    "crest": "miedzlegnica"
+  },
+  {
+    "id": 15,
+    "team": "Warta Poznań",
+    "crest": "wartapoznan"
+  },
+  {
+    "id": 16,
+    "team": "Raków Częstochowa",
+    "crest": "rakowczestochowa"
+  },
+  {
+    "id": 17,
+    "team": "Cracovia",
+    "crest": "cracovia"
+  },
+  {
+    "id": 18,
+    "team": "Radomiak Radom",
+    "crest": "radomiak"
+  },
+  {
+    "id": 19,
+    "team": "ŁKS Łódź",
+    "crest": "lkslodz"
+  },
+  {
+    "id": 20,
+    "team": "Wisła Kraków",
+    "crest": "wislakrakow"
+  },
+  {
+    "id": 21,
+    "team": "Podbeskidzie Bielsko-Biała",
+    "crest": "podbeskidziebielskobiala"
+  },
+  {
+    "id": 22,
+    "team": "Polonia Warszawa",
+    "crest": "poloniawarszawa"
+  },
+  {
+    "id": 23,
+    "team": "GKS Katowice",
+    "crest": "gkskatowice"
+  },
+  {
+    "id": 24,
+    "team": "Ruch Chorzów",
+    "crest": "ruchchorzow"
+  },
+  {
+    "id": 25,
+    "team": "GKS Bełchatów",
+    "crest": "gksbelchatow"
+  },
+  {
+    "id": 26,
+    "team": "Bruk-Bet Termalica Nieciecza",
+    "crest": "termalica"
+  },
+  {
+    "id": 27,
+    "team": "Zagłębie Sosnowiec",
+    "crest": "zaglebiesosnowiec"
+  },
+  {
+    "id": 28,
+    "team": "Arka Gdynia",
+    "crest": "arkagdynia"
+  },
+  {
+    "id": 29,
+    "team": "Dolcan Ząbki",
+    "crest": "dolcanzabki"
+  },
+  {
+    "id": 30,
+    "team": "Sandecja Nowy Sącz",
+    "crest": "sandecjanowysacz"
+  }
+]

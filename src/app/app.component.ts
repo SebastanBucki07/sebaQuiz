@@ -74,6 +74,8 @@ export class AppComponent {
 
   public writtingCategory: Category = { name: 'Wypisywanie róznych wspólnych', id: 33, checkbox: false }
 
+  public footballCross: Category = { name: 'Piłkarskie kółko i krzyżyk', id: 35, checkbox: false }
+
   constructor(public categoryService: QuestionTypesService, public playerService: PlayersService) {
     this.questionType = -1
     this.categoryType = -1
@@ -164,6 +166,10 @@ export class AppComponent {
       }
       case 11: {
         this.questionType = this.writtingCategory.id
+        break
+      }
+      case 12: {
+        this.questionType = this.footballCross.id
         break
       }
       default: {

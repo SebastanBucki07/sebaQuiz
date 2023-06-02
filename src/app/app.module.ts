@@ -37,7 +37,8 @@ import { FootballGamesComponent } from './football-games/football-games.componen
 import {
   WritingQuestionFootballComponent,
   WritingQuestionRestComponent,
-} from './writing-question/writing-question.component'
+} from './writing-question/writing-question.component';
+import { FootballCrossComponent } from './football-cross/football-cross.component'
 
 @NgModule({
   declarations: [
@@ -82,6 +83,7 @@ import {
     FootballGamesComponent,
     WritingQuestionRestComponent,
     WritingQuestionFootballComponent,
+    FootballCrossComponent,
   ],
   imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule],
   providers: [],
