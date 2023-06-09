@@ -167,7 +167,7 @@
     "id": 18,
     "zawodnik": "Radoslaw Murawski",
     "reprezentacja": "Polska",
-    "kluby": ["Lech Poznań", "Denizlispor", "Palermo", "Piast Gliwice"]
+    "kluby": ["Lech Poznań", "Denizlispor", "Palermo FC", "Piast Gliwice"]
   },
   {
     "id": 19,
@@ -985,38 +985,24 @@
   },
   {
     "id": 95,
-    "zawodnik": "Djordje Cotra",
-    "reprezentacja": "Serbia",
-    "kluby": [
-      "Zagłębie Lubin",
-      "FK Rad Belgrad",
-      "Polonia Warszawa",
-      "Śląsk Wrocław",
-      "FK BSK Borca",
-      "FK Vojvodina Novi Sad",
-      "FK Hajduk 1912"
-    ]
-  },
-  {
-    "id": 96,
     "zawodnik": "Bartosz Rymaniak",
     "reprezentacja": "Polska",
     "kluby": ["Zagłębie Lubin", "Korona Kielce", "Piast Gliwice", "Cracovia", "Górnik Łęczna", "Arka Gdynia"]
   },
   {
-    "id": 97,
+    "id": 96,
     "zawodnik": "Patryk Mucha",
     "reprezentacja": "Polska",
     "kluby": ["Zagłębie Lubin", "Widzew Łódź", "Chrobry Głogów", "Górnik Polkowice"]
   },
   {
-    "id": 98,
+    "id": 97,
     "zawodnik": "Robert Pich",
     "reprezentacja": "Słowacja",
     "kluby": ["Śląsk Wrocław", "MSK Zilina", "Dukla Banska Bystrica", "Legia Warszawa", "1.FC Kaiserslautern"]
   },
   {
-    "id": 99,
+    "id": 98,
     "zawodnik": "Pawel Sasin",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1033,31 +1019,31 @@
     ]
   },
   {
-    "id": 100,
+    "id": 99,
     "zawodnik": "Jacek Kielb",
     "reprezentacja": "Polska",
     "kluby": ["Korona Kielce", "Lech Poznań", "Bruk-Bet Termalica Nieciecza", "Śląsk Wrocław", "Polonia Warszawa"]
   },
   {
-    "id": 101,
+    "id": 100,
     "zawodnik": "Jakub Wrabel",
     "reprezentacja": "Polska",
     "kluby": ["Widzew Łódź", "Śląsk Wrocław", "Olimpia Grudziądz", "Stal Mielec", "Wisła Płock"]
   },
   {
-    "id": 102,
+    "id": 101,
     "zawodnik": "Mateusz Radecki",
     "reprezentacja": "Polska",
     "kluby": ["Radomiak Radom", "Śląsk Wrocław", "Wigry Suwałki", "GKS Tychy"]
   },
   {
-    "id": 103,
+    "id": 102,
     "zawodnik": "Mateusz Kochalski",
     "reprezentacja": "Polska",
     "kluby": ["Radomiak Radom", "Legionovia Legionowo", "Stal Mielec"]
   },
   {
-    "id": 104,
+    "id": 103,
     "zawodnik": "Michal Grudniewski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1070,7 +1056,7 @@
     ]
   },
   {
-    "id": 105,
+    "id": 104,
     "zawodnik": "Maciej Gorski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1089,13 +1075,13 @@
     ]
   },
   {
-    "id": 106,
+    "id": 105,
     "zawodnik": "Mateusz Lewandowski",
     "reprezentacja": "Polska",
     "kluby": ["Pogoń Szczecin", "Radomiak Radom", "Śląsk Wrocław", "Lechia Gdańsk", "Virtus Entella"]
   },
   {
-    "id": 107,
+    "id": 106,
     "zawodnik": "Mateusz Bodzioch",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1111,7 +1097,7 @@
     ]
   },
   {
-    "id": 108,
+    "id": 107,
     "zawodnik": "Meik Karwot",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1127,7 +1113,7 @@
     ]
   },
   {
-    "id": 109,
+    "id": 108,
     "zawodnik": "Grzegorz Bonin",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1142,7 +1128,7 @@
     ]
   },
   {
-    "id": 110,
+    "id": 109,
     "zawodnik": "Szymon Drewniak",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1157,7 +1143,7 @@
     ]
   },
   {
-    "id": 111,
+    "id": 110,
     "zawodnik": "Lukasz Mierzejewski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1172,25 +1158,25 @@
     ]
   },
   {
-    "id": 112,
+    "id": 111,
     "zawodnik": "Hubert Adamczyk",
     "reprezentacja": "Polska",
     "kluby": ["Arka Gdynia", "GKS Tychy", "Wisła Płock", "Olimpia Grudziądz", "Cracovia"]
   },
   {
-    "id": 113,
+    "id": 112,
     "zawodnik": "Pawel Nowak",
     "reprezentacja": "Polska",
     "kluby": ["Cracovia", "Lechia Gdańsk", "Wisła Kraków", "Garbarnia Kraków", "Sandecja Nowy Sącz"]
   },
   {
-    "id": 114,
+    "id": 113,
     "zawodnik": "Cornel Rapa",
     "reprezentacja": "Rumunia",
     "kluby": ["Cracovia", "SC Otelul Galati", "FCSB", "Pogoń Szczecin"]
   },
   {
-    "id": 115,
+    "id": 114,
     "zawodnik": "Radoslaw Majewski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1206,13 +1192,13 @@
     ]
   },
   {
-    "id": 116,
+    "id": 115,
     "zawodnik": "Wojciech Lisowski",
     "reprezentacja": "Polska",
     "kluby": ["Chojniczanka Chojnice", "GKS Katowice", "Stal Mielec", "Piast Gliwice", "Pogoń Szczecin"]
   },
   {
-    "id": 117,
+    "id": 116,
     "zawodnik": "Lukasz Budzilek",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1227,19 +1213,19 @@
     ]
   },
   {
-    "id": 118,
+    "id": 117,
     "zawodnik": "Bartosz Fabiniak",
     "reprezentacja": "Polska",
     "kluby": ["Olimpia Grudziądz", "Widzew Łódź", "Pogoń Szczecin"]
   },
   {
-    "id": 119,
+    "id": 118,
     "zawodnik": "Bartosz Nowak",
     "reprezentacja": "Polska",
     "kluby": ["Stal Mielec", "Górnik Zabrze", "Ruch Chorzów", "Raków Częstochowa", "Polonia Bytom", "Miedź Legnica"]
   },
   {
-    "id": 120,
+    "id": 119,
     "zawodnik": "Jean Carlos Silva",
     "reprezentacja": "Hiszpania",
     "kluby": [
@@ -1252,25 +1238,25 @@
     ]
   },
   {
-    "id": 121,
+    "id": 120,
     "zawodnik": "Miguel Luís",
     "reprezentacja": "Portugal",
     "kluby": ["Warta Poznań", "Vitoria Guimarães SC", "Sporting CP", "Raków Częstochowa"]
   },
   {
-    "id": 122,
+    "id": 121,
     "zawodnik": "Daniel Szelagowski",
     "reprezentacja": "Polska",
     "kluby": ["Raków Częstochowa", "Korona Kielce", "Warta Poznań", "Chojniczanka Chojnice"]
   },
   {
-    "id": 123,
+    "id": 122,
     "zawodnik": "Milosz Szczepanski",
     "reprezentacja": "Polska",
     "kluby": ["Raków Częstochowa", "Warta Poznań", "Lechia Gdańsk", "Legia Warszawa"]
   },
   {
-    "id": 124,
+    "id": 123,
     "zawodnik": "Valeriane Gvilia",
     "reprezentacja": "Gruzja",
     "kluby": [
@@ -1284,7 +1270,7 @@
     ]
   },
   {
-    "id": 125,
+    "id": 124,
     "zawodnik": "Oskar Zawada",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1299,7 +1285,7 @@
     ]
   },
   {
-    "id": 126,
+    "id": 125,
     "zawodnik": "Dariusz Formella",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1312,7 +1298,7 @@
     ]
   },
   {
-    "id": 127,
+    "id": 126,
     "zawodnik": "Peter Mazan",
     "reprezentacja": "Słowacja",
     "kluby": [
@@ -1326,19 +1312,19 @@
     ]
   },
   {
-    "id": 128,
+    "id": 127,
     "zawodnik": "Michael Ameyaw",
     "reprezentacja": "Polska",
     "kluby": ["Widzew Łódź", "Piast Gliwice"]
   },
   {
-    "id": 129,
+    "id": 128,
     "zawodnik": "Tomasz Mokwa",
     "reprezentacja": "Polska",
     "kluby": ["Calisia Kalisz", "Piast Gliwice", "Flota Świnoujście", "GKS Katowice"]
   },
   {
-    "id": 130,
+    "id": 129,
     "zawodnik": "Karol Szymanski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1354,7 +1340,7 @@
     ]
   },
   {
-    "id": 131,
+    "id": 130,
     "zawodnik": "Zoran Arsenic",
     "reprezentacja": "Chorwacja",
     "kluby": [
@@ -1368,13 +1354,13 @@
     ]
   },
   {
-    "id": 132,
+    "id": 131,
     "zawodnik": "Szymon Czyz",
     "reprezentacja": "Polska",
     "kluby": ["Raków Częstochowa", "Warta Poznań", "Lazio Rzym"]
   },
   {
-    "id": 133,
+    "id": 132,
     "zawodnik": "Fabian Piasecki",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1389,43 +1375,43 @@
     ]
   },
   {
-    "id": 134,
+    "id": 133,
     "zawodnik": "Sebastian Musiolik",
     "reprezentacja": "Polska",
     "kluby": ["Raków Częstochowa", "ROW 1964 Rybnik", "Pordenone Calcio", "Piast Gliwice"]
   },
   {
-    "id": 135,
+    "id": 134,
     "zawodnik": "Mateusz Wdowiak",
     "reprezentacja": "Polska",
     "kluby": ["Cracovia", " Raków Częstochowa", "Sandecja Nowy Sącz"]
   },
   {
-    "id": 136,
+    "id": 135,
     "zawodnik": "Marcin Cebula",
     "reprezentacja": "Polska",
     "kluby": ["Korona Kielce", " Raków Częstochowa"]
   },
   {
-    "id": 137,
+    "id": 136,
     "zawodnik": "Cezary Miszta",
     "reprezentacja": "Polska",
     "kluby": ["Legia Warszawa", " Radomiak Radom"]
   },
   {
-    "id": 138,
+    "id": 137,
     "zawodnik": "Maik Nawrocki",
     "reprezentacja": "Polska",
     "kluby": ["Legia Warszawa", " Warta Poznań"]
   },
   {
-    "id": 139,
+    "id": 138,
     "zawodnik": "Patryk Sokolowski",
     "reprezentacja": "Polska",
     "kluby": ["Piast Gliwice", "Olimpia Elbląg", "Legia Warszawa", "Wigry Suwałki", "Znicz Pruszków"]
   },
   {
-    "id": 140,
+    "id": 139,
     "zawodnik": "Bartosz Salamon",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1440,13 +1426,13 @@
     ]
   },
   {
-    "id": 141,
+    "id": 140,
     "zawodnik": "Alan Czerwinski",
     "reprezentacja": "Polska",
     "kluby": ["GKS Katowice", "Zagłębie Lubin", "Lech Poznań"]
   },
   {
-    "id": 142,
+    "id": 141,
     "zawodnik": "Artur Sobiech",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1460,37 +1446,37 @@
     ]
   },
   {
-    "id": 143,
+    "id": 142,
     "zawodnik": "Mariusz Malec",
     "reprezentacja": "Polska",
     "kluby": ["Pogoń Szczecin", "Podbeskidzie Bielsko-Biała", "Olimpia Grudziądz", "Polonia Bytom"]
   },
   {
-    "id": 144,
+    "id": 143,
     "zawodnik": "Pawel Stolarski",
     "reprezentacja": "Polska",
     "kluby": ["Lechia Gdańsk", "Legia Warszawa", "Pogoń Szczecin", "Wisła Kraków", "Zagłębie Lubin"]
   },
   {
-    "id": 145,
+    "id": 144,
     "zawodnik": "Rafal Kurzawa",
     "reprezentacja": "Polska",
     "kluby": ["Górnik Zabrze", "Pogoń Szczecin", "ROW 1964 Rybnik", "Amiens SC", "Esbjerg fB", "FC Midtjylland"]
   },
   {
-    "id": 146,
+    "id": 145,
     "zawodnik": "Michal Kucharczyk",
     "reprezentacja": "Polska",
     "kluby": ["Legia Warszawa", "Pogoń Szczecin", "Ural Jekaterynburg"]
   },
   {
-    "id": 147,
+    "id": 146,
     "zawodnik": "Szymon Wlodarczyk",
     "reprezentacja": "Polska",
     "kluby": ["Górnik Zabrze", "Legia Warszawa"]
   },
   {
-    "id": 148,
+    "id": 147,
     "zawodnik": "Jaroslaw Jach",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1503,19 +1489,19 @@
     ]
   },
   {
-    "id": 149,
+    "id": 148,
     "zawodnik": "Marcin Flis",
     "reprezentacja": "Polska",
     "kluby": ["Stal Mielec", "Sandecja Nowy Sącz", "GKS Bełchatów", "Górnik Łęczna", "GKS Katowice", "Piast Gliwice"]
   },
   {
-    "id": 150,
+    "id": 149,
     "zawodnik": "Piotr Wlazlo",
     "reprezentacja": "Polska",
     "kluby": ["Bruk-Bet Termalica Nieciecza", "Wisła Płock", "Stal Mielec", "Radomiak Radom", "Jagiellonia Białystok"]
   },
   {
-    "id": 151,
+    "id": 150,
     "zawodnik": "Fabian Hiszpanski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1529,43 +1515,43 @@
     ]
   },
   {
-    "id": 152,
+    "id": 151,
     "zawodnik": "Krystian Getinger",
     "reprezentacja": "Polska",
     "kluby": ["Stal Mielec", "Stal Stalowa Wola", "Zagłębie Lubin"]
   },
   {
-    "id": 153,
+    "id": 152,
     "zawodnik": "Mateusz Mak",
     "reprezentacja": "Polska",
     "kluby": ["Stal Mielec", "Piast Gliwice", "GKS Bełchatów", "Ruch Radzionków"]
   },
   {
-    "id": 154,
+    "id": 153,
     "zawodnik": "Patryk Lipski",
     "reprezentacja": "Polska",
     "kluby": ["Lechia Gdańsk", "Piast Gliwice", "Ruch Chorzów", "Widzew Łódź"]
   },
   {
-    "id": 155,
+    "id": 154,
     "zawodnik": "Mateusz Zyro",
     "reprezentacja": "Polska",
     "kluby": ["Stal Mielec", "Widzew Łódź", "Wigry Suwałki", "Miedź Legnica", "Legia Warszawa"]
   },
   {
-    "id": 156,
+    "id": 155,
     "zawodnik": "Ernest Terpilowski",
     "reprezentacja": "Polska",
     "kluby": ["Widzew Łódź", "Górnik Polkowice", "Lechia Dzierzoniow", "Bruk-Bet Termalica Nieciecza"]
   },
   {
-    "id": 157,
+    "id": 156,
     "zawodnik": "Lukasz Zjawinski",
     "reprezentacja": "Polska",
     "kluby": ["Stal Mielec", "Widzew Łódź", "Stal Stalowa Wola", "Sandecja Nowy Sącz", "Lechia Gdańsk"]
   },
   {
-    "id": 158,
+    "id": 157,
     "zawodnik": "Bartosz Kwiecien",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1578,19 +1564,19 @@
     ]
   },
   {
-    "id": 159,
+    "id": 158,
     "zawodnik": "Adam Deja",
     "reprezentacja": "Polska",
     "kluby": ["Arka Gdynia", "Podbeskidzie Bielsko-Biała", "Korona Kielce", "MKS Kluczbork", "Cracovia"]
   },
   {
-    "id": 160,
+    "id": 159,
     "zawodnik": "Jakub Rzezniczak",
     "reprezentacja": "Polska",
     "kluby": ["Legia Warszawa", "Wisła Płock", "Qarabağ FK", "Widzew Łódź"]
   },
   {
-    "id": 161,
+    "id": 160,
     "zawodnik": "Bartosz Spiaczka",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1604,7 +1590,7 @@
     ]
   },
   {
-    "id": 162,
+    "id": 161,
     "zawodnik": "Rafal Wolski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1618,43 +1604,43 @@
     ]
   },
   {
-    "id": 163,
+    "id": 162,
     "zawodnik": "Mateusz Szwoch",
     "reprezentacja": "Polska",
     "kluby": ["Arka Gdynia", "Wisła Płock", "Legia Warszawa"]
   },
   {
-    "id": 164,
+    "id": 163,
     "zawodnik": "Dominik Furman",
     "reprezentacja": "Polska",
     "kluby": ["Wisła Płock", "Legia Warszawa", "Genclerbirligi Ankara", "FC Toulouse", "Hellas Verona"]
   },
   {
-    "id": 165,
+    "id": 164,
     "zawodnik": "Dusan Kuciak",
     "reprezentacja": "Słowacja",
     "kluby": ["Lechia Gdańsk", "Legia Warszawa", "FC Vaslui", "MSK Zilina", "Hull City"]
   },
   {
-    "id": 166,
+    "id": 165,
     "zawodnik": "Michal Nalepa",
     "reprezentacja": "Polska",
     "kluby": ["Lechia Gdańsk", "Ferencvárosi TC", "Bruk-Bet Termalica Nieciecza", "Ruch Radzionków", "Wisła Kraków"]
   },
   {
-    "id": 167,
+    "id": 166,
     "zawodnik": "Maciej Gajos",
     "reprezentacja": "Polska",
     "kluby": ["Lechia Gdańsk", "Lech Poznań", "Jagiellonia Białystok"]
   },
   {
-    "id": 168,
+    "id": 167,
     "zawodnik": "Lukasz Zwolinski",
     "reprezentacja": "Polska",
     "kluby": ["Pogoń Szczecin", "Lechia Gdańsk", "HNK Gorica", "Górnik Łęczna", "Śląsk Wrocław", "Arka Gdynia"]
   },
   {
-    "id": 169,
+    "id": 168,
     "zawodnik": "Flávio Paixão",
     "reprezentacja": "Portugalia",
     "kluby": [
@@ -1667,13 +1653,13 @@
     ]
   },
   {
-    "id": 170,
+    "id": 169,
     "zawodnik": "Sebastian Milewski",
     "reprezentacja": "Polska",
     "kluby": ["Zagłębie Sosnowiec", "Piast Gliwice", "Arka Gdynia", "Legionovia Legionowo"]
   },
   {
-    "id": 171,
+    "id": 170,
     "zawodnik": "Janusz Gol",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1687,19 +1673,19 @@
     ]
   },
   {
-    "id": 172,
+    "id": 171,
     "zawodnik": "Omran Haydary",
     "reprezentacja": "Afganistan",
     "kluby": ["Arka Gdynia", "Lechia Gdańsk", "Olimpia Grudziądz", "FC Dordrecht", "FC Emmen"]
   },
   {
-    "id": 173,
+    "id": 172,
     "zawodnik": "Bartosz Szeliga",
     "reprezentacja": "Polska",
     "kluby": ["Piast Gliwice", "ŁKS Łódź", "GKS Tychy", "Bruk-Bet Termalica Nieciecza", "Sandecja Nowy Sącz"]
   },
   {
-    "id": 174,
+    "id": 173,
     "zawodnik": "Maciej Gostomski",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1713,19 +1699,19 @@
     ]
   },
   {
-    "id": 175,
+    "id": 174,
     "zawodnik": "Igor Lasicki",
     "reprezentacja": "Polska",
     "kluby": ["Wisła Płock", "Wisła Kraków", "AS Gubbio 1910", "Pogoń Szczecin", "Rimini FC", "AC Carpi", "SSC Napoli"]
   },
   {
-    "id": 176,
+    "id": 175,
     "zawodnik": "Jakub Blaszczykowski",
     "reprezentacja": "Polska",
     "kluby": ["Borussia Dortmund", "Wisła Kraków", "VfL Wolfsburg", "AC Fiorentina"]
   },
   {
-    "id": 177,
+    "id": 176,
     "zawodnik": "Michal Zyro",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1741,109 +1727,109 @@
     ]
   },
   {
-    "id": 178,
+    "id": 177,
     "zawodnik": "Alan Uryga",
     "reprezentacja": "Polska",
     "kluby": ["Wisła Płock", "Wisła Kraków"]
   },
   {
-    "id": 179,
+    "id": 178,
     "zawodnik": "Karol Linetty",
     "reprezentacja": "Polska",
     "kluby": ["UC Sampdoria", "Lech Poznań", "Torino FC"]
   },
   {
-    "id": 180,
+    "id": 179,
     "zawodnik": "Lukasz Skorupski",
     "reprezentacja": "Polska",
     "kluby": ["FC Bologna", "FC Empoli", "Górnik Zabrze", "AS Roma", "Ruch Radzionków"]
   },
   {
-    "id": 181,
+    "id": 180,
     "zawodnik": "Bartlomiej Dragowski",
     "reprezentacja": "Polska",
     "kluby": ["AC Fiorentina", "Jagiellonia Białystok", "Spezia Calcio", "FC Empoli"]
   },
   {
-    "id": 182,
+    "id": 181,
     "zawodnik": "Wojciech Szczesny",
     "reprezentacja": "Polska",
     "kluby": ["Juventus Turyn", "FC Arsenal", "AS Roma", "FC Brentford"]
   },
   {
-    "id": 183,
+    "id": 182,
     "zawodnik": "Jakub Kiwior",
     "reprezentacja": "Polska",
     "kluby": ["MSK Zilina", "Spezia Calcio", "FK Zeleziarne Podbrezova", "FC Arsenal"]
   },
   {
-    "id": 184,
+    "id": 183,
     "zawodnik": "Jan Bednarek",
     "reprezentacja": "Polska",
     "kluby": ["FC Southampton", "Lech Poznań", "Górnik Łęczna", "Aston Villa"]
   },
   {
-    "id": 185,
+    "id": 184,
     "zawodnik": "Mateusz Wieteska",
     "reprezentacja": "Polska",
     "kluby": ["Legia Warszawa", "Górnik Zabrze", "Clermont Foot 63", "Chrobry Głogów", "Dolcan Ząbki"]
   },
   {
-    "id": 186,
+    "id": 185,
     "zawodnik": "Przemyslaw Wisniewski",
     "reprezentacja": "Polska",
     "kluby": ["Górnik Zabrze", "Venezia FC", "Spezia Calcio"]
   },
   {
-    "id": 187,
+    "id": 186,
     "zawodnik": "Arkadiusz Reca",
     "reprezentacja": "Polska",
-    "kluby": "[\n\"Wisła Płock\",\n\"FC Crotone\",\n\"Spezia Calcio\"\n\"Flota Świnoujście\",\n\"SPAL\"\n]"
+    "kluby": ["Wisła Płock", "FC Crotone", "Spezia Calcio", "Flota Świnoujście", "SPAL"]
   },
   {
-    "id": 188,
+    "id": 187,
     "zawodnik": "Tomasz Kedziora",
     "reprezentacja": "Polska",
     "kluby": ["Dynamo Kijów", "Lech Poznań", "PAOK Saloniki"]
   },
   {
-    "id": 189,
+    "id": 188,
     "zawodnik": "Krystian Bielik",
     "reprezentacja": "Polska",
     "kluby": ["Derby County", "Birmingham City", "Charlton Athletic", "Legia Warszawa", "FC Arsenal"]
   },
   {
-    "id": 190,
+    "id": 189,
     "zawodnik": "Damian Szymanski",
     "reprezentacja": "Polska",
     "kluby": ["AEK Ateny", "Wisła Płock", "GKS Bełchatów", "Jagiellonia Białystok", "Akhmat Grozny"]
   },
   {
-    "id": 191,
+    "id": 190,
     "zawodnik": "Piotr Zielinski",
     "reprezentacja": "Polska",
     "kluby": ["SSC Napoli", "FC Empoli", "Udinese Calcio"]
   },
   {
-    "id": 192,
+    "id": 191,
     "zawodnik": "Przemyslaw Frankowski",
     "reprezentacja": "Polska",
     "kluby": ["Jagiellonia Białystok", "RC Lens", "Chicago Fire FC", "Lechia Gdańsk"]
   },
   {
-    "id": 193,
+    "id": 192,
     "zawodnik": "Jakub Kaminski",
     "reprezentacja": "Polska",
     "kluby": ["Lech Poznań", "VfL Wolfsburg"]
   },
   {
-    "id": 194,
+    "id": 193,
     "zawodnik": "Robert Lewandowski",
     "reprezentacja": "Polska",
     "kluby": ["Bayern Monachium", "Borussia Dortmund", "Lech Poznań", "FC Barcelona", "Znicz Pruszków"]
   },
   {
-    "id": 195,
+    "id": 194,
     "zawodnik": "Arkadiusz Milik",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1857,43 +1843,43 @@
     ]
   },
   {
-    "id": 196,
+    "id": 195,
     "zawodnik": "Karol Swiderski",
     "reprezentacja": "Polska",
     "kluby": ["PAOK Saloniki", "Jagiellonia Białystok", "Charlotte FC"]
   },
   {
-    "id": 197,
+    "id": 196,
     "zawodnik": "Kamil Grabara",
     "reprezentacja": "Polska",
     "kluby": ["FC Kopenhaga", "Aarhus GF", "Huddersfield Town"]
   },
   {
-    "id": 198,
+    "id": 197,
     "zawodnik": "Michal Helik",
     "reprezentacja": "Polska",
     "kluby": ["Cracovia", "FC Barnsley", "Ruch Chorzów", "Huddersfield Town"]
   },
   {
-    "id": 199,
+    "id": 198,
     "zawodnik": "Marcin Kaminski",
     "reprezentacja": "Polska",
     "kluby": ["Lech Poznań", "VfB Stuttgart", "FC Schalke 04", "Fortuna Düsseldorf"]
   },
   {
-    "id": 200,
+    "id": 199,
     "zawodnik": "Matty Cash",
     "reprezentacja": "Polska",
     "kluby": ["Nottingham Forest", "Aston Villa", "FC Dagenham & Redbridge"]
   },
   {
-    "id": 201,
+    "id": 200,
     "zawodnik": "Kamil Józwiak",
     "reprezentacja": "Polska",
     "kluby": ["Lech Poznań", "Derby County", "Charlotte FC", "GKS Katowice"]
   },
   {
-    "id": 202,
+    "id": 201,
     "zawodnik": "Przemyslaw Placheta",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1906,7 +1892,7 @@
     ]
   },
   {
-    "id": 203,
+    "id": 202,
     "zawodnik": "Kamil Grosicki",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1921,25 +1907,25 @@
     ]
   },
   {
-    "id": 204,
+    "id": 203,
     "zawodnik": "Radoslaw Majecki",
     "reprezentacja": "Polska",
     "kluby": ["Legia Warszawa", "Cercle Brügge", "Stal Mielec", "AS Monaco"]
   },
   {
-    "id": 205,
+    "id": 204,
     "zawodnik": "Pawel Dawidowicz",
     "reprezentacja": "Polska",
     "kluby": ["Hellas Verona", "Lechia Gdańsk", "Palermo FC", "VfL Bochum"]
   },
   {
-    "id": 206,
+    "id": 205,
     "zawodnik": "Maciej Rybus",
     "reprezentacja": "Polska",
     "kluby": ["Lokomotiw Moskwa", "Legia Warszawa", "Akhmat Grozny", "Olympique Lyon", "Spartak Moskwa"]
   },
   {
-    "id": 207,
+    "id": 206,
     "zawodnik": "Grzegorz Krychowiak",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1956,7 +1942,7 @@
     ]
   },
   {
-    "id": 208,
+    "id": 207,
     "zawodnik": "Mateusz Klich",
     "reprezentacja": "Polska",
     "kluby": [
@@ -1970,37 +1956,37 @@
     ]
   },
   {
-    "id": 209,
+    "id": 208,
     "zawodnik": "Thiago Cionek",
     "reprezentacja": "Polska",
     "kluby": ["Jagiellonia Białystok", "Reggina 1914", "Modena FC", "SPAL", "Palermo FC", "Calcio Padova"]
   },
   {
-    "id": 210,
+    "id": 209,
     "zawodnik": "Lukasz Piszczek",
     "reprezentacja": "Polska",
     "kluby": ["Borussia Dortmund", "Hertha BSC", "Zagłębie Lubin", "LKS Goczałkowice-Zdrój"]
   },
   {
-    "id": 211,
+    "id": 210,
     "zawodnik": "Dawid Kownacki",
     "reprezentacja": "Polska",
     "kluby": ["Lech Poznań", "Fortuna Düsseldorf", "UC Sampdoria"]
   },
   {
-    "id": 212,
+    "id": 211,
     "zawodnik": "Bartosz Bialkowski",
     "reprezentacja": "Polska",
     "kluby": ["Ipswich Town", "FC Millwall", "Notts County", "FC Southampton", "Górnik Zabrze", "FC Barnsley"]
   },
   {
-    "id": 213,
+    "id": 212,
     "zawodnik": "Artur Boruc",
     "reprezentacja": "Polska",
     "kluby": ["Celtic Glasgow", "Legia Warszawa", "AFC Bournemouth", "AC Fiorentina", "FC Southampton"]
   },
   {
-    "id": 214,
+    "id": 213,
     "zawodnik": "Igor Lewczuk",
     "reprezentacja": "Polska",
     "kluby": [
@@ -2014,7 +2000,7 @@
     ]
   },
   {
-    "id": 215,
+    "id": 214,
     "zawodnik": "Lukasz Teodorczyk",
     "reprezentacja": "Polska",
     "kluby": [
@@ -2028,7 +2014,7 @@
     ]
   },
   {
-    "id": 216,
+    "id": 215,
     "zawodnik": "Przemyslaw Tyton",
     "reprezentacja": "Polska",
     "kluby": [
@@ -2043,7 +2029,7 @@
     ]
   },
   {
-    "id": 217,
+    "id": 216,
     "zawodnik": "Lukasz Szukala",
     "reprezentacja": "Polska",
     "kluby": [
@@ -2058,7 +2044,7 @@
     ]
   },
   {
-    "id": 218,
+    "id": 217,
     "zawodnik": "Jakub Wawrzyniak",
     "reprezentacja": "Polska",
     "kluby": [
@@ -2072,7 +2058,7 @@
     ]
   },
   {
-    "id": 219,
+    "id": 218,
     "zawodnik": "Slawomir Peszko",
     "reprezentacja": "Polska",
     "kluby": [
@@ -2083,6 +2069,2289 @@
       "Wolverhampton Wanderers",
       "Wisła Kraków",
       "Wieczysta Kraków"
+    ]
+  },
+  {
+    "id": 219,
+    "zawodnik": "N'Golo Kanté",
+    "reprezentacja": "Francja",
+    "kluby": ["Chelsea FC", "SM Caen", "Leicester City", "US Boulogne"]
+  },
+  {
+    "id": 220,
+    "zawodnik": "Jesus imaz",
+    "reprezentacja": "Hiszpania",
+    "kluby": [
+      "Jagiellonia Białystok",
+      "Lleida Esportiu",
+      "UE Costa Brava",
+      "Wisła Kraków",
+      "Unió Esportiva Lleida",
+      "UCAM Murcia CF",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "id": 221,
+    "zawodnik": "Tomasz Kupisz",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Jagiellonia Białystok",
+      "Brescia Calcio",
+      "Cesena FC",
+      "US Salernitana 1919",
+      "Novara FC",
+      "AS Cittadella",
+      "FC Trapani 1905",
+      "Reggina 1914",
+      "SSC Bari",
+      "Pordenone Calcio",
+      "Ascoli Calcio",
+      "US Livorno 1915",
+      "Oldham Athletic",
+      "Wigan Athletic",
+      "Chievo Verona"
+    ]
+  },
+  {
+    "id": 222,
+    "zawodnik": "Bartosz Bida",
+    "reprezentacja": "Polska",
+    "kluby": ["Jagiellonia Białystok", "Wigry Suwałki"]
+  },
+  {
+    "id": 223,
+    "zawodnik": "Jakub Slowik",
+    "reprezentacja": "Polska",
+    "kluby": ["Vegalta Sendai", "Śląsk Wrocław", "Jagiellonia Białystok", "FC Tokyo", "Pogoń Szczecin", "Warta Poznań"]
+  },
+  {
+    "id": 224,
+    "zawodnik": "Lukasz Surma",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Ruch Chorzów",
+      "Legia Warszawa",
+      "Lechia Gdańsk",
+      "Wisła Kraków",
+      "Ihud Bnei Sakhnin",
+      "FC Admira Wacker Mödling",
+      "Maccabi Haifa"
+    ]
+  },
+  {
+    "id": 225,
+    "zawodnik": "Marek Zienczuk",
+    "reprezentacja": "Polska",
+    "kluby": ["Ruch Chorzów", "Wisła Kraków", "Amica Wronki", "AO Xanthi", "Lechia Gdańsk"]
+  },
+  {
+    "id": 226,
+    "zawodnik": "Deleu",
+    "reprezentacja": "Brazylia",
+    "kluby": [
+      "Lechia Gdańsk",
+      "Cracovia",
+      "Bytovia Bytów",
+      "Clube Náutico Capibaribe",
+      "Chojniczanka Chojnice",
+      "Miedź Legnica"
+    ]
+  },
+  {
+    "id": 227,
+    "zawodnik": "Ricardinho",
+    "reprezentacja": "Brazylia",
+    "kluby": [
+      "FC Sheriff Tyraspol",
+      "Wisła Płock",
+      "ŁKS Łódź",
+      "Lechia Gdańsk",
+      "Khor Fakkan",
+      "Górnik Łęczna",
+      "Sharjah FC",
+      "FC Tosno",
+      "Crvena Zvezda Belgrad",
+      "EC Santo André"
+    ]
+  },
+  {
+    "id": 228,
+    "zawodnik": "Damian Byrtek",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Wisła Płock",
+      "Chojniczanka Chojnice",
+      "Chrobry Głogów",
+      "Raków Częstochowa",
+      "Stomil Olsztyn",
+      "Podbeskidzie Bielsko-Biała",
+      "Okocimski KS Brzesko",
+      "Miedź Legnica",
+      "Piast Gliwice"
+    ]
+  },
+  {
+    "id": 229,
+    "zawodnik": "José Kanté",
+    "reprezentacja": "Gwinea",
+    "kluby": [
+      "Wisła Płock",
+      "Legia Warszawa",
+      "Kairat Almaty",
+      "AE Prat",
+      "AEK Larnaka",
+      "Górnik Zabrze",
+      "Cangzhou Mighty Lions",
+      "Gimnàstic de Tarragona",
+      "Urawa Red Diamonds"
+    ]
+  },
+  {
+    "id": 230,
+    "zawodnik": "Giorgi Merebashvili",
+    "reprezentacja": "Gruzja",
+    "kluby": [
+      "Dinamo Tbilisi",
+      "Wisła Płock",
+      "Podbeskidzie Bielsko-Biała",
+      "Sandecja Nowy Sącz",
+      "FK Vojvodina Novi Sad"
+    ]
+  },
+  {
+    "id": 231,
+    "zawodnik": "Thomas Dähne",
+    "reprezentacja": "Niemcy",
+    "kluby": ["HJK Helsinki", "Wisła Płock", "Holstein Kiel", "Red Bull Salzburg"]
+  },
+  {
+    "id": 232,
+    "zawodnik": "Przemysław Szyminski",
+    "reprezentacja": "Polska",
+    "kluby": ["Frosinone Calcio", "Wisła Płock", "Rozwój Katowice", "Palermo FC"]
+  },
+  {
+    "id": 233,
+    "zawodnik": "Mateusz Praszelik",
+    "reprezentacja": "Polska",
+    "kluby": ["Śląsk Wrocław", "Cosenza Calcio", "Legia Warszawa"]
+  },
+  {
+    "id": 234,
+    "zawodnik": "Lukasz Broz",
+    "reprezentacja": "Polska",
+    "kluby": ["Widzew Łódź", "Legia Warszawa", "Śląsk Wrocław", "Mamry Giżycko", "KS Kutno"]
+  },
+  {
+    "id": 235,
+    "zawodnik": "Kevin Kampl",
+    "reprezentacja": "Słowenia",
+    "kluby": [
+      "RasenBallsport Leipzig",
+      "Red Bull Salzburg",
+      "Bayer 04 Leverkusen",
+      "VfL Osnabrück",
+      "Borussia Dortmund",
+      "VfR Aalen",
+      "SpVgg Greuther Fürth"
+    ]
+  },
+  {
+    "id": 236,
+    "zawodnik": "Ebi Smolarek",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Jagiellonia Białystok",
+      "Borussia Dortmund",
+      "Feyenoord Rotterdam",
+      "Racing Santander",
+      "Polonia Warszawa",
+      "ADO Den Haag",
+      "Bolton Wanderers"
+    ]
+  },
+  {
+    "id": 237,
+    "zawodnik": "Grzegorz Rasiak",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "FC Southampton",
+      "Dyskobolia Grodzisk Wielkopolski",
+      "Derby County",
+      "FC Reading",
+      "Odra Wodzisław Śląski",
+      "Warta Poznań",
+      "FC Watford",
+      "AEL Limassol",
+      "Lechia Gdańsk",
+      "Jagiellonia Białystok",
+      "Tottenham Hotspur",
+      "Bolton Wanderers",
+      "GKS Bełchatów"
+    ]
+  },
+  {
+    "id": 238,
+    "zawodnik": "Maciej Zurawski",
+    "reprezentacja": "Polska",
+    "kluby": ["Wisła Kraków", "Celtic Glasgow", "Lech Poznań", "AE Larisa", "Omonia Nikozja"]
+  },
+  {
+    "id": 239,
+    "zawodnik": "Paweł Brożek",
+    "reprezentacja": "Polska",
+    "kluby": ["Wisła Kraków", "Trabzonspor", "GKS Katowice", "Recreativo Huelva", "Celtic Glasgow"]
+  },
+  {
+    "id": 240,
+    "zawodnik": "Patryk Klimala",
+    "reprezentacja": "Polska",
+    "kluby": ["New York Red Bulls", "Jagiellonia Białystok", "Celtic Glasgow", "Wigry Suwałki", "Hapoel Beer Sheva"]
+  },
+  {
+    "id": 241,
+    "zawodnik": "Łukasz Załuska.",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Pogoń Szczecin",
+      "Dundee United FC",
+      "Celtic Glasgow",
+      "Miedź Legnica",
+      "Wisła Kraków",
+      "Korona Kielce",
+      "Stomil Olsztyn",
+      "SV Darmstadt 98"
+    ]
+  },
+  {
+    "id": 242,
+    "zawodnik": "Pawel Jaroszynski",
+    "reprezentacja": "Polska",
+    "kluby": ["Cracovia", "US Salernitana 1919", "Chievo Verona", "Delfino Pescara 1936"]
+  },
+  {
+    "id": 243,
+    "zawodnik": "Filip Jagiello",
+    "reprezentacja": "Polska",
+    "kluby": ["Zagłębie Lubin", "Brescia Calcio", "Genoa CFC"]
+  },
+  {
+    "id": 244,
+    "zawodnik": "Adam Dźwigała",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "FC St. Pauli",
+      "Wisła Płock",
+      "Jagiellonia Białystok",
+      "Desportivo Aves",
+      "Górnik Łęczna",
+      "Lechia Gdańsk",
+      "Górnik Zabrze"
+    ]
+  },
+  {
+    "id": 245,
+    "zawodnik": "Jakub Piotrowski",
+    "reprezentacja": "Polska",
+    "kluby": ["Ludogorets Razgrad", "Fortuna Düsseldorf", "Pogoń Szczecin", "KRC Genk", "Stomil Olsztyn", "SK Beveren"]
+  },
+  {
+    "id": 246,
+    "zawodnik": "Ireneusz Jeleń",
+    "reprezentacja": "Polska",
+    "kluby": ["AJ Auxerre", "Wisła Płock", "LOSC Lille", "Górnik Zabrze", "Podbeskidzie Bielsko-Biała"]
+  },
+  {
+    "id": 247,
+    "zawodnik": "Dawid Janczyk",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Legia Warszawa",
+      "KSC Lokeren",
+      "CSKA Moskwa",
+      "Beerschot AC",
+      "Sandecja Nowy Sącz",
+      "Korona Kielce",
+      "Piast Gliwice"
+    ]
+  },
+  {
+    "id": 248,
+    "zawodnik": "Jerzy Dudek",
+    "reprezentacja": "Polska",
+    "kluby": ["FC Liverpool", "Feyenoord Rotterdam", "Real Madryt", "GKS Tychy"]
+  },
+  {
+    "id": 249,
+    "zawodnik": "Michal Janota",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Korona Kielce",
+      "Podbeskidzie Bielsko-Biała",
+      "Go Ahead Eagles Deventer",
+      "Arka Gdynia",
+      "Excelsior Rotterdam",
+      "Stal Mielec",
+      "Central Coast Mariners",
+      "Górnik Zabrze",
+      "Feyenoord Rotterdam"
+    ]
+  },
+  {
+    "id": 250,
+    "zawodnik": "Paweł Abott",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Huddersfield Town",
+      "Arka Gdynia",
+      "FC Darlington",
+      "Ruch Chorzów",
+      "Oldham Athletic",
+      "Zawisza Bydgoszcz",
+      "Preston North End",
+      "Charlton Athletic",
+      "Swansea City",
+      "Stomil Olsztyn",
+      "ŁKS Łódź"
+    ]
+  },
+  {
+    "id": 251,
+    "zawodnik": "Marcin Adamski",
+    "reprezentacja": "Polska",
+    "kluby": ["SK Rapid Wiedeń", "Zagłębie Lubin", "ŁKS Łódź", "FC Erzgebirge Aue", "Angers SCO"]
+  },
+  {
+    "id": 252,
+    "zawodnik": "Tomasz Cywka",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Wisła Kraków",
+      "FC Barnsley",
+      "Chrobry Głogów",
+      "Derby County",
+      "Lech Poznań",
+      "FC Blackpool",
+      "AFC Rochdale",
+      "FC Reading",
+      "Oldham Athletic",
+      "Wigan Athletic"
+    ]
+  },
+  {
+    "id": 253,
+    "zawodnik": "Jarosław Fojut",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Pogoń Szczecin",
+      "Śląsk Wrocław",
+      "Dundee United FC",
+      "Tromsø IL",
+      "Luton Town",
+      "Stal Rzeszów",
+      "Wisła Płock",
+      "Bolton Wanderers",
+      "Stockport County"
+    ]
+  },
+  {
+    "id": 254,
+    "zawodnik": "Marek Saganowski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Legia Warszawa",
+      "ŁKS Łódź",
+      "FC Southampton",
+      "Atromitos Ateny",
+      "Vitoria Guimarães SC",
+      "Odra Wodzisław Śląski",
+      "Aalborg BK",
+      "Wisła Płock",
+      "Feyenoord Rotterdam",
+      "ESTAC Troyes",
+      "Hamburger SV"
+    ]
+  },
+  {
+    "id": 255,
+    "zawodnik": "Artur Wichniarek",
+    "reprezentacja": "Polska",
+    "kluby": ["Arminia Bielefeld", "Hertha BSC", "Widzew Łódź", "Lech Poznań"]
+  },
+  {
+    "id": 256,
+    "zawodnik": "Piotr Brozek",
+    "reprezentacja": "Polska",
+    "kluby": ["Wisła Kraków", "Piast Gliwice", "Lechia Gdańsk", "Górnik Zabrze", "Trabzonspor"]
+  },
+  {
+    "id": 257,
+    "zawodnik": "Marcin Zewlakow",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Excelsior Mouscron",
+      "APOEL Nikosia",
+      "Polonia Warszawa",
+      "GKS Bełchatów",
+      "KAA Gent",
+      "KSK Beveren",
+      "FC Metz",
+      "Korona Kielce"
+    ]
+  },
+  {
+    "id": 258,
+    "zawodnik": "Michal Zewlakow",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Olympiakos Pireus",
+      "RSC Anderlecht",
+      "Excelsior Mouscron",
+      "Polonia Warszawa",
+      "Legia Warszawa",
+      "KSK Beveren",
+      "MKE Ankaragücü"
+    ]
+  },
+  {
+    "id": 259,
+    "zawodnik": "Michal Mak",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "GKS Bełchatów",
+      "Lechia Gdańsk",
+      "Górnik Łęczna",
+      "Ruch Radzionków",
+      "Wisła Kraków",
+      "Wieczysta Kraków",
+      "Śląsk Wrocław",
+      "Arminia Bielefeld"
+    ]
+  },
+  {
+    "id": 260,
+    "zawodnik": "Bartosz Slusarski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Lech Poznań",
+      "Dyskobolia Grodzisk Wielkopolski",
+      "Cracovia",
+      "GKS Bełchatów",
+      "UD Leiria",
+      "Miedź Legnica",
+      "Arka Gdynia",
+      "Sheffield Wednesday",
+      "Widzew Łódź",
+      "FC Blackpool",
+      "West Bromwich Albion"
+    ]
+  },
+  {
+    "id": 261,
+    "zawodnik": "Jacek Bak",
+    "reprezentacja": "Polska",
+    "kluby": ["Olympique Lyon", "FK Austria Wiedeń", "RC Lens", "Lech Poznań"]
+  },
+  {
+    "id": 262,
+    "zawodnik": "Tomasz Rząsa",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Feyenoord Rotterdam",
+      "SV Ried",
+      "De Graafschap Doetinchem",
+      "Grasshopper Club Zurych",
+      "SC Heerenveen",
+      "ADO Den Haag",
+      "BSC Young Boys",
+      "FC Lugano",
+      "FK Partizan Belgrad",
+      "Sokol Pniewy"
+    ]
+  },
+  {
+    "id": 263,
+    "zawodnik": "Marcin Wasilewski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "RSC Anderlecht",
+      "Leicester City",
+      "Wisła Płock",
+      "Wisła Kraków",
+      "Śląsk Wrocław",
+      "Amica Wronki",
+      "Lech Poznań"
+    ]
+  },
+  {
+    "id": 264,
+    "zawodnik": "Emmanuel Olisadebe",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Panathinaikos Ateny",
+      "Polonia Warszawa",
+      "Henan FC",
+      "APOP Kinyras Pegias",
+      "AO Xanthi",
+      "Veria NPS",
+      "FC Portsmouth"
+    ]
+  },
+  {
+    "id": 265,
+    "zawodnik": "Ludovic Obraniak",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "LOSC Lille",
+      "FC Metz",
+      "FC Girondins Bordeaux",
+      "AJ Auxerre",
+      "Maccabi Haifa",
+      "Caykur Rizespor",
+      "SV Werder Bremen"
+    ]
+  },
+  {
+    "id": 266,
+    "zawodnik": "Krzysztof Krol",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Podbeskidzie Bielsko-Biała",
+      "Jagiellonia Białystok",
+      "Piast Gliwice",
+      "Chicago Fire FC",
+      "CF Montréal",
+      "AEL Kalloni",
+      "FC Sheriff Tyraspol",
+      "Polonia Bytom",
+      "Montreal Impact Reserves",
+      "Dyskobolia Grodzisk Wielkopolski"
+    ]
+  },
+  {
+    "id": 267,
+    "zawodnik": "Radoslaw Matusiak",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "GKS Bełchatów",
+      "Cracovia",
+      "Widzew Łódź",
+      "Wisła Płock",
+      "SC Heerenveen",
+      "Szczakowianka Jaworzno",
+      "Wisła Kraków",
+      "ŁKS Łódź",
+      "Asteras Tripolis",
+      "Palermo FC"
+    ]
+  },
+  {
+    "id": 268,
+    "zawodnik": "Timo Werner",
+    "reprezentacja": "Niemcy",
+    "kluby": ["RasenBallsport Leipzig", "VfB Stuttgart", "Chelsea FC"]
+  },
+  {
+    "id": 269,
+    "zawodnik": "André Silva",
+    "reprezentacja": "Portugalia",
+    "kluby": ["RasenBallsport Leipzig", "Eintracht Frankfurt", "FC Porto", "AC Milan", "Sevilla FC"]
+  },
+  {
+    "id": 270,
+    "zawodnik": "Maciej Jankowski",
+    "reprezentacja": "Polska",
+    "kluby": ["Ruch Chorzów", "Arka Gdynia", "Piast Gliwice", "Wisła Kraków", "Stal Mielec", "Wieczysta Kraków"]
+  },
+  {
+    "id": 271,
+    "zawodnik": "Karol Fila",
+    "reprezentacja": "Polska",
+    "kluby": ["Lechia Gdańsk", "RC Strasbourg Alsace", "Chojniczanka Chojnice", "SV Zulte Waregem"]
+  },
+  {
+    "id": 272,
+    "zawodnik": "Rafal Straczek",
+    "reprezentacja": "Polska",
+    "kluby": ["Stal Mielec", "JKS 1909 Jarosław", "Wólczanka Wólka Pełkińska", "FC Girondins Bordeaux", "Motor Lublin"]
+  },
+  {
+    "id": 273,
+    "zawodnik": "Lukasz Poreba",
+    "reprezentacja": "Polska",
+    "kluby": ["Zagłębie Lubin", "RC Lens"]
+  },
+  {
+    "id": 274,
+    "zawodnik": "Pawel Bochniewicz",
+    "reprezentacja": "Polska",
+    "kluby": ["Górnik Zabrze", "SC Heerenveen", "Recreativo Granada", "Reggina 1914", "Udinese Calcio"]
+  },
+  {
+    "id": 275,
+    "zawodnik": "Neymar",
+    "reprezentacja": "Brazylia",
+    "kluby": ["FC Barcelona", "FC Paris Saint-Germain", "Santos FC"]
+  },
+  {
+    "id": 276,
+    "zawodnik": "Kylian Mbappé",
+    "reprezentacja": "Francja",
+    "kluby": ["FC Paris Saint-Germain", "AS Monaco"]
+  },
+  {
+    "id": 277,
+    "zawodnik": "Achraf Hakimi",
+    "reprezentacja": "Maroko",
+    "kluby": ["FC Paris Saint-Germain", "Borussia Dortmund", "Inter Mediolan", "Real Madryt"]
+  },
+  {
+    "id": 278,
+    "zawodnik": "Edinson Cavani",
+    "reprezentacja": "Urugwaj",
+    "kluby": ["FC Paris Saint-Germain", "SSC Napoli", "Palermo FC", "Manchester United", "Valencia CF"]
+  },
+  {
+    "id": 279,
+    "zawodnik": "Ángel Di María",
+    "reprezentacja": "Argentyna",
+    "kluby": [
+      "FC Paris Saint-Germain",
+      "Real Madryt",
+      "Benfika Lizbona",
+      "Juventus Turyn",
+      "CA Rosario Central",
+      "Manchester United"
+    ]
+  },
+  {
+    "id": 280,
+    "zawodnik": "Mauro Icardi",
+    "reprezentacja": "Argentyna",
+    "kluby": ["Inter Mediolan", "FC Paris Saint-Germain", "UC Sampdoria", "Galatasaray"]
+  },
+  {
+    "id": 281,
+    "zawodnik": "David Luiz",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Chelsea FC", "Benfika Lizbon", "FC Paris Saint-Germain", "Flamengo Rio de Janeiro", "FC Arsenal"]
+  },
+  {
+    "id": 282,
+    "zawodnik": "Thiago Silva",
+    "reprezentacja": "Brazylia",
+    "kluby": ["FC Paris Saint-Germain", "AC Milan", "Chelsea FC", "Fluminense Football Club"]
+  },
+  {
+    "id": 283,
+    "zawodnik": "Javier Pastore",
+    "reprezentacja": "Argentyna",
+    "kluby": ["FC Paris Saint-Germain", "Palermo FC", "AS Roma", "CA Huracán", "Elche CF", "Qatar SC"]
+  },
+  {
+    "id": 284,
+    "zawodnik": "Nicolas Anelka",
+    "reprezentacja": "Francja",
+    "kluby": [
+      "Chelsea FC",
+      "Manchester City",
+      "FC Arsenal",
+      "FC Paris Saint-Germain",
+      "Bolton Wanderers",
+      "Fenerbahce",
+      "Real Madryt",
+      "Shanghai Shenhua",
+      "FC Liverpool",
+      "West Bromwich Albion",
+      "Juventus Turyn"
+    ]
+  },
+  {
+    "id": 285,
+    "zawodnik": "Renato Sanches",
+    "reprezentacja": "Portugalia",
+    "kluby": ["LOSC Lille", "Bayern Monachium", "Benfika Lizbona", "FC Paris Saint-Germain", "Swansea City"]
+  },
+  {
+    "id": 286,
+    "zawodnik": "Fabián Ruiz",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["SSC Napoli", "Real Betis Balompié", "FC Paris Saint-Germain", "Betis Deportivo Balompié", "Elche CF"]
+  },
+  {
+    "id": 287,
+    "zawodnik": "Malang Sarr",
+    "reprezentacja": "Francja",
+    "kluby": ["OGC Nice", "Chelsea FC", "FC Porto", "AS Monaco"]
+  },
+  {
+    "id": 288,
+    "zawodnik": "Ruben Aguilar",
+    "reprezentacja": "Francja",
+    "kluby": ["AS Monaco", "AJ Auxerre", "Montpellier HSC", "AS Saint-Étienne"]
+  },
+  {
+    "id": 289,
+    "zawodnik": "Youssouf Fofana",
+    "reprezentacja": "Francja",
+    "kluby": ["AS Monaco", "RC Strasbourg Alsace"]
+  },
+  {
+    "id": 290,
+    "zawodnik": "Wissam Ben Yedder",
+    "reprezentacja": "Francja",
+    "kluby": ["FC Toulouse", "AS Monaco", "Sevilla FC"]
+  },
+  {
+    "id": 291,
+    "zawodnik": "Gelson Martins",
+    "reprezentacja": "Portugalia",
+    "kluby": ["Sporting CP", "AS Monaco", "Atlético Madryt"]
+  },
+  {
+    "id": 292,
+    "zawodnik": "Edouard Mendy",
+    "reprezentacja": "Senegal",
+    "kluby": ["Chelsea FC", "Stade Reims", "Stade Rennais FC", "AS Cherbourg"]
+  },
+  {
+    "id": 293,
+    "zawodnik": "Eric Bailly",
+    "reprezentacja": "Wybrzeże Kości Słoniowej",
+    "kluby": ["Manchester United", "Villarreal CF", "Olympique Marseille", "RCD Espanyol"]
+  },
+  {
+    "id": 294,
+    "zawodnik": "Aurélien Tchouaméni",
+    "reprezentacja": "Francja",
+    "kluby": ["AS Monaco", "Real Madryt", "FC Girondins Bordeaux"]
+  },
+  {
+    "id": 295,
+    "zawodnik": "Antonio Rüdiger",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Chelsea FC", "VfB Stuttgart", "AS Roma", "Real Madryt"]
+  },
+  {
+    "id": 296,
+    "zawodnik": "Reinier",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Borussia Dortmund", "Girona FC", "Flamengo Rio de Janeiro", "Real Madryt"]
+  },
+  {
+    "id": 297,
+    "zawodnik": "Andreas Christensen",
+    "reprezentacja": "Dania",
+    "kluby": ["Chelsea FC", "Borussia Mönchengladbach", "FC Barcelona"]
+  },
+  {
+    "id": 298,
+    "zawodnik": "Philippe Coutinho",
+    "reprezentacja": "Brazylia",
+    "kluby": [
+      "FC Liverpool",
+      "Inter Mediolan",
+      "FC Barcelona",
+      "Aston Villa",
+      "Bayern Monachium",
+      "Clube de Regatas Vasco da Gama",
+      "RCD Espanyol"
+    ]
+  },
+  {
+    "id": 299,
+    "zawodnik": "Marcos Alonso",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Chelsea FC", "AC Fiorentina", "Bolton Wanderers", "FC Barcelona", "AFC Sunderland", "Real Madryt"]
+  },
+  {
+    "id": 300,
+    "zawodnik": "Jules Koundé",
+    "reprezentacja": "Francja",
+    "kluby": ["Sevilla FC", "FC Girondins Bordeaux", "FC Barcelona"]
+  },
+  {
+    "id": 301,
+    "zawodnik": "Miralem Pjanic",
+    "reprezentacja": "Bośnia i Hercegowina",
+    "kluby": ["AS Roma", "Juventus Turyn", "Olympique Lyon", "FC Metz", "FC Barcelona", "Besiktas JK"]
+  },
+  {
+    "id": 302,
+    "zawodnik": "Dimitri Payet",
+    "reprezentacja": "Fancja",
+    "kluby": ["Olympique Marseille", "AS Saint-Étienne", "LOSC Lille", "FC Nantes"]
+  },
+  {
+    "id": 303,
+    "zawodnik": "Florian Thauvin",
+    "reprezentacja": "Francja",
+    "kluby": [
+      "Olympique Marseille",
+      "SC Bastia",
+      "Tigres UANL",
+      "Udinese Calcio",
+      "Newcastle United",
+      "Grenoble Foot 38"
+    ]
+  },
+  {
+    "id": 304,
+    "zawodnik": "Michy Batshuayi",
+    "reprezentacja": "Belgia",
+    "kluby": [
+      "Standard Liège",
+      "Olympique Marseille",
+      "Chelsea FC",
+      "Besiktas JK",
+      "Crystal Palace",
+      "Fenerbahce",
+      "Valencia CF",
+      "Borussia Dortmund"
+    ]
+  },
+  {
+    "id": 305,
+    "zawodnik": "César Azpilicueta",
+    "reprezentacja": "Hispzania",
+    "kluby": ["Chelsea FC", "CA Osasuna", "Olympique Marseille"]
+  },
+  {
+    "id": 306,
+    "zawodnik": "Kasper Schmeichel",
+    "reprezentacja": "Dania",
+    "kluby": [
+      "Leicester City",
+      "Notts County",
+      "OGC Nice",
+      "Leeds United",
+      "FC Bury",
+      "Cardiff City",
+      "Manchester City"
+    ]
+  },
+  {
+    "id": 307,
+    "zawodnik": "Marcin Bulka",
+    "reprezentacja": "Polska",
+    "kluby": ["OGC Nice", "LB Châteauroux", "FC Cartagena", "FC Paris Saint-Germain"]
+  },
+  {
+    "id": 308,
+    "zawodnik": "Nicolas Pépé",
+    "reprezentacja": "Wybrzeże kości słoniowej",
+    "kluby": ["FC Arsenal", "LOSC Lille", "Angers SCO", "US Orléans", "OGC Nice"]
+  },
+  {
+    "id": 309,
+    "zawodnik": "Aaron Ramsey",
+    "reprezentacja": "Walia",
+    "kluby": ["FC Arsenal", "Juventus Turyn", "OGC Nice", "Cardiff City", "Glasgow Rangers", "Nottingham Forest"]
+  },
+  {
+    "id": 310,
+    "zawodnik": "Alexandre Lacazette",
+    "reprezentacja": "Francja",
+    "kluby": ["Olympique Lyon", "FC Arsenal"]
+  },
+  {
+    "id": 311,
+    "zawodnik": "Corentin Tolisso",
+    "reprezentacja": "Francja",
+    "kluby": ["Olympique Lyon", "Bayern Monachium"]
+  },
+  {
+    "id": 312,
+    "zawodnik": "Nicolás Tagliafico",
+    "reprezentacja": "Argentyna",
+    "kluby": ["Ajax Amsterdam", "CA Independiente", "Olympique Lyon", "Real Murcia CF"]
+  },
+  {
+    "id": 313,
+    "zawodnik": "Jérôme Boateng",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Bayern Monachium", "Hamburger SV", "Olympique Lyon", "Manchester City", "Hertha BSC"]
+  },
+  {
+    "id": 314,
+    "zawodnik": "Moussa Dembélé",
+    "reprezentacja": "Francja",
+    "kluby": ["Olympique Lyon", "Celtic Glasgow", "FC Fulham", "Atlético Madryt"]
+  },
+  {
+    "id": 315,
+    "zawodnik": "Piotr Swierczewski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "SC Bastia",
+      "Lech Poznań",
+      "AS Saint-Étienne",
+      "Dyskobolia Grodzisk Wielkopolski",
+      "Olympique Marseille",
+      "ŁKS Łódź",
+      "Zagłębie Lubin",
+      "GKS Katowice",
+      "Korona Kielce",
+      "Polonia Warszawa",
+      "Birmingham City"
+    ]
+  },
+  {
+    "id": 316,
+    "zawodnik": "Dariusz Dudka",
+    "reprezentacja": "Polska",
+    "kluby": ["Wisła Kraków", "AJ Auxerre", "Amica Wronki", "Lech Poznań", "Levante UD", "Birmingham City"]
+  },
+  {
+    "id": 317,
+    "zawodnik": "Tomasz Klos",
+    "reprezentacja": "Polska",
+    "kluby": ["ŁKS Łódź", "Wisła Kraków", "AJ Auxerre", "1.FC Kaiserslautern", "1.FC Köln"]
+  },
+  {
+    "id": 318,
+    "zawodnik": "Roman Kosecki",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Atlético Madryt",
+      "Chicago Fire FC",
+      "Galatasaray",
+      "FC Nantes",
+      "Montpellier HSC",
+      "CA Osasuna",
+      "Legia Warszawa"
+    ]
+  },
+  {
+    "id": 319,
+    "zawodnik": "Tomasz Frankowski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Wisła Kraków",
+      "Jagiellonia Białystok",
+      "RC Strasbourg Alsace",
+      "FC Martigues",
+      "CD Tenerife",
+      "Wolverhampton Wanderers",
+      "Chicago Fire FC",
+      "Nagoya Grampus",
+      "Elche CF"
+    ]
+  },
+  {
+    "id": 320,
+    "zawodnik": "Mariusz Stepinski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Chievo Verona",
+      "Aris Limassol",
+      "Ruch Chorzów",
+      "Widzew Łódź",
+      "US Lecce",
+      "FC Nantes",
+      "Wisła Kraków",
+      "Hellas Verona"
+    ]
+  },
+  {
+    "id": 321,
+    "zawodnik": "Marcin Kuzba",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "FC Lausanne-Sport",
+      "Górnik Zabrze",
+      "Wisła Kraków",
+      "AS Saint-Étienne",
+      "Olympiakos Pireus",
+      "AJ Auxerre"
+    ]
+  },
+  {
+    "id": 322,
+    "zawodnik": "Andrzej Szarmach",
+    "reprezentacja": "Polska",
+    "kluby": ["AJ Auxerre", "Górnik Zabrze", "Stal Mielec", "EA Guingamp"]
+  },
+  {
+    "id": 323,
+    "zawodnik": "Ismaily",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Szachtar Donieck", "SC Ollanęs", "LOSC Lille", "GD Estoril Praia", "SC Braga"]
+  },
+  {
+    "id": 324,
+    "zawodnik": "Adam Ounas",
+    "reprezentacja": "Algieria",
+    "kluby": ["SSC Napoli", "FC Girondins Bordeaux", "LOSC Lille", "OGC Nice", "FC Crotone", "Cagliari Calcio"]
+  },
+  {
+    "id": 325,
+    "zawodnik": "Adam Buksa",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "New England Revolution",
+      "Pogoń Szczecin",
+      "Zagłębie Lubin",
+      "Lechia Gdańsk",
+      "Novara Primavera",
+      "RC Lens"
+    ]
+  },
+  {
+    "id": 326,
+    "zawodnik": "Jean Onana",
+    "reprezentacja": "Kamerun",
+    "kluby": ["Royal Excel Mouscron", "FC Girondins Bordeaux", "RC Lens", "LOSC Lille"]
+  },
+  {
+    "id": 327,
+    "zawodnik": "Brice Samba",
+    "reprezentacja": "Francja",
+    "kluby": ["SM Caen", "Nottingham Forest", "RC Lens", "AS Nancy-Lorraine", "Olympique Marseille", "AC Le Havre"]
+  },
+  {
+    "id": 328,
+    "zawodnik": "Mateusz Lis",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Wisła Kraków",
+      "Altay SK",
+      "Raków Częstochowa",
+      "ESTAC Troyes",
+      "Miedź Legnica",
+      "Podbeskidzie Bielsko-Biała"
+    ]
+  },
+  {
+    "id": 329,
+    "zawodnik": "Michal Karbownik",
+    "reprezentacja": "Polska",
+    "kluby": ["Legia Warszawa", "Fortuna Düsseldorf", "Olympiakos Pireus", "Brighton & Hove Albion"]
+  },
+  {
+    "id": 330,
+    "zawodnik": "Sebastian Szymanski",
+    "reprezentacja": "Polska",
+    "kluby": ["Legia Warszawa", "Dynamo Moskwa", "Feyenoord Rotterdam"]
+  },
+  {
+    "id": 331,
+    "zawodnik": "Ondrej Duda",
+    "reprezentacja": "Polska",
+    "kluby": ["Legia Warszawa", "1.FC Köln", "Hertha BSC", "FC VSS Kosice", "Hellas Verona", "Norwich City"]
+  },
+  {
+    "id": 332,
+    "zawodnik": "Jaroslaw Niezgoda",
+    "reprezentacja": "Polska",
+    "kluby": ["Portland Timbers", "Wisła Puławy", "Legia Warszawa", "Ruch Chorzów"]
+  },
+  {
+    "id": 333,
+    "zawodnik": "Wojciech Kowalczyk",
+    "reprezentacja": "Polska",
+    "kluby": ["Real Betis Balompié", "Legia Warszawa", "UD Las Palmas", "Anorthosis Famagusta", "APOEL Nikosia"]
+  },
+  {
+    "id": 334,
+    "zawodnik": "Marcin Komorowski",
+    "reprezentacja": "Polska",
+    "kluby": ["Akhmat Grozny", "Legia Warszawa", "Polonia Bytom", "ŁKS Łódź", "Zagłębie Sosnowiec", "GKS Bełchatów"]
+  },
+  {
+    "id": 335,
+    "zawodnik": "Bartosz Karwan",
+    "reprezentacja": "Polska",
+    "kluby": ["Legia Warszawa", "GKS Katowice", "Arka Gdynia", "Hertha BSC"]
+  },
+  {
+    "id": 336,
+    "zawodnik": "Roger Guerreiro",
+    "reprezentacja": "Polska",
+    "kluby": ["Legia Warszawa", "AEK Ateny", "Sport Club Corinthians Paulista", "Aris Limassol", "Celta de Vigo"]
+  },
+  {
+    "id": 337,
+    "zawodnik": "Maciej Iwanski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Zagłębie Lubin",
+      "Legia Warszawa",
+      "Manisaspor",
+      "Podbeskidzie Bielsko-Biała",
+      "Szczakowianka Jaworzno",
+      "Ruch Chorzów",
+      "ŁKS Łódź"
+    ]
+  },
+  {
+    "id": 338,
+    "zawodnik": "Jakub Kosecki",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Legia Warszawa",
+      "Adana Demirspor",
+      "SV Sandhausen",
+      "Śląsk Wrocław",
+      "ŁKS Łódź",
+      "Motor Lublin",
+      "Lechia Gdańsk",
+      "Cracovia"
+    ]
+  },
+  {
+    "id": 339,
+    "zawodnik": "Maciej Korzym",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Korona Kielce",
+      "Sandecja Nowy Sącz",
+      "Odra Wodzisław Śląski",
+      "Legia Warszawa",
+      "Podbeskidzie Bielsko-Biała",
+      "GKS Bełchatów",
+      "Górnik Zabrze"
+    ]
+  },
+  {
+    "id": 340,
+    "zawodnik": "Adam Fraczczak",
+    "reprezentacja": "Polska",
+    "kluby": ["Pogoń Szczecin", "Korona Kielce", "Ząbkovia Ząbki", "Kotwica Kołobrzeg"]
+  },
+  {
+    "id": 341,
+    "zawodnik": "Piotr Reiss",
+    "reprezentacja": "Polska",
+    "kluby": ["Lech Poznań", "Warta Poznań", "MSV Duisburg", "Hertha BSC", "SpVgg Greuther Fürth"]
+  },
+  {
+    "id": 342,
+    "zawodnik": "Bartosz Bosacki",
+    "reprezentacja": "Polska",
+    "kluby": ["Lech Poznań", "Amica Wronki", "1.FC Nürnberg"]
+  },
+  {
+    "id": 343,
+    "zawodnik": "Miroslaw Szymkowiak",
+    "reprezentacja": "Polska",
+    "kluby": ["Widzew Łódź", "Wisła Kraków", "Trabzonspor"]
+  },
+  {
+    "id": 344,
+    "zawodnik": "Patryk Malecki",
+    "reprezentacja": "Polska",
+    "kluby": ["Wisła Kraków", "Zagłębie Sosnowiec", "Stal Rzeszów", "Pogoń Szczecin", "Spartak Trnava", "Eskisehirspor"]
+  },
+  {
+    "id": 345,
+    "zawodnik": "Kamil Kosowski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Wisła Kraków",
+      "Górnik Zabrze",
+      "1.FC Kaiserslautern",
+      "APOEL Nikosia",
+      "GKS Bełchatów",
+      "Chievo Verona",
+      "Apollon Limassol",
+      "FC Southampton",
+      "Cádiz CF"
+    ]
+  },
+  {
+    "id": 346,
+    "zawodnik": "Adam Kokoszka",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Śląsk Wrocław",
+      "FC Empoli",
+      "Polonia Warszawa",
+      "Wisła Kraków",
+      "Torpedo Moskau",
+      "Unia Tarnów",
+      "Zagłębie Sosnowiec"
+    ]
+  },
+  {
+    "id": 347,
+    "zawodnik": "Lukas Klemenz",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Wisła Kraków",
+      "GKS Katowice",
+      "GKS Bełchatów",
+      "Korona Kielce",
+      "Olimpia Grudziądz",
+      "Jagiellonia Białystok"
+    ]
+  },
+  {
+    "id": 348,
+    "zawodnik": "Andrzej Niedzielan",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "NEC Nijmegen",
+      "Ruch Chorzów",
+      "Wisła Kraków",
+      "Korona Kielce",
+      "Dyskobolia Grodzisk Wielkopolski",
+      "Górnik Zabrze",
+      "Zagłębie Lubin",
+      "Cracovia"
+    ]
+  },
+  {
+    "id": 349,
+    "zawodnik": "Adrian Mierzejewski",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Trabzonspor",
+      "Wisła Płock",
+      "Polonia Warszawa",
+      "Al-Nassr FC",
+      "Chongqing Liangjiang Athletic",
+      "Sydney FC"
+    ]
+  },
+  {
+    "id": 350,
+    "zawodnik": "Zbigniew Boniek",
+    "reprezentacja": "Polska",
+    "kluby": ["Juventus Turyn", "AS Roma", "Widzew Łódź"]
+  },
+  {
+    "id": 351,
+    "zawodnik": "Wojciech Golla",
+    "reprezentacja": "Polska",
+    "kluby": ["NEC Nijmegen", "Śląsk Wrocław", "Pogoń Szczecin"]
+  },
+  {
+    "id": 352,
+    "zawodnik": "Filip Bednarek",
+    "reprezentacja": "Polska",
+    "kluby": ["Lech Poznań", "De Graafschap Doetinchem", "SC Heerenveen", "FC Twente Enschede"]
+  },
+  {
+    "id": 353,
+    "zawodnik": "Arkadiusz Radomski",
+    "reprezentacja": "Polska",
+    "kluby": ["SC Heerenveen", "FK Austria Wiedeń", "NEC Nijmegen", "Cracovia"]
+  },
+  {
+    "id": 354,
+    "zawodnik": "Tomasz Iwan",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "FC Admira Wacker Mödling",
+      "PSV Eindhoven",
+      "Feyenoord Rotterdam",
+      "Roda JC Kerkrade",
+      "Lech Poznań",
+      "FK Austria Wiedeń"
+    ]
+  },
+  {
+    "id": 355,
+    "zawodnik": "Włodzimierz Smolarek",
+    "reprezentacja": "Polska",
+    "kluby": ["FC Utrecht", "Eintracht Frankfurt", "Feyenoord Rotterdam", "Widzew Łódź"]
+  },
+  {
+    "id": 356,
+    "zawodnik": "Pawel Kieszek",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Córdoba CF",
+      "Rió Ave FC",
+      "Vitoria Setúbal FC",
+      "GD Estoril Praia",
+      "Roda JC Kerkrade",
+      "Polonia Warszawa",
+      "SC Braga",
+      "Wisła Kraków",
+      "Málaga CF",
+      "FC Porto"
+    ]
+  },
+  {
+    "id": 357,
+    "zawodnik": "Jan Urban",
+    "reprezentacja": "Polska",
+    "kluby": ["CA Osasuna", "Górnik Zabrze", "VfB Oldenburg", "Real Valladolid CF"]
+  },
+  {
+    "id": 358,
+    "zawodnik": "Cezary Wilk",
+    "reprezentacja": "Polska",
+    "kluby": ["Wisła Kraków", "Korona Kielce", "Deportivo de La Coruña", "ŁKS Łódź", "Real Zaragoza"]
+  },
+  {
+    "id": 359,
+    "zawodnik": "Lumir Sedlacek",
+    "reprezentacja": "Czechy",
+    "kluby": [
+      "Slezsky FC Opava",
+      "SK Slavia Praga",
+      "Wisła Płock",
+      "Dyskobolia Grodzisk Wielkopolski",
+      "Polonia Warszawa",
+      "SK Dynamo Czeskie Budziejowice",
+      "Piast Gliwice",
+      "FC Hradec Kralove"
+    ]
+  },
+  {
+    "id": 360,
+    "zawodnik": "Alberto Cifuentes",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Cádiz CF", "Real Murcia CF", "Piast Gliwice", "Rayo Vallecano"]
+  },
+  {
+    "id": 361,
+    "zawodnik": "Collins John",
+    "reprezentacja": "Holandia",
+    "kluby": [
+      "FC Fulham",
+      "FC Twente Enschede",
+      "Chicago Fire FC",
+      "Pittsburgh Riverhounds SC",
+      "Leicester City",
+      "NEC Nijmegen",
+      "FC Watford",
+      "FK Qabala",
+      "Piast Gliwice"
+    ]
+  },
+  {
+    "id": 362,
+    "zawodnik": "Rubén Jurado",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Piast Gliwice", "Atlético Baleares", "AEL Limassol", "Arka Gdynia"]
+  },
+  {
+    "id": 363,
+    "zawodnik": "Mikkel Kirkeskov",
+    "reprezentacja": "Dania",
+    "kluby": ["Aarhus GF", "Aalesunds FK", "Piast Gliwice", "Holstein Kiel", "Odense Boldklub"]
+  },
+  {
+    "id": 364,
+    "zawodnik": "Wilde-Donald Guerrier",
+    "reprezentacja": "Haiti",
+    "kluby": ["Qarabağ FK", "Wisła Kraków", "Alanyaspor", "Olympiakos Nikosia", "Neftchi Baku", "Apollon Limassol"]
+  },
+  {
+    "id": 365,
+    "zawodnik": "Kalu Uche",
+    "reprezentacja": "Nigeria",
+    "kluby": ["UD Almería", "Wisła Kraków", "FC Girondins Bordeaux", "Kasimpasa", "Levante UD", "RCD Espanyol"]
+  },
+  {
+    "id": 366,
+    "zawodnik": "Petar Brlek",
+    "reprezentacja": "Chorwacja",
+    "kluby": ["Slaven Belupo Koprivnica", "Wisła Kraków", "Genoa CFC"]
+  },
+  {
+    "id": 367,
+    "zawodnik": "Marcelo",
+    "reprezentacja": "Brazylia",
+    "kluby": [
+      "Olympique Lyon",
+      "PSV Eindhoven",
+      "Hannover 96",
+      "Besiktas JK",
+      "Wisła Kraków",
+      "Santos FC",
+      "FC Girondins Bordeaux"
+    ]
+  },
+  {
+    "id": 368,
+    "zawodnik": "Pedro Tiba",
+    "reprezentacja": "Portugalia",
+    "kluby": ["Lech Poznań", "SC Braga", "GD Chaves", "Gil Vicente FC", "Real Valladolid CF"]
+  },
+  {
+    "id": 369,
+    "zawodnik": "Gergő Lovrencsics",
+    "reprezentacja": "Wegry",
+    "kluby": ["Ferencvárosi TC", "Lech Poznań", "HNK Hajduk Split"]
+  },
+  {
+    "id": 370,
+    "zawodnik": "Paulus Arajuuri",
+    "reprezentacja": "Finlandia",
+    "kluby": ["Bröndby IF", "Lech Poznań", "Kalmar FF", "HJK Helsinki"]
+  },
+  {
+    "id": 371,
+    "zawodnik": "Barry Douglas",
+    "reprezentacja": "Szkocja",
+    "kluby": [
+      "Lech Poznań",
+      "Dundee United FC",
+      "Konyaspor",
+      "Leeds United",
+      "Wolverhampton Wanderers",
+      "Blackburn Rovers",
+      "Queen's Park FC"
+    ]
+  },
+  {
+    "id": 372,
+    "zawodnik": "Joel Tshibamba",
+    "reprezentacja": "Demokratyczna Republika Kongo",
+    "kluby": ["AE Larisa", "Lech Poznań", "NEC Nijmegen", "Arka Gdynia", "FC Koper"]
+  },
+  {
+    "id": 373,
+    "zawodnik": "Darko Jevtic",
+    "reprezentacja": "Szwajcaria",
+    "kluby": ["Lech Poznań", "Rubin Kazań", "AEK Ateny"]
+  },
+  {
+    "id": 374,
+    "zawodnik": "Sergey Krivets",
+    "reprezentacja": "Białoruś",
+    "kluby": ["BATE Borysów", "Lech Poznań", "Dynamo Brest", "FC Metz", "Wisła Płock", "Arka Gdynia"]
+  },
+  {
+    "id": 375,
+    "zawodnik": "Abdul-Aziz Tetteh",
+    "reprezentacja": "Ghana",
+    "kluby": ["Lech Poznań", "AO Platanias", "Dynamo Moskwa", "CD Leganés", "Widzew Łódź", "Gaziantep FK", "Granada CF"]
+  },
+  {
+    "id": 376,
+    "zawodnik": "Tamás Kádár",
+    "reprezentacja": "Wegry",
+    "kluby": ["Dynamo Kijów", "Lech Poznań", "Newcastle United", "Huddersfield Town"]
+  },
+  {
+    "id": 377,
+    "zawodnik": "Aleksandar Tonev",
+    "reprezentacja": "Bułgaria",
+    "kluby": ["Lech Poznań", "CSKA-Sofia", "FC Crotone", "Frosinone Calcio", "Aston Villa", "Celtic Glasgow"]
+  },
+  {
+    "id": 378,
+    "zawodnik": "Artjoms Rudnevs",
+    "reprezentacja": "Łotwa",
+    "kluby": ["Hamburger SV", "Lech Poznań", "1.FC Köln", "Hannover 96"]
+  },
+  {
+    "id": 379,
+    "zawodnik": "Steeven Langil",
+    "reprezentacja": "Martynika",
+    "kluby": ["Ratchaburi FC", "AJ Auxerre", "SK Beveren", "NEC Nijmegen", "Legia Warszawa"]
+  },
+  {
+    "id": 380,
+    "zawodnik": "Henrik Ojamaa",
+    "reprezentacja": "Estonia",
+    "kluby": ["FC Flora Tallinn", "Motherwell FC", "Legia Warszawa", "Miedź Legnica", "Widzew Łódź", "HNK Gorica"]
+  },
+  {
+    "id": 381,
+    "zawodnik": "André Martins",
+    "reprezentacja": "Portugalia",
+    "kluby": ["Legia Warszawa", "Sporting CP", "Olympiakos Pireus", "Hapoel Beer Sheva", "CF Os Belenenses"]
+  },
+  {
+    "id": 382,
+    "zawodnik": "Aleksandar Vukovic",
+    "reprezentacja": "Serbia",
+    "kluby": ["Legia Warszawa", "Korona Kielce", "Iraklis Saloniki", "GS Ergotelis", "FK Partizan Belgrad"]
+  },
+  {
+    "id": 383,
+    "zawodnik": "Danijel Ljuboja",
+    "reprezentacja": "Serbia",
+    "kluby": [
+      "RC Strasbourg Alsace",
+      "Legia Warszawa",
+      "FC Sochaux-Montbéliard",
+      "FC Paris Saint-Germain",
+      "Grenoble Foot 38",
+      "VfB Stuttgart",
+      "OGC Nice",
+      "RC Lens",
+      "Hamburger SV",
+      "VfL Wolfsburg"
+    ]
+  },
+  {
+    "id": 384,
+    "zawodnik": "Vladimer Dvalishvili",
+    "reprezentacja": "Gruzja",
+    "kluby": [
+      "Maccabi Haifa",
+      "Legia Warszawa",
+      "Skonto Riga",
+      "FK Atyrau",
+      "Polonia Warszawa",
+      "Pogoń Szczecin",
+      "FC Saburtalo",
+      "Dinamo Batumi",
+      "Dinamo Tbilisi",
+      "Odense Boldklub"
+    ]
+  },
+  {
+    "id": 385,
+    "zawodnik": "Adam Hlousek",
+    "reprezentacja": "Czechy",
+    "kluby": [
+      "Legia Warszawa",
+      "FK Jablonec",
+      "1.FC Kaiserslautern",
+      "SK Slavia Praga",
+      "1.FC Nürnberg",
+      "VfB Stuttgart",
+      "FC Viktoria Pilzno",
+      "Bruk-Bet Termalica Nieciecza"
+    ]
+  },
+  {
+    "id": 386,
+    "zawodnik": "Arvydas Novikovas",
+    "reprezentacja": "Litwa",
+    "kluby": ["Jagiellonia Białystok", "Legia Warszawa", "VfL Bochum", "amsunspor"]
+  },
+  {
+    "id": 387,
+    "zawodnik": "Dossa Júnior",
+    "reprezentacja": "Cypr",
+    "kluby": ["AEL Limassol", "Legia Warszawa", "AE Pafos", "Digenis Akritas Morfou", "Eskisehirspor", "Konyaspor"]
+  },
+  {
+    "id": 388,
+    "zawodnik": "Cafú",
+    "reprezentacja": "Portugalia",
+    "kluby": [
+      "Vitoria Guimarães SC",
+      "Legia Warszawa",
+      "Nottingham Forest",
+      "FC Lorient",
+      "Olympiakos Pireus",
+      "FC Metz"
+    ]
+  },
+  {
+    "id": 389,
+    "zawodnik": "Armando Sadiku",
+    "reprezentacja": "Albania",
+    "kluby": [
+      "FC Lugano",
+      "FC Zürich",
+      "FC Locarno",
+      "Málaga CF",
+      "FC Cartagena",
+      "UD Las Palmas",
+      "Legia Warszawa",
+      "FC Vaduz"
+    ]
+  },
+  {
+    "id": 390,
+    "zawodnik": "Thibault Moulin",
+    "reprezentacja": "Francja",
+    "kluby": [
+      "Clermont Foot 63",
+      "Legia Warszawa",
+      "SM Caen",
+      "SK Beveren",
+      "Academica Clinceni",
+      "LB Châteauroux",
+      "MKE Ankaragücü",
+      "Wieczysta Kraków",
+      "PAOK Saloniki"
+    ]
+  },
+  {
+    "id": 391,
+    "zawodnik": "Orlando Sá",
+    "reprezentacja": "Portugalia",
+    "kluby": [
+      "Standard Liège",
+      "AEL Limassol",
+      "Legia Warszawa",
+      "Málaga CF",
+      "FC Reading",
+      "CD Nacional",
+      "Maccabi Tel Aviv",
+      "SC Braga",
+      "FC Fulham",
+      "FC Porto"
+    ]
+  },
+  {
+    "id": 392,
+    "zawodnik": "Vadis Odjidja-Ofoe",
+    "reprezentacja": "Belgia",
+    "kluby": [
+      "FC Brügge",
+      "KAA Gent",
+      "Legia Warszawa",
+      "Olympiakos Pireus",
+      "Norwich City",
+      "RSC Anderlecht",
+      "Hamburger SV"
+    ]
+  },
+  {
+    "id": 393,
+    "zawodnik": "Aleksandar Prijovic",
+    "reprezentacja": "Serbia",
+    "kluby": [
+      "PAOK Saloniki",
+      "Legia Warszawa",
+      "Al-Ittihad Club",
+      "FC Sion",
+      "Western United FC",
+      "Tromsø IL",
+      "Boluspor",
+      "Djurgårdens IF"
+    ]
+  },
+  {
+    "id": 394,
+    "zawodnik": "Josip Juranovic",
+    "reprezentacja": "Chorwacja",
+    "kluby": ["HNK Hajduk Split", "Celtic Glasgow", "Legia Warszawa", "1.FC Union Berlin"]
+  },
+  {
+    "id": 395,
+    "zawodnik": "Nemanja Nikolics",
+    "reprezentacja": "Węgry",
+    "kluby": [
+      "MOL Fehérvár FC",
+      "Chicago Fire FC",
+      "Legia Warszawa",
+      "Kaposvári Rákóczi FC",
+      "AEK Larnaka",
+      "Pendikspor"
+    ]
+  },
+  {
+    "id": 396,
+    "zawodnik": "Saïd Hamulic",
+    "reprezentacja": "Bosnia i Hercegowina",
+    "kluby": ["DFK Dainava Alytus", "Stal Mielec", "FK Suduva Marijampole", "FC Toulouse"]
+  },
+  {
+    "id": 397,
+    "zawodnik": "Vito Mannone",
+    "reprezentacja": "Włochy",
+    "kluby": [
+      "AFC Sunderland",
+      "FC Reading",
+      "Minnesota United FC",
+      "Hull City",
+      "FC Arsenal",
+      "FC Lorient",
+      "Esbjerg fB",
+      "AS Monaco",
+      "FC Barnsley"
+    ]
+  },
+  {
+    "id": 398,
+    "zawodnik": "Julian Pollersbeck",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Hamburger SV", "1.FC Kaiserslautern", "Olympique Lyon"]
+  },
+  {
+    "id": 399,
+    "zawodnik": "Yvon Mvogo",
+    "reprezentacja": "Szwajcaria",
+    "kluby": ["BSC Young Boys", "PSV Eindhoven", "FC Lorient", "RasenBallsport Leipzig"]
+  },
+  {
+    "id": 400,
+    "zawodnik": "Romain Faivre",
+    "reprezentacja": "Francja",
+    "kluby": ["Stade Brestois 29", "FC Lorient", "Olympique Lyon", "AS Monaco"]
+  },
+  {
+    "id": 401,
+    "zawodnik": "Siriné Doucouré",
+    "reprezentacja": "Francja",
+    "kluby": ["FC Lorient", "LB Châteauroux"]
+  },
+  {
+    "id": 402,
+    "zawodnik": "Folarin Balogun",
+    "reprezentacja": "USA",
+    "kluby": ["Stade Reims", "FC Middlesbrough", "FC Arsenal"]
+  },
+  {
+    "id": 403,
+    "zawodnik": "Lucas Perrin",
+    "reprezentacja": "Francja",
+    "kluby": ["RC Strasbourg Alsace", "Olympique Marseille"]
+  },
+  {
+    "id": 404,
+    "zawodnik": "Colin Dagba",
+    "reprezentacja": "Francja",
+    "kluby": ["FC Paris Saint-Germain", "RC Strasbourg Alsace"]
+  },
+  {
+    "id": 405,
+    "zawodnik": "Frédéric Guilbert",
+    "reprezentacja": "Francja",
+    "kluby": ["SM Caen", "RC Strasbourg Alsace", "FC Girondins Bordeaux", "Aston Villa"]
+  },
+  {
+    "id": 406,
+    "zawodnik": "Bingourou Kamara",
+    "reprezentacja": "Senegal",
+    "kluby": ["Tours FC", "RC Strasbourg Alsace", "RSC Charleroi", "Montpellier HSC"]
+  },
+  {
+    "id": 407,
+    "zawodnik": "Kiki Kouyaté",
+    "reprezentacja": "Mali",
+    "kluby": ["FC Metz", "ESTAC Troyes", "Kawkab Marrakech", "Montpellier HSC"]
+  },
+  {
+    "id": 408,
+    "zawodnik": "Florent Mollet",
+    "reprezentacja": "Francja",
+    "kluby": ["Montpellier HSC", "Dijon FCO", "FC Metz", "US Créteil-Lusitanos", "FC Nantes", "FC Schalke 04"]
+  },
+  {
+    "id": 409,
+    "zawodnik": "Moussa Sissoko",
+    "reprezentacja": "Francja",
+    "kluby": ["FC Toulouse", "Tottenham Hotspur", "Newcastle United", "FC Nantes", "FC Watford"]
+  },
+  {
+    "id": 410,
+    "zawodnik": "Memphis Depay",
+    "reprezentacja": "Holandia",
+    "kluby": ["Olympique Lyon", "PSV Eindhoven", "Manchester United", "FC Barcelona", "Atlético Madryt"]
+  },
+  {
+    "id": 411,
+    "zawodnik": "Axel Witsel",
+    "reprezentacja": "Belgia",
+    "kluby": ["Standard Liège", "Zenit Petersburg", "Borussia Dortmund", "Benfika Lizbona", "Atlético Madryt"]
+  },
+  {
+    "id": 412,
+    "zawodnik": "Matt Doherty",
+    "reprezentacja": "Irlandia",
+    "kluby": ["Wolverhampton Wanderers", "Tottenham Hotspur", "FC Bury", "Hibernian FC", "Atlético Madryt"]
+  },
+  {
+    "id": 413,
+    "zawodnik": "Sergio Reguilón",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["UD Logroñés", "Tottenham Hotspur", "Sevilla FC", "Real Madryt", "Atlético Madryt"]
+  },
+  {
+    "id": 414,
+    "zawodnik": "Álvaro Morata",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Juventus Turyn", "Chelsea FC", "Real Madryt", "Atlético Madryt"]
+  },
+  {
+    "id": 415,
+    "zawodnik": "Saúl Ñíguez",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Rayo Vallecano", "Chelsea FC", "Atlético Madryt"]
+  },
+  {
+    "id": 416,
+    "zawodnik": "Isco",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Málaga CF", "Real Madryt", "Sevilla FC", "Valencia CF"]
+  },
+  {
+    "id": 417,
+    "zawodnik": "Alex Telles",
+    "reprezentacja": "Brazylia",
+    "kluby": ["FC Porto", "Galatasaray", "Manchester United", "Grêmio Porto Alegre", "Sevilla FC", "Inter Mediolan"]
+  },
+  {
+    "id": 418,
+    "zawodnik": "Mats Hummels",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Borussia Dortmund", "Bayern Monachium"]
+  },
+  {
+    "id": 419,
+    "zawodnik": "Leroy Sane",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Manchester City", "Bayern Monachium", "FC Schalke 04"]
+  },
+  {
+    "id": 420,
+    "zawodnik": "Serge Gnabry",
+    "reprezentacja": "Niemcy",
+    "kluby": ["SV Werder Bremen", "Bayern Monachium", "TSG 1899 Hoffenheim", "FC Arsenal", "West Bromwich Albion"]
+  },
+  {
+    "id": 421,
+    "zawodnik": "Kingsley Coman",
+    "reprezentacja": "Francja",
+    "kluby": ["Bayern Monachium", "Juventus Turyn", "FC Paris Saint-Germain"]
+  },
+  {
+    "id": 422,
+    "zawodnik": "Matthijs de Ligt",
+    "reprezentacja": "Holandia",
+    "kluby": ["Bayern Monachium", "Juventus Turyn", "Ajax Amsterdam"]
+  },
+  {
+    "id": 423,
+    "zawodnik": "Dayot Upamecano",
+    "reprezentacja": "Francja",
+    "kluby": ["RasenBallsport Leipzig", "Bayern Monachium", "Red Bull Salzburg", "FC Liefering"]
+  },
+  {
+    "id": 424,
+    "zawodnik": "Yann Sommer",
+    "reprezentacja": "Szwajcaria",
+    "kluby": ["Borussia Mönchengladbach", "FC Basel 1893", "FC Vaduz", "Grasshopper Club Zurych", "Bayern Monachium"]
+  },
+  {
+    "id": 425,
+    "zawodnik": "Davie Selke",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Hertha BSC", "SV Werder Bremen", "RasenBallsport Leipzig", "1.FC Köln"]
+  },
+  {
+    "id": 426,
+    "zawodnik": "Nadiem Amiri",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Bayer 04 Leverkusen", "TSG 1899 Hoffenheim", "Genoa CFC"]
+  },
+  {
+    "id": 427,
+    "zawodnik": "Tomasz Hajto",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "FC Schalke 04",
+      "Górnik Zabrze",
+      "MSV Duisburg",
+      "ŁKS Łódź",
+      "FC Southampton",
+      "1.FC Nürnberg",
+      "Derby County"
+    ]
+  },
+  {
+    "id": 428,
+    "zawodnik": "Gonzalo Higuaín",
+    "reprezentacja": "Argentyna",
+    "kluby": [
+      "Real Madryt",
+      "Juventus Turyn",
+      "SSC Napoli",
+      "Inter Miami CF",
+      "CA River Plate",
+      "AC Milan",
+      "Chelsea FC"
+    ]
+  },
+  {
+    "id": 429,
+    "zawodnik": "Zlatan Ibrahimović",
+    "reprezentacja": "Szwecja",
+    "kluby": [
+      "FC Paris Saint-Germain",
+      "AC Milan",
+      "Inter Mediolan",
+      "Ajax Amsterdam",
+      "Juventus Turyn",
+      "Los Angeles Galaxy",
+      "Manchester United",
+      "FC Barcelona",
+      "Malmö FF"
+    ]
+  },
+  {
+    "id": 430,
+    "zawodnik": "Olivier Giroud",
+    "reprezentacja": "Francja",
+    "kluby": [
+      "FC Arsenal",
+      "Chelsea FC",
+      "AC Milan",
+      "Montpellier HSC",
+      "Tours FC",
+      "Istres Football Club",
+      "Grenoble Foot 38"
+    ]
+  },
+  {
+    "id": 431,
+    "zawodnik": "Sergiño Dest",
+    "reprezentacja": "USA",
+    "kluby": ["FC Barcelona", "Ajax Amsterdam", "AC Milan"]
+  },
+  {
+    "id": 432,
+    "zawodnik": "Leonardo Bonucci",
+    "reprezentacja": "Włochy",
+    "kluby": ["Juventus Turyn", "AC Milan", "Treviso FBC 1993", "SSC Bari", "Pisa Sporting Club", "Inter Mediolan"]
+  },
+  {
+    "id": 433,
+    "zawodnik": "Ronaldinho",
+    "reprezentacja": "Brazylia",
+    "kluby": ["FC Barcelona", "AC Milan", "FC Paris Saint-Germain", "Flamengo Rio de Janeiro"]
+  },
+  {
+    "id": 434,
+    "zawodnik": "Mario Balotelli",
+    "reprezentacja": "Włochy",
+    "kluby": [
+      "Inter Mediolan",
+      "AC Milan",
+      "Manchester City",
+      "OGC Nice",
+      "FC Liverpool",
+      "Brescia Calcio",
+      "FC Sion",
+      "Olympique Marseille",
+      "AC Monza"
+    ]
+  },
+  {
+    "id": 435,
+    "zawodnik": "Sadio Mané",
+    "reprezentacja": "Senegal",
+    "kluby": ["FC Liverpool", "Red Bull Salzburg", "FC Southampton", "Bayern Monachium", "FC Metz"]
+  },
+  {
+    "id": 436,
+    "zawodnik": "Gareth Bale",
+    "reprezentacja": "Walia",
+    "kluby": ["Real Madryt", "Tottenham Hotspur", "FC Southampton", "Los Angeles FC"]
+  },
+  {
+    "id": 437,
+    "zawodnik": "Theo Walcott",
+    "reprezentacja": "Anglia",
+    "kluby": ["FC Arsenal", "FC Everton", "FC Southampton"]
+  },
+  {
+    "id": 438,
+    "zawodnik": "Roberto Firmino",
+    "reprezentacja": "Brayzlia",
+    "kluby": ["FC Liverpool", "TSG 1899 Hoffenheim", "Figueirense Futebol Clube"]
+  },
+  {
+    "id": 439,
+    "zawodnik": "Fabián Ruiz",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["SSC Napoli", "Real Betis Balompié", "FC Paris Saint-Germain", "Elche CF"]
+  },
+  {
+    "id": 440,
+    "zawodnik": "Eduardo Vargas",
+    "reprezentacja": "Chile",
+    "kluby": [
+      "Tigres UANL",
+      "Atlético Mineiro",
+      "TSG 1899 Hoffenheim",
+      "SSC Napoli",
+      "Valencia CF",
+      "Queens Park Rangers"
+    ]
+  },
+  {
+    "id": 441,
+    "zawodnik": "Giovani Lo Celso",
+    "reprezentacja": "Argentyna",
+    "kluby": [
+      "Tottenham Hotspur",
+      "FC Paris Saint-Germain",
+      "CA Rosario Central",
+      "Villarreal CF",
+      "Real Betis Balompié"
+    ]
+  },
+  {
+    "id": 442,
+    "zawodnik": "Junior Firpo",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Leeds United", "Real Betis Balompié", "FC Barcelona"]
+  },
+  {
+    "id": 443,
+    "zawodnik": "Dani Ceballos",
+    "reprezentacja": "Hiszpania",
+    "kluby": ["Real Madryt", "Real Betis Balompié", "FC Arsenal"]
+  },
+  {
+    "id": 444,
+    "zawodnik": "Dani Pacheco",
+    "reprezentacja": "Hiszpania",
+    "kluby": [
+      "Getafe CF",
+      "Málaga CF",
+      "Górnik Zabrze",
+      "Deportivo Alavés",
+      "AD Alcorcón",
+      "Real Betis Balompié",
+      "SD Huesca",
+      "FC Liverpool",
+      "Aris Limassol",
+      "Rayo Vallecano",
+      "UD Logroñés",
+      "Norwich City"
+    ]
+  },
+  {
+    "id": 445,
+    "zawodnik": "Erling Haaland",
+    "reprezentacja": "Norwegia",
+    "kluby": ["Borussia Dortmund", "Manchester City", "Molde FK", "Red Bull Salzburg"]
+  },
+  {
+    "id": 446,
+    "zawodnik": "Enzo Fernández",
+    "reprezentacja": "Argentyna",
+    "kluby": ["CA River Plate", "Benfika Lizbona", "Chelsea FC"]
+  },
+  {
+    "id": 447,
+    "zawodnik": "Casemiro",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Real Madryt", "FC Sao Paulo", "Manchester United", "FC Porto"]
+  },
+  {
+    "id": 448,
+    "zawodnik": "Raheem Sterling",
+    "reprezentacja": "Anglia",
+    "kluby": ["Manchester City", "FC Liverpool", "Chelsea FC"]
+  },
+  {
+    "id": 449,
+    "zawodnik": "Romelu Lukaku",
+    "reprezentacja": "Belgia",
+    "kluby": [
+      "FC Everton",
+      "Inter Mediolan",
+      "RSC Anderlecht",
+      "Manchester United",
+      "Chelsea FC",
+      "West Bromwich Albion"
+    ]
+  },
+  {
+    "id": 450,
+    "zawodnik": "Sadio Mané",
+    "reprezentacja": "Senegal",
+    "kluby": ["FC Liverpool", "Red Bull Salzburg", "FC Southampton", "Bayern Monachium", "FC Metz"]
+  },
+  {
+    "id": 451,
+    "zawodnik": "João Cancelo",
+    "reprezentacja": "Portugalia",
+    "kluby": [
+      "Manchester City",
+      "Valencia CF",
+      "Juventus Turyn",
+      "Inter Mediolan",
+      "Bayern Monachium",
+      "Benfika Lizbona"
+    ]
+  },
+  {
+    "id": 452,
+    "zawodnik": "Cody Gakpo",
+    "reprezentacja": "Holandia",
+    "kluby": ["PSV Eindhoven", "FC Liverpool"]
+  },
+  {
+    "id": 453,
+    "zawodnik": "Raphinha",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Vitoria Guimarães SC", "Leeds United", "FC Barcelona", "Sporting CP", "Stade Rennais FC"]
+  },
+  {
+    "id": 454,
+    "zawodnik": "Gabriel Jesus",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Manchester City", "Sociedade Esportiva Palmeiras", "FC Arsenal"]
+  },
+  {
+    "id": 455,
+    "zawodnik": "Anthony Gordon",
+    "reprezentacja": "Anglia",
+    "kluby": ["FC Everton", "Newcastle United", "Preston North End"]
+  },
+  {
+    "id": 456,
+    "zawodnik": "Diego Carlos",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Sevilla FC", "FC Nantes", "GD Estoril Praia", "Aston Villa"]
+  },
+  {
+    "id": 457,
+    "zawodnik": "Gonçalo Guedes",
+    "reprezentacja": "Portugalia",
+    "kluby": ["Valencia CF", "Benfika Lizbona", "Wolverhampton Wanderers", "FC Paris Saint-Germain"]
+  },
+  {
+    "id": 458,
+    "zawodnik": "Brenden Aaronson",
+    "reprezentacja": "USA",
+    "kluby": ["Red Bull Salzburg", "Philadelphia Union", "Leeds United"]
+  },
+  {
+    "id": 459,
+    "zawodnik": "Paul Pogba",
+    "reprezentacja": "Francja",
+    "kluby": ["Manchester United", "Juventus Turyn"]
+  },
+  {
+    "id": 460,
+    "zawodnik": "Paulo Dybala",
+    "reprezentacja": "Argentyna",
+    "kluby": ["Palermo FC", "Juventus Turyn", "AS Roma"]
+  },
+  {
+    "id": 461,
+    "zawodnik": "Nicolò Zaniolo",
+    "reprezentacja": "Włochy",
+    "kluby": ["Galatasaray", "AS Roma"]
+  },
+  {
+    "id": 462,
+    "zawodnik": "Luka Jovic",
+    "reprezentacja": "Serbia",
+    "kluby": ["Eintracht Frankfurt", "Real Madryt", "AC Fiorentina", "Crvena Zvezda Belgrad"]
+  },
+  {
+    "id": 463,
+    "zawodnik": "Ricardo Quaresma",
+    "reprezentacja": "Portugalia",
+    "kluby": [
+      "Besiktas JK",
+      "FC Porto",
+      "Sporting CP",
+      "Vitoria Guimarães SC",
+      "Inter Mediolan",
+      "FC Barcelona",
+      "Chelsea FC"
+    ]
+  },
+  {
+    "id": 464,
+    "zawodnik": "Tim Borowski",
+    "reprezentacja": "Niemcy",
+    "kluby": ["SV Werder Bremen", "Bayern Monachium"]
+  },
+  {
+    "id": 465,
+    "zawodnik": "Nuno Gomes",
+    "reprezentacja": "Portugalia",
+    "kluby": ["Benfika Lizbona", "AC Fiorentina", "SC Braga", "Blackburn Rovers"]
+  },
+  {
+    "id": 466,
+    "zawodnik": "Ariel Ortega",
+    "reprezentacja": "Argentyna",
+    "kluby": ["CA River Plate", "Valencia CF", "UC Sampdoria", "Parma Calcio 1913", "Fenerbahce"]
+  },
+  {
+    "id": 467,
+    "zawodnik": "Robbie Keane",
+    "reprezentacja": "Irlandia",
+    "kluby": [
+      "Tottenham Hotspur",
+      "Los Angeles Galaxy",
+      "Wolverhampton Wanderers",
+      "Leeds United",
+      "Coventry City",
+      "FC Liverpool",
+      "Celtic Glasgow",
+      "Inter Mediolan",
+      "West Ham United",
+      "Aston Villa"
+    ]
+  },
+  {
+    "id": 468,
+    "zawodnik": "Jermaine Pennant",
+    "reprezentacja": "Anglia",
+    "kluby": [
+      "Stoke City",
+      "FC Liverpool",
+      "Birmingham City",
+      "Leeds United",
+      "Tampines Rovers",
+      "Real Zaragoza",
+      "FC Arsenal",
+      "FC Watford",
+      "Wolverhampton Wanderers",
+      "FC Portsmouth",
+      "Wigan Athletic"
+    ]
+  },
+  {
+    "id": 469,
+    "zawodnik": "Peter Crouch",
+    "reprezentacja": "Anglia",
+    "kluby": [
+      "Stoke City",
+      "FC Liverpool",
+      "Tottenham Hotspur",
+      "FC Portsmouth",
+      "Queens Park Rangers",
+      "Aston Villa",
+      "FC Southampton",
+      "Norwich City",
+      "FC Burnley"
+    ]
+  },
+  {
+    "id": 470,
+    "zawodnik": "Marcus Bent",
+    "reprezentacja": "Anglia",
+    "kluby": [
+      "Ipswich Town",
+      "FC Everton",
+      "Sheffield United",
+      "Charlton Athletic",
+      "Blackburn Rovers",
+      "Birmingham City",
+      "Leicester City",
+      "Wigan Athletic",
+      "Crystal Palace",
+      "FC Middlesbrough",
+      "Wolverhampton Wanderers",
+      "Queens Park Rangers",
+      "FC Brentford"
+    ]
+  },
+  {
+    "id": 471,
+    "zawodnik": "Andy Cole",
+    "reprezentacja": "Anglia",
+    "kluby": [
+      "Manchester United",
+      "Blackburn Rovers",
+      "Newcastle United",
+      "FC Fulham",
+      "Manchester City",
+      "FC Portsmouth",
+      "FC Burnley",
+      "Nottingham Forest",
+      "AFC Sunderland",
+      "Birmingham City",
+      "FC Arsenal",
+      "Bristol City"
     ]
   }
 ]

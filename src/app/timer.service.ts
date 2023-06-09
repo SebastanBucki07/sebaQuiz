@@ -42,7 +42,6 @@ export class TimerService {
     this.timer = timer
     this.dateNow = new Date()
     this.dDay = new Date(this.dateNow.getTime() + timer * 60000)
-    console.log(`this.timer: ${this.dDay}`)
   }
 
   getTimers(): Observable<Timer> {

@@ -3,7 +3,6 @@ import footballCrossData from '../../assets/football/footballerClubData.json'
 import footballClubs from '../../assets/football/footballClub.json'
 import crests from '../../assets/football/clubCrests.json'
 import { randomFromArray } from '../../common/randomize.helper'
-import { QuestionDataService } from '../question-data.service'
 import { PlayersService } from '../players.service'
 import { PlayerForFamiliada } from '../players/players.component'
 
@@ -12,6 +11,22 @@ export interface ClubCross {
   team2: string
   count: number
   players: string[]
+}
+
+export interface Dict {
+  [key: string]: {
+    count: number
+  }
+}
+
+export interface Dict2 {
+  [key: string]: {
+    team1: string
+    team2: string
+    count: number
+    commons: string[]
+    player: string[]
+  }
 }
 
 @Component({
@@ -24,7 +39,7 @@ export class FootballCrossComponent implements OnInit {
   public clubsData = footballClubs
   public clubsCross: ClubCross[] = []
   public randomTeams: string[] = []
-  public teamsInfo = [...this.clubsData]
+  //public teamsInfo = [...this.clubsData]
   public cests = crests
   public crestsForQuestion: string[] = []
   public players: PlayerForFamiliada[] = []
@@ -36,17 +51,21 @@ export class FootballCrossComponent implements OnInit {
     ['0', '1', '2'],
     ['0', '1', '2'],
   ]
+  public abc: Dict = {}
+
+  public test: Dict2 = {}
 
   constructor(public playerService: PlayersService) {}
 
   ngOnInit(): void {
+    this.setClubs()
+    this.countClubPairs()
+    //this.countPairs()
+    this.createLib()
     this.init()
   }
 
   init() {
-    this.setClubs()
-    this.countClubPairs()
-    this.countPairs()
     this.randomFromClubs()
     this.setCrests()
     this.setPlayersForCross()
@@ -56,6 +75,30 @@ export class FootballCrossComponent implements OnInit {
 
   changeChar(playerId: number): void {
     this.actualChar = this.players[playerId].name
+  }
+
+  createLib() {
+    console.log('createLib()')
+    this.alllData.forEach((player) => {
+      if (player.kluby) {
+        //console.log(`string: ${JSON.stringify(player.kluby)}`)
+        // @ts-ignore
+        player.kluby.forEach((klub) => {
+          for (let i = player.kluby.indexOf(klub); i < player.kluby.length - 1; i++) {
+            const sorted = [`${klub}`, `${player.kluby[i + 1]}`].sort((a, b) => a.localeCompare(b))
+            const tmp = `${sorted[0]}_${sorted[1]}`
+            if (this.abc[tmp]) {
+              this.abc[tmp].count++
+            } else {
+              this.abc[tmp] = {
+                count: 1,
+              }
+            }
+          }
+        })
+      }
+    })
+    console.log(`lib: ${JSON.stringify(this.abc)}`)
   }
 
   setPlayersForCross(): void {
@@ -145,6 +188,7 @@ export class FootballCrossComponent implements OnInit {
   }
 
   setClubs(): void {
+    console.log('this set club')
     this.clubsData.forEach((club) => {
       let i = club.id
       do {
@@ -159,10 +203,11 @@ export class FootballCrossComponent implements OnInit {
         i++
       } while (i <= this.clubsData.length)
     })
-    //console.dir(this.clubsCross)
+    console.dir(this.clubsCross)
   }
 
   setCrests() {
+    this.crestsForQuestion = []
     this.randomTeams.forEach((team) => {
       const found = this.cests.find((club) => club.team === team)
       if (found) {
@@ -172,6 +217,7 @@ export class FootballCrossComponent implements OnInit {
   }
 
   countClubPairs() {
+    console.log('this countClubPairs')
     this.clubsCross.forEach((cross) => {
       const found1 = this.clubsData.find((club) => club.team === cross.team1)
       const found2 = this.clubsData.find((club) => club.team === cross.team2)
@@ -187,44 +233,47 @@ export class FootballCrossComponent implements OnInit {
     //console.dir(this.clubsCross)
   }
 
-  countPairs() {
-    this.clubsCross.forEach((clubCross) => {
-      if (clubCross.count > 0) {
-        const found1 = this.teamsInfo.find((club) => club.team === clubCross.team1)
-        const found2 = this.teamsInfo.find((club) => club.team === clubCross.team2)
-        if (found1) {
-          // console.log(`======== add count to ${found1.team} actualCount: ${found1.count} =============`)
-          found1.count = found1.count + 1
-        }
-        if (found2) {
-          /*console.log(`======== add count to ${found2.team} actualCount: ${found2.count} =============`)*/
-          found2.count = found2.count + 1
-        }
-      }
-    })
-    console.log(`teamsInfo: ${JSON.stringify(this.teamsInfo)}`)
-  }
+  // countPairs() {
+  //   console.log('this countPairs')
+  //   this.clubsCross.forEach((clubCross) => {
+  //     if (clubCross.count > 0) {
+  //       const found1 = this.teamsInfo.find((club) => club.team === clubCross.team1)
+  //       const found2 = this.teamsInfo.find((club) => club.team === clubCross.team2)
+  //       if (found1) {
+  //         // console.log(`======== add count to ${found1.team} actualCount: ${found1.count} =============`)
+  //         found1.count = found1.count + 1
+  //       }
+  //       if (found2) {
+  //         /*console.log(`======== add count to ${found2.team} actualCount: ${found2.count} =============`)*/
+  //         found2.count = found2.count + 1
+  //       }
+  //     }
+  //   })
+  //   console.log(`teamsInfo: ${JSON.stringify(this.teamsInfo)}`)
+  // }
 
   findCommonClubs() {
     let arr: string[] = []
     let arr2: string[] = []
     let arr3: string[] = []
-    const clubsForRandom1 = this.clubsCross.flatMap((element) =>
+    const gratherThan1 = this.clubsCross.filter((el) => el.count > 0)
+    //console.log(`gratherThan1============ ${JSON.stringify(gratherThan1)} ==========`)
+    const clubsForRandom1 = gratherThan1.flatMap((element) =>
       element.team1 === this.randomTeams[0] ? element.team2 : ''
     )
-    const clubsForRandom2 = this.clubsCross.flatMap((element) =>
+    const clubsForRandom2 = gratherThan1.flatMap((element) =>
       element.team1 === this.randomTeams[1] ? element.team2 : ''
     )
-    const clubsForRandom3 = this.clubsCross.flatMap((element) =>
+    const clubsForRandom3 = gratherThan1.flatMap((element) =>
       element.team1 === this.randomTeams[2] ? element.team2 : ''
     )
-    const clubsForRandom11 = this.clubsCross.flatMap((element) =>
+    const clubsForRandom11 = gratherThan1.flatMap((element) =>
       element.team2 === this.randomTeams[0] ? element.team1 : ''
     )
-    const clubsForRandom22 = this.clubsCross.flatMap((element) =>
+    const clubsForRandom22 = gratherThan1.flatMap((element) =>
       element.team2 === this.randomTeams[1] ? element.team1 : ''
     )
-    const clubsForRandom33 = this.clubsCross.flatMap((element) =>
+    const clubsForRandom33 = gratherThan1.flatMap((element) =>
       element.team2 === this.randomTeams[2] ? element.team1 : ''
     )
 
@@ -246,27 +295,36 @@ export class FootballCrossComponent implements OnInit {
     if (clubsForRandom33) {
       arr3 = arr3.concat(clubsForRandom33)
     }
+
+    arr = arr.filter((value, index) => arr.indexOf(value) === index)
+    arr2 = arr2.filter((value, index) => arr2.indexOf(value) === index)
+    arr3 = arr3.filter((value, index) => arr3.indexOf(value) === index)
     arr = arr.filter((e) => String(e).trim())
     arr2 = arr2.filter((e) => String(e).trim())
     arr3 = arr3.filter((e) => String(e).trim())
+    console.log(`arr============ ${JSON.stringify(arr)} ==========`)
+    console.log(`arr2============ ${JSON.stringify(arr2)} ==========`)
+    console.log(`arr3============ ${JSON.stringify(arr3)} ==========`)
     const intersactionArr1Arr2 = arr.filter((x) => arr2.includes(x))
+    console.log(`arr1arr2============ ${JSON.stringify(intersactionArr1Arr2)} ==========`)
     const intersactionArr1Arr2Arr3 = intersactionArr1Arr2.filter((x) => arr3.includes(x))
+    console.log(`arr1arr2arr3============ ${JSON.stringify(intersactionArr1Arr2Arr3)} ==========`)
     return intersactionArr1Arr2Arr3
   }
 
   randomFromClubs() {
     this.randomTeams = []
-    const tmp3 = this.teamsInfo.filter((element) => element.count > 3)
-    if (tmp3.length > 9) {
+    //const tmp3 = this.teamsInfo.filter((element) => element.count > 3)
+    if (this.clubsData.length > 9) {
       do {
-        const tmp = randomFromArray(tmp3).team
+        const tmp = randomFromArray(this.clubsData).team
         console.log(`random team: ${tmp}`)
         if (!this.randomTeams.includes(tmp)) {
           this.randomTeams.push(tmp)
         }
       } while (this.randomTeams.length < 3)
       const clubs = this.findCommonClubs()
-      console.log(`result============ ${JSON.stringify(clubs)} ==========`)
+      //console.log(`result============ ${JSON.stringify(clubs)} ==========`)
       if (clubs.length > 3) {
         do {
           const a = randomFromArray(clubs)
@@ -277,13 +335,9 @@ export class FootballCrossComponent implements OnInit {
         for (let i = 0; i < 3; i++) {
           this.randomTeams.push()
         }
+      } else {
+        this.randomFromClubs()
       }
-      this.randomTeams.forEach((team) => {
-        const found2 = this.teamsInfo.find((club) => club.team === team)
-        if (found2) {
-          found2.count = found2.count - 3
-        }
-      })
       console.log(`Random teams===== ${JSON.stringify(this.randomTeams)}==========`)
     } else {
       console.log(`No teams left`)

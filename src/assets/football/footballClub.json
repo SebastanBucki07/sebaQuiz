@@ -148,5 +148,275 @@
     "id": 30,
     "team": "Sandecja Nowy Sącz",
     "count": 0
+  },
+  {
+    "id": 31,
+    "team": "Górnik Łęczna",
+    "count": 0
+  },
+  {
+    "id": 32,
+    "team": "Celtic Glasgow",
+    "count": 0
+  },
+  {
+    "id": 33,
+    "team": "Trabzonspor",
+    "count": 0
+  },
+  {
+    "id": 34,
+    "team": "SSC Napoli",
+    "count": 0
+  },
+  {
+    "id": 35,
+    "team": "Chrobry Głogów",
+    "count": 0
+  },
+  {
+    "id": 36,
+    "team": "Zawisza Bydgoszcz",
+    "count": 0
+  },
+  {
+    "id": 37,
+    "team": "Motor Lublin",
+    "count": 0
+  },
+  {
+    "id": 38,
+    "team": "Motor Lublin",
+    "count": 0
+  },
+  {
+    "id": 39,
+    "team": "Polonia Bytom",
+    "count": 0
+  },
+  {
+    "id": 40,
+    "team": "Dyskobolia Grodzisk Wielkopolski",
+    "count": 0
+  },
+  {
+    "id": 41,
+    "team": "GKS Tychy",
+    "count": 0
+  },
+  {
+    "id": 42,
+    "team": "Feyenoord Rotterdam",
+    "count": 0
+  },
+  {
+    "id": 43,
+    "team": "FC Toulouse",
+    "count": 0
+  },
+  {
+    "id": 44,
+    "team": "FC Girondins Bordeaux",
+    "count": 0
+  },
+  {
+    "id": 45,
+    "team": "Olympique Marseille",
+    "count": 0
+  },
+  {
+    "id": 46,
+    "team": "Celtic Glasgow",
+    "count": 0
+  },
+  {
+    "id": 47,
+    "team": "AJ Auxerre",
+    "count": 0
+  },
+  {
+    "id": 48,
+    "team": "Olympique Lyon",
+    "count": 0
+  },
+  {
+    "id": 49,
+    "team": "AS Monaco",
+    "count": 0
+  },
+  {
+    "id": 50,
+    "team": "Hannover 96",
+    "count": 0
+  },
+  {
+    "id": 51,
+    "team": "Hamburger SV",
+    "count": 0
+  },
+  {
+    "id": 52,
+    "team": "1.FC Köln",
+    "count": 0
+  },
+  {
+    "id": 53,
+    "team": "Borussia Dortmund",
+    "count": 0
+  },
+  {
+    "id": 54,
+    "team": "Clermont Foot 63",
+    "count": 0
+  },
+  {
+    "id": 55,
+    "team": "Wieczysta Kraków",
+    "count": 0
+  },
+  {
+    "id": 56,
+    "team": "FC Paris Saint-Germain",
+    "count": 0
+  },
+  {
+    "id": 57,
+    "team": "Real Madryt",
+    "count": 0
+  },
+  {
+    "id": 58,
+    "team": "VfB Stuttgart",
+    "count": 0
+  },
+  {
+    "id": 59,
+    "team": "FC Arsenal",
+    "count": 0
+  },
+  {
+    "id": 60,
+    "team": "RC Lens",
+    "count": 0
+  },
+  {
+    "id": 61,
+    "team": "Derby County",
+    "count": 0
+  },
+  {
+    "id": 62,
+    "team": "FC Southampton",
+    "count": 0
+  },
+  {
+    "id": 63,
+    "team": "FC Watford",
+    "count": 0
+  },
+  {
+    "id": 64,
+    "team": "AC Milan",
+    "count": 0
+  },
+  {
+    "id": 65,
+    "team": "Bayern Monachium",
+    "count": 0
+  },
+  {
+    "id": 66,
+    "team": "TSG 1899 Hoffenheim",
+    "count": 0
+  },
+  {
+    "id": 67,
+    "team": "Leicester City",
+    "count": 0
+  },
+  {
+    "id": 68,
+    "team": "FC Liverpool",
+    "count": 0
+  },
+  {
+    "id": 69,
+    "team": "FC Barcelona",
+    "count": 0
+  },
+  {
+    "id": 70,
+    "team": "AC Fiorentina",
+    "count": 0
+  },
+  {
+    "id": 71,
+    "team": "Manchester United",
+    "count": 0
+  },
+  {
+    "id": 72,
+    "team": "Manchester City",
+    "count": 0
+  },
+  {
+    "id": 73,
+    "team": "Wolverhampton Wanderers",
+    "count": 0
+  },
+  {
+    "id": 74,
+    "team": "Sevilla FC",
+    "count": 0
+  },
+  {
+    "id": 75,
+    "team": "Lazio Rzym",
+    "count": 0
+  },
+  {
+    "id": 76,
+    "team": "1.FC Kaiserslautern",
+    "count": 0
+  },
+  {
+    "id": 77,
+    "team": "FC Brentford",
+    "count": 0
+  },
+  {
+    "id": 78,
+    "team": "Torino FC",
+    "count": 0
+  },
+  {
+    "id": 79,
+    "team": "UC Sampdoria",
+    "count": 0
+  },
+  {
+    "id": 80,
+    "team": "West Ham United",
+    "count": 0
+  },
+  {
+    "id": 81,
+    "team": "Arminia Bielefeld",
+    "count": 0
+  },
+  {
+    "id": 82,
+    "team": "LOSC Lille",
+    "count": 0
+  },
+  {
+    "id": 83,
+    "team": "FC Augsburg",
+    "count": 0
+  },
+  {
+    "id": 84,
+    "team": "Huddersfield Town",
+    "count": 0
   }
 ]
