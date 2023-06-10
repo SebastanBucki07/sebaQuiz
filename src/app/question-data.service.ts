@@ -297,14 +297,12 @@ export class QuestionDataService {
   getWritingsCategoryDataQuestion(): WrittingData[] {
     const category = this.getWritingsCategoryQuestion()
     const tmp = this.writtingsData.filter((data) => data.category === category.category)
-    console.log(JSON.stringify(tmp))
     return tmp
   }
 
   getWritingsFootballCategoryDataQuestion(): WrittingData[] {
     const category = this.getWritingsFootballCategoryQuestion()
     const tmp = this.writtingsData.filter((data) => data.category === category.category)
-    console.log(JSON.stringify(tmp))
     return tmp
   }
 
