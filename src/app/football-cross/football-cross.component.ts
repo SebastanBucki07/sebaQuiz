@@ -19,16 +19,6 @@ export interface Dict {
   }
 }
 
-export interface Dict2 {
-  [key: string]: {
-    team1: string
-    team2: string
-    count: number
-    commons: string[]
-    player: string[]
-  }
-}
-
 @Component({
   selector: 'app-football-cross',
   templateUrl: './football-cross.component.html',
@@ -52,8 +42,6 @@ export class FootballCrossComponent implements OnInit {
     ['0', '1', '2'],
   ]
   public abc: Dict = {}
-
-  public test: Dict2 = {}
 
   constructor(public playerService: PlayersService) {}
 
@@ -80,9 +68,8 @@ export class FootballCrossComponent implements OnInit {
   createLib() {
     console.log('createLib()')
     this.alllData.forEach((player) => {
+      console.log(JSON.stringify(player))
       if (player.kluby) {
-        //console.log(`string: ${JSON.stringify(player.kluby)}`)
-        // @ts-ignore
         player.kluby.forEach((klub) => {
           for (let i = player.kluby.indexOf(klub); i < player.kluby.length - 1; i++) {
             const sorted = [`${klub}`, `${player.kluby[i + 1]}`].sort((a, b) => a.localeCompare(b))
@@ -131,51 +118,115 @@ export class FootballCrossComponent implements OnInit {
     return this.playerService.getPlayers().find((el) => el.name === winner)
   }
 
+  changeEnd(bool: boolean) {
+    this.end = bool
+  }
+
   validBoard() {
     //horizontally
-    if (this.board[0][0] === this.board[0][1] && this.board[0][0] === this.board[0][2]) {
+    if (
+      this.board[0][0] === this.board[0][1] &&
+      this.board[0][0] === this.board[0][2] &&
+      this.board[0][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][0])
-      this.end = true
-    } else if (this.board[1][0] === this.board[1][1] && this.board[1][0] === this.board[1][2]) {
+      this.setCharInBoard(0, 0, 'blocked')
+      this.setCharInBoard(0, 1, 'blocked')
+      this.setCharInBoard(0, 2, 'blocked')
+      this.changeEnd(true)
+    } else if (
+      this.board[1][0] === this.board[1][1] &&
+      this.board[1][0] === this.board[1][2] &&
+      this.board[1][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[1][0])
-      this.end = true
-    } else if (this.board[2][0] === this.board[2][1] && this.board[2][0] === this.board[2][2]) {
+      this.setCharInBoard(1, 0, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(1, 2, 'blocked')
+      this.changeEnd(true)
+    } else if (
+      this.board[2][0] === this.board[2][1] &&
+      this.board[2][0] === this.board[2][2] &&
+      this.board[2][2] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[2][0])
-      this.end = true
+      this.setCharInBoard(2, 0, 'blocked')
+      this.setCharInBoard(2, 1, 'blocked')
+      this.setCharInBoard(2, 2, 'blocked')
+      this.changeEnd(true)
     }
     //perpendicularly
-    else if (this.board[0][0] === this.board[1][0] && this.board[0][0] === this.board[2][0]) {
+    else if (
+      this.board[0][0] === this.board[1][0] &&
+      this.board[0][0] === this.board[2][0] &&
+      this.board[2][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][0])
-      this.end = true
-    } else if (this.board[0][1] === this.board[1][1] && this.board[0][1] === this.board[2][1]) {
+      this.setCharInBoard(0, 0, 'blocked')
+      this.setCharInBoard(1, 0, 'blocked')
+      this.setCharInBoard(2, 0, 'blocked')
+      this.changeEnd(true)
+    } else if (
+      this.board[0][1] === this.board[1][1] &&
+      this.board[0][1] === this.board[2][1] &&
+      this.board[2][1] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][1])
-      this.end = true
-    } else if (this.board[0][2] === this.board[1][2] && this.board[0][2] === this.board[2][2]) {
+      this.setCharInBoard(0, 1, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(2, 1, 'blocked')
+      this.changeEnd(true)
+    } else if (
+      this.board[0][2] === this.board[1][2] &&
+      this.board[0][2] === this.board[2][2] &&
+      this.board[2][2] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][2])
-      this.end = true
+      this.setCharInBoard(0, 2, 'blocked')
+      this.setCharInBoard(1, 2, 'blocked')
+      this.setCharInBoard(2, 2, 'blocked')
+      this.changeEnd(true)
     }
 
     //diagonally
-    else if (this.board[0][0] === this.board[1][1] && this.board[0][0] === this.board[2][2]) {
+    else if (
+      this.board[0][0] === this.board[1][1] &&
+      this.board[0][0] === this.board[2][2] &&
+      this.board[2][2] != 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][0])
-      this.end = true
-    } else if (this.board[0][2] === this.board[1][1] && this.board[0][2] === this.board[2][0]) {
+      this.setCharInBoard(0, 0, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(2, 2, 'blocked')
+      this.changeEnd(true)
+    } else if (
+      this.board[0][2] === this.board[1][1] &&
+      this.board[0][2] === this.board[2][0] &&
+      this.board[2][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][2])
-      this.end = true
+      this.setCharInBoard(0, 2, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(2, 0, 'blocked')
+      this.changeEnd(true)
     } else {
       this.winner = ''
-      this.end = false
+      this.changeEnd(false)
     }
   }
 
-  setCharInBoard(x: number, y: number): void {
-    this.board[x][y] = this.actualChar
-    this.validBoard()
-    const playerIndex = this.players.findIndex((el) => el.name === this.actualChar)
-    if (playerIndex === 0) {
-      this.changeChar(1)
-    } else {
-      this.changeChar(0)
+  setCharInBoard(x: number, y: number, name?: string): void {
+    if (name) {
+      this.board[x][y] = name
+    } else if (this.board[x][y] !== 'blocked') {
+      this.board[x][y] = this.actualChar
+      this.validBoard()
+      const playerIndex = this.players.findIndex((el) => el.name === this.actualChar)
+      if (playerIndex === 0) {
+        this.changeChar(1)
+      } else {
+        this.changeChar(0)
+      }
     }
   }
 

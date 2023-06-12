@@ -19,7 +19,6 @@ export abstract class WritingQuestionComponent {
   public answerForSquad: InputAnswerModel[] = []
   public question = ''
   public tip = ''
-  public userAnswer = ''
   public inputAnswer: string | undefined = ''
   public category = ''
   public players: PlayerForFamiliada[] = []
