@@ -118,40 +118,44 @@ export class FootballCrossComponent implements OnInit {
     return this.playerService.getPlayers().find((el) => el.name === winner)
   }
 
+  changeEnd(bool: boolean) {
+    this.end = bool
+  }
+
   validBoard() {
     //horizontally
     if (this.board[0][0] === this.board[0][1] && this.board[0][0] === this.board[0][2]) {
       this.winner = this.foundWinner(this.board[0][0])
-      this.end = true
+      this.changeEnd(true)
     } else if (this.board[1][0] === this.board[1][1] && this.board[1][0] === this.board[1][2]) {
       this.winner = this.foundWinner(this.board[1][0])
-      this.end = true
+      this.changeEnd(true)
     } else if (this.board[2][0] === this.board[2][1] && this.board[2][0] === this.board[2][2]) {
       this.winner = this.foundWinner(this.board[2][0])
-      this.end = true
+      this.changeEnd(true)
     }
     //perpendicularly
     else if (this.board[0][0] === this.board[1][0] && this.board[0][0] === this.board[2][0]) {
       this.winner = this.foundWinner(this.board[0][0])
-      this.end = true
+      this.changeEnd(true)
     } else if (this.board[0][1] === this.board[1][1] && this.board[0][1] === this.board[2][1]) {
       this.winner = this.foundWinner(this.board[0][1])
-      this.end = true
+      this.changeEnd(true)
     } else if (this.board[0][2] === this.board[1][2] && this.board[0][2] === this.board[2][2]) {
       this.winner = this.foundWinner(this.board[0][2])
-      this.end = true
+      this.changeEnd(true)
     }
 
     //diagonally
     else if (this.board[0][0] === this.board[1][1] && this.board[0][0] === this.board[2][2]) {
       this.winner = this.foundWinner(this.board[0][0])
-      this.end = true
+      this.changeEnd(true)
     } else if (this.board[0][2] === this.board[1][1] && this.board[0][2] === this.board[2][0]) {
       this.winner = this.foundWinner(this.board[0][2])
-      this.end = true
+      this.changeEnd(true)
     } else {
       this.winner = ''
-      this.end = false
+      this.changeEnd(false)
     }
   }
 
