@@ -174,7 +174,7 @@ export class FootballCrossComponent implements OnInit {
       this.winner = this.foundWinner(this.board[0][1])
       this.setCharInBoard(0, 1, 'blocked')
       this.setCharInBoard(1, 1, 'blocked')
-      this.setCharInBoard(2, 2, 'blocked')
+      this.setCharInBoard(2, 1, 'blocked')
       this.changeEnd(true)
     } else if (
       this.board[0][2] === this.board[1][2] &&
