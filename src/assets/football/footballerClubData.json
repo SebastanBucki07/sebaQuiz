@@ -4353,5 +4353,263 @@
       "FC Arsenal",
       "Bristol City"
     ]
+  },
+  {
+    "id": 472,
+    "zawodnik": "Ciro Immobile",
+    "reprezentacja": "Włochy",
+    "kluby": ["Lazio Rzym", "Torino FC", "Borussia Dortmund", "Genoa CFC", "Sevilla FC", "Juventus Turyn"]
+  },
+  {
+    "id": 473,
+    "zawodnik": "Luca Pellegrini",
+    "reprezentacja": "Włochy",
+    "kluby": ["Cagliari Calcio", "Juventus Turyn", "Eintracht Frankfurt", "Genoa CFC", "Lazio Rzym", "AS Roma"]
+  },
+  {
+    "id": 474,
+    "zawodnik": "Andrea Belotti",
+    "reprezentacja": "Włochy",
+    "kluby": ["Torino FC", "Palermo FC", "AS Roma"]
+  },
+  {
+    "id": 475,
+    "zawodnik": "Sébastien Haller",
+    "reprezentacja": "Wybrzeże Kości Słoniowej",
+    "kluby": [
+      "FC Utrecht",
+      "Eintracht Frankfurt",
+      "Ajax Amsterdam",
+      "AJ Auxerre",
+      "West Ham United",
+      "Borussia Dortmund"
+    ]
+  },
+  {
+    "id": 476,
+    "zawodnik": "Chicharito",
+    "reprezentacja": "Meksyk",
+    "kluby": [
+      "Manchester United",
+      "Los Angeles Galaxy",
+      "Deportivo Guadalajara",
+      "Bayer 04 Leverkusen",
+      "West Ham United",
+      "Real Madryt",
+      "Sevilla FC"
+    ]
+  },
+  {
+    "id": 477,
+    "zawodnik": "Dimitri Payet",
+    "reprezentacja": "Francja",
+    "kluby": ["Olympique Marseille", "AS Saint-Étienne", "LOSC Lille", "West Ham United", "FC Nantes"]
+  },
+  {
+    "id": 478,
+    "zawodnik": "Carlos Tevez",
+    "reprezentacja": "Argentyna",
+    "kluby": [
+      "CA Boca Juniors",
+      "Manchester City",
+      "Manchester United",
+      "West Ham United",
+      "Juventus Turyn",
+      "Shanghai Shenhua"
+    ]
+  },
+  {
+    "id": 479,
+    "zawodnik": "Robert Gumny",
+    "reprezentacja": "Polska",
+    "kluby": ["Lech Poznań", "FC Augsburg", "Podbeskidzie Bielsko-Biała"]
+  },
+  {
+    "id": 480,
+    "zawodnik": "Cristiano Ronaldo",
+    "reprezentacja": "Portugalia",
+    "kluby": ["Real Madryt", "Manchester United", "Juventus Turyn", "Sporting CP", "Al-Nassr FC"]
+  },
+  {
+    "id": 481,
+    "zawodnik": "Eden Hazard",
+    "reprezentacja": "Belgia",
+    "kluby": ["Chelsea FC", "LOSC Lille", "Real Madryt"]
+  },
+  {
+    "id": 482,
+    "zawodnik": "James Rodríguez",
+    "reprezentacja": "Kolumbia",
+    "kluby": ["Bayern Monachium", "FC Porto", "Real Madryt", "AS Monaco", "FC Everton", "Olympiakos Pireus"]
+  },
+  {
+    "id": 483,
+    "zawodnik": "Thibaut Courtois",
+    "reprezentacja": "Belgia",
+    "kluby": ["Atlético Madryt", "Chelsea FC", "Real Madryt", "KRC Genk"]
+  },
+  {
+    "id": 484,
+    "zawodnik": "Tyrone Mings",
+    "reprezentacja": "Anglia",
+    "kluby": ["Aston Villa", "Ipswich Town", "AFC Bournemouth"]
+  },
+  {
+    "id": 485,
+    "zawodnik": "Kieron Dyer",
+    "reprezentacja": "Anglia",
+    "kluby": ["Newcastle United", "Ipswich Town", "West Ham United", "FC Middlesbrough", "Queens Park Rangers"]
+  },
+  {
+    "id": 486,
+    "zawodnik": "Harry Clarke",
+    "reprezentacja": "Anglia",
+    "kluby": ["Oldham Athletic", "Ipswich Town", "Stoke City", "Ross County FC"]
+  },
+  {
+    "id": 487,
+    "zawodnik": "Michal Koj",
+    "reprezentacja": "Polska",
+    "kluby": ["Górnik Zabrze", "Ruch Chorzów", "Korona Kielce", "Puszcza Niepołomice"]
+  },
+  {
+    "id": 488,
+    "zawodnik": "Thiago",
+    "reprezentacja": "Brazylia",
+    "kluby": ["Cracovia", "Sandecja Nowy Sącz", "Puszcza Niepołomice"]
+  },
+  {
+    "id": 489,
+    "zawodnik": "Artur Siemaszko",
+    "reprezentacja": "Polska",
+    "kluby": ["Stomil Olsztyn", "Arka Gdynia", "Puszcza Niepołomice", "GKS Tychy", "Zagłębie Lubin"]
+  },
+  {
+    "id": 490,
+    "zawodnik": "Kamil Zapolnik",
+    "reprezentacja": "Polska",
+    "kluby": ["Miedź Legnica", "Wigry Suwałki", "Górnik Zabrze", "Olimpia Zambrów", "GKS Tychy", "Puszcza Niepołomice"]
+  },
+  {
+    "id": 491,
+    "zawodnik": "Rafal Boguski",
+    "reprezentacja": "Polska",
+    "kluby": ["Wisła Kraków", "GKS Bełchatów", "Puszcza Niepołomice"]
+  },
+  {
+    "id": 492,
+    "zawodnik": "Dominik Frelek",
+    "reprezentacja": "Polska",
+    "kluby": ["Podbeskidzie Bielsko-Biała", "Olimpia Grudziądz", "Puszcza Niepołomice"]
+  },
+  {
+    "id": 493,
+    "zawodnik": "Maciej Domanski",
+    "reprezentacja": "Polska",
+    "kluby": ["Stal Mielec", "Raków Częstochowa", "Puszcza Niepołomice", "Siarka Tarnobrzeg"]
+  },
+  {
+    "id": 494,
+    "zawodnik": "Pawel Moskwik",
+    "reprezentacja": "Polska",
+    "kluby": ["Znicz Pruszków", "Motor Lublin", "Puszcza Niepołomice", "Piast Gliwice", "Podbeskidzie Bielsko-Biała"]
+  },
+  {
+    "id": 495,
+    "zawodnik": "Roland Sallai",
+    "reprezentacja": "Węgry",
+    "kluby": ["SC Freiburg", "Puskás Akadémia FC", "APOEL Nikosia", "Palermo FC"]
+  },
+  {
+    "id": 496,
+    "zawodnik": "Pascal Stenzel",
+    "reprezentacja": "Niemcy",
+    "kluby": ["VfB Stuttgart", "SC Freiburg", "Borussia Dortmund"]
+  },
+  {
+    "id": 497,
+    "zawodnik": "Marco Terrazzino",
+    "reprezentacja": "Niemcy",
+    "kluby": [
+      "VfL Bochum",
+      "SC Freiburg",
+      "Lechia Gdańsk",
+      "Karlsruher SC",
+      "TSG 1899 Hoffenheim",
+      "SC Paderborn 07",
+      "SG Dynamo Dresden"
+    ]
+  },
+  {
+    "id": 498,
+    "zawodnik": "Caglar Söyüncü",
+    "reprezentacja": "Turcja",
+    "kluby": ["Leicester City", "SC Freiburg", "Altinordu FK"]
+  },
+  {
+    "id": 499,
+    "zawodnik": "Baptiste Santamaria",
+    "reprezentacja": "Francja",
+    "kluby": ["Angers SCO", "SC Freiburg", "Tours FC", "Stade Rennais FC"]
+  },
+  {
+    "id": 500,
+    "zawodnik": "Robin Koch",
+    "reprezentacja": "Niemcy",
+    "kluby": ["Leeds United", "SC Freiburg", "1.FC Kaiserslautern", "SV Eintracht Trier 05"]
+  },
+  {
+    "id": 501,
+    "zawodnik": "Papiss Cissé",
+    "reprezentacja": "Senegal",
+    "kluby": ["Newcastle United", "SC Freiburg", "FC Metz", "Alanyaspor", "Shandong Taishan", "Amiens SC", "Fenerbahce"]
+  },
+  {
+    "id": 502,
+    "zawodnik": "Oliver Baumann",
+    "reprezentacja": "Niemcy",
+    "kluby": ["TSG 1899 Hoffenheim", "SC Freiburg"]
+  },
+  {
+    "id": 503,
+    "zawodnik": "Roman Bürki",
+    "reprezentacja": "Szwajcaria",
+    "kluby": [
+      "Borussia Dortmund",
+      "SC Freiburg",
+      "Grasshopper Club Zurych",
+      "St. Louis CITY SC",
+      "FC Schaffhausen",
+      "BSC Young Boys",
+      "FC Thun"
+    ]
+  },
+  {
+    "id": 504,
+    "zawodnik": "Ariel Borysiuk",
+    "reprezentacja": "Polska",
+    "kluby": [
+      "Legia Warszawa",
+      "Lechia Gdańsk",
+      "1.FC Kaiserslautern",
+      "Jagiellonia Białystok",
+      "KF Laçi",
+      "Chennaiyin FC",
+      "Queens Park Rangers",
+      "FC Sheriff Tyraspol",
+      "Wisła Płock"
+    ]
+  },
+  {
+    "id": 505,
+    "zawodnik": "Ugo Ukah",
+    "reprezentacja": "Nigeria",
+    "kluby": ["Widzew Łódź", "Jagiellonia Białystok", "AEL Kalloni", "Selangor FC", "Queens Park Rangers"]
+  },
+  {
+    "id": 506,
+    "zawodnik": "Pawel Kryszalowicz",
+    "reprezentacja": "Polska",
+    "kluby": ["Amica Wronki", "Eintracht Frankfurt", "Wisła Kraków", "SV Wilhelmshaven"]
   }
 ]

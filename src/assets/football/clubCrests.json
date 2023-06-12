@@ -226,197 +226,332 @@
   },
   {
     "id": 46,
-    "team": "Celtic Glasgow",
-    "crest": "celticfc"
-  },
-  {
-    "id": 47,
     "team": "AJ Auxerre",
     "crest": "ajauxerre"
   },
   {
-    "id": 48,
+    "id": 47,
     "team": "Olympique Lyon",
     "crest": "olympiquelyon"
   },
   {
-    "id": 49,
+    "id": 48,
     "team": "AS Monaco",
     "crest": "asmonaco"
   },
   {
-    "id": 50,
+    "id": 49,
     "team": "Hannover 96",
     "crest": "hanover96"
   },
   {
-    "id": 51,
+    "id": 50,
     "team": "Hamburger SV",
     "crest": "hamburgersv"
   },
   {
-    "id": 52,
+    "id": 51,
     "team": "1.FC Köln",
     "crest": "fckoln"
   },
   {
-    "id": 53,
+    "id": 52,
     "team": "Borussia Dortmund",
     "crest": "borussiadortmund"
   },
   {
-    "id": 54,
+    "id": 53,
     "team": "Clermont Foot 63",
     "crest": "clermontfoot63"
   },
   {
-    "id": 55,
+    "id": 54,
     "team": "Wieczysta Kraków",
     "crest": "wieczysta"
   },
   {
-    "id": 56,
+    "id": 55,
     "team": "FC Paris Saint-Germain",
     "crest": "psg"
   },
   {
-    "id": 57,
+    "id": 56,
     "team": "Real Madryt",
     "crest": "realmadryt"
   },
   {
-    "id": 58,
+    "id": 57,
     "team": "VfB Stuttgart",
     "crest": "vfbstuttgart"
   },
   {
-    "id": 59,
+    "id": 58,
     "team": "FC Arsenal",
     "crest": "arsenal"
   },
   {
-    "id": 60,
+    "id": 59,
     "team": "RC Lens",
     "crest": "rclens"
   },
   {
-    "id": 61,
+    "id": 60,
     "team": "Derby County",
     "crest": "derbycounty"
   },
   {
-    "id": 62,
+    "id": 61,
     "team": "FC Southampton",
     "crest": "southampton"
   },
   {
-    "id": 63,
+    "id": 62,
     "team": "FC Watford",
     "crest": "watford"
   },
   {
-    "id": 64,
+    "id": 63,
     "team": "AC Milan",
     "crest": "acmilan"
   },
   {
-    "id": 65,
+    "id": 64,
     "team": "Bayern Monachium",
     "crest": "bayernmonachium"
   },
   {
-    "id": 66,
+    "id": 65,
     "team": "TSG 1899 Hoffenheim",
     "crest": "TSGHoffenheim"
   },
   {
-    "id": 67,
+    "id": 66,
     "team": "Leicester City",
     "crest": "leicester"
   },
   {
-    "id": 68,
+    "id": 67,
     "team": "FC Liverpool",
     "crest": "liverpool"
   },
   {
-    "id": 69,
+    "id": 68,
     "team": "FC Barcelona",
     "crest": "barcelona"
   },
   {
-    "id": 70,
+    "id": 69,
     "team": "AC Fiorentina",
     "crest": "fiorentina"
   },
   {
-    "id": 71,
+    "id": 70,
     "team": "Manchester United",
     "crest": "manchasterunited"
   },
   {
-    "id": 72,
+    "id": 71,
     "team": "Manchester City",
     "crest": "mancity"
   },
   {
-    "id": 73,
+    "id": 72,
     "team": "Wolverhampton Wanderers",
     "crest": "wolverhampton"
   },
   {
-    "id": 74,
+    "id": 73,
     "team": "Sevilla FC",
     "crest": "sevillafc"
   },
   {
-    "id": 75,
+    "id": 74,
     "team": "Lazio Rzym",
     "crest": "laziorzym"
   },
   {
-    "id": 76,
+    "id": 75,
     "team": "1.FC Kaiserslautern",
     "crest": "fckaiserslautern"
   },
   {
-    "id": 77,
+    "id": 76,
     "team": "FC Brentford",
     "crest": "brentford"
   },
   {
-    "id": 78,
+    "id": 77,
     "team": "Torino FC",
     "crest": "torino"
   },
   {
-    "id": 79,
+    "id": 78,
     "team": "UC Sampdoria",
     "crest": "ucsampdoria"
   },
   {
-    "id": 80,
+    "id": 79,
     "team": "West Ham United",
     "crest": "westhamunited"
   },
   {
-    "id": 81,
+    "id": 80,
     "team": "Arminia Bielefeld",
     "crest": "ArminiaBielefeld"
   },
   {
-    "id": 82,
+    "id": 81,
     "team": "LOSC Lille",
     "crest": "lille"
   },
   {
-    "id": 83,
+    "id": 82,
     "team": "FC Augsburg",
     "crest": "fcaugsburg"
   },
   {
-    "id": 84,
+    "id": 83,
     "team": "Huddersfield Town",
     "crest": "huddersfieldtown"
+  },
+  {
+    "id": 84,
+    "team": "Ipswich Town",
+    "crest": "IpswichTown"
+  },
+  {
+    "id": 85,
+    "team": "Olimpia Grudziądz",
+    "crest": "OlimpiaGrudziadz"
+  },
+  {
+    "id": 86,
+    "team": "Stal Stalowa Wola",
+    "crest": "zksstalstalowawola"
+  },
+  {
+    "id": 87,
+    "team": "Stal Stalowa Wola",
+    "crest": "puszcza"
+  },
+  {
+    "id": 88,
+    "team": "ROW 1964 Rybnik",
+    "crest": "rowrybnik"
+  },
+  {
+    "id": 89,
+    "team": "SC Freiburg",
+    "crest": "scfreiburg"
+  },
+  {
+    "id": 90,
+    "team": "Queens Park Rangers",
+    "crest": "qpr"
+  },
+  {
+    "id": 91,
+    "team": "1.FC Union Berlin",
+    "crest": "unionberlin"
+  },
+  {
+    "id": 92,
+    "team": "BATE Borysów",
+    "crest": "bateborysow"
+  },
+  {
+    "id": 93,
+    "team": "Göztepe",
+    "crest": "goztepe"
+  },
+  {
+    "id": 94,
+    "team": "Holstein Kiel",
+    "crest": "holsteinkiel"
+  },
+  {
+    "id": 95,
+    "team": "MSK Zilina",
+    "crest": "mkszilina"
+  },
+  {
+    "id": 96,
+    "team": "Panathinaikos Ateny",
+    "crest": "panathinaikosao"
+  },
+  {
+    "id": 97,
+    "team": "Sivasspor",
+    "crest": "sivasspor"
+  },
+  {
+    "id": 98,
+    "team": "Znicz Pruszków",
+    "crest": "zniczpruszkow"
+  },
+  {
+    "id": 99,
+    "team": "Pogoń Siedlce",
+    "crest": "pogonsiedlce"
+  },
+  {
+    "id": 100,
+    "team": "Odra Opole",
+    "crest": "odraopole"
+  },
+  {
+    "id": 101,
+    "team": "Odra Wodzisław Śląski",
+    "crest": "mksodra"
+  },
+  {
+    "id": 102,
+    "team": "Ruch Radzionków",
+    "crest": "ruchradzionkow"
+  },
+  {
+    "id": 103,
+    "team": "Chojniczanka Chojnice",
+    "crest": "Chojniczankachojnice"
+  },
+  {
+    "id": 104,
+    "team": "Sporting CP",
+    "crest": "sportinglisbona"
+  },
+  {
+    "id": 105,
+    "team": "Kotwica Kołobrzeg",
+    "crest": "kotwica"
+  },
+  {
+    "id": 106,
+    "team": "SPAL",
+    "crest": "spal2013"
+  },
+  {
+    "id": 107,
+    "team": "SV Darmstadt 98",
+    "crest": "SVDarmstadt98"
+  },
+  {
+    "id": 108,
+    "team": "Wisła Puławy",
+    "crest": "Wisłapulawy"
+  },
+  {
+    "id": 109,
+    "team": "Ajax Amsterdam",
+    "crest": "ajax"
+  },
+  {
+    "id": 110,
+    "team": "Hellas Verona",
+    "crest": "hellasverona"
+  },
+  {
+    "id": 111,
+    "team": "Eintracht Frankfurt",
+    "crest": "EintrachtFrankfurt"
   }
 ]

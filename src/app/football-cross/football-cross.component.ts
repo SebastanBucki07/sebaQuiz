@@ -19,16 +19,6 @@ export interface Dict {
   }
 }
 
-export interface Dict2 {
-  [key: string]: {
-    team1: string
-    team2: string
-    count: number
-    commons: string[]
-    player: string[]
-  }
-}
-
 @Component({
   selector: 'app-football-cross',
   templateUrl: './football-cross.component.html',
@@ -52,8 +42,6 @@ export class FootballCrossComponent implements OnInit {
     ['0', '1', '2'],
   ]
   public abc: Dict = {}
-
-  public test: Dict2 = {}
 
   constructor(public playerService: PlayersService) {}
 
@@ -80,9 +68,8 @@ export class FootballCrossComponent implements OnInit {
   createLib() {
     console.log('createLib()')
     this.alllData.forEach((player) => {
+      console.log(JSON.stringify(player))
       if (player.kluby) {
-        //console.log(`string: ${JSON.stringify(player.kluby)}`)
-        // @ts-ignore
         player.kluby.forEach((klub) => {
           for (let i = player.kluby.indexOf(klub); i < player.kluby.length - 1; i++) {
             const sorted = [`${klub}`, `${player.kluby[i + 1]}`].sort((a, b) => a.localeCompare(b))
