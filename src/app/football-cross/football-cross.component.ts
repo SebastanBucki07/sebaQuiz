@@ -124,34 +124,90 @@ export class FootballCrossComponent implements OnInit {
 
   validBoard() {
     //horizontally
-    if (this.board[0][0] === this.board[0][1] && this.board[0][0] === this.board[0][2]) {
+    if (
+      this.board[0][0] === this.board[0][1] &&
+      this.board[0][0] === this.board[0][2] &&
+      this.board[0][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][0])
+      this.setCharInBoard(0, 0, 'blocked')
+      this.setCharInBoard(0, 1, 'blocked')
+      this.setCharInBoard(0, 2, 'blocked')
       this.changeEnd(true)
-    } else if (this.board[1][0] === this.board[1][1] && this.board[1][0] === this.board[1][2]) {
+    } else if (
+      this.board[1][0] === this.board[1][1] &&
+      this.board[1][0] === this.board[1][2] &&
+      this.board[1][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[1][0])
+      this.setCharInBoard(1, 0, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(1, 2, 'blocked')
       this.changeEnd(true)
-    } else if (this.board[2][0] === this.board[2][1] && this.board[2][0] === this.board[2][2]) {
+    } else if (
+      this.board[2][0] === this.board[2][1] &&
+      this.board[2][0] === this.board[2][2] &&
+      this.board[2][2] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[2][0])
+      this.setCharInBoard(2, 0, 'blocked')
+      this.setCharInBoard(2, 1, 'blocked')
+      this.setCharInBoard(2, 2, 'blocked')
       this.changeEnd(true)
     }
     //perpendicularly
-    else if (this.board[0][0] === this.board[1][0] && this.board[0][0] === this.board[2][0]) {
+    else if (
+      this.board[0][0] === this.board[1][0] &&
+      this.board[0][0] === this.board[2][0] &&
+      this.board[2][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][0])
+      this.setCharInBoard(0, 0, 'blocked')
+      this.setCharInBoard(1, 0, 'blocked')
+      this.setCharInBoard(2, 0, 'blocked')
       this.changeEnd(true)
-    } else if (this.board[0][1] === this.board[1][1] && this.board[0][1] === this.board[2][1]) {
+    } else if (
+      this.board[0][1] === this.board[1][1] &&
+      this.board[0][1] === this.board[2][1] &&
+      this.board[2][1] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][1])
+      this.setCharInBoard(0, 1, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(2, 2, 'blocked')
       this.changeEnd(true)
-    } else if (this.board[0][2] === this.board[1][2] && this.board[0][2] === this.board[2][2]) {
+    } else if (
+      this.board[0][2] === this.board[1][2] &&
+      this.board[0][2] === this.board[2][2] &&
+      this.board[2][2] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][2])
+      this.setCharInBoard(0, 2, 'blocked')
+      this.setCharInBoard(1, 2, 'blocked')
+      this.setCharInBoard(2, 2, 'blocked')
       this.changeEnd(true)
     }
 
     //diagonally
-    else if (this.board[0][0] === this.board[1][1] && this.board[0][0] === this.board[2][2]) {
+    else if (
+      this.board[0][0] === this.board[1][1] &&
+      this.board[0][0] === this.board[2][2] &&
+      this.board[2][2] != 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][0])
+      this.setCharInBoard(0, 0, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(2, 2, 'blocked')
       this.changeEnd(true)
-    } else if (this.board[0][2] === this.board[1][1] && this.board[0][2] === this.board[2][0]) {
+    } else if (
+      this.board[0][2] === this.board[1][1] &&
+      this.board[0][2] === this.board[2][0] &&
+      this.board[2][0] !== 'blocked'
+    ) {
       this.winner = this.foundWinner(this.board[0][2])
+      this.setCharInBoard(0, 2, 'blocked')
+      this.setCharInBoard(1, 1, 'blocked')
+      this.setCharInBoard(2, 0, 'blocked')
       this.changeEnd(true)
     } else {
       this.winner = ''
@@ -159,14 +215,18 @@ export class FootballCrossComponent implements OnInit {
     }
   }
 
-  setCharInBoard(x: number, y: number): void {
-    this.board[x][y] = this.actualChar
-    this.validBoard()
-    const playerIndex = this.players.findIndex((el) => el.name === this.actualChar)
-    if (playerIndex === 0) {
-      this.changeChar(1)
-    } else {
-      this.changeChar(0)
+  setCharInBoard(x: number, y: number, name?: string): void {
+    if (name) {
+      this.board[x][y] = name
+    } else if (this.board[x][y] !== 'blocked') {
+      this.board[x][y] = this.actualChar
+      this.validBoard()
+      const playerIndex = this.players.findIndex((el) => el.name === this.actualChar)
+      if (playerIndex === 0) {
+        this.changeChar(1)
+      } else {
+        this.changeChar(0)
+      }
     }
   }
 
