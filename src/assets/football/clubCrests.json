@@ -553,5 +553,15 @@
     "id": 111,
     "team": "Eintracht Frankfurt",
     "crest": "EintrachtFrankfurt"
+  },
+  {
+    "id": 112,
+    "team": "Juventus Turyn",
+    "crest": "juventus"
+  },
+  {
+    "id": 113,
+    "team": "Fortuna Düsseldorf",
+    "crest": "Fortunadusseldorf"
   }
 ]

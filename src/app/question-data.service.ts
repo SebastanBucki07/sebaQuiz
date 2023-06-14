@@ -19,6 +19,7 @@ import movieActors from '../assets/actors/movieActors.json'
 import directorsData from '../assets/movies/directors.json'
 import familiadaData from '../assets/familiada/familiada.json'
 import serialActors from '../assets/actors/serialActors.json'
+import playersData from '../assets/football/footballerClubData.json'
 import gamesData from '../assets/games/games.json'
 import allDistricts from '../assets/poland/citiesPL.json'
 import allFootballData from '../assets/football/football.json'
@@ -43,6 +44,8 @@ import { QuestionMultipleChoice } from './model/question-model'
 import { FamiliadaModel } from './model/familiada-model'
 import { FootballGamesModel } from './model/footballgames-model'
 import { WrittingData, WrittingsCategoryModel } from './model/writtingsCategory-model'
+import { ClubLinks } from './football-cross/club-links'
+import { BoardCreator } from './football-cross/board-creator'
 
 @Injectable({
   providedIn: 'root',
@@ -77,6 +80,7 @@ export class QuestionDataService {
   public writtingsCategoryElements: WrittingsCategoryModel[] = []
   public writtingsCategoryFootballElements: WrittingsCategoryModel[] = []
   public writtingsData: WrittingData[] = []
+  public playersData: ClubLinks | any = null
   public countriesForFlags: Country[] | any = null
   public countriesForCapitals: Country[] | any = null
   public continentsForCountries: string[] | any = []
@@ -123,6 +127,7 @@ export class QuestionDataService {
     this.writtingsCategoryElements = writtingsCattegory
     this.writtingsCategoryFootballElements = writtingsFootballCattegory
     this.writtingsData = writtingsData
+    this.playersData = ClubLinks.readFromPlayerList(playersData)
     this.init = true
   }
 
@@ -131,6 +136,20 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allChemicalElements)
+  }
+
+  getFootballerQuestion() {
+    const generator = new BoardCreator(this.playersData)
+    const result = generator.generateBoard()
+    console.log(result)
+    if (result != null) {
+      for (const club1 of result!.row) {
+        for (const club2 of result!.column) {
+          console.log(`[${this.playersData.getLinkingPlayers(club1, club2).join(', ')}]`)
+        }
+      }
+    }
+    return result
   }
 
   getMultipleChoiceQuestion() {

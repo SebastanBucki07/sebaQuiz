@@ -553,5 +553,15 @@
     "id": 111,
     "team": "Ajax Amsterdam",
     "count": 0
+  },
+  {
+    "id": 112,
+    "team": "Juventus Turyn",
+    "count": 0
+  },
+  {
+    "id": 113,
+    "team": "Fortuna Düsseldorf",
+    "count": 0
   }
 ]
