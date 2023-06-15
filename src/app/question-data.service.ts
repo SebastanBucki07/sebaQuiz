@@ -46,6 +46,7 @@ import { FootballGamesModel } from './model/footballgames-model'
 import { WrittingData, WrittingsCategoryModel } from './model/writtingsCategory-model'
 import { ClubLinks } from './football-cross/club-links'
 import { BoardCreator } from './football-cross/board-creator'
+import { players } from '../assets/football/players'
 
 @Injectable({
   providedIn: 'root',
@@ -139,17 +140,17 @@ export class QuestionDataService {
   }
 
   getFootballerQuestion() {
-    const generator = new BoardCreator(this.playersData)
+    const links = ClubLinks.readFromPlayerList(players)
+    const generator = new BoardCreator(links)
     const result = generator.generateBoard()
     console.log(result)
     if (result != null) {
       for (const club1 of result!.row) {
         for (const club2 of result!.column) {
-          console.log(`[${this.playersData.getLinkingPlayers(club1, club2).join(', ')}]`)
+          console.log(`club1:${club1}, club2: ${club2} [${links.getLinkingPlayers(club1, club2).join(', ')}]`)
         }
       }
     }
-    return result
   }
 
   getMultipleChoiceQuestion() {

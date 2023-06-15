@@ -28,6 +28,7 @@ export class ClubLinks {
         }
       }
     }
+    console.log(JSON.stringify(result))
     return result
   }
 
