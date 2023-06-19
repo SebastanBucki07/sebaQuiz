@@ -6,6 +6,8 @@ import { PlayersService } from '../players.service'
 import { getAndDeleteRandomElementFromArray } from '../../common/randomize.helper'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   selector: 'app-multiple-choice',
@@ -14,14 +16,13 @@ import { Subscription } from 'rxjs'
 })
 export class MultipleChoiceComponent implements OnInit {
   private subscription: Subscription | any
-  public isVisible = false
-  public isModalVisible = false
-  public answer = ''
-  public points = 2
-  public correct = false
-  public settedQuestion: QuestionMultipleChoice | any = {}
-  public submitAnswerButtonEnabled = true
-  public answerButtonsDisabled = false
+  protected isVisible = false
+  protected isModalVisible = false
+  protected answer = ''
+  protected correct = false
+  protected settedQuestion: QuestionMultipleChoice | any = {}
+  protected submitAnswerButtonEnabled = true
+  protected answerButtonsDisabled = false
 
   @Input() question = this.settedQuestion as QuestionMultipleChoice
   @Input() number = 0
@@ -30,9 +31,11 @@ export class MultipleChoiceComponent implements OnInit {
   selectedAnswer = ''
 
   constructor(
-    public questionDataService: QuestionDataService,
+    private questionDataService: QuestionDataService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
     public timerService: TimerService,
-    public playerService: PlayersService
+    protected playerService: PlayersService
   ) {}
 
   init(): void {
@@ -57,6 +60,7 @@ export class MultipleChoiceComponent implements OnInit {
     this.settedQuestion.c = array2[2]
     this.isModalVisible = true
     this.answer = this.settedQuestion.answer
+    this.questionAnswerService.setPointsForQuestion(2)
   }
 
   ngOnInit(): void {
@@ -70,10 +74,10 @@ export class MultipleChoiceComponent implements OnInit {
     this.submitAnswerButtonEnabled = false
     this.answerButtonsDisabled = false
     this.playerService.nextPlayer()
+    this.questionTypeService.setActiveCategory(-1)
     this.timerService.resetTimeout()
     this.init()
     this.timerService.setTimer(0.5)
-    this.playerService.setModal(false)
     this.selectedAnswer = ''
   }
 
@@ -83,6 +87,7 @@ export class MultipleChoiceComponent implements OnInit {
     this.submitAnswerButtonEnabled = true
     if (this.selectedAnswer.includes(this.settedQuestion.answer)) {
       this.correct = true
+      this.questionAnswerService.setWinner(this.playerService.actualPlayer)
     }
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()

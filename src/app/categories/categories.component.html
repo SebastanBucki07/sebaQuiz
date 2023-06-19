@@ -1,34 +1,45 @@
-<div class="row categories">
-  <div class="col-12">
-    <h2 class="title">1. Wybierz <strong>conajmniej</strong> 2 kategorie!</h2>
-    <table class="table table-hover">
-      <tbody>
-      <tr id="chooseCategoryTitle">Wybierz Kategorie:</tr>
-      <tr class="table-danger categoryForChooseRow" *ngFor="let category of this.smallCategories">
-        <td>{{category.name}}</td>
-        <td>
-          <mat-checkbox [checked]="category.checkbox" (change)="toggle($event,category)"></mat-checkbox>
-        </td>
-      </tr>
-      </tbody>
-    </table>
+<ng-container *ngIf="!areCategoriesChosen">
+  <div class="row categories">
+    <div class="col-12">
+      <h2 class="title">1. Wybierz <strong>conajmniej</strong> 2 kategorie!</h2>
+      <table class="table table-hover">
+        <tbody>
+          <tr id="chooseCategoryTitle">
+            Wybierz Kategorie:
+          </tr>
+          <tr class="table-danger categoryForChooseRow" *ngFor="let category of this.smallCategories">
+            <td>{{ category.name }}</td>
+            <td>
+              <mat-checkbox [checked]="category.checkbox" (change)="toggle($event, category)"></mat-checkbox>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-12">
+      <button
+        type="button"
+        [disabled]="acceptCategoriesButtonDisabled"
+        class="btn btn-primary btn-lg acceptCategories"
+        (click)="sendCategories(this.chosenCategories)"
+      >
+        Zatwierdź kategorie!
+      </button>
+    </div>
+    <div class="col-12">
+      <table class="table table-hover">
+        <tbody>
+          <tr>
+            Wybrane Kategorie:
+          </tr>
+          <tr class="table-success chosenCategoryRow" *ngFor="let category of this.chosenCategories">
+            <td>{{ category.name }}</td>
+            <td>
+              <mat-checkbox [checked]="category.checkbox" (change)="toggle2($event, category)"></mat-checkbox>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
-  <div class="col-12">
-    <button type="button" [disabled]="acceptCategoriesButtonDisabled" class="btn btn-primary btn-lg acceptCategories" (click)="sendCategories(this.chosenCategories)">Zatwierdź
-      kategorie!
-    </button>
-  </div>
-  <div class="col-12">
-    <table class="table table-hover">
-      <tbody>
-      <tr>Wybrane Kategorie:</tr>
-      <tr class="table-success chosenCategoryRow" *ngFor="let category of this.chosenCategories">
-        <td>{{category.name}}</td>
-        <td>
-          <mat-checkbox [checked]="category.checkbox" (change)="toggle2($event,category)"></mat-checkbox>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
+</ng-container>

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'
-import { AppComponent } from '../app.component'
 import { PlayersService } from '../players.service'
+import { Subscription } from 'rxjs'
 
 export interface Player {
   id: number
@@ -21,23 +21,30 @@ export interface PlayerForFamiliada {
   styleUrls: ['./players.component.css'],
 })
 export class PlayersComponent implements OnInit {
-  public addTeamInputVisible = true
-  public players: Player[]
-  public name: string
-  public addTeamsButtonDisabled = true
-  public addTeamButtonDisabled = true
+  protected players: Player[]
+  protected name: string
+  protected addTeamsButtonDisabled = true
+  protected addTeamButtonDisabled = true
+  protected actualPlayer = 0
 
-  constructor(private playerService: PlayersService, public myApp: AppComponent) {
+  protected playersAdded = false
+  protected isPlayersTableVisivle = false
+  private subscription: Subscription | any
+
+  constructor(protected playerService: PlayersService) {
     this.players = []
     this.name = ''
   }
 
   ngOnInit(): void {
     console.log(`init playersComponent`)
+    this.getActualPlayer()
   }
 
-  addPoints(id: number, points: number): void {
-    this.players[id].points += points
+  getActualPlayer() {
+    this.subscription = this.playerService.getActualPlayer().subscribe((x) => {
+      this.actualPlayer = x
+    })
   }
 
   addTeam(name: string): void {
@@ -62,17 +69,12 @@ export class PlayersComponent implements OnInit {
     this.name.length >= 4 ? (this.addTeamButtonDisabled = false) : (this.addTeamButtonDisabled = true)
   }
 
-  savePoints(id: number, event: any): void {
-    this.players[id].tmpPoints = parseFloat(event.target.value)
-  }
-
   hideInput(): void {
-    this.addTeamInputVisible = false
-    this.myApp.confirmPlayers()
+    this.isPlayersTableVisivle = true
+    this.playersAdded = true
   }
 
   sendPlayers(players: Player[]): void {
     this.playerService.setPlayers(players)
-    this.myApp.addPlayers()
   }
 }

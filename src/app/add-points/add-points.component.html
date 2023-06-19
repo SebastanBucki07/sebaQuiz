@@ -1,0 +1,10 @@
+<ng-container *ngIf="!timeout">
+  <button
+    type="button"
+    [disabled]="isDisabled"
+    class="btn btn-success addPointsButton"
+    (click)="setDisableButton(true); addPointsForPlayer()"
+  >
+    Dodaj {{ points }} punkty
+  </button>
+</ng-container>

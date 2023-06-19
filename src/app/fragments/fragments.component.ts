@@ -4,34 +4,42 @@ import { PlayersService } from '../players.service'
 import { TimerService } from '../timer.service'
 import { FragmentBuilder } from '../builder/fragment-builder'
 import { Subscription } from 'rxjs'
+import { QuestionDataService } from '../question-data.service'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   template: '',
 })
 export abstract class Fragments {
   private subscription: Subscription | any
-  public random1: FragmentsModel = new FragmentBuilder(Category.SONG).build()
-  public points = 1
-  public buttonText = ''
-  public category: Category = Category.SONG
-  public answerButtonText = ''
-  public answerDescription = ''
-  public multiply = 3
-  public isTipQuestion = false
-  public isAnswer1Visible = false
-  public isAnswer2Visible = false
-  public isModalVisible = false
-  public isQuestion1Visible = false
-  public isQuestion2Visible = false
-  public isQuestion3Visible = false
-  public question = ''
-  public question1 = ''
-  public question2 = ''
-  public question3 = ''
-  public answer1 = ''
-  public answer2 = ''
+  protected random1: FragmentsModel = new FragmentBuilder(Category.SONG).build()
+  protected buttonText = ''
+  protected category: Category = Category.SONG
+  protected answerButtonText = ''
+  protected answerDescription = ''
+  protected multiply = 3
+  protected isTipQuestion = false
+  protected isAnswer1Visible = false
+  protected isAnswer2Visible = false
+  protected isModalVisible = false
+  protected isQuestion1Visible = false
+  protected isQuestion2Visible = false
+  protected isQuestion3Visible = false
+  protected question = ''
+  protected question1 = ''
+  protected question2 = ''
+  protected question3 = ''
+  protected answer1 = ''
+  protected answer2 = ''
 
-  constructor(public playerService: PlayersService, public timerService: TimerService) {}
+  constructor(
+    protected playerService: PlayersService,
+    private questionDataService: QuestionDataService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
+    public timerService: TimerService
+  ) {}
 
   init(): void {
     this.getQuestion()
@@ -73,19 +81,21 @@ export abstract class Fragments {
     this.question1 = this.random1.fragment1
     this.question2 = this.random1.fragment2
     this.question3 = this.random1.fragment3
-    this.isModalVisible = true
+    this.questionAnswerService.setWinner(this.playerService.actualPlayer)
   }
 
   showAnswer1(): void {
     this.isAnswer1Visible = !this.isAnswer1Visible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
+    this.questionAnswerService.setPointsForQuestion(this.multiply * 2)
   }
 
   showAnswer2(): void {
     this.isAnswer2Visible = !this.isAnswer2Visible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
+    this.questionAnswerService.setPointsForQuestion(this.multiply)
   }
 
   showQuestion1(): void {
@@ -106,14 +116,14 @@ export abstract class Fragments {
   }
 
   setMultiply(multiply: number): void {
+    this.questionAnswerService.setPointsForQuestion(multiply)
     this.multiply = multiply
   }
 
   close(): void {
-    this.setMultiply(1)
+    this.setMultiply(3)
     this.isAnswer1Visible = false
     this.isAnswer2Visible = false
-    this.isModalVisible = false
     this.isQuestion1Visible = false
     this.isQuestion2Visible = false
     this.isQuestion3Visible = false
@@ -125,8 +135,7 @@ export abstract class Fragments {
     this.answer1 = ''
     this.answer2 = ''
     this.playerService.nextPlayer()
-    this.init()
-    this.playerService.setModal(false)
+    this.questionTypeService.setActiveCategory(-1)
     this.timerService.setTimer(0.5)
     this.timerService.timeout = false
   }

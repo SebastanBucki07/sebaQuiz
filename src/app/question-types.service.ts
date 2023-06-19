@@ -1,23 +1,40 @@
 import { Injectable } from '@angular/core'
-import { Category } from './categories/categories.component'
+import { interval, map, Observable } from 'rxjs'
+import { Category } from './model/category-model'
 
 @Injectable({
   providedIn: 'root',
 })
 export class QuestionTypesService {
-  public categories: Category[] = []
-  public chosen: boolean
+  protected categories: Category[] = []
+  protected chosen = false
+  protected activeCategory = -1
 
-  constructor() {
-    this.chosen = true
+  constructor() {}
+
+  getChoosen(): Observable<boolean> {
+    return interval(1000).pipe(map(() => this.chosen))
+  }
+
+  setChoosen(choosen: boolean) {
+    this.chosen = choosen
   }
 
   setCategories(categories: Category[]): void {
     this.categories = categories
-    this.chosen = false
   }
 
   getCategories(): Category[] {
     return this.categories
+  }
+
+  setActiveCategory(category: number): void {
+    console.log(`set category to ${category}`)
+    this.activeCategory = category
+  }
+
+  getActiveCategory(): Observable<number> {
+    console.log(`active category: ${this.activeCategory}`)
+    return interval(1000).pipe(map(() => this.activeCategory))
   }
 }

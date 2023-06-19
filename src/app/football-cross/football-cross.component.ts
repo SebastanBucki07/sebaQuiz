@@ -5,6 +5,9 @@ import crests from '../../assets/football/clubCrests.json'
 import { randomFromArray } from '../../common/randomize.helper'
 import { PlayersService } from '../players.service'
 import { PlayerForFamiliada } from '../players/players.component'
+import { QuestionDataService } from '../question-data.service'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 export interface ClubCross {
   team1: string
@@ -25,25 +28,30 @@ export interface Dict {
   styleUrls: ['./football-cross.component.css'],
 })
 export class FootballCrossComponent implements OnInit {
-  public alllData = footballCrossData
-  public clubsData = footballClubs
-  public clubsCross: ClubCross[] = []
-  public randomTeams: string[] = []
+  protected alllData = footballCrossData
+  protected clubsData = footballClubs
+  protected clubsCross: ClubCross[] = []
+  protected randomTeams: string[] = []
   //public teamsInfo = [...this.clubsData]
-  public cests = crests
-  public crestsForQuestion: string[] = []
-  public players: PlayerForFamiliada[] = []
-  public actualChar = ''
-  public end = false
-  public winner: any = {}
-  public board = [
+  protected cests = crests
+  protected crestsForQuestion: string[] = []
+  protected players: PlayerForFamiliada[] = []
+  protected actualChar = ''
+  protected end = false
+  protected winner: any = {}
+  protected board = [
     ['0', '1', '2'],
     ['0', '1', '2'],
     ['0', '1', '2'],
   ]
-  public abc: Dict = {}
+  protected abc: Dict = {}
 
-  constructor(public playerService: PlayersService) {}
+  constructor(
+    protected playerService: PlayersService,
+    private questionDataService: QuestionDataService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService
+  ) {}
 
   ngOnInit(): void {
     this.setClubs()
@@ -58,7 +66,7 @@ export class FootballCrossComponent implements OnInit {
     this.setCrests()
     this.setPlayersForCross()
     this.initBoard()
-    this.playerService.setModal(true)
+    this.questionAnswerService.setPointsForQuestion(5)
   }
 
   changeChar(playerId: number): void {
@@ -213,6 +221,7 @@ export class FootballCrossComponent implements OnInit {
       this.winner = ''
       this.changeEnd(false)
     }
+    this.questionAnswerService.setWinner(this.winner.id)
   }
 
   setCharInBoard(x: number, y: number, name?: string): void {
@@ -399,7 +408,6 @@ export class FootballCrossComponent implements OnInit {
     this.winner = null
     this.players = []
     this.playerService.nextPlayer()
-    this.init()
-    this.playerService.setModal(false)
+    this.questionTypeService.setActiveCategory(-1)
   }
 }

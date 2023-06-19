@@ -3,30 +3,31 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser'
 import { YoutubeModel } from '../model/youtube-model'
 import { PlayersService } from '../players.service'
 import { QuestionDataService } from '../question-data.service'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
-  selector: 'app-youtube',
-  templateUrl: './youtube.component.html',
-  styleUrls: ['./youtube.component.css'],
+  template: '',
 })
 export abstract class YoutubeComponent {
-  public random1: YoutubeModel | any = {}
-  public points = 2
-  public question = ''
-  public isTitleVisible = false
-  public isNotSerial = true
-  public isAuthorVisible = false
-  public category = ''
-  public answerDescription = 'Tytuł:'
-  public tip = ''
-  public title = ''
-  public author = ''
-  public urlSafe: SafeResourceUrl = ''
+  protected random1: YoutubeModel | any = {}
+  protected question = ''
+  protected isTitleVisible = false
+  protected isNotSerial = true
+  protected isAuthorVisible = false
+  protected category = ''
+  protected answerDescription = 'Tytuł:'
+  protected tip = ''
+  protected title = ''
+  protected author = ''
+  protected urlSafe: SafeResourceUrl = ''
 
   constructor(
-    public questionDataService: QuestionDataService,
-    public playerService: PlayersService,
-    public sanitizer: DomSanitizer
+    protected questionDataService: QuestionDataService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
+    protected playerService: PlayersService,
+    protected sanitizer: DomSanitizer
   ) {}
 
   init(): void {
@@ -38,20 +39,17 @@ export abstract class YoutubeComponent {
       case 'song': {
         this.random1 = this.questionDataService.getYoutubeSongQuestion()
         this.question = 'Podaj tytuł oraz wykonawcę'
-        this.points = 2
         break
       }
       case 'opening': {
         this.random1 = this.questionDataService.getYoutubeSerialsQuestion()
         this.question = 'Podaj tytuł serialu'
-        this.points = 2
         this.isNotSerial = false
         break
       }
       case 'mundial': {
         this.random1 = this.questionDataService.getMundialQuestion()
         this.question = 'W jakiej imprezie sportowej ta piosenka była głowną?'
-        this.points = 2
         this.isNotSerial = false
         this.answerDescription = 'Impreza:'
         break
@@ -60,6 +58,7 @@ export abstract class YoutubeComponent {
         break
       }
     }
+    this.questionAnswerService.setPointsForQuestion(2)
     this.tip = this.random1.url
     this.urlSafe = this.sanitizer.bypassSecurityTrustResourceUrl(this.tip)
     this.title = this.random1.title
@@ -74,15 +73,17 @@ export abstract class YoutubeComponent {
     this.isNotSerial = true
     this.answerDescription = 'Tytuł'
     this.playerService.nextPlayer()
-    this.init()
-    this.playerService.setModal(false)
+    this.questionTypeService.setActiveCategory(-1)
   }
 
   showTitle(): void {
     this.isTitleVisible = !this.isTitleVisible
+    this.questionAnswerService.setPointsForQuestion(3)
   }
+
   showAuthor(): void {
     this.isAuthorVisible = !this.isAuthorVisible
+    this.questionAnswerService.setPointsForQuestion(6)
   }
 }
 
@@ -109,6 +110,7 @@ export class YoutubeSerialsComponent extends YoutubeComponent implements OnInit 
     this.init()
   }
 }
+
 @Component({
   selector: 'app-mundial-youtube',
   templateUrl: './youtube.component.html',
