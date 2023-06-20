@@ -5,45 +5,30 @@ import { PlayersService } from '../players.service'
 import { ActorModel } from '../model/actor-model'
 import { QuestionDataService } from '../question-data.service'
 import { TimerService } from '../timer.service'
-import { Subscription } from 'rxjs'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   template: '',
 })
 export abstract class ActorsComponent {
   public random1: ActorModel | any = {}
-  private subscription: Subscription | any
   public isVisible = false
-  public isModalVisible = false
-  public question = ''
   public category = ''
-  public answer = ''
   public photosData: PhotoModel[] = actors
   public photos: PhotoModel[] = []
   public tips: string[] = []
-  public points = 2
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService,
-    public timerService: TimerService
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
+    public playerService: PlayersService
   ) {}
 
   close(): void {
-    this.isVisible = false
-    this.question = ''
-    this.answer = ''
     this.playerService.nextPlayer()
-    this.photos = []
-    this.tips = []
-    this.init()
-    this.playerService.setModal(false)
-  }
-
-  showAnswer(): void {
-    this.isVisible = !this.isVisible
-    this.subscription.unsubscribe()
-    this.timerService.resetTimeout()
+    this.questionTypeService.setActiveCategory(-1)
   }
 
   getPhoto(name: string): void {
@@ -76,31 +61,24 @@ export abstract class ActorsComponent {
   }
 
   getQuestion(): void {
-    this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
-      if (x) {
-        this.isVisible = true
-      }
-    })
     switch (this.category) {
       case 'movieActors': {
         this.random1 = this.questionDataService.getMoviesActorsQuestion()
-        this.question = 'W jakim filmie była taka obsada?'
-        this.points = 2
+        this.questionAnswerService.setQuestion('W jakim filmie była taka obsada?')
+        this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'serialsActors': {
         this.random1 = this.questionDataService.getSerialsActorsQuestion()
-        this.question = 'W jakim serialu była taka obsada?'
-        this.points = 2
+        this.questionAnswerService.setQuestion('W jakim serialu była taka obsada?')
+        this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       default: {
         break
       }
     }
-    this.answer = this.random1.title
-    this.playerService.setModal(true)
+    this.questionAnswerService.setAnswer(this.random1.title)
     this.tips.push(this.random1.actor1)
     this.tips.push(this.random1.actor2)
     this.tips.push(this.random1.actor3)

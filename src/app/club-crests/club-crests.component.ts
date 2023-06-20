@@ -4,6 +4,8 @@ import { randomFromArray } from '../../common/randomize.helper'
 import { QuestionDataService } from '../question-data.service'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   selector: 'app-club-crests',
@@ -13,7 +15,6 @@ import { Subscription } from 'rxjs'
 })
 export class ClubCrestsComponent implements OnInit {
   private subscription: Subscription | any
-  public isModalVisible = false
   public random1 = ''
   public isVisible = false
   public answer = ''
@@ -23,6 +24,8 @@ export class ClubCrestsComponent implements OnInit {
 
   constructor(
     public questionDataService: QuestionDataService,
+    public questionTypeService: QuestionTypesService,
+    public questionAnswerService: QuestionAndAnswerService,
     public playerService: PlayersService,
     public timerService: TimerService
   ) {}
@@ -39,22 +42,22 @@ export class ClubCrestsComponent implements OnInit {
     })
     this.random1 = this.questionDataService.getClubCrestsQuestion()
     this.setSize()
-    this.isModalVisible = true
     this.timerService.setTimer(0.5)
   }
 
   close(): void {
-    this.playerService.setModal(false)
     this.isVisible = false
     this.answer = ''
     this.playerService.nextPlayer()
-    this.init()
+    this.questionTypeService.setActiveCategory(-1)
   }
 
   showAnswer(): void {
     this.isVisible = !this.isVisible
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
+    this.questionAnswerService.setWinner(this.playerService.actualPlayer)
+    this.questionAnswerService.setPointsForQuestion(2)
   }
 
   setSize(): void {

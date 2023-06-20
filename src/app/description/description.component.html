@@ -1,35 +1,9 @@
-<ng-container *ngIf="playerService.isModalVisible">
-  <div class="modal">
-    <i class="bi bi-x-circle"></i>
-    <ng-container *ngIf="!isVisible">
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
-        odp
-      </button>
-    </ng-container>
-    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-    <app-timer></app-timer>
-    <div class="row">
-      <h1>{{question}}</h1>
-      <h2>{{tip}}</h2>
-
-      <div class="col-12 col-lg-4 offset-lg-4">
-        <div class="test" *ngIf="!isVisible" [ngStyle]="{
-      'background': 'url(assets/clubs/' + random1+') -50px -50px no-repeat','height':'300px','width':'300px','background-size': '300%'}"></div>
-      </div>
-      <ng-container *ngIf="isVisible">
-        <div class="info">
-          <div class="correct col-12">{{answer}}
-            <ng-container *ngIf="!timerService.timeout">
-              <button type="button" class="btn btn-success addPointsButton"
-                      (click)="playerService.addPoints(playerService.actualPlayer,points);close()">Dodaj {{points}}
-                punkty
-              </button>
-            </ng-container>
-          </div>
-        </div>
-      </ng-container>
-    </div>
+<div class="modal">
+  <i class="bi bi-x-circle"></i>
+  <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+  <app-timer></app-timer>
+  <app-question></app-question>
+  <div class="correct col-12">
+    <app-answer></app-answer>
   </div>
-</ng-container>
-
-
+</div>

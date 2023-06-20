@@ -7,6 +7,8 @@ import { InputAnswerModel } from '../model/footballgames-model'
 import { PlayerForFamiliada } from '../players/players.component'
 import { formatStrings } from '../../common/string.helper'
 import { WrittingData } from '../model/writtingsCategory-model'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   template: '',
@@ -14,23 +16,24 @@ import { WrittingData } from '../model/writtingsCategory-model'
 })
 export abstract class WritingQuestionComponent {
   private subscription: Subscription | any
-  public points = 5
-  public writingQuestion: WrittingData | any = {}
-  public answerForSquad: InputAnswerModel[] = []
-  public question = ''
-  public tip = ''
-  public inputAnswer: string | undefined = ''
-  public category = ''
-  public players: PlayerForFamiliada[] = []
-  public actualPlayer: PlayerForFamiliada | any = null
-  public blockedButton = false
-  public isVisible = false
-  public end = false
-  public winner: PlayerForFamiliada | any = null
+  protected writingQuestion: WrittingData | any = {}
+  protected answerForSquad: InputAnswerModel[] = []
+  protected question = ''
+  protected tip = ''
+  protected inputAnswer: string | undefined = ''
+  protected category = ''
+  protected players: PlayerForFamiliada[] = []
+  protected actualPlayer: PlayerForFamiliada | any = null
+  protected blockedButton = false
+  protected isVisible = false
+  protected end = false
+  protected winner: PlayerForFamiliada | any = null
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
+    protected playerService: PlayersService,
     public timerService: TimerService
   ) {}
 
@@ -93,12 +96,10 @@ export abstract class WritingQuestionComponent {
     switch (this.category) {
       case 'football': {
         this.writingQuestion = this.questionDataService.getWritingsFootballCategoryDataQuestion()
-        this.points = 2
         break
       }
       case 'rest': {
         this.writingQuestion = this.questionDataService.getWritingsCategoryDataQuestion()
-        this.points = 2
         break
       }
       default: {
@@ -115,7 +116,7 @@ export abstract class WritingQuestionComponent {
     })
     this.question = `Wypisz ${this.writingQuestion.category}`
     this.setPlayersForFamiliada()
-    this.points = 5
+    this.questionAnswerService.setPointsForQuestion(3)
     this.setAnswerForSquads()
     this.question = `Wypisz ${this.writingQuestion[0].category}`
     this.isVisible = false
@@ -137,10 +138,9 @@ export abstract class WritingQuestionComponent {
     this.answerForSquad = []
     this.blockedButton = false
     this.playerService.nextPlayer()
-    this.playerService.setModal(false)
+    this.questionTypeService.setActiveCategory(-1)
     this.timerService.timeout = false
     this.subscription.unsubscribe()
-    this.getQuestion()
     this.playerService.nextPlayer()
   }
 
@@ -151,6 +151,7 @@ export abstract class WritingQuestionComponent {
     this.blockedButton = true
     this.isVisible = true
     this.showAnswer()
+    this.questionAnswerService.setWinner(this.winner.id)
   }
 
   showAnswer(): void {

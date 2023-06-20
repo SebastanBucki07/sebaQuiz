@@ -1,0 +1,131 @@
+<div *ngIf="areCategoriesChoosen" [ngSwitch]="questionType">
+  <div class="row" *ngSwitchCase="0">
+    <app-books></app-books>
+  </div>
+  <div class="row" *ngSwitchCase="1">
+    <app-songs></app-songs>
+  </div>
+  <div class="row" *ngSwitchCase="2">
+    <app-country></app-country>
+  </div>
+  <div class="row" *ngSwitchCase="3">
+    <app-club-history></app-club-history>
+  </div>
+  <div class="row" *ngSwitchCase="4">
+    <app-club-crests></app-club-crests>
+  </div>
+  <div class="row" *ngSwitchCase="5">
+    <app-movies></app-movies>
+  </div>
+  <div class="row" *ngSwitchCase="6">
+    <app-serials></app-serials>
+  </div>
+  <div class="row" *ngSwitchCase="7">
+    <app-games></app-games>
+  </div>
+  <div class="row" *ngSwitchCase="8">
+    <app-districts></app-districts>
+  </div>
+  <div class="row" *ngSwitchCase="9">
+    <app-stadium></app-stadium>
+  </div>
+  <div class="row" *ngSwitchCase="10">
+    <app-proverbs></app-proverbs>
+  </div>
+  <div class="row" *ngSwitchCase="11">
+    <app-history></app-history>
+  </div>
+  <div class="row" *ngSwitchCase="12">
+    <app-famouspeople></app-famouspeople>
+  </div>
+  <div class="row" *ngSwitchCase="13">
+    <app-buildings></app-buildings>
+  </div>
+  <div class="row" *ngSwitchCase="14">
+    <app-movieActors></app-movieActors>
+  </div>
+  <div class="row" *ngSwitchCase="15">
+    <app-serialsActors></app-serialsActors>
+  </div>
+  <div class="row" *ngSwitchCase="16">
+    <app-song-youtube></app-song-youtube>
+  </div>
+  <div class="row" *ngSwitchCase="17">
+    <app-serials-youtube></app-serials-youtube>
+  </div>
+  <div class="row" *ngSwitchCase="18">
+    <app-chemistSymbol></app-chemistSymbol>
+  </div>
+  <div class="row" *ngSwitchCase="19">
+    <app-biology></app-biology>
+  </div>
+  <div class="row" *ngSwitchCase="20">
+    <app-gods></app-gods>
+  </div>
+  <div class="row" *ngSwitchCase="21">
+    <app-tips></app-tips>
+  </div>
+  <div class="row" *ngSwitchCase="22">
+    <app-cities-tips></app-cities-tips>
+  </div>
+  <div class="row" *ngSwitchCase="23">
+    <app-movies-hero></app-movies-hero>
+  </div>
+  <div class="row" *ngSwitchCase="24">
+    <app-serials-hero></app-serials-hero>
+  </div>
+  <div class="row" *ngSwitchCase="25">
+    <app-directors></app-directors>
+  </div>
+  <div class="row" *ngSwitchCase="26">
+    <app-mundial-youtube></app-mundial-youtube>
+  </div>
+  <div class="row" *ngSwitchCase="27">
+    <app-football></app-football>
+  </div>
+  <div class="row" *ngSwitchCase="28">
+    <app-multiple-choice></app-multiple-choice>
+  </div>
+  <div class="row" *ngSwitchCase="29">
+    <app-flagues></app-flagues>
+  </div>
+  <div class="row" *ngSwitchCase="30">
+    <app-capitals></app-capitals>
+  </div>
+  <div class="row" *ngSwitchCase="31">
+    <app-familiada></app-familiada>
+  </div>
+  <div class="row" *ngSwitchCase="32">
+    <app-football-games></app-football-games>
+  </div>
+  <div class="row" *ngSwitchCase="33">
+    <app-writing-question-rest></app-writing-question-rest>
+  </div>
+  <div class="row" *ngSwitchCase="34">
+    <app-writing-question-football></app-writing-question-football>
+  </div>
+  <div class="row" *ngSwitchCase="35">
+    <app-football-cross></app-football-cross>
+  </div>
+  <div class="row" *ngSwitchDefault>
+    <div *ngIf="categories.length > 0" class="row">
+      <button
+        type="button"
+        class="btn btn-outline-info btn-lg btn-block col-12 randomButton"
+        (click)="setQuestionType(50)"
+      >
+        Wylosuj
+      </button>
+      <div *ngFor="let category of categories">
+        <button
+          id="{{ category.name }}"
+          type="button"
+          class="btn btn-outline-info btn-lg btn-block col-12"
+          (click)="setQuestionType(category.id)"
+        >
+          {{ category.name }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

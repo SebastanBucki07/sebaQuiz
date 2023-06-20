@@ -1,74 +1,70 @@
-<ng-container *ngIf="playerService.isModalVisible">
-  <div class="modal">
-    <div class="row">
-      <div class="col-12 question">
-        <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-        <app-timer></app-timer>
-        <i class="bi bi-x-circle"></i>
-      </div>
-      <ng-container *ngIf="isAnswer1Visible">
-        <div class="info">
-          <div class="correct col-12 ">{{answerDescription}} {{answer1}}
-            <ng-container *ngIf="!timerService.timeout">
-              <button type="button" class="btn btn-success addPointsButton"
-                      (click)="playerService.addPoints(playerService.actualPlayer,points*multiply); close()">
-                Dodaj {{points * multiply}} punkty
-              </button>
-            </ng-container>
-          </div>
-        </div>
-      </ng-container>
-      <ng-container *ngIf="isAnswer2Visible">
-        <div class="info">
-          <div class="correct col-12 ">Wykonawca: {{answer2}}
-            <ng-container *ngIf="!timerService.timeout">
-              <button type="button" class="btn btn-success addPointsButton"
-                      (click)="playerService.addPoints(playerService.actualPlayer,2*points*multiply);close()">
-                Dodaj {{2 * points * multiply}} punkty
-              </button>
-            </ng-container>
-          </div>
-        </div>
-      </ng-container>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton"
-              (click)="showQuestion1();setMultiply(3)">
-        {{buttonText}} 1
-      </button>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton"
-              (click)="showQuestion2();setMultiply(2)">
-        {{buttonText}} 2
-      </button>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton"
-              (click)="showQuestion3();setMultiply(1)">
-        {{buttonText}} 3
-      </button>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer1()">
-        {{answerButtonText}}
-      </button>
-      <ng-container *ngIf="!isTipQuestion">
-        <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer2()">
-          Pokaż wykonawce
-        </button>
-      </ng-container>
-      <div class="col-12 question">{{question}}</div>
-      <ng-container *ngIf="isQuestion1Visible">
-        <div class="info">
-          <div class="col-12 tip">{{question1}}</div>
-        </div>
-      </ng-container>
-      <ng-container *ngIf="isQuestion2Visible">
-        <div class="info">
-          <div class="col-12 tip">{{question2}}</div>
-        </div>
-      </ng-container>
-      <ng-container *ngIf="isQuestion3Visible">
-        <div class="info">
-          <div class="col-12 tip">{{question3}}</div>
-        </div>
-      </ng-container>
-
+<div class="modal">
+  <div class="row">
+    <div class="col-12 question">
+      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+      <app-timer></app-timer>
+      <i class="bi bi-x-circle"></i>
     </div>
-
-
+    <ng-container *ngIf="isAnswer1Visible">
+      <div class="info">
+        <div class="correct col-12">
+          {{ answerDescription }} {{ answer1 }}
+          <app-add-points></app-add-points>
+        </div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="isAnswer2Visible">
+      <div class="info">
+        <div class="correct col-12">
+          Wykonawca: {{ answer2 }}
+          <app-add-points> </app-add-points>
+        </div>
+      </div>
+    </ng-container>
+    <button
+      type="button"
+      class="btn btn-primary btn-lg btn-block answerButton"
+      (click)="showQuestion1(); setMultiply(3)"
+    >
+      {{ buttonText }} 1
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary btn-lg btn-block answerButton"
+      (click)="showQuestion2(); setMultiply(2)"
+    >
+      {{ buttonText }} 2
+    </button>
+    <button
+      type="button"
+      class="btn btn-primary btn-lg btn-block answerButton"
+      (click)="showQuestion3(); setMultiply(1)"
+    >
+      {{ buttonText }} 3
+    </button>
+    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer1()">
+      {{ answerButtonText }}
+    </button>
+    <ng-container *ngIf="!isTipQuestion">
+      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer2()">
+        Pokaż wykonawce
+      </button>
+    </ng-container>
+    <div class="col-12 question">{{ question }}</div>
+    <ng-container *ngIf="isQuestion1Visible">
+      <div class="info">
+        <div class="col-12 tip">{{ question1 }}</div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="isQuestion2Visible">
+      <div class="info">
+        <div class="col-12 tip">{{ question2 }}</div>
+      </div>
+    </ng-container>
+    <ng-container *ngIf="isQuestion3Visible">
+      <div class="info">
+        <div class="col-12 tip">{{ question3 }}</div>
+      </div>
+    </ng-container>
   </div>
-</ng-container>
+</div>

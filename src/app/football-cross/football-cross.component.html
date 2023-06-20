@@ -1,113 +1,80 @@
-<ng-container *ngIf="playerService.isModalVisible">
-  <div class="jumbotron vertical-center">
-    <div class="modal">
-      <i class="bi bi-x-circle"></i>
-      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-      <div class="container">
-        <div class="row">
-          <div class="col-3">
-            <h3>Actual char: {{ actualChar }}</h3>
-            <ng-container *ngIf="end">
-              <button
-                type="button"
-                class="btn btn-primary d-flex justify-content-center d-md-table mx-auto"
-                (click)="playerService.addPoints(winner.id, 2); changeEnd(false)"
-              >
-                Dodaj {{ 2 }} punkty {{ winner.name }}
-              </button>
-            </ng-container>
-          </div>
-          <div class="col-3">
-            <button
-              id="P1"
-              type="button"
-              class="btn btn-primary d-flex justify-content-center d-md-table mx-auto"
-              (click)="changeChar(0)"
-            >
-              {{ players[0].name }}
-            </button>
-          </div>
+<div class="jumbotron vertical-center">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <h3>Actual char: {{ actualChar }}</h3>
+          <ng-container *ngIf="end">
+            <app-add-points></app-add-points>
+          </ng-container>
+        </div>
+        <div class="col-3">
+          <button
+            id="P1"
+            type="button"
+            class="btn btn-primary d-flex justify-content-center d-md-table mx-auto"
+            (click)="changeChar(0)"
+          >
+            {{ players[0].name }}
+          </button>
+        </div>
 
-          <div class="col-3">
-            <button
-              id="P2"
-              type="button"
-              class="btn btn-primary d-flex justify-content-center d-md-table mx-auto"
-              (click)="changeChar(1)"
-            >
-              {{ players[1].name }}
-            </button>
-          </div>
-          <div class="col-3"></div>
+        <div class="col-3">
+          <button
+            id="P2"
+            type="button"
+            class="btn btn-primary d-flex justify-content-center d-md-table mx-auto"
+            (click)="changeChar(1)"
+          >
+            {{ players[1].name }}
+          </button>
         </div>
-        <div class="row">
-          <div class="col-3"></div>
-          <div class="col-3">
-            <img
-              src="assets/clubs/{{ crestsForQuestion[0] }}.png"
-              class="img-thumbnail border border-white"
-              alt="..."
-              style="width: 10rem"
-            />
-          </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3">
+          <img
+            src="assets/clubs/{{ crestsForQuestion[0] }}.png"
+            class="img-thumbnail border border-white"
+            alt="..."
+            style="width: 10rem"
+          />
+        </div>
 
-          <div class="col-3">
-            <img
-              src="assets/clubs/{{ crestsForQuestion[1] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
-          </div>
-          <div class="col-3">
-            <img
-              src="assets/clubs/{{ crestsForQuestion[2] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
-          </div>
+        <div class="col-3">
+          <img src="assets/clubs/{{ crestsForQuestion[1] }}.png" class="img-thumbnail" alt="..." style="width: 10rem" />
         </div>
-        <div class="row">
-          <div class="col-3 border border-white">
-            <img
-              src="assets/clubs/{{ crestsForQuestion[3] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
-          </div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(0, 0)">{{ board[0][0] }}</div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(0, 1)">{{ board[0][1] }}</div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(0, 2)">{{ board[0][2] }}</div>
+        <div class="col-3">
+          <img src="assets/clubs/{{ crestsForQuestion[2] }}.png" class="img-thumbnail" alt="..." style="width: 10rem" />
         </div>
-        <div class="row">
-          <div class="col-3 border border-white">
-            <img
-              src="assets/clubs/{{ crestsForQuestion[4] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
-          </div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(1, 0)">{{ board[1][0] }}</div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(1, 1)">{{ board[1][1] }}</div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(1, 2)">{{ board[1][2] }}</div>
+      </div>
+      <div class="row">
+        <div class="col-3 border border-white">
+          <img src="assets/clubs/{{ crestsForQuestion[3] }}.png" class="img-thumbnail" alt="..." style="width: 10rem" />
         </div>
-        <div class="row">
-          <div class="col-3 border border-white">
-            <img
-              src="assets/clubs/{{ crestsForQuestion[5] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
-          </div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(2, 0)">{{ board[2][0] }}</div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(2, 1)">{{ board[2][1] }}</div>
-          <div class="col-3 border border-white" (click)="setCharInBoard(2, 2)">{{ board[2][2] }}</div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(0, 0)">{{ board[0][0] }}</div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(0, 1)">{{ board[0][1] }}</div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(0, 2)">{{ board[0][2] }}</div>
+      </div>
+      <div class="row">
+        <div class="col-3 border border-white">
+          <img src="assets/clubs/{{ crestsForQuestion[4] }}.png" class="img-thumbnail" alt="..." style="width: 10rem" />
         </div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(1, 0)">{{ board[1][0] }}</div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(1, 1)">{{ board[1][1] }}</div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(1, 2)">{{ board[1][2] }}</div>
+      </div>
+      <div class="row">
+        <div class="col-3 border border-white">
+          <img src="assets/clubs/{{ crestsForQuestion[5] }}.png" class="img-thumbnail" alt="..." style="width: 10rem" />
+        </div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(2, 0)">{{ board[2][0] }}</div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(2, 1)">{{ board[2][1] }}</div>
+        <div class="col-3 border border-white" (click)="setCharInBoard(2, 2)">{{ board[2][2] }}</div>
       </div>
     </div>
   </div>
-</ng-container>
+</div>

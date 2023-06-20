@@ -3,26 +3,23 @@ import { PlayersService } from '../players.service'
 import { PhotoModel } from '../model/photo-model'
 import { QuestionDataService } from '../question-data.service'
 import { TimerService } from '../timer.service'
-import { Subscription } from 'rxjs'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   template: '',
 })
 export abstract class PhotosComponent {
-  private subscription: Subscription | any
-  public random1: PhotoModel | any = {}
-  public points = 2
-  public question = ''
-  public category = ''
-  public isVisible = false
-  public tip = ''
-  public isFlague = false
-  public answer = ''
+  protected random1: PhotoModel | any = {}
+  protected category = ''
+  protected tip = ''
 
   constructor(
-    public questionDataService: QuestionDataService,
+    private questionDataService: QuestionDataService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
     public timerService: TimerService,
-    public playerService: PlayersService
+    protected playerService: PlayersService
   ) {}
 
   init(): void {
@@ -30,56 +27,42 @@ export abstract class PhotosComponent {
   }
 
   getQuestion(): void {
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
-      if (x) {
-        this.isVisible = true
-      }
-    })
     switch (this.category) {
       case 'famousPeople': {
         this.random1 = this.questionDataService.getFamousPeoplePhotoQuestion()
-        this.question = 'Kim jest osoba ze zdjęcia?'
-        this.points = 2
+        this.questionAnswerService.setQuestion('Kim jest osoba ze zdjęcia?')
+        this.questionAnswerService.setTip(this.random1.photo)
         break
       }
       case 'buildings': {
         this.random1 = this.questionDataService.getBuildingsPhotoQuestion()
-        this.question = 'Jak nazywa sie budowla ze zdjęcia?'
-        this.points = 2
+        this.questionAnswerService.setQuestion('Jak nazywa sie budowla ze zdjęcia?')
+        this.questionAnswerService.setTip(this.random1.photo)
         break
       }
       case 'flagues': {
         this.random1 = this.questionDataService.getCountries('countriesForFlags')
-        this.question = 'Z jakiego kraju jest ta flaga?'
-        this.isFlague = true
-        this.points = 2
+        this.questionAnswerService.setQuestion('Z jakiego kraju jest ta flaga?')
+        this.questionAnswerService.setTip(this.random1.code.toLowerCase())
+        this.questionAnswerService.setIsFlague(true)
         break
       }
       default: {
         break
       }
     }
+    this.questionAnswerService.setPointsForQuestion(2)
+    this.questionAnswerService.setIsPhoto(true)
     this.timerService.setTimer(0.5)
-    this.tip = this.random1.photo
-    this.answer = this.random1.name
+    this.questionAnswerService.setAnswer(this.random1.name)
   }
 
   close(): void {
-    this.isVisible = false
-    this.isFlague = false
-    this.question = ''
-    this.answer = ''
     this.playerService.nextPlayer()
-    this.init()
-    this.playerService.setModal(false)
-    this.timerService.setTimer(0.5)
-    this.timerService.timeout = false
-  }
-
-  showAnswer(): void {
-    this.isVisible = !this.isVisible
-    this.subscription.unsubscribe()
-    this.timerService.resetTimeout()
+    this.questionTypeService.setActiveCategory(-1)
+    this.questionAnswerService.setTip('')
+    this.questionAnswerService.setIsPhoto(false)
+    this.questionAnswerService.setIsFlague(false)
   }
 }
 
