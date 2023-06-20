@@ -60,9 +60,9 @@ export const groupedCategories = [
     groupName: 'movieCategories',
     categories: [
       { name: 'Filmy - opis', id: 5, checkbox: false },
-      // { name: 'W jakim filmie zagrała taka obsada?', id: 14, checkbox: false },
-      // { name: 'Rozpoznaj film po bohaterach', id: 23, checkbox: false },
-      // { name: 'Reżyser po filmach', id: 25, checkbox: false },
+      { name: 'W jakim filmie zagrała taka obsada?', id: 14, checkbox: false },
+      { name: 'Rozpoznaj film po bohaterach', id: 23, checkbox: false },
+      { name: 'Reżyser po filmach', id: 25, checkbox: false },
     ],
   },
   {
@@ -103,8 +103,8 @@ export const groupedCategories = [
       // { name: 'Stadiony świata', id: 9, checkbox: false },
       // {name: "Rozpoznaj impreze po piosence", id: 26, checkbox: false},
       { name: 'Zawodnik/klub/reprezentacja', id: 27, checkbox: false },
-      // { name: 'Był taki mecz', id: 32, checkbox: false },
-      // { name: 'Wypisywanie róznych wspólnych - piłka nożna', id: 34, checkbox: false },
+      { name: 'Był taki mecz', id: 32, checkbox: false },
+      { name: 'Wypisywanie róznych wspólnych - piłka nożna', id: 34, checkbox: false },
     ],
   },
   {
@@ -123,7 +123,7 @@ export const groupedCategories = [
     categories: [
       { name: 'Państwo po miastach', id: 22, checkbox: false },
       { name: 'Z jakiego krjau jest ta flaga?', id: 29, checkbox: false },
-      // { name: 'Stolice krajów?', id: 30, checkbox: false },
+      { name: 'Stolice krajów?', id: 30, checkbox: false },
     ],
   },
   {
