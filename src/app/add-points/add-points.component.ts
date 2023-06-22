@@ -26,23 +26,23 @@ export class AddPointsComponent implements OnInit {
     this.getTimeout()
   }
 
-  protected setDisableButton(disabled: boolean) {
+  protected setDisableButton(disabled: boolean): void {
     this.isDisabled = disabled
   }
 
-  protected addPointsForPlayer() {
+  protected addPointsForPlayer(): void {
     this.playerService.addPoints(this.winnerId, this.points)
   }
 
-  private setWinnerId() {
+  private setWinnerId(): void {
     this.winnerId = this.questionAndAnswerService.getWinnerId()
   }
 
-  private getPointsForQuestion() {
+  private getPointsForQuestion(): void {
     this.points = this.questionAndAnswerService.getPointsForQuestion()
   }
 
-  private getTimeout() {
+  private getTimeout(): void {
     this.timeout = this.timerService.timeout
   }
 }

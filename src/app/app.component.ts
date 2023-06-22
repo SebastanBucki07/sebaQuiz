@@ -1,5 +1,4 @@
 import { Component } from '@angular/core'
-import { Player } from './players/players.component'
 
 @Component({
   selector: 'app-root',
@@ -8,7 +7,6 @@ import { Player } from './players/players.component'
 })
 export class AppComponent {
   title = 'seba Quiz'
-  players: Player[] = []
 
   constructor() {
     console.log('constuctor in app module')

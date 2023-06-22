@@ -41,7 +41,7 @@ export class PlayersComponent implements OnInit {
     this.getActualPlayer()
   }
 
-  getActualPlayer() {
+  getActualPlayer(): void {
     this.subscription = this.playerService.getActualPlayer().subscribe((x) => {
       this.actualPlayer = x
     })

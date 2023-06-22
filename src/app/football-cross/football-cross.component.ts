@@ -4,7 +4,7 @@ import footballClubs from '../../assets/football/footballClub.json'
 import crests from '../../assets/football/clubCrests.json'
 import { randomFromArray } from '../../common/randomize.helper'
 import { PlayersService } from '../players.service'
-import { PlayerForFamiliada } from '../players/players.component'
+import { Player, PlayerForFamiliada } from '../players/players.component'
 import { QuestionDataService } from '../question-data.service'
 import { QuestionTypesService } from '../question-types.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
@@ -61,7 +61,7 @@ export class FootballCrossComponent implements OnInit {
     this.init()
   }
 
-  init() {
+  init(): void {
     this.randomFromClubs()
     this.setCrests()
     this.setPlayersForCross()
@@ -73,7 +73,7 @@ export class FootballCrossComponent implements OnInit {
     this.actualChar = this.players[playerId].name
   }
 
-  createLib() {
+  createLib(): void {
     console.log('createLib()')
     this.alllData.forEach((player) => {
       console.log(JSON.stringify(player))
@@ -122,15 +122,15 @@ export class FootballCrossComponent implements OnInit {
     this.actualChar = this.players[0].name
   }
 
-  foundWinner(winner: string) {
+  foundWinner(winner: string): Player | undefined {
     return this.playerService.getPlayers().find((el) => el.name === winner)
   }
 
-  changeEnd(bool: boolean) {
+  changeEnd(bool: boolean): void {
     this.end = bool
   }
 
-  validBoard() {
+  validBoard(): void {
     //horizontally
     if (
       this.board[0][0] === this.board[0][1] &&
@@ -239,7 +239,7 @@ export class FootballCrossComponent implements OnInit {
     }
   }
 
-  initBoard() {
+  initBoard(): void {
     for (let i = 0; i < 3; i++) {
       for (let j = 0; j < 3; j++) {
         this.board[i][j] = `${i} ${j}`
@@ -266,7 +266,7 @@ export class FootballCrossComponent implements OnInit {
     console.dir(this.clubsCross)
   }
 
-  setCrests() {
+  setCrests(): void {
     this.crestsForQuestion = []
     this.randomTeams.forEach((team) => {
       const found = this.cests.find((club) => club.team === team)
@@ -276,7 +276,7 @@ export class FootballCrossComponent implements OnInit {
     })
   }
 
-  countClubPairs() {
+  countClubPairs(): void {
     console.log('this countClubPairs')
     this.clubsCross.forEach((cross) => {
       const found1 = this.clubsData.find((club) => club.team === cross.team1)
@@ -312,7 +312,7 @@ export class FootballCrossComponent implements OnInit {
   //   console.log(`teamsInfo: ${JSON.stringify(this.teamsInfo)}`)
   // }
 
-  findCommonClubs() {
+  findCommonClubs(): string[] {
     let arr: string[] = []
     let arr2: string[] = []
     let arr3: string[] = []
@@ -372,7 +372,7 @@ export class FootballCrossComponent implements OnInit {
     return intersactionArr1Arr2Arr3
   }
 
-  randomFromClubs() {
+  randomFromClubs(): void {
     this.randomTeams = []
     //const tmp3 = this.teamsInfo.filter((element) => element.count > 3)
     if (this.clubsData.length > 9) {

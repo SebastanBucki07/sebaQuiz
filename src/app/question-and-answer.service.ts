@@ -12,7 +12,9 @@ export class QuestionAndAnswerService {
   protected winnerId = 0
   protected points = 0
 
-  constructor() {}
+  constructor() {
+    console.log(`question and answer service`)
+  }
 
   setAnswer(answer: string): void {
     this.answer = answer
@@ -22,7 +24,7 @@ export class QuestionAndAnswerService {
     this.question = question
   }
 
-  setTip(tip: string) {
+  setTip(tip: string): void {
     this.tip = tip
   }
 
@@ -30,7 +32,7 @@ export class QuestionAndAnswerService {
     return this.answer
   }
 
-  setWinner(winnerId: number) {
+  setWinner(winnerId: number): void {
     this.winnerId = winnerId
   }
 
@@ -38,7 +40,7 @@ export class QuestionAndAnswerService {
     return this.winnerId
   }
 
-  setPointsForQuestion(points: number) {
+  setPointsForQuestion(points: number): void {
     this.points = points
   }
 
@@ -46,7 +48,7 @@ export class QuestionAndAnswerService {
     return this.points
   }
 
-  setIsFlague(isFlague: boolean) {
+  setIsFlague(isFlague: boolean): void {
     this.isFlague = isFlague
   }
 
@@ -54,7 +56,7 @@ export class QuestionAndAnswerService {
     return this.isFlague
   }
 
-  setIsPhoto(isPhoto: boolean) {
+  setIsPhoto(isPhoto: boolean): void {
     this.isPhoto = isPhoto
   }
 

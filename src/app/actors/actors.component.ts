@@ -35,12 +35,6 @@ export abstract class ActorsComponent {
     const actor = this.photosData.find((el) => el.name == name)
     if (actor !== undefined) {
       this.photos.push(actor)
-    } else if (actor === 'Brak danych') {
-      this.photos.push({
-        id: 901,
-        name: name,
-        photo: 'https://icon-library.com/images/no-data-icon/no-data-icon-10.jpg',
-      })
     } else {
       this.photos.push({
         id: 901,
@@ -79,15 +73,7 @@ export abstract class ActorsComponent {
       }
     }
     this.questionAnswerService.setAnswer(this.random1.title)
-    this.tips.push(this.random1.actor1)
-    this.tips.push(this.random1.actor2)
-    this.tips.push(this.random1.actor3)
-    this.tips.push(this.random1.actor4)
-    this.tips.push(this.random1.actor5)
-    this.tips.push(this.random1.actor6)
-    this.tips.push(this.random1.actor7)
-    this.tips.push(this.random1.actor8)
-    this.tips.push(this.random1.actor9)
+    this.tips = this.random1.actors
     this.getAllPhotos(this.tips)
   }
 

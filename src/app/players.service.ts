@@ -9,7 +9,9 @@ export class PlayersService {
   public players: Player[] = []
   public actualPlayer = 0
 
-  constructor() {}
+  constructor() {
+    console.log('player service')
+  }
 
   setPlayers(players: Player[]): void {
     this.players = players
