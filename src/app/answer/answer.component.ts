@@ -35,7 +35,7 @@ export class AnswerComponent implements OnInit {
     this.setAnswer()
     this.questionAnswerService.setWinner(this.playerService.actualPlayer)
     this.setQuestion()
-    this.timerService.setTimer(0.1)
+    this.timerService.setTimer(0.5)
   }
 
   setAnswer(): void {

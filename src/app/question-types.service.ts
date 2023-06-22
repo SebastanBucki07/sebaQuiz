@@ -10,13 +10,15 @@ export class QuestionTypesService {
   protected chosen = false
   protected activeCategory = -1
 
-  constructor() {}
+  constructor() {
+    console.log(`question-types service`)
+  }
 
   getChoosen(): Observable<boolean> {
     return interval(1000).pipe(map(() => this.chosen))
   }
 
-  setChoosen(choosen: boolean) {
+  setChoosen(choosen: boolean): void {
     this.chosen = choosen
   }
 

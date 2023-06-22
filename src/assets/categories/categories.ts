@@ -59,19 +59,19 @@ export const groupedCategories = [
   {
     groupName: 'movieCategories',
     categories: [
-      { name: 'Filmy - opis', id: 5, checkbox: false },
+      // { name: 'Filmy - opis', id: 5, checkbox: false },
       { name: 'W jakim filmie zagrała taka obsada?', id: 14, checkbox: false },
-      { name: 'Rozpoznaj film po bohaterach', id: 23, checkbox: false },
-      { name: 'Reżyser po filmach', id: 25, checkbox: false },
+      /*      { name: 'Rozpoznaj film po bohaterach', id: 23, checkbox: false },
+      { name: 'Reżyser po filmach', id: 25, checkbox: false },*/
     ],
   },
   {
     groupName: 'serialCategories',
     categories: [
-      { name: 'Seriale - opis', id: 6, checkbox: false },
+      // { name: 'Seriale - opis', id: 6, checkbox: false },
       { name: 'W jakim serialu zagrała taka obsada?', id: 15, checkbox: false },
-      { name: 'Czołówka serialu', id: 17, checkbox: false },
-      { name: 'Rozpoznaj serial po bohaterach', id: 24, checkbox: false },
+      // { name: 'Czołówka serialu', id: 17, checkbox: false },
+      // { name: 'Rozpoznaj serial po bohaterach', id: 24, checkbox: false },
     ],
   },
 
