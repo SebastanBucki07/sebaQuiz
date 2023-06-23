@@ -28,7 +28,7 @@ export class PlayersComponent implements OnInit {
   protected actualPlayer = 0
 
   protected playersAdded = false
-  protected isPlayersTableVisivle = false
+  protected isPlayersTableVisible = false
   private subscription: Subscription | any
 
   constructor(protected playerService: PlayersService) {
@@ -62,6 +62,7 @@ export class PlayersComponent implements OnInit {
     if (this.players.length > 1) {
       this.addTeamsButtonDisabled = false
     }
+    this.isPlayersTableVisible = true
   }
 
   save(event: any): void {
@@ -70,7 +71,7 @@ export class PlayersComponent implements OnInit {
   }
 
   hideInput(): void {
-    this.isPlayersTableVisivle = true
+    this.isPlayersTableVisible = true
     this.playersAdded = true
   }
 
