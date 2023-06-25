@@ -10,8 +10,16 @@
     aria-label="teamName"
     aria-describedby="basic-addon1"
   />
-  <button id="addTeam" [disabled]="addTeamButtonDisabled" type="button" (click)="addTeam(name)">Dodaj drużynę</button>
-  <button id="addTeamCompleted" [disabled]="addTeamsButtonDisabled" type="button" (click)="hideInput()">
+  <button class="btn-info" id="addTeam" [disabled]="addTeamButtonDisabled" type="button" (click)="addTeam(name)">
+    Dodaj drużynę
+  </button>
+  <button
+    class="btn-success"
+    id="addTeamCompleted"
+    [disabled]="addTeamsButtonDisabled"
+    type="button"
+    (click)="hideInput()"
+  >
     Druzyny dodane
   </button>
 </ng-container>

@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core'
-import { MatCheckboxChange } from '@angular/material/checkbox'
 import { QuestionTypesService } from '../question-types.service'
 import { Subscription } from 'rxjs'
 import { Category } from '../model/category-model'
-import { smallCategories } from '../../assets/categories/categories'
+import { allCategories } from '../../assets/categories/categories'
+import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop'
+import { PlayersService } from '../players.service'
 
 @Component({
   selector: 'app-categories',
@@ -15,14 +16,43 @@ export class CategoriesComponent implements OnInit {
   public acceptCategoriesButtonDisabled = true
   public areCategoriesChosen = false
   private subscription: Subscription | any
-  protected smallCategories = smallCategories
+  private playerSubscription: Subscription | any
+  public categoriesForChoose: Category[] = allCategories
+  playerAdded: boolean = false
 
-  constructor(private service: QuestionTypesService) {}
+  protected moveAllCategoriesTo(chosen: boolean) {
+    if (chosen) {
+      this.chosenCategories.forEach((category) => {
+        this.categoriesForChoose.push(category)
+      })
+      this.chosenCategories = []
+    } else {
+      this.categoriesForChoose.forEach((category) => {
+        this.chosenCategories.push(category)
+      })
+      this.categoriesForChoose = []
+    }
+    this.validNumberOfRequiredCategory()
+  }
+
+  protected onDrop(event: CdkDragDrop<any[]>) {
+    if (event.previousContainer === event.container) {
+      moveItemInArray(event.container.data, event.previousIndex, event.currentIndex)
+    } else {
+      transferArrayItem(event.previousContainer.data, event.container.data, event.previousIndex, event.currentIndex)
+    }
+    this.validNumberOfRequiredCategory()
+  }
+
+  constructor(private service: QuestionTypesService, private playerService: PlayersService) {}
 
   ngOnInit(): void {
     console.log(`init CategoriesComponent`)
     this.subscription = this.service.getChoosen().subscribe((x) => {
       this.areCategoriesChosen = x
+    })
+    this.playerSubscription = this.playerService.getPlayerLength().subscribe((x) => {
+      this.playerAdded = x.length > 1
     })
   }
 
@@ -38,30 +68,15 @@ export class CategoriesComponent implements OnInit {
       : (this.acceptCategoriesButtonDisabled = true)
   }
 
-  toggle($event: MatCheckboxChange, category: Category): void {
-    if ($event.checked) {
-      const tmp = this.smallCategories.indexOf(category)
-      this.smallCategories.splice(tmp, 1)
-      category.checkbox = true
-      this.chosenCategories.push({
-        name: category.name,
-        id: category.id,
-        checkbox: true,
-      })
-    }
-    this.validNumberOfRequiredCategory()
-  }
-
-  toggle2($event: MatCheckboxChange, category: Category): void {
-    if (!$event.checked) {
-      const tmp = this.chosenCategories.indexOf(category)
-      this.chosenCategories.splice(tmp, 1)
-      category.checkbox = true
-      this.smallCategories.push({
-        name: category.name,
-        id: category.id,
-        checkbox: false,
-      })
+  change(choose: boolean, category: Category) {
+    if (choose) {
+      const elementToBeDeleted = this.categoriesForChoose.indexOf(category)
+      this.categoriesForChoose.splice(elementToBeDeleted, 1)
+      this.chosenCategories.push(category)
+    } else {
+      const elementToBeDeleted = this.chosenCategories.indexOf(category)
+      this.chosenCategories.splice(elementToBeDeleted, 1)
+      this.categoriesForChoose.push(category)
     }
     this.validNumberOfRequiredCategory()
   }

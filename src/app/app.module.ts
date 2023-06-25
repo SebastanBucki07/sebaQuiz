@@ -41,8 +41,10 @@ import {
 import { FootballCrossComponent } from './football-cross/football-cross.component'
 import { AddPointsComponent } from './add-points/add-points.component'
 import { AnswerComponent } from './answer/answer.component'
-import { QuestionComponent } from './question/question.component';
+import { QuestionComponent } from './question/question.component'
 import { CategoryListComponent } from './category-list/category-list.component'
+import { MatCardModule } from '@angular/material/card'
+import { DragDropModule } from '@angular/cdk/drag-drop'
 
 @NgModule({
   declarations: [
@@ -93,7 +95,7 @@ import { CategoryListComponent } from './category-list/category-list.component'
     QuestionComponent,
     CategoryListComponent,
   ],
-  imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule],
+  imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule, MatCardModule, DragDropModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [TimerComponent],
