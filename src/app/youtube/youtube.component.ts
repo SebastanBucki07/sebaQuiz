@@ -78,12 +78,12 @@ export abstract class YoutubeComponent {
 
   showTitle(): void {
     this.isTitleVisible = !this.isTitleVisible
-    this.questionAnswerService.setPointsForQuestion(3)
+    this.questionAnswerService.setPointsForQuestion(2)
   }
 
   showAuthor(): void {
     this.isAuthorVisible = !this.isAuthorVisible
-    this.questionAnswerService.setPointsForQuestion(6)
+    this.questionAnswerService.setPointsForQuestion(4)
   }
 }
 

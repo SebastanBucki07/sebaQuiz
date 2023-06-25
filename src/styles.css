@@ -8,11 +8,25 @@
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: #5710B2;
+  background: rgb(80, 120, 242);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(80, 120, 242, 1) 0%,
+    rgba(87, 16, 178, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(80, 120, 242, 1) 0%,
+    rgba(87, 16, 178, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(90deg, rgba(80, 120, 242, 1) 0%, rgba(87, 16, 178, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5078f2",endColorstr="#00d4ff",GradientType=1);
   color: #ffffff;
   font-size: 2vw;
   text-align: center;
-  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
 @keyframes example {
@@ -27,7 +41,7 @@
 }
 
 /* The element to apply the animation to */
-.modal{
+.modal {
   animation-name: example;
   animation-duration: 2s;
 }
@@ -53,19 +67,19 @@
   }
 }
 
-.info{
+.info {
   /*display:none;*/
   display: inline;
   z-index: 5;
 }
 
-.close-button{
+.close-button {
   position: absolute;
   top: 0;
   right: 0;
   height: 100px;
   width: 100px;
-  background-image: url("./assets/icons/x-circle.svg");
+  background-image: url('./assets/icons/x-circle.svg');
   background-repeat: no-repeat;
   background-size: cover;
   z-index: 1;
@@ -75,19 +89,26 @@
   padding: 10px;
   margin-left: 40px;
   margin-top: 10px;
-  background-color: rgba(32,212,137,255);
+  background-color: rgba(32, 212, 137, 255);
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.card{
-  min-width: 10rem;margin-top:10px;
+.card {
+  min-width: 10rem;
+  margin-top: 10px;
 }
 
-.correct{
+.correct {
   color: #adff2f;
   font-size: xxx-large;
   padding-bottom: 20px;
   margin-bottom: 10px;
+}
+
+body {
+  background-color: #06bcfb;
+  background-image: linear-gradient(315deg, #06bcfb 0%, #4884ee 74%);
+  color: white;
 }

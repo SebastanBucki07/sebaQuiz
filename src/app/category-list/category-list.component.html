@@ -1,4 +1,4 @@
-<div *ngIf="areCategoriesChoosen" [ngSwitch]="questionType">
+<div *ngIf="areCategoriesChosen" [ngSwitch]="questionType">
   <div class="row" *ngSwitchCase="0">
     <app-books></app-books>
   </div>
@@ -108,19 +108,15 @@
     <app-football-cross></app-football-cross>
   </div>
   <div class="row" *ngSwitchDefault>
-    <div *ngIf="categories.length > 0" class="row">
-      <button
-        type="button"
-        class="btn btn-outline-info btn-lg btn-block col-12 randomButton"
-        (click)="setQuestionType(50)"
-      >
+    <div *ngIf="categories.length > 0">
+      <button type="button" class="question-button btn btn-primary col-12 randomButton" (click)="setQuestionType(50)">
         Wylosuj
       </button>
       <div *ngFor="let category of categories">
         <button
           id="{{ category.name }}"
           type="button"
-          class="btn btn-outline-info btn-lg btn-block col-12"
+          class="question-button btn-lg col-sm col-lg-3 {{ category.class }}"
           (click)="setQuestionType(category.id)"
         >
           {{ category.name }}

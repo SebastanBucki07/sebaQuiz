@@ -5,7 +5,6 @@ import { QuestionTypesService } from '../question-types.service'
 import { PlayersService } from '../players.service'
 
 import { Category } from '../model/category-model'
-import { groupedCategories } from '../../assets/categories/categories'
 
 @Component({
   selector: 'app-category-list',
@@ -18,9 +17,8 @@ export class CategoryListComponent implements OnInit {
   private subscription: Subscription | any
   private subscription2: Subscription | any
   categoriesId: number[] = []
-  public areCategoriesChoosen = false
+  public areCategoriesChosen = false
   categories: Category[] = []
-  public groupedCategories = groupedCategories
 
   constructor(public categoryService: QuestionTypesService, public playerService: PlayersService) {
     this.questionType = -1
@@ -35,10 +33,10 @@ export class CategoryListComponent implements OnInit {
     })
     this.subscription2 = this.categoryService.getChoosen().subscribe((x) => {
       if (x) {
-        this.areCategoriesChoosen = true
+        this.areCategoriesChosen = true
         this.confirm()
       } else {
-        this.areCategoriesChoosen = false
+        this.areCategoriesChosen = false
       }
     })
   }
@@ -62,69 +60,6 @@ export class CategoryListComponent implements OnInit {
       } while (actualCategory === category)
     }
     console.log(`category: ${JSON.stringify(category)}`)
-    switch (category) {
-      case 0: {
-        const tmp = randomFromArray(this.groupedCategories[0].categories)
-        this.categoryService.setActiveCategory(tmp.id)
-        break
-      }
-      case 1: {
-        const tmp = randomFromArray(this.groupedCategories[1].categories)
-        this.categoryService.setActiveCategory(tmp.id)
-        break
-      }
-      case 2: {
-        const tmp = randomFromArray(this.groupedCategories[2].categories)
-        this.categoryService.setActiveCategory(tmp.id)
-        break
-      }
-      case 3: {
-        const tmp = randomFromArray(this.groupedCategories[3].categories)
-        this.categoryService.setActiveCategory(tmp.id)
-        break
-      }
-      case 4: {
-        const tmp = randomFromArray(this.groupedCategories[4].categories)
-        this.categoryService.setActiveCategory(tmp.id)
-        break
-      }
-      case 5: {
-        const tmp = randomFromArray(this.groupedCategories[5].categories)
-        this.categoryService.setActiveCategory(tmp.id)
-        break
-      }
-      case 6: {
-        this.categoryService.setActiveCategory(this.groupedCategories[6].categories[0].id)
-        break
-      }
-      case 7: {
-        const tmp = randomFromArray(this.groupedCategories[7].categories)
-        this.categoryService.setActiveCategory(tmp.id)
-        break
-      }
-      case 8: {
-        this.categoryService.setActiveCategory(this.groupedCategories[8].categories[0].id)
-        break
-      }
-      case 9: {
-        this.categoryService.setActiveCategory(this.groupedCategories[9].categories[0].id)
-        break
-      }
-      case 10: {
-        this.categoryService.setActiveCategory(this.groupedCategories[10].categories[0].id)
-        break
-      }
-      case 11: {
-        this.categoryService.setActiveCategory(this.groupedCategories[11].categories[0].id)
-        break
-      }
-      case 12: {
-        this.categoryService.setActiveCategory(this.groupedCategories[12].categories[0].id)
-        break
-      }
-      default: {
-        break
-      }
-    }
+    this.categoryService.setActiveCategory(category)
   }
 }

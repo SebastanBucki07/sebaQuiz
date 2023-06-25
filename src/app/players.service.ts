@@ -29,6 +29,10 @@ export class PlayersService {
     return interval(1000).pipe(map(() => this.actualPlayer))
   }
 
+  getPlayerLength(): Observable<Player[]> {
+    return interval(1000).pipe(map(() => this.players))
+  }
+
   addPoints(id: number, points: number): void {
     this.players[id].points += points
   }
