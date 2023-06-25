@@ -10,7 +10,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
   template: '',
 })
 export abstract class YoutubeComponent {
-  protected random1: YoutubeModel | any = {}
+  protected randomYoutube: YoutubeModel | any = {}
   protected question = ''
   protected isTitleVisible = false
   protected isNotSerial = true
@@ -37,18 +37,18 @@ export abstract class YoutubeComponent {
   getQuestion(): void {
     switch (this.category) {
       case 'song': {
-        this.random1 = this.questionDataService.getYoutubeSongQuestion()
+        this.randomYoutube = this.questionDataService.getYoutubeSongQuestion()
         this.question = 'Podaj tytuł oraz wykonawcę'
         break
       }
       case 'opening': {
-        this.random1 = this.questionDataService.getYoutubeSerialsQuestion()
+        this.randomYoutube = this.questionDataService.getYoutubeSerialsQuestion()
         this.question = 'Podaj tytuł serialu'
         this.isNotSerial = false
         break
       }
       case 'mundial': {
-        this.random1 = this.questionDataService.getMundialQuestion()
+        this.randomYoutube = this.questionDataService.getMundialQuestion()
         this.question = 'W jakiej imprezie sportowej ta piosenka była głowną?'
         this.isNotSerial = false
         this.answerDescription = 'Impreza:'
@@ -59,10 +59,10 @@ export abstract class YoutubeComponent {
       }
     }
     this.questionAnswerService.setPointsForQuestion(2)
-    this.tip = this.random1.url
+    this.tip = this.randomYoutube.url
     this.urlSafe = this.sanitizer.bypassSecurityTrustResourceUrl(this.tip)
-    this.title = this.random1.title
-    this.author = this.random1.author
+    this.title = this.randomYoutube.title
+    this.author = this.randomYoutube.author
   }
 
   close(): void {

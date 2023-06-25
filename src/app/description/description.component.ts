@@ -10,7 +10,7 @@ import { QuestionTypesService } from '../question-types.service'
   template: '',
 })
 export abstract class DescriptionComponent {
-  public random1: DescriptionModel | any = {}
+  public randomDescription: DescriptionModel | any = {}
   public category = ''
   public isVisible = false
 
@@ -29,86 +29,86 @@ export abstract class DescriptionComponent {
   getQuestion(): void {
     switch (this.category) {
       case 'movie': {
-        this.random1 = this.questionDataService.getMoviesDescriptionQuestion()
+        this.randomDescription = this.questionDataService.getMoviesDescriptionQuestion()
         this.questionAnswerService.setQuestion('Co to za film?')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'serial': {
-        this.random1 = this.questionDataService.getSerialsDescriptionQuestion()
+        this.randomDescription = this.questionDataService.getSerialsDescriptionQuestion()
         this.questionAnswerService.setQuestion('Co to za serial?')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'game': {
-        this.random1 = this.questionDataService.getGamesDescriptionQuestion()
+        this.randomDescription = this.questionDataService.getGamesDescriptionQuestion()
         this.questionAnswerService.setQuestion('Co to za gra')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'district': {
-        this.random1 = this.questionDataService.getDistrictsDescriptionQuestion()
+        this.randomDescription = this.questionDataService.getDistrictsDescriptionQuestion()
         this.questionAnswerService.setQuestion('Z jakiego jestem województwa?')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(3)
         break
       }
       case 'stadium': {
-        this.random1 = this.questionDataService.getStadiumQuestion()
+        this.randomDescription = this.questionDataService.getStadiumQuestion()
         this.questionAnswerService.setQuestion('Jakiego klubu/reprezentacji jestem stadionem?')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(3)
         break
       }
       case 'proverb': {
-        this.random1 = this.questionDataService.getProverbQuestion()
+        this.randomDescription = this.questionDataService.getProverbQuestion()
         this.questionAnswerService.setQuestion('Dokończ przysłowie')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'history': {
-        this.random1 = this.questionDataService.getHistoryQuestion()
+        this.randomDescription = this.questionDataService.getHistoryQuestion()
         this.questionAnswerService.setQuestion('Podaj datę')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(3)
         break
       }
       case 'chemistSymbol': {
-        this.random1 = this.questionDataService.getChemistQuestion()
+        this.randomDescription = this.questionDataService.getChemistQuestion()
         this.questionAnswerService.setQuestion('Jaki to pierwiastek?')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(3)
         break
       }
       case 'biology': {
-        this.random1 = this.questionDataService.getBiologyQuestion()
+        this.randomDescription = this.questionDataService.getBiologyQuestion()
         this.questionAnswerService.setQuestion('Co to jest?')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(3)
         break
       }
       case 'gods': {
-        this.random1 = this.questionDataService.getGodsQuestion()
+        this.randomDescription = this.questionDataService.getGodsQuestion()
         this.questionAnswerService.setQuestion('O kogo/ o co chodzi?')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(3)
         break
       }
       case 'football': {
-        this.random1 = this.questionDataService.getFootballQuestion()
+        this.randomDescription = this.questionDataService.getFootballQuestion()
         this.questionAnswerService.setQuestion('Podaj Reprezentacje lub klub lub zawodnika')
-        this.questionAnswerService.setAnswer(this.random1.title)
+        this.questionAnswerService.setAnswer(this.randomDescription.title)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'capitals': {
-        this.random1 = this.questionDataService.getCountries('countriesForCapitals')
-        this.questionAnswerService.setQuestion(`Jaka jest stolica ${this.random1.name}`)
-        this.questionAnswerService.setAnswer(this.random1.capital)
+        this.randomDescription = this.questionDataService.getCountries('countriesForCapitals')
+        this.questionAnswerService.setQuestion(`Jaka jest stolica ${this.randomDescription.name}`)
+        this.questionAnswerService.setAnswer(this.randomDescription.capital)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
@@ -117,7 +117,7 @@ export abstract class DescriptionComponent {
       }
     }
     this.timerService.setTimer(0.5)
-    this.questionAnswerService.setTip(this.random1.description)
+    this.questionAnswerService.setTip(this.randomDescription.description)
   }
 
   close(): void {

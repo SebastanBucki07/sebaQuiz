@@ -12,7 +12,7 @@
         class="test"
         *ngIf="!isVisible"
         [ngStyle]="{
-          background: 'url(assets/clubs/' + random1 + ')' + size1 + 'px ' + size2 + 'px no-repeat',
+          background: 'url(assets/clubs/' + randomClubCrest + ')' + size1 + 'px ' + size2 + 'px no-repeat',
           height: '300px',
           width: '300px',
           'background-size': '300%'
@@ -23,9 +23,9 @@
       <div class="row">
         <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
           <div class="card" style="width: 30rem">
-            <img class="card-img-top" src="assets/clubs/{{ random1 }}" alt="{{ random1 }}" />
+            <img class="card-img-top" src="assets/clubs/{{ randomClubCrest }}" alt="{{ randomClubCrest }}" />
             <h4 class="correct">
-              {{ random1 }}
+              {{ randomClubCrest }}
               <app-add-points></app-add-points>
             </h4>
           </div>

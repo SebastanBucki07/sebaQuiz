@@ -28,12 +28,12 @@ export interface Dict {
   styleUrls: ['./football-cross.component.css'],
 })
 export class FootballCrossComponent implements OnInit {
-  protected alllData = footballCrossData
+  protected allData = footballCrossData
   protected clubsData = footballClubs
   protected clubsCross: ClubCross[] = []
   protected randomTeams: string[] = []
   //public teamsInfo = [...this.clubsData]
-  protected cests = crests
+  protected crests = crests
   protected crestsForQuestion: string[] = []
   protected players: PlayerForFamiliada[] = []
   protected actualChar = ''
@@ -75,7 +75,7 @@ export class FootballCrossComponent implements OnInit {
 
   createLib(): void {
     console.log('createLib()')
-    this.alllData.forEach((player) => {
+    this.allData.forEach((player) => {
       console.log(JSON.stringify(player))
       if (player.kluby) {
         player.kluby.forEach((klub) => {
@@ -269,7 +269,7 @@ export class FootballCrossComponent implements OnInit {
   setCrests(): void {
     this.crestsForQuestion = []
     this.randomTeams.forEach((team) => {
-      const found = this.cests.find((club) => club.team === team)
+      const found = this.crests.find((club) => club.team === team)
       if (found) {
         this.crestsForQuestion.push(found.crest)
       }
@@ -282,7 +282,7 @@ export class FootballCrossComponent implements OnInit {
       const found1 = this.clubsData.find((club) => club.team === cross.team1)
       const found2 = this.clubsData.find((club) => club.team === cross.team2)
       if (found1 !== undefined && found2 !== undefined) {
-        this.alllData.forEach((player) => {
+        this.allData.forEach((player) => {
           if (player.kluby.includes(found1.team) && player.kluby.includes(found2.team)) {
             cross.count++
             cross.players.push(player.zawodnik)

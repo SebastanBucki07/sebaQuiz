@@ -10,7 +10,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
   template: '',
 })
 export class TipsComponent {
-  protected random1: TipsModel | any = {}
+  protected randomTips: TipsModel | any = {}
   protected question = ''
   protected hasTip3 = true
   protected category = ''
@@ -33,19 +33,19 @@ export class TipsComponent {
   getQuestion(): void {
     switch (this.category) {
       case 'moviesHero': {
-        this.random1 = this.questionDataService.getMoviesHeroQuestion()
+        this.randomTips = this.questionDataService.getMoviesHeroQuestion()
         this.question = 'W jakim filmie byli ci bohaterowie:?'
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'serialsHero': {
-        this.random1 = this.questionDataService.getSerialsHeroQuestion()
+        this.randomTips = this.questionDataService.getSerialsHeroQuestion()
         this.question = 'W jakim serialu byli ci bohaterowie:?'
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'directors': {
-        this.random1 = this.questionDataService.getDirectorsQuestion()
+        this.randomTips = this.questionDataService.getDirectorsQuestion()
         this.question = 'Kto wyreżyserował?'
         this.questionAnswerService.setPointsForQuestion(4)
         break
@@ -55,13 +55,13 @@ export class TipsComponent {
       }
     }
     this.timerService.setTimer(0.5)
-    this.tip = this.random1.Tip1
-    this.tip2 = this.random1.Tip2
-    this.tip3 = this.random1.Tip3
+    this.tip = this.randomTips.Tip1
+    this.tip2 = this.randomTips.Tip2
+    this.tip3 = this.randomTips.Tip3
     if (this.tip3 === '-') {
       this.hasTip3 = false
     }
-    this.questionAnswerService.setAnswer(this.random1.Answer)
+    this.questionAnswerService.setAnswer(this.randomTips.Answer)
   }
 
   close(): void {

@@ -96,6 +96,14 @@ export const groupedCategories = [
     ],
   },
   {
+    groupName: 'countryCategory',
+    categories: [
+      { name: 'Państwo po miastach', id: 22, checkbox: false },
+      { name: 'Z jakiego krjau jest ta flaga?', id: 29, checkbox: false },
+      { name: 'Stolice krajów?', id: 30, checkbox: false },
+    ],
+  },
+  {
     groupName: 'footballCategories',
     categories: [
       { name: 'Klubowa Historia', id: 3, checkbox: false },
@@ -106,6 +114,10 @@ export const groupedCategories = [
       { name: 'Był taki mecz', id: 32, checkbox: false },
       { name: 'Wypisywanie róznych wspólnych - piłka nożna', id: 34, checkbox: false },
     ],
+  },
+  {
+    groupName: 'gamesCategory',
+    categories: [{ name: 'Gra - opis', id: 7, checkbox: false }],
   },
   {
     groupName: 'lifeCategories',
@@ -119,24 +131,12 @@ export const groupedCategories = [
     categories: [{ name: 'Rozpoznaj osobe ze zdjęcia', id: 12, checkbox: false }],
   },
   {
-    groupName: 'countryCategory',
-    categories: [
-      { name: 'Państwo po miastach', id: 22, checkbox: false },
-      { name: 'Z jakiego krjau jest ta flaga?', id: 29, checkbox: false },
-      { name: 'Stolice krajów?', id: 30, checkbox: false },
-    ],
-  },
-  {
     groupName: 'countryInputCategory',
     categories: [{ name: 'Wypisz kraje lub stolice', id: 2, checkbox: false }],
   },
   {
     groupName: 'familiada',
     categories: [{ name: 'Familiada', id: 31, checkbox: false }],
-  },
-  {
-    groupName: 'gamesCategory',
-    categories: [{ name: 'Gra - opis', id: 7, checkbox: false }],
   },
   {
     groupName: 'writtingCategory',

@@ -12,7 +12,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
   template: '',
 })
 export abstract class ActorsComponent {
-  public random1: ActorModel | any = {}
+  public randomActorForQuestion: ActorModel | any = {}
   public isVisible = false
   public category = ''
   public photosData: PhotoModel[] = actors
@@ -57,13 +57,13 @@ export abstract class ActorsComponent {
   getQuestion(): void {
     switch (this.category) {
       case 'movieActors': {
-        this.random1 = this.questionDataService.getMoviesActorsQuestion()
+        this.randomActorForQuestion = this.questionDataService.getMoviesActorsQuestion()
         this.questionAnswerService.setQuestion('W jakim filmie była taka obsada?')
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'serialsActors': {
-        this.random1 = this.questionDataService.getSerialsActorsQuestion()
+        this.randomActorForQuestion = this.questionDataService.getSerialsActorsQuestion()
         this.questionAnswerService.setQuestion('W jakim serialu była taka obsada?')
         this.questionAnswerService.setPointsForQuestion(2)
         break
@@ -72,8 +72,8 @@ export abstract class ActorsComponent {
         break
       }
     }
-    this.questionAnswerService.setAnswer(this.random1.title)
-    this.tips = this.random1.actors
+    this.questionAnswerService.setAnswer(this.randomActorForQuestion.title)
+    this.tips = this.randomActorForQuestion.actors
     this.getAllPhotos(this.tips)
   }
 

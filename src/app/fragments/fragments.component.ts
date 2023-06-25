@@ -13,7 +13,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
 })
 export abstract class Fragments {
   private subscription: Subscription | any
-  protected random1: FragmentsModel = new FragmentBuilder(Category.SONG).build()
+  protected randomFragmentQuestion: FragmentsModel = new FragmentBuilder(Category.SONG).build()
   protected buttonText = ''
   protected category: Category = Category.SONG
   protected answerButtonText = ''
@@ -53,34 +53,34 @@ export abstract class Fragments {
         this.isAnswer2Visible = true
       }
     })
-    this.random1 = new FragmentBuilder(this.category).randomDataFromArray(1)
+    this.randomFragmentQuestion = new FragmentBuilder(this.category).randomDataFromArray(1)
     if (this.category === Category.SONGTIPS) {
       this.isTipQuestion = true
       this.buttonText = 'piosenka'
       this.answerButtonText = 'Pokaż wykonawce'
       this.question = 'Podaj wykonawcę utworów'
       this.answerDescription = 'Wykonawca'
-      this.answer1 = this.random1.author
+      this.answer1 = this.randomFragmentQuestion.author
     } else if (this.category === Category.CITIES) {
       this.isTipQuestion = true
       this.buttonText = 'Miasto '
       this.answerButtonText = 'Pokaż Panstwo'
       this.question = 'Z jakiego Państwa są te miasta?'
       this.answerDescription = 'Panstwo'
-      this.answer1 = this.random1.author
+      this.answer1 = this.randomFragmentQuestion.author
     } else {
       this.buttonText = 'fragment'
       this.answerButtonText = 'Pokaż tytuł'
       this.question = 'Podaj tytuł i autora'
       this.answerDescription = 'Tytuł:'
-      this.answer2 = this.random1.author
-      this.answer1 = this.random1.title
+      this.answer2 = this.randomFragmentQuestion.author
+      this.answer1 = this.randomFragmentQuestion.title
     }
     this.showQuestion1()
 
-    this.question1 = this.random1.fragment1
-    this.question2 = this.random1.fragment2
-    this.question3 = this.random1.fragment3
+    this.question1 = this.randomFragmentQuestion.fragment1
+    this.question2 = this.randomFragmentQuestion.fragment2
+    this.question3 = this.randomFragmentQuestion.fragment3
     this.questionAnswerService.setWinner(this.playerService.actualPlayer)
   }
 
@@ -149,7 +149,7 @@ export abstract class Fragments {
 })
 export class SongsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
-    this.random1 = new FragmentBuilder(Category.SONG).build()
+    this.randomFragmentQuestion = new FragmentBuilder(Category.SONG).build()
     this.category = Category.SONG
     this.init()
   }
@@ -163,7 +163,7 @@ export class SongsComponent extends Fragments implements OnInit {
 })
 export class BooksComponent extends Fragments implements OnInit {
   ngOnInit(): void {
-    this.random1 = new FragmentBuilder(Category.LECTURE).build()
+    this.randomFragmentQuestion = new FragmentBuilder(Category.LECTURE).build()
     this.category = Category.LECTURE
     this.init()
   }
@@ -177,7 +177,7 @@ export class BooksComponent extends Fragments implements OnInit {
 })
 export class SongTipsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
-    this.random1 = new FragmentBuilder(Category.SONGTIPS).build()
+    this.randomFragmentQuestion = new FragmentBuilder(Category.SONGTIPS).build()
     this.category = Category.SONGTIPS
     this.init()
   }
@@ -191,7 +191,7 @@ export class SongTipsComponent extends Fragments implements OnInit {
 })
 export class CitiesTipsComponent extends Fragments implements OnInit {
   ngOnInit(): void {
-    this.random1 = new FragmentBuilder(Category.CITIES).build()
+    this.randomFragmentQuestion = new FragmentBuilder(Category.CITIES).build()
     this.category = Category.CITIES
     this.init()
   }
