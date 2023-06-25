@@ -13,7 +13,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
   providers: [TimerService],
 })
 export class ClubHistoryComponent implements OnInit {
-  protected random1: ClubHistory | any = {}
+  protected randomFootballer: ClubHistory | any = {}
   protected isVisible = false
   protected tip = ''
   protected photos: any = []
@@ -28,24 +28,24 @@ export class ClubHistoryComponent implements OnInit {
 
   init(): void {
     this.timerService.setTimer(0.5)
-    this.random1 = this.questionDataService.getClubHistoryQuestion()
-    this.questionAnswerService.setAnswer(this.random1.osoba)
+    this.randomFootballer = this.questionDataService.getClubHistoryQuestion()
+    this.questionAnswerService.setAnswer(this.randomFootballer.osoba)
     this.questionAnswerService.setPointsForQuestion(3)
-    this.tip = this.random1.narodowosc
-    if (this.random1.klub1 != '-') {
-      this.photos.push(this.random1.klub1)
+    this.tip = this.randomFootballer.narodowosc
+    if (this.randomFootballer.klub1 != '-') {
+      this.photos.push(this.randomFootballer.klub1)
     }
-    if (this.random1.klub2 != '-') {
-      this.photos.push(this.random1.klub2)
+    if (this.randomFootballer.klub2 != '-') {
+      this.photos.push(this.randomFootballer.klub2)
     }
-    if (this.random1.klub3 != '-') {
-      this.photos.push(this.random1.klub3)
+    if (this.randomFootballer.klub3 != '-') {
+      this.photos.push(this.randomFootballer.klub3)
     }
-    if (this.random1.klub4 != '-') {
-      this.photos.push(this.random1.klub4)
+    if (this.randomFootballer.klub4 != '-') {
+      this.photos.push(this.randomFootballer.klub4)
     }
-    if (this.random1.klub5 != '-') {
-      this.photos.push(this.random1.klub5)
+    if (this.randomFootballer.klub5 != '-') {
+      this.photos.push(this.randomFootballer.klub5)
     }
   }
 

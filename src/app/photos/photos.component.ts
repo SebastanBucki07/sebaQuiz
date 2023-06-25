@@ -10,7 +10,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
   template: '',
 })
 export abstract class PhotosComponent {
-  protected random1: PhotoModel | any = {}
+  protected randomPhoto: PhotoModel | any = {}
   protected category = ''
   protected tip = ''
 
@@ -29,21 +29,21 @@ export abstract class PhotosComponent {
   getQuestion(): void {
     switch (this.category) {
       case 'famousPeople': {
-        this.random1 = this.questionDataService.getFamousPeoplePhotoQuestion()
+        this.randomPhoto = this.questionDataService.getFamousPeoplePhotoQuestion()
         this.questionAnswerService.setQuestion('Kim jest osoba ze zdjęcia?')
-        this.questionAnswerService.setTip(this.random1.photo)
+        this.questionAnswerService.setTip(this.randomPhoto.photo)
         break
       }
       case 'buildings': {
-        this.random1 = this.questionDataService.getBuildingsPhotoQuestion()
+        this.randomPhoto = this.questionDataService.getBuildingsPhotoQuestion()
         this.questionAnswerService.setQuestion('Jak nazywa sie budowla ze zdjęcia?')
-        this.questionAnswerService.setTip(this.random1.photo)
+        this.questionAnswerService.setTip(this.randomPhoto.photo)
         break
       }
       case 'flagues': {
-        this.random1 = this.questionDataService.getCountries('countriesForFlags')
+        this.randomPhoto = this.questionDataService.getCountries('countriesForFlags')
         this.questionAnswerService.setQuestion('Z jakiego kraju jest ta flaga?')
-        this.questionAnswerService.setTip(this.random1.code.toLowerCase())
+        this.questionAnswerService.setTip(this.randomPhoto.code.toLowerCase())
         this.questionAnswerService.setIsFlague(true)
         break
       }
@@ -54,7 +54,7 @@ export abstract class PhotosComponent {
     this.questionAnswerService.setPointsForQuestion(2)
     this.questionAnswerService.setIsPhoto(true)
     this.timerService.setTimer(0.5)
-    this.questionAnswerService.setAnswer(this.random1.name)
+    this.questionAnswerService.setAnswer(this.randomPhoto.name)
   }
 
   close(): void {

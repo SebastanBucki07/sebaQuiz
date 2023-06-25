@@ -15,7 +15,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
 })
 export class ClubCrestsComponent implements OnInit {
   private subscription: Subscription | any
-  public random1 = ''
+  public randomClubCrest = ''
   public isVisible = false
   public answer = ''
   public sizes = [-50, -100, -150, -200, -250, -300, -350, -400, -450, -500]
@@ -40,7 +40,7 @@ export class ClubCrestsComponent implements OnInit {
         this.isVisible = true
       }
     })
-    this.random1 = this.questionDataService.getClubCrestsQuestion()
+    this.randomClubCrest = this.questionDataService.getClubCrestsQuestion()
     this.setSize()
     this.timerService.setTimer(0.5)
   }

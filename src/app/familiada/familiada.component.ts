@@ -16,7 +16,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
   providers: [TimerService],
 })
 export class FamiliadaComponent implements OnInit {
-  protected random1: FamiliadaModel | any = {}
+  protected randomFamiliadaQuestion: FamiliadaModel | any = {}
   protected question = ''
   protected userAnswer = ''
   protected isVisible = false
@@ -74,7 +74,7 @@ export class FamiliadaComponent implements OnInit {
     this.isVisible = false
     this.setPlayersForFamiliada()
     this.questionAnswerService.setPointsForQuestion(3)
-    this.random1 = this.questionDataService.getFamiliadaQuestion()
+    this.randomFamiliadaQuestion = this.questionDataService.getFamiliadaQuestion()
     this.setAnswers()
     this.timerService.setTimer(0.5)
     this.timerService.timeout = false
@@ -102,46 +102,46 @@ export class FamiliadaComponent implements OnInit {
   }
 
   setAnswers(): void {
-    this.question = this.random1.question
-    if (this.random1.answer1 != '-') {
+    this.question = this.randomFamiliadaQuestion.question
+    if (this.randomFamiliadaQuestion.answer1 != '-') {
       this.answers.push({
         id: 1,
-        answer: this.random1.answer1.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer1.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer2 != '-') {
+    if (this.randomFamiliadaQuestion.answer2 != '-') {
       this.answers.push({
         id: 2,
-        answer: this.random1.answer2.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer2.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer3 != '-') {
+    if (this.randomFamiliadaQuestion.answer3 != '-') {
       this.answers.push({
         id: 3,
-        answer: this.random1.answer3.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer3.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer4 != '-') {
+    if (this.randomFamiliadaQuestion.answer4 != '-') {
       this.answers.push({
         id: 4,
-        answer: this.random1.answer4.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer4.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer5 != '-') {
+    if (this.randomFamiliadaQuestion.answer5 != '-') {
       this.answers.push({
         id: 5,
-        answer: this.random1.answer5.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer5.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer6 != '-') {
+    if (this.randomFamiliadaQuestion.answer6 != '-') {
       this.answers.push({
         id: 6,
-        answer: this.random1.answer6.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer6.toLowerCase(),
         display: false,
       })
     }
