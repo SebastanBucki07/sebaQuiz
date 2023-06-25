@@ -61,6 +61,7 @@ export class CategoryListComponent implements OnInit {
         category = tmp.id
       } while (actualCategory === category)
     }
+    console.log(`category: ${JSON.stringify(category)}`)
     switch (category) {
       case 0: {
         const tmp = randomFromArray(this.groupedCategories[0].categories)
