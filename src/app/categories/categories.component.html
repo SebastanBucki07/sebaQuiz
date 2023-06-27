@@ -59,7 +59,7 @@
             class="col-sm col-lg-4"
             *ngFor="let complete of chosenCategories"
             cdkDrag
-            (dblclick)="change(true, complete)"
+            (dblclick)="change(false, complete)"
           >
             <mat-card-header class="{{ complete.class }} category-card text-uppercase text-center">
               <mat-card-title>{{ complete.id }}</mat-card-title>
