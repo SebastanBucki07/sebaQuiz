@@ -30,6 +30,8 @@ export class PlayersComponent implements OnInit {
   protected playersAdded = false
   protected isPlayersTableVisible = false
   private subscription: Subscription | any
+  protected alert = false
+  protected alertMsg = ''
 
   constructor(protected playerService: PlayersService) {
     this.players = []
@@ -47,17 +49,31 @@ export class PlayersComponent implements OnInit {
     })
   }
 
+  isPlayerOnList(name: string) {
+    return this.players.find((el) => el.name === name)
+  }
+
   addTeam(name: string): void {
     const playerLength = this.players.length
-    const player: Player = {
-      id: playerLength,
-      name: name,
-      points: 0,
-      tmpPoints: 0,
+    const playerExist = this.isPlayerOnList(name)
+    if (!playerExist) {
+      const player: Player = {
+        id: playerLength,
+        name: name,
+        points: 0,
+        tmpPoints: 0,
+      }
+      this.name = ''
+      this.players.push(player)
+      this.sendPlayers(this.players)
+    } else {
+      this.alert = true
+      this.alertMsg = `${name} juz istnieje na liście`
+      setTimeout(() => {
+        this.alert = false
+        this.alertMsg = ''
+      }, 2000)
     }
-    this.name = ''
-    this.players.push(player)
-    this.sendPlayers(this.players)
     this.addTeamButtonDisabled = true
     if (this.players.length > 1) {
       this.addTeamsButtonDisabled = false
