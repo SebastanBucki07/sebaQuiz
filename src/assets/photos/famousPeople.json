@@ -45,11 +45,6 @@
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/160px-Mohamed_Salah_2018.jpg"
   },
   {
-    "id": 10,
-    "name": "Dwayne Johnson The Rock",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dwayne_Johnson_Hercules_2014_%28cropped%29.jpg/174px-Dwayne_Johnson_Hercules_2014_%28cropped%29.jpg"
-  },
-  {
     "id": 11,
     "name": "Uros Korun",
     "photo": "http://img.90minut.pl/pix/players/korun_uros.jpg?t=1639383996"
@@ -305,11 +300,6 @@
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Daniel_Day-Lewis%2C_Jaguar%2C_Mille_Miglia_2013_cropped.jpg/157px-Daniel_Day-Lewis%2C_Jaguar%2C_Mille_Miglia_2013_cropped.jpg"
   },
   {
-    "id": 62,
-    "name": "Bryan Cranston",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Bryan_Cranston_Peabody_2014.jpg/170px-Bryan_Cranston_Peabody_2014.jpg"
-  },
-  {
     "id": 63,
     "name": "Heath Ledger",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Heath_Ledger.jpg/240px-Heath_Ledger.jpg"
@@ -427,7 +417,7 @@
   {
     "id": 86,
     "name": "Taco Hemingway",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Taco_Krk_2020.jpg/454px-Taco_Krk_2020.jpg?20200415111712`"
+    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Taco_Krk_2020.jpg/363px-Taco_Krk_2020.jpg`"
   },
   {
     "id": 87,
@@ -543,11 +533,6 @@
     "id": 109,
     "name": "Maciej Kurzajewski",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Maciej_Kurzajewski_%282018%29.jpg/191px-Maciej_Kurzajewski_%282018%29.jpg"
-  },
-  {
-    "id": 110,
-    "name": "Roger Federer",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/R_federer.jpg/190px-R_federer.jpg"
   },
   {
     "id": 111,
@@ -713,11 +698,6 @@
     "id": 143,
     "name": "Mariusz Wlazły",
     "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Mariusz_Wlaz%C5%82y_2013_02.jpg/240px-Mariusz_Wlaz%C5%82y_2013_02.jpg"
-  },
-  {
-    "id": 144,
-    "name": "Paweł Zagumny",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pawe%C5%82_Zagumny_2010-07-09.jpg/215px-Pawe%C5%82_Zagumny_2010-07-09.jpg"
   },
   {
     "id": 145,
@@ -2020,11 +2000,6 @@
     "photo": "https://fwcdn.pl/ppo/00/58/58/449893.2.jpg"
   },
   {
-    "id": 405,
-    "name": "Liam Neeson",
-    "photo": "https://fwcdn.pl/ppo/00/74/74/449903.2.jpg"
-  },
-  {
     "id": 406,
     "name": "Harrison Ford",
     "photo": "https://fwcdn.pl/ppo/01/74/174/449707.2.jpg"
@@ -2066,11 +2041,6 @@
   },
   {
     "id": 414,
-    "name": "Roger Moore",
-    "photo": "https://fwcdn.pl/ppo/72/29/7229/450514.2.jpg"
-  },
-  {
-    "id": 415,
     "name": "Roger Moore",
     "photo": "https://fwcdn.pl/ppo/72/29/7229/450514.2.jpg"
   },
@@ -2133,11 +2103,6 @@
     "id": 427,
     "name": "Alexandre Rodrigues",
     "photo": "https://fwcdn.pl/ppo/52/38/95238/259571.1.jpg"
-  },
-  {
-    "id": 428,
-    "name": "Winona Ryder",
-    "photo": "https://fwcdn.pl/ppo/00/94/94/450010.2.jpg"
   },
   {
     "id": 429,
@@ -2242,7 +2207,7 @@
   {
     "id": 449,
     "name": "Jerzy Stuhr",
-    "photo": "https://fwcdn.pl/ppo/01/10/110/347046.1.jpg"
+    "photo": "https://fwcdn.pl/ppo/01/10/110/466629.2.jpg"
   },
   {
     "id": 450,
@@ -2405,11 +2370,6 @@
     "photo": "https://fwcdn.pl/ppo/17/08/481708/242238.1.jpg"
   },
   {
-    "id": 482,
-    "name": "Julia Kamińska",
-    "photo": "https://fwcdn.pl/ppo/93/41/1009341/458064.2.jpg"
-  },
-  {
     "id": 483,
     "name": "Donnie Wahlberg",
     "photo": "https://fwcdn.pl/ppo/39/45/3945/452649.2.jpg"
@@ -2423,11 +2383,6 @@
     "id": 485,
     "name": "Mary Elizabeth Winstead",
     "photo": "https://fwcdn.pl/ppo/42/47/154247/450214.2.jpg"
-  },
-  {
-    "id": 486,
-    "name": "Mary Elizabeth Winstead",
-    "photo": "https://fwcdn.pl/ppo/45/06/74506/455216.2.jpg"
   },
   {
     "id": 487,
@@ -3355,11 +3310,6 @@
     "photo": "https://fwcdn.pl/ppo/91/33/519133/450904.1.jpg"
   },
   {
-    "id": 672,
-    "name": "Miguel Herrán",
-    "photo": "https://fwcdn.pl/ppo/91/02/2119102/450905.1.jpg"
-  },
-  {
     "id": 673,
     "name": "Pedro Alonso",
     "photo": "https://fwcdn.pl/ppo/62/38/136238/450902.1.jpg"
@@ -3570,11 +3520,6 @@
     "photo": "https://fwcdn.pl/ppo/63/97/1276397/357752_1.1.jpg"
   },
   {
-    "id": 715,
-    "name": "Rami Malek",
-    "photo": "https://fwcdn.pl/ppo/34/09/563409/449652.1.jpg"
-  },
-  {
     "id": 716,
     "name": "Christian Slater",
     "photo": "https://fwcdn.pl/ppo/01/03/103/450351.1.jpg"
@@ -3596,26 +3541,6 @@
   },
   {
     "id": 720,
-    "name": "Lily Rabe",
-    "photo": "https://fwcdn.pl/ppo/60/62/66062/452025.1.jpg"
-  },
-  {
-    "id": 721,
-    "name": "Jason Segel",
-    "photo": "Marshall Eriksen"
-  },
-  {
-    "id": 722,
-    "name": "Lily Rabe",
-    "photo": "https://fwcdn.pl/ppo/60/62/66062/452025.1.jpg"
-  },
-  {
-    "id": 723,
-    "name": "Lily Rabe",
-    "photo": "https://fwcdn.pl/ppo/60/62/66062/452025.1.jpg"
-  },
-  {
-    "id": 724,
     "name": "Lily Rabe",
     "photo": "https://fwcdn.pl/ppo/60/62/66062/452025.1.jpg"
   },
@@ -4280,11 +4205,6 @@
     "photo": "https://fwcdn.pl/ppo/10/96/221096/346909.1.jpg"
   },
   {
-    "id": 857,
-    "name": "Katarzyna Kwiatkowska",
-    "photo": "https://fwcdn.pl/ppo/10/96/221096/346909.1.jpg"
-  },
-  {
     "id": 858,
     "name": "Jakub Zdrójkowski",
     "photo": "https://fwcdn.pl/ppo/97/23/1149723/458621.1.jpg"
@@ -4318,11 +4238,6 @@
     "id": 864,
     "name": "Mateusz Janicki",
     "photo": "https://fwcdn.pl/ppo/72/03/297203/386048.1.jpg"
-  },
-  {
-    "id": 865,
-    "name": "Julia Kamińska",
-    "photo": "https://fwcdn.pl/ppo/17/08/481708/242238.1.jpg"
   },
   {
     "id": 866,
@@ -4423,11 +4338,6 @@
     "id": 885,
     "name": "Cristina Castaño",
     "photo": "https://fwcdn.pl/ppo/54/35/755435/275961.1.jpg"
-  },
-  {
-    "id": 886,
-    "name": "María Pedraza",
-    "photo": "https://fwcdn.pl/ppo/30/44/2583044/454308.1.jpg"
   },
   {
     "id": 887,
@@ -4533,11 +4443,6 @@
     "id": 907,
     "name": "Mike Colter",
     "photo": "https://fwcdn.pl/ppo/32/74/253274/450370.1.jpg"
-  },
-  {
-    "id": 908,
-    "name": "Alfre Woodard",
-    "photo": "https://fwcdn.pl/ppo/83/52/8352/451044.1.jpg"
   },
   {
     "id": 909,
@@ -8682,11 +8587,181 @@
   {
     "id": 1737,
     "name": "Kate Winslet",
-    "photo": "https://fwcdn.pl/ppo/97/80/2589780/457398.2.jpg"
+    "photo": "https://fwcdn.pl/ppo/01/19/119/449967.2.jpg"
   },
   {
     "id": 1738,
     "name": "Wojciech Zieliński",
-    "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Wojciech_Zieli%C5%84ski.JPG/180px-Wojciech_Zieli%C5%84ski.JPG"
+    "photo": "https://pl.wikipedia.org/wiki/Plik:Wojciech_Zieli%C5%84ski.JPG"
+  },
+  {
+    "id": 1739,
+    "name": "Tom Cruise",
+    "photo": "https://fwcdn.pl/ppo/00/24/24/449878.2.jpg"
+  },
+  {
+    "id": 1740,
+    "name": "Jon Voight",
+    "photo": "https://fwcdn.pl/ppo/50/78/5078/450375.2.jpg"
+  },
+  {
+    "id": 1741,
+    "name": "Emmanuelle Béart",
+    "photo": "https://fwcdn.pl/ppo/01/36/136/450681.2.jpg"
+  },
+  {
+    "id": 1742,
+    "name": "Kristin Scott Thomas",
+    "photo": "https://fwcdn.pl/ppo/02/79/279/450121.2.jpg"
+  },
+  {
+    "id": 1743,
+    "name": "Dougray Scott",
+    "photo": "https://fwcdn.pl/ppo/29/60/2960/451537.2.jpg"
+  },
+  {
+    "id": 1744,
+    "name": "Thandiwe Newton",
+    "photo": "https://fwcdn.pl/ppo/03/85/385/450167.2.jpg"
+  },
+  {
+    "id": 1745,
+    "name": "Richard Roxburgh",
+    "photo": "https://fwcdn.pl/ppo/36/44/3644/451961.2.jpg"
+  },
+  {
+    "id": 1746,
+    "name": "Philip Seymour Hoffman",
+    "photo": "https://fwcdn.pl/ppo/26/49/2649/450270.2.jpg"
+  },
+  {
+    "id": 1747,
+    "name": "Billy Crudup",
+    "photo": "https://fwcdn.pl/ppo/54/95/5495/450251.2.jpg"
+  },
+  {
+    "id": 1748,
+    "name": "Michelle Monaghan",
+    "photo": "https://fwcdn.pl/ppo/82/19/68219/450193.2.jpg"
+  },
+  {
+    "id": 1749,
+    "name": "Jonathan Rhys Meyers",
+    "photo": "https://fwcdn.pl/ppo/81/94/138194/450288.2.jpg"
+  },
+  {
+    "id": 1750,
+    "name": "Keri Russell",
+    "photo": "https://fwcdn.pl/ppo/05/86/40586/451331.2.jpg"
+  },
+  {
+    "id": 1751,
+    "name": "Paula Patton",
+    "photo": "https://fwcdn.pl/ppo/56/92/265692/450414.2.jpg"
+  },
+  {
+    "id": 1752,
+    "name": "Simon Pegg",
+    "photo": "https://fwcdn.pl/ppo/77/66/7766/450367.2.jpg"
+  },
+  {
+    "id": 1753,
+    "name": "Michael Nyqvist",
+    "photo": "https://fwcdn.pl/ppo/16/44/31644/450836.2.jpg"
+  },
+  {
+    "id": 1754,
+    "name": "Rebecca Ferguson",
+    "photo": "https://fwcdn.pl/ppo/15/21/151521/450799.2.jpg"
+  },
+  {
+    "id": 1755,
+    "name": "Alec Baldwin",
+    "photo": "https://fwcdn.pl/ppo/00/05/5/450778.2.jpg"
+  },
+  {
+    "id": 1756,
+    "name": "Sean Harris",
+    "photo": "https://fwcdn.pl/ppo/80/54/68054/450801.2.jpg"
+  },
+  {
+    "id": 1757,
+    "name": "Angela Bassett",
+    "photo": "https://fwcdn.pl/ppo/57/64/5764/450227.2.jpg"
+  },
+  {
+    "id": 1758,
+    "name": "Anna Faris",
+    "photo": "https://fwcdn.pl/ppo/04/81/481/450320.2.jpg"
+  },
+  {
+    "id": 1759,
+    "name": "Jon Abrahams",
+    "photo": "https://fwcdn.pl/ppo/04/82/482/455636.2.jpg"
+  },
+  {
+    "id": 1760,
+    "name": "Lochlyn Munro",
+    "photo": "https://fwcdn.pl/ppo/04/83/483/454571.2.jpg"
+  },
+  {
+    "id": 1761,
+    "name": "Shawn Wayans",
+    "photo": "https://fwcdn.pl/ppo/04/77/477/452807.2.jpg"
+  },
+  {
+    "id": 1762,
+    "name": "Regina Hall",
+    "photo": "https://fwcdn.pl/ppo/39/31/53931/450337.2.jpg"
+  },
+  {
+    "id": 1763,
+    "name": "Marlon Wayans",
+    "photo": "https://fwcdn.pl/ppo/04/78/478/450556.2.jpg"
+  },
+  {
+    "id": 1764,
+    "name": "Christopher Masterson",
+    "photo": "https://fwcdn.pl/ppo/37/57/3757/333659.1.jpg"
+  },
+  {
+    "id": 1765,
+    "name": "Kathleen Robertson",
+    "photo": "https://fwcdn.pl/ppo/39/33/53933/455776.2.jpg"
+  },
+  {
+    "id": 1766,
+    "name": "David Cross",
+    "photo": "https://fwcdn.pl/ppo/36/00/3600/454862.2.jpg"
+  },
+  {
+    "id": 1767,
+    "name": "Tim Curry",
+    "photo": "https://fwcdn.pl/ppo/79/72/7972/450240.2.jpg"
+  },
+  {
+    "id": 1768,
+    "name": "Simon Rex",
+    "photo": "https://fwcdn.pl/ppo/03/53/60353/459915.2.jpg"
+  },
+  {
+    "id": 1769,
+    "name": "Leslie Nielsen",
+    "photo": "https://fwcdn.pl/ppo/29/46/2946/449720.2.jpg"
+  },
+  {
+    "id": 1770,
+    "name": "Macaulay Culkin",
+    "photo": "https://fwcdn.pl/ppo/14/70/41470/452053.2.jpg"
+  },
+  {
+    "id": 1771,
+    "name": "Daniel Stern",
+    "photo": "https://fwcdn.pl/ppo/31/23/3123/456275.2.jpg"
+  },
+  {
+    "id": 1772,
+    "name": "Catherine O'Hara",
+    "photo": "https://fwcdn.pl/ppo/39/63/3963/452347.2.jpg"
   }
 ]
