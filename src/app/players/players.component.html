@@ -1,4 +1,9 @@
 <ng-container *ngIf="!playersAdded">
+  <ng-container *ngIf="alert">
+    <div class="alert alert-danger" role="alert">
+      {{ alertMsg }}
+    </div>
+  </ng-container>
   <h2 class="title">1. Aby zagrać dodaj <strong>minimum dwie drużyny!</strong></h2>
   <h2 class="title">2. Nazwa drużyny <strong>nie może</strong> być krótsza niż 4 znaki!</h2>
   <input
