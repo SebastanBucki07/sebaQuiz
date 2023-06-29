@@ -10,9 +10,9 @@ export interface Timer {
   providedIn: 'root',
 })
 export class TimerService {
-  public timer = 1
-  public dateNow: Date | any
-  public dDay: Date | any
+  protected timer = 1
+  protected dateNow: Date | any
+  protected dDay: Date | any
   public timeout = false
   milliSecondsInASecond = 1000
   minutesInAnHour = 60
@@ -23,7 +23,7 @@ export class TimerService {
   }
 
   /* timer */
-  public getTimeDifference() {
+  protected getTimeDifference() {
     const timeDifference = this.dDay.getTime() - new Date().getTime()
     const timer = {
       secondsToDday: Math.floor((timeDifference / this.milliSecondsInASecond) % this.SecondsInAMinute),
@@ -31,7 +31,7 @@ export class TimerService {
         (timeDifference / (this.milliSecondsInASecond * this.minutesInAnHour)) % this.SecondsInAMinute
       ),
     }
-    if (timer.secondsToDday === 0) {
+    if (timer.secondsToDday <= 0) {
       this.timeout = true
     }
     return timer

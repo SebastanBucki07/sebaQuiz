@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core'
-import { AppComponent } from '../app.component'
 import { PlayersService } from '../players.service'
+import { Subscription } from 'rxjs'
 
 export interface Player {
   id: number
@@ -21,40 +21,64 @@ export interface PlayerForFamiliada {
   styleUrls: ['./players.component.css'],
 })
 export class PlayersComponent implements OnInit {
-  public addTeamInputVisible = true
-  public players: Player[]
-  public name: string
-  public addTeamsButtonDisabled = true
-  public addTeamButtonDisabled = true
+  protected players: Player[]
+  protected name: string
+  protected addTeamsButtonDisabled = true
+  protected addTeamButtonDisabled = true
+  protected actualPlayer = 0
 
-  constructor(private playerService: PlayersService, public myApp: AppComponent) {
+  protected playersAdded = false
+  protected isPlayersTableVisible = false
+  private subscription: Subscription | any
+  protected alert = false
+  protected alertMsg = ''
+
+  constructor(protected playerService: PlayersService) {
     this.players = []
     this.name = ''
   }
 
   ngOnInit(): void {
     console.log(`init playersComponent`)
+    this.getActualPlayer()
   }
 
-  addPoints(id: number, points: number): void {
-    this.players[id].points += points
+  getActualPlayer(): void {
+    this.subscription = this.playerService.getActualPlayer().subscribe((x) => {
+      this.actualPlayer = x
+    })
+  }
+
+  isPlayerOnList(name: string) {
+    return this.players.find((el) => el.name === name)
   }
 
   addTeam(name: string): void {
     const playerLength = this.players.length
-    const player: Player = {
-      id: playerLength,
-      name: name,
-      points: 0,
-      tmpPoints: 0,
+    const playerExist = this.isPlayerOnList(name)
+    if (!playerExist) {
+      const player: Player = {
+        id: playerLength,
+        name: name,
+        points: 0,
+        tmpPoints: 0,
+      }
+      this.name = ''
+      this.players.push(player)
+      this.sendPlayers(this.players)
+    } else {
+      this.alert = true
+      this.alertMsg = `${name} juz istnieje na liście`
+      setTimeout(() => {
+        this.alert = false
+        this.alertMsg = ''
+      }, 2000)
     }
-    this.name = ''
-    this.players.push(player)
-    this.sendPlayers(this.players)
     this.addTeamButtonDisabled = true
     if (this.players.length > 1) {
       this.addTeamsButtonDisabled = false
     }
+    this.isPlayersTableVisible = true
   }
 
   save(event: any): void {
@@ -62,17 +86,12 @@ export class PlayersComponent implements OnInit {
     this.name.length >= 4 ? (this.addTeamButtonDisabled = false) : (this.addTeamButtonDisabled = true)
   }
 
-  savePoints(id: number, event: any): void {
-    this.players[id].tmpPoints = parseFloat(event.target.value)
-  }
-
   hideInput(): void {
-    this.addTeamInputVisible = false
-    this.myApp.confirmPlayers()
+    this.isPlayersTableVisible = true
+    this.playersAdded = true
   }
 
   sendPlayers(players: Player[]): void {
     this.playerService.setPlayers(players)
-    this.myApp.addPlayers()
   }
 }

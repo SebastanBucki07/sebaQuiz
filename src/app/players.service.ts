@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core'
 import { Player } from './players/players.component'
+import { interval, map, Observable } from 'rxjs'
 
 @Injectable({
   providedIn: 'root',
@@ -7,19 +8,13 @@ import { Player } from './players/players.component'
 export class PlayersService {
   public players: Player[] = []
   public actualPlayer = 0
-  public chosen: boolean
-  public isModalVisible = false
 
   constructor() {
-    this.chosen = true
+    console.log('player service')
   }
 
   setPlayers(players: Player[]): void {
     this.players = players
-  }
-
-  setModal(modal: boolean): void {
-    this.isModalVisible = modal
   }
 
   setActualPlayer(playerId: number): void {
@@ -30,8 +25,12 @@ export class PlayersService {
     return this.players
   }
 
-  acceptPlayers(): void {
-    this.chosen = false
+  getActualPlayer(): Observable<number> {
+    return interval(1000).pipe(map(() => this.actualPlayer))
+  }
+
+  getPlayerLength(): Observable<Player[]> {
+    return interval(1000).pipe(map(() => this.players))
   }
 
   addPoints(id: number, points: number): void {

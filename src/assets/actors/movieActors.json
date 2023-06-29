@@ -2,3901 +2,3446 @@
   {
     "id": 1,
     "title": "SKAZANI NA SHAWSHANK",
-    "actor1": "Tim Robbins",
-    "actor2": "Morgan Freeman",
-    "actor3": "BOB GUNTON",
-    "actor4": "WILLIAM SADLER",
-    "actor5": "Gil Bellows",
-    "actor6": "MARK ROLSTON",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tim Robbins", "Morgan Freeman", "BOB GUNTON", "WILLIAM SADLER", "Gil Bellows", "MARK ROLSTON"]
   },
   {
     "id": 2,
     "title": "NIETYKALNI",
-    "actor1": "François Cluzet",
-    "actor2": "Omar Sy",
-    "actor3": "Anne Le Ny",
-    "actor4": "Audrey Fleurot",
-    "actor5": "Alba Gaïa Bellugi",
-    "actor6": "Alba Gaïa Bellugi",
-    "actor7": "Christian Ameri",
-    "actor8": "Grégoire Oestermann",
-    "actor9": "Brak danych"
+    "actors": [
+      "François Cluzet",
+      "Omar Sy",
+      "Anne Le Ny",
+      "Audrey Fleurot",
+      "Alba Gaïa Bellugi",
+      "Alba Gaïa Bellugi",
+      "Christian Ameri",
+      "Grégoire Oestermann"
+    ]
   },
   {
     "id": 3,
     "title": "ZIELONA MILA",
-    "actor1": "Tom Hanks",
-    "actor2": "David Morse",
-    "actor3": "Bonnie Hunt",
-    "actor4": "Michael Clarke Duncan",
-    "actor5": "Michael Jeter",
-    "actor6": "Graham Greene",
-    "actor7": "Doug Hutchison",
-    "actor8": "Sam Rockwell",
-    "actor9": "PATRICIA CLARKSON"
+    "actors": [
+      "Tom Hanks",
+      "David Morse",
+      "Bonnie Hunt",
+      "Michael Clarke Duncan",
+      "Michael Jeter",
+      "Graham Greene",
+      "Doug Hutchison",
+      "Sam Rockwell",
+      "PATRICIA CLARKSON"
+    ]
   },
   {
     "id": 4,
     "title": "OJCIEC CHRZESTNY",
-    "actor1": "Marlon Brando",
-    "actor2": "Al Pacino",
-    "actor3": "James Caan",
-    "actor4": "Richard S. Castellano",
-    "actor5": "Sterling Hayden",
-    "actor6": "John Marley",
-    "actor7": "Richard Conte",
-    "actor8": "Al Lettieri",
-    "actor9": "Brak danych"
+    "actors": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan",
+      "Richard S. Castellano",
+      "Sterling Hayden",
+      "John Marley",
+      "Richard Conte",
+      "Al Lettieri"
+    ]
   },
   {
     "id": 5,
     "title": "DWUNASTU GNIEWNYCH LUDZI",
-    "actor1": "Courtney B. Vance",
-    "actor2": "Ossie Davis",
-    "actor3": "George C. Scott",
-    "actor4": "Armin Mueller-Stahl",
-    "actor5": "Dorian Harewood",
-    "actor6": "James Gandolfini",
-    "actor7": "Tony Danza",
-    "actor8": "Jack Lemmon",
-    "actor9": "Hume Cronyn"
+    "actors": [
+      "Courtney B. Vance",
+      "Ossie Davis",
+      "George C. Scott",
+      "Armin Mueller-Stahl",
+      "Dorian Harewood",
+      "James Gandolfini",
+      "Tony Danza",
+      "Jack Lemmon",
+      "Hume Cronyn"
+    ]
   },
   {
     "id": 6,
     "title": "FORREST GUMP",
-    "actor1": "Tom Hanks",
-    "actor2": "Robin Wright",
-    "actor3": "Sally Field",
-    "actor4": "Gary Sinise",
-    "actor5": "Mykelti Williamson",
-    "actor6": "Hanna Hall",
-    "actor7": "Haley Joel Osment",
-    "actor8": "Nora Dunfee",
-    "actor9": "Brak danych"
+    "actors": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Sally Field",
+      "Gary Sinise",
+      "Mykelti Williamson",
+      "Hanna Hall",
+      "Haley Joel Osment",
+      "Nora Dunfee"
+    ]
   },
   {
     "id": 7,
     "title": "LOT NAD KUKUŁCZYM GNIAZDEM",
-    "actor1": "Jack Nicholson",
-    "actor2": "Louise Fletcher",
-    "actor3": "Sydney Lassick",
-    "actor4": "Brad Dourif",
-    "actor5": "Danny DeVito",
-    "actor6": "Will Sampson",
-    "actor7": "Christopher Lloyd",
-    "actor8": "William Redfield",
-    "actor9": "Michael Berryman"
+    "actors": [
+      "Jack Nicholson",
+      "Louise Fletcher",
+      "Sydney Lassick",
+      "Brad Dourif",
+      "Danny DeVito",
+      "Will Sampson",
+      "Christopher Lloyd",
+      "William Redfield",
+      "Michael Berryman"
+    ]
   },
   {
     "id": 8,
     "title": "OJCIEC CHRZESTNY II",
-    "actor1": "Al Pacino",
-    "actor2": "Robert Duvall",
-    "actor3": "Diane Keaton",
-    "actor4": "Robert De Niro",
-    "actor5": "John Cazale",
-    "actor6": "Talia Shire",
-    "actor7": "Lee Strasberg",
-    "actor8": "Michael V. Gazzo",
-    "actor9": "G.D. Spradlin"
+    "actors": [
+      "Al Pacino",
+      "Robert Duvall",
+      "Diane Keaton",
+      "Robert De Niro",
+      "John Cazale",
+      "Talia Shire",
+      "Lee Strasberg",
+      "Michael V. Gazzo",
+      "G.D. Spradlin"
+    ]
   },
   {
     "id": 9,
     "title": "WŁADCA PIERŚCIENI: POWRÓT KRÓLA",
-    "actor1": "Elijah Wood",
-    "actor2": "Sean Astin",
-    "actor3": "Dominic Monaghan",
-    "actor4": "Billy Boyd",
-    "actor5": "Ian Holm",
-    "actor6": "Viggo Mortensen",
-    "actor7": "Ian McKellen",
-    "actor8": "Liv Tyler",
-    "actor9": "Orlando Bloom"
+    "actors": [
+      "Elijah Wood",
+      "Sean Astin",
+      "Dominic Monaghan",
+      "Billy Boyd",
+      "Ian Holm",
+      "Viggo Mortensen",
+      "Ian McKellen",
+      "Liv Tyler",
+      "Orlando Bloom"
+    ]
   },
   {
     "id": 10,
     "title": "LISTA SCHINDLERA",
-    "actor1": "Liam Neeson",
-    "actor2": "Ben Kingsley",
-    "actor3": "Ralph Fiennes",
-    "actor4": "Caroline Goodall",
-    "actor5": "Jonathan Sagall",
-    "actor6": "Embeth Davidtz",
-    "actor7": "Andrzej Seweryn",
-    "actor8": "Anna Mucha",
-    "actor9": "Brak danych"
+    "actors": [
+      "Liam Neeson",
+      "Ben Kingsley",
+      "Ralph Fiennes",
+      "Caroline Goodall",
+      "Jonathan Sagall",
+      "Embeth Davidtz",
+      "Andrzej Seweryn",
+      "Anna Mucha"
+    ]
   },
   {
     "id": 11,
     "title": "PULP FICTION",
-    "actor1": "John Travolta",
-    "actor2": "Samuel L. Jackson",
-    "actor3": "Uma Thurman",
-    "actor4": "Bruce Willis",
-    "actor5": "Harvey Keitel",
-    "actor6": "Ving Rhames",
-    "actor7": "Tim Roth",
-    "actor8": "Amanda Plummer",
-    "actor9": "Brak danych"
+    "actors": [
+      "John Travolta",
+      "Samuel L. Jackson",
+      "Uma Thurman",
+      "Bruce Willis",
+      "Harvey Keitel",
+      "Ving Rhames",
+      "Tim Roth",
+      "Amanda Plummer"
+    ]
   },
   {
     "id": 12,
     "title": "ŻYCIE JEST PIĘKNE",
-    "actor1": "Roberto Benigni",
-    "actor2": "Nicoletta Braschi",
-    "actor3": "Giorgio Cantarini",
-    "actor4": "Giustino Durano",
-    "actor5": "Sergio Bini Bustric",
-    "actor6": "Marisa Paredes",
-    "actor7": "Horst Buchholz",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Roberto Benigni",
+      "Nicoletta Braschi",
+      "Giorgio Cantarini",
+      "Giustino Durano",
+      "Sergio Bini Bustric",
+      "Marisa Paredes",
+      "Horst Buchholz"
+    ]
   },
   {
     "id": 13,
     "title": "SIEDEM",
-    "actor1": "Morgan Freeman",
-    "actor2": "Brad Pitt",
-    "actor3": "Gwyneth Paltrow",
-    "actor4": "Kevin Spacey",
-    "actor5": "Daniel Zacapa",
-    "actor6": "John Cassini",
-    "actor7": "Peter Crombie",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Gwyneth Paltrow",
+      "Kevin Spacey",
+      "Daniel Zacapa",
+      "John Cassini",
+      "Peter Crombie"
+    ]
   },
   {
     "id": 14,
     "title": "WŁADCA PIERŚCIENI: DWIE WIEŻE",
-    "actor1": "Elijah Wood",
-    "actor2": "Sean Astin",
-    "actor3": "Dominic Monaghan",
-    "actor4": "Billy Boyd",
-    "actor5": "Viggo Mortensen",
-    "actor6": "Ian McKellen",
-    "actor7": "Liv Tyler",
-    "actor8": "Miranda Otto",
-    "actor9": "Orlando Bloom"
+    "actors": [
+      "Elijah Wood",
+      "Sean Astin",
+      "Dominic Monaghan",
+      "Billy Boyd",
+      "Viggo Mortensen",
+      "Ian McKellen",
+      "Liv Tyler",
+      "Miranda Otto",
+      "Orlando Bloom"
+    ]
   },
   {
     "id": 15,
     "title": "PODZIEMNY KRĄG",
-    "actor1": "Edward Norton",
-    "actor2": "Brad Pitt",
-    "actor3": "Helena Bonham Carter",
-    "actor4": "Meat Loaf",
-    "actor5": "Jared Leto",
-    "actor6": "Zach Grenier",
-    "actor7": "Holt McCallany",
-    "actor8": "Eion Bailey",
-    "actor9": "Ezra Buzzington"
+    "actors": [
+      "Edward Norton",
+      "Brad Pitt",
+      "Helena Bonham Carter",
+      "Meat Loaf",
+      "Jared Leto",
+      "Zach Grenier",
+      "Holt McCallany",
+      "Eion Bailey",
+      "Ezra Buzzington"
+    ]
   },
   {
     "id": 16,
     "title": "JOKER",
-    "actor1": "Joaquin Phoenix",
-    "actor2": "Robert De Niro",
-    "actor3": "Zazie Beetz",
-    "actor4": "Frances Conroy",
-    "actor5": "Brett Cullen",
-    "actor6": "Shea Whigham",
-    "actor7": "Bill Camp",
-    "actor8": "Glenn Fleshler",
-    "actor9": "Brak danych"
+    "actors": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz",
+      "Frances Conroy",
+      "Brett Cullen",
+      "Shea Whigham",
+      "Bill Camp",
+      "Glenn Fleshler"
+    ]
   },
   {
     "id": 17,
     "title": "CHŁOPCY Z FERAJNY",
-    "actor1": "Robert De Niro",
-    "actor2": "Ray Liotta",
-    "actor3": "Joe Pesci",
-    "actor4": "Lorraine Bracco",
-    "actor5": "Paul Sorvino",
-    "actor6": "Samuel L. Jackson",
-    "actor7": "Tony Darrow",
-    "actor8": "Mike Starr",
-    "actor9": "Frank Vincent"
+    "actors": [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci",
+      "Lorraine Bracco",
+      "Paul Sorvino",
+      "Samuel L. Jackson",
+      "Tony Darrow",
+      "Mike Starr",
+      "Frank Vincent"
+    ]
   },
   {
     "id": 18,
     "title": "PIANISTA",
-    "actor1": "Adrien Brody",
-    "actor2": "Thomas Kretschmann",
-    "actor3": "Emilia Fox",
-    "actor4": "Maureen Lipman",
-    "actor5": "Jessica Kate Meyer",
-    "actor6": "Julia Rayner",
-    "actor7": "Valentine Pelka",
-    "actor8": "Nina Franoszek",
-    "actor9": "Frank Finlay"
+    "actors": [
+      "Adrien Brody",
+      "Thomas Kretschmann",
+      "Emilia Fox",
+      "Maureen Lipman",
+      "Jessica Kate Meyer",
+      "Julia Rayner",
+      "Valentine Pelka",
+      "Nina Franoszek",
+      "Frank Finlay"
+    ]
   },
   {
     "id": 19,
     "title": "PIĘKNY UMYSŁ",
-    "actor1": "Russell Crowe",
-    "actor2": "Ed Harris",
-    "actor3": "Jennifer Connelly",
-    "actor4": "Christopher Plummer",
-    "actor5": "Paul Bettany",
-    "actor6": "Adam Goldberg",
-    "actor7": "Josh Lucas",
-    "actor8": "Anthony Rapp",
-    "actor9": "Jason Gray-Stanford"
+    "actors": [
+      "Russell Crowe",
+      "Ed Harris",
+      "Jennifer Connelly",
+      "Christopher Plummer",
+      "Paul Bettany",
+      "Adam Goldberg",
+      "Josh Lucas",
+      "Anthony Rapp",
+      "Jason Gray-Stanford"
+    ]
   },
   {
     "id": 20,
     "title": "INCEPCJA",
-    "actor1": "Leonardo DiCaprio",
-    "actor2": "Joseph Gordon-Levitt",
-    "actor3": "Elliot Page",
-    "actor4": "Tom Hardy",
-    "actor5": "Ken Watanabe",
-    "actor6": "Dileep Rao",
-    "actor7": "Cillian Murphy",
-    "actor8": "Tom Berenger",
-    "actor9": "Marion Cotillard"
+    "actors": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page",
+      "Tom Hardy",
+      "Ken Watanabe",
+      "Dileep Rao",
+      "Cillian Murphy",
+      "Tom Berenger",
+      "Marion Cotillard"
+    ]
   },
   {
     "id": 21,
     "title": "DJANGO",
-    "actor1": "Jamie Foxx",
-    "actor2": "Christoph Waltz",
-    "actor3": "Leonardo DiCaprio",
-    "actor4": "Kerry Washington",
-    "actor5": "Samuel L. Jackson",
-    "actor6": "Walton Goggins",
-    "actor7": "Brak danych",
-    "actor8": "James Remar",
-    "actor9": "Dennis Christopher"
+    "actors": [
+      "Jamie Foxx",
+      "Christoph Waltz",
+      "Leonardo DiCaprio",
+      "Kerry Washington",
+      "Samuel L. Jackson",
+      "Walton Goggins",
+      "James Remar",
+      "Dennis Christopher"
+    ]
   },
   {
     "id": 22,
     "title": "MILCZENIE OWIEC",
-    "actor1": "Anthony Hopkins",
-    "actor2": "Jodie Foster",
-    "actor3": "Ted Levine",
-    "actor4": "Kasi Lemmons",
-    "actor5": "Scott Glenn",
-    "actor6": "Anthony Heald",
-    "actor7": "Frankie Faison",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Anthony Hopkins",
+      "Jodie Foster",
+      "Ted Levine",
+      "Kasi Lemmons",
+      "Scott Glenn",
+      "Anthony Heald",
+      "Frankie Faison"
+    ]
   },
   {
     "id": 23,
     "title": "KRÓL LEW",
-    "actor1": "Matthew Broderick",
-    "actor2": "Moira Kelly",
-    "actor3": "James Earl Jones",
-    "actor4": "Jeremy Irons",
-    "actor5": "Nathan Lane",
-    "actor6": "Ernie Sabella",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Matthew Broderick", "Moira Kelly", "James Earl Jones", "Jeremy Irons", "Nathan Lane", "Ernie Sabella"]
   },
   {
     "id": 24,
     "title": "CZŁOWIEK Z BLIZNĄ",
-    "actor1": "Al Pacino",
-    "actor2": "Steven Bauer",
-    "actor3": "Michelle Pfeiffer",
-    "actor4": "Mary Elizabeth Mastrantonio",
-    "actor5": "Robert Loggia",
-    "actor6": "Miriam Colon",
-    "actor7": "F. Murray Abraham",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Al Pacino",
+      "Steven Bauer",
+      "Michelle Pfeiffer",
+      "Mary Elizabeth Mastrantonio",
+      "Robert Loggia",
+      "Miriam Colon",
+      "F. Murray Abraham"
+    ]
   },
   {
     "id": 25,
     "title": "GRAN TORINO",
-    "actor1": "Clint Eastwood",
-    "actor2": "Christopher Carley",
-    "actor3": "Bee Vang",
-    "actor4": "Ahney Her",
-    "actor5": "Brian Haley",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Clint Eastwood", "Christopher Carley", "Bee Vang", "Ahney Her", "Brian Haley"]
   },
   {
     "id": 26,
     "title": "WYSPA TAJEMNIC",
-    "actor1": "Leonardo DiCaprio",
-    "actor2": "Mark Ruffalo",
-    "actor3": "Ben Kingsley",
-    "actor4": "Max von Sydow",
-    "actor5": "Emily Mortimer",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Leonardo DiCaprio", "Mark Ruffalo", "Ben Kingsley", "Max von Sydow", "Emily Mortimer"]
   },
   {
     "id": 27,
     "title": "COCO",
-    "actor1": "Anthony Gonzalez",
-    "actor2": "Gael García Bernal",
-    "actor3": "Benjamin Bratt",
-    "actor4": "Alanna Ubach",
-    "actor5": "Renee Victor",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Anthony Gonzalez", "Gael García Bernal", "Benjamin Bratt", "Alanna Ubach", "Renee Victor"]
   },
   {
     "id": 28,
     "title": "WIĘZIEŃ NIENAWIŚCI",
-    "actor1": "Edward Norton",
-    "actor2": "Edward Furlong",
-    "actor3": "Beverly D'Angelo",
-    "actor4": "Jennifer Lien",
-    "actor5": "Ethan Suplee",
-    "actor6": "Fairuza Balk",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Edward Norton", "Edward Furlong", "Beverly D'Angelo", "Jennifer Lien", "Ethan Suplee", "Fairuza Balk"]
   },
   {
     "id": 29,
     "title": "LEON ZAWODOWIEC",
-    "actor1": "Jean Reno",
-    "actor2": "Gary Oldman",
-    "actor3": "Natalie Portman",
-    "actor4": "Danny Aiello",
-    "actor5": "Peter Appel",
-    "actor6": "Don Creech",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Jean Reno", "Gary Oldman", "Natalie Portman", "Danny Aiello", "Peter Appel", "Don Creech"]
   },
   {
     "id": 30,
     "title": "GREEN BOOK",
-    "actor1": "Viggo Mortensen",
-    "actor2": "Mahershala Ali",
-    "actor3": "Linda Cardellini",
-    "actor4": "Sebastian Maniscalco",
-    "actor5": "Mike Hatton",
-    "actor6": "Don Stark",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Viggo Mortensen",
+      "Mahershala Ali",
+      "Linda Cardellini",
+      "Sebastian Maniscalco",
+      "Mike Hatton",
+      "Don Stark"
+    ]
   },
   {
     "id": 31,
     "title": "GLADIATOR",
-    "actor1": "Russell Crowe",
-    "actor2": "Joaquin Phoenix",
-    "actor3": "Connie Nielsen",
-    "actor4": "Oliver Reed",
-    "actor5": "Derek Jacobi",
-    "actor6": "Djimon Hounsou",
-    "actor7": "Richard Harris",
-    "actor8": "David Schofield",
-    "actor9": "John Shrapnel"
+    "actors": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen",
+      "Oliver Reed",
+      "Derek Jacobi",
+      "Djimon Hounsou",
+      "Richard Harris",
+      "David Schofield",
+      "John Shrapnel"
+    ]
   },
   {
     "id": 32,
     "title": "SZEREGOWIEC RYAN",
-    "actor1": "Tom Hanks",
-    "actor2": "Tom Sizemore",
-    "actor3": "Edward Burns",
-    "actor4": "Barry Pepper",
-    "actor5": "Adam Goldberg",
-    "actor6": "Vin Diesel",
-    "actor7": "Giovanni Ribisi",
-    "actor8": "Jeremy Davies",
-    "actor9": "Brak danych"
+    "actors": [
+      "Tom Hanks",
+      "Tom Sizemore",
+      "Edward Burns",
+      "Barry Pepper",
+      "Adam Goldberg",
+      "Vin Diesel",
+      "Giovanni Ribisi",
+      "Jeremy Davies"
+    ]
   },
   {
     "id": 33,
     "title": "BRAVEHEART - WALECZNE SERCE",
-    "actor1": "Mel Gibson",
-    "actor2": "Sophie Marceau",
-    "actor3": "Patrick McGoohan",
-    "actor4": "Catherine McCormack",
-    "actor5": "Angus Macfadyen",
-    "actor6": "Brendan Gleeson",
-    "actor7": "David O'Hara",
-    "actor8": "Ian Bannen",
-    "actor9": "Brak danych"
+    "actors": [
+      "Mel Gibson",
+      "Sophie Marceau",
+      "Patrick McGoohan",
+      "Catherine McCormack",
+      "Angus Macfadyen",
+      "Brendan Gleeson",
+      "David O'Hara",
+      "Ian Bannen"
+    ]
   },
   {
     "id": 34,
     "title": "WHIPLASH",
-    "actor1": "Miles Teller",
-    "actor2": "J.K. Simmons",
-    "actor3": "Paul Reiser",
-    "actor4": "Melissa Benoist",
-    "actor5": "Austin Stowell",
-    "actor6": "Nate Lang",
-    "actor7": "Chris Mulkey",
-    "actor8": "Damon Gupton",
-    "actor9": "Suanne Spoke"
+    "actors": [
+      "Miles Teller",
+      "J.K. Simmons",
+      "Paul Reiser",
+      "Melissa Benoist",
+      "Austin Stowell",
+      "Nate Lang",
+      "Chris Mulkey",
+      "Damon Gupton",
+      "Suanne Spoke"
+    ]
   },
   {
     "id": 35,
     "title": "PRZEŁĘCZ OCALONYCH",
-    "actor1": "Andrew Garfield",
-    "actor2": "Sam Worthington",
-    "actor3": "Luke Bracey",
-    "actor4": "Teresa Palmer",
-    "actor5": "Hugo Weaving",
-    "actor6": "Rachel Griffiths",
-    "actor7": "Vince Vaughn",
-    "actor8": "Nathaniel Buzolic",
-    "actor9": "Luke Pegler"
+    "actors": [
+      "Andrew Garfield",
+      "Sam Worthington",
+      "Luke Bracey",
+      "Teresa Palmer",
+      "Hugo Weaving",
+      "Rachel Griffiths",
+      "Vince Vaughn",
+      "Nathaniel Buzolic",
+      "Luke Pegler"
+    ]
   },
   {
     "id": 36,
     "title": "BUNTOWNIK Z WYBORU",
-    "actor1": "Matt Damon",
-    "actor2": "Robin Williams",
-    "actor3": "Ben Affleck",
-    "actor4": "Minnie Driver",
-    "actor5": "Stellan Skarsgård",
-    "actor6": "Casey Affleck",
-    "actor7": "Cole Hauser",
-    "actor8": "Scott William Winters",
-    "actor9": "Brak danych"
+    "actors": [
+      "Matt Damon",
+      "Robin Williams",
+      "Ben Affleck",
+      "Minnie Driver",
+      "Stellan Skarsgård",
+      "Casey Affleck",
+      "Cole Hauser",
+      "Scott William Winters"
+    ]
   },
   {
     "id": 37,
     "title": "CZAS APOKALIPSY",
-    "actor1": "Marlon Brando",
-    "actor2": "Robert Duvall",
-    "actor3": "Martin Sheen",
-    "actor4": "Frederic Forrest",
-    "actor5": "Albert Hall",
-    "actor6": "Sam Bottoms",
-    "actor7": "Laurence Fishburne",
-    "actor8": "Dennis Hopper",
-    "actor9": "G.D. Spradlin"
+    "actors": [
+      "Marlon Brando",
+      "Robert Duvall",
+      "Martin Sheen",
+      "Frederic Forrest",
+      "Albert Hall",
+      "Sam Bottoms",
+      "Laurence Fishburne",
+      "Dennis Hopper",
+      "G.D. Spradlin"
+    ]
   },
   {
     "id": 38,
     "title": "ZAPACH KOBIETY",
-    "actor1": "Al Pacino",
-    "actor2": "Chris O'Donnell",
-    "actor3": "James Rebhorn",
-    "actor4": "Gabrielle Anwar",
-    "actor5": "Philip Seymour Hoffman",
-    "actor6": "Richard Venture",
-    "actor7": "Bradley Whitford",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Al Pacino",
+      "Chris O'Donnell",
+      "James Rebhorn",
+      "Gabrielle Anwar",
+      "Philip Seymour Hoffman",
+      "Richard Venture",
+      "Bradley Whitford"
+    ]
   },
   {
     "id": 39,
     "title": "PRESTIŻ",
-    "actor1": "Hugh Jackman",
-    "actor2": "Christian Bale",
-    "actor3": "Michael Caine",
-    "actor4": "Scarlett Johansson",
-    "actor5": "Piper Perabo",
-    "actor6": "Rebecca Hall",
-    "actor7": "Samantha Mahurin",
-    "actor8": "David Bowie",
-    "actor9": "Andy Serkis"
+    "actors": [
+      "Hugh Jackman",
+      "Christian Bale",
+      "Michael Caine",
+      "Scarlett Johansson",
+      "Piper Perabo",
+      "Rebecca Hall",
+      "Samantha Mahurin",
+      "David Bowie",
+      "Andy Serkis"
+    ]
   },
   {
     "id": 40,
     "title": "AVENGERS: WOJNA BEZ GRANIC",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Chris Hemsworth",
-    "actor3": "Mark Ruffalo",
-    "actor4": "Chris Evans",
-    "actor5": "Scarlett Johansson",
-    "actor6": "Benedict Cumberbatch",
-    "actor7": "Chris Pratt",
-    "actor8": "Josh Brolin",
-    "actor9": "Don Cheadle"
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Scarlett Johansson",
+      "Benedict Cumberbatch",
+      "Chris Pratt",
+      "Josh Brolin",
+      "Don Cheadle"
+    ]
   },
   {
     "id": 41,
     "title": "GWIEZDNE WOJNY: CZĘŚĆ V - IMPERIUM KONTRATAKUJE",
-    "actor1": "Mark Hamill",
-    "actor2": "Harrison Ford",
-    "actor3": "Carrie Fisher",
-    "actor4": "Billy Dee Williams",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Billy Dee Williams"]
   },
   {
     "id": 42,
     "title": "DOBRY, ZŁY I BRZYDKI",
-    "actor1": "Clint Eastwood",
-    "actor2": "Lee Van Cleef",
-    "actor3": "Eli Wallach",
-    "actor4": "Mario Brega",
-    "actor5": "Aldo Giuffrè",
-    "actor6": "Rada Rassimov",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Clint Eastwood", "Lee Van Cleef", "Eli Wallach", "Mario Brega", "Aldo Giuffrè", "Rada Rassimov"]
   },
   {
     "id": 43,
     "title": "DAWNO TEMU W AMERYCE",
-    "actor1": "Robert De Niro",
-    "actor2": "James Woods",
-    "actor3": "Elizabeth McGovern",
-    "actor4": "Treat Williams",
-    "actor5": "Tuesday Weld",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Robert De Niro", "James Woods", "Elizabeth McGovern", "Treat Williams", "Tuesday Weld"]
   },
   {
     "id": 44,
     "title": "GWIEZDNE WOJNY: CZĘŚĆ VI - POWRÓT JEDI",
-    "actor1": "Mark Hamill",
-    "actor2": "Harrison Ford",
-    "actor3": "Carrie Fisher",
-    "actor4": "Billy Dee Williams",
-    "actor5": "Anthony Daniels",
-    "actor6": "Peter Mayhew",
-    "actor7": "Sebastian Shaw",
-    "actor8": "Ian McDiarmid",
-    "actor9": "Frank Oz"
+    "actors": [
+      "Mark Hamill",
+      "Harrison Ford",
+      "Carrie Fisher",
+      "Billy Dee Williams",
+      "Anthony Daniels",
+      "Peter Mayhew",
+      "Sebastian Shaw",
+      "Ian McDiarmid",
+      "Frank Oz"
+    ]
   },
   {
     "id": 45,
     "title": "SŁUŻĄCE",
-    "actor1": "Emma Stone",
-    "actor2": "Viola Davis",
-    "actor3": "Bryce Dallas Howard",
-    "actor4": "Octavia Spencer",
-    "actor5": "Jessica Chastain",
-    "actor6": "Ahna O'Reilly",
-    "actor7": "Allison Janney",
-    "actor8": "Anna Camp",
-    "actor9": "Brak danych"
+    "actors": [
+      "Emma Stone",
+      "Viola Davis",
+      "Bryce Dallas Howard",
+      "Octavia Spencer",
+      "Jessica Chastain",
+      "Ahna O'Reilly",
+      "Allison Janney",
+      "Anna Camp"
+    ]
   },
   {
     "id": 46,
     "title": "CHŁOPIEC W PASIASTEJ PIŻAMIE",
-    "actor1": "Asa Butterfield",
-    "actor2": "Jack Scanlon",
-    "actor3": "Zac Mattoon O'Brien",
-    "actor4": "Henry Kingsmill",
-    "actor5": "Vera Farmiga",
-    "actor6": "David Thewlis",
-    "actor7": "Cara Horgan",
-    "actor8": "Amber Beattie",
-    "actor9": "László Áron"
+    "actors": [
+      "Asa Butterfield",
+      "Jack Scanlon",
+      "Zac Mattoon O'Brien",
+      "Henry Kingsmill",
+      "Vera Farmiga",
+      "David Thewlis",
+      "Cara Horgan",
+      "Amber Beattie",
+      "László Áron"
+    ]
   },
   {
     "id": 47,
     "title": "KASYNO",
-    "actor1": "Robert De Niro",
-    "actor2": "Sharon Stone",
-    "actor3": "Joe Pesci",
-    "actor4": "James Woods",
-    "actor5": "Don Rickles",
-    "actor6": "Alan King",
-    "actor7": "Kevin Pollak",
-    "actor8": "L.Q. Jones",
-    "actor9": "Dick Smothers"
+    "actors": [
+      "Robert De Niro",
+      "Sharon Stone",
+      "Joe Pesci",
+      "James Woods",
+      "Don Rickles",
+      "Alan King",
+      "Kevin Pollak",
+      "L.Q. Jones",
+      "Dick Smothers"
+    ]
   },
   {
     "id": 48,
     "title": "W POGONI ZA SZCZĘŚCIEM",
-    "actor1": "Will Smith",
-    "actor2": "Jaden Smith",
-    "actor3": "Thandiwe Newton",
-    "actor4": "Brian Howe",
-    "actor5": "James Karen",
-    "actor6": "Dan Castellaneta",
-    "actor7": "Kurt Fuller",
-    "actor8": "Takayo Fischer",
-    "actor9": "Kevin West"
+    "actors": [
+      "Will Smith",
+      "Jaden Smith",
+      "Thandiwe Newton",
+      "Brian Howe",
+      "James Karen",
+      "Dan Castellaneta",
+      "Kurt Fuller",
+      "Takayo Fischer",
+      "Kevin West"
+    ]
   },
   {
     "id": 49,
     "title": "AMADEUSZ",
-    "actor1": "F. Murray Abraham",
-    "actor2": "Tom Hulce",
-    "actor3": "Elizabeth Berridge",
-    "actor4": "Simon Callow",
-    "actor5": "Roy Dotrice",
-    "actor6": "Christine Ebersole",
-    "actor7": "Jeffrey Jones",
-    "actor8": "Charles Kay",
-    "actor9": "Kenny Baker"
+    "actors": [
+      "F. Murray Abraham",
+      "Tom Hulce",
+      "Elizabeth Berridge",
+      "Simon Callow",
+      "Roy Dotrice",
+      "Christine Ebersole",
+      "Jeffrey Jones",
+      "Charles Kay",
+      "Kenny Baker"
+    ]
   },
   {
     "id": 50,
     "title": "PARASITE",
-    "actor1": "Kang-ho Song",
-    "actor2": "Seon-gyun Lee",
-    "actor3": "Yeo-jeong Jo",
-    "actor4": "Woo-sik Choi",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Kang-ho Song", "Seon-gyun Lee", "Yeo-jeong Jo", "Woo-sik Choi"]
   },
   {
     "id": 51,
     "title": "GORĄCZKA",
-    "actor1": "Al Pacino",
-    "actor2": "Robert De Niro",
-    "actor3": "Val Kilmer",
-    "actor4": "Jon Voight",
-    "actor5": "Tom Sizemore",
-    "actor6": "Diane Venora",
-    "actor7": "Amy Brenneman",
-    "actor8": "Ashley Judd",
-    "actor9": "Mykelti Williamson"
+    "actors": [
+      "Al Pacino",
+      "Robert De Niro",
+      "Val Kilmer",
+      "Jon Voight",
+      "Tom Sizemore",
+      "Diane Venora",
+      "Amy Brenneman",
+      "Ashley Judd",
+      "Mykelti Williamson"
+    ]
   },
   {
     "id": 52,
     "title": "MROCZNY RYCERZ",
-    "actor1": "Christian Bale",
-    "actor2": "Heath Ledger",
-    "actor3": "Aaron Eckhart",
-    "actor4": "Michael Caine",
-    "actor5": "Maggie Gyllenhaal",
-    "actor6": "Gary Oldman",
-    "actor7": "Morgan Freeman",
-    "actor8": "Monique Gabriela Curnen",
-    "actor9": "Ron Dean"
+    "actors": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine",
+      "Maggie Gyllenhaal",
+      "Gary Oldman",
+      "Morgan Freeman",
+      "Monique Gabriela Curnen",
+      "Ron Dean"
+    ]
   },
   {
     "id": 53,
     "title": "PLUTON",
-    "actor1": "Tom Berenger",
-    "actor2": "Willem Dafoe",
-    "actor3": "Charlie Sheen",
-    "actor4": "Forest Whitaker",
-    "actor5": "Francesco Quinn",
-    "actor6": "John C. McGinley",
-    "actor7": "Richard Edson",
-    "actor8": "Kevin Dillon",
-    "actor9": "Brak danych"
+    "actors": [
+      "Tom Berenger",
+      "Willem Dafoe",
+      "Charlie Sheen",
+      "Forest Whitaker",
+      "Francesco Quinn",
+      "John C. McGinley",
+      "Richard Edson",
+      "Kevin Dillon"
+    ]
   },
   {
     "id": 54,
     "title": "WŁADCA PIERŚCIENI: DRUŻYNA PIERŚCIENIA",
-    "actor1": "Elijah Wood",
-    "actor2": "Sean Astin",
-    "actor3": "Billy Boyd",
-    "actor4": "Dominic Monaghan",
-    "actor5": "Ian Holm",
-    "actor6": "Viggo Mortensen",
-    "actor7": "Ian McKellen",
-    "actor8": "Liv Tyler",
-    "actor9": "Orlando Bloom"
+    "actors": [
+      "Elijah Wood",
+      "Sean Astin",
+      "Billy Boyd",
+      "Dominic Monaghan",
+      "Ian Holm",
+      "Viggo Mortensen",
+      "Ian McKellen",
+      "Liv Tyler",
+      "Orlando Bloom"
+    ]
   },
   {
     "id": 55,
     "title": "PAMIĘTNIK",
-    "actor1": "Ryan Gosling",
-    "actor2": "Rachel McAdams",
-    "actor3": "James Garner",
-    "actor4": "Gena Rowlands",
-    "actor5": "James Marsden",
-    "actor6": "Sam Shepard",
-    "actor7": "Joan Allen",
-    "actor8": "Kevin Connolly",
-    "actor9": "David Thornton"
+    "actors": [
+      "Ryan Gosling",
+      "Rachel McAdams",
+      "James Garner",
+      "Gena Rowlands",
+      "James Marsden",
+      "Sam Shepard",
+      "Joan Allen",
+      "Kevin Connolly",
+      "David Thornton"
+    ]
   },
   {
     "id": 56,
     "title": "BĘKARTY WOJNY",
-    "actor1": "Brad Pitt",
-    "actor2": "Mélanie Laurent",
-    "actor3": "Christoph Waltz",
-    "actor4": "Eli Roth",
-    "actor5": "Michael Fassbender",
-    "actor6": "Diane Kruger",
-    "actor7": "Daniel Brühl",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Brad Pitt",
+      "Mélanie Laurent",
+      "Christoph Waltz",
+      "Eli Roth",
+      "Michael Fassbender",
+      "Diane Kruger",
+      "Daniel Brühl"
+    ]
   },
   {
     "id": 57,
     "title": "INFILTRACJA",
-    "actor1": "Leonardo DiCaprio",
-    "actor2": "Matt Damon",
-    "actor3": "Jack Nicholson",
-    "actor4": "Mark Wahlberg",
-    "actor5": "Martin Sheen",
-    "actor6": "Vera Farmiga",
-    "actor7": "Anthony Anderson",
-    "actor8": "Ray Winstone",
-    "actor9": "Alec Baldwin"
+    "actors": [
+      "Leonardo DiCaprio",
+      "Matt Damon",
+      "Jack Nicholson",
+      "Mark Wahlberg",
+      "Martin Sheen",
+      "Vera Farmiga",
+      "Anthony Anderson",
+      "Ray Winstone",
+      "Alec Baldwin"
+    ]
   },
   {
     "id": 58,
     "title": "BOGOWIE",
-    "actor1": "Tomasz Kot",
-    "actor2": "Piotr Głowacki",
-    "actor3": "Szymon Piotr Warszawski",
-    "actor4": "Magdalena Czerwińska",
-    "actor5": "Rafał Zawierucha",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tomasz Kot", "Piotr Głowacki", "Szymon Piotr Warszawski", "Magdalena Czerwińska", "Rafał Zawierucha"]
   },
   {
     "id": 59,
     "title": "ŁOWCA JELENI",
-    "actor1": "Robert De Niro",
-    "actor2": "John Cazale",
-    "actor3": "John Savage",
-    "actor4": "Christopher Walken",
-    "actor5": "Meryl Streep",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Robert De Niro", "John Cazale", "John Savage", "Christopher Walken", "Meryl Streep"]
   },
   {
     "id": 60,
     "title": "AVENGERS",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Chris Evans",
-    "actor3": "Mark Ruffalo",
-    "actor4": "Chris Hemsworth",
-    "actor5": "Scarlett Johansson",
-    "actor6": "Cobie Smulders",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson",
+      "Cobie Smulders"
+    ]
   },
   {
     "id": 61,
     "title": "AVENGERS: CZAS ULTRONA",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Chris Hemsworth",
-    "actor3": "Mark Ruffalo",
-    "actor4": "Chris Evans",
-    "actor5": "Scarlett Johansson",
-    "actor6": "Jeremy Renner",
-    "actor7": "James Spader",
-    "actor8": "Samuel L. Jackson",
-    "actor9": "Don Cheadle"
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Mark Ruffalo",
+      "Chris Evans",
+      "Scarlett Johansson",
+      "Jeremy Renner",
+      "James Spader",
+      "Samuel L. Jackson",
+      "Don Cheadle"
+    ]
   },
   {
     "id": 62,
     "title": "AVENGERS: KONIEC GRY",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Chris Evans",
-    "actor3": "Mark Ruffalo",
-    "actor4": "Chris Hemsworth",
-    "actor5": "Scarlett Johansson",
-    "actor6": "Jeremy Renner",
-    "actor7": "Don Cheadle",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Chris Hemsworth",
+      "Scarlett Johansson",
+      "Jeremy Renner",
+      "Don Cheadle"
+    ]
   },
   {
     "id": 63,
     "title": "CAPTAIN AMERICA: PIERWSZE STARCIE",
-    "actor1": "Chris Evans",
-    "actor2": "Tommy Lee Jones",
-    "actor3": "Hugo Weaving",
-    "actor4": "Hayley Atwell",
-    "actor5": "Sebastian Stan",
-    "actor6": "Dominic Cooper",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Chris Evans", "Tommy Lee Jones", "Hugo Weaving", "Hayley Atwell", "Sebastian Stan", "Dominic Cooper"]
   },
   {
     "id": 64,
     "title": "KAPITAN AMERYKA: WOJNA BOHATERÓW",
-    "actor1": "Chris Evans",
-    "actor2": "Robert Downey Jr.",
-    "actor3": "Scarlett Johansson",
-    "actor4": "Sebastian Stan",
-    "actor5": "Anthony Mackie",
-    "actor6": "Don Cheadle",
-    "actor7": "Jeremy Renner",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Chris Evans",
+      "Robert Downey Jr.",
+      "Scarlett Johansson",
+      "Sebastian Stan",
+      "Anthony Mackie",
+      "Don Cheadle",
+      "Jeremy Renner"
+    ]
   },
   {
     "id": 65,
     "title": "KAPITAN AMERYKA: ZIMOWY ŻOŁNIERZ",
-    "actor1": "Chris Evans",
-    "actor2": "Samuel L. Jackson",
-    "actor3": "Scarlett Johansson",
-    "actor4": "Robert Redford",
-    "actor5": "Sebastian Stan",
-    "actor6": "Anthony Mackie",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Chris Evans",
+      "Samuel L. Jackson",
+      "Scarlett Johansson",
+      "Robert Redford",
+      "Sebastian Stan",
+      "Anthony Mackie"
+    ]
   },
   {
     "id": 66,
     "title": "KAPITAN AMERYKA",
-    "actor1": "Matt Salinger",
-    "actor2": "Ronny Cox",
-    "actor3": "Ned Beatty",
-    "actor4": "Darren McGavin",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Matt Salinger", "Ronny Cox", "Ned Beatty", "Darren McGavin"]
   },
   {
     "id": 67,
     "title": "MÓJ PRZYJACIEL HACHIKO",
-    "actor1": "Richard Gere",
-    "actor2": "Joan Allen",
-    "actor3": "Cary-Hiroyuki Tagawa",
-    "actor4": "Sarah Roemer",
-    "actor5": "Jason Alexander",
-    "actor6": "Erick Avari",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Richard Gere", "Joan Allen", "Cary-Hiroyuki Tagawa", "Sarah Roemer", "Jason Alexander", "Erick Avari"]
   },
   {
     "id": 68,
     "title": "PSYCHOZA",
-    "actor1": "Anthony Perkins",
-    "actor2": "Vera Miles",
-    "actor3": "John Gavin",
-    "actor4": "Janet Leigh",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Anthony Perkins", "Vera Miles", "John Gavin", "Janet Leigh"]
   },
   {
     "id": 69,
     "title": "SIEDEM DUSZ",
-    "actor1": "Will Smith",
-    "actor2": "Rosario Dawson",
-    "actor3": "Woody Harrelson",
-    "actor4": "Michael Ealy",
-    "actor5": "Barry Pepper",
-    "actor6": "Elpidia Carrillo",
-    "actor7": "Robinne Lee",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Will Smith",
+      "Rosario Dawson",
+      "Woody Harrelson",
+      "Michael Ealy",
+      "Barry Pepper",
+      "Elpidia Carrillo",
+      "Robinne Lee"
+    ]
   },
   {
     "id": 70,
     "title": "PRZEBUDZENIA",
-    "actor1": "Robin Williams",
-    "actor2": "Robert De Niro",
-    "actor3": "Julie Kavner",
-    "actor4": "Ruth Nelson",
-    "actor5": "John Heard",
-    "actor6": "Penelope Ann Miller",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Robin Williams", "Robert De Niro", "Julie Kavner", "Ruth Nelson", "John Heard", "Penelope Ann Miller"]
   },
   {
     "id": 71,
     "title": "MIASTO BOGA",
-    "actor1": "Alexandre Rodrigues",
-    "actor2": "Leandro Firmino",
-    "actor3": "Phellipe Haagensen",
-    "actor4": "Rubens Sabino",
-    "actor5": "Alice Braga",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Alexandre Rodrigues", "Leandro Firmino", "Phellipe Haagensen", "Rubens Sabino", "Alice Braga"]
   },
   {
     "id": 72,
     "title": "PRZEKRĘT",
-    "actor1": "Stephen Graham",
-    "actor2": "Jason Statham",
-    "actor3": "Dennis Farina",
-    "actor4": "Brad Pitt",
-    "actor5": "Vinnie Jones",
-    "actor6": "Alan Ford",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Stephen Graham", "Jason Statham", "Dennis Farina", "Brad Pitt", "Vinnie Jones", "Alan Ford"]
   },
   {
     "id": 73,
     "title": "RAIN MAN",
-    "actor1": "Dustin Hoffman",
-    "actor2": "Tom Cruise",
-    "actor3": "Valeria Golino",
-    "actor4": "Gerald R. Molen",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Dustin Hoffman", "Tom Cruise", "Valeria Golino", "Gerald R. Molen"]
   },
   {
     "id": 74,
     "title": "INTERSTELLAR",
-    "actor1": "Matthew McConaughey",
-    "actor2": "Anne Hathaway",
-    "actor3": "Jessica Chastain",
-    "actor4": "Bill Irwin",
-    "actor5": "Ellen Burstyn",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain", "Bill Irwin", "Ellen Burstyn"]
   },
   {
     "id": 75,
     "title": "MONTY PYTHON I ŚWIĘTY GRAAL",
-    "actor1": "Graham Chapman",
-    "actor2": "John Cleese",
-    "actor3": "Eric Idle",
-    "actor4": "Terry Gilliam",
-    "actor5": "Terry Jones",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Graham Chapman", "John Cleese", "Eric Idle", "Terry Gilliam", "Terry Jones"]
   },
   {
     "id": 76,
     "title": "ADWOKAT DIABŁA",
-    "actor1": "Keanu Reeves",
-    "actor2": "Al Pacino",
-    "actor3": "Charlize Theron",
-    "actor4": "Jeffrey Jones",
-    "actor5": "Judith Ivey",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Keanu Reeves", "Al Pacino", "Charlize Theron", "Jeffrey Jones", "Judith Ivey"]
   },
   {
     "id": 77,
     "title": "WŚCIEKŁE PSY",
-    "actor1": "Harvey Keitel",
-    "actor2": "Michael Madsen",
-    "actor3": "Tim Roth",
-    "actor4": "Steve Buscemi",
-    "actor5": "Quentin Tarantino",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Harvey Keitel", "Michael Madsen", "Tim Roth", "Steve Buscemi", "Quentin Tarantino"]
   },
   {
     "id": 78,
     "title": "FULL METAL JACKET",
-    "actor1": "Matthew Modine",
-    "actor2": "Adam Baldwin",
-    "actor3": "Vincent D'Onofrio",
-    "actor4": "R. Lee Ermey",
-    "actor5": "Dorian Harewood",
-    "actor6": "Kevyn Major Howard",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Matthew Modine",
+      "Adam Baldwin",
+      "Vincent D'Onofrio",
+      "R. Lee Ermey",
+      "Dorian Harewood",
+      "Kevyn Major Howard"
+    ]
   },
   {
     "id": 79,
     "title": "OJCIEC CHRZESTNY III",
-    "actor1": "Al Pacino",
-    "actor2": "Diane Keaton",
-    "actor3": "Talia Shire",
-    "actor4": "Andy Garcia",
-    "actor5": "Eli Wallach",
-    "actor6": "Joe Mantegna",
-    "actor7": "Sofia Coppola",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Al Pacino",
+      "Diane Keaton",
+      "Talia Shire",
+      "Andy Garcia",
+      "Eli Wallach",
+      "Joe Mantegna",
+      "Sofia Coppola"
+    ]
   },
   {
     "id": 80,
     "title": "GWIEZDNE WOJNY: CZĘŚĆ I - MROCZNE WIDM",
-    "actor1": "Liam Neeson",
-    "actor2": "Ewan McGregor",
-    "actor3": "Natalie Portman",
-    "actor4": "Jake Lloyd",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Liam Neeson", "Ewan McGregor", "Natalie Portman", "Jake Lloyd"]
   },
   {
     "id": 81,
     "title": "GWIEZDNE WOJNY: CZĘŚĆ II - ATAK KLONÓW",
-    "actor1": "Ewan McGregor",
-    "actor2": "Natalie Portman",
-    "actor3": "Hayden Christensen",
-    "actor4": "Christopher Lee",
-    "actor5": "Samuel L. Jackson",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen", "Christopher Lee", "Samuel L. Jackson"]
   },
   {
     "id": 82,
     "title": "GWIEZDNE WOJNY: CZĘŚĆ III - ZEMSTA SITHÓW",
-    "actor1": "Ewan McGregor",
-    "actor2": "Natalie Portman",
-    "actor3": "Hayden Christensen",
-    "actor4": "Ian McDiarmid",
-    "actor5": "Samuel L. Jackson",
-    "actor6": "Jimmy Smits",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Ewan McGregor",
+      "Natalie Portman",
+      "Hayden Christensen",
+      "Ian McDiarmid",
+      "Samuel L. Jackson",
+      "Jimmy Smits"
+    ]
   },
   {
     "id": 83,
     "title": "GWIEZDNE WOJNY: PRZEBUDZENIE MOCY",
-    "actor1": "Harrison Ford",
-    "actor2": "Mark Hamill",
-    "actor3": "Carrie Fisher",
-    "actor4": "Adam Driver",
-    "actor5": "Daisy Ridley",
-    "actor6": "John Boyega",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Harrison Ford", "Mark Hamill", "Carrie Fisher", "Adam Driver", "Daisy Ridley", "John Boyega"]
   },
   {
     "id": 84,
     "title": "GWIEZDNE WOJNY: OSTATNI JEDI",
-    "actor1": "Mark Hamill",
-    "actor2": "Carrie Fisher",
-    "actor3": "Adam Driver",
-    "actor4": "Daisy Ridley",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Mark Hamill", "Carrie Fisher", "Adam Driver", "Daisy Ridley"]
   },
   {
     "id": 85,
     "title": "GWIEZDNE WOJNY: SKYWALKER. ODRODZENIE",
-    "actor1": "Daisy Ridley",
-    "actor2": "Adam Driver",
-    "actor3": "John Boyega",
-    "actor4": "Oscar Isaac",
-    "actor5": "Billy Dee Williams",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Daisy Ridley", "Adam Driver", "John Boyega", "Oscar Isaac", "Billy Dee Williams"]
   },
   {
     "id": 86,
     "title": "TRZY BILLBOARDY ZA EBBING, MISSOURI",
-    "actor1": "Frances McDormand",
-    "actor2": "Woody Harrelson",
-    "actor3": "Sam Rockwell",
-    "actor4": "John Hawkes",
-    "actor5": "Peter Dinklage",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Frances McDormand", "Woody Harrelson", "Sam Rockwell", "John Hawkes", "Peter Dinklage"]
   },
   {
     "id": 87,
     "title": "BOHEMIAN RHAPSODY",
-    "actor1": "Rami Malek",
-    "actor2": "Lucy Boynton",
-    "actor3": "Gwilym Lee",
-    "actor4": "Ben Hardy",
-    "actor5": "Joseph Mazzello",
-    "actor6": "Aidan Gillen",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Rami Malek", "Lucy Boynton", "Gwilym Lee", "Ben Hardy", "Joseph Mazzello", "Aidan Gillen"]
   },
   {
     "id": 88,
     "title": "ZWIERZOGRÓD",
-    "actor1": "Ginnifer Goodwin",
-    "actor2": "Jason Bateman",
-    "actor3": "Idris Elba",
-    "actor4": "Jenny Slate",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Ginnifer Goodwin", "Jason Bateman", "Idris Elba", "Jenny Slate"]
   },
   {
     "id": 89,
     "title": "CINEMA PARADISO",
-    "actor1": "Philippe Noiret",
-    "actor2": "Salvatore Cascio",
-    "actor3": "Marco Leonardi",
-    "actor4": "Antonella Attili",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Philippe Noiret", "Salvatore Cascio", "Marco Leonardi", "Antonella Attili"]
   },
   {
     "id": 90,
     "title": "NAJLEPSZY",
-    "actor1": "Jakub Gierszał",
-    "actor2": "Kamila Kamińska",
-    "actor3": "Anna Próchniak",
-    "actor4": "Arkadiusz Jakubik",
-    "actor5": "Janusz Gajos",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Jakub Gierszał", "Kamila Kamińska", "Anna Próchniak", "Arkadiusz Jakubik", "Janusz Gajos"]
   },
   {
     "id": 91,
     "title": "CONTRATIEMPO. NIEWIDZIALNY GOŚĆ",
-    "actor1": "Mario Casas",
-    "actor2": "Ana Wagener",
-    "actor3": "José Coronado",
-    "actor4": "Bárbara Lennie",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Mario Casas", "Ana Wagener", "José Coronado", "Bárbara Lennie"]
   },
   {
     "id": 92,
     "title": "MECHANICZNA POMARAŃCZA",
-    "actor1": "Malcolm McDowell",
-    "actor2": "Patrick Magee",
-    "actor3": "Warren Clarke",
-    "actor4": "Adrienne Corri",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Malcolm McDowell", "Patrick Magee", "Warren Clarke", "Adrienne Corri"]
   },
   {
     "id": 93,
     "title": "SPIDER-MAN: BEZ DROGI DO DOMU",
-    "actor1": "Tom Holland",
-    "actor2": "Zendaya",
-    "actor3": "Benedict Cumberbatch",
-    "actor4": "Jacob Batalon",
-    "actor5": "Jon Favreau",
-    "actor6": "Jamie Foxx",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Jacob Batalon", "Jon Favreau", "Jamie Foxx"]
   },
   {
     "id": 94,
     "title": "SPIDER-MAN: DALEKO OD DOMU",
-    "actor1": "Tom Holland",
-    "actor2": "Samuel L. Jackson",
-    "actor3": "Jake Gyllenhaal",
-    "actor4": "Marisa Tomei",
-    "actor5": "Jon Favreau",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tom Holland", "Samuel L. Jackson", "Jake Gyllenhaal", "Marisa Tomei", "Jon Favreau"]
   },
   {
     "id": 95,
     "title": "NIESAMOWITY SPIDER-MAN 2",
-    "actor1": "Andrew Garfield",
-    "actor2": "Emma Stone",
-    "actor3": "Jamie Foxx",
-    "actor4": "Dane DeHaan",
-    "actor5": "Colm Feore",
-    "actor6": "Felicity Jones",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Andrew Garfield", "Emma Stone", "Jamie Foxx", "Dane DeHaan", "Colm Feore", "Felicity Jones"]
   },
   {
     "id": 96,
     "title": "NIESAMOWITY SPIDER-MAN",
-    "actor1": "Andrew Garfield",
-    "actor2": "Emma Stone",
-    "actor3": "Rhys Ifans",
-    "actor4": "Denis Leary",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Andrew Garfield", "Emma Stone", "Rhys Ifans", "Denis Leary"]
   },
   {
     "id": 97,
     "title": "SPIDER-MAN 3",
-    "actor1": "Tobey Maguire",
-    "actor2": "Kirsten Dunst",
-    "actor3": "James Franco",
-    "actor4": "Thomas Haden Church",
-    "actor5": "Topher Grace",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tobey Maguire", "Kirsten Dunst", "James Franco", "Thomas Haden Church", "Topher Grace"]
   },
   {
     "id": 98,
     "title": "SPIDER-MAN 2",
-    "actor1": "Tobey Maguire",
-    "actor2": "Kirsten Dunst",
-    "actor3": "James Franco",
-    "actor4": "Alfred Molina",
-    "actor5": "J.K. Simmons",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tobey Maguire", "Kirsten Dunst", "James Franco", "Alfred Molina", "J.K. Simmons"]
   },
   {
     "id": 99,
     "title": "SPIDER-MAN",
-    "actor1": "Tobey Maguire",
-    "actor2": "Willem Dafoe",
-    "actor3": "Kirsten Dunst",
-    "actor4": "James Franco",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tobey Maguire", "Willem Dafoe", "Kirsten Dunst", "James Franco"]
   },
   {
     "id": 100,
     "title": "DOKTOR STRANGE W MULTIWERSUM OBŁĘDU",
-    "actor1": "Benedict Cumberbatch",
-    "actor2": "Elizabeth Olsen",
-    "actor3": "Chiwetel Ejiofor",
-    "actor4": "Benedict Wong",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Benedict Cumberbatch", "Elizabeth Olsen", "Chiwetel Ejiofor", "Benedict Wong"]
   },
   {
     "id": 101,
     "title": "MORBIUS",
-    "actor1": "Jared Leto",
-    "actor2": "Matt Smith",
-    "actor3": "Adria Arjona",
-    "actor4": "Jared Harris",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Jared Leto", "Matt Smith", "Adria Arjona", "Jared Harris"]
   },
   {
     "id": 102,
     "title": "VENOM 2: CARNAGE",
-    "actor1": "Tom Hardy",
-    "actor2": "Woody Harrelson",
-    "actor3": "Michelle Williams",
-    "actor4": "Naomie Harris",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tom Hardy", "Woody Harrelson", "Michelle Williams", "Naomie Harris"]
   },
   {
     "id": 103,
     "title": "X-MEN: MROCZNA PHOENIX",
-    "actor1": "Sophie Turner",
-    "actor2": "James McAvoy",
-    "actor3": "Michael Fassbender",
-    "actor4": "Jennifer Lawrence",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Sophie Turner", "James McAvoy", "Michael Fassbender", "Jennifer Lawrence"]
   },
   {
     "id": 104,
     "title": "KAPITAN MARVEL",
-    "actor1": "Brie Larson",
-    "actor2": "Samuel L. Jackson",
-    "actor3": "Ben Mendelsohn",
-    "actor4": "Jude Law",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Brie Larson", "Samuel L. Jackson", "Ben Mendelsohn", "Jude Law"]
   },
   {
     "id": 105,
     "title": "DEADPOOL 2",
-    "actor1": "Ryan Reynolds",
-    "actor2": "Josh Brolin",
-    "actor3": "Morena Baccarin",
-    "actor4": "Julian Dennison",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Ryan Reynolds", "Josh Brolin", "Morena Baccarin", "Julian Dennison"]
   },
   {
     "id": 106,
     "title": "VENOM",
-    "actor1": "Tom Hardy",
-    "actor2": "Michelle Williams",
-    "actor3": "Riz Ahmed",
-    "actor4": "Scott Haze",
-    "actor5": "Reid Scott",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tom Hardy", "Michelle Williams", "Riz Ahmed", "Scott Haze", "Reid Scott"]
   },
   {
     "id": 107,
     "title": "VENOM",
-    "actor1": "Tom Hardy",
-    "actor2": "Michelle Williams",
-    "actor3": "Riz Ahmed",
-    "actor4": "Scott Haze",
-    "actor5": "Reid Scott",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tom Hardy", "Michelle Williams", "Riz Ahmed", "Scott Haze", "Reid Scott"]
   },
   {
     "id": 108,
     "title": "CZARNA PANTERA",
-    "actor1": "Chadwick Boseman",
-    "actor2": "Michael B. Jordan",
-    "actor3": "Lupita Nyong'o",
-    "actor4": "Danai Gurira",
-    "actor5": "Martin Freeman",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Chadwick Boseman", "Michael B. Jordan", "Lupita Nyong'o", "Danai Gurira", "Martin Freeman"]
   },
   {
     "id": 109,
     "title": "STRAŻNICY GALAKTYKI VOL. 2",
-    "actor1": "Chris Pratt",
-    "actor2": "Zoe Saldana",
-    "actor3": "Dave Bautista",
-    "actor4": "Vin Diesel",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Chris Pratt", "Zoe Saldana", "Dave Bautista", "Vin Diesel"]
   },
   {
     "id": 110,
     "title": "LOGAN: WOLVERINE",
-    "actor1": "Hugh Jackman",
-    "actor2": "Patrick Stewart",
-    "actor3": "Dafne Keen",
-    "actor4": "Boyd Holbrook",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Hugh Jackman", "Patrick Stewart", "Dafne Keen", "Boyd Holbrook"]
   },
   {
     "id": 111,
     "title": "THOR: RAGNAROK",
-    "actor1": "Chris Hemsworth",
-    "actor2": "Tom Hiddleston",
-    "actor3": "Cate Blanchett",
-    "actor4": "Idris Elba",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Chris Hemsworth", "Tom Hiddleston", "Cate Blanchett", "Idris Elba"]
   },
   {
     "id": 112,
     "title": "DOKTOR STRANGE",
-    "actor1": "Benedict Cumberbatch",
-    "actor2": "Chiwetel Ejiofor",
-    "actor3": "Rachel McAdams",
-    "actor4": "Benedict Wong",
-    "actor5": "Mads Mikkelsen",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Benedict Cumberbatch", "Chiwetel Ejiofor", "Rachel McAdams", "Benedict Wong", "Mads Mikkelsen"]
   },
   {
     "id": 113,
     "title": "DEADPOOL",
-    "actor1": "Ryan Reynolds",
-    "actor2": "Morena Baccarin",
-    "actor3": "Ed Skrein",
-    "actor4": "T.J. Miller",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Ryan Reynolds", "Morena Baccarin", "Ed Skrein", "T.J. Miller"]
   },
   {
     "id": 114,
     "title": "X-MEN: APOCALYPSE",
-    "actor1": "James McAvoy",
-    "actor2": "Michael Fassbender",
-    "actor3": "Jennifer Lawrence",
-    "actor4": "Nicholas Hoult",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["James McAvoy", "Michael Fassbender", "Jennifer Lawrence", "Nicholas Hoult"]
   },
   {
     "id": 115,
     "title": "ANT-MAN",
-    "actor1": "Paul Rudd",
-    "actor2": "Michael Douglas",
-    "actor3": "Evangeline Lilly",
-    "actor4": "Corey Stoll",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Paul Rudd", "Michael Douglas", "Evangeline Lilly", "Corey Stoll"]
   },
   {
     "id": 116,
     "title": "FANTASTYCZNA CZWÓRKA",
-    "actor1": "Miles Teller",
-    "actor2": "Michael B. Jordan",
-    "actor3": "Kate Mara",
-    "actor4": "Jamie Bell",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Miles Teller", "Michael B. Jordan", "Kate Mara", "Jamie Bell"]
   },
   {
     "id": 117,
     "title": "X-MEN: PRZESZŁOŚĆ, KTÓRA NADEJDZIE",
-    "actor1": "Hugh Jackman",
-    "actor2": "James McAvoy",
-    "actor3": "Michael Fassbender",
-    "actor4": "Jennifer Lawrence",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Hugh Jackman", "James McAvoy", "Michael Fassbender", "Jennifer Lawrence"]
   },
   {
     "id": 118,
     "title": "STRAŻNICY GALAKTYKI",
-    "actor1": "Chris Pratt",
-    "actor2": "Zoe Saldana",
-    "actor3": "Dave Bautista",
-    "actor4": "Vin Diesel",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Chris Pratt", "Zoe Saldana", "Dave Bautista", "Vin Diesel"]
   },
   {
     "id": 119,
     "title": "IRON MAN 3",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Gwyneth Paltrow",
-    "actor3": "Don Cheadle",
-    "actor4": "Guy Pearce",
-    "actor5": "Rebecca Hall",
-    "actor6": "Jon Favreau",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Guy Pearce", "Rebecca Hall", "Jon Favreau"]
   },
   {
     "id": 120,
     "title": "THOR: MROCZNY ŚWIA",
-    "actor1": "Chris Hemsworth",
-    "actor2": "Natalie Portman",
-    "actor3": "Tom Hiddleston",
-    "actor4": "Anthony Hopkins",
-    "actor5": "Christopher Eccleston",
-    "actor6": "Adewale Akinnuoye-Agbaje",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Chris Hemsworth",
+      "Natalie Portman",
+      "Tom Hiddleston",
+      "Anthony Hopkins",
+      "Christopher Eccleston",
+      "Adewale Akinnuoye-Agbaje"
+    ]
   },
   {
     "id": 121,
     "title": "WOLVERINE",
-    "actor1": "Hugh Jackman",
-    "actor2": "Tao Okamoto",
-    "actor3": "Rila Fukushima",
-    "actor4": "Hiroyuki Sanada",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Hugh Jackman", "Tao Okamoto", "Rila Fukushima", "Hiroyuki Sanada"]
   },
   {
     "id": 122,
     "title": "GHOST RIDER 2",
-    "actor1": "Nicolas Cage",
-    "actor2": "Violante Placido",
-    "actor3": "Ciarán Hinds",
-    "actor4": "Idris Elba",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Nicolas Cage", "Violante Placido", "Ciarán Hinds", "Idris Elba"]
   },
   {
     "id": 123,
     "title": "THOR",
-    "actor1": "Chris Hemsworth",
-    "actor2": "Natalie Portman",
-    "actor3": "Tom Hiddleston",
-    "actor4": "Anthony Hopkins",
-    "actor5": "Stellan Skarsgård",
-    "actor6": "Kat Dennings",
-    "actor7": "Clark Gregg",
-    "actor8": "Idris Elba",
-    "actor9": "Colm Feore"
+    "actors": [
+      "Chris Hemsworth",
+      "Natalie Portman",
+      "Tom Hiddleston",
+      "Anthony Hopkins",
+      "Stellan Skarsgård",
+      "Kat Dennings",
+      "Clark Gregg",
+      "Idris Elba",
+      "Colm Feore"
+    ]
   },
   {
     "id": 124,
     "title": "X-MEN: PIERWSZA KLASA",
-    "actor1": "James McAvoy",
-    "actor2": "Michael Fassbender",
-    "actor3": "Rose Byrne",
-    "actor4": "Jennifer Lawrence",
-    "actor5": "Kevin Bacon",
-    "actor6": "January Jones",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["James McAvoy", "Michael Fassbender", "Rose Byrne", "Jennifer Lawrence", "Kevin Bacon", "January Jones"]
   },
   {
     "id": 125,
     "title": "IRON MAN 2",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Gwyneth Paltrow",
-    "actor3": "Don Cheadle",
-    "actor4": "Scarlett Johansson",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Robert Downey Jr.", "Gwyneth Paltrow", "Don Cheadle", "Scarlett Johansson"]
   },
   {
     "id": 126,
     "title": "X-MEN GENEZA: WOLVERINE",
-    "actor1": "Hugh Jackman",
-    "actor2": "Liev Schreiber",
-    "actor3": "Danny Huston",
-    "actor4": "Ryan Reynolds",
-    "actor5": "Daniel Henney",
-    "actor6": "Dominic Monaghan",
-    "actor7": "Taylor Kitsch",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Hugh Jackman",
+      "Liev Schreiber",
+      "Danny Huston",
+      "Ryan Reynolds",
+      "Daniel Henney",
+      "Dominic Monaghan",
+      "Taylor Kitsch"
+    ]
   },
   {
     "id": 127,
     "title": "INCREDIBLE HULK",
-    "actor1": "Edward Norton",
-    "actor2": "Liv Tyler",
-    "actor3": "Tim Roth",
-    "actor4": "William Hurt",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Edward Norton", "Liv Tyler", "Tim Roth", "William Hurt"]
   },
   {
     "id": 128,
     "title": "IRON MAN",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Terrence Howard",
-    "actor3": "Jeff Bridges",
-    "actor4": "Gwyneth Paltrow",
-    "actor5": "Leslie Bibb",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Robert Downey Jr.", "Terrence Howard", "Jeff Bridges", "Gwyneth Paltrow", "Leslie Bibb"]
   },
   {
     "id": 129,
     "title": "PUNISHER: STREFA WOJNY",
-    "actor1": "Ray Stevenson",
-    "actor2": "Dominic West",
-    "actor3": "Doug Hutchison",
-    "actor4": "Colin Salmon",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Ray Stevenson", "Dominic West", "Doug Hutchison", "Colin Salmon"]
   },
   {
     "id": 130,
     "title": "FANTASTYCZNA CZWÓRKA: NARODZINY SREBRNEGO SURFERA",
-    "actor1": "Ioan Gruffudd",
-    "actor2": "Jessica Alba",
-    "actor3": "Chris Evans",
-    "actor4": "Michael Chiklis",
-    "actor5": "Doug Jones",
-    "actor6": "Julian McMahon",
-    "actor7": "Kerry Washington",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Ioan Gruffudd",
+      "Jessica Alba",
+      "Chris Evans",
+      "Michael Chiklis",
+      "Doug Jones",
+      "Julian McMahon",
+      "Kerry Washington"
+    ]
   },
   {
     "id": 131,
     "title": "GHOST RIDER",
-    "actor1": "Nicolas Cage",
-    "actor2": "Eva Mendes",
-    "actor3": "Ling Hsueh Tang",
-    "actor4": "Richard Ian Cox",
-    "actor5": "Afton Fraser",
-    "actor6": "Peter Cavnoudias",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Nicolas Cage", "Eva Mendes", "Ling Hsueh Tang", "Richard Ian Cox", "Afton Fraser", "Peter Cavnoudias"]
   },
   {
     "id": 132,
     "title": "X-MEN: OSTATNI BASTION",
-    "actor1": "Hugh Jackman",
-    "actor2": "Halle Berry",
-    "actor3": "Ian McKellen",
-    "actor4": "Patrick Stewart",
-    "actor5": "Famke Janssen",
-    "actor6": "Anna Paquin",
-    "actor7": "Kelsey Grammer",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Hugh Jackman",
+      "Halle Berry",
+      "Ian McKellen",
+      "Patrick Stewart",
+      "Famke Janssen",
+      "Anna Paquin",
+      "Kelsey Grammer"
+    ]
   },
   {
     "id": 133,
     "title": "FANTASTYCZNA CZWÓRKA",
-    "actor1": "Ioan Gruffudd",
-    "actor2": "Michael Chiklis",
-    "actor3": "Chris Evans",
-    "actor4": "Jessica Alba",
-    "actor5": "Julian McMahon",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Ioan Gruffudd", "Michael Chiklis", "Chris Evans", "Jessica Alba", "Julian McMahon"]
   },
   {
     "id": 134,
     "title": "BLADE: MROCZNA TRÓJCA",
-    "actor1": "Wesley Snipes",
-    "actor2": "Kris Kristofferson",
-    "actor3": "Jessica Biel",
-    "actor4": "Ryan Reynolds",
-    "actor5": "Parker Posey",
-    "actor6": "Dominic Purcell",
-    "actor7": "John Michael Higgins",
-    "actor8": "James Remar",
-    "actor9": "Brak danych"
+    "actors": [
+      "Wesley Snipes",
+      "Kris Kristofferson",
+      "Jessica Biel",
+      "Ryan Reynolds",
+      "Parker Posey",
+      "Dominic Purcell",
+      "John Michael Higgins",
+      "James Remar"
+    ]
   },
   {
     "id": 135,
     "title": "X-MEN 2",
-    "actor1": "Hugh Jackman",
-    "actor2": "Patrick Stewart",
-    "actor3": "Ian McKellen",
-    "actor4": "Halle Berry",
-    "actor5": "Famke Janssen",
-    "actor6": "James Marsden",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Hugh Jackman", "Patrick Stewart", "Ian McKellen", "Halle Berry", "Famke Janssen", "James Marsden"]
   },
   {
     "id": 136,
     "title": "HULK",
-    "actor1": "Eric Bana",
-    "actor2": "Jennifer Connelly",
-    "actor3": "Sam Elliott",
-    "actor4": "Josh Lucas",
-    "actor5": "Nick Nolte",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Eric Bana", "Jennifer Connelly", "Sam Elliott", "Josh Lucas", "Nick Nolte"]
   },
   {
     "id": 137,
     "title": "BLADE: WIECZNY ŁOWCA II",
-    "actor1": "Wesley Snipes",
-    "actor2": "Kris Kristofferson",
-    "actor3": "Ron Perlman",
-    "actor4": "Luke Goss",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Wesley Snipes", "Kris Kristofferson", "Ron Perlman", "Luke Goss"]
   },
   {
     "id": 138,
     "title": "BLADE - WIECZNY ŁOWCA",
-    "actor1": "Wesley Snipes",
-    "actor2": "Stephen Dorff",
-    "actor3": "Kris Kristofferson",
-    "actor4": "N'Bushe Wright",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Wesley Snipes", "Stephen Dorff", "Kris Kristofferson", "N'Bushe Wright"]
   },
   {
     "id": 139,
     "title": "NICK FURY",
-    "actor1": "David Hasselhoff",
-    "actor2": "Lisa Rinna",
-    "actor3": "Sandra Hess",
-    "actor4": "Neil Roberts",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["David Hasselhoff", "Lisa Rinna", "Sandra Hess", "Neil Roberts"]
   },
   {
     "id": 140,
     "title": "ZŁAP MNIE, JEŚLI POTRAFISZ",
-    "actor1": "Leonardo DiCaprio",
-    "actor2": "Tom Hanks",
-    "actor3": "Christopher Walken",
-    "actor4": "Martin Sheen",
-    "actor5": "Nathalie Baye",
-    "actor6": "Amy Adams",
-    "actor7": "James Brolin",
-    "actor8": "Brian Howe",
-    "actor9": "Frank John Hughes"
+    "actors": [
+      "Leonardo DiCaprio",
+      "Tom Hanks",
+      "Christopher Walken",
+      "Martin Sheen",
+      "Nathalie Baye",
+      "Amy Adams",
+      "James Brolin",
+      "Brian Howe",
+      "Frank John Hughes"
+    ]
   },
   {
     "id": 141,
     "title": "LABIRYNT",
-    "actor1": "Hugh Jackman",
-    "actor2": "Jake Gyllenhaal",
-    "actor3": "Viola Davis",
-    "actor4": "Maria Bello",
-    "actor5": "Terrence Howard",
-    "actor6": "Melissa Leo",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Hugh Jackman", "Jake Gyllenhaal", "Viola Davis", "Maria Bello", "Terrence Howard", "Melissa Leo"]
   },
   {
     "id": 142,
     "title": "SIEDMIU SAMURAJÓW",
-    "actor1": "Takashi Shimura",
-    "actor2": "Toshirô Mifune",
-    "actor3": "Yoshio Inaba",
-    "actor4": "Seiji Miyaguchi",
-    "actor5": "Daisuke Katô",
-    "actor6": "Isao Kimura",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Takashi Shimura", "Toshirô Mifune", "Yoshio Inaba", "Seiji Miyaguchi", "Daisuke Katô", "Isao Kimura"]
   },
   {
     "id": 143,
     "title": "PRZERWANA LEKCJA MUZYKI",
-    "actor1": "Winona Ryder",
-    "actor2": "Angelina Jolie",
-    "actor3": "Clea DuVall",
-    "actor4": "Brittany Murphy",
-    "actor5": "Elisabeth Moss",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Winona Ryder", "Angelina Jolie", "Clea DuVall", "Brittany Murphy", "Elisabeth Moss"]
   },
   {
     "id": 144,
     "title": "KONESER",
-    "actor1": "Geoffrey Rush",
-    "actor2": "Jim Sturgess",
-    "actor3": "Sylvia Hoeks",
-    "actor4": "Donald Sutherland",
-    "actor5": "Philip Jackson",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Geoffrey Rush", "Jim Sturgess", "Sylvia Hoeks", "Donald Sutherland", "Philip Jackson"]
   },
   {
     "id": 145,
     "title": "REQUIEM DLA SNU",
-    "actor1": "Ellen Burstyn",
-    "actor2": "Jared Leto",
-    "actor3": "Jennifer Connelly",
-    "actor4": "Marlon Wayans",
-    "actor5": "Christopher McDonald",
-    "actor6": "Louise Lasser",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Ellen Burstyn",
+      "Jared Leto",
+      "Jennifer Connelly",
+      "Marlon Wayans",
+      "Christopher McDonald",
+      "Louise Lasser"
+    ]
   },
   {
     "id": 146,
     "title": "KLAUS",
-    "actor1": "Jason Schwartzman",
-    "actor2": "J.K. Simmons",
-    "actor3": "Rashida Jones",
-    "actor4": "Will Sasso",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Jason Schwartzman", "J.K. Simmons", "Rashida Jones", "Will Sasso"]
   },
   {
     "id": 147,
     "title": "JAK WYTRESOWAĆ SMOKA",
-    "actor1": "Jay Baruchel",
-    "actor2": "Gerard Butler",
-    "actor3": "Craig Ferguson",
-    "actor4": "America Ferrera",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Jay Baruchel", "Gerard Butler", "Craig Ferguson", "America Ferrera"]
   },
   {
     "id": 148,
     "title": "ŻYWOT BRIANA",
-    "actor1": "Graham Chapman",
-    "actor2": "John Cleese",
-    "actor3": "Terry Gilliam",
-    "actor4": "Eric Idle",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Graham Chapman", "John Cleese", "Terry Gilliam", "Eric Idle"]
   },
   {
     "id": 149,
     "title": "WSZYSTKO ZA ŻYCIE",
-    "actor1": "Emile Hirsch",
-    "actor2": "Vince Vaughn",
-    "actor3": "Catherine Keener",
-    "actor4": "Thure Lindhardt",
-    "actor5": "William Hurt",
-    "actor6": "Marcia Gay Harden",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Emile Hirsch",
+      "Vince Vaughn",
+      "Catherine Keener",
+      "Thure Lindhardt",
+      "William Hurt",
+      "Marcia Gay Harden"
+    ]
   },
   {
     "id": 150,
     "title": "FILADELFIA",
-    "actor1": "Tom Hanks",
-    "actor2": "Denzel Washington",
-    "actor3": "Antonio Banderas",
-    "actor4": "Karen Finley",
-    "actor5": "Ron Vawter",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Tom Hanks", "Denzel Washington", "Antonio Banderas", "Karen Finley", "Ron Vawter"]
   },
   {
     "id": 151,
     "title": "JAK ROZPĘTAŁEM DRUGĄ WOJNĘ ŚWIATOWĄ",
-    "actor1": "Marian Kociniak",
-    "actor2": "Wirgiliusz Gryń",
-    "actor3": "Elżbieta Starostecka",
-    "actor4": "Emil Karewicz",
-    "actor5": "Kazimierz Rudzki",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Marian Kociniak", "Wirgiliusz Gryń", "Elżbieta Starostecka", "Emil Karewicz", "Kazimierz Rudzki"]
   },
   {
     "id": 152,
     "title": "OBCY - 8. PASAŻER \"NOSTROMO",
-    "actor1": "Sigourney Weaver",
-    "actor2": "Tom Skerritt",
-    "actor3": "Ian Holm",
-    "actor4": "John Hurt",
-    "actor5": "Harry Dean Stanton",
-    "actor6": "Veronica Cartwright",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Sigourney Weaver", "Tom Skerritt", "Ian Holm", "John Hurt", "Harry Dean Stanton", "Veronica Cartwright"]
   },
   {
     "id": 153,
     "title": "CZŁOWIEK W OGNIU",
-    "actor1": "Denzel Washington",
-    "actor2": "Dakota Fanning",
-    "actor3": "Radha Mitchell",
-    "actor4": "Christopher Walken",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Denzel Washington", "Dakota Fanning", "Radha Mitchell", "Christopher Walken"]
   },
   {
     "id": 154,
     "title": "SZÓSTY ZMYSŁ",
-    "actor1": "Bruce Willis",
-    "actor2": "Haley Joel Osment",
-    "actor3": "Toni Collette",
-    "actor4": "Olivia Williams",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Bruce Willis", "Haley Joel Osment", "Toni Collette", "Olivia Williams"]
   },
   {
     "id": 155,
     "title": "SAMI SWOI",
-    "actor1": "Wacław Kowalski",
-    "actor2": "Władysław Hańcza",
-    "actor3": "Zdzisław Karczewski",
-    "actor4": "Ilona Kuśmierska",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Wacław Kowalski", "Władysław Hańcza", "Zdzisław Karczewski", "Ilona Kuśmierska"]
   },
   {
     "id": 156,
     "title": "SHREK",
-    "actor1": "Mike Myers",
-    "actor2": "Eddie Murphy",
-    "actor3": "Cameron Diaz",
-    "actor4": "John Lithgow",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Mike Myers", "Eddie Murphy", "Cameron Diaz", "John Lithgow"]
   },
   {
     "id": 157,
     "title": "SHREK 2",
-    "actor1": "Mike Myers",
-    "actor2": "Eddie Murphy",
-    "actor3": "Cameron Diaz",
-    "actor4": "Antonio Banderas",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Mike Myers", "Eddie Murphy", "Cameron Diaz", "Antonio Banderas"]
   },
   {
     "id": 158,
     "title": "SHREK TRZECI",
-    "actor1": "Mike Myers",
-    "actor2": "Eddie Murphy",
-    "actor3": "Cameron Diaz",
-    "actor4": "Antonio Banderas",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Mike Myers", "Eddie Murphy", "Cameron Diaz", "Antonio Banderas"]
   },
   {
     "id": 159,
     "title": "CHŁOPAKI NIE PŁACZĄ",
-    "actor1": "Maciej Stuhr",
-    "actor2": "Cezary Pazura",
-    "actor3": "Michał Milowicz",
-    "actor4": "Mirosław Zbrojewicz",
-    "actor5": "Anna Mucha",
-    "actor6": "Bohdan Łazuka",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Maciej Stuhr", "Cezary Pazura", "Michał Milowicz", "Mirosław Zbrojewicz", "Anna Mucha", "Bohdan Łazuka"]
   },
   {
     "id": 160,
     "title": "DZIEŃ ŚWIRA",
-    "actor1": "Marek Kondrat",
-    "actor2": "Janina Traczykówna",
-    "actor3": "Andrzej Grabowski",
-    "actor4": "Michał Koterski",
-    "actor5": "Joanna Sienkiewicz",
-    "actor6": "Monika Donner-Trelińska",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Marek Kondrat",
+      "Janina Traczykówna",
+      "Andrzej Grabowski",
+      "Michał Koterski",
+      "Joanna Sienkiewicz",
+      "Monika Donner-Trelińska"
+    ]
   },
   {
     "id": 161,
     "title": "SEKSMISJA",
-    "actor1": "Jerzy Stuhr",
-    "actor2": "Olgierd Łukaszewicz",
-    "actor3": "Bożena Stryjkówna",
-    "actor4": "Bogusława Pawelec",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Jerzy Stuhr", "Olgierd Łukaszewicz", "Bożena Stryjkówna", "Bogusława Pawelec"]
   },
   {
     "id": 162,
     "title": "EFEKT MOTYLA",
-    "actor1": "Ashton Kutcher",
-    "actor2": "Amy Smart",
-    "actor3": "Eric Stoltz",
-    "actor4": "William Lee Scott",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Ashton Kutcher", "Amy Smart", "Eric Stoltz", "William Lee Scott"]
   },
   {
     "id": 163,
     "title": "HELIKOPTER W OGNIU",
-    "actor1": "Josh Hartnett",
-    "actor2": "Ewan McGregor",
-    "actor3": "Tom Sizemore",
-    "actor4": "Eric Bana",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Josh Hartnett", "Ewan McGregor", "Tom Sizemore", "Eric Bana"]
   },
   {
     "id": 164,
     "title": "MIŚ",
-    "actor1": "Stanisław Tym",
-    "actor2": "Barbara Burska",
-    "actor3": "Christine Paul-Podlasky",
-    "actor4": "Krzysztof Kowalewski",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Stanisław Tym", "Barbara Burska", "Christine Paul-Podlasky", "Krzysztof Kowalewski"]
   },
   {
     "id": 165,
     "title": "WYŚCIG",
-    "actor1": "Chris Hemsworth",
-    "actor2": "Daniel Brühl",
-    "actor3": "Olivia Wilde",
-    "actor4": "Alexandra Maria Lara",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Chris Hemsworth", "Daniel Brühl", "Olivia Wilde", "Alexandra Maria Lara"]
   },
   {
     "id": 166,
     "title": "ILUZJONISTA",
-    "actor1": "Edward Norton",
-    "actor2": "Jessica Biel",
-    "actor3": "Paul Giamatti",
-    "actor4": "Rufus Sewell",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Edward Norton", "Jessica Biel", "Paul Giamatti", "Rufus Sewell"]
   },
   {
     "id": 167,
     "title": "ŚWIĘCI Z BOSTONU",
-    "actor1": "Willem Dafoe",
-    "actor2": "Sean Patrick Flanery",
-    "actor3": "Norman Reedus",
-    "actor4": "David Della Rocco",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Willem Dafoe", "Sean Patrick Flanery", "Norman Reedus", "David Della Rocco"]
   },
   {
     "id": 168,
     "title": "KILER",
-    "actor1": "Cezary Pazura",
-    "actor2": "Małgorzata Kożuchowska",
-    "actor3": "Jerzy Stuhr",
-    "actor4": "Katarzyna Figura",
-    "actor5": "Janusz Rewiński",
-    "actor6": "Jan Englert",
-    "actor7": "Maciej Kozłowski",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Cezary Pazura",
+      "Małgorzata Kożuchowska",
+      "Jerzy Stuhr",
+      "Katarzyna Figura",
+      "Janusz Rewiński",
+      "Jan Englert",
+      "Maciej Kozłowski"
+    ]
   },
   {
     "id": 169,
     "title": "KILER-ÓW 2-ÓCH",
-    "actor1": "Cezary Pazura",
-    "actor2": "Janusz Rewiński",
-    "actor3": "Jerzy Stuhr",
-    "actor4": "Małgorzata Kożuchowska",
-    "actor5": "Katarzyna Figura",
-    "actor6": "Jan Englert",
-    "actor7": "Jolanta Fraszyńska",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Cezary Pazura",
+      "Janusz Rewiński",
+      "Jerzy Stuhr",
+      "Małgorzata Kożuchowska",
+      "Katarzyna Figura",
+      "Jan Englert",
+      "Jolanta Fraszyńska"
+    ]
   },
   {
     "id": 170,
     "title": "WILK Z WALL STREET",
-    "actor1": "Leonardo DiCaprio",
-    "actor2": "Jonah Hill",
-    "actor3": "Margot Robbie",
-    "actor4": "Matthew McConaughey",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Leonardo DiCaprio", "Jonah Hill", "Margot Robbie", "Matthew McConaughey"]
   },
   {
     "id": 171,
     "title": "WOŁYŃ",
-    "actor1": "Michalina Łabacz",
-    "actor2": "Arkadiusz Jakubik",
-    "actor3": "Vasili Vasylyk",
-    "actor4": "Adrian Zaremba",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Michalina Łabacz", "Arkadiusz Jakubik", "Vasili Vasylyk", "Adrian Zaremba"]
   },
   {
     "id": 172,
     "title": "SHERLOCK HOLMES",
-    "actor1": "Robert Downey Jr.",
-    "actor2": "Jude Law",
-    "actor3": "Rachel McAdams",
-    "actor4": "Mark Strong",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Robert Downey Jr.", "Jude Law", "Rachel McAdams", "Mark Strong"]
   },
   {
     "id": 173,
     "title": "PIRACI Z KARAIBÓW: KLĄTWA CZARNEJ PERŁY",
-    "actor1": "Johnny Depp",
-    "actor2": "Geoffrey Rush",
-    "actor3": "Orlando Bloom",
-    "actor4": "Keira Knightley",
-    "actor5": "Jack Davenport",
-    "actor6": "Jonathan Pryce",
-    "actor7": "Lee Arenberg",
-    "actor8": "Mackenzie Crook",
-    "actor9": "Brak danych"
+    "actors": [
+      "Johnny Depp",
+      "Geoffrey Rush",
+      "Orlando Bloom",
+      "Keira Knightley",
+      "Jack Davenport",
+      "Jonathan Pryce",
+      "Lee Arenberg",
+      "Mackenzie Crook"
+    ]
   },
   {
     "id": 174,
     "title": "PIRACI Z KARAIBÓW: ZEMSTA SALAZARA",
-    "actor1": "Johnny Depp",
-    "actor2": "Javier Bardem",
-    "actor3": "Geoffrey Rush",
-    "actor4": "Brenton Thwaites",
-    "actor5": "Kaya Scodelario",
-    "actor6": "Kevin McNally",
-    "actor7": "Golshifteh Farahani",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Johnny Depp",
+      "Javier Bardem",
+      "Geoffrey Rush",
+      "Brenton Thwaites",
+      "Kaya Scodelario",
+      "Kevin McNally",
+      "Golshifteh Farahani"
+    ]
   },
   {
     "id": 175,
     "title": "PIRACI Z KARAIBÓW: NA NIEZNANYCH WODACH",
-    "actor1": "Johnny Depp",
-    "actor2": "Penélope Cruz",
-    "actor3": "Geoffrey Rush",
-    "actor4": "Ian McShane",
-    "actor5": "Kevin McNally",
-    "actor6": "Sam Claflin",
-    "actor7": "Astrid Bergès-Frisbey",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Johnny Depp",
+      "Penélope Cruz",
+      "Geoffrey Rush",
+      "Ian McShane",
+      "Kevin McNally",
+      "Sam Claflin",
+      "Astrid Bergès-Frisbey"
+    ]
   },
   {
     "id": 176,
     "title": "PIRACI Z KARAIBÓW: NA KRAŃCU ŚWIATA",
-    "actor1": "Johnny Depp",
-    "actor2": "Orlando Bloom",
-    "actor3": "Keira Knightley",
-    "actor4": "Geoffrey Rush",
-    "actor5": "Jonathan Pryce",
-    "actor6": "Bill Nighy",
-    "actor7": "Yun-Fat Chow",
-    "actor8": "Tom Hollander",
-    "actor9": "Brak danych"
+    "actors": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Keira Knightley",
+      "Geoffrey Rush",
+      "Jonathan Pryce",
+      "Bill Nighy",
+      "Yun-Fat Chow",
+      "Tom Hollander"
+    ]
   },
   {
     "id": 177,
     "title": "PIRACI Z KARAIBÓW: SKRZYNIA UMARLAKA",
-    "actor1": "Johnny Depp",
-    "actor2": "Orlando Bloom",
-    "actor3": "Keira Knightley",
-    "actor4": "Jack Davenport",
-    "actor5": "Bill Nighy",
-    "actor6": "Jonathan Pryce",
-    "actor7": "Lee Arenberg",
-    "actor8": "Mackenzie Crook",
-    "actor9": "Brak danych"
+    "actors": [
+      "Johnny Depp",
+      "Orlando Bloom",
+      "Keira Knightley",
+      "Jack Davenport",
+      "Bill Nighy",
+      "Jonathan Pryce",
+      "Lee Arenberg",
+      "Mackenzie Crook"
+    ]
   },
   {
     "id": 178,
     "title": "HARRY POTTER I KAMIEŃ FILOZOFICZNY",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "Richard Harris",
-    "actor5": "Maggie Smith",
-    "actor6": "Ian Hart",
-    "actor7": "Alan Rickman",
-    "actor8": "Robbie Coltrane",
-    "actor9": "Warwick Davis"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "Richard Harris",
+      "Maggie Smith",
+      "Ian Hart",
+      "Alan Rickman",
+      "Robbie Coltrane",
+      "Warwick Davis"
+    ]
   },
   {
     "id": 179,
     "title": "HARRY POTTER I KOMNATA TAJEMNIC",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "Miriam Margolyes",
-    "actor5": "Mark Williams",
-    "actor6": "Bonnie Wright",
-    "actor7": "Matthew Lewis",
-    "actor8": "Toby Jones",
-    "actor9": "KENNETH BRANAGH"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "Miriam Margolyes",
+      "Mark Williams",
+      "Bonnie Wright",
+      "Matthew Lewis",
+      "Toby Jones",
+      "KENNETH BRANAGH"
+    ]
   },
   {
     "id": 180,
     "title": "HARRY POTTER I WIĘZIEŃ AZKABANU",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "David Thewlis",
-    "actor5": "Gary Oldman",
-    "actor6": "Michael Gambon",
-    "actor7": "Robbie Coltrane",
-    "actor8": "Alan Rickman",
-    "actor9": "Maggie Smith"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "David Thewlis",
+      "Gary Oldman",
+      "Michael Gambon",
+      "Robbie Coltrane",
+      "Alan Rickman",
+      "Maggie Smith"
+    ]
   },
   {
     "id": 181,
     "title": "HARRY POTTER I CZARA OGNIA",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "Michael Gambon",
-    "actor5": "Maggie Smith",
-    "actor6": "Robbie Coltrane",
-    "actor7": "Brendan Gleeson",
-    "actor8": "Ralph Fiennes",
-    "actor9": "Alan Rickman"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "Michael Gambon",
+      "Maggie Smith",
+      "Robbie Coltrane",
+      "Brendan Gleeson",
+      "Ralph Fiennes",
+      "Alan Rickman"
+    ]
   },
   {
     "id": 182,
     "title": "HARRY POTTER I ZAKON FENIKSA",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "Michael Gambon",
-    "actor5": "Ralph Fiennes",
-    "actor6": "Alan Rickman",
-    "actor7": "Gary Oldman",
-    "actor8": "Imelda Staunton",
-    "actor9": "Maggie Smith"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "Michael Gambon",
+      "Ralph Fiennes",
+      "Alan Rickman",
+      "Gary Oldman",
+      "Imelda Staunton",
+      "Maggie Smith"
+    ]
   },
   {
     "id": 183,
     "title": "HARRY POTTER I KSIĄŻĘ PÓŁKRWI",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "Matthew Lewis",
-    "actor5": "Evanna Lynch",
-    "actor6": "Jessie Cave",
-    "actor7": "Scarlett Hefner",
-    "actor8": "Katie Leung",
-    "actor9": "Frank Dillane"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "Matthew Lewis",
+      "Evanna Lynch",
+      "Jessie Cave",
+      "Scarlett Hefner",
+      "Katie Leung",
+      "Frank Dillane"
+    ]
   },
   {
     "id": 184,
     "title": "HARRY POTTER I INSYGNIA ŚMIERCI: CZĘŚĆ I",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "Tom Felton",
-    "actor5": "Robbie Coltrane",
-    "actor6": "Brendan Gleeson",
-    "actor7": "Bonnie Wright",
-    "actor8": "Alan Rickman",
-    "actor9": "Helena Bonham Carter"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "Tom Felton",
+      "Robbie Coltrane",
+      "Brendan Gleeson",
+      "Bonnie Wright",
+      "Alan Rickman",
+      "Helena Bonham Carter"
+    ]
   },
   {
     "id": 185,
     "title": "HARRY POTTER I INSYGNIA ŚMIERCI: CZĘŚĆ II",
-    "actor1": "Daniel Radcliffe",
-    "actor2": "Rupert Grint",
-    "actor3": "Emma Watson",
-    "actor4": "Ralph Fiennes",
-    "actor5": "Helena Bonham Carter",
-    "actor6": "Michael Gambon",
-    "actor7": "Alan Rickman",
-    "actor8": "Maggie Smith",
-    "actor9": "John Hurt"
+    "actors": [
+      "Daniel Radcliffe",
+      "Rupert Grint",
+      "Emma Watson",
+      "Ralph Fiennes",
+      "Helena Bonham Carter",
+      "Michael Gambon",
+      "Alan Rickman",
+      "Maggie Smith",
+      "John Hurt"
+    ]
   },
   {
     "id": 186,
     "title": "FANTASTYCZNE ZWIERZĘTA I JAK JE ZNALEŹĆ",
-    "actor1": "Eddie Redmayne",
-    "actor2": "Katherine Waterston",
-    "actor3": "Dan Fogler",
-    "actor4": "Colin Farrell",
-    "actor5": "Alison Sudol",
-    "actor6": "Ezra Miller",
-    "actor7": "Samantha Morton",
-    "actor8": "Jon Voight",
-    "actor9": "Carmen Ejogo"
+    "actors": [
+      "Eddie Redmayne",
+      "Katherine Waterston",
+      "Dan Fogler",
+      "Colin Farrell",
+      "Alison Sudol",
+      "Ezra Miller",
+      "Samantha Morton",
+      "Jon Voight",
+      "Carmen Ejogo"
+    ]
   },
   {
     "id": 187,
     "title": "FANTASTYCZNE ZWIERZĘTA: ZBRODNIE GRINDELWALDA",
-    "actor1": "Eddie Redmayne",
-    "actor2": "Katherine Waterston",
-    "actor3": "Dan Fogler",
-    "actor4": "Alison Sudol",
-    "actor5": "Ezra Miller",
-    "actor6": "Zoë Kravitz",
-    "actor7": "Johnny Depp",
-    "actor8": "Jude Law",
-    "actor9": "Callum Turner"
+    "actors": [
+      "Eddie Redmayne",
+      "Katherine Waterston",
+      "Dan Fogler",
+      "Alison Sudol",
+      "Ezra Miller",
+      "Zoë Kravitz",
+      "Johnny Depp",
+      "Jude Law",
+      "Callum Turner"
+    ]
   },
   {
     "id": 188,
     "title": "FANTASTYCZNE ZWIERZĘTA: TAJEMNICE DUMBLEDORE'A",
-    "actor1": "Eddie Redmayne",
-    "actor2": "Jude Law",
-    "actor3": "Mads Mikkelsen",
-    "actor4": "Ezra Miller",
-    "actor5": "Dan Fogler",
-    "actor6": "Alison Sudol",
-    "actor7": "William Nadylam",
-    "actor8": "Callum Turner",
-    "actor9": "Jessica Williams"
+    "actors": [
+      "Eddie Redmayne",
+      "Jude Law",
+      "Mads Mikkelsen",
+      "Ezra Miller",
+      "Dan Fogler",
+      "Alison Sudol",
+      "William Nadylam",
+      "Callum Turner",
+      "Jessica Williams"
+    ]
   },
   {
     "id": 189,
     "title": "NIE CZAS UMIERAĆ",
-    "actor1": "Daniel Craig",
-    "actor2": "Léa Seydoux",
-    "actor3": "Rami Malek",
-    "actor4": "Lashana Lynch",
-    "actor5": "Ralph Fiennes",
-    "actor6": "Ben Whishaw",
-    "actor7": "Naomie Harris",
-    "actor8": "Rory Kinnear",
-    "actor9": "Jeffrey Wright"
+    "actors": [
+      "Daniel Craig",
+      "Léa Seydoux",
+      "Rami Malek",
+      "Lashana Lynch",
+      "Ralph Fiennes",
+      "Ben Whishaw",
+      "Naomie Harris",
+      "Rory Kinnear",
+      "Jeffrey Wright"
+    ]
   },
   {
     "id": 190,
     "title": "SPECTRE",
-    "actor1": "Daniel Craig",
-    "actor2": "Christoph Waltz",
-    "actor3": "Léa Seydoux",
-    "actor4": "Ralph Fiennes",
-    "actor5": "Monica Bellucci",
-    "actor6": "Ben Whishaw",
-    "actor7": "Naomie Harris",
-    "actor8": "Dave Bautista",
-    "actor9": "Andrew Scott"
+    "actors": [
+      "Daniel Craig",
+      "Christoph Waltz",
+      "Léa Seydoux",
+      "Ralph Fiennes",
+      "Monica Bellucci",
+      "Ben Whishaw",
+      "Naomie Harris",
+      "Dave Bautista",
+      "Andrew Scott"
+    ]
   },
   {
     "id": 191,
     "title": "SKYFALL",
-    "actor1": "Daniel Craig",
-    "actor2": "Judi Dench",
-    "actor3": "Javier Bardem",
-    "actor4": "Ralph Fiennes",
-    "actor5": "Naomie Harris",
-    "actor6": "Bérénice Marlohe",
-    "actor7": "Albert Finney",
-    "actor8": "Ben Whishaw",
-    "actor9": "Rory Kinnear"
+    "actors": [
+      "Daniel Craig",
+      "Judi Dench",
+      "Javier Bardem",
+      "Ralph Fiennes",
+      "Naomie Harris",
+      "Bérénice Marlohe",
+      "Albert Finney",
+      "Ben Whishaw",
+      "Rory Kinnear"
+    ]
   },
   {
     "id": 192,
     "title": "007 QUANTUM OF SOLACE",
-    "actor1": "Daniel Craig",
-    "actor2": "Olga Kurylenko",
-    "actor3": "Mathieu Amalric",
-    "actor4": "Judi Dench",
-    "actor5": "Giancarlo Giannini",
-    "actor6": "Gemma Arterton",
-    "actor7": "Jeffrey Wright",
-    "actor8": "David Harbour",
-    "actor9": "Jesper Christensen"
+    "actors": [
+      "Daniel Craig",
+      "Olga Kurylenko",
+      "Mathieu Amalric",
+      "Judi Dench",
+      "Giancarlo Giannini",
+      "Gemma Arterton",
+      "Jeffrey Wright",
+      "David Harbour",
+      "Jesper Christensen"
+    ]
   },
   {
     "id": 193,
     "title": "CASINO ROYALE",
-    "actor1": "Daniel Craig",
-    "actor2": "Eva Green",
-    "actor3": "Mads Mikkelsen",
-    "actor4": "Judi Dench",
-    "actor5": "Jeffrey Wright",
-    "actor6": "Giancarlo Giannini",
-    "actor7": "Caterina Murino",
-    "actor8": "Simon Abkarian",
-    "actor9": "Isaach de Bankolé"
+    "actors": [
+      "Daniel Craig",
+      "Eva Green",
+      "Mads Mikkelsen",
+      "Judi Dench",
+      "Jeffrey Wright",
+      "Giancarlo Giannini",
+      "Caterina Murino",
+      "Simon Abkarian",
+      "Isaach de Bankolé"
+    ]
   },
   {
     "id": 194,
     "title": "ŚMIERĆ NADEJDZIE JUTRO",
-    "actor1": "Pierce Brosnan",
-    "actor2": "Halle Berry",
-    "actor3": "Toby Stephens",
-    "actor4": "Rosamund Pike",
-    "actor5": "Rick Yune",
-    "actor6": "Judi Dench",
-    "actor7": "John Cleese",
-    "actor8": "Michael Madsen",
-    "actor9": "Simón Andreu"
+    "actors": [
+      "Pierce Brosnan",
+      "Halle Berry",
+      "Toby Stephens",
+      "Rosamund Pike",
+      "Rick Yune",
+      "Judi Dench",
+      "John Cleese",
+      "Michael Madsen",
+      "Simón Andreu"
+    ]
   },
   {
     "id": 195,
     "title": "ŚWIAT TO ZA MAŁO",
-    "actor1": "Pierce Brosnan",
-    "actor2": "Sophie Marceau",
-    "actor3": "Denise Richards",
-    "actor4": "Robert Carlyle",
-    "actor5": "Judi Dench",
-    "actor6": "Samantha Bond",
-    "actor7": "Robbie Coltrane",
-    "actor8": "Maria Grazia Cucinotta",
-    "actor9": "Desmond Llewelyn"
+    "actors": [
+      "Pierce Brosnan",
+      "Sophie Marceau",
+      "Denise Richards",
+      "Robert Carlyle",
+      "Judi Dench",
+      "Samantha Bond",
+      "Robbie Coltrane",
+      "Maria Grazia Cucinotta",
+      "Desmond Llewelyn"
+    ]
   },
   {
     "id": 196,
     "title": "JUTRO NIE UMIERA NIGDY",
-    "actor1": "Pierce Brosnan",
-    "actor2": "Jonathan Pryce",
-    "actor3": "Michelle Yeoh",
-    "actor4": "Teri Hatcher",
-    "actor5": "Ricky Jay",
-    "actor6": "Götz Otto",
-    "actor7": "Joe Don Baker",
-    "actor8": "Vincent Schiavelli",
-    "actor9": "Judi Dench"
+    "actors": [
+      "Pierce Brosnan",
+      "Jonathan Pryce",
+      "Michelle Yeoh",
+      "Teri Hatcher",
+      "Ricky Jay",
+      "Götz Otto",
+      "Joe Don Baker",
+      "Vincent Schiavelli",
+      "Judi Dench"
+    ]
   },
   {
     "id": 197,
     "title": "GOLDENEYE",
-    "actor1": "Pierce Brosnan",
-    "actor2": "Sean Bean",
-    "actor3": "Izabella Scorupco",
-    "actor4": "Famke Janssen",
-    "actor5": "Joe Don Baker",
-    "actor6": "Judi Dench",
-    "actor7": "Robbie Coltrane",
-    "actor8": "Tchéky Karyo",
-    "actor9": "Gottfried John"
+    "actors": [
+      "Pierce Brosnan",
+      "Sean Bean",
+      "Izabella Scorupco",
+      "Famke Janssen",
+      "Joe Don Baker",
+      "Judi Dench",
+      "Robbie Coltrane",
+      "Tchéky Karyo",
+      "Gottfried John"
+    ]
   },
   {
     "id": 198,
     "title": "LICENCJA NA ZABIJANIE",
-    "actor1": "Timothy Dalton",
-    "actor2": "Carey Lowell",
-    "actor3": "Robert Davi",
-    "actor4": "Talisa Soto",
-    "actor5": "Benicio del Toro",
-    "actor6": "Anthony Zerbe",
-    "actor7": "Frank McRae",
-    "actor8": "Everett McGill",
-    "actor9": "Wayne Newton"
+    "actors": [
+      "Timothy Dalton",
+      "Carey Lowell",
+      "Robert Davi",
+      "Talisa Soto",
+      "Benicio del Toro",
+      "Anthony Zerbe",
+      "Frank McRae",
+      "Everett McGill",
+      "Wayne Newton"
+    ]
   },
   {
     "id": 199,
     "title": "DOKTOR NO",
-    "actor1": "Sean Connery",
-    "actor2": "Ursula Andress",
-    "actor3": "Joseph Wiseman",
-    "actor4": "Jack Lord",
-    "actor5": "Bernard Lee",
-    "actor6": "Anthony Dawson",
-    "actor7": "Zena Marshall",
-    "actor8": "John Kitzmiller",
-    "actor9": "Eunice Gayson"
+    "actors": [
+      "Sean Connery",
+      "Ursula Andress",
+      "Joseph Wiseman",
+      "Jack Lord",
+      "Bernard Lee",
+      "Anthony Dawson",
+      "Zena Marshall",
+      "John Kitzmiller",
+      "Eunice Gayson"
+    ]
   },
   {
     "id": 200,
     "title": "POZDROWIENIA Z ROSJI",
-    "actor1": "Sean Connery",
-    "actor2": "Daniela Bianchi",
-    "actor3": "Pedro Armendáriz",
-    "actor4": "Lotte Lenya",
-    "actor5": "Robert Shaw",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Sean Connery", "Daniela Bianchi", "Pedro Armendáriz", "Lotte Lenya", "Robert Shaw"]
   },
   {
     "id": 201,
     "title": "GOLDFINGER",
-    "actor1": "Sean Connery",
-    "actor2": "Honor Blackman",
-    "actor3": "Gert Fröbe",
-    "actor4": "Shirley Eaton",
-    "actor5": "Tania Mallet",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Sean Connery", "Honor Blackman", "Gert Fröbe", "Shirley Eaton", "Tania Mallet"]
   },
   {
     "id": 202,
     "title": "W OBLICZU ŚMIERCI",
-    "actor1": "Timothy Dalton",
-    "actor2": "Maryam d'Abo",
-    "actor3": "Jeroen Krabbé",
-    "actor4": "Joe Don Baker",
-    "actor5": "John Rhys-Davies",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Timothy Dalton", "Maryam d'Abo", "Jeroen Krabbé", "Joe Don Baker", "John Rhys-Davies"]
   },
   {
     "id": 203,
     "title": "ŻYJ I POZWÓL UMRZEĆ",
-    "actor1": "Roger Moore",
-    "actor2": "Yaphet Kotto",
-    "actor3": "Jane Seymour",
-    "actor4": "Clifton James",
-    "actor5": "Brak danych",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Roger Moore", "Yaphet Kotto", "Jane Seymour", "Clifton James"]
   },
   {
     "id": 204,
     "title": "CZŁOWIEK ZE ZŁOTYM PISTOLETEM",
-    "actor1": "Roger Moore",
-    "actor2": "Christopher Lee",
-    "actor3": "Britt Ekland",
-    "actor4": "Maud Adams",
-    "actor5": "Hervé Villechaize",
-    "actor6": "Brak danych",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Roger Moore", "Christopher Lee", "Britt Ekland", "Maud Adams", "Hervé Villechaize"]
   },
   {
     "id": 205,
     "title": "NIEZNISZCZALNI",
-    "actor1": "Sylvester Stallone",
-    "actor2": "Jason Statham",
-    "actor3": "Jet Li",
-    "actor4": "Dolph Lundgren",
-    "actor5": "Eric Roberts",
-    "actor6": "Randy Couture",
-    "actor7": "Steve Austin",
-    "actor8": "David Zayas",
-    "actor9": "Giselle Itié"
+    "actors": [
+      "Sylvester Stallone",
+      "Jason Statham",
+      "Jet Li",
+      "Dolph Lundgren",
+      "Eric Roberts",
+      "Randy Couture",
+      "Steve Austin",
+      "David Zayas",
+      "Giselle Itié"
+    ]
   },
   {
     "id": 206,
     "title": "NIEZNISZCZALNI 2",
-    "actor1": "Sylvester Stallone",
-    "actor2": "Jason Statham",
-    "actor3": "Jet Li",
-    "actor4": "Dolph Lundgren",
-    "actor5": "Chuck Norris",
-    "actor6": "Jean-Claude Van Damme",
-    "actor7": "Bruce Willis",
-    "actor8": "Arnold Schwarzenegger",
-    "actor9": "Terry Crews"
+    "actors": [
+      "Sylvester Stallone",
+      "Jason Statham",
+      "Jet Li",
+      "Dolph Lundgren",
+      "Chuck Norris",
+      "Jean-Claude Van Damme",
+      "Bruce Willis",
+      "Arnold Schwarzenegger",
+      "Terry Crews"
+    ]
   },
   {
     "id": 207,
     "title": "NIEZNISZCZALNI 3",
-    "actor1": "Sylvester Stallone",
-    "actor2": "Jason Statham",
-    "actor3": "Harrison Ford",
-    "actor4": "Arnold Schwarzenegger",
-    "actor5": "Mel Gibson",
-    "actor6": "Wesley Snipes",
-    "actor7": "Dolph Lundgren",
-    "actor8": "Randy Couture",
-    "actor9": "Terry Crews"
+    "actors": [
+      "Sylvester Stallone",
+      "Jason Statham",
+      "Harrison Ford",
+      "Arnold Schwarzenegger",
+      "Mel Gibson",
+      "Wesley Snipes",
+      "Dolph Lundgren",
+      "Randy Couture",
+      "Terry Crews"
+    ]
   },
   {
     "id": 208,
     "title": "MACZETA ZABIJA",
-    "actor1": "Danny Trejo",
-    "actor2": "Mel Gibson",
-    "actor3": "Demián Bichir",
-    "actor4": "Amber Heard",
-    "actor5": "Michelle Rodriguez",
-    "actor6": "Sofía Vergara",
-    "actor7": "Charlie Sheen",
-    "actor8": "Lady Gaga",
-    "actor9": "Antonio Banderas"
+    "actors": [
+      "Danny Trejo",
+      "Mel Gibson",
+      "Demián Bichir",
+      "Amber Heard",
+      "Michelle Rodriguez",
+      "Sofía Vergara",
+      "Charlie Sheen",
+      "Lady Gaga",
+      "Antonio Banderas"
+    ]
   },
   {
     "id": 209,
     "title": "DORWAĆ GRINGO",
-    "actor1": "Mel Gibson",
-    "actor2": "Kevin Hernandez",
-    "actor3": "Daniel Giménez Cacho",
-    "actor4": "Jesús Ochoa",
-    "actor5": "Dolores Heredia",
-    "actor6": "Peter Gerety",
-    "actor7": "Roberto Sosa",
-    "actor8": "Peter Stormare",
-    "actor9": "Mario Zaragoza"
+    "actors": [
+      "Mel Gibson",
+      "Kevin Hernandez",
+      "Daniel Giménez Cacho",
+      "Jesús Ochoa",
+      "Dolores Heredia",
+      "Peter Gerety",
+      "Roberto Sosa",
+      "Peter Stormare",
+      "Mario Zaragoza"
+    ]
   },
   {
     "id": 210,
     "title": "ZNAKI",
-    "actor1": "Mel Gibson",
-    "actor2": "Joaquin Phoenix",
-    "actor3": "Rory Culkin",
-    "actor4": "Abigail Breslin",
-    "actor5": "Cherry Jones",
-    "actor6": "Patricia Kalember",
-    "actor7": "M. Night Shyamalan",
-    "actor8": "Michael Showalter",
-    "actor9": "Marion McCorry"
+    "actors": [
+      "Mel Gibson",
+      "Joaquin Phoenix",
+      "Rory Culkin",
+      "Abigail Breslin",
+      "Cherry Jones",
+      "Patricia Kalember",
+      "M. Night Shyamalan",
+      "Michael Showalter",
+      "Marion McCorry"
+    ]
   },
   {
     "id": 211,
     "title": "ZABÓJCZA BROŃ",
-    "actor1": "Mel Gibson",
-    "actor2": "Danny Glover",
-    "actor3": "Gary Busey",
-    "actor4": "Mitchell Ryan",
-    "actor5": "Tom Atkins",
-    "actor6": "Darlene Love",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["Mel Gibson", "Danny Glover", "Gary Busey", "Mitchell Ryan", "Tom Atkins", "Darlene Love"]
   },
   {
     "id": 212,
     "title": "ZABÓJCZA BROŃ 2",
-    "actor1": "Mel Gibson",
-    "actor2": "Danny Glover",
-    "actor3": "Joe Pesci",
-    "actor4": "Joss Ackland",
-    "actor5": "Derrick O'Connor",
-    "actor6": "Darlene Love",
-    "actor7": "Patsy Kensit",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Mel Gibson",
+      "Danny Glover",
+      "Joe Pesci",
+      "Joss Ackland",
+      "Derrick O'Connor",
+      "Darlene Love",
+      "Patsy Kensit"
+    ]
   },
   {
     "id": 213,
     "title": "ZABÓJCZA BROŃ 3",
-    "actor1": "Mel Gibson",
-    "actor2": "Danny Glover",
-    "actor3": "Joe Pesci",
-    "actor4": "Rene Russo",
-    "actor5": "Stuart Wilson",
-    "actor6": "Steve Kahan",
-    "actor7": "Darlene Love",
-    "actor8": "Traci Wolfe",
-    "actor9": "Brak danych"
+    "actors": [
+      "Mel Gibson",
+      "Danny Glover",
+      "Joe Pesci",
+      "Rene Russo",
+      "Stuart Wilson",
+      "Steve Kahan",
+      "Darlene Love",
+      "Traci Wolfe"
+    ]
   },
   {
     "id": 214,
     "title": "ZABÓJCZA BROŃ 4",
-    "actor1": "Mel Gibson",
-    "actor2": "Danny Glover",
-    "actor3": "Joe Pesci",
-    "actor4": "Rene Russo",
-    "actor5": "Chris Rock",
-    "actor6": "Jet Li",
-    "actor7": "Steve Kahan",
-    "actor8": "Kim Chan",
-    "actor9": "Brak danych"
+    "actors": [
+      "Mel Gibson",
+      "Danny Glover",
+      "Joe Pesci",
+      "Rene Russo",
+      "Chris Rock",
+      "Jet Li",
+      "Steve Kahan",
+      "Kim Chan"
+    ]
   },
   {
     "id": 215,
     "title": "AMERICAN PIE",
-    "actor1": "Jason Biggs",
-    "actor2": "Chris Klein",
-    "actor3": "Thomas Ian Nicholas",
-    "actor4": "Alyson Hannigan",
-    "actor5": "Shannon Elizabeth",
-    "actor6": "Tara Reid",
-    "actor7": "Eddie Kaye Thomas",
-    "actor8": "Seann William Scott",
-    "actor9": "Eugene Levy"
+    "actors": [
+      "Jason Biggs",
+      "Chris Klein",
+      "Thomas Ian Nicholas",
+      "Alyson Hannigan",
+      "Shannon Elizabeth",
+      "Tara Reid",
+      "Eddie Kaye Thomas",
+      "Seann William Scott",
+      "Eugene Levy"
+    ]
   },
   {
     "id": 216,
     "title": "AMERICAN PIE 2",
-    "actor1": "Jason Biggs",
-    "actor2": "Seann William Scott",
-    "actor3": "Thomas Ian Nicholas",
-    "actor4": "Eddie Kaye Thomas",
-    "actor5": "Chris Klein",
-    "actor6": "Alyson Hannigan",
-    "actor7": "Tara Reid",
-    "actor8": "Natasha Lyonne",
-    "actor9": "Shannon Elizabeth"
+    "actors": [
+      "Jason Biggs",
+      "Seann William Scott",
+      "Thomas Ian Nicholas",
+      "Eddie Kaye Thomas",
+      "Chris Klein",
+      "Alyson Hannigan",
+      "Tara Reid",
+      "Natasha Lyonne",
+      "Shannon Elizabeth"
+    ]
   },
   {
     "id": 217,
     "title": "AMERICAN PIE: WESELE",
-    "actor1": "Jason Biggs",
-    "actor2": "Seann William Scott",
-    "actor3": "Alyson Hannigan",
-    "actor4": "Eddie Kaye Thomas",
-    "actor5": "Thomas Ian Nicholas",
-    "actor6": "January Jones",
-    "actor7": "Eugene Levy",
-    "actor8": "Molly Cheek",
-    "actor9": "Deborah Rush"
+    "actors": [
+      "Jason Biggs",
+      "Seann William Scott",
+      "Alyson Hannigan",
+      "Eddie Kaye Thomas",
+      "Thomas Ian Nicholas",
+      "January Jones",
+      "Eugene Levy",
+      "Molly Cheek",
+      "Deborah Rush"
+    ]
   },
   {
     "id": 218,
     "title": "AMERICAN PIE: WAKACJE",
-    "actor1": "Eugene Levy",
-    "actor2": "Tad Hilgenbrink",
-    "actor3": "Arielle Kebbel",
-    "actor4": "Jason Earles",
-    "actor5": "Crystle Lightning",
-    "actor6": "Jun Hee Lee",
-    "actor7": "Matt Barr",
-    "actor8": "Chris Owen",
-    "actor9": "Lauren C. Mayhew"
+    "actors": [
+      "Eugene Levy",
+      "Tad Hilgenbrink",
+      "Arielle Kebbel",
+      "Jason Earles",
+      "Crystle Lightning",
+      "Jun Hee Lee",
+      "Matt Barr",
+      "Chris Owen",
+      "Lauren C. Mayhew"
+    ]
   },
   {
     "id": 219,
     "title": "AMERICAN PIE: NAGA MILA",
-    "actor1": "John White",
-    "actor2": "Jessy Schram",
-    "actor3": "Steve Talley",
-    "actor4": "Christopher McDonald",
-    "actor5": "Eugene Levy",
-    "actor6": "Ross Thomas",
-    "actor7": "Jake Siegel",
-    "actor8": "Jordan Prentice",
-    "actor9": "Maria Ricossa"
+    "actors": [
+      "John White",
+      "Jessy Schram",
+      "Steve Talley",
+      "Christopher McDonald",
+      "Eugene Levy",
+      "Ross Thomas",
+      "Jake Siegel",
+      "Jordan Prentice",
+      "Maria Ricossa"
+    ]
   },
   {
     "id": 220,
     "title": "AMERICAN PIE: BRACTWO BETA",
-    "actor1": "John White",
-    "actor2": "Steve Talley",
-    "actor3": "Christopher McDonald",
-    "actor4": "Eugene Levy",
-    "actor5": "Meghan Heffern",
-    "actor6": "Jake Siegel",
-    "actor7": "Nick Nicotera",
-    "actor8": "Jonathan Keltz",
-    "actor9": "Bradford Anderson"
+    "actors": [
+      "John White",
+      "Steve Talley",
+      "Christopher McDonald",
+      "Eugene Levy",
+      "Meghan Heffern",
+      "Jake Siegel",
+      "Nick Nicotera",
+      "Jonathan Keltz",
+      "Bradford Anderson"
+    ]
   },
   {
     "id": 221,
     "title": "AMERICAN PIE: KSIĘGA MIŁOŚCI",
-    "actor1": "Bug Hall",
-    "actor2": "Kevin M. Horton",
-    "actor3": "Brandon Hardesty",
-    "actor4": "Beth Behrs",
-    "actor5": "Melanie Papalia",
-    "actor6": "Jennifer Holland",
-    "actor7": "John Patrick Jordan",
-    "actor8": "Louisa Lytton",
-    "actor9": "Rosanna Arquette"
+    "actors": [
+      "Bug Hall",
+      "Kevin M. Horton",
+      "Brandon Hardesty",
+      "Beth Behrs",
+      "Melanie Papalia",
+      "Jennifer Holland",
+      "John Patrick Jordan",
+      "Louisa Lytton",
+      "Rosanna Arquette"
+    ]
   },
   {
     "id": 222,
     "title": "AMERICAN PIE: ZJAZD ABSOLWENTÓW",
-    "actor1": "Jason Biggs",
-    "actor2": "Alyson Hannigan",
-    "actor3": "Chris Klein",
-    "actor4": "Thomas Ian Nicholas",
-    "actor5": "Tara Reid",
-    "actor6": "Seann William Scott",
-    "actor7": "Mena Suvari",
-    "actor8": "Eddie Kaye Thomas",
-    "actor9": "John Cho"
+    "actors": [
+      "Jason Biggs",
+      "Alyson Hannigan",
+      "Chris Klein",
+      "Thomas Ian Nicholas",
+      "Tara Reid",
+      "Seann William Scott",
+      "Mena Suvari",
+      "Eddie Kaye Thomas",
+      "John Cho"
+    ]
   },
   {
     "id": 223,
     "title": "AMERICAN PIE: DZIEWCZYNY RZĄDZĄ",
-    "actor1": "Madison Pettis",
-    "actor2": "Lizze Broadway",
-    "actor3": "Natasha Behnam",
-    "actor4": "Piper Curda",
-    "actor5": "Darren Barnet",
-    "actor6": "Lucas Adams",
-    "actor7": "Barry Bostwick",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Madison Pettis",
+      "Lizze Broadway",
+      "Natasha Behnam",
+      "Piper Curda",
+      "Darren Barnet",
+      "Lucas Adams",
+      "Barry Bostwick"
+    ]
   },
   {
     "id": 224,
     "title": "PIŁA",
-    "actor1": "Tobin Bell",
-    "actor2": "Cary Elwes",
-    "actor3": "Danny Glover",
-    "actor4": "Ken Leung",
-    "actor5": "Dina Meyer",
-    "actor6": "Monica Potter",
-    "actor7": "Leigh Whannell",
-    "actor8": "Ned Bellamy",
-    "actor9": "Avner Garbi"
+    "actors": [
+      "Tobin Bell",
+      "Cary Elwes",
+      "Danny Glover",
+      "Ken Leung",
+      "Dina Meyer",
+      "Monica Potter",
+      "Leigh Whannell",
+      "Ned Bellamy",
+      "Avner Garbi"
+    ]
   },
   {
     "id": 225,
     "title": "PIŁA II",
-    "actor1": "Donnie Wahlberg",
-    "actor2": "Shawnee Smith",
-    "actor3": "Tobin Bell",
-    "actor4": "Franky G",
-    "actor5": "Glenn Plummer",
-    "actor6": "Dina Meyer",
-    "actor7": "Emmanuelle Vaugier",
-    "actor8": "Beverley Mitchell",
-    "actor9": "Erik Knudsen"
+    "actors": [
+      "Donnie Wahlberg",
+      "Shawnee Smith",
+      "Tobin Bell",
+      "Franky G",
+      "Glenn Plummer",
+      "Dina Meyer",
+      "Emmanuelle Vaugier",
+      "Beverley Mitchell",
+      "Erik Knudsen"
+    ]
   },
   {
     "id": 226,
     "title": "PIŁA III",
-    "actor1": "Tobin Bell",
-    "actor2": "Shawnee Smith",
-    "actor3": "Angus Macfadyen",
-    "actor4": "Bahar Soomekh",
-    "actor5": "Dina Meyer",
-    "actor6": "Donnie Wahlberg",
-    "actor7": "Mpho Koaho",
-    "actor8": "Barry Flatman",
-    "actor9": "Lyriq Bent"
+    "actors": [
+      "Tobin Bell",
+      "Shawnee Smith",
+      "Angus Macfadyen",
+      "Bahar Soomekh",
+      "Dina Meyer",
+      "Donnie Wahlberg",
+      "Mpho Koaho",
+      "Barry Flatman",
+      "Lyriq Bent"
+    ]
   },
   {
     "id": 227,
     "title": "PIŁA IV",
-    "actor1": "Tobin Bell",
-    "actor2": "Costas Mandylor",
-    "actor3": "Scott Patterson",
-    "actor4": "Betsy Russell",
-    "actor5": "Lyriq Bent",
-    "actor6": "Athena Karkanis",
-    "actor7": "Louis Ferreira",
-    "actor8": "Simon Reynolds",
-    "actor9": "Angus Macfadyen"
+    "actors": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Scott Patterson",
+      "Betsy Russell",
+      "Lyriq Bent",
+      "Athena Karkanis",
+      "Louis Ferreira",
+      "Simon Reynolds",
+      "Angus Macfadyen"
+    ]
   },
   {
     "id": 228,
     "title": "PIŁA V",
-    "actor1": "Tobin Bell",
-    "actor2": "Costas Mandylor",
-    "actor3": "Scott Patterson",
-    "actor4": "Betsy Russell",
-    "actor5": "Julie Benz",
-    "actor6": "Meagan Good",
-    "actor7": "Mark Rolston",
-    "actor8": "Carlo Rota",
-    "actor9": "Greg Bryk"
+    "actors": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Scott Patterson",
+      "Betsy Russell",
+      "Julie Benz",
+      "Meagan Good",
+      "Mark Rolston",
+      "Carlo Rota",
+      "Greg Bryk"
+    ]
   },
   {
     "id": 229,
     "title": "PIŁA VI",
-    "actor1": "Tobin Bell",
-    "actor2": "Costas Mandylor",
-    "actor3": "Peter Outerbridge",
-    "actor4": "Betsy Russell",
-    "actor5": "Shawnee Smith",
-    "actor6": "Karen Cliche",
-    "actor7": "Mark Rolston",
-    "actor8": "Larissa Gomes",
-    "actor9": "Jon Mack"
+    "actors": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Peter Outerbridge",
+      "Betsy Russell",
+      "Shawnee Smith",
+      "Karen Cliche",
+      "Mark Rolston",
+      "Larissa Gomes",
+      "Jon Mack"
+    ]
   },
   {
     "id": 230,
     "title": "PIŁA 3D",
-    "actor1": "Tobin Bell",
-    "actor2": "Costas Mandylor",
-    "actor3": "Betsy Russell",
-    "actor4": "Cary Elwes",
-    "actor5": "Sean Patrick Flanery",
-    "actor6": "Chad Donella",
-    "actor7": "Gina Holden",
-    "actor8": "Laurence Anthony",
-    "actor9": "Dean Armstrong"
+    "actors": [
+      "Tobin Bell",
+      "Costas Mandylor",
+      "Betsy Russell",
+      "Cary Elwes",
+      "Sean Patrick Flanery",
+      "Chad Donella",
+      "Gina Holden",
+      "Laurence Anthony",
+      "Dean Armstrong"
+    ]
   },
   {
     "id": 231,
     "title": "PIŁA: DZIEDZICTWO",
-    "actor1": "Matt Passmore",
-    "actor2": "Tobin Bell",
-    "actor3": "Callum Keith Rennie",
-    "actor4": "Hannah Emily Anderson",
-    "actor5": "Clé Bennett",
-    "actor6": "Laura Vandervoort",
-    "actor7": "Paul Braunstein",
-    "actor8": "Mandela Van Peebles",
-    "actor9": "Brittany Allen"
+    "actors": [
+      "Matt Passmore",
+      "Tobin Bell",
+      "Callum Keith Rennie",
+      "Hannah Emily Anderson",
+      "Clé Bennett",
+      "Laura Vandervoort",
+      "Paul Braunstein",
+      "Mandela Van Peebles",
+      "Brittany Allen"
+    ]
   },
   {
     "id": 232,
     "title": "WKRĘCENI",
-    "actor1": "Piotr Adamczyk",
-    "actor2": "Bartosz Opania",
-    "actor3": "Paweł Domagała",
-    "actor4": "Krzysztof Stelmaszyk",
-    "actor5": "Dominika Kluźniak",
-    "actor6": "Monika Krzywkowska",
-    "actor7": "Kamilla Baar",
-    "actor8": "Kacper Kuszewski",
-    "actor9": "Piotr Głowacki"
+    "actors": [
+      "Piotr Adamczyk",
+      "Bartosz Opania",
+      "Paweł Domagała",
+      "Krzysztof Stelmaszyk",
+      "Dominika Kluźniak",
+      "Monika Krzywkowska",
+      "Kamilla Baar",
+      "Kacper Kuszewski",
+      "Piotr Głowacki"
+    ]
   },
   {
     "id": 233,
     "title": "WKRĘCENI 2",
-    "actor1": "Paweł Domagała",
-    "actor2": "Małgorzata Socha",
-    "actor3": "Bartosz Opania",
-    "actor4": "Marta Żmuda Trzebiatowska",
-    "actor5": "Barbara Kurdej-Szatan",
-    "actor6": "Antoni Królikowski",
-    "actor7": "Filip Bobek",
-    "actor8": "Leszek Lichota",
-    "actor9": "Anna Mucha"
+    "actors": [
+      "Paweł Domagała",
+      "Małgorzata Socha",
+      "Bartosz Opania",
+      "Marta Żmuda Trzebiatowska",
+      "Barbara Kurdej-Szatan",
+      "Antoni Królikowski",
+      "Filip Bobek",
+      "Leszek Lichota",
+      "Anna Mucha"
+    ]
   },
   {
     "id": 234,
     "title": "BOŻE CIAŁO",
-    "actor1": "Bartosz Bielenia",
-    "actor2": "Aleksandra Konieczna",
-    "actor3": "Eliza Rycembel",
-    "actor4": "Tomasz Ziętek",
-    "actor5": "Barbara Jonak",
-    "actor6": "Leszek Lichota",
-    "actor7": "Zdzisław Wardejn",
-    "actor8": "Łukasz Simlat",
-    "actor9": "Tomasz Włosok"
+    "actors": [
+      "Bartosz Bielenia",
+      "Aleksandra Konieczna",
+      "Eliza Rycembel",
+      "Tomasz Ziętek",
+      "Barbara Jonak",
+      "Leszek Lichota",
+      "Zdzisław Wardejn",
+      "Łukasz Simlat",
+      "Tomasz Włosok"
+    ]
   },
   {
     "id": 235,
     "title": "SMALL WORLD",
-    "actor1": "Piotr Adamczyk",
-    "actor2": "Julia Wieniawa-Narkiewicz",
-    "actor3": "Marieta Żukowska",
-    "actor4": "Piotr Stramowski",
-    "actor5": "Aleksey Serebryakov",
-    "actor6": "Enrique Arce",
-    "actor7": "Anastasiya Mikulchina",
-    "actor8": "Montserrat Roig de Puig",
-    "actor9": "Brak danych"
+    "actors": [
+      "Piotr Adamczyk",
+      "Julia Wieniawa-Narkiewicz",
+      "Marieta Żukowska",
+      "Piotr Stramowski",
+      "Aleksey Serebryakov",
+      "Enrique Arce",
+      "Anastasiya Mikulchina",
+      "Montserrat Roig de Puig"
+    ]
   },
   {
     "id": 236,
     "title": "KOBIETY MAFII 2",
-    "actor1": "Angie Cepeda",
-    "actor2": "Agnieszka Dygant",
-    "actor3": "Aleksandra Grabowska",
-    "actor4": "Aleksandra Popławska",
-    "actor5": "Katarzyna Warnke",
-    "actor6": "Piotr Adamczyk",
-    "actor7": "Enrique Arce",
-    "actor8": "Janusz Chabior",
-    "actor9": "Brak danych"
+    "actors": [
+      "Angie Cepeda",
+      "Agnieszka Dygant",
+      "Aleksandra Grabowska",
+      "Aleksandra Popławska",
+      "Katarzyna Warnke",
+      "Piotr Adamczyk",
+      "Enrique Arce",
+      "Janusz Chabior"
+    ]
   },
   {
     "id": 237,
     "title": "MAYDAY",
-    "actor1": "Piotr Adamczyk",
-    "actor2": "Anna Dereszowska",
-    "actor3": "Weronika Książkiewicz",
-    "actor4": "Adam Woronowicz",
-    "actor5": "Andrzej Grabowski",
-    "actor6": "Tomasz Oświeciński",
-    "actor7": "Krzysztof Czeczot",
-    "actor8": "Bartosz Porczyk",
-    "actor9": "Kamil Kula"
+    "actors": [
+      "Piotr Adamczyk",
+      "Anna Dereszowska",
+      "Weronika Książkiewicz",
+      "Adam Woronowicz",
+      "Andrzej Grabowski",
+      "Tomasz Oświeciński",
+      "Krzysztof Czeczot",
+      "Bartosz Porczyk",
+      "Kamil Kula"
+    ]
   },
   {
     "id": 238,
     "title": "NARZECZONY NA NIBY",
-    "actor1": "Julia Kamińska",
-    "actor2": "Piotr Stramowski",
-    "actor3": "Sonia Bohosiewicz",
-    "actor4": "Piotr Adamczyk",
-    "actor5": "Barbara Kurdej-Szatan",
-    "actor6": "Tomasz Karolak",
-    "actor7": "Dorota Kolak",
-    "actor8": "Mikołaj Roznerski",
-    "actor9": "Ilona Ostrowska"
+    "actors": [
+      "Julia Kamińska",
+      "Piotr Stramowski",
+      "Sonia Bohosiewicz",
+      "Piotr Adamczyk",
+      "Barbara Kurdej-Szatan",
+      "Tomasz Karolak",
+      "Dorota Kolak",
+      "Mikołaj Roznerski",
+      "Ilona Ostrowska"
+    ]
   },
   {
     "id": 239,
     "title": "SZTUKA KOCHANIA. HISTORIA MICHALINY WISŁOCKIEJ",
-    "actor1": "Magdalena Boczarska",
-    "actor2": "Eryk Lubos",
-    "actor3": "Justyna Wasilewska",
-    "actor4": "Piotr Adamczyk",
-    "actor5": "Jaśmina Polak",
-    "actor6": "Borys Szyc",
-    "actor7": "Karolina Gruszka",
-    "actor8": "Wojciech Mecwaldowski",
-    "actor9": "Danuta Stenka"
+    "actors": [
+      "Magdalena Boczarska",
+      "Eryk Lubos",
+      "Justyna Wasilewska",
+      "Piotr Adamczyk",
+      "Jaśmina Polak",
+      "Borys Szyc",
+      "Karolina Gruszka",
+      "Wojciech Mecwaldowski",
+      "Danuta Stenka"
+    ]
   },
   {
     "id": 240,
     "title": "TESTOSTERON",
-    "actor1": "Piotr Adamczyk",
-    "actor2": "Borys Szyc",
-    "actor3": "Maciej Stuhr",
-    "actor4": "Krzysztof Stelmaszyk",
-    "actor5": "Cezary Kosiński",
-    "actor6": "Tomasz Karolak",
-    "actor7": "Tomasz Kot",
-    "actor8": "Magdalena Boczarska",
-    "actor9": "Joanna Fidler"
+    "actors": [
+      "Piotr Adamczyk",
+      "Borys Szyc",
+      "Maciej Stuhr",
+      "Krzysztof Stelmaszyk",
+      "Cezary Kosiński",
+      "Tomasz Karolak",
+      "Tomasz Kot",
+      "Magdalena Boczarska",
+      "Joanna Fidler"
+    ]
   },
   {
     "id": 241,
     "title": "GOL!",
-    "actor1": "Kuno Becker",
-    "actor2": "Alessandro Nivola",
-    "actor3": "Marcel Iureş",
-    "actor4": "Stephen Dillane",
-    "actor5": "Anna Friel",
-    "actor6": "Kieran O'Brien",
-    "actor7": "Sean Pertwee",
-    "actor8": "Cassandra Bell",
-    "actor9": "Greg Ellis"
+    "actors": [
+      "Kuno Becker",
+      "Alessandro Nivola",
+      "Marcel Iureş",
+      "Stephen Dillane",
+      "Anna Friel",
+      "Kieran O'Brien",
+      "Sean Pertwee",
+      "Cassandra Bell",
+      "Greg Ellis"
+    ]
   },
   {
     "id": 242,
     "title": "GOL II: ŻYJĄC MARZENIEM",
-    "actor1": "Kuno Becker",
-    "actor2": "Alessandro Nivola",
-    "actor3": "Stephen Dillane",
-    "actor4": "Anna Friel",
-    "actor5": "Leonor Varela",
-    "actor6": "Elizabeth Peña",
-    "actor7": "Carmelo Gómez",
-    "actor8": "Rutger Hauer",
-    "actor9": "Brak danych"
+    "actors": [
+      "Kuno Becker",
+      "Alessandro Nivola",
+      "Stephen Dillane",
+      "Anna Friel",
+      "Leonor Varela",
+      "Elizabeth Peña",
+      "Carmelo Gómez",
+      "Rutger Hauer"
+    ]
   },
   {
     "id": 243,
     "title": "GOL 3",
-    "actor1": "JJ Feild",
-    "actor2": "Leo Gregory",
-    "actor3": "Kuno Becker",
-    "actor4": "Nick Moran",
-    "actor5": "Kasia Smutniak",
-    "actor6": "Anya Lahiri",
-    "actor7": "Tamer Hassan",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": ["JJ Feild", "Leo Gregory", "Kuno Becker", "Nick Moran", "Kasia Smutniak", "Anya Lahiri", "Tamer Hassan"]
   },
   {
     "id": 244,
     "title": "SZYBCY I WŚCIEKLI",
-    "actor1": "Vin Diesel",
-    "actor2": "Paul Walker",
-    "actor3": "Jordana Brewster",
-    "actor4": "Michelle Rodriguez",
-    "actor5": "R.J. de Vera",
-    "actor6": "Rick Yune",
-    "actor7": "Chad Lindberg",
-    "actor8": "Johnny Strong",
-    "actor9": "Matt Schulze"
+    "actors": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Jordana Brewster",
+      "Michelle Rodriguez",
+      "R.J. de Vera",
+      "Rick Yune",
+      "Chad Lindberg",
+      "Johnny Strong",
+      "Matt Schulze"
+    ]
   },
   {
     "id": 245,
     "title": "ZA SZYBCY, ZA WŚCIEKLI",
-    "actor1": "Paul Walker",
-    "actor2": "Tyrese Gibson",
-    "actor3": "Eva Mendes",
-    "actor4": "Cole Hauser",
-    "actor5": "Ludacris",
-    "actor6": "Devon Aoki",
-    "actor7": "Thom Barry",
-    "actor8": "James Remar",
-    "actor9": "Amaury Nolasco"
+    "actors": [
+      "Paul Walker",
+      "Tyrese Gibson",
+      "Eva Mendes",
+      "Cole Hauser",
+      "Ludacris",
+      "Devon Aoki",
+      "Thom Barry",
+      "James Remar",
+      "Amaury Nolasco"
+    ]
   },
   {
     "id": 246,
     "title": "SZYBCY I WŚCIEKLI: TOKIO DRIFT",
-    "actor1": "Lucas Black",
-    "actor2": "Shad Moss",
-    "actor3": "Nathalie Kelley",
-    "actor4": "Sung Kang",
-    "actor5": "Brian Tee",
-    "actor6": "Leonardo Nam",
-    "actor7": "Brian Goodman",
-    "actor8": "Shin'ichi Chiba",
-    "actor9": "Zachery Ty Bryan"
+    "actors": [
+      "Lucas Black",
+      "Shad Moss",
+      "Nathalie Kelley",
+      "Sung Kang",
+      "Brian Tee",
+      "Leonardo Nam",
+      "Brian Goodman",
+      "Shin'ichi Chiba",
+      "Zachery Ty Bryan"
+    ]
   },
   {
     "id": 247,
     "title": "SZYBKO I WŚCIEKLE",
-    "actor1": "Vin Diesel",
-    "actor2": "Paul Walker",
-    "actor3": "Jordana Brewster",
-    "actor4": "Michelle Rodriguez",
-    "actor5": "John Ortiz",
-    "actor6": "Laz Alonso",
-    "actor7": "Gal Gadot",
-    "actor8": "Jack Conley",
-    "actor9": "Shea Whigham"
+    "actors": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Jordana Brewster",
+      "Michelle Rodriguez",
+      "John Ortiz",
+      "Laz Alonso",
+      "Gal Gadot",
+      "Jack Conley",
+      "Shea Whigham"
+    ]
   },
   {
     "id": 248,
     "title": "SZYBCY I WŚCIEKLI 5",
-    "actor1": "Vin Diesel",
-    "actor2": "Paul Walker",
-    "actor3": "Jordana Brewster",
-    "actor4": "Tyrese Gibson",
-    "actor5": "Dwayne Johnson",
-    "actor6": "Ludacris",
-    "actor7": "Matt Schulze",
-    "actor8": "Sung Kang",
-    "actor9": "Gal Gadot"
+    "actors": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Jordana Brewster",
+      "Tyrese Gibson",
+      "Dwayne Johnson",
+      "Ludacris",
+      "Matt Schulze",
+      "Sung Kang",
+      "Gal Gadot"
+    ]
   },
   {
     "id": 249,
     "title": "SZYBCY I WŚCIEKLI 6",
-    "actor1": "Vin Diesel",
-    "actor2": "Paul Walker",
-    "actor3": "Dwayne Johnson",
-    "actor4": "Jordana Brewster",
-    "actor5": "Michelle Rodriguez",
-    "actor6": "Tyrese Gibson",
-    "actor7": "Sung Kang",
-    "actor8": "Gal Gadot",
-    "actor9": "Ludacris"
+    "actors": [
+      "Vin Diesel",
+      "Paul Walker",
+      "Dwayne Johnson",
+      "Jordana Brewster",
+      "Michelle Rodriguez",
+      "Tyrese Gibson",
+      "Sung Kang",
+      "Gal Gadot",
+      "Ludacris"
+    ]
   },
   {
     "id": 250,
     "title": "SZYBCY I WŚCIEKLI 7",
-    "actor1": "Vin Diesel",
-    "actor2": "Jason Statham",
-    "actor3": "Paul Walker",
-    "actor4": "Michelle Rodriguez",
-    "actor5": "Jordana Brewster",
-    "actor6": "Tyrese Gibson",
-    "actor7": "Ludacris",
-    "actor8": "Dwayne Johnson",
-    "actor9": "Lucas Black"
+    "actors": [
+      "Vin Diesel",
+      "Jason Statham",
+      "Paul Walker",
+      "Michelle Rodriguez",
+      "Jordana Brewster",
+      "Tyrese Gibson",
+      "Ludacris",
+      "Dwayne Johnson",
+      "Lucas Black"
+    ]
   },
   {
     "id": 251,
     "title": "SZYBCY I WŚCIEKLI 8",
-    "actor1": "Vin Diesel",
-    "actor2": "Jason Statham",
-    "actor3": "Dwayne Johnson",
-    "actor4": "Michelle Rodriguez",
-    "actor5": "Tyrese Gibson",
-    "actor6": "Ludacris",
-    "actor7": "Charlize Theron",
-    "actor8": "Kurt Russell",
-    "actor9": "Nathalie Emmanuel"
+    "actors": [
+      "Vin Diesel",
+      "Jason Statham",
+      "Dwayne Johnson",
+      "Michelle Rodriguez",
+      "Tyrese Gibson",
+      "Ludacris",
+      "Charlize Theron",
+      "Kurt Russell",
+      "Nathalie Emmanuel"
+    ]
   },
   {
     "id": 252,
     "title": "SZYBCY I WŚCIEKLI 9",
-    "actor1": "Vin Diesel",
-    "actor2": "Michelle Rodriguez",
-    "actor3": "Jordana Brewster",
-    "actor4": "Tyrese Gibson",
-    "actor5": "Ludacris",
-    "actor6": "Nathalie Emmanuel",
-    "actor7": "Charlize Theron",
-    "actor8": "John Cena",
-    "actor9": "Finn Cole"
+    "actors": [
+      "Vin Diesel",
+      "Michelle Rodriguez",
+      "Jordana Brewster",
+      "Tyrese Gibson",
+      "Ludacris",
+      "Nathalie Emmanuel",
+      "Charlize Theron",
+      "John Cena",
+      "Finn Cole"
+    ]
   },
   {
     "id": 253,
     "title": "SZYBCY I WŚCIEKLI: HOBBS I SHAW",
-    "actor1": "Dwayne Johnson",
-    "actor2": "Jason Statham",
-    "actor3": "Idris Elba",
-    "actor4": "Vanessa Kirby",
-    "actor5": "Helen Mirren",
-    "actor6": "Eiza González",
-    "actor7": "Eddie Marsan",
-    "actor8": "Cliff Curtis",
-    "actor9": "Brak danych"
+    "actors": [
+      "Dwayne Johnson",
+      "Jason Statham",
+      "Idris Elba",
+      "Vanessa Kirby",
+      "Helen Mirren",
+      "Eiza González",
+      "Eddie Marsan",
+      "Cliff Curtis"
+    ]
   },
   {
     "id": 254,
     "title": "HOOLIGANS",
-    "actor1": "Elijah Wood",
-    "actor2": "Charlie Hunnam",
-    "actor3": "Claire Forlani",
-    "actor4": "Marc Warren",
-    "actor5": "Leo Gregory",
-    "actor6": "Henry Goodman",
-    "actor7": "Geoff Bell",
-    "actor8": "Terence Jay",
-    "actor9": "Brak danych"
+    "actors": [
+      "Elijah Wood",
+      "Charlie Hunnam",
+      "Claire Forlani",
+      "Marc Warren",
+      "Leo Gregory",
+      "Henry Goodman",
+      "Geoff Bell",
+      "Terence Jay"
+    ]
   },
   {
     "id": 255,
     "title": "HOOLIGANS 2: DO OSTATNIEJ KRW",
-    "actor1": "Ross McCall",
-    "actor2": "Nicky Holender",
-    "actor3": "Luke Massy",
-    "actor4": "Marina Sirtis",
-    "actor5": "Treva Etienne",
-    "actor6": "Suzanne May",
-    "actor7": "Graham McTavish",
-    "actor8": "Timothy V. Murphy",
-    "actor9": "Vernon Wells"
+    "actors": [
+      "Ross McCall",
+      "Nicky Holender",
+      "Luke Massy",
+      "Marina Sirtis",
+      "Treva Etienne",
+      "Suzanne May",
+      "Graham McTavish",
+      "Timothy V. Murphy",
+      "Vernon Wells"
+    ]
   },
   {
     "id": 256,
     "title": "HOOLIGANS 3",
-    "actor1": "Scott Adkins",
-    "actor2": "Kacey Clarke",
-    "actor3": "Mark Wingett",
-    "actor4": "Joey Ansah",
-    "actor5": "Christian Howard",
-    "actor6": "Jack Doolan",
-    "actor7": "Ryan Oliva",
-    "actor8": "Todd Von Joel",
-    "actor9": "Josh Myers"
+    "actors": [
+      "Scott Adkins",
+      "Kacey Clarke",
+      "Mark Wingett",
+      "Joey Ansah",
+      "Christian Howard",
+      "Jack Doolan",
+      "Ryan Oliva",
+      "Todd Von Joel",
+      "Josh Myers"
+    ]
   },
   {
     "id": 257,
     "title": "PITBULL",
-    "actor1": "Marcin Dorociński",
-    "actor2": "Janusz Gajos",
-    "actor3": "Andrzej Grabowski",
-    "actor4": "Rafał Mohr",
-    "actor5": "Krzysztof Stroiński",
-    "actor6": "Ryszard Filipski",
-    "actor7": "Małgorzata Foremniak",
-    "actor8": "Jolanta Fraszyńska",
-    "actor9": "Jadwiga Jankowska-Cieślak"
+    "actors": [
+      "Marcin Dorociński",
+      "Janusz Gajos",
+      "Andrzej Grabowski",
+      "Rafał Mohr",
+      "Krzysztof Stroiński",
+      "Ryszard Filipski",
+      "Małgorzata Foremniak",
+      "Jolanta Fraszyńska",
+      "Jadwiga Jankowska-Cieślak"
+    ]
   },
   {
     "id": 258,
     "title": "PITBULL. NOWE PORZĄDKI",
-    "actor1": "Piotr Stramowski",
-    "actor2": "Andrzej Grabowski",
-    "actor3": "Bogusław Linda",
-    "actor4": "Maja Ostaszewska",
-    "actor5": "Krzysztof Czeczot",
-    "actor6": "Agnieszka Dygant",
-    "actor7": "Beata Kawka",
-    "actor8": "Paweł Królikowski",
-    "actor9": "Michał Kula"
+    "actors": [
+      "Piotr Stramowski",
+      "Andrzej Grabowski",
+      "Bogusław Linda",
+      "Maja Ostaszewska",
+      "Krzysztof Czeczot",
+      "Agnieszka Dygant",
+      "Beata Kawka",
+      "Paweł Królikowski",
+      "Michał Kula"
+    ]
   },
   {
     "id": 259,
     "title": "PITBULL. NIEBEZPIECZNE KOBIETY",
-    "actor1": "Sebastian Fabijański",
-    "actor2": "Joanna Kulig",
-    "actor3": "Alicja Bachleda-Curuś",
-    "actor4": "Andrzej Grabowski",
-    "actor5": "Artur Żmijewski",
-    "actor6": "Piotr Stramowski",
-    "actor7": "Maja Ostaszewska",
-    "actor8": "Magdalena Cielecka",
-    "actor9": "Anna Dereszowska"
+    "actors": [
+      "Sebastian Fabijański",
+      "Joanna Kulig",
+      "Alicja Bachleda-Curuś",
+      "Andrzej Grabowski",
+      "Artur Żmijewski",
+      "Piotr Stramowski",
+      "Maja Ostaszewska",
+      "Magdalena Cielecka",
+      "Anna Dereszowska"
+    ]
   },
   {
     "id": 260,
     "title": "PITBULL. OSTATNI PIES",
-    "actor1": "Marcin Dorociński",
-    "actor2": "Krzysztof Stroiński",
-    "actor3": "Doda",
-    "actor4": "Rafał Mohr",
-    "actor5": "Cezary Pazura",
-    "actor6": "Adam Woronowicz",
-    "actor7": "Marian Dziędziel",
-    "actor8": "Agnieszka Kawiorska",
-    "actor9": "Brak danych"
+    "actors": [
+      "Marcin Dorociński",
+      "Krzysztof Stroiński",
+      "Doda",
+      "Rafał Mohr",
+      "Cezary Pazura",
+      "Adam Woronowicz",
+      "Marian Dziędziel",
+      "Agnieszka Kawiorska"
+    ]
   },
   {
     "id": 261,
     "title": "PITBULL",
-    "actor1": "Andrzej Grabowski",
-    "actor2": "Przemysław Bluszcz",
-    "actor3": "Sebastian Dela",
-    "actor4": "Jan Hrynkiewicz",
-    "actor5": "Tomasz Dedek",
-    "actor6": "Justyna Karłowska",
-    "actor7": "Aneta Zając",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Andrzej Grabowski",
+      "Przemysław Bluszcz",
+      "Sebastian Dela",
+      "Jan Hrynkiewicz",
+      "Tomasz Dedek",
+      "Justyna Karłowska",
+      "Aneta Zając"
+    ]
   },
   {
     "id": 262,
     "title": "OSZUKAĆ PRZEZNACZENIE",
-    "actor1": "Devon Sawa",
-    "actor2": "Ali Larter",
-    "actor3": "Kerr Smith",
-    "actor4": "Kristen Cloke",
-    "actor5": "Daniel Roebuck",
-    "actor6": "Roger Guenveur Smith",
-    "actor7": "Chad Donella",
-    "actor8": "Seann William Scott",
-    "actor9": "Tony Todd"
+    "actors": [
+      "Devon Sawa",
+      "Ali Larter",
+      "Kerr Smith",
+      "Kristen Cloke",
+      "Daniel Roebuck",
+      "Roger Guenveur Smith",
+      "Chad Donella",
+      "Seann William Scott",
+      "Tony Todd"
+    ]
   },
   {
     "id": 263,
     "title": "OSZUKAĆ PRZEZNACZENIE 2",
-    "actor1": "Ali Larter",
-    "actor2": "A.J. Cook",
-    "actor3": "Michael Landes",
-    "actor4": "Sarah J. Kamal",
-    "actor5": "Lynda Boyd",
-    "actor6": "Keegan Connor Tracy",
-    "actor7": "Enid-Raye Adams",
-    "actor8": "Jonathan Cherry",
-    "actor9": "Brak danych"
+    "actors": [
+      "Ali Larter",
+      "A.J. Cook",
+      "Michael Landes",
+      "Sarah J. Kamal",
+      "Lynda Boyd",
+      "Keegan Connor Tracy",
+      "Enid-Raye Adams",
+      "Jonathan Cherry"
+    ]
   },
   {
     "id": 264,
     "title": "OSZUKAĆ PRZEZNACZENIE 3",
-    "actor1": "Mary Elizabeth Winstead",
-    "actor2": "Ryan Merriman",
-    "actor3": "Kris Lemche",
-    "actor4": "Alexz Johnson",
-    "actor5": "Jesse Moss",
-    "actor6": "Sam Easton",
-    "actor7": "Gina Holden",
-    "actor8": "Texas Battle",
-    "actor9": "Chelan Simmons"
+    "actors": [
+      "Mary Elizabeth Winstead",
+      "Ryan Merriman",
+      "Kris Lemche",
+      "Alexz Johnson",
+      "Jesse Moss",
+      "Sam Easton",
+      "Gina Holden",
+      "Texas Battle",
+      "Chelan Simmons"
+    ]
   },
   {
     "id": 265,
     "title": "OSZUKAĆ PRZEZNACZENIE 4",
-    "actor1": "Bobby Campo",
-    "actor2": "Shantel VanSanten",
-    "actor3": "Nick Zano",
-    "actor4": "Haley Webb",
-    "actor5": "Mykelti Williamson",
-    "actor6": "Krista Allen",
-    "actor7": "Andrew Fiscella",
-    "actor8": "Justin Welborn",
-    "actor9": "Stephanie Honoré"
+    "actors": [
+      "Bobby Campo",
+      "Shantel VanSanten",
+      "Nick Zano",
+      "Haley Webb",
+      "Mykelti Williamson",
+      "Krista Allen",
+      "Andrew Fiscella",
+      "Justin Welborn",
+      "Stephanie Honoré"
+    ]
   },
   {
     "id": 266,
     "title": "OSZUKAĆ PRZEZNACZENIE 5",
-    "actor1": "Nicholas D'Agosto",
-    "actor2": "Emma Bell",
-    "actor3": "Miles Fisher",
-    "actor4": "Ellen Wroe",
-    "actor5": "Jacqueline MacInnes Wood",
-    "actor6": "P.J. Byrne",
-    "actor7": "Arlen Escarpeta",
-    "actor8": "David Koechner",
-    "actor9": "Courtney B. Vance"
+    "actors": [
+      "Nicholas D'Agosto",
+      "Emma Bell",
+      "Miles Fisher",
+      "Ellen Wroe",
+      "Jacqueline MacInnes Wood",
+      "P.J. Byrne",
+      "Arlen Escarpeta",
+      "David Koechner",
+      "Courtney B. Vance"
+    ]
   },
   {
     "id": 267,
     "title": "MORTAL KOMBAT",
-    "actor1": "Christopher Lambert",
-    "actor2": "Robin Shou",
-    "actor3": "Linden Ashby",
-    "actor4": "Bridgette Wilson-Sampras",
-    "actor5": "Cary-Hiroyuki Tagawa",
-    "actor6": "Talisa Soto",
-    "actor7": "Trevor Goddard",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Christopher Lambert",
+      "Robin Shou",
+      "Linden Ashby",
+      "Bridgette Wilson-Sampras",
+      "Cary-Hiroyuki Tagawa",
+      "Talisa Soto",
+      "Trevor Goddard"
+    ]
   },
   {
     "id": 268,
     "title": "MORTAL KOMBAT",
-    "actor1": "Lewis Tan",
-    "actor2": "Jessica McNamee",
-    "actor3": "Josh Lawson",
-    "actor4": "Joe Taslim",
-    "actor5": "Mehcad Brooks",
-    "actor6": "Laura Brent",
-    "actor7": "Tadanobu Asano",
-    "actor8": "Hiroyuki Sanada",
-    "actor9": "Brak danych"
+    "actors": [
+      "Lewis Tan",
+      "Jessica McNamee",
+      "Josh Lawson",
+      "Joe Taslim",
+      "Mehcad Brooks",
+      "Laura Brent",
+      "Tadanobu Asano",
+      "Hiroyuki Sanada"
+    ]
   },
   {
     "id": 269,
     "title": "MORTAL KOMBAT 2: UNICESTWIENIE",
-    "actor1": "Robin Shou",
-    "actor2": "Talisa Soto",
-    "actor3": "James Remar",
-    "actor4": "Sandra Hess",
-    "actor5": "Brian Thompson",
-    "actor6": "Musetta Vander",
-    "actor7": "Irina Pantaeva",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Robin Shou",
+      "Talisa Soto",
+      "James Remar",
+      "Sandra Hess",
+      "Brian Thompson",
+      "Musetta Vander",
+      "Irina Pantaeva"
+    ]
   },
   {
     "id": 270,
     "title": "MATRIX",
-    "actor1": "Keanu Reeves",
-    "actor2": "Carrie-Anne Moss",
-    "actor3": "Laurence Fishburne",
-    "actor4": "Hugo Weaving",
-    "actor5": "Gloria Foster",
-    "actor6": "Joe Pantoliano",
-    "actor7": "Marcus Chong",
-    "actor8": "Julian Arahanga",
-    "actor9": "Brak danych"
+    "actors": [
+      "Keanu Reeves",
+      "Carrie-Anne Moss",
+      "Laurence Fishburne",
+      "Hugo Weaving",
+      "Gloria Foster",
+      "Joe Pantoliano",
+      "Marcus Chong",
+      "Julian Arahanga"
+    ]
   },
   {
     "id": 271,
     "title": "MATRIX REAKTYWACJA",
-    "actor1": "Keanu Reeves",
-    "actor2": "Carrie-Anne Moss",
-    "actor3": "Laurence Fishburne",
-    "actor4": "Hugo Weaving",
-    "actor5": "Jada Pinkett Smith",
-    "actor6": "Harold Perrineau",
-    "actor7": "Gloria Foster",
-    "actor8": "Monica Bellucci",
-    "actor9": "Lambert Wilson"
+    "actors": [
+      "Keanu Reeves",
+      "Carrie-Anne Moss",
+      "Laurence Fishburne",
+      "Hugo Weaving",
+      "Jada Pinkett Smith",
+      "Harold Perrineau",
+      "Gloria Foster",
+      "Monica Bellucci",
+      "Lambert Wilson"
+    ]
   },
   {
     "id": 272,
     "title": "MATRIX REWOLUCJE",
-    "actor1": "Keanu Reeves",
-    "actor2": "Laurence Fishburne",
-    "actor3": "Carrie-Anne Moss",
-    "actor4": "Hugo Weaving",
-    "actor5": "Jada Pinkett Smith",
-    "actor6": "Harold Perrineau",
-    "actor7": "Mary Alice",
-    "actor8": "Monica Bellucci",
-    "actor9": "Lambert Wilson"
+    "actors": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss",
+      "Hugo Weaving",
+      "Jada Pinkett Smith",
+      "Harold Perrineau",
+      "Mary Alice",
+      "Monica Bellucci",
+      "Lambert Wilson"
+    ]
   },
   {
     "id": 273,
     "title": "MATRIX ZMARTWYCHWSTANIA",
-    "actor1": "Keanu Reeves",
-    "actor2": "Carrie-Anne Moss",
-    "actor3": "Yahya Abdul-Mateen II",
-    "actor4": "Jonathan Groff",
-    "actor5": "Jessica Henwick",
-    "actor6": "Neil Patrick Harris",
-    "actor7": "Jada Pinkett Smith",
-    "actor8": "Priyanka Chopra Jonas",
-    "actor9": "Christina Ricci"
+    "actors": [
+      "Keanu Reeves",
+      "Carrie-Anne Moss",
+      "Yahya Abdul-Mateen II",
+      "Jonathan Groff",
+      "Jessica Henwick",
+      "Neil Patrick Harris",
+      "Jada Pinkett Smith",
+      "Priyanka Chopra Jonas",
+      "Christina Ricci"
+    ]
   },
   {
     "id": 274,
     "title": "TITANIC",
-    "actor1": "Leonardo DiCaprio",
-    "actor2": "Kate Winslet",
-    "actor3": "Billy Zane",
-    "actor4": "Kathy Bates",
-    "actor5": "Frances Fisher",
-    "actor6": "Gloria Stuart",
-    "actor7": "Bill Paxton",
-    "actor8": "Bernard Hill",
-    "actor9": "David Warner"
+    "actors": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane",
+      "Kathy Bates",
+      "Frances Fisher",
+      "Gloria Stuart",
+      "Bill Paxton",
+      "Bernard Hill",
+      "David Warner"
+    ]
   },
   {
     "id": 275,
     "title": "BIG LOVE",
-    "actor1": "Aleksandra Hamkało",
-    "actor2": "Antoni Pawlicki",
-    "actor3": "Dobromir Dymecki",
-    "actor4": "Robert Jarociński",
-    "actor5": "Dariusz Toczek",
-    "actor6": "Robert Gonera",
-    "actor7": "Brak danych",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Aleksandra Hamkało",
+      "Antoni Pawlicki",
+      "Dobromir Dymecki",
+      "Robert Jarociński",
+      "Dariusz Toczek",
+      "Robert Gonera"
+    ]
   },
   {
     "id": 276,
     "title": "PSY",
-    "actor1": "Bogusław Linda",
-    "actor2": "Marek Kondrat",
-    "actor3": "Cezary Pazura",
-    "actor4": "Janusz Gajos",
-    "actor5": "Agnieszka Jaskółka",
-    "actor6": "Zbigniew Zapasiewicz",
-    "actor7": "Tomasz Dedek",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Bogusław Linda",
+      "Marek Kondrat",
+      "Cezary Pazura",
+      "Janusz Gajos",
+      "Agnieszka Jaskółka",
+      "Zbigniew Zapasiewicz",
+      "Tomasz Dedek"
+    ]
   },
   {
     "id": 277,
     "title": "PSY II: OSTATNIA KREW",
-    "actor1": "Bogusław Linda",
-    "actor2": "Cezary Pazura",
-    "actor3": "Artur Żmijewski",
-    "actor4": "Magdalena Dandourian",
-    "actor5": "Brak danych",
-    "actor6": "Aleksander Bednarz",
-    "actor7": "Edward Linde-Lubaszenko",
-    "actor8": "Jan Machulski",
-    "actor9": "Brak danych"
+    "actors": [
+      "Bogusław Linda",
+      "Cezary Pazura",
+      "Artur Żmijewski",
+      "Magdalena Dandourian",
+      "Aleksander Bednarz",
+      "Edward Linde-Lubaszenko",
+      "Jan Machulski"
+    ]
   },
   {
     "id": 278,
     "title": "PSY 3. W IMIĘ ZASAD",
-    "actor1": "Bogusław Linda",
-    "actor2": "Marcin Dorociński",
-    "actor3": "Cezary Pazura",
-    "actor4": "Jan Frycz",
-    "actor5": "Sebastian Fabijański",
-    "actor6": "Mirosław Baka",
-    "actor7": "Artur Żmijewski",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Bogusław Linda",
+      "Marcin Dorociński",
+      "Cezary Pazura",
+      "Jan Frycz",
+      "Sebastian Fabijański",
+      "Mirosław Baka",
+      "Artur Żmijewski"
+    ]
   },
   {
     "id": 279,
     "title": "FURIOZA",
-    "actor1": "Mateusz Banasiuk",
-    "actor2": "Weronika Książkiewicz",
-    "actor3": "Mateusz Damięcki",
-    "actor4": "Łukasz Simlat",
-    "actor5": "Wojciech Zieliński",
-    "actor6": "Szymon Bobrowski",
-    "actor7": "Janusz Chabior",
-    "actor8": "Sebastian Stankiewicz",
-    "actor9": "Konrad Eleryk"
+    "actors": [
+      "Mateusz Banasiuk",
+      "Weronika Książkiewicz",
+      "Mateusz Damięcki",
+      "Łukasz Simlat",
+      "Wojciech Zieliński",
+      "Szymon Bobrowski",
+      "Janusz Chabior",
+      "Sebastian Stankiewicz",
+      "Konrad Eleryk"
+    ]
   },
   {
     "id": 280,
     "title": "7 UCZUĆ",
-    "actor1": "Michał Koterski",
-    "actor2": "Marcin Dorociński",
-    "actor3": "Katarzyna Figura",
-    "actor4": "Małgorzata Bogdańska",
-    "actor5": "Gabriela Muskała",
-    "actor6": "Andrzej Mastalerz",
-    "actor7": "Tomasz Karolak",
-    "actor8": "Andrzej Chyra",
-    "actor9": "Brak danych"
+    "actors": [
+      "Michał Koterski",
+      "Marcin Dorociński",
+      "Katarzyna Figura",
+      "Małgorzata Bogdańska",
+      "Gabriela Muskała",
+      "Andrzej Mastalerz",
+      "Tomasz Karolak",
+      "Andrzej Chyra"
+    ]
   },
   {
     "id": 281,
     "title": "SERCE NIE SŁUGA",
-    "actor1": "Magdalena Różczka",
-    "actor2": "Roma Gąsiorowska",
-    "actor3": "Borys Szyc",
-    "actor4": "Paweł Domagała",
-    "actor5": "Krzysztof Stelmaszyk",
-    "actor6": "Piotr Głowacki",
-    "actor7": "Mateusz Damięcki",
-    "actor8": "Ewa Chodakowska-Kavoukis",
-    "actor9": "Zuzanna Grabowska"
+    "actors": [
+      "Magdalena Różczka",
+      "Roma Gąsiorowska",
+      "Borys Szyc",
+      "Paweł Domagała",
+      "Krzysztof Stelmaszyk",
+      "Piotr Głowacki",
+      "Mateusz Damięcki",
+      "Ewa Chodakowska-Kavoukis",
+      "Zuzanna Grabowska"
+    ]
   },
   {
     "id": 282,
     "title": "MIŁOŚĆ JEST WSZYSTKIM",
-    "actor1": "Olaf Lubaszenko",
-    "actor2": "Aleksandra Adamska",
-    "actor3": "Joanna Balasz",
-    "actor4": "Agnieszka Grochowska",
-    "actor5": "Joanna Kulig",
-    "actor6": "Julia Wyszyńska",
-    "actor7": "Michał Czernecki",
-    "actor8": "Mateusz Damięcki",
-    "actor9": "Marcin Korcz"
+    "actors": [
+      "Olaf Lubaszenko",
+      "Aleksandra Adamska",
+      "Joanna Balasz",
+      "Agnieszka Grochowska",
+      "Joanna Kulig",
+      "Julia Wyszyńska",
+      "Michał Czernecki",
+      "Mateusz Damięcki",
+      "Marcin Korcz"
+    ]
   },
   {
     "id": 283,
     "title": "KOCHAJ I TAŃCZ",
-    "actor1": "Izabella Miko",
-    "actor2": "Mateusz Damięcki",
-    "actor3": "Mariusz Słupiński",
-    "actor4": "Rafał Królikowski",
-    "actor5": "Katarzyna Figura",
-    "actor6": "Jacek Koman",
-    "actor7": "Krzysztof Globisz",
-    "actor8": "Wojciech Mecwaldowski",
-    "actor9": "Dominika Kluźniak"
+    "actors": [
+      "Izabella Miko",
+      "Mateusz Damięcki",
+      "Mariusz Słupiński",
+      "Rafał Królikowski",
+      "Katarzyna Figura",
+      "Jacek Koman",
+      "Krzysztof Globisz",
+      "Wojciech Mecwaldowski",
+      "Dominika Kluźniak"
+    ]
   },
   {
     "id": 284,
     "title": "NIE KŁAM, KOCHANIE",
-    "actor1": "Piotr Adamczyk",
-    "actor2": "Marta Żmuda Trzebiatowska",
-    "actor3": "Beata Tyszkiewicz",
-    "actor4": "Grażyna Szapołowska",
-    "actor5": "Sławomir Orzechowski",
-    "actor6": "Magdalena Schejbal",
-    "actor7": "Tomasz Karolak",
-    "actor8": "Katarzyna Bujakiewicz",
-    "actor9": "Tamara Arciuch"
+    "actors": [
+      "Piotr Adamczyk",
+      "Marta Żmuda Trzebiatowska",
+      "Beata Tyszkiewicz",
+      "Grażyna Szapołowska",
+      "Sławomir Orzechowski",
+      "Magdalena Schejbal",
+      "Tomasz Karolak",
+      "Katarzyna Bujakiewicz",
+      "Tamara Arciuch"
+    ]
   },
   {
     "id": 285,
     "title": "JUTRO IDZIEMY DO KINA",
-    "actor1": "Jakub Wesołowski",
-    "actor2": "Mateusz Damięcki",
-    "actor3": "Antoni Pawlicki",
-    "actor4": "Anna Gzyra",
-    "actor5": "Julia Pietrucha",
-    "actor6": "Marta Ścisłowicz",
-    "actor7": "Krzysztof Skonieczny",
-    "actor8": "Adam Adamonis",
-    "actor9": "Brak danych"
+    "actors": [
+      "Jakub Wesołowski",
+      "Mateusz Damięcki",
+      "Antoni Pawlicki",
+      "Anna Gzyra",
+      "Julia Pietrucha",
+      "Marta Ścisłowicz",
+      "Krzysztof Skonieczny",
+      "Adam Adamonis"
+    ]
   },
   {
     "id": 286,
     "title": "PLANETA SINGLI",
-    "actor1": "Maciej Stuhr",
-    "actor2": "Agnieszka Więdłocha",
-    "actor3": "Piotr Głowacki",
-    "actor4": "Weronika Książkiewicz",
-    "actor5": "Tomasz Karolak",
-    "actor6": "Joanna Jarmołowicz",
-    "actor7": "Ewa Błaszczyk",
-    "actor8": "Michał Czernecki",
-    "actor9": "Danuta Stenka"
+    "actors": [
+      "Maciej Stuhr",
+      "Agnieszka Więdłocha",
+      "Piotr Głowacki",
+      "Weronika Książkiewicz",
+      "Tomasz Karolak",
+      "Joanna Jarmołowicz",
+      "Ewa Błaszczyk",
+      "Michał Czernecki",
+      "Danuta Stenka"
+    ]
   },
   {
     "id": 287,
     "title": "PLANETA SINGLI 2",
-    "actor1": "Agnieszka Więdłocha",
-    "actor2": "Maciej Stuhr",
-    "actor3": "Danuta Stenka",
-    "actor4": "Piotr Głowacki",
-    "actor5": "Weronika Książkiewicz",
-    "actor6": "Tomasz Karolak",
-    "actor7": "Joanna Jarmołowicz",
-    "actor8": "Kamil Kula",
-    "actor9": "Brak danych"
+    "actors": [
+      "Agnieszka Więdłocha",
+      "Maciej Stuhr",
+      "Danuta Stenka",
+      "Piotr Głowacki",
+      "Weronika Książkiewicz",
+      "Tomasz Karolak",
+      "Joanna Jarmołowicz",
+      "Kamil Kula"
+    ]
   },
   {
     "id": 288,
     "title": "PLANETA SINGLI 3",
-    "actor1": "Agnieszka Więdłocha",
-    "actor2": "Maciej Stuhr",
-    "actor3": "Bogusław Linda",
-    "actor4": "Danuta Stenka",
-    "actor5": "Maria Pakulnis",
-    "actor6": "Piotr Głowacki",
-    "actor7": "Weronika Książkiewicz",
-    "actor8": "Tomasz Karolak",
-    "actor9": "Borys Szyc"
+    "actors": [
+      "Agnieszka Więdłocha",
+      "Maciej Stuhr",
+      "Bogusław Linda",
+      "Danuta Stenka",
+      "Maria Pakulnis",
+      "Piotr Głowacki",
+      "Weronika Książkiewicz",
+      "Tomasz Karolak",
+      "Borys Szyc"
+    ]
   },
   {
     "id": 289,
     "title": "RESIDENT EVIL",
-    "actor1": "Milla Jovovich",
-    "actor2": "Michelle Rodriguez",
-    "actor3": "Eric Mabius",
-    "actor4": "James Purefoy",
-    "actor5": "Martin Crewes",
-    "actor6": "Colin Salmon",
-    "actor7": "Joseph May",
-    "actor8": "Liz May Brice",
-    "actor9": "Heike Makatsch"
+    "actors": [
+      "Milla Jovovich",
+      "Michelle Rodriguez",
+      "Eric Mabius",
+      "James Purefoy",
+      "Martin Crewes",
+      "Colin Salmon",
+      "Joseph May",
+      "Liz May Brice",
+      "Heike Makatsch"
+    ]
   },
   {
     "id": 290,
     "title": "RESIDENT EVIL 2: APOKALIPSA",
-    "actor1": "Milla Jovovich",
-    "actor2": "Sienna Guillory",
-    "actor3": "Oded Fehr",
-    "actor4": "Thomas Kretschmann",
-    "actor5": "Sophie Vavasseur",
-    "actor6": "Razaaq Adoti",
-    "actor7": "Mike Epps",
-    "actor8": "Sandrine Holt",
-    "actor9": "Brak danych"
+    "actors": [
+      "Milla Jovovich",
+      "Sienna Guillory",
+      "Oded Fehr",
+      "Thomas Kretschmann",
+      "Sophie Vavasseur",
+      "Razaaq Adoti",
+      "Mike Epps",
+      "Sandrine Holt"
+    ]
   },
   {
     "id": 291,
     "title": "RESIDENT EVIL: ZAGŁADA",
-    "actor1": "Milla Jovovich",
-    "actor2": "Oded Fehr",
-    "actor3": "Ali Larter",
-    "actor4": "Iain Glen",
-    "actor5": "Mike Epps",
-    "actor6": "Ashanti",
-    "actor7": "Christopher Egan",
-    "actor8": "Spencer Locke",
-    "actor9": "Brak danych"
+    "actors": [
+      "Milla Jovovich",
+      "Oded Fehr",
+      "Ali Larter",
+      "Iain Glen",
+      "Mike Epps",
+      "Ashanti",
+      "Christopher Egan",
+      "Spencer Locke"
+    ]
   },
   {
     "id": 292,
     "title": "RESIDENT EVIL: AFTERLIFE",
-    "actor1": "Milla Jovovich",
-    "actor2": "Ali Larter",
-    "actor3": "Wentworth Miller",
-    "actor4": "Boris Kodjoe",
-    "actor5": "Shawn Roberts",
-    "actor6": "Kim Coates",
-    "actor7": "Sergio Peris-Mencheta",
-    "actor8": "Spencer Locke",
-    "actor9": "Sienna Guillory"
+    "actors": [
+      "Milla Jovovich",
+      "Ali Larter",
+      "Wentworth Miller",
+      "Boris Kodjoe",
+      "Shawn Roberts",
+      "Kim Coates",
+      "Sergio Peris-Mencheta",
+      "Spencer Locke",
+      "Sienna Guillory"
+    ]
   },
   {
     "id": 293,
     "title": "RESIDENT EVIL: RETRYBUCJA",
-    "actor1": "Milla Jovovich",
-    "actor2": "Sienna Guillory",
-    "actor3": "Michelle Rodriguez",
-    "actor4": "Aryana Engineer",
-    "actor5": "Bingbing Li",
-    "actor6": "Boris Kodjoe",
-    "actor7": "Johann Urb",
-    "actor8": "Robin Kasyanov",
-    "actor9": "Kevin Durand"
+    "actors": [
+      "Milla Jovovich",
+      "Sienna Guillory",
+      "Michelle Rodriguez",
+      "Aryana Engineer",
+      "Bingbing Li",
+      "Boris Kodjoe",
+      "Johann Urb",
+      "Robin Kasyanov",
+      "Kevin Durand"
+    ]
   },
   {
     "id": 294,
     "title": "RESIDENT EVIL: OSTATNI ROZDZIAŁ",
-    "actor1": "Milla Jovovich",
-    "actor2": "Iain Glen",
-    "actor3": "Ali Larter",
-    "actor4": "Shawn Roberts",
-    "actor5": "Eoin Macken",
-    "actor6": "Fraser James",
-    "actor7": "Ruby Rose",
-    "actor8": "William Levy",
-    "actor9": "Rola"
+    "actors": [
+      "Milla Jovovich",
+      "Iain Glen",
+      "Ali Larter",
+      "Shawn Roberts",
+      "Eoin Macken",
+      "Fraser James",
+      "Ruby Rose",
+      "William Levy",
+      "Rola"
+    ]
   },
   {
     "id": 295,
     "title": "Cube",
-    "actor1": "Nicole De Boer",
-    "actor2": "Nicky Guadagni",
-    "actor3": "David Hewlett",
-    "actor4": "Andrew Miller",
-    "actor5": "Julian Richings",
-    "actor6": "Wayne Robson",
-    "actor7": "Maurice Dean Wint",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Nicole De Boer",
+      "Nicky Guadagni",
+      "David Hewlett",
+      "Andrew Miller",
+      "Julian Richings",
+      "Wayne Robson",
+      "Maurice Dean Wint"
+    ]
   },
   {
     "id": 296,
     "title": "CUBE 2",
-    "actor1": "Geraint Wyn Davies",
-    "actor2": "Kari Matchett",
-    "actor3": "Grace Lynn Kung",
-    "actor4": "Matthew Ferguson",
-    "actor5": "Neil Crone",
-    "actor6": "Barbara Gordon",
-    "actor7": "Lindsey Connell",
-    "actor8": "Brak danych",
-    "actor9": "Brak danych"
+    "actors": [
+      "Geraint Wyn Davies",
+      "Kari Matchett",
+      "Grace Lynn Kung",
+      "Matthew Ferguson",
+      "Neil Crone",
+      "Barbara Gordon",
+      "Lindsey Connell"
+    ]
   },
   {
     "id": 297,
     "title": "CUBE ZERO",
-    "actor1": "Joshua Peace",
-    "actor2": "Mike 'Nug' Nahrgang",
-    "actor3": "Zachary Bennett",
-    "actor4": "Stephanie Moore",
-    "actor5": "Michael Riley",
-    "actor6": "Martin Roach",
-    "actor7": "David Huband",
-    "actor8": "Tony Munch",
-    "actor9": "Brak danych"
+    "actors": [
+      "Joshua Peace",
+      "Mike 'Nug' Nahrgang",
+      "Zachary Bennett",
+      "Stephanie Moore",
+      "Michael Riley",
+      "Martin Roach",
+      "David Huband",
+      "Tony Munch"
+    ]
   },
   {
     "id": 298,
     "title": "Mumia",
-    "actor1": "Brendan Fraser",
-    "actor2": "Rachel Weisz",
-    "actor3": "John Hannah",
-    "actor4": "Arnold Vosloo",
-    "actor5": "Kevin J. O'Connor",
-    "actor6": "Oded Fehr",
-    "actor7": "Jonathan Hyde",
-    "actor8": "Erick Avari",
-    "actor9": "Bernard Fox"
+    "actors": [
+      "Brendan Fraser",
+      "Rachel Weisz",
+      "John Hannah",
+      "Arnold Vosloo",
+      "Kevin J. O'Connor",
+      "Oded Fehr",
+      "Jonathan Hyde",
+      "Erick Avari",
+      "Bernard Fox"
+    ]
   },
   {
     "id": 299,
     "title": "MUMIA POWRACA",
-    "actor1": "Brendan Fraser",
-    "actor2": "Rachel Weisz",
-    "actor3": "John Hannah",
-    "actor4": "Arnold Vosloo",
-    "actor5": "Oded Fehr",
-    "actor6": "Dwayne Johnson",
-    "actor7": "Freddie Boath",
-    "actor8": "Patricia Velasquez",
-    "actor9": "Alun Armstrong"
+    "actors": [
+      "Brendan Fraser",
+      "Rachel Weisz",
+      "John Hannah",
+      "Arnold Vosloo",
+      "Oded Fehr",
+      "Dwayne Johnson",
+      "Freddie Boath",
+      "Patricia Velasquez",
+      "Alun Armstrong"
+    ]
   },
   {
     "id": 300,
     "title": "MUMIA: GROBOWIEC CESARZA SMOKA",
-    "actor1": "Brendan Fraser",
-    "actor2": "Jet Li",
-    "actor3": "Maria Bello",
-    "actor4": "John Hannah",
-    "actor5": "Michelle Yeoh",
-    "actor6": "Luke Ford",
-    "actor7": "Isabella Leong",
-    "actor8": "Anthony Chau-sang Wong",
-    "actor9": "Russell Wong"
+    "actors": [
+      "Brendan Fraser",
+      "Jet Li",
+      "Maria Bello",
+      "John Hannah",
+      "Michelle Yeoh",
+      "Luke Ford",
+      "Isabella Leong",
+      "Anthony Chau-sang Wong",
+      "Russell Wong"
+    ]
+  },
+  {
+    "id": 301,
+    "title": "MISSION: IMPOSSIBLE II",
+    "actors": [
+      "Tom Cruise",
+      "Dougray Scott",
+      "Thandiwe Newton",
+      "Ving Rhames",
+      "Richard Roxburgh",
+      "John Polson",
+      "Brendan Gleeson",
+      "Rade Šerbedžija"
+    ]
+  },
+  {
+    "id": 302,
+    "title": "MISSION: IMPOSSIBLE III",
+    "actors": [
+      "Tom Cruise",
+      "Philip Seymour Hoffman",
+      "Ving Rhames",
+      "Billy Crudup",
+      "Michelle Monaghan",
+      "Laurence Fishburne",
+      "Jonathan Rhys Meyers",
+      "Keri Russell"
+    ]
+  },
+  {
+    "id": 303,
+    "title": "MISSION: IMPOSSIBLE - GHOST PROTOCOL",
+    "actors": [
+      "Tom Cruise",
+      "Paula Patton",
+      "Simon Pegg",
+      "Jeremy Renner",
+      "Michael Nyqvist",
+      "Vladimir Mashkov",
+      "Samuli Edelmann",
+      "Ivan Shvedoff"
+    ]
+  },
+  {
+    "id": 304,
+    "title": "MISSION: IMPOSSIBLE - ROGUE NATION",
+    "actors": [
+      "Tom Cruise",
+      "Jeremy Renner",
+      "Simon Pegg",
+      "Rebecca Ferguson",
+      "Ving Rhames",
+      "Alec Baldwin",
+      "Sean Harris",
+      "Simon McBurney"
+    ]
+  },
+  {
+    "id": 305,
+    "title": "MISSION: IMPOSSIBLE - FALLOUT",
+    "actors": [
+      "Tom Cruise",
+      "Henry Cavill",
+      "Simon Pegg",
+      "Rebecca Ferguson",
+      "Ving Rhames",
+      "Sean Harris",
+      "Angela Bassett",
+      "Vanessa Kirby"
+    ]
+  },
+  {
+    "id": 306,
+    "title": "MISSION: IMPOSSIBLE I",
+    "actors": [
+      "Tom Cruise",
+      "Jon Voight",
+      "Emmanuelle Béart",
+      "Henry Czerny",
+      "Jean Reno",
+      "Ving Rhames",
+      "Vanessa Redgrave",
+      "Kristin Scott Thomas"
+    ]
+  },
+  {
+    "id": 307,
+    "title": "TOP GUN",
+    "actors": [
+      "Tom Cruise",
+      "Kelly McGillis",
+      "Val Kilmer",
+      "Anthony Edwards",
+      "Tom Skerritt",
+      "Michael Ironside",
+      "John Stockwell",
+      "Barry Tubb"
+    ]
+  },
+  {
+    "id": 308,
+    "title": "TOP GUN: MAVERICK",
+    "actors": [
+      "Tom Cruise",
+      "Miles Teller",
+      "Val Kilmer",
+      "Jennifer Connelly",
+      "Bashir Salahuddin",
+      "Jon Hamm",
+      "Charles Parnell",
+      "Monica Barbaro"
+    ]
+  },
+  {
+    "id": 309,
+    "title": "STRASZNY FILM",
+    "actors": [
+      "Anna Faris",
+      "Jon Abrahams",
+      "Shannon Elizabeth",
+      "Lochlyn Munro",
+      "Shawn Wayans",
+      "Regina Hall",
+      "Cheri Oteri",
+      "Marlon Wayans"
+    ]
+  },
+  {
+    "id": 310,
+    "title": "STRASZNY FILM 2",
+    "actors": [
+      "Anna Faris",
+      "Christopher Masterson",
+      "Kathleen Robertson",
+      "David Cross",
+      "Shawn Wayans",
+      "Regina Hall",
+      "Tim Curry",
+      "Marlon Wayans"
+    ]
+  },
+  {
+    "id": 311,
+    "title": "STRASZNY FILM 3",
+    "actors": [
+      "Anna Faris",
+      "Simon Rex",
+      "Charlie Sheen",
+      "Leslie Nielsen",
+      "Anthony Anderson",
+      "Camryn Manheim",
+      "Pamela Anderson",
+      "Jenny McCarthy"
+    ]
+  },
+  {
+    "id": 312,
+    "title": "KEVIN SAM W DOMU",
+    "actors": [
+      "Macaulay Culkin",
+      "Joe Pesci",
+      "Catherine O'Hara",
+      "Daniel Stern",
+      "John Heard",
+      "Roberts Blossom",
+      "Angela Goethals",
+      "Devin Ratray"
+    ]
+  },
+  {
+    "id": 313,
+    "title": "KEVIN SAM W NOWYM JORKU",
+    "actors": [
+      "Macaulay Culkin",
+      "Joe Pesci",
+      "Catherine O'Hara",
+      "Daniel Stern",
+      "John Heard",
+      "Gerry Bamman",
+      "Terrie Snell",
+      "Kieran Culkin"
+    ]
   }
 ]

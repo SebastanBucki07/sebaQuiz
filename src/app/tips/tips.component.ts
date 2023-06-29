@@ -3,29 +3,27 @@ import { TipsModel } from '../model/tips-model'
 import { QuestionDataService } from '../question-data.service'
 import { PlayersService } from '../players.service'
 import { TimerService } from '../timer.service'
-import { Subscription } from 'rxjs'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   template: '',
 })
 export class TipsComponent {
-  private subscription: Subscription | any
-  public random1: TipsModel | any = {}
-  public points = 2
-  public question = ''
-  public isVisible = false
-  public isModalVisible = false
-  public hasTip3 = true
-  public category = ''
-  public tip = ''
-  public tip2 = ''
-  public tip3 = ''
-  public answer = ''
+  protected randomTips: TipsModel | any = {}
+  protected question = ''
+  protected hasTip3 = true
+  protected category = ''
+  protected tip = ''
+  protected tip2 = ''
+  protected tip3 = ''
 
   constructor(
     private questionDataService: QuestionDataService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
     public timerService: TimerService,
-    public playerService: PlayersService
+    protected playerService: PlayersService
   ) {}
 
   init(): void {
@@ -35,57 +33,41 @@ export class TipsComponent {
   getQuestion(): void {
     switch (this.category) {
       case 'moviesHero': {
-        this.random1 = this.questionDataService.getMoviesHeroQuestion()
+        this.randomTips = this.questionDataService.getMoviesHeroQuestion()
         this.question = 'W jakim filmie byli ci bohaterowie:?'
-        this.points = 2
+        this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'serialsHero': {
-        this.random1 = this.questionDataService.getSerialsHeroQuestion()
+        this.randomTips = this.questionDataService.getSerialsHeroQuestion()
         this.question = 'W jakim serialu byli ci bohaterowie:?'
-        this.points = 2
+        this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'directors': {
-        this.random1 = this.questionDataService.getDirectorsQuestion()
+        this.randomTips = this.questionDataService.getDirectorsQuestion()
         this.question = 'Kto wyreżyserował?'
-        this.points = 4
+        this.questionAnswerService.setPointsForQuestion(4)
         break
       }
       default: {
         break
       }
     }
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
-      if (x) {
-        this.isVisible = true
-      }
-    })
     this.timerService.setTimer(0.5)
-    this.tip = this.random1.Tip1
-    this.tip2 = this.random1.Tip2
-    this.tip3 = this.random1.Tip3
+    this.tip = this.randomTips.Tip1
+    this.tip2 = this.randomTips.Tip2
+    this.tip3 = this.randomTips.Tip3
     if (this.tip3 === '-') {
       this.hasTip3 = false
     }
-    this.answer = this.random1.Answer
-    this.isModalVisible = true
+    this.questionAnswerService.setAnswer(this.randomTips.Answer)
   }
 
   close(): void {
-    this.isVisible = false
-    this.question = ''
-    this.answer = ''
     this.hasTip3 = true
     this.playerService.nextPlayer()
-    this.init()
-    this.playerService.setModal(false)
-  }
-
-  showAnswer(): void {
-    this.isVisible = !this.isVisible
-    this.subscription.unsubscribe()
-    this.timerService.resetTimeout()
+    this.questionTypeService.setActiveCategory(-1)
   }
 }
 

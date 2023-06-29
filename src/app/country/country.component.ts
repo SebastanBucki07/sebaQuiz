@@ -9,6 +9,8 @@ import { InputAnswerModel } from '../model/footballgames-model'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
 import { formatStrings } from '../../common/string.helper'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 export class Question {
   id = 0
@@ -23,39 +25,37 @@ export class Question {
 })
 export class CountryComponent implements OnInit {
   private subscription: Subscription | any
-  public actualPlayer: PlayerForFamiliada | any = null
-  public countries: Country[] = []
-  public answersForCountries: InputAnswerModel[] = []
-  public countryForQuestion: Country | any = {}
-  public continentForQuestion: string | any = ''
-  public blockedButton = false
-  public isVisible = false
-  public isModalVisible = false
-  public showMessage = false
-  public letterForCountriesQuestions: string | any = ''
-  public question: any
-  public answer = ''
-  public inputAnswer: string | undefined = ''
-  public correct = 0
-  public players: PlayerForFamiliada[] = []
-  public tip = ''
-  public photos = data
-  public questions: Question[] = [
+  protected actualPlayer: PlayerForFamiliada | any = null
+  protected countries: Country[] = []
+  protected answersForCountries: InputAnswerModel[] = []
+  protected countryForQuestion: Country | any = {}
+  protected continentForQuestion: string | any = ''
+  protected blockedButton = false
+  protected isVisible = false
+  protected letterForCountriesQuestions: string | any = ''
+  protected question: any
+  protected inputAnswer: string | undefined = ''
+  protected correct = 0
+  protected players: PlayerForFamiliada[] = []
+  protected tip = ''
+  protected photos = data
+  protected questions: Question[] = [
     { id: 2, questionName: 'Wymień wszystkie kraje z ' },
     { id: 3, questionName: 'Wymień wszystkie stolice z ' },
     { id: 4, questionName: 'Wymień kraje na literę ' },
     { id: 5, questionName: 'Wymień stolice na literę ' },
   ]
 
-  public length = 0
-  public country: string | undefined = ''
-  public points = 0
-  public successMessage = 'Już było!'
-  public winner: PlayerForFamiliada | any = null
+  protected length = 0
+  protected country: string | undefined = ''
+  protected points = 0
+  protected winner: PlayerForFamiliada | any = null
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
+    protected playerService: PlayersService,
     public timerService: TimerService
   ) {}
 
@@ -86,6 +86,7 @@ export class CountryComponent implements OnInit {
     this.blockedButton = true
     this.isVisible = true
     this.showAnswer()
+    this.questionAnswerService.setWinner(this.winner.id)
   }
 
   getQuestion(): void {
@@ -98,7 +99,7 @@ export class CountryComponent implements OnInit {
       }
     })
     this.setPlayersForFamiliada()
-    this.points = 5
+    this.questionAnswerService.setPointsForQuestion(5)
     this.question = randomFromArray(this.questions)
     this.countries = this.questionDataService.getCountries('allCountries')
     this.getData(this.question.id)
@@ -152,7 +153,7 @@ export class CountryComponent implements OnInit {
         this.getQuestion()
       } else {
         this.tip = this.countryForQuestion.code
-        this.answer = this.countryForQuestion.name
+        this.questionAnswerService.setAnswer(this.countryForQuestion.name)
       }
     }
     if (type === 1) {
@@ -162,7 +163,7 @@ export class CountryComponent implements OnInit {
         this.getQuestion()
       } else {
         this.tip = this.countryForQuestion.name
-        this.answer = this.countryForQuestion.capital
+        this.questionAnswerService.setAnswer(this.countryForQuestion.capital)
       }
     }
     if (type === 2) {
@@ -222,7 +223,7 @@ export class CountryComponent implements OnInit {
   save(): void {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input.value
-    if (input != null) {
+    if (input) {
       const tmp = this.answersForCountries.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
       if (tmp !== -1) {
         if (!this.answersForCountries[tmp].display) {
@@ -276,23 +277,8 @@ export class CountryComponent implements OnInit {
     audio.playbackRate = 1.2
   }
 
-  changeMessage(text: string | undefined): void {
-    this.showMessage = !this.showMessage
-    this.successMessage = text + ' już było'
-    setTimeout(() => (this.showMessage = !this.showMessage), 1000)
-  }
-
-  setTip(text: string): void {
-    this.tip = text
-  }
-
-  setAnswer(answer: string): void {
-    this.answer = answer
-  }
-
   close(): void {
     this.isVisible = false
-    this.isModalVisible = false
     this.question = ''
     this.winner = null
     this.blockedButton = false
@@ -301,14 +287,14 @@ export class CountryComponent implements OnInit {
       answer.display = false
     })
     this.answersForCountries = []
-    this.answer = ''
     this.playerService.nextPlayer()
+    this.questionTypeService.setActiveCategory(-1)
     this.correct = 0
     this.length = 0
-    this.playerService.setModal(false)
     this.timerService.timeout = false
     this.subscription.unsubscribe()
-    this.getQuestion()
+
+    //this.getQuestion()
   }
 
   showAnswer(): void {

@@ -1,0 +1,19 @@
+<ng-container *ngIf="isAnswerButtonVisible">
+  <button
+    type="button"
+    class="btn btn-primary btn-lg btn-block answerButton"
+    (click)="setIsDisplayed(true); setAnswerButtonVisible(false)"
+  >
+    odp
+  </button>
+</ng-container>
+<ng-container *ngIf="isAnswerDisplayed">
+  <div class="info">
+    <div class="correct col-12">
+      {{ answer }}
+      <ng-container *ngIf="!timeout">
+        <app-add-points></app-add-points>
+      </ng-container>
+    </div>
+  </div>
+</ng-container>

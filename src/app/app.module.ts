@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core'
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
 
 import { AppComponent } from './app.component'
@@ -37,8 +37,14 @@ import { FootballGamesComponent } from './football-games/football-games.componen
 import {
   WritingQuestionFootballComponent,
   WritingQuestionRestComponent,
-} from './writing-question/writing-question.component';
+} from './writing-question/writing-question.component'
 import { FootballCrossComponent } from './football-cross/football-cross.component'
+import { AddPointsComponent } from './add-points/add-points.component'
+import { AnswerComponent } from './answer/answer.component'
+import { QuestionComponent } from './question/question.component'
+import { CategoryListComponent } from './category-list/category-list.component'
+import { MatCardModule } from '@angular/material/card'
+import { DragDropModule } from '@angular/cdk/drag-drop'
 
 @NgModule({
   declarations: [
@@ -84,10 +90,15 @@ import { FootballCrossComponent } from './football-cross/football-cross.componen
     WritingQuestionRestComponent,
     WritingQuestionFootballComponent,
     FootballCrossComponent,
+    AddPointsComponent,
+    AnswerComponent,
+    QuestionComponent,
+    CategoryListComponent,
   ],
-  imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule],
+  imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule, MatCardModule, DragDropModule],
   providers: [],
   bootstrap: [AppComponent],
   exports: [TimerComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class AppModule {}

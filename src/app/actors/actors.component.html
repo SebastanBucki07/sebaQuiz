@@ -1,47 +1,29 @@
-<ng-container *ngIf="playerService.isModalVisible">
-  <div class="modal">
-    <i class="bi bi-x-circle"></i>
-    <ng-container *ngIf="!isVisible">
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">
-        odp
-      </button>
-    </ng-container>
-    <div class="row">
-      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-      <app-timer></app-timer>
-      <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
-        <h2 class="d-none d-lg-flex font-weight-bold question">{{question}}</h2>
-        <h4 class="d-md-flex d-lg-none font-weight-bold question">{{question}}</h4>
-        <ng-container *ngIf="isVisible">
-          <div class="info">
-            <div class="correct col-12 ">{{answer}}
-              <ng-container *ngIf="!timerService.timeout">
-                <button type="button" class="btn btn-success addPointsButton"
-                        (click)="playerService.addPoints(playerService.actualPlayer,2);close()">Dodaj 2 punkty
-                </button>
-              </ng-container>
-            </div>
+<div class="modal">
+  <i class="bi bi-x-circle"></i>
+  <div class="row">
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <app-timer></app-timer>
+    <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
+      <app-question></app-question>
 
-          </div>
-        </ng-container>
-        <div class="card-deck">
-          <div class="row " *ngIf="photos.length > 0; then printPhotos else printTip"></div>
-          <ng-template #printPhotos>
-            <div class="card col-6 col-lg-2" *ngFor="let photo of photos">
-              <img class="card-img-top" src="{{photo.photo}}" alt="{{photo.name}}">
-              <h5 class="card-title">{{photo.name}}</h5>
-            </div>
-          </ng-template>
-          <ng-template class="row" #printTip>
-            <div class="card col-6 col-lg-2 " *ngFor="let tip of tips">
-              <h5 class="card-title">{{tip}}</h5>
-            </div>
-          </ng-template>
-        </div>
+      <div class="correct col-12">
+        <app-answer></app-answer>
       </div>
 
+      <div class="card-deck">
+        <div class="row" *ngIf="photos.length > 0; then printPhotos; else printTip"></div>
+        <ng-template #printPhotos>
+          <div class="card col-6 col-lg-2" *ngFor="let photo of photos">
+            <img class="card-img-top" src="{{ photo.photo }}" alt="{{ photo.name }}" />
+            <h5 class="card-title">{{ photo.name }}</h5>
+          </div>
+        </ng-template>
+        <ng-template class="row" #printTip>
+          <div class="card col-6 col-lg-2" *ngFor="let tip of tips">
+            <h5 class="card-title">{{ tip }}</h5>
+          </div>
+        </ng-template>
+      </div>
     </div>
-
   </div>
-</ng-container>
-
+</div>

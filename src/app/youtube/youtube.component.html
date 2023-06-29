@@ -1,49 +1,44 @@
-<ng-container *ngIf="playerService.isModalVisible">
-  <div class="modal">
-    <div class="row">
-      <div class="col-12 question">
-        <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
-        <i class="bi bi-x-circle"></i>
-      </div>
-      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAuthor()">
-        Pokaż tytuł
-      </button>
-      <ng-container *ngIf="isNotSerial">
-        <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showTitle()">
-          Pokaż wykonawce
-        </button>
-      </ng-container>
-      <div class="col-12 question">{{question}}</div>
-      <div class="info">
-        <h5>{{tip}}</h5>
-        <iframe width="25" height="25"
-                [src]="urlSafe"
-                title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-      </div>
-
+<div class="modal">
+  <div class="row">
+    <div class="col-12 question">
+      <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+      <i class="bi bi-x-circle"></i>
     </div>
-    <ng-container *ngIf="isAuthorVisible">
-      <div class="info">
-        <div class="correct col-12 ">{{answerDescription}} {{title}}
-          <button type="button" class="btn btn-success addPointsButton"
-                  (click)="playerService.addPoints(playerService.actualPlayer,points); close()">Dodaj {{points}} punkty
-          </button>
-        </div>
-      </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAuthor()">
+      Pokaż tytuł
+    </button>
+    <ng-container *ngIf="isNotSerial">
+      <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showTitle()">
+        Pokaż wykonawce
+      </button>
     </ng-container>
-    <ng-container *ngIf="isTitleVisible">
-      <div class="info">
-        <div class="correct col-12 ">Wykonawca: {{author}}
-          <button type="button" class="btn btn-success addPointsButton"
-                  (click)="playerService.addPoints(playerService.actualPlayer,2*points);close()">Dodaj {{2 * points}}
-            punkty
-          </button>
-        </div>
-      </div>
-    </ng-container>
-
+    <div class="col-12 question">{{ question }}</div>
+    <div class="info">
+      <h5>{{ tip }}</h5>
+      <iframe
+        width="25"
+        height="25"
+        [src]="urlSafe"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
   </div>
-</ng-container>
-
+  <ng-container *ngIf="isAuthorVisible">
+    <div class="info">
+      <div class="correct col-12">
+        {{ answerDescription }} {{ title }}
+        <app-add-points></app-add-points>
+      </div>
+    </div>
+  </ng-container>
+  <ng-container *ngIf="isTitleVisible">
+    <div class="info">
+      <div class="correct col-12">
+        Wykonawca: {{ author }}
+        <app-add-points></app-add-points>
+      </div>
+    </div>
+  </ng-container>
+</div>

@@ -6,6 +6,8 @@ import { PlayerForFamiliada } from '../players/players.component'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
 import { formatStrings } from '../../common/string.helper'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   selector: 'app-familiada',
@@ -14,24 +16,25 @@ import { formatStrings } from '../../common/string.helper'
   providers: [TimerService],
 })
 export class FamiliadaComponent implements OnInit {
-  public random1: FamiliadaModel | any = {}
-  public question = ''
-  public userAnswer = ''
-  public isVisible = false
-  public answers: FamiliadaAnswer[] = []
-  public players: PlayerForFamiliada[] = []
-  public actualPlayer: PlayerForFamiliada | any = null
-  public winner: PlayerForFamiliada | any = null
-  public correct = 0
-  public points = 0
-  public wrong = 0
-  public blockedButton = false
-  private subscription: Subscription | any
+  protected randomFamiliadaQuestion: FamiliadaModel | any = {}
+  protected question = ''
+  protected userAnswer = ''
+  protected isVisible = false
+  protected answers: FamiliadaAnswer[] = []
+  protected players: PlayerForFamiliada[] = []
+  protected actualPlayer: PlayerForFamiliada | any = null
+  protected winner: PlayerForFamiliada | any = null
+  protected correct = 0
+  protected wrong = 0
+  protected blockedButton = false
+  protected subscription: Subscription | any
 
   constructor(
     private questionDataService: QuestionDataService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
     public timerService: TimerService,
-    public playerService: PlayersService
+    protected playerService: PlayersService
   ) {}
 
   ngOnInit(): void {
@@ -70,23 +73,22 @@ export class FamiliadaComponent implements OnInit {
     this.wrong = 0
     this.isVisible = false
     this.setPlayersForFamiliada()
-    this.points = 5
-    this.random1 = this.questionDataService.getFamiliadaQuestion()
+    this.questionAnswerService.setPointsForQuestion(3)
+    this.randomFamiliadaQuestion = this.questionDataService.getFamiliadaQuestion()
     this.setAnswers()
     this.timerService.setTimer(0.5)
     this.timerService.timeout = false
   }
 
   close(): void {
-    this.playerService.setModal(false)
     this.winner = null
     this.userAnswer = ''
     this.answers = []
     this.blockedButton = false
     this.playerService.nextPlayer()
+    this.questionTypeService.setActiveCategory(-1)
     this.timerService.timeout = false
     this.subscription.unsubscribe()
-    this.init()
   }
 
   showAnswer(): void {
@@ -100,46 +102,46 @@ export class FamiliadaComponent implements OnInit {
   }
 
   setAnswers(): void {
-    this.question = this.random1.question
-    if (this.random1.answer1 != '-') {
+    this.question = this.randomFamiliadaQuestion.question
+    if (this.randomFamiliadaQuestion.answer1 != '-') {
       this.answers.push({
         id: 1,
-        answer: this.random1.answer1.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer1.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer2 != '-') {
+    if (this.randomFamiliadaQuestion.answer2 != '-') {
       this.answers.push({
         id: 2,
-        answer: this.random1.answer2.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer2.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer3 != '-') {
+    if (this.randomFamiliadaQuestion.answer3 != '-') {
       this.answers.push({
         id: 3,
-        answer: this.random1.answer3.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer3.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer4 != '-') {
+    if (this.randomFamiliadaQuestion.answer4 != '-') {
       this.answers.push({
         id: 4,
-        answer: this.random1.answer4.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer4.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer5 != '-') {
+    if (this.randomFamiliadaQuestion.answer5 != '-') {
       this.answers.push({
         id: 5,
-        answer: this.random1.answer5.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer5.toLowerCase(),
         display: false,
       })
     }
-    if (this.random1.answer6 != '-') {
+    if (this.randomFamiliadaQuestion.answer6 != '-') {
       this.answers.push({
         id: 6,
-        answer: this.random1.answer6.toLowerCase(),
+        answer: this.randomFamiliadaQuestion.answer6.toLowerCase(),
         display: false,
       })
     }
@@ -155,7 +157,7 @@ export class FamiliadaComponent implements OnInit {
   save(): void {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input.value.toString()
-    if (input != null) {
+    if (input) {
       const tmp = this.answers.findIndex((el) => formatStrings(el.answer) === formatStrings(value))
       if (tmp !== -1) {
         if (!this.answers[tmp].display) {
@@ -201,10 +203,10 @@ export class FamiliadaComponent implements OnInit {
   setWinner(): void {
     this.subscription.unsubscribe()
     this.timerService.resetTimeout()
-    //this.timerService.setTimer(0)
     this.winner = this.players[0]
     this.blockedButton = true
     this.isVisible = true
     this.showAnswer()
+    this.questionAnswerService.setWinner(this.winner.id)
   }
 }

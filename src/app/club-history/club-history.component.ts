@@ -3,7 +3,8 @@ import { ClubHistory } from '../model/clubHistory-model'
 import { PlayersService } from '../players.service'
 import { QuestionDataService } from '../question-data.service'
 import { TimerService } from '../timer.service'
-import { Subscription } from 'rxjs'
+import { QuestionTypesService } from '../question-types.service'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
 
 @Component({
   selector: 'app-club-history',
@@ -12,46 +13,40 @@ import { Subscription } from 'rxjs'
   providers: [TimerService],
 })
 export class ClubHistoryComponent implements OnInit {
-  private subscription: Subscription | any
-  public isModalVisible = false
-  public random1: ClubHistory | any = {}
-  public isVisible = false
-  public answer = ''
-  public tip = ''
-  public photos: any = []
+  protected randomFootballer: ClubHistory | any = {}
+  protected isVisible = false
+  protected tip = ''
+  protected photos: any = []
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
+    protected playerService: PlayersService,
     public timerService: TimerService
   ) {}
 
   init(): void {
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
-      if (x) {
-        this.isVisible = true
-      }
-    })
-    this.random1 = this.questionDataService.getClubHistoryQuestion()
-    this.answer = this.random1.osoba
-    this.tip = this.random1.narodowosc
-    if (this.random1.klub1 != '-') {
-      this.photos.push(this.random1.klub1)
+    this.randomFootballer = this.questionDataService.getClubHistoryQuestion()
+    this.questionAnswerService.setAnswer(this.randomFootballer.osoba)
+    this.questionAnswerService.setPointsForQuestion(3)
+    this.tip = this.randomFootballer.narodowosc
+    if (this.randomFootballer.klub1 != '-') {
+      this.photos.push(this.randomFootballer.klub1)
     }
-    if (this.random1.klub2 != '-') {
-      this.photos.push(this.random1.klub2)
+    if (this.randomFootballer.klub2 != '-') {
+      this.photos.push(this.randomFootballer.klub2)
     }
-    if (this.random1.klub3 != '-') {
-      this.photos.push(this.random1.klub3)
+    if (this.randomFootballer.klub3 != '-') {
+      this.photos.push(this.randomFootballer.klub3)
     }
-    if (this.random1.klub4 != '-') {
-      this.photos.push(this.random1.klub4)
+    if (this.randomFootballer.klub4 != '-') {
+      this.photos.push(this.randomFootballer.klub4)
     }
-    if (this.random1.klub5 != '-') {
-      this.photos.push(this.random1.klub5)
+    if (this.randomFootballer.klub5 != '-') {
+      this.photos.push(this.randomFootballer.klub5)
     }
-    this.isModalVisible = true
   }
 
   ngOnInit(): void {
@@ -59,17 +54,8 @@ export class ClubHistoryComponent implements OnInit {
   }
 
   close(): void {
-    this.isVisible = false
-    this.answer = ''
-    this.photos = []
     this.playerService.nextPlayer()
-    this.init()
-    this.playerService.setModal(false)
-  }
-
-  showAnswer(): void {
-    this.isVisible = !this.isVisible
-    this.subscription.unsubscribe()
-    this.timerService.resetTimeout()
+    this.questionTypeService.setActiveCategory(-1)
+    this.questionAnswerService.setTip('')
   }
 }

@@ -6,6 +6,8 @@ import { PlayerForFamiliada } from '../players/players.component'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
 import { formatStrings } from '../../common/string.helper'
+import { QuestionAndAnswerService } from '../question-and-answer.service'
+import { QuestionTypesService } from '../question-types.service'
 
 @Component({
   selector: 'app-football-games',
@@ -15,23 +17,24 @@ import { formatStrings } from '../../common/string.helper'
 })
 export class FootballGamesComponent implements OnInit {
   private subscription: Subscription | any
-  public points = 5
-  public footballGames: FootballGamesModel | any = {}
-  public answerForSquad: InputAnswerModel[] = []
-  public question = ''
-  public tip = ''
-  public userAnswer = ''
-  public inputAnswer: string | undefined = ''
-  public players: PlayerForFamiliada[] = []
-  public actualPlayer: PlayerForFamiliada | any = null
-  public blockedButton = false
-  public isVisible = false
-  public end = false
-  public winner: PlayerForFamiliada | any = null
+  protected footballGames: FootballGamesModel | any = {}
+  protected answerForSquad: InputAnswerModel[] = []
+  protected question = ''
+  protected tip = ''
+  protected userAnswer = ''
+  protected inputAnswer: string | undefined = ''
+  protected players: PlayerForFamiliada[] = []
+  protected actualPlayer: PlayerForFamiliada | any = null
+  protected blockedButton = false
+  protected isVisible = false
+  protected end = false
+  protected winner: PlayerForFamiliada | any = null
 
   constructor(
     private questionDataService: QuestionDataService,
-    public playerService: PlayersService,
+    private questionTypeService: QuestionTypesService,
+    private questionAnswerService: QuestionAndAnswerService,
+    protected playerService: PlayersService,
     public timerService: TimerService
   ) {}
 
@@ -92,7 +95,7 @@ export class FootballGamesComponent implements OnInit {
       }
     })
     this.setPlayersForFamiliada()
-    this.points = 5
+    this.questionAnswerService.setPointsForQuestion(5)
     this.footballGames = this.questionDataService.getFootballGameQuestion()
     this.setAnswerForSquads()
     this.question = 'Wymień piłkarzy z meczu'
@@ -116,7 +119,7 @@ export class FootballGamesComponent implements OnInit {
     this.answerForSquad = []
     this.blockedButton = false
     this.playerService.nextPlayer()
-    this.playerService.setModal(false)
+    this.questionTypeService.setActiveCategory(-1)
     this.timerService.timeout = false
     this.subscription.unsubscribe()
     this.getQuestion()
@@ -130,6 +133,7 @@ export class FootballGamesComponent implements OnInit {
     this.blockedButton = true
     this.isVisible = true
     this.showAnswer()
+    this.questionAnswerService.setWinner(this.winner.id)
   }
 
   showAnswer(): void {
