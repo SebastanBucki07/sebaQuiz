@@ -2121,12 +2121,6 @@
   },
   {
     "id": 223,
-    "name": "Jakub Slowik",
-    "country": "Polska",
-    "clubs": ["Vegalta Sendai", "Śląsk Wrocław", "Jagiellonia Białystok", "FC Tokyo", "Pogoń Szczecin", "Warta Poznań"]
-  },
-  {
-    "id": 224,
     "name": "Lukasz Surma",
     "country": "Polska",
     "clubs": [
@@ -2140,13 +2134,13 @@
     ]
   },
   {
-    "id": 225,
+    "id": 224,
     "name": "Marek Zienczuk",
     "country": "Polska",
     "clubs": ["Ruch Chorzów", "Wisła Kraków", "Amica Wronki", "AO Xanthi", "Lechia Gdańsk"]
   },
   {
-    "id": 226,
+    "id": 225,
     "name": "Deleu",
     "country": "Brazylia",
     "clubs": [
@@ -2159,7 +2153,7 @@
     ]
   },
   {
-    "id": 227,
+    "id": 226,
     "name": "Ricardinho",
     "country": "Brazylia",
     "clubs": [
@@ -2176,7 +2170,7 @@
     ]
   },
   {
-    "id": 228,
+    "id": 227,
     "name": "Damian Byrtek",
     "country": "Polska",
     "clubs": [
@@ -2192,7 +2186,7 @@
     ]
   },
   {
-    "id": 229,
+    "id": 228,
     "name": "José Kanté",
     "country": "Gwinea",
     "clubs": [
@@ -2208,7 +2202,7 @@
     ]
   },
   {
-    "id": 230,
+    "id": 229,
     "name": "Giorgi Merebashvili",
     "country": "Gruzja",
     "clubs": [
@@ -2220,31 +2214,31 @@
     ]
   },
   {
-    "id": 231,
+    "id": 230,
     "name": "Thomas Dähne",
     "country": "Niemcy",
     "clubs": ["HJK Helsinki", "Wisła Płock", "Holstein Kiel", "Red Bull Salzburg"]
   },
   {
-    "id": 232,
+    "id": 231,
     "name": "Przemysław Szyminski",
     "country": "Polska",
     "clubs": ["Frosinone Calcio", "Wisła Płock", "Rozwój Katowice", "Palermo FC"]
   },
   {
-    "id": 233,
+    "id": 232,
     "name": "Mateusz Praszelik",
     "country": "Polska",
     "clubs": ["Śląsk Wrocław", "Cosenza Calcio", "Legia Warszawa"]
   },
   {
-    "id": 234,
+    "id": 233,
     "name": "Lukasz Broz",
     "country": "Polska",
     "clubs": ["Widzew Łódź", "Legia Warszawa", "Śląsk Wrocław", "Mamry Giżycko", "KS Kutno"]
   },
   {
-    "id": 235,
+    "id": 234,
     "name": "Kevin Kampl",
     "country": "Słowenia",
     "clubs": [
@@ -2258,7 +2252,7 @@
     ]
   },
   {
-    "id": 236,
+    "id": 235,
     "name": "Ebi Smolarek",
     "country": "Polska",
     "clubs": [
@@ -2272,7 +2266,7 @@
     ]
   },
   {
-    "id": 237,
+    "id": 236,
     "name": "Grzegorz Rasiak",
     "country": "Polska",
     "clubs": [
@@ -2292,25 +2286,25 @@
     ]
   },
   {
-    "id": 238,
+    "id": 237,
     "name": "Maciej Zurawski",
     "country": "Polska",
     "clubs": ["Wisła Kraków", "Celtic Glasgow", "Lech Poznań", "AE Larisa", "Omonia Nikozja"]
   },
   {
-    "id": 239,
+    "id": 238,
     "name": "Paweł Brożek",
     "country": "Polska",
     "clubs": ["Wisła Kraków", "Trabzonspor", "GKS Katowice", "Recreativo Huelva", "Celtic Glasgow"]
   },
   {
-    "id": 240,
+    "id": 239,
     "name": "Patryk Klimala",
     "country": "Polska",
     "clubs": ["New York Red Bulls", "Jagiellonia Białystok", "Celtic Glasgow", "Wigry Suwałki", "Hapoel Beer Sheva"]
   },
   {
-    "id": 241,
+    "id": 240,
     "name": "Łukasz Załuska.",
     "country": "Polska",
     "clubs": [
@@ -2325,19 +2319,19 @@
     ]
   },
   {
-    "id": 242,
+    "id": 241,
     "name": "Pawel Jaroszynski",
     "country": "Polska",
     "clubs": ["Cracovia", "US Salernitana 1919", "Chievo Verona", "Delfino Pescara 1936"]
   },
   {
-    "id": 243,
+    "id": 242,
     "name": "Filip Jagiello",
     "country": "Polska",
     "clubs": ["Zagłębie Lubin", "Brescia Calcio", "Genoa CFC"]
   },
   {
-    "id": 244,
+    "id": 243,
     "name": "Adam Dźwigała",
     "country": "Polska",
     "clubs": [
@@ -2351,19 +2345,19 @@
     ]
   },
   {
-    "id": 245,
+    "id": 244,
     "name": "Jakub Piotrowski",
     "country": "Polska",
     "clubs": ["Ludogorets Razgrad", "Fortuna Düsseldorf", "Pogoń Szczecin", "KRC Genk", "Stomil Olsztyn", "SK Beveren"]
   },
   {
-    "id": 246,
+    "id": 245,
     "name": "Ireneusz Jeleń",
     "country": "Polska",
     "clubs": ["AJ Auxerre", "Wisła Płock", "LOSC Lille", "Górnik Zabrze", "Podbeskidzie Bielsko-Biała"]
   },
   {
-    "id": 247,
+    "id": 246,
     "name": "Dawid Janczyk",
     "country": "Polska",
     "clubs": [
@@ -2377,13 +2371,13 @@
     ]
   },
   {
-    "id": 248,
+    "id": 247,
     "name": "Jerzy Dudek",
     "country": "Polska",
     "clubs": ["FC Liverpool", "Feyenoord Rotterdam", "Real Madryt", "GKS Tychy"]
   },
   {
-    "id": 249,
+    "id": 248,
     "name": "Michal Janota",
     "country": "Polska",
     "clubs": [
@@ -2399,7 +2393,7 @@
     ]
   },
   {
-    "id": 250,
+    "id": 249,
     "name": "Paweł Abott",
     "country": "Polska",
     "clubs": [
@@ -2417,13 +2411,13 @@
     ]
   },
   {
-    "id": 251,
+    "id": 250,
     "name": "Marcin Adamski",
     "country": "Polska",
     "clubs": ["SK Rapid Wiedeń", "Zagłębie Lubin", "ŁKS Łódź", "FC Erzgebirge Aue", "Angers SCO"]
   },
   {
-    "id": 252,
+    "id": 251,
     "name": "Tomasz Cywka",
     "country": "Polska",
     "clubs": [
@@ -2440,7 +2434,7 @@
     ]
   },
   {
-    "id": 253,
+    "id": 252,
     "name": "Jarosław Fojut",
     "country": "Polska",
     "clubs": [
@@ -2456,7 +2450,7 @@
     ]
   },
   {
-    "id": 254,
+    "id": 253,
     "name": "Marek Saganowski",
     "country": "Polska",
     "clubs": [
@@ -2474,19 +2468,19 @@
     ]
   },
   {
-    "id": 255,
+    "id": 254,
     "name": "Artur Wichniarek",
     "country": "Polska",
     "clubs": ["Arminia Bielefeld", "Hertha BSC", "Widzew Łódź", "Lech Poznań"]
   },
   {
-    "id": 256,
+    "id": 255,
     "name": "Piotr Brozek",
     "country": "Polska",
     "clubs": ["Wisła Kraków", "Piast Gliwice", "Lechia Gdańsk", "Górnik Zabrze", "Trabzonspor"]
   },
   {
-    "id": 257,
+    "id": 256,
     "name": "Marcin Zewlakow",
     "country": "Polska",
     "clubs": [
@@ -2501,7 +2495,7 @@
     ]
   },
   {
-    "id": 258,
+    "id": 257,
     "name": "Michal Zewlakow",
     "country": "Polska",
     "clubs": [
@@ -2515,7 +2509,7 @@
     ]
   },
   {
-    "id": 259,
+    "id": 258,
     "name": "Michal Mak",
     "country": "Polska",
     "clubs": [
@@ -2530,7 +2524,7 @@
     ]
   },
   {
-    "id": 260,
+    "id": 259,
     "name": "Bartosz Slusarski",
     "country": "Polska",
     "clubs": [
@@ -2548,13 +2542,13 @@
     ]
   },
   {
-    "id": 261,
+    "id": 260,
     "name": "Jacek Bak",
     "country": "Polska",
     "clubs": ["Olympique Lyon", "FK Austria Wiedeń", "RC Lens", "Lech Poznań"]
   },
   {
-    "id": 262,
+    "id": 261,
     "name": "Tomasz Rząsa",
     "country": "Polska",
     "clubs": [
@@ -2571,7 +2565,7 @@
     ]
   },
   {
-    "id": 263,
+    "id": 262,
     "name": "Marcin Wasilewski",
     "country": "Polska",
     "clubs": [
@@ -2585,7 +2579,7 @@
     ]
   },
   {
-    "id": 264,
+    "id": 263,
     "name": "Emmanuel Olisadebe",
     "country": "Polska",
     "clubs": [
@@ -2599,7 +2593,7 @@
     ]
   },
   {
-    "id": 265,
+    "id": 264,
     "name": "Ludovic Obraniak",
     "country": "Polska",
     "clubs": [
@@ -2613,7 +2607,7 @@
     ]
   },
   {
-    "id": 266,
+    "id": 265,
     "name": "Krzysztof Krol",
     "country": "Polska",
     "clubs": [
@@ -2630,7 +2624,7 @@
     ]
   },
   {
-    "id": 267,
+    "id": 266,
     "name": "Radoslaw Matusiak",
     "country": "Polska",
     "clubs": [
@@ -2647,73 +2641,73 @@
     ]
   },
   {
-    "id": 268,
+    "id": 267,
     "name": "Timo Werner",
     "country": "Niemcy",
     "clubs": ["RasenBallsport Leipzig", "VfB Stuttgart", "Chelsea FC"]
   },
   {
-    "id": 269,
+    "id": 268,
     "name": "André Silva",
     "country": "Portugalia",
     "clubs": ["RasenBallsport Leipzig", "Eintracht Frankfurt", "FC Porto", "AC Milan", "Sevilla FC"]
   },
   {
-    "id": 270,
+    "id": 269,
     "name": "Maciej Jankowski",
     "country": "Polska",
     "clubs": ["Ruch Chorzów", "Arka Gdynia", "Piast Gliwice", "Wisła Kraków", "Stal Mielec", "Wieczysta Kraków"]
   },
   {
-    "id": 271,
+    "id": 270,
     "name": "Karol Fila",
     "country": "Polska",
     "clubs": ["Lechia Gdańsk", "RC Strasbourg Alsace", "Chojniczanka Chojnice", "SV Zulte Waregem"]
   },
   {
-    "id": 272,
+    "id": 271,
     "name": "Rafal Straczek",
     "country": "Polska",
     "clubs": ["Stal Mielec", "JKS 1909 Jarosław", "Wólczanka Wólka Pełkińska", "FC Girondins Bordeaux", "Motor Lublin"]
   },
   {
-    "id": 273,
+    "id": 272,
     "name": "Lukasz Poreba",
     "country": "Polska",
     "clubs": ["Zagłębie Lubin", "RC Lens"]
   },
   {
-    "id": 274,
+    "id": 273,
     "name": "Pawel Bochniewicz",
     "country": "Polska",
     "clubs": ["Górnik Zabrze", "SC Heerenveen", "Recreativo Granada", "Reggina 1914", "Udinese Calcio"]
   },
   {
-    "id": 275,
+    "id": 274,
     "name": "Neymar",
     "country": "Brazylia",
     "clubs": ["FC Barcelona", "FC Paris Saint-Germain", "Santos FC"]
   },
   {
-    "id": 276,
+    "id": 275,
     "name": "Kylian Mbappé",
     "country": "Francja",
     "clubs": ["FC Paris Saint-Germain", "AS Monaco"]
   },
   {
-    "id": 277,
+    "id": 276,
     "name": "Achraf Hakimi",
     "country": "Maroko",
     "clubs": ["FC Paris Saint-Germain", "Borussia Dortmund", "Inter Mediolan", "Real Madryt"]
   },
   {
-    "id": 278,
+    "id": 277,
     "name": "Edinson Cavani",
     "country": "Urugwaj",
     "clubs": ["FC Paris Saint-Germain", "SSC Napoli", "Palermo FC", "Manchester United", "Valencia CF"]
   },
   {
-    "id": 279,
+    "id": 278,
     "name": "Ángel Di María",
     "country": "Argentyna",
     "clubs": [
@@ -2726,31 +2720,31 @@
     ]
   },
   {
-    "id": 280,
+    "id": 279,
     "name": "Mauro Icardi",
     "country": "Argentyna",
     "clubs": ["Inter Mediolan", "FC Paris Saint-Germain", "UC Sampdoria", "Galatasaray"]
   },
   {
-    "id": 281,
+    "id": 280,
     "name": "David Luiz",
     "country": "Brazylia",
     "clubs": ["Chelsea FC", "Benfika Lizbon", "FC Paris Saint-Germain", "Flamengo Rio de Janeiro", "FC Arsenal"]
   },
   {
-    "id": 282,
+    "id": 281,
     "name": "Thiago Silva",
     "country": "Brazylia",
     "clubs": ["FC Paris Saint-Germain", "AC Milan", "Chelsea FC", "Fluminense Football Club"]
   },
   {
-    "id": 283,
+    "id": 282,
     "name": "Javier Pastore",
     "country": "Argentyna",
     "clubs": ["FC Paris Saint-Germain", "Palermo FC", "AS Roma", "CA Huracán", "Elche CF", "Qatar SC"]
   },
   {
-    "id": 284,
+    "id": 283,
     "name": "Nicolas Anelka",
     "country": "Francja",
     "clubs": [
@@ -2768,85 +2762,85 @@
     ]
   },
   {
-    "id": 285,
+    "id": 284,
     "name": "Renato Sanches",
     "country": "Portugalia",
     "clubs": ["LOSC Lille", "Bayern Monachium", "Benfika Lizbona", "FC Paris Saint-Germain", "Swansea City"]
   },
   {
-    "id": 286,
+    "id": 285,
     "name": "Fabián Ruiz",
     "country": "Hiszpania",
     "clubs": ["SSC Napoli", "Real Betis Balompié", "FC Paris Saint-Germain", "Betis Deportivo Balompié", "Elche CF"]
   },
   {
-    "id": 287,
+    "id": 286,
     "name": "Malang Sarr",
     "country": "Francja",
     "clubs": ["OGC Nice", "Chelsea FC", "FC Porto", "AS Monaco"]
   },
   {
-    "id": 288,
+    "id": 287,
     "name": "Ruben Aguilar",
     "country": "Francja",
     "clubs": ["AS Monaco", "AJ Auxerre", "Montpellier HSC", "AS Saint-Étienne"]
   },
   {
-    "id": 289,
+    "id": 288,
     "name": "Youssouf Fofana",
     "country": "Francja",
     "clubs": ["AS Monaco", "RC Strasbourg Alsace"]
   },
   {
-    "id": 290,
+    "id": 289,
     "name": "Wissam Ben Yedder",
     "country": "Francja",
     "clubs": ["FC Toulouse", "AS Monaco", "Sevilla FC"]
   },
   {
-    "id": 291,
+    "id": 290,
     "name": "Gelson Martins",
     "country": "Portugalia",
     "clubs": ["Sporting CP", "AS Monaco", "Atlético Madryt"]
   },
   {
-    "id": 292,
+    "id": 291,
     "name": "Edouard Mendy",
     "country": "Senegal",
     "clubs": ["Chelsea FC", "Stade Reims", "Stade Rennais FC", "AS Cherbourg"]
   },
   {
-    "id": 293,
+    "id": 292,
     "name": "Eric Bailly",
     "country": "Wybrzeże Kości Słoniowej",
     "clubs": ["Manchester United", "Villarreal CF", "Olympique Marseille", "RCD Espanyol"]
   },
   {
-    "id": 294,
+    "id": 293,
     "name": "Aurélien Tchouaméni",
     "country": "Francja",
     "clubs": ["AS Monaco", "Real Madryt", "FC Girondins Bordeaux"]
   },
   {
-    "id": 295,
+    "id": 294,
     "name": "Antonio Rüdiger",
     "country": "Niemcy",
     "clubs": ["Chelsea FC", "VfB Stuttgart", "AS Roma", "Real Madryt"]
   },
   {
-    "id": 296,
+    "id": 295,
     "name": "Reinier",
     "country": "Brazylia",
     "clubs": ["Borussia Dortmund", "Girona FC", "Flamengo Rio de Janeiro", "Real Madryt"]
   },
   {
-    "id": 297,
+    "id": 296,
     "name": "Andreas Christensen",
     "country": "Dania",
     "clubs": ["Chelsea FC", "Borussia Mönchengladbach", "FC Barcelona"]
   },
   {
-    "id": 298,
+    "id": 297,
     "name": "Philippe Coutinho",
     "country": "Brazylia",
     "clubs": [
@@ -2860,31 +2854,31 @@
     ]
   },
   {
-    "id": 299,
+    "id": 298,
     "name": "Marcos Alonso",
     "country": "Hiszpania",
     "clubs": ["Chelsea FC", "AC Fiorentina", "Bolton Wanderers", "FC Barcelona", "AFC Sunderland", "Real Madryt"]
   },
   {
-    "id": 300,
+    "id": 299,
     "name": "Jules Koundé",
     "country": "Francja",
     "clubs": ["Sevilla FC", "FC Girondins Bordeaux", "FC Barcelona"]
   },
   {
-    "id": 301,
+    "id": 300,
     "name": "Miralem Pjanic",
     "country": "Bośnia i Hercegowina",
     "clubs": ["AS Roma", "Juventus Turyn", "Olympique Lyon", "FC Metz", "FC Barcelona", "Besiktas JK"]
   },
   {
-    "id": 302,
+    "id": 301,
     "name": "Dimitri Payet",
     "country": "Fancja",
     "clubs": ["Olympique Marseille", "AS Saint-Étienne", "LOSC Lille", "FC Nantes"]
   },
   {
-    "id": 303,
+    "id": 302,
     "name": "Florian Thauvin",
     "country": "Francja",
     "clubs": [
@@ -2897,7 +2891,7 @@
     ]
   },
   {
-    "id": 304,
+    "id": 303,
     "name": "Michy Batshuayi",
     "country": "Belgia",
     "clubs": [
@@ -2912,13 +2906,13 @@
     ]
   },
   {
-    "id": 305,
+    "id": 304,
     "name": "César Azpilicueta",
     "country": "Hispzania",
     "clubs": ["Chelsea FC", "CA Osasuna", "Olympique Marseille"]
   },
   {
-    "id": 306,
+    "id": 305,
     "name": "Kasper Schmeichel",
     "country": "Dania",
     "clubs": [
@@ -2932,55 +2926,55 @@
     ]
   },
   {
-    "id": 307,
+    "id": 306,
     "name": "Marcin Bulka",
     "country": "Polska",
     "clubs": ["OGC Nice", "LB Châteauroux", "FC Cartagena", "FC Paris Saint-Germain"]
   },
   {
-    "id": 308,
+    "id": 307,
     "name": "Nicolas Pépé",
     "country": "Wybrzeże kości słoniowej",
     "clubs": ["FC Arsenal", "LOSC Lille", "Angers SCO", "US Orléans", "OGC Nice"]
   },
   {
-    "id": 309,
+    "id": 308,
     "name": "Aaron Ramsey",
     "country": "Walia",
     "clubs": ["FC Arsenal", "Juventus Turyn", "OGC Nice", "Cardiff City", "Glasgow Rangers", "Nottingham Forest"]
   },
   {
-    "id": 310,
+    "id": 309,
     "name": "Alexandre Lacazette",
     "country": "Francja",
     "clubs": ["Olympique Lyon", "FC Arsenal"]
   },
   {
-    "id": 311,
+    "id": 310,
     "name": "Corentin Tolisso",
     "country": "Francja",
     "clubs": ["Olympique Lyon", "Bayern Monachium"]
   },
   {
-    "id": 312,
+    "id": 311,
     "name": "Nicolás Tagliafico",
     "country": "Argentyna",
     "clubs": ["Ajax Amsterdam", "CA Independiente", "Olympique Lyon", "Real Murcia CF"]
   },
   {
-    "id": 313,
+    "id": 312,
     "name": "Jérôme Boateng",
     "country": "Niemcy",
     "clubs": ["Bayern Monachium", "Hamburger SV", "Olympique Lyon", "Manchester City", "Hertha BSC"]
   },
   {
-    "id": 314,
+    "id": 313,
     "name": "Moussa Dembélé",
     "country": "Francja",
     "clubs": ["Olympique Lyon", "Celtic Glasgow", "FC Fulham", "Atlético Madryt"]
   },
   {
-    "id": 315,
+    "id": 314,
     "name": "Piotr Swierczewski",
     "country": "Polska",
     "clubs": [
@@ -2998,19 +2992,19 @@
     ]
   },
   {
-    "id": 316,
+    "id": 315,
     "name": "Dariusz Dudka",
     "country": "Polska",
     "clubs": ["Wisła Kraków", "AJ Auxerre", "Amica Wronki", "Lech Poznań", "Levante UD", "Birmingham City"]
   },
   {
-    "id": 317,
+    "id": 316,
     "name": "Tomasz Klos",
     "country": "Polska",
     "clubs": ["ŁKS Łódź", "Wisła Kraków", "AJ Auxerre", "1.FC Kaiserslautern", "1.FC Köln"]
   },
   {
-    "id": 318,
+    "id": 317,
     "name": "Roman Kosecki",
     "country": "Polska",
     "clubs": [
@@ -3024,7 +3018,7 @@
     ]
   },
   {
-    "id": 319,
+    "id": 318,
     "name": "Tomasz Frankowski",
     "country": "Polska",
     "clubs": [
@@ -3040,7 +3034,7 @@
     ]
   },
   {
-    "id": 320,
+    "id": 319,
     "name": "Mariusz Stepinski",
     "country": "Polska",
     "clubs": [
@@ -3055,7 +3049,7 @@
     ]
   },
   {
-    "id": 321,
+    "id": 320,
     "name": "Marcin Kuzba",
     "country": "Polska",
     "clubs": [
@@ -3068,25 +3062,25 @@
     ]
   },
   {
-    "id": 322,
+    "id": 321,
     "name": "Andrzej Szarmach",
     "country": "Polska",
     "clubs": ["AJ Auxerre", "Górnik Zabrze", "Stal Mielec", "EA Guingamp"]
   },
   {
-    "id": 323,
+    "id": 322,
     "name": "Ismaily",
     "country": "Brazylia",
     "clubs": ["Szachtar Donieck", "SC Ollanęs", "LOSC Lille", "GD Estoril Praia", "SC Braga"]
   },
   {
-    "id": 324,
+    "id": 323,
     "name": "Adam Ounas",
     "country": "Algieria",
     "clubs": ["SSC Napoli", "FC Girondins Bordeaux", "LOSC Lille", "OGC Nice", "FC Crotone", "Cagliari Calcio"]
   },
   {
-    "id": 325,
+    "id": 324,
     "name": "Adam Buksa",
     "country": "Polska",
     "clubs": [
@@ -3099,19 +3093,19 @@
     ]
   },
   {
-    "id": 326,
+    "id": 325,
     "name": "Jean Onana",
     "country": "Kamerun",
     "clubs": ["Royal Excel Mouscron", "FC Girondins Bordeaux", "RC Lens", "LOSC Lille"]
   },
   {
-    "id": 327,
+    "id": 326,
     "name": "Brice Samba",
     "country": "Francja",
     "clubs": ["SM Caen", "Nottingham Forest", "RC Lens", "AS Nancy-Lorraine", "Olympique Marseille", "AC Le Havre"]
   },
   {
-    "id": 328,
+    "id": 327,
     "name": "Mateusz Lis",
     "country": "Polska",
     "clubs": [
@@ -3124,55 +3118,55 @@
     ]
   },
   {
-    "id": 329,
+    "id": 328,
     "name": "Michal Karbownik",
     "country": "Polska",
     "clubs": ["Legia Warszawa", "Fortuna Düsseldorf", "Olympiakos Pireus", "Brighton & Hove Albion"]
   },
   {
-    "id": 330,
+    "id": 329,
     "name": "Sebastian Szymanski",
     "country": "Polska",
     "clubs": ["Legia Warszawa", "Dynamo Moskwa", "Feyenoord Rotterdam"]
   },
   {
-    "id": 331,
+    "id": 330,
     "name": "Ondrej Duda",
     "country": "Polska",
     "clubs": ["Legia Warszawa", "1.FC Köln", "Hertha BSC", "FC VSS Kosice", "Hellas Verona", "Norwich City"]
   },
   {
-    "id": 332,
+    "id": 331,
     "name": "Jaroslaw Niezgoda",
     "country": "Polska",
     "clubs": ["Portland Timbers", "Wisła Puławy", "Legia Warszawa", "Ruch Chorzów"]
   },
   {
-    "id": 333,
+    "id": 332,
     "name": "Wojciech Kowalczyk",
     "country": "Polska",
     "clubs": ["Real Betis Balompié", "Legia Warszawa", "UD Las Palmas", "Anorthosis Famagusta", "APOEL Nikosia"]
   },
   {
-    "id": 334,
+    "id": 333,
     "name": "Marcin Komorowski",
     "country": "Polska",
     "clubs": ["Akhmat Grozny", "Legia Warszawa", "Polonia Bytom", "ŁKS Łódź", "Zagłębie Sosnowiec", "GKS Bełchatów"]
   },
   {
-    "id": 335,
+    "id": 334,
     "name": "Bartosz Karwan",
     "country": "Polska",
     "clubs": ["Legia Warszawa", "GKS Katowice", "Arka Gdynia", "Hertha BSC"]
   },
   {
-    "id": 336,
+    "id": 335,
     "name": "Roger Guerreiro",
     "country": "Polska",
     "clubs": ["Legia Warszawa", "AEK Ateny", "Sport Club Corinthians Paulista", "Aris Limassol", "Celta de Vigo"]
   },
   {
-    "id": 337,
+    "id": 336,
     "name": "Maciej Iwanski",
     "country": "Polska",
     "clubs": [
@@ -3186,7 +3180,7 @@
     ]
   },
   {
-    "id": 338,
+    "id": 337,
     "name": "Jakub Kosecki",
     "country": "Polska",
     "clubs": [
@@ -3201,7 +3195,7 @@
     ]
   },
   {
-    "id": 339,
+    "id": 338,
     "name": "Maciej Korzym",
     "country": "Polska",
     "clubs": [
@@ -3215,37 +3209,37 @@
     ]
   },
   {
-    "id": 340,
+    "id": 339,
     "name": "Adam Fraczczak",
     "country": "Polska",
     "clubs": ["Pogoń Szczecin", "Korona Kielce", "Ząbkovia Ząbki", "Kotwica Kołobrzeg"]
   },
   {
-    "id": 341,
+    "id": 340,
     "name": "Piotr Reiss",
     "country": "Polska",
     "clubs": ["Lech Poznań", "Warta Poznań", "MSV Duisburg", "Hertha BSC", "SpVgg Greuther Fürth"]
   },
   {
-    "id": 342,
+    "id": 341,
     "name": "Bartosz Bosacki",
     "country": "Polska",
     "clubs": ["Lech Poznań", "Amica Wronki", "1.FC Nürnberg"]
   },
   {
-    "id": 343,
+    "id": 342,
     "name": "Miroslaw Szymkowiak",
     "country": "Polska",
     "clubs": ["Widzew Łódź", "Wisła Kraków", "Trabzonspor"]
   },
   {
-    "id": 344,
+    "id": 343,
     "name": "Patryk Malecki",
     "country": "Polska",
     "clubs": ["Wisła Kraków", "Zagłębie Sosnowiec", "Stal Rzeszów", "Pogoń Szczecin", "Spartak Trnava", "Eskisehirspor"]
   },
   {
-    "id": 345,
+    "id": 344,
     "name": "Kamil Kosowski",
     "country": "Polska",
     "clubs": [
@@ -3261,7 +3255,7 @@
     ]
   },
   {
-    "id": 346,
+    "id": 345,
     "name": "Adam Kokoszka",
     "country": "Polska",
     "clubs": [
@@ -3275,7 +3269,7 @@
     ]
   },
   {
-    "id": 347,
+    "id": 346,
     "name": "Lukas Klemenz",
     "country": "Polska",
     "clubs": [
@@ -3288,7 +3282,7 @@
     ]
   },
   {
-    "id": 348,
+    "id": 347,
     "name": "Andrzej Niedzielan",
     "country": "Polska",
     "clubs": [
@@ -3303,7 +3297,7 @@
     ]
   },
   {
-    "id": 349,
+    "id": 348,
     "name": "Adrian Mierzejewski",
     "country": "Polska",
     "clubs": [
@@ -3316,31 +3310,31 @@
     ]
   },
   {
-    "id": 350,
+    "id": 349,
     "name": "Zbigniew Boniek",
     "country": "Polska",
     "clubs": ["Juventus Turyn", "AS Roma", "Widzew Łódź"]
   },
   {
-    "id": 351,
+    "id": 350,
     "name": "Wojciech Golla",
     "country": "Polska",
     "clubs": ["NEC Nijmegen", "Śląsk Wrocław", "Pogoń Szczecin"]
   },
   {
-    "id": 352,
+    "id": 351,
     "name": "Filip Bednarek",
     "country": "Polska",
     "clubs": ["Lech Poznań", "De Graafschap Doetinchem", "SC Heerenveen", "FC Twente Enschede"]
   },
   {
-    "id": 353,
+    "id": 352,
     "name": "Arkadiusz Radomski",
     "country": "Polska",
     "clubs": ["SC Heerenveen", "FK Austria Wiedeń", "NEC Nijmegen", "Cracovia"]
   },
   {
-    "id": 354,
+    "id": 353,
     "name": "Tomasz Iwan",
     "country": "Polska",
     "clubs": [
@@ -3353,13 +3347,13 @@
     ]
   },
   {
-    "id": 355,
+    "id": 354,
     "name": "Włodzimierz Smolarek",
     "country": "Polska",
     "clubs": ["FC Utrecht", "Eintracht Frankfurt", "Feyenoord Rotterdam", "Widzew Łódź"]
   },
   {
-    "id": 356,
+    "id": 355,
     "name": "Pawel Kieszek",
     "country": "Polska",
     "clubs": [
@@ -3376,19 +3370,19 @@
     ]
   },
   {
-    "id": 357,
+    "id": 356,
     "name": "Jan Urban",
     "country": "Polska",
     "clubs": ["CA Osasuna", "Górnik Zabrze", "VfB Oldenburg", "Real Valladolid CF"]
   },
   {
-    "id": 358,
+    "id": 357,
     "name": "Cezary Wilk",
     "country": "Polska",
     "clubs": ["Wisła Kraków", "Korona Kielce", "Deportivo de La Coruña", "ŁKS Łódź", "Real Zaragoza"]
   },
   {
-    "id": 359,
+    "id": 358,
     "name": "Lumir Sedlacek",
     "country": "Czechy",
     "clubs": [
@@ -3403,13 +3397,13 @@
     ]
   },
   {
-    "id": 360,
+    "id": 359,
     "name": "Alberto Cifuentes",
     "country": "Hiszpania",
     "clubs": ["Cádiz CF", "Real Murcia CF", "Piast Gliwice", "Rayo Vallecano"]
   },
   {
-    "id": 361,
+    "id": 360,
     "name": "Collins John",
     "country": "Holandia",
     "clubs": [
@@ -3425,37 +3419,37 @@
     ]
   },
   {
-    "id": 362,
+    "id": 361,
     "name": "Rubén Jurado",
     "country": "Hiszpania",
     "clubs": ["Piast Gliwice", "Atlético Baleares", "AEL Limassol", "Arka Gdynia"]
   },
   {
-    "id": 363,
+    "id": 362,
     "name": "Mikkel Kirkeskov",
     "country": "Dania",
     "clubs": ["Aarhus GF", "Aalesunds FK", "Piast Gliwice", "Holstein Kiel", "Odense Boldklub"]
   },
   {
-    "id": 364,
+    "id": 363,
     "name": "Wilde-Donald Guerrier",
     "country": "Haiti",
     "clubs": ["Qarabağ FK", "Wisła Kraków", "Alanyaspor", "Olympiakos Nikosia", "Neftchi Baku", "Apollon Limassol"]
   },
   {
-    "id": 365,
+    "id": 364,
     "name": "Kalu Uche",
     "country": "Nigeria",
     "clubs": ["UD Almería", "Wisła Kraków", "FC Girondins Bordeaux", "Kasimpasa", "Levante UD", "RCD Espanyol"]
   },
   {
-    "id": 366,
+    "id": 365,
     "name": "Petar Brlek",
     "country": "Chorwacja",
     "clubs": ["Slaven Belupo Koprivnica", "Wisła Kraków", "Genoa CFC"]
   },
   {
-    "id": 367,
+    "id": 366,
     "name": "Marcelo",
     "country": "Brazylia",
     "clubs": [
@@ -3469,25 +3463,25 @@
     ]
   },
   {
-    "id": 368,
+    "id": 367,
     "name": "Pedro Tiba",
     "country": "Portugalia",
     "clubs": ["Lech Poznań", "SC Braga", "GD Chaves", "Gil Vicente FC", "Real Valladolid CF"]
   },
   {
-    "id": 369,
+    "id": 368,
     "name": "Gergő Lovrencsics",
     "country": "Wegry",
     "clubs": ["Ferencvárosi TC", "Lech Poznań", "HNK Hajduk Split"]
   },
   {
-    "id": 370,
+    "id": 369,
     "name": "Paulus Arajuuri",
     "country": "Finlandia",
     "clubs": ["Bröndby IF", "Lech Poznań", "Kalmar FF", "HJK Helsinki"]
   },
   {
-    "id": 371,
+    "id": 370,
     "name": "Barry Douglas",
     "country": "Szkocja",
     "clubs": [
@@ -3501,73 +3495,73 @@
     ]
   },
   {
-    "id": 372,
+    "id": 371,
     "name": "Joel Tshibamba",
     "country": "Demokratyczna Republika Kongo",
     "clubs": ["AE Larisa", "Lech Poznań", "NEC Nijmegen", "Arka Gdynia", "FC Koper"]
   },
   {
-    "id": 373,
+    "id": 372,
     "name": "Darko Jevtic",
     "country": "Szwajcaria",
     "clubs": ["Lech Poznań", "Rubin Kazań", "AEK Ateny"]
   },
   {
-    "id": 374,
+    "id": 373,
     "name": "Sergey Krivets",
     "country": "Białoruś",
     "clubs": ["BATE Borysów", "Lech Poznań", "Dynamo Brest", "FC Metz", "Wisła Płock", "Arka Gdynia"]
   },
   {
-    "id": 375,
+    "id": 374,
     "name": "Abdul-Aziz Tetteh",
     "country": "Ghana",
     "clubs": ["Lech Poznań", "AO Platanias", "Dynamo Moskwa", "CD Leganés", "Widzew Łódź", "Gaziantep FK", "Granada CF"]
   },
   {
-    "id": 376,
+    "id": 375,
     "name": "Tamás Kádár",
     "country": "Wegry",
     "clubs": ["Dynamo Kijów", "Lech Poznań", "Newcastle United", "Huddersfield Town"]
   },
   {
-    "id": 377,
+    "id": 376,
     "name": "Aleksandar Tonev",
     "country": "Bułgaria",
     "clubs": ["Lech Poznań", "CSKA-Sofia", "FC Crotone", "Frosinone Calcio", "Aston Villa", "Celtic Glasgow"]
   },
   {
-    "id": 378,
+    "id": 377,
     "name": "Artjoms Rudnevs",
     "country": "Łotwa",
     "clubs": ["Hamburger SV", "Lech Poznań", "1.FC Köln", "Hannover 96"]
   },
   {
-    "id": 379,
+    "id": 378,
     "name": "Steeven Langil",
     "country": "Martynika",
     "clubs": ["Ratchaburi FC", "AJ Auxerre", "SK Beveren", "NEC Nijmegen", "Legia Warszawa"]
   },
   {
-    "id": 380,
+    "id": 379,
     "name": "Henrik Ojamaa",
     "country": "Estonia",
     "clubs": ["FC Flora Tallinn", "Motherwell FC", "Legia Warszawa", "Miedź Legnica", "Widzew Łódź", "HNK Gorica"]
   },
   {
-    "id": 381,
+    "id": 380,
     "name": "André Martins",
     "country": "Portugalia",
     "clubs": ["Legia Warszawa", "Sporting CP", "Olympiakos Pireus", "Hapoel Beer Sheva", "CF Os Belenenses"]
   },
   {
-    "id": 382,
+    "id": 381,
     "name": "Aleksandar Vukovic",
     "country": "Serbia",
     "clubs": ["Legia Warszawa", "Korona Kielce", "Iraklis Saloniki", "GS Ergotelis", "FK Partizan Belgrad"]
   },
   {
-    "id": 383,
+    "id": 382,
     "name": "Danijel Ljuboja",
     "country": "Serbia",
     "clubs": [
@@ -3584,7 +3578,7 @@
     ]
   },
   {
-    "id": 384,
+    "id": 383,
     "name": "Vladimer Dvalishvili",
     "country": "Gruzja",
     "clubs": [
@@ -3601,7 +3595,7 @@
     ]
   },
   {
-    "id": 385,
+    "id": 384,
     "name": "Adam Hlousek",
     "country": "Czechy",
     "clubs": [
@@ -3616,19 +3610,19 @@
     ]
   },
   {
-    "id": 386,
+    "id": 385,
     "name": "Arvydas Novikovas",
     "country": "Litwa",
     "clubs": ["Jagiellonia Białystok", "Legia Warszawa", "VfL Bochum", "amsunspor"]
   },
   {
-    "id": 387,
+    "id": 386,
     "name": "Dossa Júnior",
     "country": "Cypr",
     "clubs": ["AEL Limassol", "Legia Warszawa", "AE Pafos", "Digenis Akritas Morfou", "Eskisehirspor", "Konyaspor"]
   },
   {
-    "id": 388,
+    "id": 387,
     "name": "Cafú",
     "country": "Portugalia",
     "clubs": [
@@ -3641,7 +3635,7 @@
     ]
   },
   {
-    "id": 389,
+    "id": 388,
     "name": "Armando Sadiku",
     "country": "Albania",
     "clubs": [
@@ -3656,7 +3650,7 @@
     ]
   },
   {
-    "id": 390,
+    "id": 389,
     "name": "Thibault Moulin",
     "country": "Francja",
     "clubs": [
@@ -3672,7 +3666,7 @@
     ]
   },
   {
-    "id": 391,
+    "id": 390,
     "name": "Orlando Sá",
     "country": "Portugalia",
     "clubs": [
@@ -3689,7 +3683,7 @@
     ]
   },
   {
-    "id": 392,
+    "id": 391,
     "name": "Vadis Odjidja-Ofoe",
     "country": "Belgia",
     "clubs": [
@@ -3703,7 +3697,7 @@
     ]
   },
   {
-    "id": 393,
+    "id": 392,
     "name": "Aleksandar Prijovic",
     "country": "Serbia",
     "clubs": [
@@ -3718,13 +3712,13 @@
     ]
   },
   {
-    "id": 394,
+    "id": 393,
     "name": "Josip Juranovic",
     "country": "Chorwacja",
     "clubs": ["HNK Hajduk Split", "Celtic Glasgow", "Legia Warszawa", "1.FC Union Berlin"]
   },
   {
-    "id": 395,
+    "id": 394,
     "name": "Nemanja Nikolics",
     "country": "Węgry",
     "clubs": [
@@ -3737,13 +3731,13 @@
     ]
   },
   {
-    "id": 396,
+    "id": 395,
     "name": "Saïd Hamulic",
     "country": "Bosnia i Hercegowina",
     "clubs": ["DFK Dainava Alytus", "Stal Mielec", "FK Suduva Marijampole", "FC Toulouse"]
   },
   {
-    "id": 397,
+    "id": 396,
     "name": "Vito Mannone",
     "country": "Włochy",
     "clubs": [
@@ -3759,181 +3753,181 @@
     ]
   },
   {
-    "id": 398,
+    "id": 397,
     "name": "Julian Pollersbeck",
     "country": "Niemcy",
     "clubs": ["Hamburger SV", "1.FC Kaiserslautern", "Olympique Lyon"]
   },
   {
-    "id": 399,
+    "id": 398,
     "name": "Yvon Mvogo",
     "country": "Szwajcaria",
     "clubs": ["BSC Young Boys", "PSV Eindhoven", "FC Lorient", "RasenBallsport Leipzig"]
   },
   {
-    "id": 400,
+    "id": 399,
     "name": "Romain Faivre",
     "country": "Francja",
     "clubs": ["Stade Brestois 29", "FC Lorient", "Olympique Lyon", "AS Monaco"]
   },
   {
-    "id": 401,
+    "id": 400,
     "name": "Siriné Doucouré",
     "country": "Francja",
     "clubs": ["FC Lorient", "LB Châteauroux"]
   },
   {
-    "id": 402,
+    "id": 401,
     "name": "Folarin Balogun",
     "country": "USA",
     "clubs": ["Stade Reims", "FC Middlesbrough", "FC Arsenal"]
   },
   {
-    "id": 403,
+    "id": 402,
     "name": "Lucas Perrin",
     "country": "Francja",
     "clubs": ["RC Strasbourg Alsace", "Olympique Marseille"]
   },
   {
-    "id": 404,
+    "id": 403,
     "name": "Colin Dagba",
     "country": "Francja",
     "clubs": ["FC Paris Saint-Germain", "RC Strasbourg Alsace"]
   },
   {
-    "id": 405,
+    "id": 404,
     "name": "Frédéric Guilbert",
     "country": "Francja",
     "clubs": ["SM Caen", "RC Strasbourg Alsace", "FC Girondins Bordeaux", "Aston Villa"]
   },
   {
-    "id": 406,
+    "id": 405,
     "name": "Bingourou Kamara",
     "country": "Senegal",
     "clubs": ["Tours FC", "RC Strasbourg Alsace", "RSC Charleroi", "Montpellier HSC"]
   },
   {
-    "id": 407,
+    "id": 406,
     "name": "Kiki Kouyaté",
     "country": "Mali",
     "clubs": ["FC Metz", "ESTAC Troyes", "Kawkab Marrakech", "Montpellier HSC"]
   },
   {
-    "id": 408,
+    "id": 407,
     "name": "Florent Mollet",
     "country": "Francja",
     "clubs": ["Montpellier HSC", "Dijon FCO", "FC Metz", "US Créteil-Lusitanos", "FC Nantes", "FC Schalke 04"]
   },
   {
-    "id": 409,
+    "id": 408,
     "name": "Moussa Sissoko",
     "country": "Francja",
     "clubs": ["FC Toulouse", "Tottenham Hotspur", "Newcastle United", "FC Nantes", "FC Watford"]
   },
   {
-    "id": 410,
+    "id": 409,
     "name": "Memphis Depay",
     "country": "Holandia",
     "clubs": ["Olympique Lyon", "PSV Eindhoven", "Manchester United", "FC Barcelona", "Atlético Madryt"]
   },
   {
-    "id": 411,
+    "id": 410,
     "name": "Axel Witsel",
     "country": "Belgia",
     "clubs": ["Standard Liège", "Zenit Petersburg", "Borussia Dortmund", "Benfika Lizbona", "Atlético Madryt"]
   },
   {
-    "id": 412,
+    "id": 411,
     "name": "Matt Doherty",
     "country": "Irlandia",
     "clubs": ["Wolverhampton Wanderers", "Tottenham Hotspur", "FC Bury", "Hibernian FC", "Atlético Madryt"]
   },
   {
-    "id": 413,
+    "id": 412,
     "name": "Sergio Reguilón",
     "country": "Hiszpania",
     "clubs": ["UD Logroñés", "Tottenham Hotspur", "Sevilla FC", "Real Madryt", "Atlético Madryt"]
   },
   {
-    "id": 414,
+    "id": 413,
     "name": "Álvaro Morata",
     "country": "Hiszpania",
     "clubs": ["Juventus Turyn", "Chelsea FC", "Real Madryt", "Atlético Madryt"]
   },
   {
-    "id": 415,
+    "id": 414,
     "name": "Saúl Ñíguez",
     "country": "Hiszpania",
     "clubs": ["Rayo Vallecano", "Chelsea FC", "Atlético Madryt"]
   },
   {
-    "id": 416,
+    "id": 415,
     "name": "Isco",
     "country": "Hiszpania",
     "clubs": ["Málaga CF", "Real Madryt", "Sevilla FC", "Valencia CF"]
   },
   {
-    "id": 417,
+    "id": 416,
     "name": "Alex Telles",
     "country": "Brazylia",
     "clubs": ["FC Porto", "Galatasaray", "Manchester United", "Grêmio Porto Alegre", "Sevilla FC", "Inter Mediolan"]
   },
   {
-    "id": 418,
+    "id": 417,
     "name": "Mats Hummels",
     "country": "Niemcy",
     "clubs": ["Borussia Dortmund", "Bayern Monachium"]
   },
   {
-    "id": 419,
+    "id": 418,
     "name": "Leroy Sane",
     "country": "Niemcy",
     "clubs": ["Manchester City", "Bayern Monachium", "FC Schalke 04"]
   },
   {
-    "id": 420,
+    "id": 419,
     "name": "Serge Gnabry",
     "country": "Niemcy",
     "clubs": ["SV Werder Bremen", "Bayern Monachium", "TSG 1899 Hoffenheim", "FC Arsenal", "West Bromwich Albion"]
   },
   {
-    "id": 421,
+    "id": 420,
     "name": "Kingsley Coman",
     "country": "Francja",
     "clubs": ["Bayern Monachium", "Juventus Turyn", "FC Paris Saint-Germain"]
   },
   {
-    "id": 422,
+    "id": 421,
     "name": "Matthijs de Ligt",
     "country": "Holandia",
     "clubs": ["Bayern Monachium", "Juventus Turyn", "Ajax Amsterdam"]
   },
   {
-    "id": 423,
+    "id": 422,
     "name": "Dayot Upamecano",
     "country": "Francja",
     "clubs": ["RasenBallsport Leipzig", "Bayern Monachium", "Red Bull Salzburg", "FC Liefering"]
   },
   {
-    "id": 424,
+    "id": 423,
     "name": "Yann Sommer",
     "country": "Szwajcaria",
     "clubs": ["Borussia Mönchengladbach", "FC Basel 1893", "FC Vaduz", "Grasshopper Club Zurych", "Bayern Monachium"]
   },
   {
-    "id": 425,
+    "id": 424,
     "name": "Davie Selke",
     "country": "Niemcy",
     "clubs": ["Hertha BSC", "SV Werder Bremen", "RasenBallsport Leipzig", "1.FC Köln"]
   },
   {
-    "id": 426,
+    "id": 425,
     "name": "Nadiem Amiri",
     "country": "Niemcy",
     "clubs": ["Bayer 04 Leverkusen", "TSG 1899 Hoffenheim", "Genoa CFC"]
   },
   {
-    "id": 427,
+    "id": 426,
     "name": "Tomasz Hajto",
     "country": "Polska",
     "clubs": [
@@ -3947,7 +3941,7 @@
     ]
   },
   {
-    "id": 428,
+    "id": 427,
     "name": "Gonzalo Higuaín",
     "country": "Argentyna",
     "clubs": [
@@ -3961,7 +3955,7 @@
     ]
   },
   {
-    "id": 429,
+    "id": 428,
     "name": "Zlatan Ibrahimović",
     "country": "Szwecja",
     "clubs": [
@@ -3977,7 +3971,7 @@
     ]
   },
   {
-    "id": 430,
+    "id": 429,
     "name": "Olivier Giroud",
     "country": "Francja",
     "clubs": [
@@ -3991,25 +3985,25 @@
     ]
   },
   {
-    "id": 431,
+    "id": 430,
     "name": "Sergiño Dest",
     "country": "USA",
     "clubs": ["FC Barcelona", "Ajax Amsterdam", "AC Milan"]
   },
   {
-    "id": 432,
+    "id": 431,
     "name": "Leonardo Bonucci",
     "country": "Włochy",
     "clubs": ["Juventus Turyn", "AC Milan", "Treviso FBC 1993", "SSC Bari", "Pisa Sporting Club", "Inter Mediolan"]
   },
   {
-    "id": 433,
+    "id": 432,
     "name": "Ronaldinho",
     "country": "Brazylia",
     "clubs": ["FC Barcelona", "AC Milan", "FC Paris Saint-Germain", "Flamengo Rio de Janeiro"]
   },
   {
-    "id": 434,
+    "id": 433,
     "name": "Mario Balotelli",
     "country": "Włochy",
     "clubs": [
@@ -4025,37 +4019,37 @@
     ]
   },
   {
-    "id": 435,
+    "id": 434,
     "name": "Sadio Mané",
     "country": "Senegal",
     "clubs": ["FC Liverpool", "Red Bull Salzburg", "FC Southampton", "Bayern Monachium", "FC Metz"]
   },
   {
-    "id": 436,
+    "id": 435,
     "name": "Gareth Bale",
     "country": "Walia",
     "clubs": ["Real Madryt", "Tottenham Hotspur", "FC Southampton", "Los Angeles FC"]
   },
   {
-    "id": 437,
+    "id": 436,
     "name": "Theo Walcott",
     "country": "Anglia",
     "clubs": ["FC Arsenal", "FC Everton", "FC Southampton"]
   },
   {
-    "id": 438,
+    "id": 437,
     "name": "Roberto Firmino",
     "country": "Brayzlia",
     "clubs": ["FC Liverpool", "TSG 1899 Hoffenheim", "Figueirense Futebol Clube"]
   },
   {
-    "id": 439,
+    "id": 438,
     "name": "Fabián Ruiz",
     "country": "Hiszpania",
     "clubs": ["SSC Napoli", "Real Betis Balompié", "FC Paris Saint-Germain", "Elche CF"]
   },
   {
-    "id": 440,
+    "id": 439,
     "name": "Eduardo Vargas",
     "country": "Chile",
     "clubs": [
@@ -4068,7 +4062,7 @@
     ]
   },
   {
-    "id": 441,
+    "id": 440,
     "name": "Giovani Lo Celso",
     "country": "Argentyna",
     "clubs": [
@@ -4080,19 +4074,19 @@
     ]
   },
   {
-    "id": 442,
+    "id": 441,
     "name": "Junior Firpo",
     "country": "Hiszpania",
     "clubs": ["Leeds United", "Real Betis Balompié", "FC Barcelona"]
   },
   {
-    "id": 443,
+    "id": 442,
     "name": "Dani Ceballos",
     "country": "Hiszpania",
     "clubs": ["Real Madryt", "Real Betis Balompié", "FC Arsenal"]
   },
   {
-    "id": 444,
+    "id": 443,
     "name": "Dani Pacheco",
     "country": "Hiszpania",
     "clubs": [
@@ -4111,31 +4105,31 @@
     ]
   },
   {
-    "id": 445,
+    "id": 444,
     "name": "Erling Haaland",
     "country": "Norwegia",
     "clubs": ["Borussia Dortmund", "Manchester City", "Molde FK", "Red Bull Salzburg"]
   },
   {
-    "id": 446,
+    "id": 445,
     "name": "Enzo Fernández",
     "country": "Argentyna",
     "clubs": ["CA River Plate", "Benfika Lizbona", "Chelsea FC"]
   },
   {
-    "id": 447,
+    "id": 446,
     "name": "Casemiro",
     "country": "Brazylia",
     "clubs": ["Real Madryt", "FC Sao Paulo", "Manchester United", "FC Porto"]
   },
   {
-    "id": 448,
+    "id": 447,
     "name": "Raheem Sterling",
     "country": "Anglia",
     "clubs": ["Manchester City", "FC Liverpool", "Chelsea FC"]
   },
   {
-    "id": 449,
+    "id": 448,
     "name": "Romelu Lukaku",
     "country": "Belgia",
     "clubs": [
@@ -4148,13 +4142,13 @@
     ]
   },
   {
-    "id": 450,
+    "id": 449,
     "name": "Sadio Mané",
     "country": "Senegal",
     "clubs": ["FC Liverpool", "Red Bull Salzburg", "FC Southampton", "Bayern Monachium", "FC Metz"]
   },
   {
-    "id": 451,
+    "id": 450,
     "name": "João Cancelo",
     "country": "Portugalia",
     "clubs": [
@@ -4167,73 +4161,73 @@
     ]
   },
   {
-    "id": 452,
+    "id": 451,
     "name": "Cody Gakpo",
     "country": "Holandia",
     "clubs": ["PSV Eindhoven", "FC Liverpool"]
   },
   {
-    "id": 453,
+    "id": 452,
     "name": "Raphinha",
     "country": "Brazylia",
     "clubs": ["Vitoria Guimarães SC", "Leeds United", "FC Barcelona", "Sporting CP", "Stade Rennais FC"]
   },
   {
-    "id": 454,
+    "id": 453,
     "name": "Gabriel Jesus",
     "country": "Brazylia",
     "clubs": ["Manchester City", "Sociedade Esportiva Palmeiras", "FC Arsenal"]
   },
   {
-    "id": 455,
+    "id": 454,
     "name": "Anthony Gordon",
     "country": "Anglia",
     "clubs": ["FC Everton", "Newcastle United", "Preston North End"]
   },
   {
-    "id": 456,
+    "id": 455,
     "name": "Diego Carlos",
     "country": "Brazylia",
     "clubs": ["Sevilla FC", "FC Nantes", "GD Estoril Praia", "Aston Villa"]
   },
   {
-    "id": 457,
+    "id": 456,
     "name": "Gonçalo Guedes",
     "country": "Portugalia",
     "clubs": ["Valencia CF", "Benfika Lizbona", "Wolverhampton Wanderers", "FC Paris Saint-Germain"]
   },
   {
-    "id": 458,
+    "id": 457,
     "name": "Brenden Aaronson",
     "country": "USA",
     "clubs": ["Red Bull Salzburg", "Philadelphia Union", "Leeds United"]
   },
   {
-    "id": 459,
+    "id": 458,
     "name": "Paul Pogba",
     "country": "Francja",
     "clubs": ["Manchester United", "Juventus Turyn"]
   },
   {
-    "id": 460,
+    "id": 459,
     "name": "Paulo Dybala",
     "country": "Argentyna",
     "clubs": ["Palermo FC", "Juventus Turyn", "AS Roma"]
   },
   {
-    "id": 461,
+    "id": 460,
     "name": "Nicolò Zaniolo",
     "country": "Włochy",
     "clubs": ["Galatasaray", "AS Roma"]
   },
   {
-    "id": 462,
+    "id": 461,
     "name": "Luka Jovic",
     "country": "Serbia",
     "clubs": ["Eintracht Frankfurt", "Real Madryt", "AC Fiorentina", "Crvena Zvezda Belgrad"]
   },
   {
-    "id": 463,
+    "id": 462,
     "name": "Ricardo Quaresma",
     "country": "Portugalia",
     "clubs": [
@@ -4247,25 +4241,25 @@
     ]
   },
   {
-    "id": 464,
+    "id": 463,
     "name": "Tim Borowski",
     "country": "Niemcy",
     "clubs": ["SV Werder Bremen", "Bayern Monachium"]
   },
   {
-    "id": 465,
+    "id": 464,
     "name": "Nuno Gomes",
     "country": "Portugalia",
     "clubs": ["Benfika Lizbona", "AC Fiorentina", "SC Braga", "Blackburn Rovers"]
   },
   {
-    "id": 466,
+    "id": 465,
     "name": "Ariel Ortega",
     "country": "Argentyna",
     "clubs": ["CA River Plate", "Valencia CF", "UC Sampdoria", "Parma Calcio 1913", "Fenerbahce"]
   },
   {
-    "id": 467,
+    "id": 466,
     "name": "Robbie Keane",
     "country": "Irlandia",
     "clubs": [
@@ -4282,7 +4276,7 @@
     ]
   },
   {
-    "id": 468,
+    "id": 467,
     "name": "Jermaine Pennant",
     "country": "Anglia",
     "clubs": [
@@ -4300,7 +4294,7 @@
     ]
   },
   {
-    "id": 469,
+    "id": 468,
     "name": "Peter Crouch",
     "country": "Anglia",
     "clubs": [
@@ -4316,7 +4310,7 @@
     ]
   },
   {
-    "id": 470,
+    "id": 469,
     "name": "Marcus Bent",
     "country": "Anglia",
     "clubs": [
@@ -4336,7 +4330,7 @@
     ]
   },
   {
-    "id": 471,
+    "id": 470,
     "name": "Andy Cole",
     "country": "Anglia",
     "clubs": [
@@ -4355,25 +4349,25 @@
     ]
   },
   {
-    "id": 472,
+    "id": 471,
     "name": "Ciro Immobile",
     "country": "Włochy",
     "clubs": ["Lazio Rzym", "Torino FC", "Borussia Dortmund", "Genoa CFC", "Sevilla FC", "Juventus Turyn"]
   },
   {
-    "id": 473,
+    "id": 472,
     "name": "Luca Pellegrini",
     "country": "Włochy",
     "clubs": ["Cagliari Calcio", "Juventus Turyn", "Eintracht Frankfurt", "Genoa CFC", "Lazio Rzym", "AS Roma"]
   },
   {
-    "id": 474,
+    "id": 473,
     "name": "Andrea Belotti",
     "country": "Włochy",
     "clubs": ["Torino FC", "Palermo FC", "AS Roma"]
   },
   {
-    "id": 475,
+    "id": 474,
     "name": "Sébastien Haller",
     "country": "Wybrzeże Kości Słoniowej",
     "clubs": [
@@ -4386,7 +4380,7 @@
     ]
   },
   {
-    "id": 476,
+    "id": 475,
     "name": "Chicharito",
     "country": "Meksyk",
     "clubs": [
@@ -4400,13 +4394,13 @@
     ]
   },
   {
-    "id": 477,
+    "id": 476,
     "name": "Dimitri Payet",
     "country": "Francja",
     "clubs": ["Olympique Marseille", "AS Saint-Étienne", "LOSC Lille", "West Ham United", "FC Nantes"]
   },
   {
-    "id": 478,
+    "id": 477,
     "name": "Carlos Tevez",
     "country": "Argentyna",
     "clubs": [
@@ -4419,115 +4413,115 @@
     ]
   },
   {
-    "id": 479,
+    "id": 478,
     "name": "Robert Gumny",
     "country": "Polska",
     "clubs": ["Lech Poznań", "FC Augsburg", "Podbeskidzie Bielsko-Biała"]
   },
   {
-    "id": 480,
+    "id": 479,
     "name": "Cristiano Ronaldo",
     "country": "Portugalia",
     "clubs": ["Real Madryt", "Manchester United", "Juventus Turyn", "Sporting CP", "Al-Nassr FC"]
   },
   {
-    "id": 481,
+    "id": 480,
     "name": "Eden Hazard",
     "country": "Belgia",
     "clubs": ["Chelsea FC", "LOSC Lille", "Real Madryt"]
   },
   {
-    "id": 482,
+    "id": 481,
     "name": "James Rodríguez",
     "country": "Kolumbia",
     "clubs": ["Bayern Monachium", "FC Porto", "Real Madryt", "AS Monaco", "FC Everton", "Olympiakos Pireus"]
   },
   {
-    "id": 483,
+    "id": 482,
     "name": "Thibaut Courtois",
     "country": "Belgia",
     "clubs": ["Atlético Madryt", "Chelsea FC", "Real Madryt", "KRC Genk"]
   },
   {
-    "id": 484,
+    "id": 483,
     "name": "Tyrone Mings",
     "country": "Anglia",
     "clubs": ["Aston Villa", "Ipswich Town", "AFC Bournemouth"]
   },
   {
-    "id": 485,
+    "id": 484,
     "name": "Kieron Dyer",
     "country": "Anglia",
     "clubs": ["Newcastle United", "Ipswich Town", "West Ham United", "FC Middlesbrough", "Queens Park Rangers"]
   },
   {
-    "id": 486,
+    "id": 485,
     "name": "Harry Clarke",
     "country": "Anglia",
     "clubs": ["Oldham Athletic", "Ipswich Town", "Stoke City", "Ross County FC"]
   },
   {
-    "id": 487,
+    "id": 486,
     "name": "Michal Koj",
     "country": "Polska",
     "clubs": ["Górnik Zabrze", "Ruch Chorzów", "Korona Kielce", "Puszcza Niepołomice"]
   },
   {
-    "id": 488,
+    "id": 487,
     "name": "Thiago",
     "country": "Brazylia",
     "clubs": ["Cracovia", "Sandecja Nowy Sącz", "Puszcza Niepołomice"]
   },
   {
-    "id": 489,
+    "id": 488,
     "name": "Artur Siemaszko",
     "country": "Polska",
     "clubs": ["Stomil Olsztyn", "Arka Gdynia", "Puszcza Niepołomice", "GKS Tychy", "Zagłębie Lubin"]
   },
   {
-    "id": 490,
+    "id": 489,
     "name": "Kamil Zapolnik",
     "country": "Polska",
     "clubs": ["Miedź Legnica", "Wigry Suwałki", "Górnik Zabrze", "Olimpia Zambrów", "GKS Tychy", "Puszcza Niepołomice"]
   },
   {
-    "id": 491,
+    "id": 490,
     "name": "Rafal Boguski",
     "country": "Polska",
     "clubs": ["Wisła Kraków", "GKS Bełchatów", "Puszcza Niepołomice"]
   },
   {
-    "id": 492,
+    "id": 491,
     "name": "Dominik Frelek",
     "country": "Polska",
     "clubs": ["Podbeskidzie Bielsko-Biała", "Olimpia Grudziądz", "Puszcza Niepołomice"]
   },
   {
-    "id": 493,
+    "id": 492,
     "name": "Maciej Domanski",
     "country": "Polska",
     "clubs": ["Stal Mielec", "Raków Częstochowa", "Puszcza Niepołomice", "Siarka Tarnobrzeg"]
   },
   {
-    "id": 494,
+    "id": 493,
     "name": "Pawel Moskwik",
     "country": "Polska",
     "clubs": ["Znicz Pruszków", "Motor Lublin", "Puszcza Niepołomice", "Piast Gliwice", "Podbeskidzie Bielsko-Biała"]
   },
   {
-    "id": 495,
+    "id": 494,
     "name": "Roland Sallai",
     "country": "Węgry",
     "clubs": ["SC Freiburg", "Puskás Akadémia FC", "APOEL Nikosia", "Palermo FC"]
   },
   {
-    "id": 496,
+    "id": 495,
     "name": "Pascal Stenzel",
     "country": "Niemcy",
     "clubs": ["VfB Stuttgart", "SC Freiburg", "Borussia Dortmund"]
   },
   {
-    "id": 497,
+    "id": 496,
     "name": "Marco Terrazzino",
     "country": "Niemcy",
     "clubs": [
@@ -4541,37 +4535,37 @@
     ]
   },
   {
-    "id": 498,
+    "id": 497,
     "name": "Caglar Söyüncü",
     "country": "Turcja",
     "clubs": ["Leicester City", "SC Freiburg", "Altinordu FK"]
   },
   {
-    "id": 499,
+    "id": 498,
     "name": "Baptiste Santamaria",
     "country": "Francja",
     "clubs": ["Angers SCO", "SC Freiburg", "Tours FC", "Stade Rennais FC"]
   },
   {
-    "id": 500,
+    "id": 499,
     "name": "Robin Koch",
     "country": "Niemcy",
     "clubs": ["Leeds United", "SC Freiburg", "1.FC Kaiserslautern", "SV Eintracht Trier 05"]
   },
   {
-    "id": 501,
+    "id": 500,
     "name": "Papiss Cissé",
     "country": "Senegal",
     "clubs": ["Newcastle United", "SC Freiburg", "FC Metz", "Alanyaspor", "Shandong Taishan", "Amiens SC", "Fenerbahce"]
   },
   {
-    "id": 502,
+    "id": 501,
     "name": "Oliver Baumann",
     "country": "Niemcy",
     "clubs": ["TSG 1899 Hoffenheim", "SC Freiburg"]
   },
   {
-    "id": 503,
+    "id": 502,
     "name": "Roman Bürki",
     "country": "Szwajcaria",
     "clubs": [
@@ -4585,7 +4579,7 @@
     ]
   },
   {
-    "id": 504,
+    "id": 503,
     "name": "Ariel Borysiuk",
     "country": "Polska",
     "clubs": [
@@ -4601,13 +4595,13 @@
     ]
   },
   {
-    "id": 505,
+    "id": 504,
     "name": "Ugo Ukah",
     "country": "Nigeria",
     "clubs": ["Widzew Łódź", "Jagiellonia Białystok", "AEL Kalloni", "Selangor FC", "Queens Park Rangers"]
   },
   {
-    "id": 506,
+    "id": 505,
     "name": "Pawel Kryszalowicz",
     "country": "Polska",
     "clubs": ["Amica Wronki", "Eintracht Frankfurt", "Wisła Kraków", "SV Wilhelmshaven"]

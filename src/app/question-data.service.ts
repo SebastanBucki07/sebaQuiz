@@ -144,7 +144,7 @@ export class QuestionDataService {
     console.log(`links: ${JSON.stringify(links)}`)
     const generator = new BoardCreator(links)
     const result = generator.generateBoard()
-    console.log(result)
+    console.log(`Result: ${JSON.stringify(result)}`)
     if (result != null) {
       for (const club1 of result!.row) {
         for (const club2 of result!.column) {
@@ -152,6 +152,7 @@ export class QuestionDataService {
         }
       }
     }
+    return result
   }
 
   getMultipleChoiceQuestion() {

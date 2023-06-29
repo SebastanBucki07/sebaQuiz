@@ -563,5 +563,70 @@
     "id": 113,
     "team": "Fortuna Düsseldorf",
     "crest": "Fortunadusseldorf"
+  },
+  {
+    "id": 114,
+    "team": "Hertha BSC",
+    "crest": "herthabsc"
+  },
+  {
+    "id": 115,
+    "team": "Inter Mediolan",
+    "crest": "inter"
+  },
+  {
+    "id": 116,
+    "team": "Chelsea FC",
+    "crest": "chelsea"
+  },
+  {
+    "id": 117,
+    "team": "Wigry Suwałki",
+    "crest": "wigrysuwalki"
+  },
+  {
+    "id": 118,
+    "team": "Chicago Fire FC",
+    "crest": "chicagofire"
+  },
+  {
+    "id": 119,
+    "team": "OGC Nice",
+    "crest": "ogcnice"
+  },
+  {
+    "id": 120,
+    "team": "West Bromwich Albion",
+    "crest": "westbromwichalbion"
+  },
+  {
+    "id": 121,
+    "team": "FC Sheriff Tyraspol",
+    "crest": "fcSheriffTiraspol"
+  },
+  {
+    "id": 122,
+    "team": "FC Porto",
+    "crest": "fcporto"
+  },
+  {
+    "id": 123,
+    "team": "Akhmat Grozny",
+    "crest": "fcakhmatgrozny"
+  },
+  {
+    "id": 124,
+    "team": "Resovia Rzeszów",
+    "crest": "resovia"
+  },
+  {
+    "id": 125,
+    "team": "Stomil Olsztyn",
+    "crest": "stomil"
+  },
+  {
+    "id": 126,
+    "team": "Flota Świnoujście",
+    "crest": "flotaswinoujscie"
   }
 ]

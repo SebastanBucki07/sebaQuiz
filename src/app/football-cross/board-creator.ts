@@ -13,9 +13,22 @@ export class BoardCreator {
     if (!result) {
       return null
     }
-    return {
+    const arr = {
       row: Array.from(this.rowClubs),
       column: Array.from(this.columnClubs),
+    }
+    return {
+      row: arr.row,
+      column: arr.column,
+      R0C0: this.clubLinks.getLinkingPlayers(arr.row[0], arr.column[0]),
+      R0C1: this.clubLinks.getLinkingPlayers(arr.row[0], arr.column[1]),
+      R0C2: this.clubLinks.getLinkingPlayers(arr.row[0], arr.column[2]),
+      R1C0: this.clubLinks.getLinkingPlayers(arr.row[1], arr.column[0]),
+      R1C1: this.clubLinks.getLinkingPlayers(arr.row[1], arr.column[1]),
+      R1C2: this.clubLinks.getLinkingPlayers(arr.row[1], arr.column[2]),
+      R2C0: this.clubLinks.getLinkingPlayers(arr.row[2], arr.column[0]),
+      R2C1: this.clubLinks.getLinkingPlayers(arr.row[2], arr.column[1]),
+      R2C2: this.clubLinks.getLinkingPlayers(arr.row[2], arr.column[2]),
     }
   }
 
