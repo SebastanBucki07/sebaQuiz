@@ -25,7 +25,7 @@ export class BoardCreator {
       return true
     }
     let candidates = Array.from(list)
-    console.log(JSON.stringify(candidates))
+    //console.log(JSON.stringify(candidates))
     //remove already used clubs
     candidates = candidates.filter((c) => !this.rowClubs.includes(c) && !this.columnClubs.includes(c))
     //remove clubs that cannot be matched

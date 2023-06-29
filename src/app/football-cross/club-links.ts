@@ -28,7 +28,7 @@ export class ClubLinks {
         }
       }
     }
-    console.log(JSON.stringify(result))
+    console.log(`result: ${JSON.stringify(result)}`)
     return result
   }
 
@@ -53,6 +53,7 @@ export class ClubLinks {
   }
 
   linkExists(club1: string, club2: string) {
-    return !!this.getLinkingPlayers(club1, club2).length
+    //console.log(`getLinkingPlayers: ${this.getLinkingPlayers(club1, club2).length}`)
+    return this.getLinkingPlayers(club1, club2).length > 1
   }
 }
