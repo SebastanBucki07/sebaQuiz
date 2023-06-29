@@ -27,7 +27,7 @@ export interface CrossAnswer {
   styleUrls: ['./football-cross.component.css'],
 })
 export class FootballCrossComponent implements OnInit {
-  protected randomTeams2 = this.questionDataService.getFootballerQuestion()
+  protected randomTeams = this.questionDataService.getFootballerQuestion()
   protected crests = crests
   protected columnCrestsForQuestion: string[] = []
   protected rowCrestsForQuestion: string[] = []
@@ -49,8 +49,8 @@ export class FootballCrossComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.randomTeams2 = this.questionDataService.getFootballerQuestion()
-    console.log(`randomTeams2: ${JSON.stringify(this.randomTeams2)}`)
+    this.randomTeams = this.questionDataService.getFootballerQuestion()
+    console.log(`randomTeams2: ${JSON.stringify(this.randomTeams)}`)
     //this.countClubPairs()
     //this.countPairs()
     this.init()
@@ -193,13 +193,13 @@ export class FootballCrossComponent implements OnInit {
   }
 
   setCrests(): void {
-    this.randomTeams2?.column.forEach((team: string) => {
+    this.randomTeams?.column.forEach((team: string) => {
       const found = this.crests.find((club) => club.team === team)
       if (found) {
         this.columnCrestsForQuestion.push(found.crest)
       }
     })
-    this.randomTeams2?.row.forEach((team: string) => {
+    this.randomTeams?.row.forEach((team: string) => {
       const found = this.crests.find((club) => club.team === team)
       if (found) {
         this.rowCrestsForQuestion.push(found.crest)
