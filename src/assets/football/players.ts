@@ -990,12 +990,6 @@ export const players = [
   },
   {
     id: 97,
-    name: 'Robert Pich',
-    country: 'Słowacja',
-    clubs: ['Śląsk Wrocław', 'MSK Zilina', 'Dukla Banska Bystrica', 'Legia Warszawa', '1.FC Kaiserslautern'],
-  },
-  {
-    id: 98,
     name: 'Pawel Sasin',
     country: 'Polska',
     clubs: [
@@ -1012,31 +1006,31 @@ export const players = [
     ],
   },
   {
-    id: 99,
+    id: 98,
     name: 'Jacek Kielb',
     country: 'Polska',
     clubs: ['Korona Kielce', 'Lech Poznań', 'Bruk-Bet Termalica Nieciecza', 'Śląsk Wrocław', 'Polonia Warszawa'],
   },
   {
-    id: 100,
+    id: 99,
     name: 'Jakub Wrabel',
     country: 'Polska',
     clubs: ['Widzew Łódź', 'Śląsk Wrocław', 'Olimpia Grudziądz', 'Stal Mielec', 'Wisła Płock'],
   },
   {
-    id: 101,
+    id: 100,
     name: 'Mateusz Radecki',
     country: 'Polska',
     clubs: ['Radomiak Radom', 'Śląsk Wrocław', 'Wigry Suwałki', 'GKS Tychy'],
   },
   {
-    id: 102,
+    id: 101,
     name: 'Mateusz Kochalski',
     country: 'Polska',
     clubs: ['Radomiak Radom', 'Legionovia Legionowo', 'Stal Mielec'],
   },
   {
-    id: 103,
+    id: 102,
     name: 'Michal Grudniewski',
     country: 'Polska',
     clubs: [
@@ -1049,7 +1043,7 @@ export const players = [
     ],
   },
   {
-    id: 104,
+    id: 103,
     name: 'Maciej Gorski',
     country: 'Polska',
     clubs: [
@@ -1068,13 +1062,13 @@ export const players = [
     ],
   },
   {
-    id: 105,
+    id: 104,
     name: 'Mateusz Lewandowski',
     country: 'Polska',
     clubs: ['Pogoń Szczecin', 'Radomiak Radom', 'Śląsk Wrocław', 'Lechia Gdańsk', 'Virtus Entella'],
   },
   {
-    id: 106,
+    id: 105,
     name: 'Mateusz Bodzioch',
     country: 'Polska',
     clubs: [
@@ -1090,7 +1084,7 @@ export const players = [
     ],
   },
   {
-    id: 107,
+    id: 106,
     name: 'Meik Karwot',
     country: 'Polska',
     clubs: [
@@ -1106,7 +1100,7 @@ export const players = [
     ],
   },
   {
-    id: 108,
+    id: 107,
     name: 'Grzegorz Bonin',
     country: 'Polska',
     clubs: [
@@ -1121,7 +1115,7 @@ export const players = [
     ],
   },
   {
-    id: 109,
+    id: 108,
     name: 'Szymon Drewniak',
     country: 'Polska',
     clubs: [
@@ -1136,7 +1130,7 @@ export const players = [
     ],
   },
   {
-    id: 110,
+    id: 109,
     name: 'Lukasz Mierzejewski',
     country: 'Polska',
     clubs: [
@@ -1151,25 +1145,25 @@ export const players = [
     ],
   },
   {
-    id: 111,
+    id: 110,
     name: 'Hubert Adamczyk',
     country: 'Polska',
     clubs: ['Arka Gdynia', 'GKS Tychy', 'Wisła Płock', 'Olimpia Grudziądz', 'Cracovia'],
   },
   {
-    id: 112,
+    id: 111,
     name: 'Pawel Nowak',
     country: 'Polska',
     clubs: ['Cracovia', 'Lechia Gdańsk', 'Wisła Kraków', 'Garbarnia Kraków', 'Sandecja Nowy Sącz'],
   },
   {
-    id: 113,
+    id: 112,
     name: 'Cornel Rapa',
     country: 'Rumunia',
     clubs: ['Cracovia', 'SC Otelul Galati', 'FCSB', 'Pogoń Szczecin'],
   },
   {
-    id: 114,
+    id: 113,
     name: 'Radoslaw Majewski',
     country: 'Polska',
     clubs: [
@@ -1185,13 +1179,13 @@ export const players = [
     ],
   },
   {
-    id: 115,
+    id: 114,
     name: 'Wojciech Lisowski',
     country: 'Polska',
     clubs: ['Chojniczanka Chojnice', 'GKS Katowice', 'Stal Mielec', 'Piast Gliwice', 'Pogoń Szczecin'],
   },
   {
-    id: 116,
+    id: 115,
     name: 'Lukasz Budzilek',
     country: 'Polska',
     clubs: [
@@ -1206,19 +1200,19 @@ export const players = [
     ],
   },
   {
-    id: 117,
+    id: 116,
     name: 'Bartosz Fabiniak',
     country: 'Polska',
     clubs: ['Olimpia Grudziądz', 'Widzew Łódź', 'Pogoń Szczecin'],
   },
   {
-    id: 118,
+    id: 117,
     name: 'Bartosz Nowak',
     country: 'Polska',
     clubs: ['Stal Mielec', 'Górnik Zabrze', 'Ruch Chorzów', 'Raków Częstochowa', 'Polonia Bytom', 'Miedź Legnica'],
   },
   {
-    id: 119,
+    id: 118,
     name: 'Jean Carlos Silva',
     country: 'Hiszpania',
     clubs: [
@@ -1231,25 +1225,25 @@ export const players = [
     ],
   },
   {
-    id: 120,
+    id: 119,
     name: 'Miguel Luís',
     country: 'Portugal',
     clubs: ['Warta Poznań', 'Vitoria Guimarães SC', 'Sporting CP', 'Raków Częstochowa'],
   },
   {
-    id: 121,
+    id: 120,
     name: 'Daniel Szelagowski',
     country: 'Polska',
     clubs: ['Raków Częstochowa', 'Korona Kielce', 'Warta Poznań', 'Chojniczanka Chojnice'],
   },
   {
-    id: 122,
+    id: 121,
     name: 'Milosz Szczepanski',
     country: 'Polska',
     clubs: ['Raków Częstochowa', 'Warta Poznań', 'Lechia Gdańsk', 'Legia Warszawa'],
   },
   {
-    id: 123,
+    id: 122,
     name: 'Valeriane Gvilia',
     country: 'Gruzja',
     clubs: [
@@ -1263,7 +1257,7 @@ export const players = [
     ],
   },
   {
-    id: 124,
+    id: 123,
     name: 'Oskar Zawada',
     country: 'Polska',
     clubs: [
@@ -1278,7 +1272,7 @@ export const players = [
     ],
   },
   {
-    id: 125,
+    id: 124,
     name: 'Dariusz Formella',
     country: 'Polska',
     clubs: [
@@ -1291,7 +1285,7 @@ export const players = [
     ],
   },
   {
-    id: 126,
+    id: 125,
     name: 'Peter Mazan',
     country: 'Słowacja',
     clubs: [
@@ -1305,19 +1299,19 @@ export const players = [
     ],
   },
   {
-    id: 127,
+    id: 126,
     name: 'Michael Ameyaw',
     country: 'Polska',
     clubs: ['Widzew Łódź', 'Piast Gliwice'],
   },
   {
-    id: 128,
+    id: 127,
     name: 'Tomasz Mokwa',
     country: 'Polska',
     clubs: ['Calisia Kalisz', 'Piast Gliwice', 'Flota Świnoujście', 'GKS Katowice'],
   },
   {
-    id: 129,
+    id: 128,
     name: 'Karol Szymanski',
     country: 'Polska',
     clubs: [
@@ -1333,7 +1327,7 @@ export const players = [
     ],
   },
   {
-    id: 130,
+    id: 129,
     name: 'Zoran Arsenic',
     country: 'Chorwacja',
     clubs: [
@@ -1347,13 +1341,13 @@ export const players = [
     ],
   },
   {
-    id: 131,
+    id: 130,
     name: 'Szymon Czyz',
     country: 'Polska',
     clubs: ['Raków Częstochowa', 'Warta Poznań', 'Lazio Rzym'],
   },
   {
-    id: 132,
+    id: 131,
     name: 'Fabian Piasecki',
     country: 'Polska',
     clubs: [
@@ -1368,43 +1362,43 @@ export const players = [
     ],
   },
   {
-    id: 133,
+    id: 132,
     name: 'Sebastian Musiolik',
     country: 'Polska',
     clubs: ['Raków Częstochowa', 'ROW 1964 Rybnik', 'Pordenone Calcio', 'Piast Gliwice'],
   },
   {
-    id: 134,
+    id: 133,
     name: 'Mateusz Wdowiak',
     country: 'Polska',
     clubs: ['Cracovia', ' Raków Częstochowa', 'Sandecja Nowy Sącz'],
   },
   {
-    id: 135,
+    id: 134,
     name: 'Marcin Cebula',
     country: 'Polska',
     clubs: ['Korona Kielce', ' Raków Częstochowa'],
   },
   {
-    id: 136,
+    id: 135,
     name: 'Cezary Miszta',
     country: 'Polska',
     clubs: ['Legia Warszawa', ' Radomiak Radom'],
   },
   {
-    id: 137,
+    id: 136,
     name: 'Maik Nawrocki',
     country: 'Polska',
     clubs: ['Legia Warszawa', ' Warta Poznań'],
   },
   {
-    id: 138,
+    id: 137,
     name: 'Patryk Sokolowski',
     country: 'Polska',
     clubs: ['Piast Gliwice', 'Olimpia Elbląg', 'Legia Warszawa', 'Wigry Suwałki', 'Znicz Pruszków'],
   },
   {
-    id: 139,
+    id: 138,
     name: 'Bartosz Salamon',
     country: 'Polska',
     clubs: [
@@ -1419,13 +1413,13 @@ export const players = [
     ],
   },
   {
-    id: 140,
+    id: 139,
     name: 'Alan Czerwinski',
     country: 'Polska',
     clubs: ['GKS Katowice', 'Zagłębie Lubin', 'Lech Poznań'],
   },
   {
-    id: 141,
+    id: 140,
     name: 'Artur Sobiech',
     country: 'Polska',
     clubs: [
@@ -1439,37 +1433,37 @@ export const players = [
     ],
   },
   {
-    id: 142,
+    id: 141,
     name: 'Mariusz Malec',
     country: 'Polska',
     clubs: ['Pogoń Szczecin', 'Podbeskidzie Bielsko-Biała', 'Olimpia Grudziądz', 'Polonia Bytom'],
   },
   {
-    id: 143,
+    id: 142,
     name: 'Pawel Stolarski',
     country: 'Polska',
     clubs: ['Lechia Gdańsk', 'Legia Warszawa', 'Pogoń Szczecin', 'Wisła Kraków', 'Zagłębie Lubin'],
   },
   {
-    id: 144,
+    id: 143,
     name: 'Rafal Kurzawa',
     country: 'Polska',
     clubs: ['Górnik Zabrze', 'Pogoń Szczecin', 'ROW 1964 Rybnik', 'Amiens SC', 'Esbjerg fB', 'FC Midtjylland'],
   },
   {
-    id: 145,
+    id: 144,
     name: 'Michal Kucharczyk',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'Pogoń Szczecin', 'Ural Jekaterynburg'],
   },
   {
-    id: 146,
+    id: 145,
     name: 'Szymon Wlodarczyk',
     country: 'Polska',
     clubs: ['Górnik Zabrze', 'Legia Warszawa'],
   },
   {
-    id: 147,
+    id: 146,
     name: 'Jaroslaw Jach',
     country: 'Polska',
     clubs: [
@@ -1482,19 +1476,19 @@ export const players = [
     ],
   },
   {
-    id: 148,
+    id: 147,
     name: 'Marcin Flis',
     country: 'Polska',
     clubs: ['Stal Mielec', 'Sandecja Nowy Sącz', 'GKS Bełchatów', 'Górnik Łęczna', 'GKS Katowice', 'Piast Gliwice'],
   },
   {
-    id: 149,
+    id: 148,
     name: 'Piotr Wlazlo',
     country: 'Polska',
     clubs: ['Bruk-Bet Termalica Nieciecza', 'Wisła Płock', 'Stal Mielec', 'Radomiak Radom', 'Jagiellonia Białystok'],
   },
   {
-    id: 150,
+    id: 149,
     name: 'Fabian Hiszpanski',
     country: 'Polska',
     clubs: [
@@ -1508,43 +1502,43 @@ export const players = [
     ],
   },
   {
-    id: 151,
+    id: 150,
     name: 'Krystian Getinger',
     country: 'Polska',
     clubs: ['Stal Mielec', 'Stal Stalowa Wola', 'Zagłębie Lubin'],
   },
   {
-    id: 152,
+    id: 151,
     name: 'Mateusz Mak',
     country: 'Polska',
     clubs: ['Stal Mielec', 'Piast Gliwice', 'GKS Bełchatów', 'Ruch Radzionków'],
   },
   {
-    id: 153,
+    id: 152,
     name: 'Patryk Lipski',
     country: 'Polska',
     clubs: ['Lechia Gdańsk', 'Piast Gliwice', 'Ruch Chorzów', 'Widzew Łódź'],
   },
   {
-    id: 154,
+    id: 153,
     name: 'Mateusz Zyro',
     country: 'Polska',
     clubs: ['Stal Mielec', 'Widzew Łódź', 'Wigry Suwałki', 'Miedź Legnica', 'Legia Warszawa'],
   },
   {
-    id: 155,
+    id: 154,
     name: 'Ernest Terpilowski',
     country: 'Polska',
     clubs: ['Widzew Łódź', 'Górnik Polkowice', 'Lechia Dzierzoniow', 'Bruk-Bet Termalica Nieciecza'],
   },
   {
-    id: 156,
+    id: 155,
     name: 'Lukasz Zjawinski',
     country: 'Polska',
     clubs: ['Stal Mielec', 'Widzew Łódź', 'Stal Stalowa Wola', 'Sandecja Nowy Sącz', 'Lechia Gdańsk'],
   },
   {
-    id: 157,
+    id: 156,
     name: 'Bartosz Kwiecien',
     country: 'Polska',
     clubs: [
@@ -1557,19 +1551,19 @@ export const players = [
     ],
   },
   {
-    id: 158,
+    id: 157,
     name: 'Adam Deja',
     country: 'Polska',
     clubs: ['Arka Gdynia', 'Podbeskidzie Bielsko-Biała', 'Korona Kielce', 'MKS Kluczbork', 'Cracovia'],
   },
   {
-    id: 159,
+    id: 158,
     name: 'Jakub Rzezniczak',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'Wisła Płock', 'Qarabağ FK', 'Widzew Łódź'],
   },
   {
-    id: 160,
+    id: 159,
     name: 'Bartosz Spiaczka',
     country: 'Polska',
     clubs: [
@@ -1583,7 +1577,7 @@ export const players = [
     ],
   },
   {
-    id: 161,
+    id: 160,
     name: 'Rafal Wolski',
     country: 'Polska',
     clubs: [
@@ -1597,55 +1591,55 @@ export const players = [
     ],
   },
   {
-    id: 162,
+    id: 161,
     name: 'Mateusz Szwoch',
     country: 'Polska',
     clubs: ['Arka Gdynia', 'Wisła Płock', 'Legia Warszawa'],
   },
   {
-    id: 163,
+    id: 162,
     name: 'Dominik Furman',
     country: 'Polska',
     clubs: ['Wisła Płock', 'Legia Warszawa', 'Genclerbirligi Ankara', 'FC Toulouse', 'Hellas Verona'],
   },
   {
-    id: 164,
+    id: 163,
     name: 'Dusan Kuciak',
     country: 'Słowacja',
     clubs: ['Lechia Gdańsk', 'Legia Warszawa', 'FC Vaslui', 'MSK Zilina', 'Hull City'],
   },
   {
-    id: 165,
+    id: 164,
     name: 'Michal Nalepa',
     country: 'Polska',
     clubs: ['Lechia Gdańsk', 'Ferencvárosi TC', 'Bruk-Bet Termalica Nieciecza', 'Ruch Radzionków', 'Wisła Kraków'],
   },
   {
-    id: 166,
+    id: 165,
     name: 'Maciej Gajos',
     country: 'Polska',
     clubs: ['Lechia Gdańsk', 'Lech Poznań', 'Jagiellonia Białystok'],
   },
   {
-    id: 167,
+    id: 166,
     name: 'Lukasz Zwolinski',
     country: 'Polska',
     clubs: ['Pogoń Szczecin', 'Lechia Gdańsk', 'HNK Gorica', 'Górnik Łęczna', 'Śląsk Wrocław', 'Arka Gdynia'],
   },
   {
-    id: 168,
+    id: 167,
     name: 'Flávio Paixão',
     country: 'Portugalia',
     clubs: ['Tractor FC', 'Lechia Gdańsk', 'Hamilton Academical FC', 'Benidorm CF', 'Śląsk Wrocław', 'CF Villanovense'],
   },
   {
-    id: 169,
+    id: 168,
     name: 'Sebastian Milewski',
     country: 'Polska',
     clubs: ['Zagłębie Sosnowiec', 'Piast Gliwice', 'Arka Gdynia', 'Legionovia Legionowo'],
   },
   {
-    id: 170,
+    id: 169,
     name: 'Janusz Gol',
     country: 'Polska',
     clubs: [
@@ -1659,19 +1653,19 @@ export const players = [
     ],
   },
   {
-    id: 171,
+    id: 170,
     name: 'Omran Haydary',
     country: 'Afganistan',
     clubs: ['Arka Gdynia', 'Lechia Gdańsk', 'Olimpia Grudziądz', 'FC Dordrecht', 'FC Emmen'],
   },
   {
-    id: 172,
+    id: 171,
     name: 'Bartosz Szeliga',
     country: 'Polska',
     clubs: ['Piast Gliwice', 'ŁKS Łódź', 'GKS Tychy', 'Bruk-Bet Termalica Nieciecza', 'Sandecja Nowy Sącz'],
   },
   {
-    id: 173,
+    id: 172,
     name: 'Maciej Gostomski',
     country: 'Polska',
     clubs: [
@@ -1685,19 +1679,19 @@ export const players = [
     ],
   },
   {
-    id: 174,
+    id: 173,
     name: 'Igor Lasicki',
     country: 'Polska',
     clubs: ['Wisła Płock', 'Wisła Kraków', 'AS Gubbio 1910', 'Pogoń Szczecin', 'Rimini FC', 'AC Carpi', 'SSC Napoli'],
   },
   {
-    id: 175,
+    id: 174,
     name: 'Jakub Blaszczykowski',
     country: 'Polska',
     clubs: ['Borussia Dortmund', 'Wisła Kraków', 'VfL Wolfsburg', 'AC Fiorentina'],
   },
   {
-    id: 176,
+    id: 175,
     name: 'Michal Zyro',
     country: 'Polska',
     clubs: [
@@ -1713,109 +1707,109 @@ export const players = [
     ],
   },
   {
-    id: 177,
+    id: 176,
     name: 'Alan Uryga',
     country: 'Polska',
     clubs: ['Wisła Płock', 'Wisła Kraków'],
   },
   {
-    id: 178,
+    id: 177,
     name: 'Karol Linetty',
     country: 'Polska',
     clubs: ['UC Sampdoria', 'Lech Poznań', 'Torino FC'],
   },
   {
-    id: 179,
+    id: 178,
     name: 'Lukasz Skorupski',
     country: 'Polska',
     clubs: ['FC Bologna', 'FC Empoli', 'Górnik Zabrze', 'AS Roma', 'Ruch Radzionków'],
   },
   {
-    id: 180,
+    id: 179,
     name: 'Bartlomiej Dragowski',
     country: 'Polska',
     clubs: ['AC Fiorentina', 'Jagiellonia Białystok', 'Spezia Calcio', 'FC Empoli'],
   },
   {
-    id: 181,
+    id: 180,
     name: 'Wojciech Szczesny',
     country: 'Polska',
     clubs: ['Juventus Turyn', 'FC Arsenal', 'AS Roma', 'FC Brentford'],
   },
   {
-    id: 182,
+    id: 181,
     name: 'Jakub Kiwior',
     country: 'Polska',
     clubs: ['MSK Zilina', 'Spezia Calcio', 'FK Zeleziarne Podbrezova', 'FC Arsenal'],
   },
   {
-    id: 183,
+    id: 182,
     name: 'Jan Bednarek',
     country: 'Polska',
     clubs: ['FC Southampton', 'Lech Poznań', 'Górnik Łęczna', 'Aston Villa'],
   },
   {
-    id: 184,
+    id: 183,
     name: 'Mateusz Wieteska',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'Górnik Zabrze', 'Clermont Foot 63', 'Chrobry Głogów', 'Dolcan Ząbki'],
   },
   {
-    id: 185,
+    id: 184,
     name: 'Przemyslaw Wisniewski',
     country: 'Polska',
     clubs: ['Górnik Zabrze', 'Venezia FC', 'Spezia Calcio'],
   },
   {
-    id: 186,
+    id: 185,
     name: 'Arkadiusz Reca',
     country: 'Polska',
     clubs: ['Wisła Płock', 'FC Crotone', 'Spezia Calcio', 'Flota Świnoujście', 'SPAL'],
   },
   {
-    id: 187,
+    id: 186,
     name: 'Tomasz Kedziora',
     country: 'Polska',
     clubs: ['Dynamo Kijów', 'Lech Poznań', 'PAOK Saloniki'],
   },
   {
-    id: 188,
+    id: 187,
     name: 'Krystian Bielik',
     country: 'Polska',
     clubs: ['Derby County', 'Birmingham City', 'Charlton Athletic', 'Legia Warszawa', 'FC Arsenal'],
   },
   {
-    id: 189,
+    id: 188,
     name: 'Damian Szymanski',
     country: 'Polska',
     clubs: ['AEK Ateny', 'Wisła Płock', 'GKS Bełchatów', 'Jagiellonia Białystok', 'Akhmat Grozny'],
   },
   {
-    id: 190,
+    id: 189,
     name: 'Piotr Zielinski',
     country: 'Polska',
     clubs: ['SSC Napoli', 'FC Empoli', 'Udinese Calcio'],
   },
   {
-    id: 191,
+    id: 190,
     name: 'Przemyslaw Frankowski',
     country: 'Polska',
     clubs: ['Jagiellonia Białystok', 'RC Lens', 'Chicago Fire FC', 'Lechia Gdańsk'],
   },
   {
-    id: 192,
+    id: 191,
     name: 'Jakub Kaminski',
     country: 'Polska',
     clubs: ['Lech Poznań', 'VfL Wolfsburg'],
   },
   {
-    id: 193,
+    id: 192,
     name: 'Robert Lewandowski',
     country: 'Polska',
     clubs: ['Bayern Monachium', 'Borussia Dortmund', 'Lech Poznań', 'FC Barcelona', 'Znicz Pruszków'],
   },
   {
-    id: 194,
+    id: 193,
     name: 'Arkadiusz Milik',
     country: 'Polska',
     clubs: [
@@ -1829,43 +1823,43 @@ export const players = [
     ],
   },
   {
-    id: 195,
+    id: 194,
     name: 'Karol Swiderski',
     country: 'Polska',
     clubs: ['PAOK Saloniki', 'Jagiellonia Białystok', 'Charlotte FC'],
   },
   {
-    id: 196,
+    id: 195,
     name: 'Kamil Grabara',
     country: 'Polska',
     clubs: ['FC Kopenhaga', 'Aarhus GF', 'Huddersfield Town'],
   },
   {
-    id: 197,
+    id: 196,
     name: 'Michal Helik',
     country: 'Polska',
     clubs: ['Cracovia', 'FC Barnsley', 'Ruch Chorzów', 'Huddersfield Town'],
   },
   {
-    id: 198,
+    id: 197,
     name: 'Marcin Kaminski',
     country: 'Polska',
     clubs: ['Lech Poznań', 'VfB Stuttgart', 'FC Schalke 04', 'Fortuna Düsseldorf'],
   },
   {
-    id: 199,
+    id: 198,
     name: 'Matty Cash',
     country: 'Polska',
     clubs: ['Nottingham Forest', 'Aston Villa', 'FC Dagenham & Redbridge'],
   },
   {
-    id: 200,
+    id: 199,
     name: 'Kamil Józwiak',
     country: 'Polska',
     clubs: ['Lech Poznań', 'Derby County', 'Charlotte FC', 'GKS Katowice'],
   },
   {
-    id: 201,
+    id: 200,
     name: 'Przemyslaw Placheta',
     country: 'Polska',
     clubs: [
@@ -1878,7 +1872,7 @@ export const players = [
     ],
   },
   {
-    id: 202,
+    id: 201,
     name: 'Kamil Grosicki',
     country: 'Polska',
     clubs: [
@@ -1893,25 +1887,25 @@ export const players = [
     ],
   },
   {
-    id: 203,
+    id: 202,
     name: 'Radoslaw Majecki',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'Cercle Brügge', 'Stal Mielec', 'AS Monaco'],
   },
   {
-    id: 204,
+    id: 203,
     name: 'Pawel Dawidowicz',
     country: 'Polska',
     clubs: ['Hellas Verona', 'Lechia Gdańsk', 'Palermo FC', 'VfL Bochum'],
   },
   {
-    id: 205,
+    id: 204,
     name: 'Maciej Rybus',
     country: 'Polska',
     clubs: ['Lokomotiw Moskwa', 'Legia Warszawa', 'Akhmat Grozny', 'Olympique Lyon', 'Spartak Moskwa'],
   },
   {
-    id: 206,
+    id: 205,
     name: 'Grzegorz Krychowiak',
     country: 'Polska',
     clubs: [
@@ -1928,7 +1922,7 @@ export const players = [
     ],
   },
   {
-    id: 207,
+    id: 206,
     name: 'Mateusz Klich',
     country: 'Polska',
     clubs: [
@@ -1942,37 +1936,37 @@ export const players = [
     ],
   },
   {
-    id: 208,
+    id: 207,
     name: 'Thiago Cionek',
     country: 'Polska',
     clubs: ['Jagiellonia Białystok', 'Reggina 1914', 'Modena FC', 'SPAL', 'Palermo FC', 'Calcio Padova'],
   },
   {
-    id: 209,
+    id: 208,
     name: 'Lukasz Piszczek',
     country: 'Polska',
     clubs: ['Borussia Dortmund', 'Hertha BSC', 'Zagłębie Lubin', 'LKS Goczałkowice-Zdrój'],
   },
   {
-    id: 210,
+    id: 209,
     name: 'Dawid Kownacki',
     country: 'Polska',
     clubs: ['Lech Poznań', 'Fortuna Düsseldorf', 'UC Sampdoria'],
   },
   {
-    id: 211,
+    id: 210,
     name: 'Bartosz Bialkowski',
     country: 'Polska',
     clubs: ['Ipswich Town', 'FC Millwall', 'Notts County', 'FC Southampton', 'Górnik Zabrze', 'FC Barnsley'],
   },
   {
-    id: 212,
+    id: 211,
     name: 'Artur Boruc',
     country: 'Polska',
     clubs: ['Celtic Glasgow', 'Legia Warszawa', 'AFC Bournemouth', 'AC Fiorentina', 'FC Southampton'],
   },
   {
-    id: 213,
+    id: 212,
     name: 'Igor Lewczuk',
     country: 'Polska',
     clubs: [
@@ -1986,7 +1980,7 @@ export const players = [
     ],
   },
   {
-    id: 214,
+    id: 213,
     name: 'Lukasz Teodorczyk',
     country: 'Polska',
     clubs: [
@@ -2000,7 +1994,7 @@ export const players = [
     ],
   },
   {
-    id: 215,
+    id: 214,
     name: 'Przemyslaw Tyton',
     country: 'Polska',
     clubs: [
@@ -2015,7 +2009,7 @@ export const players = [
     ],
   },
   {
-    id: 216,
+    id: 215,
     name: 'Lukasz Szukala',
     country: 'Polska',
     clubs: [
@@ -2030,7 +2024,7 @@ export const players = [
     ],
   },
   {
-    id: 217,
+    id: 216,
     name: 'Jakub Wawrzyniak',
     country: 'Polska',
     clubs: [
@@ -2044,7 +2038,7 @@ export const players = [
     ],
   },
   {
-    id: 218,
+    id: 217,
     name: 'Slawomir Peszko',
     country: 'Polska',
     clubs: [
@@ -2058,13 +2052,13 @@ export const players = [
     ],
   },
   {
-    id: 219,
+    id: 218,
     name: "N'Golo Kanté",
     country: 'Francja',
     clubs: ['Chelsea FC', 'SM Caen', 'Leicester City', 'US Boulogne'],
   },
   {
-    id: 220,
+    id: 219,
     name: 'Jesus imaz',
     country: 'Hiszpania',
     clubs: [
@@ -2078,7 +2072,7 @@ export const players = [
     ],
   },
   {
-    id: 221,
+    id: 220,
     name: 'Tomasz Kupisz',
     country: 'Polska',
     clubs: [
@@ -2100,19 +2094,13 @@ export const players = [
     ],
   },
   {
-    id: 222,
+    id: 221,
     name: 'Bartosz Bida',
     country: 'Polska',
     clubs: ['Jagiellonia Białystok', 'Wigry Suwałki'],
   },
   {
-    id: 223,
-    name: 'Jakub Slowik',
-    country: 'Polska',
-    clubs: ['Vegalta Sendai', 'Śląsk Wrocław', 'Jagiellonia Białystok', 'FC Tokyo', 'Pogoń Szczecin', 'Warta Poznań'],
-  },
-  {
-    id: 224,
+    id: 222,
     name: 'Lukasz Surma',
     country: 'Polska',
     clubs: [
@@ -2126,13 +2114,13 @@ export const players = [
     ],
   },
   {
-    id: 225,
+    id: 223,
     name: 'Marek Zienczuk',
     country: 'Polska',
     clubs: ['Ruch Chorzów', 'Wisła Kraków', 'Amica Wronki', 'AO Xanthi', 'Lechia Gdańsk'],
   },
   {
-    id: 226,
+    id: 224,
     name: 'Deleu',
     country: 'Brazylia',
     clubs: [
@@ -2145,7 +2133,7 @@ export const players = [
     ],
   },
   {
-    id: 227,
+    id: 225,
     name: 'Ricardinho',
     country: 'Brazylia',
     clubs: [
@@ -2162,7 +2150,7 @@ export const players = [
     ],
   },
   {
-    id: 228,
+    id: 226,
     name: 'Damian Byrtek',
     country: 'Polska',
     clubs: [
@@ -2178,7 +2166,7 @@ export const players = [
     ],
   },
   {
-    id: 229,
+    id: 227,
     name: 'José Kanté',
     country: 'Gwinea',
     clubs: [
@@ -2194,7 +2182,7 @@ export const players = [
     ],
   },
   {
-    id: 230,
+    id: 228,
     name: 'Giorgi Merebashvili',
     country: 'Gruzja',
     clubs: [
@@ -2206,31 +2194,31 @@ export const players = [
     ],
   },
   {
-    id: 231,
+    id: 229,
     name: 'Thomas Dähne',
     country: 'Niemcy',
     clubs: ['HJK Helsinki', 'Wisła Płock', 'Holstein Kiel', 'Red Bull Salzburg'],
   },
   {
-    id: 232,
+    id: 230,
     name: 'Przemysław Szyminski',
     country: 'Polska',
     clubs: ['Frosinone Calcio', 'Wisła Płock', 'Rozwój Katowice', 'Palermo FC'],
   },
   {
-    id: 233,
+    id: 231,
     name: 'Mateusz Praszelik',
     country: 'Polska',
     clubs: ['Śląsk Wrocław', 'Cosenza Calcio', 'Legia Warszawa'],
   },
   {
-    id: 234,
+    id: 232,
     name: 'Lukasz Broz',
     country: 'Polska',
     clubs: ['Widzew Łódź', 'Legia Warszawa', 'Śląsk Wrocław', 'Mamry Giżycko', 'KS Kutno'],
   },
   {
-    id: 235,
+    id: 233,
     name: 'Kevin Kampl',
     country: 'Słowenia',
     clubs: [
@@ -2244,7 +2232,7 @@ export const players = [
     ],
   },
   {
-    id: 236,
+    id: 234,
     name: 'Ebi Smolarek',
     country: 'Polska',
     clubs: [
@@ -2258,7 +2246,7 @@ export const players = [
     ],
   },
   {
-    id: 237,
+    id: 235,
     name: 'Grzegorz Rasiak',
     country: 'Polska',
     clubs: [
@@ -2278,25 +2266,25 @@ export const players = [
     ],
   },
   {
-    id: 238,
+    id: 236,
     name: 'Maciej Zurawski',
     country: 'Polska',
     clubs: ['Wisła Kraków', 'Celtic Glasgow', 'Lech Poznań', 'AE Larisa', 'Omonia Nikozja'],
   },
   {
-    id: 239,
+    id: 237,
     name: 'Paweł Brożek',
     country: 'Polska',
     clubs: ['Wisła Kraków', 'Trabzonspor', 'GKS Katowice', 'Recreativo Huelva', 'Celtic Glasgow'],
   },
   {
-    id: 240,
+    id: 238,
     name: 'Patryk Klimala',
     country: 'Polska',
     clubs: ['New York Red Bulls', 'Jagiellonia Białystok', 'Celtic Glasgow', 'Wigry Suwałki', 'Hapoel Beer Sheva'],
   },
   {
-    id: 241,
+    id: 239,
     name: 'Łukasz Załuska.',
     country: 'Polska',
     clubs: [
@@ -2311,19 +2299,19 @@ export const players = [
     ],
   },
   {
-    id: 242,
+    id: 240,
     name: 'Pawel Jaroszynski',
     country: 'Polska',
     clubs: ['Cracovia', 'US Salernitana 1919', 'Chievo Verona', 'Delfino Pescara 1936'],
   },
   {
-    id: 243,
+    id: 241,
     name: 'Filip Jagiello',
     country: 'Polska',
     clubs: ['Zagłębie Lubin', 'Brescia Calcio', 'Genoa CFC'],
   },
   {
-    id: 244,
+    id: 242,
     name: 'Adam Dźwigała',
     country: 'Polska',
     clubs: [
@@ -2337,19 +2325,19 @@ export const players = [
     ],
   },
   {
-    id: 245,
+    id: 243,
     name: 'Jakub Piotrowski',
     country: 'Polska',
     clubs: ['Ludogorets Razgrad', 'Fortuna Düsseldorf', 'Pogoń Szczecin', 'KRC Genk', 'Stomil Olsztyn', 'SK Beveren'],
   },
   {
-    id: 246,
+    id: 244,
     name: 'Ireneusz Jeleń',
     country: 'Polska',
     clubs: ['AJ Auxerre', 'Wisła Płock', 'LOSC Lille', 'Górnik Zabrze', 'Podbeskidzie Bielsko-Biała'],
   },
   {
-    id: 247,
+    id: 245,
     name: 'Dawid Janczyk',
     country: 'Polska',
     clubs: [
@@ -2363,13 +2351,13 @@ export const players = [
     ],
   },
   {
-    id: 248,
+    id: 246,
     name: 'Jerzy Dudek',
     country: 'Polska',
     clubs: ['FC Liverpool', 'Feyenoord Rotterdam', 'Real Madryt', 'GKS Tychy'],
   },
   {
-    id: 249,
+    id: 247,
     name: 'Michal Janota',
     country: 'Polska',
     clubs: [
@@ -2385,7 +2373,7 @@ export const players = [
     ],
   },
   {
-    id: 250,
+    id: 248,
     name: 'Paweł Abott',
     country: 'Polska',
     clubs: [
@@ -2403,13 +2391,13 @@ export const players = [
     ],
   },
   {
-    id: 251,
+    id: 249,
     name: 'Marcin Adamski',
     country: 'Polska',
     clubs: ['SK Rapid Wiedeń', 'Zagłębie Lubin', 'ŁKS Łódź', 'FC Erzgebirge Aue', 'Angers SCO'],
   },
   {
-    id: 252,
+    id: 250,
     name: 'Tomasz Cywka',
     country: 'Polska',
     clubs: [
@@ -2426,7 +2414,7 @@ export const players = [
     ],
   },
   {
-    id: 253,
+    id: 251,
     name: 'Jarosław Fojut',
     country: 'Polska',
     clubs: [
@@ -2442,7 +2430,7 @@ export const players = [
     ],
   },
   {
-    id: 254,
+    id: 252,
     name: 'Marek Saganowski',
     country: 'Polska',
     clubs: [
@@ -2460,19 +2448,19 @@ export const players = [
     ],
   },
   {
-    id: 255,
+    id: 253,
     name: 'Artur Wichniarek',
     country: 'Polska',
     clubs: ['Arminia Bielefeld', 'Hertha BSC', 'Widzew Łódź', 'Lech Poznań'],
   },
   {
-    id: 256,
+    id: 254,
     name: 'Piotr Brozek',
     country: 'Polska',
     clubs: ['Wisła Kraków', 'Piast Gliwice', 'Lechia Gdańsk', 'Górnik Zabrze', 'Trabzonspor'],
   },
   {
-    id: 257,
+    id: 255,
     name: 'Marcin Zewlakow',
     country: 'Polska',
     clubs: [
@@ -2487,7 +2475,7 @@ export const players = [
     ],
   },
   {
-    id: 258,
+    id: 256,
     name: 'Michal Zewlakow',
     country: 'Polska',
     clubs: [
@@ -2501,7 +2489,7 @@ export const players = [
     ],
   },
   {
-    id: 259,
+    id: 257,
     name: 'Michal Mak',
     country: 'Polska',
     clubs: [
@@ -2516,7 +2504,7 @@ export const players = [
     ],
   },
   {
-    id: 260,
+    id: 258,
     name: 'Bartosz Slusarski',
     country: 'Polska',
     clubs: [
@@ -2534,13 +2522,13 @@ export const players = [
     ],
   },
   {
-    id: 261,
+    id: 259,
     name: 'Jacek Bak',
     country: 'Polska',
     clubs: ['Olympique Lyon', 'FK Austria Wiedeń', 'RC Lens', 'Lech Poznań'],
   },
   {
-    id: 262,
+    id: 260,
     name: 'Tomasz Rząsa',
     country: 'Polska',
     clubs: [
@@ -2557,7 +2545,7 @@ export const players = [
     ],
   },
   {
-    id: 263,
+    id: 261,
     name: 'Marcin Wasilewski',
     country: 'Polska',
     clubs: [
@@ -2571,7 +2559,7 @@ export const players = [
     ],
   },
   {
-    id: 264,
+    id: 262,
     name: 'Emmanuel Olisadebe',
     country: 'Polska',
     clubs: [
@@ -2585,7 +2573,7 @@ export const players = [
     ],
   },
   {
-    id: 265,
+    id: 263,
     name: 'Ludovic Obraniak',
     country: 'Polska',
     clubs: [
@@ -2599,7 +2587,7 @@ export const players = [
     ],
   },
   {
-    id: 266,
+    id: 264,
     name: 'Krzysztof Krol',
     country: 'Polska',
     clubs: [
@@ -2616,7 +2604,7 @@ export const players = [
     ],
   },
   {
-    id: 267,
+    id: 265,
     name: 'Radoslaw Matusiak',
     country: 'Polska',
     clubs: [
@@ -2633,73 +2621,73 @@ export const players = [
     ],
   },
   {
-    id: 268,
+    id: 266,
     name: 'Timo Werner',
     country: 'Niemcy',
     clubs: ['RasenBallsport Leipzig', 'VfB Stuttgart', 'Chelsea FC'],
   },
   {
-    id: 269,
+    id: 267,
     name: 'André Silva',
     country: 'Portugalia',
     clubs: ['RasenBallsport Leipzig', 'Eintracht Frankfurt', 'FC Porto', 'AC Milan', 'Sevilla FC'],
   },
   {
-    id: 270,
+    id: 268,
     name: 'Maciej Jankowski',
     country: 'Polska',
     clubs: ['Ruch Chorzów', 'Arka Gdynia', 'Piast Gliwice', 'Wisła Kraków', 'Stal Mielec', 'Wieczysta Kraków'],
   },
   {
-    id: 271,
+    id: 269,
     name: 'Karol Fila',
     country: 'Polska',
     clubs: ['Lechia Gdańsk', 'RC Strasbourg Alsace', 'Chojniczanka Chojnice', 'SV Zulte Waregem'],
   },
   {
-    id: 272,
+    id: 270,
     name: 'Rafal Straczek',
     country: 'Polska',
     clubs: ['Stal Mielec', 'JKS 1909 Jarosław', 'Wólczanka Wólka Pełkińska', 'FC Girondins Bordeaux', 'Motor Lublin'],
   },
   {
-    id: 273,
+    id: 271,
     name: 'Lukasz Poreba',
     country: 'Polska',
     clubs: ['Zagłębie Lubin', 'RC Lens'],
   },
   {
-    id: 274,
+    id: 272,
     name: 'Pawel Bochniewicz',
     country: 'Polska',
     clubs: ['Górnik Zabrze', 'SC Heerenveen', 'Recreativo Granada', 'Reggina 1914', 'Udinese Calcio'],
   },
   {
-    id: 275,
+    id: 273,
     name: 'Neymar',
     country: 'Brazylia',
     clubs: ['FC Barcelona', 'FC Paris Saint-Germain', 'Santos FC'],
   },
   {
-    id: 276,
+    id: 274,
     name: 'Kylian Mbappé',
     country: 'Francja',
     clubs: ['FC Paris Saint-Germain', 'AS Monaco'],
   },
   {
-    id: 277,
+    id: 275,
     name: 'Achraf Hakimi',
     country: 'Maroko',
     clubs: ['FC Paris Saint-Germain', 'Borussia Dortmund', 'Inter Mediolan', 'Real Madryt'],
   },
   {
-    id: 278,
+    id: 276,
     name: 'Edinson Cavani',
     country: 'Urugwaj',
     clubs: ['FC Paris Saint-Germain', 'SSC Napoli', 'Palermo FC', 'Manchester United', 'Valencia CF'],
   },
   {
-    id: 279,
+    id: 277,
     name: 'Ángel Di María',
     country: 'Argentyna',
     clubs: [
@@ -2712,31 +2700,31 @@ export const players = [
     ],
   },
   {
-    id: 280,
+    id: 278,
     name: 'Mauro Icardi',
     country: 'Argentyna',
     clubs: ['Inter Mediolan', 'FC Paris Saint-Germain', 'UC Sampdoria', 'Galatasaray'],
   },
   {
-    id: 281,
+    id: 279,
     name: 'David Luiz',
     country: 'Brazylia',
     clubs: ['Chelsea FC', 'Benfika Lizbon', 'FC Paris Saint-Germain', 'Flamengo Rio de Janeiro', 'FC Arsenal'],
   },
   {
-    id: 282,
+    id: 280,
     name: 'Thiago Silva',
     country: 'Brazylia',
     clubs: ['FC Paris Saint-Germain', 'AC Milan', 'Chelsea FC', 'Fluminense Football Club'],
   },
   {
-    id: 283,
+    id: 281,
     name: 'Javier Pastore',
     country: 'Argentyna',
     clubs: ['FC Paris Saint-Germain', 'Palermo FC', 'AS Roma', 'CA Huracán', 'Elche CF', 'Qatar SC'],
   },
   {
-    id: 284,
+    id: 282,
     name: 'Nicolas Anelka',
     country: 'Francja',
     clubs: [
@@ -2754,85 +2742,85 @@ export const players = [
     ],
   },
   {
-    id: 285,
+    id: 283,
     name: 'Renato Sanches',
     country: 'Portugalia',
     clubs: ['LOSC Lille', 'Bayern Monachium', 'Benfika Lizbona', 'FC Paris Saint-Germain', 'Swansea City'],
   },
   {
-    id: 286,
+    id: 284,
     name: 'Fabián Ruiz',
     country: 'Hiszpania',
     clubs: ['SSC Napoli', 'Real Betis Balompié', 'FC Paris Saint-Germain', 'Betis Deportivo Balompié', 'Elche CF'],
   },
   {
-    id: 287,
+    id: 285,
     name: 'Malang Sarr',
     country: 'Francja',
     clubs: ['OGC Nice', 'Chelsea FC', 'FC Porto', 'AS Monaco'],
   },
   {
-    id: 288,
+    id: 286,
     name: 'Ruben Aguilar',
     country: 'Francja',
     clubs: ['AS Monaco', 'AJ Auxerre', 'Montpellier HSC', 'AS Saint-Étienne'],
   },
   {
-    id: 289,
+    id: 287,
     name: 'Youssouf Fofana',
     country: 'Francja',
     clubs: ['AS Monaco', 'RC Strasbourg Alsace'],
   },
   {
-    id: 290,
+    id: 288,
     name: 'Wissam Ben Yedder',
     country: 'Francja',
     clubs: ['FC Toulouse', 'AS Monaco', 'Sevilla FC'],
   },
   {
-    id: 291,
+    id: 289,
     name: 'Gelson Martins',
     country: 'Portugalia',
     clubs: ['Sporting CP', 'AS Monaco', 'Atlético Madryt'],
   },
   {
-    id: 292,
+    id: 290,
     name: 'Edouard Mendy',
     country: 'Senegal',
     clubs: ['Chelsea FC', 'Stade Reims', 'Stade Rennais FC', 'AS Cherbourg'],
   },
   {
-    id: 293,
+    id: 291,
     name: 'Eric Bailly',
     country: 'Wybrzeże Kości Słoniowej',
     clubs: ['Manchester United', 'Villarreal CF', 'Olympique Marseille', 'RCD Espanyol'],
   },
   {
-    id: 294,
+    id: 292,
     name: 'Aurélien Tchouaméni',
     country: 'Francja',
     clubs: ['AS Monaco', 'Real Madryt', 'FC Girondins Bordeaux'],
   },
   {
-    id: 295,
+    id: 293,
     name: 'Antonio Rüdiger',
     country: 'Niemcy',
     clubs: ['Chelsea FC', 'VfB Stuttgart', 'AS Roma', 'Real Madryt'],
   },
   {
-    id: 296,
+    id: 294,
     name: 'Reinier',
     country: 'Brazylia',
     clubs: ['Borussia Dortmund', 'Girona FC', 'Flamengo Rio de Janeiro', 'Real Madryt'],
   },
   {
-    id: 297,
+    id: 295,
     name: 'Andreas Christensen',
     country: 'Dania',
     clubs: ['Chelsea FC', 'Borussia Mönchengladbach', 'FC Barcelona'],
   },
   {
-    id: 298,
+    id: 296,
     name: 'Philippe Coutinho',
     country: 'Brazylia',
     clubs: [
@@ -2846,31 +2834,31 @@ export const players = [
     ],
   },
   {
-    id: 299,
+    id: 297,
     name: 'Marcos Alonso',
     country: 'Hiszpania',
     clubs: ['Chelsea FC', 'AC Fiorentina', 'Bolton Wanderers', 'FC Barcelona', 'AFC Sunderland', 'Real Madryt'],
   },
   {
-    id: 300,
+    id: 298,
     name: 'Jules Koundé',
     country: 'Francja',
     clubs: ['Sevilla FC', 'FC Girondins Bordeaux', 'FC Barcelona'],
   },
   {
-    id: 301,
+    id: 299,
     name: 'Miralem Pjanic',
     country: 'Bośnia i Hercegowina',
     clubs: ['AS Roma', 'Juventus Turyn', 'Olympique Lyon', 'FC Metz', 'FC Barcelona', 'Besiktas JK'],
   },
   {
-    id: 302,
+    id: 300,
     name: 'Dimitri Payet',
     country: 'Fancja',
     clubs: ['Olympique Marseille', 'AS Saint-Étienne', 'LOSC Lille', 'FC Nantes'],
   },
   {
-    id: 303,
+    id: 301,
     name: 'Florian Thauvin',
     country: 'Francja',
     clubs: [
@@ -2883,7 +2871,7 @@ export const players = [
     ],
   },
   {
-    id: 304,
+    id: 302,
     name: 'Michy Batshuayi',
     country: 'Belgia',
     clubs: [
@@ -2898,67 +2886,67 @@ export const players = [
     ],
   },
   {
-    id: 305,
+    id: 303,
     name: 'César Azpilicueta',
     country: 'Hispzania',
     clubs: ['Chelsea FC', 'CA Osasuna', 'Olympique Marseille'],
   },
   {
-    id: 306,
+    id: 304,
     name: 'Kasper Schmeichel',
     country: 'Dania',
     clubs: ['Leicester City', 'Notts County', 'OGC Nice', 'Leeds United', 'FC Bury', 'Cardiff City', 'Manchester City'],
   },
   {
-    id: 307,
+    id: 305,
     name: 'Marcin Bulka',
     country: 'Polska',
     clubs: ['OGC Nice', 'LB Châteauroux', 'FC Cartagena', 'FC Paris Saint-Germain'],
   },
   {
-    id: 308,
+    id: 306,
     name: 'Nicolas Pépé',
     country: 'Wybrzeże kości słoniowej',
     clubs: ['FC Arsenal', 'LOSC Lille', 'Angers SCO', 'US Orléans', 'OGC Nice'],
   },
   {
-    id: 309,
+    id: 307,
     name: 'Aaron Ramsey',
     country: 'Walia',
     clubs: ['FC Arsenal', 'Juventus Turyn', 'OGC Nice', 'Cardiff City', 'Glasgow Rangers', 'Nottingham Forest'],
   },
   {
-    id: 310,
+    id: 308,
     name: 'Alexandre Lacazette',
     country: 'Francja',
     clubs: ['Olympique Lyon', 'FC Arsenal'],
   },
   {
-    id: 311,
+    id: 309,
     name: 'Corentin Tolisso',
     country: 'Francja',
     clubs: ['Olympique Lyon', 'Bayern Monachium'],
   },
   {
-    id: 312,
+    id: 310,
     name: 'Nicolás Tagliafico',
     country: 'Argentyna',
     clubs: ['Ajax Amsterdam', 'CA Independiente', 'Olympique Lyon', 'Real Murcia CF'],
   },
   {
-    id: 313,
+    id: 311,
     name: 'Jérôme Boateng',
     country: 'Niemcy',
     clubs: ['Bayern Monachium', 'Hamburger SV', 'Olympique Lyon', 'Manchester City', 'Hertha BSC'],
   },
   {
-    id: 314,
+    id: 312,
     name: 'Moussa Dembélé',
     country: 'Francja',
     clubs: ['Olympique Lyon', 'Celtic Glasgow', 'FC Fulham', 'Atlético Madryt'],
   },
   {
-    id: 315,
+    id: 313,
     name: 'Piotr Swierczewski',
     country: 'Polska',
     clubs: [
@@ -2976,19 +2964,19 @@ export const players = [
     ],
   },
   {
-    id: 316,
+    id: 314,
     name: 'Dariusz Dudka',
     country: 'Polska',
     clubs: ['Wisła Kraków', 'AJ Auxerre', 'Amica Wronki', 'Lech Poznań', 'Levante UD', 'Birmingham City'],
   },
   {
-    id: 317,
+    id: 315,
     name: 'Tomasz Klos',
     country: 'Polska',
     clubs: ['ŁKS Łódź', 'Wisła Kraków', 'AJ Auxerre', '1.FC Kaiserslautern', '1.FC Köln'],
   },
   {
-    id: 318,
+    id: 316,
     name: 'Roman Kosecki',
     country: 'Polska',
     clubs: [
@@ -3002,7 +2990,7 @@ export const players = [
     ],
   },
   {
-    id: 319,
+    id: 317,
     name: 'Tomasz Frankowski',
     country: 'Polska',
     clubs: [
@@ -3018,7 +3006,7 @@ export const players = [
     ],
   },
   {
-    id: 320,
+    id: 318,
     name: 'Mariusz Stepinski',
     country: 'Polska',
     clubs: [
@@ -3033,7 +3021,7 @@ export const players = [
     ],
   },
   {
-    id: 321,
+    id: 319,
     name: 'Marcin Kuzba',
     country: 'Polska',
     clubs: [
@@ -3046,25 +3034,25 @@ export const players = [
     ],
   },
   {
-    id: 322,
+    id: 320,
     name: 'Andrzej Szarmach',
     country: 'Polska',
     clubs: ['AJ Auxerre', 'Górnik Zabrze', 'Stal Mielec', 'EA Guingamp'],
   },
   {
-    id: 323,
+    id: 321,
     name: 'Ismaily',
     country: 'Brazylia',
     clubs: ['Szachtar Donieck', 'SC Ollanęs', 'LOSC Lille', 'GD Estoril Praia', 'SC Braga'],
   },
   {
-    id: 324,
+    id: 322,
     name: 'Adam Ounas',
     country: 'Algieria',
     clubs: ['SSC Napoli', 'FC Girondins Bordeaux', 'LOSC Lille', 'OGC Nice', 'FC Crotone', 'Cagliari Calcio'],
   },
   {
-    id: 325,
+    id: 323,
     name: 'Adam Buksa',
     country: 'Polska',
     clubs: [
@@ -3077,19 +3065,19 @@ export const players = [
     ],
   },
   {
-    id: 326,
+    id: 324,
     name: 'Jean Onana',
     country: 'Kamerun',
     clubs: ['Royal Excel Mouscron', 'FC Girondins Bordeaux', 'RC Lens', 'LOSC Lille'],
   },
   {
-    id: 327,
+    id: 325,
     name: 'Brice Samba',
     country: 'Francja',
     clubs: ['SM Caen', 'Nottingham Forest', 'RC Lens', 'AS Nancy-Lorraine', 'Olympique Marseille', 'AC Le Havre'],
   },
   {
-    id: 328,
+    id: 326,
     name: 'Mateusz Lis',
     country: 'Polska',
     clubs: [
@@ -3102,55 +3090,55 @@ export const players = [
     ],
   },
   {
-    id: 329,
+    id: 327,
     name: 'Michal Karbownik',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'Fortuna Düsseldorf', 'Olympiakos Pireus', 'Brighton & Hove Albion'],
   },
   {
-    id: 330,
+    id: 328,
     name: 'Sebastian Szymanski',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'Dynamo Moskwa', 'Feyenoord Rotterdam'],
   },
   {
-    id: 331,
+    id: 329,
     name: 'Ondrej Duda',
     country: 'Polska',
     clubs: ['Legia Warszawa', '1.FC Köln', 'Hertha BSC', 'FC VSS Kosice', 'Hellas Verona', 'Norwich City'],
   },
   {
-    id: 332,
+    id: 330,
     name: 'Jaroslaw Niezgoda',
     country: 'Polska',
     clubs: ['Portland Timbers', 'Wisła Puławy', 'Legia Warszawa', 'Ruch Chorzów'],
   },
   {
-    id: 333,
+    id: 331,
     name: 'Wojciech Kowalczyk',
     country: 'Polska',
     clubs: ['Real Betis Balompié', 'Legia Warszawa', 'UD Las Palmas', 'Anorthosis Famagusta', 'APOEL Nikosia'],
   },
   {
-    id: 334,
+    id: 332,
     name: 'Marcin Komorowski',
     country: 'Polska',
     clubs: ['Akhmat Grozny', 'Legia Warszawa', 'Polonia Bytom', 'ŁKS Łódź', 'Zagłębie Sosnowiec', 'GKS Bełchatów'],
   },
   {
-    id: 335,
+    id: 333,
     name: 'Bartosz Karwan',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'GKS Katowice', 'Arka Gdynia', 'Hertha BSC'],
   },
   {
-    id: 336,
+    id: 334,
     name: 'Roger Guerreiro',
     country: 'Polska',
     clubs: ['Legia Warszawa', 'AEK Ateny', 'Sport Club Corinthians Paulista', 'Aris Limassol', 'Celta de Vigo'],
   },
   {
-    id: 337,
+    id: 335,
     name: 'Maciej Iwanski',
     country: 'Polska',
     clubs: [
@@ -3164,7 +3152,7 @@ export const players = [
     ],
   },
   {
-    id: 338,
+    id: 336,
     name: 'Jakub Kosecki',
     country: 'Polska',
     clubs: [
@@ -3179,7 +3167,7 @@ export const players = [
     ],
   },
   {
-    id: 339,
+    id: 337,
     name: 'Maciej Korzym',
     country: 'Polska',
     clubs: [
@@ -3193,37 +3181,37 @@ export const players = [
     ],
   },
   {
-    id: 340,
+    id: 338,
     name: 'Adam Fraczczak',
     country: 'Polska',
     clubs: ['Pogoń Szczecin', 'Korona Kielce', 'Ząbkovia Ząbki', 'Kotwica Kołobrzeg'],
   },
   {
-    id: 341,
+    id: 339,
     name: 'Piotr Reiss',
     country: 'Polska',
     clubs: ['Lech Poznań', 'Warta Poznań', 'MSV Duisburg', 'Hertha BSC', 'SpVgg Greuther Fürth'],
   },
   {
-    id: 342,
+    id: 340,
     name: 'Bartosz Bosacki',
     country: 'Polska',
     clubs: ['Lech Poznań', 'Amica Wronki', '1.FC Nürnberg'],
   },
   {
-    id: 343,
+    id: 341,
     name: 'Miroslaw Szymkowiak',
     country: 'Polska',
     clubs: ['Widzew Łódź', 'Wisła Kraków', 'Trabzonspor'],
   },
   {
-    id: 344,
+    id: 342,
     name: 'Patryk Malecki',
     country: 'Polska',
     clubs: ['Wisła Kraków', 'Zagłębie Sosnowiec', 'Stal Rzeszów', 'Pogoń Szczecin', 'Spartak Trnava', 'Eskisehirspor'],
   },
   {
-    id: 345,
+    id: 343,
     name: 'Kamil Kosowski',
     country: 'Polska',
     clubs: [
@@ -3239,7 +3227,7 @@ export const players = [
     ],
   },
   {
-    id: 346,
+    id: 344,
     name: 'Adam Kokoszka',
     country: 'Polska',
     clubs: [
@@ -3253,7 +3241,7 @@ export const players = [
     ],
   },
   {
-    id: 347,
+    id: 345,
     name: 'Lukas Klemenz',
     country: 'Polska',
     clubs: [
@@ -3266,7 +3254,7 @@ export const players = [
     ],
   },
   {
-    id: 348,
+    id: 346,
     name: 'Andrzej Niedzielan',
     country: 'Polska',
     clubs: [
@@ -3281,7 +3269,7 @@ export const players = [
     ],
   },
   {
-    id: 349,
+    id: 347,
     name: 'Adrian Mierzejewski',
     country: 'Polska',
     clubs: [
@@ -3294,31 +3282,31 @@ export const players = [
     ],
   },
   {
-    id: 350,
+    id: 348,
     name: 'Zbigniew Boniek',
     country: 'Polska',
     clubs: ['Juventus Turyn', 'AS Roma', 'Widzew Łódź'],
   },
   {
-    id: 351,
+    id: 349,
     name: 'Wojciech Golla',
     country: 'Polska',
     clubs: ['NEC Nijmegen', 'Śląsk Wrocław', 'Pogoń Szczecin'],
   },
   {
-    id: 352,
+    id: 350,
     name: 'Filip Bednarek',
     country: 'Polska',
     clubs: ['Lech Poznań', 'De Graafschap Doetinchem', 'SC Heerenveen', 'FC Twente Enschede'],
   },
   {
-    id: 353,
+    id: 351,
     name: 'Arkadiusz Radomski',
     country: 'Polska',
     clubs: ['SC Heerenveen', 'FK Austria Wiedeń', 'NEC Nijmegen', 'Cracovia'],
   },
   {
-    id: 354,
+    id: 352,
     name: 'Tomasz Iwan',
     country: 'Polska',
     clubs: [
@@ -3331,13 +3319,13 @@ export const players = [
     ],
   },
   {
-    id: 355,
+    id: 353,
     name: 'Włodzimierz Smolarek',
     country: 'Polska',
     clubs: ['FC Utrecht', 'Eintracht Frankfurt', 'Feyenoord Rotterdam', 'Widzew Łódź'],
   },
   {
-    id: 356,
+    id: 354,
     name: 'Pawel Kieszek',
     country: 'Polska',
     clubs: [
@@ -3354,19 +3342,19 @@ export const players = [
     ],
   },
   {
-    id: 357,
+    id: 355,
     name: 'Jan Urban',
     country: 'Polska',
     clubs: ['CA Osasuna', 'Górnik Zabrze', 'VfB Oldenburg', 'Real Valladolid CF'],
   },
   {
-    id: 358,
+    id: 356,
     name: 'Cezary Wilk',
     country: 'Polska',
     clubs: ['Wisła Kraków', 'Korona Kielce', 'Deportivo de La Coruña', 'ŁKS Łódź', 'Real Zaragoza'],
   },
   {
-    id: 359,
+    id: 357,
     name: 'Lumir Sedlacek',
     country: 'Czechy',
     clubs: [
@@ -3381,13 +3369,13 @@ export const players = [
     ],
   },
   {
-    id: 360,
+    id: 358,
     name: 'Alberto Cifuentes',
     country: 'Hiszpania',
     clubs: ['Cádiz CF', 'Real Murcia CF', 'Piast Gliwice', 'Rayo Vallecano'],
   },
   {
-    id: 361,
+    id: 359,
     name: 'Collins John',
     country: 'Holandia',
     clubs: [
@@ -3403,37 +3391,37 @@ export const players = [
     ],
   },
   {
-    id: 362,
+    id: 360,
     name: 'Rubén Jurado',
     country: 'Hiszpania',
     clubs: ['Piast Gliwice', 'Atlético Baleares', 'AEL Limassol', 'Arka Gdynia'],
   },
   {
-    id: 363,
+    id: 361,
     name: 'Mikkel Kirkeskov',
     country: 'Dania',
     clubs: ['Aarhus GF', 'Aalesunds FK', 'Piast Gliwice', 'Holstein Kiel', 'Odense Boldklub'],
   },
   {
-    id: 364,
+    id: 362,
     name: 'Wilde-Donald Guerrier',
     country: 'Haiti',
     clubs: ['Qarabağ FK', 'Wisła Kraków', 'Alanyaspor', 'Olympiakos Nikosia', 'Neftchi Baku', 'Apollon Limassol'],
   },
   {
-    id: 365,
+    id: 363,
     name: 'Kalu Uche',
     country: 'Nigeria',
     clubs: ['UD Almería', 'Wisła Kraków', 'FC Girondins Bordeaux', 'Kasimpasa', 'Levante UD', 'RCD Espanyol'],
   },
   {
-    id: 366,
+    id: 364,
     name: 'Petar Brlek',
     country: 'Chorwacja',
     clubs: ['Slaven Belupo Koprivnica', 'Wisła Kraków', 'Genoa CFC'],
   },
   {
-    id: 367,
+    id: 365,
     name: 'Marcelo',
     country: 'Brazylia',
     clubs: [
@@ -3447,25 +3435,25 @@ export const players = [
     ],
   },
   {
-    id: 368,
+    id: 366,
     name: 'Pedro Tiba',
     country: 'Portugalia',
     clubs: ['Lech Poznań', 'SC Braga', 'GD Chaves', 'Gil Vicente FC', 'Real Valladolid CF'],
   },
   {
-    id: 369,
+    id: 367,
     name: 'Gergő Lovrencsics',
     country: 'Wegry',
     clubs: ['Ferencvárosi TC', 'Lech Poznań', 'HNK Hajduk Split'],
   },
   {
-    id: 370,
+    id: 368,
     name: 'Paulus Arajuuri',
     country: 'Finlandia',
     clubs: ['Bröndby IF', 'Lech Poznań', 'Kalmar FF', 'HJK Helsinki'],
   },
   {
-    id: 371,
+    id: 369,
     name: 'Barry Douglas',
     country: 'Szkocja',
     clubs: [
@@ -3479,73 +3467,73 @@ export const players = [
     ],
   },
   {
-    id: 372,
+    id: 370,
     name: 'Joel Tshibamba',
     country: 'Demokratyczna Republika Kongo',
     clubs: ['AE Larisa', 'Lech Poznań', 'NEC Nijmegen', 'Arka Gdynia', 'FC Koper'],
   },
   {
-    id: 373,
+    id: 371,
     name: 'Darko Jevtic',
     country: 'Szwajcaria',
     clubs: ['Lech Poznań', 'Rubin Kazań', 'AEK Ateny'],
   },
   {
-    id: 374,
+    id: 372,
     name: 'Sergey Krivets',
     country: 'Białoruś',
     clubs: ['BATE Borysów', 'Lech Poznań', 'Dynamo Brest', 'FC Metz', 'Wisła Płock', 'Arka Gdynia'],
   },
   {
-    id: 375,
+    id: 373,
     name: 'Abdul-Aziz Tetteh',
     country: 'Ghana',
     clubs: ['Lech Poznań', 'AO Platanias', 'Dynamo Moskwa', 'CD Leganés', 'Widzew Łódź', 'Gaziantep FK', 'Granada CF'],
   },
   {
-    id: 376,
+    id: 374,
     name: 'Tamás Kádár',
     country: 'Wegry',
     clubs: ['Dynamo Kijów', 'Lech Poznań', 'Newcastle United', 'Huddersfield Town'],
   },
   {
-    id: 377,
+    id: 375,
     name: 'Aleksandar Tonev',
     country: 'Bułgaria',
     clubs: ['Lech Poznań', 'CSKA-Sofia', 'FC Crotone', 'Frosinone Calcio', 'Aston Villa', 'Celtic Glasgow'],
   },
   {
-    id: 378,
+    id: 376,
     name: 'Artjoms Rudnevs',
     country: 'Łotwa',
     clubs: ['Hamburger SV', 'Lech Poznań', '1.FC Köln', 'Hannover 96'],
   },
   {
-    id: 379,
+    id: 377,
     name: 'Steeven Langil',
     country: 'Martynika',
     clubs: ['Ratchaburi FC', 'AJ Auxerre', 'SK Beveren', 'NEC Nijmegen', 'Legia Warszawa'],
   },
   {
-    id: 380,
+    id: 378,
     name: 'Henrik Ojamaa',
     country: 'Estonia',
     clubs: ['FC Flora Tallinn', 'Motherwell FC', 'Legia Warszawa', 'Miedź Legnica', 'Widzew Łódź', 'HNK Gorica'],
   },
   {
-    id: 381,
+    id: 379,
     name: 'André Martins',
     country: 'Portugalia',
     clubs: ['Legia Warszawa', 'Sporting CP', 'Olympiakos Pireus', 'Hapoel Beer Sheva', 'CF Os Belenenses'],
   },
   {
-    id: 382,
+    id: 380,
     name: 'Aleksandar Vukovic',
     country: 'Serbia',
     clubs: ['Legia Warszawa', 'Korona Kielce', 'Iraklis Saloniki', 'GS Ergotelis', 'FK Partizan Belgrad'],
   },
   {
-    id: 383,
+    id: 381,
     name: 'Danijel Ljuboja',
     country: 'Serbia',
     clubs: [
@@ -3562,7 +3550,7 @@ export const players = [
     ],
   },
   {
-    id: 384,
+    id: 382,
     name: 'Vladimer Dvalishvili',
     country: 'Gruzja',
     clubs: [
@@ -3579,7 +3567,7 @@ export const players = [
     ],
   },
   {
-    id: 385,
+    id: 383,
     name: 'Adam Hlousek',
     country: 'Czechy',
     clubs: [
@@ -3594,19 +3582,19 @@ export const players = [
     ],
   },
   {
-    id: 386,
+    id: 384,
     name: 'Arvydas Novikovas',
     country: 'Litwa',
     clubs: ['Jagiellonia Białystok', 'Legia Warszawa', 'VfL Bochum', 'amsunspor'],
   },
   {
-    id: 387,
+    id: 385,
     name: 'Dossa Júnior',
     country: 'Cypr',
     clubs: ['AEL Limassol', 'Legia Warszawa', 'AE Pafos', 'Digenis Akritas Morfou', 'Eskisehirspor', 'Konyaspor'],
   },
   {
-    id: 388,
+    id: 386,
     name: 'Cafú',
     country: 'Portugalia',
     clubs: [
@@ -3619,7 +3607,7 @@ export const players = [
     ],
   },
   {
-    id: 389,
+    id: 387,
     name: 'Armando Sadiku',
     country: 'Albania',
     clubs: [
@@ -3634,7 +3622,7 @@ export const players = [
     ],
   },
   {
-    id: 390,
+    id: 388,
     name: 'Thibault Moulin',
     country: 'Francja',
     clubs: [
@@ -3650,7 +3638,7 @@ export const players = [
     ],
   },
   {
-    id: 391,
+    id: 389,
     name: 'Orlando Sá',
     country: 'Portugalia',
     clubs: [
@@ -3667,7 +3655,7 @@ export const players = [
     ],
   },
   {
-    id: 392,
+    id: 390,
     name: 'Vadis Odjidja-Ofoe',
     country: 'Belgia',
     clubs: [
@@ -3681,7 +3669,7 @@ export const players = [
     ],
   },
   {
-    id: 393,
+    id: 391,
     name: 'Aleksandar Prijovic',
     country: 'Serbia',
     clubs: [
@@ -3696,13 +3684,13 @@ export const players = [
     ],
   },
   {
-    id: 394,
+    id: 392,
     name: 'Josip Juranovic',
     country: 'Chorwacja',
     clubs: ['HNK Hajduk Split', 'Celtic Glasgow', 'Legia Warszawa', '1.FC Union Berlin'],
   },
   {
-    id: 395,
+    id: 393,
     name: 'Nemanja Nikolics',
     country: 'Węgry',
     clubs: [
@@ -3715,13 +3703,13 @@ export const players = [
     ],
   },
   {
-    id: 396,
+    id: 394,
     name: 'Saïd Hamulic',
     country: 'Bosnia i Hercegowina',
     clubs: ['DFK Dainava Alytus', 'Stal Mielec', 'FK Suduva Marijampole', 'FC Toulouse'],
   },
   {
-    id: 397,
+    id: 395,
     name: 'Vito Mannone',
     country: 'Włochy',
     clubs: [
@@ -3737,181 +3725,181 @@ export const players = [
     ],
   },
   {
-    id: 398,
+    id: 396,
     name: 'Julian Pollersbeck',
     country: 'Niemcy',
     clubs: ['Hamburger SV', '1.FC Kaiserslautern', 'Olympique Lyon'],
   },
   {
-    id: 399,
+    id: 397,
     name: 'Yvon Mvogo',
     country: 'Szwajcaria',
     clubs: ['BSC Young Boys', 'PSV Eindhoven', 'FC Lorient', 'RasenBallsport Leipzig'],
   },
   {
-    id: 400,
+    id: 398,
     name: 'Romain Faivre',
     country: 'Francja',
     clubs: ['Stade Brestois 29', 'FC Lorient', 'Olympique Lyon', 'AS Monaco'],
   },
   {
-    id: 401,
+    id: 399,
     name: 'Siriné Doucouré',
     country: 'Francja',
     clubs: ['FC Lorient', 'LB Châteauroux'],
   },
   {
-    id: 402,
+    id: 400,
     name: 'Folarin Balogun',
     country: 'USA',
     clubs: ['Stade Reims', 'FC Middlesbrough', 'FC Arsenal'],
   },
   {
-    id: 403,
+    id: 401,
     name: 'Lucas Perrin',
     country: 'Francja',
     clubs: ['RC Strasbourg Alsace', 'Olympique Marseille'],
   },
   {
-    id: 404,
+    id: 402,
     name: 'Colin Dagba',
     country: 'Francja',
     clubs: ['FC Paris Saint-Germain', 'RC Strasbourg Alsace'],
   },
   {
-    id: 405,
+    id: 403,
     name: 'Frédéric Guilbert',
     country: 'Francja',
     clubs: ['SM Caen', 'RC Strasbourg Alsace', 'FC Girondins Bordeaux', 'Aston Villa'],
   },
   {
-    id: 406,
+    id: 404,
     name: 'Bingourou Kamara',
     country: 'Senegal',
     clubs: ['Tours FC', 'RC Strasbourg Alsace', 'RSC Charleroi', 'Montpellier HSC'],
   },
   {
-    id: 407,
+    id: 405,
     name: 'Kiki Kouyaté',
     country: 'Mali',
     clubs: ['FC Metz', 'ESTAC Troyes', 'Kawkab Marrakech', 'Montpellier HSC'],
   },
   {
-    id: 408,
+    id: 406,
     name: 'Florent Mollet',
     country: 'Francja',
     clubs: ['Montpellier HSC', 'Dijon FCO', 'FC Metz', 'US Créteil-Lusitanos', 'FC Nantes', 'FC Schalke 04'],
   },
   {
-    id: 409,
+    id: 407,
     name: 'Moussa Sissoko',
     country: 'Francja',
     clubs: ['FC Toulouse', 'Tottenham Hotspur', 'Newcastle United', 'FC Nantes', 'FC Watford'],
   },
   {
-    id: 410,
+    id: 408,
     name: 'Memphis Depay',
     country: 'Holandia',
     clubs: ['Olympique Lyon', 'PSV Eindhoven', 'Manchester United', 'FC Barcelona', 'Atlético Madryt'],
   },
   {
-    id: 411,
+    id: 409,
     name: 'Axel Witsel',
     country: 'Belgia',
     clubs: ['Standard Liège', 'Zenit Petersburg', 'Borussia Dortmund', 'Benfika Lizbona', 'Atlético Madryt'],
   },
   {
-    id: 412,
+    id: 410,
     name: 'Matt Doherty',
     country: 'Irlandia',
     clubs: ['Wolverhampton Wanderers', 'Tottenham Hotspur', 'FC Bury', 'Hibernian FC', 'Atlético Madryt'],
   },
   {
-    id: 413,
+    id: 411,
     name: 'Sergio Reguilón',
     country: 'Hiszpania',
     clubs: ['UD Logroñés', 'Tottenham Hotspur', 'Sevilla FC', 'Real Madryt', 'Atlético Madryt'],
   },
   {
-    id: 414,
+    id: 412,
     name: 'Álvaro Morata',
     country: 'Hiszpania',
     clubs: ['Juventus Turyn', 'Chelsea FC', 'Real Madryt', 'Atlético Madryt'],
   },
   {
-    id: 415,
+    id: 413,
     name: 'Saúl Ñíguez',
     country: 'Hiszpania',
     clubs: ['Rayo Vallecano', 'Chelsea FC', 'Atlético Madryt'],
   },
   {
-    id: 416,
+    id: 414,
     name: 'Isco',
     country: 'Hiszpania',
     clubs: ['Málaga CF', 'Real Madryt', 'Sevilla FC', 'Valencia CF'],
   },
   {
-    id: 417,
+    id: 415,
     name: 'Alex Telles',
     country: 'Brazylia',
     clubs: ['FC Porto', 'Galatasaray', 'Manchester United', 'Grêmio Porto Alegre', 'Sevilla FC', 'Inter Mediolan'],
   },
   {
-    id: 418,
+    id: 416,
     name: 'Mats Hummels',
     country: 'Niemcy',
     clubs: ['Borussia Dortmund', 'Bayern Monachium'],
   },
   {
-    id: 419,
+    id: 417,
     name: 'Leroy Sane',
     country: 'Niemcy',
     clubs: ['Manchester City', 'Bayern Monachium', 'FC Schalke 04'],
   },
   {
-    id: 420,
+    id: 418,
     name: 'Serge Gnabry',
     country: 'Niemcy',
     clubs: ['SV Werder Bremen', 'Bayern Monachium', 'TSG 1899 Hoffenheim', 'FC Arsenal', 'West Bromwich Albion'],
   },
   {
-    id: 421,
+    id: 419,
     name: 'Kingsley Coman',
     country: 'Francja',
     clubs: ['Bayern Monachium', 'Juventus Turyn', 'FC Paris Saint-Germain'],
   },
   {
-    id: 422,
+    id: 420,
     name: 'Matthijs de Ligt',
     country: 'Holandia',
     clubs: ['Bayern Monachium', 'Juventus Turyn', 'Ajax Amsterdam'],
   },
   {
-    id: 423,
+    id: 421,
     name: 'Dayot Upamecano',
     country: 'Francja',
     clubs: ['RasenBallsport Leipzig', 'Bayern Monachium', 'Red Bull Salzburg', 'FC Liefering'],
   },
   {
-    id: 424,
+    id: 422,
     name: 'Yann Sommer',
     country: 'Szwajcaria',
     clubs: ['Borussia Mönchengladbach', 'FC Basel 1893', 'FC Vaduz', 'Grasshopper Club Zurych', 'Bayern Monachium'],
   },
   {
-    id: 425,
+    id: 423,
     name: 'Davie Selke',
     country: 'Niemcy',
     clubs: ['Hertha BSC', 'SV Werder Bremen', 'RasenBallsport Leipzig', '1.FC Köln'],
   },
   {
-    id: 426,
+    id: 424,
     name: 'Nadiem Amiri',
     country: 'Niemcy',
     clubs: ['Bayer 04 Leverkusen', 'TSG 1899 Hoffenheim', 'Genoa CFC'],
   },
   {
-    id: 427,
+    id: 425,
     name: 'Tomasz Hajto',
     country: 'Polska',
     clubs: [
@@ -3925,7 +3913,7 @@ export const players = [
     ],
   },
   {
-    id: 428,
+    id: 426,
     name: 'Gonzalo Higuaín',
     country: 'Argentyna',
     clubs: [
@@ -3939,7 +3927,7 @@ export const players = [
     ],
   },
   {
-    id: 429,
+    id: 427,
     name: 'Zlatan Ibrahimović',
     country: 'Szwecja',
     clubs: [
@@ -3955,7 +3943,7 @@ export const players = [
     ],
   },
   {
-    id: 430,
+    id: 428,
     name: 'Olivier Giroud',
     country: 'Francja',
     clubs: [
@@ -3969,25 +3957,25 @@ export const players = [
     ],
   },
   {
-    id: 431,
+    id: 429,
     name: 'Sergiño Dest',
     country: 'USA',
     clubs: ['FC Barcelona', 'Ajax Amsterdam', 'AC Milan'],
   },
   {
-    id: 432,
+    id: 430,
     name: 'Leonardo Bonucci',
     country: 'Włochy',
     clubs: ['Juventus Turyn', 'AC Milan', 'Treviso FBC 1993', 'SSC Bari', 'Pisa Sporting Club', 'Inter Mediolan'],
   },
   {
-    id: 433,
+    id: 431,
     name: 'Ronaldinho',
     country: 'Brazylia',
     clubs: ['FC Barcelona', 'AC Milan', 'FC Paris Saint-Germain', 'Flamengo Rio de Janeiro'],
   },
   {
-    id: 434,
+    id: 432,
     name: 'Mario Balotelli',
     country: 'Włochy',
     clubs: [
@@ -4003,37 +3991,37 @@ export const players = [
     ],
   },
   {
-    id: 435,
+    id: 433,
     name: 'Sadio Mané',
     country: 'Senegal',
     clubs: ['FC Liverpool', 'Red Bull Salzburg', 'FC Southampton', 'Bayern Monachium', 'FC Metz'],
   },
   {
-    id: 436,
+    id: 434,
     name: 'Gareth Bale',
     country: 'Walia',
     clubs: ['Real Madryt', 'Tottenham Hotspur', 'FC Southampton', 'Los Angeles FC'],
   },
   {
-    id: 437,
+    id: 435,
     name: 'Theo Walcott',
     country: 'Anglia',
     clubs: ['FC Arsenal', 'FC Everton', 'FC Southampton'],
   },
   {
-    id: 438,
+    id: 436,
     name: 'Roberto Firmino',
     country: 'Brayzlia',
     clubs: ['FC Liverpool', 'TSG 1899 Hoffenheim', 'Figueirense Futebol Clube'],
   },
   {
-    id: 439,
+    id: 437,
     name: 'Fabián Ruiz',
     country: 'Hiszpania',
     clubs: ['SSC Napoli', 'Real Betis Balompié', 'FC Paris Saint-Germain', 'Elche CF'],
   },
   {
-    id: 440,
+    id: 438,
     name: 'Eduardo Vargas',
     country: 'Chile',
     clubs: [
@@ -4046,7 +4034,7 @@ export const players = [
     ],
   },
   {
-    id: 441,
+    id: 439,
     name: 'Giovani Lo Celso',
     country: 'Argentyna',
     clubs: [
@@ -4058,19 +4046,19 @@ export const players = [
     ],
   },
   {
-    id: 442,
+    id: 440,
     name: 'Junior Firpo',
     country: 'Hiszpania',
     clubs: ['Leeds United', 'Real Betis Balompié', 'FC Barcelona'],
   },
   {
-    id: 443,
+    id: 441,
     name: 'Dani Ceballos',
     country: 'Hiszpania',
     clubs: ['Real Madryt', 'Real Betis Balompié', 'FC Arsenal'],
   },
   {
-    id: 444,
+    id: 442,
     name: 'Dani Pacheco',
     country: 'Hiszpania',
     clubs: [
@@ -4089,31 +4077,31 @@ export const players = [
     ],
   },
   {
-    id: 445,
+    id: 443,
     name: 'Erling Haaland',
     country: 'Norwegia',
     clubs: ['Borussia Dortmund', 'Manchester City', 'Molde FK', 'Red Bull Salzburg'],
   },
   {
-    id: 446,
+    id: 444,
     name: 'Enzo Fernández',
     country: 'Argentyna',
     clubs: ['CA River Plate', 'Benfika Lizbona', 'Chelsea FC'],
   },
   {
-    id: 447,
+    id: 445,
     name: 'Casemiro',
     country: 'Brazylia',
     clubs: ['Real Madryt', 'FC Sao Paulo', 'Manchester United', 'FC Porto'],
   },
   {
-    id: 448,
+    id: 446,
     name: 'Raheem Sterling',
     country: 'Anglia',
     clubs: ['Manchester City', 'FC Liverpool', 'Chelsea FC'],
   },
   {
-    id: 449,
+    id: 447,
     name: 'Romelu Lukaku',
     country: 'Belgia',
     clubs: [
@@ -4126,13 +4114,13 @@ export const players = [
     ],
   },
   {
-    id: 450,
+    id: 448,
     name: 'Sadio Mané',
     country: 'Senegal',
     clubs: ['FC Liverpool', 'Red Bull Salzburg', 'FC Southampton', 'Bayern Monachium', 'FC Metz'],
   },
   {
-    id: 451,
+    id: 449,
     name: 'João Cancelo',
     country: 'Portugalia',
     clubs: [
@@ -4145,73 +4133,73 @@ export const players = [
     ],
   },
   {
-    id: 452,
+    id: 450,
     name: 'Cody Gakpo',
     country: 'Holandia',
     clubs: ['PSV Eindhoven', 'FC Liverpool'],
   },
   {
-    id: 453,
+    id: 451,
     name: 'Raphinha',
     country: 'Brazylia',
     clubs: ['Vitoria Guimarães SC', 'Leeds United', 'FC Barcelona', 'Sporting CP', 'Stade Rennais FC'],
   },
   {
-    id: 454,
+    id: 452,
     name: 'Gabriel Jesus',
     country: 'Brazylia',
     clubs: ['Manchester City', 'Sociedade Esportiva Palmeiras', 'FC Arsenal'],
   },
   {
-    id: 455,
+    id: 453,
     name: 'Anthony Gordon',
     country: 'Anglia',
     clubs: ['FC Everton', 'Newcastle United', 'Preston North End'],
   },
   {
-    id: 456,
+    id: 454,
     name: 'Diego Carlos',
     country: 'Brazylia',
     clubs: ['Sevilla FC', 'FC Nantes', 'GD Estoril Praia', 'Aston Villa'],
   },
   {
-    id: 457,
+    id: 455,
     name: 'Gonçalo Guedes',
     country: 'Portugalia',
     clubs: ['Valencia CF', 'Benfika Lizbona', 'Wolverhampton Wanderers', 'FC Paris Saint-Germain'],
   },
   {
-    id: 458,
+    id: 456,
     name: 'Brenden Aaronson',
     country: 'USA',
     clubs: ['Red Bull Salzburg', 'Philadelphia Union', 'Leeds United'],
   },
   {
-    id: 459,
+    id: 457,
     name: 'Paul Pogba',
     country: 'Francja',
     clubs: ['Manchester United', 'Juventus Turyn'],
   },
   {
-    id: 460,
+    id: 458,
     name: 'Paulo Dybala',
     country: 'Argentyna',
     clubs: ['Palermo FC', 'Juventus Turyn', 'AS Roma'],
   },
   {
-    id: 461,
+    id: 459,
     name: 'Nicolò Zaniolo',
     country: 'Włochy',
     clubs: ['Galatasaray', 'AS Roma'],
   },
   {
-    id: 462,
+    id: 460,
     name: 'Luka Jovic',
     country: 'Serbia',
     clubs: ['Eintracht Frankfurt', 'Real Madryt', 'AC Fiorentina', 'Crvena Zvezda Belgrad'],
   },
   {
-    id: 463,
+    id: 461,
     name: 'Ricardo Quaresma',
     country: 'Portugalia',
     clubs: [
@@ -4225,25 +4213,25 @@ export const players = [
     ],
   },
   {
-    id: 464,
+    id: 462,
     name: 'Tim Borowski',
     country: 'Niemcy',
     clubs: ['SV Werder Bremen', 'Bayern Monachium'],
   },
   {
-    id: 465,
+    id: 463,
     name: 'Nuno Gomes',
     country: 'Portugalia',
     clubs: ['Benfika Lizbona', 'AC Fiorentina', 'SC Braga', 'Blackburn Rovers'],
   },
   {
-    id: 466,
+    id: 464,
     name: 'Ariel Ortega',
     country: 'Argentyna',
     clubs: ['CA River Plate', 'Valencia CF', 'UC Sampdoria', 'Parma Calcio 1913', 'Fenerbahce'],
   },
   {
-    id: 467,
+    id: 465,
     name: 'Robbie Keane',
     country: 'Irlandia',
     clubs: [
@@ -4260,7 +4248,7 @@ export const players = [
     ],
   },
   {
-    id: 468,
+    id: 466,
     name: 'Jermaine Pennant',
     country: 'Anglia',
     clubs: [
@@ -4278,7 +4266,7 @@ export const players = [
     ],
   },
   {
-    id: 469,
+    id: 467,
     name: 'Peter Crouch',
     country: 'Anglia',
     clubs: [
@@ -4294,7 +4282,7 @@ export const players = [
     ],
   },
   {
-    id: 470,
+    id: 468,
     name: 'Marcus Bent',
     country: 'Anglia',
     clubs: [
@@ -4314,7 +4302,7 @@ export const players = [
     ],
   },
   {
-    id: 471,
+    id: 469,
     name: 'Andy Cole',
     country: 'Anglia',
     clubs: [
@@ -4333,25 +4321,25 @@ export const players = [
     ],
   },
   {
-    id: 472,
+    id: 470,
     name: 'Ciro Immobile',
     country: 'Włochy',
     clubs: ['Lazio Rzym', 'Torino FC', 'Borussia Dortmund', 'Genoa CFC', 'Sevilla FC', 'Juventus Turyn'],
   },
   {
-    id: 473,
+    id: 471,
     name: 'Luca Pellegrini',
     country: 'Włochy',
     clubs: ['Cagliari Calcio', 'Juventus Turyn', 'Eintracht Frankfurt', 'Genoa CFC', 'Lazio Rzym', 'AS Roma'],
   },
   {
-    id: 474,
+    id: 472,
     name: 'Andrea Belotti',
     country: 'Włochy',
     clubs: ['Torino FC', 'Palermo FC', 'AS Roma'],
   },
   {
-    id: 475,
+    id: 473,
     name: 'Sébastien Haller',
     country: 'Wybrzeże Kości Słoniowej',
     clubs: [
@@ -4364,7 +4352,7 @@ export const players = [
     ],
   },
   {
-    id: 476,
+    id: 474,
     name: 'Chicharito',
     country: 'Meksyk',
     clubs: [
@@ -4378,13 +4366,13 @@ export const players = [
     ],
   },
   {
-    id: 477,
+    id: 475,
     name: 'Dimitri Payet',
     country: 'Francja',
     clubs: ['Olympique Marseille', 'AS Saint-Étienne', 'LOSC Lille', 'West Ham United', 'FC Nantes'],
   },
   {
-    id: 478,
+    id: 476,
     name: 'Carlos Tevez',
     country: 'Argentyna',
     clubs: [
@@ -4397,115 +4385,115 @@ export const players = [
     ],
   },
   {
-    id: 479,
+    id: 477,
     name: 'Robert Gumny',
     country: 'Polska',
     clubs: ['Lech Poznań', 'FC Augsburg', 'Podbeskidzie Bielsko-Biała'],
   },
   {
-    id: 480,
+    id: 478,
     name: 'Cristiano Ronaldo',
     country: 'Portugalia',
     clubs: ['Real Madryt', 'Manchester United', 'Juventus Turyn', 'Sporting CP', 'Al-Nassr FC'],
   },
   {
-    id: 481,
+    id: 479,
     name: 'Eden Hazard',
     country: 'Belgia',
     clubs: ['Chelsea FC', 'LOSC Lille', 'Real Madryt'],
   },
   {
-    id: 482,
+    id: 480,
     name: 'James Rodríguez',
     country: 'Kolumbia',
     clubs: ['Bayern Monachium', 'FC Porto', 'Real Madryt', 'AS Monaco', 'FC Everton', 'Olympiakos Pireus'],
   },
   {
-    id: 483,
+    id: 481,
     name: 'Thibaut Courtois',
     country: 'Belgia',
     clubs: ['Atlético Madryt', 'Chelsea FC', 'Real Madryt', 'KRC Genk'],
   },
   {
-    id: 484,
+    id: 482,
     name: 'Tyrone Mings',
     country: 'Anglia',
     clubs: ['Aston Villa', 'Ipswich Town', 'AFC Bournemouth'],
   },
   {
-    id: 485,
+    id: 483,
     name: 'Kieron Dyer',
     country: 'Anglia',
     clubs: ['Newcastle United', 'Ipswich Town', 'West Ham United', 'FC Middlesbrough', 'Queens Park Rangers'],
   },
   {
-    id: 486,
+    id: 484,
     name: 'Harry Clarke',
     country: 'Anglia',
     clubs: ['Oldham Athletic', 'Ipswich Town', 'Stoke City', 'Ross County FC'],
   },
   {
-    id: 487,
+    id: 485,
     name: 'Michal Koj',
     country: 'Polska',
     clubs: ['Górnik Zabrze', 'Ruch Chorzów', 'Korona Kielce', 'Puszcza Niepołomice'],
   },
   {
-    id: 488,
+    id: 486,
     name: 'Thiago',
     country: 'Brazylia',
     clubs: ['Cracovia', 'Sandecja Nowy Sącz', 'Puszcza Niepołomice'],
   },
   {
-    id: 489,
+    id: 487,
     name: 'Artur Siemaszko',
     country: 'Polska',
     clubs: ['Stomil Olsztyn', 'Arka Gdynia', 'Puszcza Niepołomice', 'GKS Tychy', 'Zagłębie Lubin'],
   },
   {
-    id: 490,
+    id: 488,
     name: 'Kamil Zapolnik',
     country: 'Polska',
     clubs: ['Miedź Legnica', 'Wigry Suwałki', 'Górnik Zabrze', 'Olimpia Zambrów', 'GKS Tychy', 'Puszcza Niepołomice'],
   },
   {
-    id: 491,
+    id: 489,
     name: 'Rafal Boguski',
     country: 'Polska',
     clubs: ['Wisła Kraków', 'GKS Bełchatów', 'Puszcza Niepołomice'],
   },
   {
-    id: 492,
+    id: 490,
     name: 'Dominik Frelek',
     country: 'Polska',
     clubs: ['Podbeskidzie Bielsko-Biała', 'Olimpia Grudziądz', 'Puszcza Niepołomice'],
   },
   {
-    id: 493,
+    id: 491,
     name: 'Maciej Domanski',
     country: 'Polska',
     clubs: ['Stal Mielec', 'Raków Częstochowa', 'Puszcza Niepołomice', 'Siarka Tarnobrzeg'],
   },
   {
-    id: 494,
+    id: 492,
     name: 'Pawel Moskwik',
     country: 'Polska',
     clubs: ['Znicz Pruszków', 'Motor Lublin', 'Puszcza Niepołomice', 'Piast Gliwice', 'Podbeskidzie Bielsko-Biała'],
   },
   {
-    id: 495,
+    id: 493,
     name: 'Roland Sallai',
     country: 'Węgry',
     clubs: ['SC Freiburg', 'Puskás Akadémia FC', 'APOEL Nikosia', 'Palermo FC'],
   },
   {
-    id: 496,
+    id: 494,
     name: 'Pascal Stenzel',
     country: 'Niemcy',
     clubs: ['VfB Stuttgart', 'SC Freiburg', 'Borussia Dortmund'],
   },
   {
-    id: 497,
+    id: 495,
     name: 'Marco Terrazzino',
     country: 'Niemcy',
     clubs: [
@@ -4519,37 +4507,37 @@ export const players = [
     ],
   },
   {
-    id: 498,
+    id: 496,
     name: 'Caglar Söyüncü',
     country: 'Turcja',
     clubs: ['Leicester City', 'SC Freiburg', 'Altinordu FK'],
   },
   {
-    id: 499,
+    id: 497,
     name: 'Baptiste Santamaria',
     country: 'Francja',
     clubs: ['Angers SCO', 'SC Freiburg', 'Tours FC', 'Stade Rennais FC'],
   },
   {
-    id: 500,
+    id: 498,
     name: 'Robin Koch',
     country: 'Niemcy',
     clubs: ['Leeds United', 'SC Freiburg', '1.FC Kaiserslautern', 'SV Eintracht Trier 05'],
   },
   {
-    id: 501,
+    id: 499,
     name: 'Papiss Cissé',
     country: 'Senegal',
     clubs: ['Newcastle United', 'SC Freiburg', 'FC Metz', 'Alanyaspor', 'Shandong Taishan', 'Amiens SC', 'Fenerbahce'],
   },
   {
-    id: 502,
+    id: 500,
     name: 'Oliver Baumann',
     country: 'Niemcy',
     clubs: ['TSG 1899 Hoffenheim', 'SC Freiburg'],
   },
   {
-    id: 503,
+    id: 501,
     name: 'Roman Bürki',
     country: 'Szwajcaria',
     clubs: [
@@ -4563,7 +4551,7 @@ export const players = [
     ],
   },
   {
-    id: 504,
+    id: 502,
     name: 'Ariel Borysiuk',
     country: 'Polska',
     clubs: [
@@ -4579,13 +4567,13 @@ export const players = [
     ],
   },
   {
-    id: 505,
+    id: 503,
     name: 'Ugo Ukah',
     country: 'Nigeria',
     clubs: ['Widzew Łódź', 'Jagiellonia Białystok', 'AEL Kalloni', 'Selangor FC', 'Queens Park Rangers'],
   },
   {
-    id: 506,
+    id: 504,
     name: 'Pawel Kryszalowicz',
     country: 'Polska',
     clubs: ['Amica Wronki', 'Eintracht Frankfurt', 'Wisła Kraków', 'SV Wilhelmshaven'],

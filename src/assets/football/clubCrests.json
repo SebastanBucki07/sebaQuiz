@@ -628,5 +628,25 @@
     "id": 126,
     "team": "Flota Świnoujście",
     "crest": "flotaswinoujscie"
+  },
+  {
+    "id": 127,
+    "team": "AEL Limassol",
+    "crest": "aellimassol"
+  },
+  {
+    "id": 128,
+    "team": "RSC Anderlecht",
+    "crest": "rscanderlecht"
+  },
+  {
+    "id": 129,
+    "team": "Charlton Athletic",
+    "crest": "charltonathletic"
+  },
+  {
+    "id": 130,
+    "team": "Puszcza Niepołomice",
+    "crest": "puszcza"
   }
 ]
