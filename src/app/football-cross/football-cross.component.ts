@@ -35,6 +35,7 @@ export class FootballCrossComponent implements OnInit {
   protected actualChar = ''
   protected end = false
   protected winner: any = {}
+  protected winnerExist = false
   protected board = [
     ['0', '1', '2'],
     ['0', '1', '2'],
@@ -68,7 +69,8 @@ export class FootballCrossComponent implements OnInit {
   }
 
   foundWinner(winner: string): Player | undefined {
-    return this.playerService.getPlayers().find((el) => el.name === winner)
+    const tmp = this.playerService.getPlayers().find((el) => el.name === winner)
+    return tmp
   }
 
   changeEnd(bool: boolean): void {
@@ -86,6 +88,7 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(0, 0, 'blocked')
       this.setCharInBoard(0, 1, 'blocked')
       this.setCharInBoard(0, 2, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     } else if (
       this.board[1][0] === this.board[1][1] &&
@@ -96,6 +99,7 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(1, 0, 'blocked')
       this.setCharInBoard(1, 1, 'blocked')
       this.setCharInBoard(1, 2, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     } else if (
       this.board[2][0] === this.board[2][1] &&
@@ -106,6 +110,7 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(2, 0, 'blocked')
       this.setCharInBoard(2, 1, 'blocked')
       this.setCharInBoard(2, 2, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     }
     //perpendicularly
@@ -118,6 +123,7 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(0, 0, 'blocked')
       this.setCharInBoard(1, 0, 'blocked')
       this.setCharInBoard(2, 0, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     } else if (
       this.board[0][1] === this.board[1][1] &&
@@ -128,6 +134,7 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(0, 1, 'blocked')
       this.setCharInBoard(1, 1, 'blocked')
       this.setCharInBoard(2, 1, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     } else if (
       this.board[0][2] === this.board[1][2] &&
@@ -138,6 +145,7 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(0, 2, 'blocked')
       this.setCharInBoard(1, 2, 'blocked')
       this.setCharInBoard(2, 2, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     }
 
@@ -151,6 +159,7 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(0, 0, 'blocked')
       this.setCharInBoard(1, 1, 'blocked')
       this.setCharInBoard(2, 2, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     } else if (
       this.board[0][2] === this.board[1][1] &&
@@ -161,9 +170,11 @@ export class FootballCrossComponent implements OnInit {
       this.setCharInBoard(0, 2, 'blocked')
       this.setCharInBoard(1, 1, 'blocked')
       this.setCharInBoard(2, 0, 'blocked')
+      this.winnerExist = true
       this.changeEnd(true)
     } else {
       this.winner = ''
+      this.winnerExist = false
       this.changeEnd(false)
     }
     this.questionAnswerService.setWinner(this.winner.id)
