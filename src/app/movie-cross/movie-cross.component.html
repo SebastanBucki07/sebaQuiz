@@ -37,39 +37,23 @@
         <div class="row">
           <div class="col-3"></div>
           <div class="col-3">
-            <img
-              src="assets/clubs/{{ columnCrestsForQuestion[0] }}.png"
-              class="img-thumbnail border border-white"
-              alt="..."
-              style="width: 10rem"
-            />
+            <img src="{{ columnCrestsForQuestion[0].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ columnCrestsForQuestion[0].name }}</h4>
           </div>
 
           <div class="col-3">
-            <img
-              src="assets/clubs/{{ columnCrestsForQuestion[1] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
+            <img src="{{ columnCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ columnCrestsForQuestion[1].name }}</h4>
           </div>
           <div class="col-3">
-            <img
-              src="assets/clubs/{{ columnCrestsForQuestion[2] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
+            <img src="{{ columnCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ columnCrestsForQuestion[2].name }}</h4>
           </div>
         </div>
         <div class="row">
           <div class="col-3 border border-white">
-            <img
-              src="assets/clubs/{{ rowCrestsForQuestion[0] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
+            <img src="{{ rowCrestsForQuestion[0].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ rowCrestsForQuestion[0].name }}</h4>
           </div>
           <div class="col-3 border border-white" (click)="setCharInBoard(0, 0)">{{ board[0][0] }}</div>
           <div class="col-3 border border-white" (click)="setCharInBoard(0, 1)">{{ board[0][1] }}</div>
@@ -77,12 +61,8 @@
         </div>
         <div class="row">
           <div class="col-3 border border-white">
-            <img
-              src="assets/clubs/{{ rowCrestsForQuestion[1] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
+            <img src="{{ rowCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ rowCrestsForQuestion[1].name }}</h4>
           </div>
           <div class="col-3 border border-white" (click)="setCharInBoard(1, 0)">{{ board[1][0] }}</div>
           <div class="col-3 border border-white" (click)="setCharInBoard(1, 1)">{{ board[1][1] }}</div>
@@ -90,12 +70,8 @@
         </div>
         <div class="row">
           <div class="col-3 border border-white">
-            <img
-              src="assets/clubs/{{ rowCrestsForQuestion[2] }}.png"
-              class="img-thumbnail"
-              alt="..."
-              style="width: 10rem"
-            />
+            <img src="{{ rowCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ rowCrestsForQuestion[2].name }}</h4>
           </div>
           <div class="col-3 border border-white" (click)="setCharInBoard(2, 0)">{{ board[2][0] }}</div>
           <div class="col-3 border border-white" (click)="setCharInBoard(2, 1)">{{ board[2][1] }}</div>
@@ -118,38 +94,27 @@
             <div class="col-3"></div>
             <div class="col-3">
               <img
-                src="assets/clubs/{{ columnCrestsForQuestion[0] }}.png"
+                src="{{ columnCrestsForQuestion[0].photo }}"
                 class="img-thumbnail border border-white"
                 alt="..."
                 style="width: 10rem"
               />
+              <h4>{{ columnCrestsForQuestion[0].name }}</h4>
             </div>
 
             <div class="col-3">
-              <img
-                src="assets/clubs/{{ columnCrestsForQuestion[1] }}.png"
-                class="img-thumbnail"
-                alt="..."
-                style="width: 10rem"
-              />
+              <img src="{{ columnCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ columnCrestsForQuestion[1].name }}</h4>
             </div>
             <div class="col-3">
-              <img
-                src="assets/clubs/{{ columnCrestsForQuestion[2] }}.png"
-                class="img-thumbnail"
-                alt="..."
-                style="width: 10rem"
-              />
+              <img src="{{ columnCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ columnCrestsForQuestion[2].name }}</h4>
             </div>
           </div>
           <div class="row">
             <div class="col-3 border border-white">
-              <img
-                src="assets/clubs/{{ rowCrestsForQuestion[0] }}.png"
-                class="img-thumbnail"
-                alt="..."
-                style="width: 10rem"
-              />
+              <img src="{{ rowCrestsForQuestion[0].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ rowCrestsForQuestion[0].name }}</h4>
             </div>
             <div class="col-3 border border-white">
               <div *ngFor="let player of randomTeams?.R0C0">
@@ -170,12 +135,8 @@
           </div>
           <div class="row">
             <div class="col-3 border border-white">
-              <img
-                src="assets/clubs/{{ rowCrestsForQuestion[1] }}.png"
-                class="img-thumbnail"
-                alt="..."
-                style="width: 10rem"
-              />
+              <img src="{{ rowCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ rowCrestsForQuestion[1].name }}</h4>
             </div>
             <div class="col-3 border border-white">
               <div *ngFor="let player of randomTeams?.R1C0">
@@ -195,12 +156,8 @@
           </div>
           <div class="row">
             <div class="col-3 border border-white">
-              <img
-                src="assets/clubs/{{ rowCrestsForQuestion[2] }}.png"
-                class="img-thumbnail"
-                alt="..."
-                style="width: 10rem"
-              />
+              <img src="{{ rowCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ rowCrestsForQuestion[2].name }}</h4>
             </div>
             <div class="col-3 border border-white">
               <div *ngFor="let player of randomTeams?.R2C0">

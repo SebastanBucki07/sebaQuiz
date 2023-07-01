@@ -1,36 +1,23 @@
 import { Component, OnInit } from '@angular/core'
-import crests from '../../assets/football/clubCrests.json'
+import photo from '../../assets/photos/famousPeople.json'
 import { randomFromArray } from '../../common/randomize.helper'
 import { PlayersService } from '../players.service'
 import { QuestionDataService } from '../question-data.service'
 import { Player, PlayerForFamiliada } from '../players/players.component'
 import { QuestionTypesService } from '../question-types.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
-
-export interface CrossAnswer {
-  row: string[]
-  column: string[]
-  R0C0: string[]
-  R0C1: string[]
-  R0C2: string[]
-  R1C0: string[]
-  R1C1: string[]
-  R1C2: string[]
-  R2C0: string[]
-  R2C1: string[]
-  R2C2: string[]
-}
+import { PhotoModel } from '../model/photo-model'
 
 @Component({
-  selector: 'app-football-cross',
-  templateUrl: './football-cross.component.html',
-  styleUrls: ['./football-cross.component.css'],
+  selector: 'app-movie-cross',
+  templateUrl: './movie-cross.component.html',
+  styleUrls: ['./movie-cross.component.css'],
 })
-export class FootballCrossComponent implements OnInit {
-  protected randomTeams = this.questionDataService.getFootballerQuestion()
-  protected crests = crests
-  protected columnCrestsForQuestion: string[] = []
-  protected rowCrestsForQuestion: string[] = []
+export class MovieCrossComponent implements OnInit {
+  protected randomTeams = this.questionDataService.getActorsQuestion()
+  protected photos = photo
+  protected columnCrestsForQuestion: PhotoModel[] = []
+  protected rowCrestsForQuestion: PhotoModel[] = []
   protected players: PlayerForFamiliada[] = []
   protected actualChar = ''
   protected end = false
@@ -41,7 +28,6 @@ export class FootballCrossComponent implements OnInit {
     ['0', '1', '2'],
     ['0', '1', '2'],
   ]
-  public doesNotExist: string[] = []
 
   constructor(
     protected playerService: PlayersService,
@@ -51,7 +37,7 @@ export class FootballCrossComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.randomTeams = this.questionDataService.getFootballerQuestion()
+    this.randomTeams = this.questionDataService.getActorsQuestion()
     console.log(`randomTeams2: ${JSON.stringify(this.randomTeams)}`)
     //this.countClubPairs()
     //this.countPairs()
@@ -205,24 +191,30 @@ export class FootballCrossComponent implements OnInit {
   }
 
   setCrests(): void {
-    this.randomTeams?.column.forEach((team: string) => {
-      const found = this.crests.find((club) => club.team === team)
+    this.randomTeams?.column.forEach((actress: string) => {
+      const found = this.photos.find((actor) => actor.name === actress)
       if (found) {
-        this.columnCrestsForQuestion.push(found.crest)
+        this.columnCrestsForQuestion.push(found)
       } else {
-        this.doesNotExist.push(team)
+        this.columnCrestsForQuestion.push({
+          id: 901,
+          name: actress,
+          photo: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
+        })
       }
     })
-    this.randomTeams?.row.forEach((team: string) => {
-      const found = this.crests.find((club) => club.team === team)
+    this.randomTeams?.row.forEach((actress: string) => {
+      const found = this.photos.find((actor) => actor.name === actress)
       if (found) {
-        this.rowCrestsForQuestion.push(found.crest)
+        this.rowCrestsForQuestion.push(found)
       } else {
-        this.doesNotExist.push(team)
+        this.rowCrestsForQuestion.push({
+          id: 901,
+          name: actress,
+          photo: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
+        })
       }
     })
-    //remove already used clubs
-    this.doesNotExist = this.doesNotExist.filter((value, index) => this.doesNotExist.indexOf(value) === index)
   }
 
   setPlayersForCross(): void {
@@ -250,42 +242,6 @@ export class FootballCrossComponent implements OnInit {
 
     this.actualChar = this.players[0].name
   }
-
-  /*countClubPairs() {
-    console.log('this countClubPairs')
-    this.clubsCross.forEach((cross) => {
-      const found1 = this.clubsData.find((club) => club.team === cross.team1)
-      const found2 = this.clubsData.find((club) => club.team === cross.team2)
-      if (found1 !== undefined && found2 !== undefined) {
-        this.alllData.forEach((player) => {
-          if (player.kluby.includes(found1.team) && player.kluby.includes(found2.team)) {
-            cross.count++
-            cross.players.push(player.zawodnik)
-          }
-        })
-      }
-    })
-    //console.dir(this.clubsCross)
-  }*/
-
-  /*countPairs() {
-    console.log('this countPairs')
-    this.clubsCross.forEach((clubCross) => {
-      if (clubCross.count > 0) {
-        const found1 = this.teamsInfo.find((club) => club.team === clubCross.team1)
-        const found2 = this.teamsInfo.find((club) => club.team === clubCross.team2)
-        if (found1) {
-          // console.log(`======== add count to ${found1.team} actualCount: ${found1.count} =============`)
-          found1.count = found1.count + 1
-        }
-        if (found2) {
-          /!*console.log(`======== add count to ${found2.team} actualCount: ${found2.count} =============`)*!/
-          found2.count = found2.count + 1
-        }
-      }
-    })
-    console.log(`teamsInfo: ${JSON.stringify(this.teamsInfo)}`)
-  }*/
 
   close(): void {
     this.questionTypeService.setActiveCategory(-1)

@@ -553,5 +553,255 @@
     "id": 111,
     "team": "Eintracht Frankfurt",
     "crest": "EintrachtFrankfurt"
+  },
+  {
+    "id": 112,
+    "team": "Juventus Turyn",
+    "crest": "juventus"
+  },
+  {
+    "id": 113,
+    "team": "Fortuna Düsseldorf",
+    "crest": "Fortunadusseldorf"
+  },
+  {
+    "id": 114,
+    "team": "Hertha BSC",
+    "crest": "herthabsc"
+  },
+  {
+    "id": 115,
+    "team": "Inter Mediolan",
+    "crest": "inter"
+  },
+  {
+    "id": 116,
+    "team": "Chelsea FC",
+    "crest": "chelsea"
+  },
+  {
+    "id": 117,
+    "team": "Wigry Suwałki",
+    "crest": "wigrysuwalki"
+  },
+  {
+    "id": 118,
+    "team": "Chicago Fire FC",
+    "crest": "chicagofire"
+  },
+  {
+    "id": 119,
+    "team": "OGC Nice",
+    "crest": "ogcnice"
+  },
+  {
+    "id": 120,
+    "team": "West Bromwich Albion",
+    "crest": "westbromwichalbion"
+  },
+  {
+    "id": 121,
+    "team": "FC Sheriff Tyraspol",
+    "crest": "fcSheriffTiraspol"
+  },
+  {
+    "id": 122,
+    "team": "FC Porto",
+    "crest": "fcporto"
+  },
+  {
+    "id": 123,
+    "team": "Akhmat Grozny",
+    "crest": "fcakhmatgrozny"
+  },
+  {
+    "id": 124,
+    "team": "Resovia Rzeszów",
+    "crest": "resovia"
+  },
+  {
+    "id": 125,
+    "team": "Stomil Olsztyn",
+    "crest": "stomil"
+  },
+  {
+    "id": 126,
+    "team": "Flota Świnoujście",
+    "crest": "flotaswinoujscie"
+  },
+  {
+    "id": 127,
+    "team": "AEL Limassol",
+    "crest": "aellimassol"
+  },
+  {
+    "id": 128,
+    "team": "RSC Anderlecht",
+    "crest": "rscanderlecht"
+  },
+  {
+    "id": 129,
+    "team": "Charlton Athletic",
+    "crest": "charltonathletic"
+  },
+  {
+    "id": 130,
+    "team": "Puszcza Niepołomice",
+    "crest": "puszcza"
+  },
+  {
+    "id": 131,
+    "team": "Atlético Madryt",
+    "crest": "alteticomadryt"
+  },
+  {
+    "id": 132,
+    "team": "AC Monza",
+    "crest": "acmonza"
+  },
+  {
+    "id": 133,
+    "team": "Brescia Calcio",
+    "crest": "bresciacalcio"
+  },
+  {
+    "id": 134,
+    "team": "FC Sion",
+    "crest": "fcsion"
+  },
+  {
+    "id": 135,
+    "team": "Benfika Lizbona",
+    "crest": "slbenfica"
+  },
+  {
+    "id": 136,
+    "team": "Galatasaray",
+    "crest": "galatasaray"
+  },
+  {
+    "id": 137,
+    "team": "PSV Eindhoven",
+    "crest": "pseindhoven"
+  },
+  {
+    "id": 138,
+    "team": "Valencia CF",
+    "crest": "valenciacf"
+  },
+  {
+    "id": 139,
+    "team": "Fenerbahce",
+    "crest": "fenerbahce"
+  },
+  {
+    "id": 140,
+    "team": "Amkar Perm",
+    "crest": "amkarperm"
+  },
+  {
+    "id": 141,
+    "team": "Los Angeles Galaxy",
+    "crest": "losangelesfc"
+  },
+  {
+    "id": 142,
+    "team": "Chievo Verona",
+    "crest": "chievo"
+  },
+  {
+    "id": 143,
+    "team": "Bayer 04 Leverkusen",
+    "crest": "bayer04leverkusen"
+  },
+  {
+    "id": 144,
+    "team": "FC Metz",
+    "crest": "fcmetz"
+  },
+  {
+    "id": 145,
+    "team": "VfL Bochum",
+    "crest": "vfLbochum"
+  },
+  {
+    "id": 146,
+    "team": "RC Strasbourg Alsace",
+    "crest": "racingclubdestrasbourg"
+  },
+  {
+    "id": 147,
+    "team": "Málaga CF",
+    "crest": "malaga"
+  },
+  {
+    "id": 148,
+    "team": "FC Fulham",
+    "crest": "fulham"
+  },
+  {
+    "id": 149,
+    "team": "Birmingham City",
+    "crest": "birminghamcity"
+  },
+  {
+    "id": 150,
+    "team": "Borussia Mönchengladbach",
+    "crest": "borussiamonchengladbach"
+  },
+  {
+    "id": 151,
+    "team": "AS Roma",
+    "crest": "asroma"
+  },
+  {
+    "id": 152,
+    "team": "Elche CF",
+    "crest": "elche"
+  },
+  {
+    "id": 153,
+    "team": "Amica Wronki",
+    "crest": "amicawronki"
+  },
+  {
+    "id": 154,
+    "team": "Górnik Polkowice",
+    "crest": "gornikpolkowice"
+  },
+  {
+    "id": 155,
+    "team": "Real Betis Balompié",
+    "crest": "realbetis"
+  },
+  {
+    "id": 156,
+    "team": "Leeds United",
+    "crest": "leedsunited"
+  },
+  {
+    "id": 157,
+    "team": "Bolton Wanderers",
+    "crest": "boltonwanderers"
+  },
+  {
+    "id": 158,
+    "team": "Tottenham Hotspur",
+    "crest": "tottenhamhotspur"
+  },
+  {
+    "id": 159,
+    "team": "FC Empoli",
+    "crest": "empoli"
+  },
+  {
+    "id": 160,
+    "team": "FC Twente Enschede",
+    "crest": "fctwente"
+  },
+  {
+    "id": 161,
+    "team": "FC Schalke 04",
+    "crest": "fcschalke04"
   }
 ]

@@ -19,6 +19,7 @@ import movieActors from '../assets/actors/movieActors.json'
 import directorsData from '../assets/movies/directors.json'
 import familiadaData from '../assets/familiada/familiada.json'
 import serialActors from '../assets/actors/serialActors.json'
+import playersData from '../assets/football/footballerClubData.json'
 import gamesData from '../assets/games/games.json'
 import allDistricts from '../assets/poland/citiesPL.json'
 import allFootballData from '../assets/football/football.json'
@@ -43,6 +44,12 @@ import { QuestionMultipleChoice } from './model/question-model'
 import { FamiliadaModel } from './model/familiada-model'
 import { FootballGamesModel } from './model/footballgames-model'
 import { WrittingData, WrittingsCategoryModel } from './model/writtingsCategory-model'
+import { ClubLinks } from './football-cross/club-links'
+import { BoardCreator } from './football-cross/board-creator'
+import { players } from '../assets/football/players'
+import { MovieLinks } from './movie-cross/movie-links'
+import { actors } from '../assets/actors/actors'
+import { BoardMovieCreator } from './movie-cross/board-creator'
 
 @Injectable({
   providedIn: 'root',
@@ -77,6 +84,7 @@ export class QuestionDataService {
   protected writtingsCategoryElements: WrittingsCategoryModel[] = []
   protected writtingsCategoryFootballElements: WrittingsCategoryModel[] = []
   protected writtingsData: WrittingData[] = []
+  protected playersData: ClubLinks | any = null
   protected countriesForFlags: Country[] | any = null
   protected countriesForCapitals: Country[] | any = null
   protected continentsForCountries: string[] | any = []
@@ -123,6 +131,7 @@ export class QuestionDataService {
     this.writtingsCategoryElements = writtingsCattegory
     this.writtingsCategoryFootballElements = writtingsFootballCattegory
     this.writtingsData = writtingsData
+    this.playersData = ClubLinks.readFromPlayerList(playersData)
     this.init = true
   }
 
@@ -131,6 +140,38 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allChemicalElements)
+  }
+
+  getFootballerQuestion() {
+    const links = ClubLinks.readFromPlayerList(players)
+    console.log(`links: ${JSON.stringify(links)}`)
+    const generator = new BoardCreator(links)
+    const result = generator.generateBoard()
+    console.log(`Result: ${JSON.stringify(result)}`)
+    if (result != null) {
+      for (const club1 of result!.row) {
+        for (const club2 of result!.column) {
+          console.log(`club1:${club1}, club2: ${club2} [${links.getLinkingPlayers(club1, club2).join(', ')}]`)
+        }
+      }
+    }
+    return result
+  }
+
+  getActorsQuestion() {
+    const links = MovieLinks.readFromActorsList(actors)
+    console.log(`links: ${JSON.stringify(links)}`)
+    const generator = new BoardMovieCreator(links)
+    const result = generator.generateBoard()
+    console.log(`ResultACTORS: ${JSON.stringify(result)}`)
+    if (result != null) {
+      for (const actor1 of result!.row) {
+        for (const actor2 of result!.column) {
+          console.log(`actor1:${actor1}, actor2: ${actor2} [${links.getLinkingActors(actor1, actor2).join(', ')}]`)
+        }
+      }
+    }
+    return result
   }
 
   getMultipleChoiceQuestion() {

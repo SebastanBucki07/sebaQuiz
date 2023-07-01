@@ -44,7 +44,8 @@ import { AnswerComponent } from './answer/answer.component'
 import { QuestionComponent } from './question/question.component'
 import { CategoryListComponent } from './category-list/category-list.component'
 import { MatCardModule } from '@angular/material/card'
-import { DragDropModule } from '@angular/cdk/drag-drop'
+import { DragDropModule } from '@angular/cdk/drag-drop';
+import { MovieCrossComponent } from './movie-cross/movie-cross.component'
 
 @NgModule({
   declarations: [
@@ -94,6 +95,7 @@ import { DragDropModule } from '@angular/cdk/drag-drop'
     AnswerComponent,
     QuestionComponent,
     CategoryListComponent,
+    MovieCrossComponent,
   ],
   imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule, MatCardModule, DragDropModule],
   providers: [],
