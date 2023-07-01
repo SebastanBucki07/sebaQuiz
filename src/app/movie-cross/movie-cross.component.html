@@ -1,0 +1,182 @@
+<div class="jumbotron vertical-center">
+  <div class="modal">
+    <i class="bi bi-x-circle"></i>
+    <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+    <ng-container *ngIf="!end">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <h3>Actual char: {{ actualChar }}</h3>
+            <button type="button" class="btn btn-success addPointsButton" (click)="changeEnd(true)">
+              Pokaż odpowiedź
+            </button>
+          </div>
+          <div class="col-3">
+            <button
+              id="P1"
+              type="button"
+              class="btn btn-primary d-flex justify-content-center d-md-table mx-auto"
+              (click)="changeChar(0)"
+            >
+              {{ players[0].name }}
+            </button>
+          </div>
+
+          <div class="col-3">
+            <button
+              id="P2"
+              type="button"
+              class="btn btn-primary d-flex justify-content-center d-md-table mx-auto"
+              (click)="changeChar(1)"
+            >
+              {{ players[1].name }}
+            </button>
+          </div>
+          <div class="col-3"></div>
+        </div>
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-3">
+            <img src="{{ columnCrestsForQuestion[0].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ columnCrestsForQuestion[0].name }}</h4>
+          </div>
+
+          <div class="col-3">
+            <img src="{{ columnCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ columnCrestsForQuestion[1].name }}</h4>
+          </div>
+          <div class="col-3">
+            <img src="{{ columnCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ columnCrestsForQuestion[2].name }}</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3 border border-white">
+            <img src="{{ rowCrestsForQuestion[0].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ rowCrestsForQuestion[0].name }}</h4>
+          </div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(0, 0)">{{ board[0][0] }}</div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(0, 1)">{{ board[0][1] }}</div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(0, 2)">{{ board[0][2] }}</div>
+        </div>
+        <div class="row">
+          <div class="col-3 border border-white">
+            <img src="{{ rowCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ rowCrestsForQuestion[1].name }}</h4>
+          </div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(1, 0)">{{ board[1][0] }}</div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(1, 1)">{{ board[1][1] }}</div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(1, 2)">{{ board[1][2] }}</div>
+        </div>
+        <div class="row">
+          <div class="col-3 border border-white">
+            <img src="{{ rowCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+            <h4>{{ rowCrestsForQuestion[2].name }}</h4>
+          </div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(2, 0)">{{ board[2][0] }}</div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(2, 1)">{{ board[2][1] }}</div>
+          <div class="col-3 border border-white" (click)="setCharInBoard(2, 2)">{{ board[2][2] }}</div>
+        </div>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="end">
+      <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <ng-container *ngIf="winnerExist">
+              <h3>Winner: {{ winner.name }}</h3>
+              <app-add-points></app-add-points>
+            </ng-container>
+          </div>
+          <div class="col-9"></div>
+          <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3">
+              <img
+                src="{{ columnCrestsForQuestion[0].photo }}"
+                class="img-thumbnail border border-white"
+                alt="..."
+                style="width: 10rem"
+              />
+              <h4>{{ columnCrestsForQuestion[0].name }}</h4>
+            </div>
+
+            <div class="col-3">
+              <img src="{{ columnCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ columnCrestsForQuestion[1].name }}</h4>
+            </div>
+            <div class="col-3">
+              <img src="{{ columnCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ columnCrestsForQuestion[2].name }}</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 border border-white">
+              <img src="{{ rowCrestsForQuestion[0].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ rowCrestsForQuestion[0].name }}</h4>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R0C0">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R0C1">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R0C2">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 border border-white">
+              <img src="{{ rowCrestsForQuestion[1].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ rowCrestsForQuestion[1].name }}</h4>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R1C0">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R1C1">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R1C2">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 border border-white">
+              <img src="{{ rowCrestsForQuestion[2].photo }}" class="img-thumbnail" alt="..." style="width: 10rem" />
+              <h4>{{ rowCrestsForQuestion[2].name }}</h4>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R2C0">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R2C1">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+            <div class="col-3 border border-white">
+              <div *ngFor="let player of randomTeams?.R2C2">
+                <h4>{{ player }}</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>
