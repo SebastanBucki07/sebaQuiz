@@ -1378,13 +1378,13 @@
     "id": 133,
     "name": "Mateusz Wdowiak",
     "country": "Polska",
-    "clubs": ["Cracovia", " Raków Częstochowa", "Sandecja Nowy Sącz"]
+    "clubs": ["Cracovia", "Raków Częstochowa", "Sandecja Nowy Sącz"]
   },
   {
     "id": 134,
     "name": "Marcin Cebula",
     "country": "Polska",
-    "clubs": ["Korona Kielce", " Raków Częstochowa"]
+    "clubs": ["Korona Kielce", "Raków Częstochowa"]
   },
   {
     "id": 135,
@@ -4599,5 +4599,433 @@
     "name": "Pawel Kryszalowicz",
     "country": "Polska",
     "clubs": ["Amica Wronki", "Eintracht Frankfurt", "Wisła Kraków", "SV Wilhelmshaven"]
+  },
+  {
+    "id": 505,
+    "name": "Pablo Sarabia",
+    "country": "Hiszpania",
+    "clubs": [
+      "Sevilla FC",
+      "Getafe CF",
+      "FC Paris Saint-Germain",
+      "Sporting CP",
+      "Wolverhampton Wanderers",
+      "Real Madryt"
+    ]
+  },
+  {
+    "id": 506,
+    "name": "Rúben Neves",
+    "country": "Portugalia",
+    "clubs": ["Wolverhampton Wanderers", "FC Porto"]
+  },
+  {
+    "id": 507,
+    "name": "Nicolás Otamendi",
+    "country": "Argentyna",
+    "clubs": ["Manchester City", "Benfika Lizbona", "FC Porto", "CA Vélez Sarsfield", "Valencia CF", "Atlético Mineiro"]
+  },
+  {
+    "id": 508,
+    "name": "Felipe Anderson",
+    "country": "Brazylia",
+    "clubs": ["Lazio Rzym", "West Ham United", "FC Porto", "Santos FC"]
+  },
+  {
+    "id": 509,
+    "name": "Alphonse Areola",
+    "country": "Francja",
+    "clubs": [
+      "FC Paris Saint-Germain",
+      "West Ham United",
+      "SC Bastia",
+      "Villarreal CF",
+      "FC Fulham",
+      "RC Lens",
+      "Real Madryt"
+    ]
+  },
+  {
+    "id": 510,
+    "name": "Lucas Leiva",
+    "country": "Brazylia",
+    "clubs": ["FC Liverpool", "Lazio Rzym", "Grêmio Porto Alegre"]
+  },
+  {
+    "id": 511,
+    "name": "Felipe Caicedo",
+    "country": "Ekwador",
+    "clubs": [
+      "Lazio Rzym",
+      "RCD Espanyol",
+      "Lokomotiw Moskwa",
+      "FC Basel 1893",
+      "Manchester City",
+      "Levante UD",
+      "Málaga CF",
+      "Sporting CP",
+      "Genoa CFC",
+      "Inter Mediolan"
+    ]
+  },
+  {
+    "id": 512,
+    "name": "Émerson",
+    "country": "Brazylia",
+    "clubs": ["AS Roma", "Bayer 04 Leverkusen", "Juventus Turyn", "AC Milan", "Real Madryt"]
+  },
+  {
+    "id": 513,
+    "name": "Ronaldo",
+    "country": "Brazylia",
+    "clubs": ["Real Madryt", "Inter Mediolan", "PSV Eindhoven", "FC Barcelona", "AC Milan"]
+  },
+  {
+    "id": 514,
+    "name": "Radamel Falcao",
+    "country": "Kolumbia",
+    "clubs": [
+      "AS Monaco",
+      "Atlético Madryt",
+      "FC Porto",
+      "Rayo Vallecano",
+      "Galatasaray",
+      "Manchester United",
+      "Chelsea FC"
+    ]
+  },
+  {
+    "id": 515,
+    "name": "Klaas-Jan Huntelaar",
+    "country": "Holandia",
+    "clubs": [
+      "Ajax Amsterdam",
+      "FC Schalke 04",
+      "SC Heerenveen",
+      "AC Milan",
+      "Real Madryt",
+      "De Graafschap Doetinchem",
+      "PSV Eindhoven"
+    ]
+  },
+  {
+    "id": 516,
+    "name": "Bernardo Silva",
+    "country": "Portugalia",
+    "clubs": ["Manchester City", "AS Monaco", "Benfika Lizbona"]
+  },
+  {
+    "id": 517,
+    "name": "Harry Kane",
+    "country": "Anglia",
+    "clubs": ["Tottenham Hotspur", "FC Millwall", "Leicester City", "Norwich City"]
+  },
+  {
+    "id": 518,
+    "name": "Robinho",
+    "country": "Brazylia",
+    "clubs": ["AC Milan", "Real Madryt", "Manchester City", "Basaksehir FK", "Sivasspor"]
+  },
+  {
+    "id": 519,
+    "name": "Frank Lampard",
+    "country": "Anglia",
+    "clubs": ["Chelsea FC", "West Ham United", "Manchester City"]
+  },
+  {
+    "id": 520,
+    "name": "Gerard Piqué",
+    "country": "Hiszpania",
+    "clubs": ["FC Barcelona", "Real Zaragoza", "Manchester United"]
+  },
+  {
+    "id": 521,
+    "name": "Cesc Fàbregas",
+    "country": "Hiszpania",
+    "clubs": ["FC Arsenal", "Chelsea FC", "FC Barcelona", "AS Monaco"]
+  },
+  {
+    "id": 522,
+    "name": "Pierre-Emerick Aubameyang",
+    "country": "Gabon",
+    "clubs": [
+      "FC Arsenal",
+      "Borussia Dortmund",
+      "AS Saint-Étienne",
+      "Dijon FCO",
+      "LOSC Lille",
+      "FC Barcelona",
+      "AS Monaco",
+      "Chelsea FC"
+    ]
+  },
+  {
+    "id": 523,
+    "name": "Robin van Persie",
+    "country": "Holandia",
+    "clubs": ["FC Arsenal", "Feyenoord Rotterdam", "Manchester United", "Fenerbahce"]
+  },
+  {
+    "id": 524,
+    "name": "Ruud van Nistelrooy",
+    "country": "Holandia",
+    "clubs": ["PSV Eindhoven", "Real Madryt", "Manchester United", "Hamburger SV", "SC Heerenveen", "Málaga CF"]
+  },
+  {
+    "id": 525,
+    "name": "Wesley Sneijder",
+    "country": "Holandia",
+    "clubs": ["Ajax Amsterdam", "Galatasaray", "Inter Mediolan", "Real Madryt", "OGC Nice"]
+  },
+  {
+    "id": 526,
+    "name": "Andrea Pirlo",
+    "country": "Włochy",
+    "clubs": ["AC Milan", "Juventus Turyn", "New York City FC", "Brescia Calcio", "Inter Mediolan"]
+  },
+  {
+    "id": 527,
+    "name": "Fabio Cannavaro",
+    "country": "Włochy",
+    "clubs": ["Parma Calcio 1913", "Juventus Turyn", "Real Madryt", "SSC Napoli", "Inter Mediolan"]
+  },
+  {
+    "id": 528,
+    "name": "Mario Balotelli",
+    "country": "Włochy",
+    "clubs": [
+      "Manchester City",
+      "AC Milan",
+      "OGC Nice",
+      "Adana Demirspor",
+      "Inter Mediolan",
+      "FC Liverpool",
+      "Brescia Calcio",
+      "FC Sion",
+      "Olympique Marseille",
+      "AC Monza"
+    ]
+  },
+  {
+    "id": 529,
+    "name": "Marko Arnautovic",
+    "country": "Austria",
+    "clubs": ["Stoke City", "SV Werder Bremen", "West Ham United", "FC Twente Enschede", "FC Bologna", "Inter Mediolan"]
+  },
+  {
+    "id": 530,
+    "name": "Yaya Touré",
+    "country": "Wybrzeże Kości Słoniowej",
+    "clubs": ["Manchester City", "FC Barcelona", "Olympiakos Pireus", "AS Monaco"]
+  },
+  {
+    "id": 531,
+    "name": "Kolo Touré",
+    "country": "Wybrzeże Kości Słoniowej",
+    "clubs": ["FC Arsenal", "Manchester City", "FC Liverpool", "Celtic Glasgow"]
+  },
+  {
+    "id": 532,
+    "name": "Lukas Hradecky",
+    "country": "Finlandia",
+    "clubs": ["Bayer 04 Leverkusen", "Eintracht Frankfurt", "Esbjerg fB", "Bröndby IF"]
+  },
+  {
+    "id": 533,
+    "name": "Jonathan Tah",
+    "country": "Niemcy",
+    "clubs": ["Bayer 04 Leverkusen", "Fortuna Düsseldorf", "Hamburger SV"]
+  },
+  {
+    "id": 534,
+    "name": "Patrik Schick",
+    "country": "Czechy",
+    "clubs": [
+      "Bayer 04 Leverkusen",
+      "AS Roma",
+      "UC Sampdoria",
+      "Bohemians Praga 1905",
+      "AC Sparta Praga",
+      "RasenBallsport Leipzig"
+    ]
+  },
+  {
+    "id": 535,
+    "name": "Leon Bailey",
+    "country": "Jamajka",
+    "clubs": ["Bayer 04 Leverkusen", "KRC Genk", "Aston Villa"]
+  },
+  {
+    "id": 536,
+    "name": "Heung-min Son",
+    "country": "Korea Południowa",
+    "clubs": ["Bayer 04 Leverkusen", "Tottenham Hotspur", "Hamburger SV"]
+  },
+  {
+    "id": 537,
+    "name": "Kai Havertz",
+    "country": "Niemcy",
+    "clubs": ["Bayer 04 Leverkusen", "Chelsea FC"]
+  },
+  {
+    "id": 538,
+    "name": "Hakan Calhanoglu",
+    "country": "Turcja",
+    "clubs": ["AC Milan", "Bayer 04 Leverkusen", "Inter Mediolan", "Karlsruher SC", "Hamburger SV"]
+  },
+  {
+    "id": 539,
+    "name": "Arturo Vidal",
+    "country": "Chile",
+    "clubs": ["Juventus Turyn", "Bayer 04 Leverkusen", "Bayern Monachium", "FC Barcelona", "Inter Mediolan"]
+  },
+  {
+    "id": 540,
+    "name": "Emre Can",
+    "country": "Niemcy",
+    "clubs": ["FC Liverpool", "Bayer 04 Leverkusen", "Borussia Dortmund", "Juventus Turyn", "Bayern Monachium"]
+  },
+  {
+    "id": 541,
+    "name": "Kamil Vacek",
+    "country": "Czechy",
+    "clubs": [
+      "AC Sparta Praga",
+      "Bohemians Praga 1905",
+      "Chievo Verona",
+      "Piast Gliwice",
+      "Śląsk Wrocław",
+      "Arminia Bielefeld"
+    ]
+  },
+  {
+    "id": 542,
+    "name": "Francesco Acerbi",
+    "country": "Włochy",
+    "clubs": [
+      "Lazio Rzym",
+      "US Sassuolo",
+      "Chievo Verona",
+      "Inter Mediolan",
+      "Reggina 1914",
+      "Spezia Primavera",
+      "AC Milan"
+    ]
+  },
+  {
+    "id": 543,
+    "name": "Ismaïla Sarr",
+    "country": "Senegal",
+    "clubs": ["FC Watford", "Stade Rennais FC", "FC Metz"]
+  },
+  {
+    "id": 544,
+    "name": "Franck Ribéry",
+    "country": "Francja",
+    "clubs": ["Bayern Monachium", "Olympique Marseille", "AC Fiorentina", "FC Metz", "Galatasaray"]
+  },
+  {
+    "id": 545,
+    "name": "Jacek Goralski",
+    "country": "Polska",
+    "clubs": ["Wisła Płock", "Ludogorets Razgrad", "Jagiellonia Białystok", "Kairat Almaty", "VfL Bochum"]
+  },
+  {
+    "id": 546,
+    "name": "Júlio Baptista",
+    "country": "Brazylia",
+    "clubs": ["Sevilla FC", "Real Madryt", "AS Roma", "FC Arsenal", "Málaga CF"]
+  },
+  {
+    "id": 547,
+    "name": "Santi Cazorla",
+    "country": "Hiszpania",
+    "clubs": ["Villarreal CF", "FC Arsenal", "Málaga CF"]
+  },
+  {
+    "id": 548,
+    "name": "Edwin van der Sar",
+    "country": "Holandia",
+    "clubs": ["Ajax Amsterdam", "Manchester United", "FC Fulham", "Juventus Turyn"]
+  },
+  {
+    "id": 549,
+    "name": "Louis Saha",
+    "country": "Francja",
+    "clubs": [
+      "FC Fulham",
+      "Manchester United",
+      "FC Everton",
+      "FC Metz",
+      "AFC Sunderland",
+      "Tottenham Hotspur",
+      "Newcastle United",
+      "Lazio Rzym"
+    ]
+  },
+  {
+    "id": 550,
+    "name": "Fábio Carvalho",
+    "country": "Portugalia",
+    "clubs": ["FC Fulham", "FC Liverpool"]
+  },
+  {
+    "id": 551,
+    "name": "Max Kruse",
+    "country": "Niemcy",
+    "clubs": [
+      "FC St. Pauli",
+      "SV Werder Bremen",
+      "Borussia Mönchengladbach",
+      "VfL Wolfsburg",
+      "1.FC Union Berlin",
+      "SC Freiburg",
+      "Fenerbahce"
+    ]
+  },
+  {
+    "id": 552,
+    "name": "Andrzej Juskowiak",
+    "country": "Polska",
+    "clubs": [
+      "VfL Wolfsburg",
+      "Olympiakos Pireus",
+      "Borussia Mönchengladbach",
+      "Lech Poznań",
+      "Sporting CP",
+      "New York Red Bulls"
+    ]
+  },
+  {
+    "id": 553,
+    "name": "Thorgan Hazard",
+    "country": "Belgia",
+    "clubs": ["Borussia Mönchengladbach", "Borussia Dortmund", "SV Zulte Waregem", "RC Lens", "PSV Eindhoven"]
+  },
+  {
+    "id": 554,
+    "name": "Granit Xhaka",
+    "country": "Szwajcaria",
+    "clubs": ["Borussia Mönchengladbach", "FC Arsenal", "FC Basel 1893"]
+  },
+  {
+    "id": 555,
+    "name": "Luuk de Jong",
+    "country": "Holandia",
+    "clubs": [
+      "PSV Eindhoven",
+      "FC Twente Enschede",
+      "Sevilla FC",
+      "Borussia Mönchengladbach",
+      "FC Barcelona",
+      "De Graafschap Doetinchem",
+      "Newcastle United"
+    ]
+  },
+  {
+    "id": 556,
+    "name": "Christoph Kramer",
+    "country": "Niemcy",
+    "clubs": ["Borussia Mönchengladbach", "VfL Bochum", "Bayer 04 Leverkusen"]
   }
 ]

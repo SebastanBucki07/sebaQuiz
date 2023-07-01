@@ -486,7 +486,7 @@
   },
   {
     "id": 100,
-    "name": "Sławomir ORZECHOWSKI",
+    "name": "Sławomir Orzechowski",
     "photo": "https://fwcdn.pl/ppo/42/90/4290/344614.1.jpg"
   },
   {
@@ -8592,7 +8592,7 @@
   {
     "id": 1738,
     "name": "Wojciech Zieliński",
-    "photo": "https://pl.wikipedia.org/wiki/Plik:Wojciech_Zieli%C5%84ski.JPG"
+    "photo": "https://fwcdn.pl/ppo/05/76/130576/253393_1.1.jpg"
   },
   {
     "id": 1739,
@@ -8763,5 +8763,40 @@
     "id": 1772,
     "name": "Catherine O'Hara",
     "photo": "https://fwcdn.pl/ppo/39/63/3963/452347.2.jpg"
+  },
+  {
+    "id": 1773,
+    "name": "Timothy Olyphant",
+    "photo": "https://fwcdn.pl/ppo/34/77/3477/450425.2.jpg"
+  },
+  {
+    "id": 1774,
+    "name": "Scott Mechlowicz",
+    "photo": "https://fwcdn.pl/ppo/84/66/138466/355723.1.jpg"
+  },
+  {
+    "id": 1775,
+    "name": "Jacob Pitts",
+    "photo": "https://fwcdn.pl/ppo/27/44/82744/452213.2.jpg"
+  },
+  {
+    "id": 1776,
+    "name": "Michelle Trachtenberg",
+    "photo": "https://fwcdn.pl/ppo/65/16/6516/452346.2.jpg"
+  },
+  {
+    "id": 1777,
+    "name": "Travis Wester",
+    "photo": "https://fwcdn.pl/ppo/91/11/59111/348004.1.jpg"
+  },
+  {
+    "id": 1778,
+    "name": "Jessica Boehrs",
+    "photo": "https://fwcdn.pl/ppo/73/24/147324/458573.2.jpg"
+  },
+  {
+    "id": 1779,
+    "name": "Kristin Kreuk",
+    "photo": "https://fwcdn.pl/ppo/34/98/93498/455606.2.jpg"
   }
 ]

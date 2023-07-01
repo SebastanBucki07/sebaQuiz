@@ -648,5 +648,105 @@
     "id": 130,
     "team": "Puszcza Niepołomice",
     "crest": "puszcza"
+  },
+  {
+    "id": 131,
+    "team": "Atlético Madryt",
+    "crest": "alteticomadryt"
+  },
+  {
+    "id": 132,
+    "team": "AC Monza",
+    "crest": "acmonza"
+  },
+  {
+    "id": 133,
+    "team": "Brescia Calcio",
+    "crest": "bresciacalcio"
+  },
+  {
+    "id": 134,
+    "team": "FC Sion",
+    "crest": "fcsion"
+  },
+  {
+    "id": 135,
+    "team": "Benfika Lizbona",
+    "crest": "slbenfica"
+  },
+  {
+    "id": 136,
+    "team": "Galatasaray",
+    "crest": "galatasaray"
+  },
+  {
+    "id": 137,
+    "team": "PSV Eindhoven",
+    "crest": "pseindhoven"
+  },
+  {
+    "id": 138,
+    "team": "Valencia CF",
+    "crest": "valenciacf"
+  },
+  {
+    "id": 139,
+    "team": "Fenerbahce",
+    "crest": "fenerbahce"
+  },
+  {
+    "id": 140,
+    "team": "Amkar Perm",
+    "crest": "amkarperm"
+  },
+  {
+    "id": 141,
+    "team": "Los Angeles Galaxy",
+    "crest": "losangelesfc"
+  },
+  {
+    "id": 142,
+    "team": "Chievo Verona",
+    "crest": "chievo"
+  },
+  {
+    "id": 143,
+    "team": "Bayer 04 Leverkusen",
+    "crest": "bayer04leverkusen"
+  },
+  {
+    "id": 144,
+    "team": "FC Metz",
+    "crest": "fcmetz"
+  },
+  {
+    "id": 145,
+    "team": "VfL Bochum",
+    "crest": "vfLbochum"
+  },
+  {
+    "id": 146,
+    "team": "RC Strasbourg Alsace",
+    "crest": "racingclubdestrasbourg"
+  },
+  {
+    "id": 147,
+    "team": "Málaga CF",
+    "crest": "malaga"
+  },
+  {
+    "id": 148,
+    "team": "FC Fulham",
+    "crest": "fulham"
+  },
+  {
+    "id": 149,
+    "team": "Birmingham City",
+    "crest": "birminghamcity"
+  },
+  {
+    "id": 150,
+    "team": "Borussia Mönchengladbach",
+    "crest": "borussiamonchengladbach"
   }
 ]

@@ -41,6 +41,7 @@ export class FootballCrossComponent implements OnInit {
     ['0', '1', '2'],
     ['0', '1', '2'],
   ]
+  public doesNotExist: string[] = []
 
   constructor(
     protected playerService: PlayersService,
@@ -208,14 +209,20 @@ export class FootballCrossComponent implements OnInit {
       const found = this.crests.find((club) => club.team === team)
       if (found) {
         this.columnCrestsForQuestion.push(found.crest)
+      } else {
+        this.doesNotExist.push(team)
       }
     })
     this.randomTeams?.row.forEach((team: string) => {
       const found = this.crests.find((club) => club.team === team)
       if (found) {
         this.rowCrestsForQuestion.push(found.crest)
+      } else {
+        this.doesNotExist.push(team)
       }
     })
+    //remove already used clubs
+    this.doesNotExist = this.doesNotExist.filter((value, index) => this.doesNotExist.indexOf(value) === index)
   }
 
   setPlayersForCross(): void {

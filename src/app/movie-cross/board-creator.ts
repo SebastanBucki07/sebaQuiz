@@ -1,7 +1,7 @@
-import { ClubLinks } from './club-links'
+import { MovieLinks } from './movie-links'
 
-export class BoardCreator {
-  constructor(private readonly clubLinks: ClubLinks) {}
+export class BoardMovieCreator {
+  constructor(private readonly movieLinks: MovieLinks) {}
 
   private readonly boardSize = 3
 
@@ -9,7 +9,7 @@ export class BoardCreator {
   private readonly columnClubs: string[] = []
 
   generateBoard() {
-    const result = this.tryGenerate(this.clubLinks.getAllClubs(), this.rowClubs, this.columnClubs)
+    const result = this.tryGenerate(this.movieLinks.getAllActors(), this.rowClubs, this.columnClubs)
     if (!result) {
       return null
     }
@@ -20,15 +20,15 @@ export class BoardCreator {
     return {
       row: arr.row,
       column: arr.column,
-      R0C0: this.clubLinks.getLinkingPlayers(arr.row[0], arr.column[0]),
-      R0C1: this.clubLinks.getLinkingPlayers(arr.row[0], arr.column[1]),
-      R0C2: this.clubLinks.getLinkingPlayers(arr.row[0], arr.column[2]),
-      R1C0: this.clubLinks.getLinkingPlayers(arr.row[1], arr.column[0]),
-      R1C1: this.clubLinks.getLinkingPlayers(arr.row[1], arr.column[1]),
-      R1C2: this.clubLinks.getLinkingPlayers(arr.row[1], arr.column[2]),
-      R2C0: this.clubLinks.getLinkingPlayers(arr.row[2], arr.column[0]),
-      R2C1: this.clubLinks.getLinkingPlayers(arr.row[2], arr.column[1]),
-      R2C2: this.clubLinks.getLinkingPlayers(arr.row[2], arr.column[2]),
+      R0C0: this.movieLinks.getLinkingActors(arr.row[0], arr.column[0]),
+      R0C1: this.movieLinks.getLinkingActors(arr.row[0], arr.column[1]),
+      R0C2: this.movieLinks.getLinkingActors(arr.row[0], arr.column[2]),
+      R1C0: this.movieLinks.getLinkingActors(arr.row[1], arr.column[0]),
+      R1C1: this.movieLinks.getLinkingActors(arr.row[1], arr.column[1]),
+      R1C2: this.movieLinks.getLinkingActors(arr.row[1], arr.column[2]),
+      R2C0: this.movieLinks.getLinkingActors(arr.row[2], arr.column[0]),
+      R2C1: this.movieLinks.getLinkingActors(arr.row[2], arr.column[1]),
+      R2C2: this.movieLinks.getLinkingActors(arr.row[2], arr.column[2]),
     }
   }
 
@@ -38,15 +38,15 @@ export class BoardCreator {
       return true
     }
     let candidates = Array.from(list)
-    console.log(`candidates: ${JSON.stringify(candidates)}`)
+    //console.log(JSON.stringify(candidates))
     //remove already used clubs
     candidates = candidates.filter((c) => !this.rowClubs.includes(c) && !this.columnClubs.includes(c))
     //remove clubs that cannot be matched
-    candidates = candidates.filter((c1) => otherList.every((c2) => this.clubLinks.linkExists(c1, c2)))
+    candidates = candidates.filter((c1) => otherList.every((c2) => this.movieLinks.linkActorsExists(c1, c2)))
     while (candidates.length > 0) {
       const candidate = this.takeRandom(candidates)
       mainList.push(candidate)
-      const linkedWithCandidate = this.clubLinks.getLinkedClubs(candidate)
+      const linkedWithCandidate = this.movieLinks.getLinkedActors(candidate)
       const result = this.tryGenerate(linkedWithCandidate, otherList, mainList)
       if (result) {
         return true

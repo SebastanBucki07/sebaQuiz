@@ -47,6 +47,9 @@ import { WrittingData, WrittingsCategoryModel } from './model/writtingsCategory-
 import { ClubLinks } from './football-cross/club-links'
 import { BoardCreator } from './football-cross/board-creator'
 import { players } from '../assets/football/players'
+import { MovieLinks } from './movie-cross/movie-links'
+import { actors } from '../assets/actors/actors'
+import { BoardMovieCreator } from './movie-cross/board-creator'
 
 @Injectable({
   providedIn: 'root',
@@ -149,6 +152,22 @@ export class QuestionDataService {
       for (const club1 of result!.row) {
         for (const club2 of result!.column) {
           console.log(`club1:${club1}, club2: ${club2} [${links.getLinkingPlayers(club1, club2).join(', ')}]`)
+        }
+      }
+    }
+    return result
+  }
+
+  getActorsQuestion() {
+    const links = MovieLinks.readFromActorsList(actors)
+    console.log(`links: ${JSON.stringify(links)}`)
+    const generator = new BoardMovieCreator(links)
+    const result = generator.generateBoard()
+    console.log(`ResultACTORS: ${JSON.stringify(result)}`)
+    if (result != null) {
+      for (const actor1 of result!.row) {
+        for (const actor2 of result!.column) {
+          console.log(`actor1:${actor1}, actor2: ${actor2} [${links.getLinkingActors(actor1, actor2).join(', ')}]`)
         }
       }
     }
