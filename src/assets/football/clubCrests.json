@@ -748,5 +748,60 @@
     "id": 150,
     "team": "Borussia Mönchengladbach",
     "crest": "borussiamonchengladbach"
+  },
+  {
+    "id": 151,
+    "team": "AS Roma",
+    "crest": "asroma"
+  },
+  {
+    "id": 152,
+    "team": "Elche CF",
+    "crest": "elche"
+  },
+  {
+    "id": 153,
+    "team": "Amica Wronki",
+    "crest": "amicawronki"
+  },
+  {
+    "id": 154,
+    "team": "Górnik Polkowice",
+    "crest": "gornikpolkowice"
+  },
+  {
+    "id": 155,
+    "team": "Real Betis Balompié",
+    "crest": "realbetis"
+  },
+  {
+    "id": 156,
+    "team": "Leeds United",
+    "crest": "leedsunited"
+  },
+  {
+    "id": 157,
+    "team": "Bolton Wanderers",
+    "crest": "boltonwanderers"
+  },
+  {
+    "id": 158,
+    "team": "Tottenham Hotspur",
+    "crest": "tottenhamhotspur"
+  },
+  {
+    "id": 159,
+    "team": "FC Empoli",
+    "crest": "empoli"
+  },
+  {
+    "id": 160,
+    "team": "FC Twente Enschede",
+    "crest": "fctwente"
+  },
+  {
+    "id": 161,
+    "team": "FC Schalke 04",
+    "crest": "fcschalke04"
   }
 ]
