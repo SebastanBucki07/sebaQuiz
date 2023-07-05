@@ -1,572 +1,174 @@
 [
-  {
-    "id": 1,
-    "team": "Lech Poznań",
-    "count": 0
-  },
-  {
-    "id": 2,
-    "team": "Legia Warszawa",
-    "count": 0
-  },
-  {
-    "id": 3,
-    "team": "Piast Gliwice",
-    "count": 0
-  },
-  {
-    "id": 4,
-    "team": "Śląsk Wrocław",
-    "count": 0
-  },
-  {
-    "id": 5,
-    "team": "Lechia Gdańsk",
-    "count": 0
-  },
-  {
-    "id": 6,
-    "team": "Górnik Zabrze",
-    "count": 0
-  },
-  {
-    "id": 7,
-    "team": "Stal Mielec",
-    "count": 0
-  },
-  {
-    "id": 8,
-    "team": "Zagłębie Lubin",
-    "count": 0
-  },
-  {
-    "id": 9,
-    "team": "Pogoń Szczecin",
-    "count": 0
-  },
-  {
-    "id": 10,
-    "team": "Wisła Płock",
-    "count": 0
-  },
-  {
-    "id": 11,
-    "team": "Korona Kielce",
-    "count": 0
-  },
-  {
-    "id": 12,
-    "team": "Widzew Łódź",
-    "count": 0
-  },
-  {
-    "id": 13,
-    "team": "Jagiellonia Białystok",
-    "count": 0
-  },
-  {
-    "id": 14,
-    "team": "Miedź Legnica",
-    "count": 0
-  },
-  {
-    "id": 15,
-    "team": "Warta Poznań",
-    "count": 0
-  },
-  {
-    "id": 16,
-    "team": "Raków Częstochowa",
-    "count": 0
-  },
-  {
-    "id": 17,
-    "team": "Cracovia",
-    "count": 0
-  },
-  {
-    "id": 18,
-    "team": "Radomiak Radom",
-    "count": 0
-  },
-  {
-    "id": 19,
-    "team": "ŁKS Łódź",
-    "count": 0
-  },
-  {
-    "id": 20,
-    "team": "Wisła Kraków",
-    "count": 0
-  },
-  {
-    "id": 21,
-    "team": "Podbeskidzie Bielsko-Biała",
-    "count": 0
-  },
-  {
-    "id": 22,
-    "team": "Polonia Warszawa",
-    "count": 0
-  },
-  {
-    "id": 23,
-    "team": "GKS Katowice",
-    "count": 0
-  },
-  {
-    "id": 24,
-    "team": "Ruch Chorzów",
-    "count": 0
-  },
-  {
-    "id": 25,
-    "team": "GKS Bełchatów",
-    "count": 0
-  },
-  {
-    "id": 26,
-    "team": "Bruk-Bet Termalica Nieciecza",
-    "count": 0
-  },
-  {
-    "id": 27,
-    "team": "Zagłębie Sosnowiec",
-    "count": 0
-  },
-  {
-    "id": 28,
-    "team": "Arka Gdynia",
-    "count": 0
-  },
-  {
-    "id": 29,
-    "team": "Dolcan Ząbki",
-    "count": 0
-  },
-  {
-    "id": 30,
-    "team": "Sandecja Nowy Sącz",
-    "count": 0
-  },
-  {
-    "id": 31,
-    "team": "Górnik Łęczna",
-    "count": 0
-  },
-  {
-    "id": 32,
-    "team": "Celtic Glasgow",
-    "count": 0
-  },
-  {
-    "id": 33,
-    "team": "Trabzonspor",
-    "count": 0
-  },
-  {
-    "id": 34,
-    "team": "SSC Napoli",
-    "count": 0
-  },
-  {
-    "id": 35,
-    "team": "Chrobry Głogów",
-    "count": 0
-  },
-  {
-    "id": 36,
-    "team": "Zawisza Bydgoszcz",
-    "count": 0
-  },
-  {
-    "id": 37,
-    "team": "Motor Lublin",
-    "count": 0
-  },
-  {
-    "id": 38,
-    "team": "Motor Lublin",
-    "count": 0
-  },
-  {
-    "id": 39,
-    "team": "Polonia Bytom",
-    "count": 0
-  },
-  {
-    "id": 40,
-    "team": "Dyskobolia Grodzisk Wielkopolski",
-    "count": 0
-  },
-  {
-    "id": 41,
-    "team": "GKS Tychy",
-    "count": 0
-  },
-  {
-    "id": 42,
-    "team": "Feyenoord Rotterdam",
-    "count": 0
-  },
-  {
-    "id": 43,
-    "team": "FC Toulouse",
-    "count": 0
-  },
-  {
-    "id": 44,
-    "team": "FC Girondins Bordeaux",
-    "count": 0
-  },
-  {
-    "id": 45,
-    "team": "Olympique Marseille",
-    "count": 0
-  },
-  {
-    "id": 46,
-    "team": "Celtic Glasgow",
-    "count": 0
-  },
-  {
-    "id": 47,
-    "team": "AJ Auxerre",
-    "count": 0
-  },
-  {
-    "id": 48,
-    "team": "Olympique Lyon",
-    "count": 0
-  },
-  {
-    "id": 49,
-    "team": "AS Monaco",
-    "count": 0
-  },
-  {
-    "id": 50,
-    "team": "Hannover 96",
-    "count": 0
-  },
-  {
-    "id": 51,
-    "team": "Hamburger SV",
-    "count": 0
-  },
-  {
-    "id": 52,
-    "team": "1.FC Köln",
-    "count": 0
-  },
-  {
-    "id": 53,
-    "team": "Borussia Dortmund",
-    "count": 0
-  },
-  {
-    "id": 54,
-    "team": "Clermont Foot 63",
-    "count": 0
-  },
-  {
-    "id": 55,
-    "team": "Wieczysta Kraków",
-    "count": 0
-  },
-  {
-    "id": 56,
-    "team": "FC Paris Saint-Germain",
-    "count": 0
-  },
-  {
-    "id": 57,
-    "team": "Real Madryt",
-    "count": 0
-  },
-  {
-    "id": 58,
-    "team": "VfB Stuttgart",
-    "count": 0
-  },
-  {
-    "id": 59,
-    "team": "FC Arsenal",
-    "count": 0
-  },
-  {
-    "id": 60,
-    "team": "RC Lens",
-    "count": 0
-  },
-  {
-    "id": 61,
-    "team": "Derby County",
-    "count": 0
-  },
-  {
-    "id": 62,
-    "team": "FC Southampton",
-    "count": 0
-  },
-  {
-    "id": 63,
-    "team": "FC Watford",
-    "count": 0
-  },
-  {
-    "id": 64,
-    "team": "AC Milan",
-    "count": 0
-  },
-  {
-    "id": 65,
-    "team": "Bayern Monachium",
-    "count": 0
-  },
-  {
-    "id": 66,
-    "team": "TSG 1899 Hoffenheim",
-    "count": 0
-  },
-  {
-    "id": 67,
-    "team": "Leicester City",
-    "count": 0
-  },
-  {
-    "id": 68,
-    "team": "FC Liverpool",
-    "count": 0
-  },
-  {
-    "id": 69,
-    "team": "FC Barcelona",
-    "count": 0
-  },
-  {
-    "id": 70,
-    "team": "AC Fiorentina",
-    "count": 0
-  },
-  {
-    "id": 71,
-    "team": "Manchester United",
-    "count": 0
-  },
-  {
-    "id": 72,
-    "team": "Manchester City",
-    "count": 0
-  },
-  {
-    "id": 73,
-    "team": "Wolverhampton Wanderers",
-    "count": 0
-  },
-  {
-    "id": 74,
-    "team": "Sevilla FC",
-    "count": 0
-  },
-  {
-    "id": 75,
-    "team": "Lazio Rzym",
-    "count": 0
-  },
-  {
-    "id": 76,
-    "team": "1.FC Kaiserslautern",
-    "count": 0
-  },
-  {
-    "id": 77,
-    "team": "FC Brentford",
-    "count": 0
-  },
-  {
-    "id": 78,
-    "team": "Torino FC",
-    "count": 0
-  },
-  {
-    "id": 79,
-    "team": "UC Sampdoria",
-    "count": 0
-  },
-  {
-    "id": 80,
-    "team": "West Ham United",
-    "count": 0
-  },
-  {
-    "id": 81,
-    "team": "Arminia Bielefeld",
-    "count": 0
-  },
-  {
-    "id": 82,
-    "team": "LOSC Lille",
-    "count": 0
-  },
-  {
-    "id": 83,
-    "team": "FC Augsburg",
-    "count": 0
-  },
-  {
-    "id": 84,
-    "team": "Huddersfield Town",
-    "count": 0
-  },
-  {
-    "id": 85,
-    "team": "Ipswich Town",
-    "count": 0
-  },
-  {
-    "id": 86,
-    "team": "Olimpia Grudziądz",
-    "count": 0
-  },
-  {
-    "id": 87,
-    "team": "Stal Stalowa Wola",
-    "count": 0
-  },
-  {
-    "id": 88,
-    "team": "Stal Stalowa Wola",
-    "count": 0
-  },
-  {
-    "id": 89,
-    "team": "ROW 1964 Rybnik",
-    "count": 0
-  },
-  {
-    "id": 90,
-    "team": "SC Freiburg",
-    "count": 0
-  },
-  {
-    "id": 91,
-    "team": "Queens Park Rangers",
-    "count": 0
-  },
-  {
-    "id": 92,
-    "team": "Hellas Verona",
-    "count": 0
-  },
-  {
-    "id": 93,
-    "team": "1.FC Union Berlin",
-    "count": 0
-  },
-  {
-    "id": 94,
-    "team": "BATE Borysów",
-    "count": 0
-  },
-  {
-    "id": 95,
-    "team": "Göztepe",
-    "count": 0
-  },
-  {
-    "id": 96,
-    "team": "Holstein Kiel",
-    "count": 0
-  },
-  {
-    "id": 97,
-    "team": "MSK Zilina",
-    "count": 0
-  },
-  {
-    "id": 98,
-    "team": "Panathinaikos Ateny",
-    "count": 0
-  },
-  {
-    "id": 99,
-    "team": "Sivasspor",
-    "count": 0
-  },
-  {
-    "id": 100,
-    "team": "Znicz Pruszków",
-    "count": 0
-  },
-  {
-    "id": 101,
-    "team": "Pogoń Siedlce",
-    "count": 0
-  },
-  {
-    "id": 102,
-    "team": "Odra Opole",
-    "count": 0
-  },
-  {
-    "id": 103,
-    "team": "Odra Wodzisław Śląski",
-    "count": 0
-  },
-  {
-    "id": 104,
-    "team": "Ruch Radzionków",
-    "count": 0
-  },
-  {
-    "id": 105,
-    "team": "Chojniczanka Chojnice",
-    "count": 0
-  },
-  {
-    "id": 106,
-    "team": "Sporting CP",
-    "count": 0
-  },
-  {
-    "id": 107,
-    "team": "Kotwica Kołobrzeg",
-    "count": 0
-  },
-  {
-    "id": 108,
-    "team": "SPAL",
-    "count": 0
-  },
-  {
-    "id": 109,
-    "team": "SV Darmstadt 98",
-    "count": 0
-  },
-  {
-    "id": 110,
-    "team": "Wisła Puławy",
-    "count": 0
-  },
-  {
-    "id": 111,
-    "team": "Ajax Amsterdam",
-    "count": 0
-  },
-  {
-    "id": 112,
-    "team": "Juventus Turyn",
-    "count": 0
-  },
-  {
-    "id": 113,
-    "team": "Fortuna Düsseldorf",
-    "count": 0
-  },
-  {
-    "id": 114,
-    "team": "Hertha BSC",
-    "count": 0
-  }
+  "Lech Poznań",
+  "Legia Warszawa",
+  "Piast Gliwice",
+  "Śląsk Wrocław",
+  "Lechia Gdańsk",
+  "Górnik Zabrze",
+  "Stal Mielec",
+  "Zagłębie Lubin",
+  "Pogoń Szczecin",
+  "Wisła Płock",
+  "Korona Kielce",
+  "Widzew Łódź",
+  "Jagiellonia Białystok",
+  "Miedź Legnica",
+  "Warta Poznań",
+  "Raków Częstochowa",
+  "Cracovia",
+  "Radomiak Radom",
+  "ŁKS Łódź",
+  "Wisła Kraków",
+  "Podbeskidzie Bielsko-Biała",
+  "Polonia Warszawa",
+  "GKS Katowice",
+  "Ruch Chorzów",
+  "GKS Bełchatów",
+  "Bruk-Bet Termalica Nieciecza",
+  "Zagłębie Sosnowiec",
+  "Arka Gdynia",
+  "Dolcan Ząbki",
+  "Sandecja Nowy Sącz",
+  "Górnik Łęczna",
+  "Celtic Glasgow",
+  "Trabzonspor",
+  "SSC Napoli",
+  "Chrobry Głogów",
+  "Zawisza Bydgoszcz",
+  "Motor Lublin",
+  "Palermo FC",
+  "Polonia Bytom",
+  "Dyskobolia Grodzisk Wielkopolski",
+  "GKS Tychy",
+  "Feyenoord Rotterdam",
+  "FC Toulouse",
+  "FC Girondins Bordeaux",
+  "Olympique Marseille",
+  "AJ Auxerre",
+  "Olympique Lyon",
+  "AS Monaco",
+  "Hannover 96",
+  "Hamburger SV",
+  "1.FC Köln",
+  "Borussia Dortmund",
+  "Clermont Foot 63",
+  "Wieczysta Kraków",
+  "FC Paris Saint-Germain",
+  "Real Madryt",
+  "VfB Stuttgart",
+  "FC Arsenal",
+  "RC Lens",
+  "Derby County",
+  "FC Southampton",
+  "FC Watford",
+  "AC Milan",
+  "Bayern Monachium",
+  "TSG 1899 Hoffenheim",
+  "Leicester City",
+  "FC Liverpool",
+  "FC Barcelona",
+  "AC Fiorentina",
+  "Manchester United",
+  "Manchester City",
+  "Wolverhampton Wanderers",
+  "Sevilla FC",
+  "Lazio Rzym",
+  "1.FC Kaiserslautern",
+  "FC Brentford",
+  "Torino FC",
+  "UC Sampdoria",
+  "West Ham United",
+  "Arminia Bielefeld",
+  "LOSC Lille",
+  "FC Augsburg",
+  "Huddersfield Town",
+  "Ipswich Town",
+  "Olimpia Grudziądz",
+  "Stal Stalowa Wola",
+  "Stal Stalowa Wola",
+  "ROW 1964 Rybnik",
+  "SC Freiburg",
+  "Queens Park Rangers",
+  "1.FC Union Berlin",
+  "BATE Borysów",
+  "Göztepe",
+  "Holstein Kiel",
+  "MSK Zilina",
+  "Panathinaikos Ateny",
+  "Sivasspor",
+  "Znicz Pruszków",
+  "Pogoń Siedlce",
+  "Odra Opole",
+  "Odra Wodzisław Śląski",
+  "Ruch Radzionków",
+  "Chojniczanka Chojnice",
+  "Sporting CP",
+  "Kotwica Kołobrzeg",
+  "SPAL",
+  "SV Darmstadt 98",
+  "Wisła Puławy",
+  "Ajax Amsterdam",
+  "Hellas Verona",
+  "Eintracht Frankfurt",
+  "Juventus Turyn",
+  "Fortuna Düsseldorf",
+  "Hertha BSC",
+  "Inter Mediolan",
+  "Chelsea FC",
+  "Wigry Suwałki",
+  "Chicago Fire FC",
+  "OGC Nice",
+  "West Bromwich Albion",
+  "FC Sheriff Tyraspol",
+  "FC Porto",
+  "Akhmat Grozny",
+  "Resovia Rzeszów",
+  "Stomil Olsztyn",
+  "Flota Świnoujście",
+  "AEL Limassol",
+  "RSC Anderlecht",
+  "Charlton Athletic",
+  "Puszcza Niepołomice",
+  "Atlético Madryt",
+  "AC Monza",
+  "Brescia Calcio",
+  "FC Sion",
+  "Benfika Lizbona",
+  "Galatasaray",
+  "PSV Eindhoven",
+  "Valencia CF",
+  "Fenerbahce",
+  "Amkar Perm",
+  "Los Angeles Galaxy",
+  "Chievo Verona",
+  "Bayer 04 Leverkusen",
+  "FC Metz",
+  "VfL Bochum",
+  "RC Strasbourg Alsace",
+  "Málaga CF",
+  "FC Fulham",
+  "Birmingham City",
+  "Borussia Mönchengladbach",
+  "AS Roma",
+  "Elche CF",
+  "Amica Wronki",
+  "Górnik Polkowice",
+  "Real Betis Balompié",
+  "Leeds United",
+  "Bolton Wanderers",
+  "Tottenham Hotspur",
+  "FC Empoli",
+  "FC Twente Enschede",
+  "FC Schalke 04",
+  "RCD Espanyol",
+  "RCD Espanyol",
+  "Atalanta BC",
+  "FC Basel 1893",
+  "AS Saint-Étienne",
+  "Genoa CFC",
+  "Cagliari Calcio",
+  "Parma Calcio 1913",
+  "Aston Villa",
+  "VfL Wolfsburg",
+  "Besiktas JK"
 ]

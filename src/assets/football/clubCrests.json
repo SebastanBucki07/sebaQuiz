@@ -803,5 +803,60 @@
     "id": 161,
     "team": "FC Schalke 04",
     "crest": "fcschalke04"
+  },
+  {
+    "id": 162,
+    "team": "RCD Espanyol",
+    "crest": "RCDEspanyol"
+  },
+  {
+    "id": 163,
+    "team": "RCD Espanyol",
+    "crest": "RCDEspanyol"
+  },
+  {
+    "id": 164,
+    "team": "Atalanta BC",
+    "crest": "atalanta"
+  },
+  {
+    "id": 165,
+    "team": "FC Basel 1893",
+    "crest": "fcbasel"
+  },
+  {
+    "id": 166,
+    "team": "AS Saint-Étienne",
+    "crest": "ASSaintEtienne"
+  },
+  {
+    "id": 167,
+    "team": "Genoa CFC",
+    "crest": "genoa"
+  },
+  {
+    "id": 168,
+    "team": "Cagliari Calcio",
+    "crest": "cagliari"
+  },
+  {
+    "id": 169,
+    "team": "Parma Calcio 1913",
+    "crest": "parma"
+  },
+  {
+    "id": 170,
+    "team": "Aston Villa",
+    "crest": "astonvilla"
+  },
+  {
+    "id": 171,
+    "team": "VfL Wolfsburg",
+    "crest": "wolfsburg"
+  },
+  {
+    "id": 172,
+    "team": "Besiktas JK",
+    "crest": "besiktasjk"
   }
 ]
