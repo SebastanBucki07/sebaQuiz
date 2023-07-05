@@ -1,0 +1,36 @@
+<div class="modal">
+  <i class="bi bi-x-circle"></i>
+  <ng-container *ngIf="!isVisible">
+    <button type="button" class="btn btn-primary btn-lg btn-block answerButton" (click)="showAnswer()">odp</button>
+  </ng-container>
+  <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
+  <app-timer></app-timer>
+  <div class="row">
+    <h1>Jakiej firmy to logo?</h1>
+    <div class="col-12 col-lg-4 offset-lg-4">
+      <div
+        class="card-img-top"
+        *ngIf="!isVisible"
+        [ngStyle]="{
+          background: 'url(assets/logo/' + randomLogo + ')' + size1 + 'px ' + size2 + 'px no-repeat',
+          height: '300px',
+          width: '300px',
+          'background-size': '300%'
+        }"
+      ></div>
+    </div>
+    <ng-container *ngIf="isVisible">
+      <div class="row">
+        <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
+          <div class="card" style="width: 30rem">
+            <img class="card-img-top" src="assets/logo/{{ randomLogo }}" alt="{{ randomLogo }}" />
+            <h4 class="correct">
+              {{ randomLogo }}
+              <app-add-points></app-add-points>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+</div>

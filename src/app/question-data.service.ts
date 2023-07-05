@@ -36,6 +36,7 @@ import chemicalElements from '../assets/chemist/chemist.json'
 import biologyData from '../assets/biology/biology.json'
 import godsData from '../assets/gods/gods.json'
 import clubCrestsData from '../assets/clubs/clubCrests.json'
+import logoData from '../assets/logo/logo.json'
 import clubHistoryData from '../assets/clubs/clubsHistory.json'
 import { ClubHistory } from './model/clubHistory-model'
 import { ActorModel } from './model/actor-model'
@@ -92,12 +93,14 @@ export class QuestionDataService {
   protected countriesLetters: string[] | any = null
   protected capitalsLetters: string[] | any = null
   protected allClubsCrests: string[] = []
+  protected allLogo: string[] = []
   protected init = false
 
   initial(): void {
     this.allYoutubeSongs = youtubeSongData
     this.allYoutubeMundial = youtubeMundialData
     this.allClubsCrests = clubCrestsData
+    this.allLogo = logoData
     this.allYoutubeSerialIntros = youtubeSerialsIntroData
     this.allFamousPeople = famousPeopleData
     this.allBuilding = buildingsData
@@ -384,6 +387,13 @@ export class QuestionDataService {
       this.initial()
     }
     return getAndDeleteRandomElementFromArray(this.allClubsCrests)
+  }
+
+  getLogoQuestion() {
+    if (!this.init) {
+      this.initial()
+    }
+    return getAndDeleteRandomElementFromArray(this.allLogo)
   }
 
   getClubHistoryQuestion() {
