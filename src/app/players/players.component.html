@@ -29,6 +29,7 @@
   </button>
 </ng-container>
 <ng-container *ngIf="isPlayersTableVisible">
+  <h3 class="actualPlayer">Teraz kolej na {{ players[actualPlayer].name }}</h3>
   <div class="table-responsive">
     <table id="playerTable" class="table table-hover">
       <thead>
@@ -47,5 +48,4 @@
       </tbody>
     </table>
   </div>
-  <h3 class="actualPlayer">Teraz kolej na {{ players[actualPlayer].name }}</h3>
 </ng-container>
