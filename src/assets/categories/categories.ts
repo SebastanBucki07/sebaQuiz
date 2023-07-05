@@ -38,4 +38,5 @@ export const allCategories: Category[] = [
   { name: 'Wypisywanie róznych wspólnych - piłka nożna', id: 34, checkbox: false, class: 'bg-danger bg-gradient' },
   { name: 'Piłkarskie kółko i krzyżyk', id: 35, checkbox: false, class: 'bg-danger bg-gradient' },
   { name: 'Aktorskie kółko i krzyżyk', id: 36, checkbox: false, class: 'bg-primary bg-gradient' },
+  { name: 'Jakie to logo?', id: 37, checkbox: false, class: 'bg-warning bg-gradient' },
 ]

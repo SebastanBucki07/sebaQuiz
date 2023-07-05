@@ -110,6 +110,9 @@
   <div class="row" *ngSwitchCase="36">
     <app-movie-cross></app-movie-cross>
   </div>
+  <div class="row" *ngSwitchCase="37">
+    <app-logo-component></app-logo-component>
+  </div>
   <div class="row" *ngSwitchDefault>
     <div *ngIf="categories.length > 0">
       <button type="button" class="question-button btn btn-primary col-12 randomButton" (click)="setQuestionType(50)">
