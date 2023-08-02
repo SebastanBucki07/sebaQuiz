@@ -146,7 +146,8 @@ export class QuestionDataService {
   }
 
   getFootballerQuestion() {
-    const links = ClubLinks.readFromPlayerList(players)
+    const pf: string[] = []
+    let links = ClubLinks.readFromPlayerList(players, pf)
     console.log(`links: ${JSON.stringify(links)}`)
     const generator = new BoardCreator(links)
     const result = generator.generateBoard()

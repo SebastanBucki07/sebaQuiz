@@ -51,11 +51,13 @@ export class FootballCrossComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.randomTeams = this.questionDataService.getFootballerQuestion()
-    console.log(`randomTeams2: ${JSON.stringify(this.randomTeams)}`)
-    //this.countClubPairs()
-    //this.countPairs()
-    this.init()
+    for (let i = 0; i < 500; i++) {
+      this.randomTeams = this.questionDataService.getFootballerQuestion()
+      console.log(`randomTeams2: ${JSON.stringify(this.randomTeams)}`)
+      //this.countClubPairs()
+      //this.countPairs()
+      this.init()
+    }
   }
 
   init(): void {
@@ -223,6 +225,8 @@ export class FootballCrossComponent implements OnInit {
     })
     //remove already used clubs
     this.doesNotExist = this.doesNotExist.filter((value, index) => this.doesNotExist.indexOf(value) === index)
+    this.doesNotExist = this.doesNotExist.sort()
+    console.log(`not found: ${JSON.stringify(this.doesNotExist)}`)
   }
 
   setPlayersForCross(): void {
