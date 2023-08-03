@@ -51,13 +51,11 @@ export class FootballCrossComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    for (let i = 0; i < 500; i++) {
-      this.randomTeams = this.questionDataService.getFootballerQuestion()
-      console.log(`randomTeams2: ${JSON.stringify(this.randomTeams)}`)
-      //this.countClubPairs()
-      //this.countPairs()
-      this.init()
-    }
+    this.randomTeams = this.questionDataService.getFootballerQuestion()
+    console.log(`randomTeams2: ${JSON.stringify(this.randomTeams)}`)
+    //this.countClubPairs()
+    //this.countPairs()
+    this.init()
   }
 
   init(): void {
