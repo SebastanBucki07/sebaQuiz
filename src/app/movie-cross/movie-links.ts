@@ -7,10 +7,14 @@ export class MovieLinks {
     actors: readonly {
       readonly title: string
       readonly actors: readonly string[]
-    }[]
+    }[],
+    actorFilter: readonly string[] = []
   ) {
     const result = new MovieLinks()
     for (const movie of actors) {
+      if (!!actorFilter.length && !actorFilter.includes(movie.title)) {
+        continue
+      }
       for (const actor of movie.actors) {
         let actorInfo = result.actors.get(actor)
         if (!actorInfo) {
