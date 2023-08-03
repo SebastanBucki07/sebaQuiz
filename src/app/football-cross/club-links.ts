@@ -7,10 +7,14 @@ export class ClubLinks {
     players: readonly {
       readonly name: string
       readonly clubs: readonly string[]
-    }[]
+    }[],
+    playerFilter: readonly string[] = []
   ) {
     const result = new ClubLinks()
     for (const player of players) {
+      if (!!playerFilter.length && !playerFilter.includes(player.name)) {
+        continue
+      }
       for (const club of player.clubs) {
         let clubInfo = result.clubs.get(club)
         if (!clubInfo) {
@@ -28,7 +32,6 @@ export class ClubLinks {
         }
       }
     }
-    console.log(`result: ${JSON.stringify(result)}`)
     return result
   }
 
@@ -53,7 +56,6 @@ export class ClubLinks {
   }
 
   linkExists(club1: string, club2: string) {
-    //console.log(`getLinkingPlayers: ${this.getLinkingPlayers(club1, club2).length}`)
-    return this.getLinkingPlayers(club1, club2).length > 1
+    return !!this.getLinkingPlayers(club1, club2).length
   }
 }

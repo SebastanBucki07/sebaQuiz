@@ -858,5 +858,495 @@
     "id": 172,
     "team": "Besiktas JK",
     "crest": "besiktasjk"
+  },
+  {
+    "id": 173,
+    "team": "1.FC Nürnberg",
+    "crest": "fcnurnberg"
+  },
+  {
+    "id": 174,
+    "team": "AC Sparta Praga",
+    "crest": "sparta_praga"
+  },
+  {
+    "id": 175,
+    "team": "AEK Ateny",
+    "crest": "aekateny"
+  },
+  {
+    "id": 176,
+    "team": "Aris Limassol",
+    "crest": "aellimassol"
+  },
+  {
+    "id": 177,
+    "team": "BSC Young Boys",
+    "crest": "BSCyoungboys"
+  },
+  {
+    "id": 178,
+    "team": "De Graafschap Doetinchem",
+    "crest": "degraafschap"
+  },
+  {
+    "id": 179,
+    "team": "Dundee United FC",
+    "crest": "dundeeunited"
+  },
+  {
+    "id": 180,
+    "team": "Lokomotiw Moskwa",
+    "crest": "lokomotiwmoskwa"
+  },
+  {
+    "id": 181,
+    "team": "Newcastle United",
+    "crest": "newcastle"
+  },
+  {
+    "id": 182,
+    "team": "Olympiakos Pireus",
+    "crest": "olympiakospireus"
+  },
+  {
+    "id": 183,
+    "team": "PAOK Saloniki",
+    "crest": "paoksaloniki"
+  },
+  {
+    "id": 184,
+    "team": "SV Werder Bremen",
+    "crest": "werderbrema"
+  },
+  {
+    "id": 185,
+    "team": "Stade Rennais FC",
+    "crest": "staderennais"
+  },
+  {
+    "id": 186,
+    "team": "Udinese Calcio",
+    "crest": "udinesecalcio"
+  },
+  {
+    "id": 187,
+    "team": "Cádiz CF",
+    "crest": "cadizcf"
+  },
+  {
+    "id": 188,
+    "team": "AFC Sunderland",
+    "crest": "Sunderland"
+  },
+  {
+    "id": 189,
+    "team": "AEK Larnaka",
+    "crest": "AEKlarnaca"
+  },
+  {
+    "id": 190,
+    "team": "Antalyaspor",
+    "crest": "antalyaspor"
+  },
+  {
+    "id": 191,
+    "team": "Bröndby IF",
+    "crest": "brondbyif"
+  },
+  {
+    "id": 192,
+    "team": "Bytovia Bytów",
+    "crest": "bytoviabytow"
+  },
+  {
+    "id": 193,
+    "team": "FC Barnsley",
+    "crest": "barnsley"
+  },
+  {
+    "id": 194,
+    "team": "FC Bologna",
+    "crest": "bologna"
+  },
+  {
+    "id": 195,
+    "team": "FC Crotone",
+    "crest": "fccrotone"
+  },
+  {
+    "id": 196,
+    "team": "FC Everton",
+    "crest": "everton"
+  },
+  {
+    "id": 197,
+    "team": "FC Utrecht",
+    "crest": "fcutrecht"
+  },
+  {
+    "id": 198,
+    "team": "FK Austria Wiedeń",
+    "crest": "austriawieden"
+  },
+  {
+    "id": 199,
+    "team": "Gaziantep FK",
+    "crest": "gaziantepfk"
+  },
+  {
+    "id": 200,
+    "team": "Hull City",
+    "crest": "hullcity"
+  },
+  {
+    "id": 201,
+    "team": "KRC Genk",
+    "crest": "genk"
+  },
+  {
+    "id": 202,
+    "team": "Levante UD",
+    "crest": "levante"
+  },
+  {
+    "id": 203,
+    "team": "Montpellier HSC",
+    "crest": "montpellierhsc"
+  },
+  {
+    "id": 204,
+    "team": "Norwich City",
+    "crest": "norwichcity"
+  },
+  {
+    "id": 205,
+    "team": "Olimpia Elbląg",
+    "crest": "olimpiaelblag"
+  },
+  {
+    "id": 206,
+    "team": "RasenBallsport Leipzig",
+    "crest": "rbleipzig"
+  },
+  {
+    "id": 207,
+    "team": "Rayo Vallecano",
+    "crest": "rayovallecano"
+  },
+  {
+    "id": 208,
+    "team": "Real Zaragoza",
+    "crest": "realsaragossa"
+  },
+  {
+    "id": 209,
+    "team": "SM Caen",
+    "crest": "smcaen"
+  },
+  {
+    "id": 210,
+    "team": "Santos FC",
+    "crest": "santosfc"
+  },
+  {
+    "id": 211,
+    "team": "Spezia Calcio",
+    "crest": "speziacalcio"
+  },
+  {
+    "id": 212,
+    "team": "Stal Rzeszów",
+    "crest": "stalrzeszow"
+  },
+  {
+    "id": 213,
+    "team": "Standard Liège",
+    "crest": "standardliege"
+  },
+  {
+    "id": 214,
+    "team": "Stoke City",
+    "crest": "stokecity"
+  },
+  {
+    "id": 215,
+    "team": "Swansea City",
+    "crest": "swanseacity"
+  },
+  {
+    "id": 216,
+    "team": "US Salernitana 1919",
+    "crest": "salernitana"
+  },
+  {
+    "id": 217,
+    "team": "APOEL Nikosia",
+    "crest": "apoelNikosia"
+  },
+  {
+    "id": 218,
+    "team": "Angers SCO",
+    "crest": "AngersSCO"
+  },
+  {
+    "id": 219,
+    "team": "Apollon Limassol",
+    "crest": "ApollonLimassol"
+  },
+  {
+    "id": 220,
+    "team": "Blackburn Rovers",
+    "crest": "BlackburnRovers"
+  },
+  {
+    "id": 221,
+    "team": "CA Osasuna",
+    "crest": "osasuna"
+  },
+  {
+    "id": 222,
+    "team": "CA River Plate",
+    "crest": "riverplate"
+  },
+  {
+    "id": 223,
+    "team": "Celta de Vigo",
+    "crest": "celtadevigo"
+  },
+  {
+    "id": 224,
+    "team": "Crvena Zvezda Belgrad",
+    "crest": "crvenazvezda"
+  },
+  {
+    "id": 225,
+    "team": "Crystal Palace",
+    "crest": "crystalpalace"
+  },
+  {
+    "id": 226,
+    "team": "Wigan Athletic",
+    "crest": "wiganathletic"
+  },
+  {
+    "id": 227,
+    "team": "Vitoria Guimarães SC",
+    "crest": "vitoriaguimaraes"
+  },
+  {
+    "id": 228,
+    "team": "Villarreal CF",
+    "crest": "villarrealcf"
+  },
+  {
+    "id": 229,
+    "team": "UD Logroñés",
+    "crest": "udlogrones"
+  },
+  {
+    "id": 230,
+    "team": "Tours FC",
+    "crest": "toursfc"
+  },
+  {
+    "id": 231,
+    "team": "Szachtar Donieck",
+    "crest": "szachtardonieck"
+  },
+  {
+    "id": 232,
+    "team": "Stade Reims",
+    "crest": "stadereims"
+  },
+  {
+    "id": 233,
+    "team": "Siarka Tarnobrzeg",
+    "crest": "siarkatarnobrzeg"
+  },
+  {
+    "id": 234,
+    "team": "SSC Bari",
+    "crest": "sscbari"
+  },
+  {
+    "id": 235,
+    "team": "SK Beveren",
+    "crest": "kskbeveren"
+  },
+  {
+    "id": 236,
+    "team": "SC Heerenveen",
+    "crest": "scheerenveen"
+  },
+  {
+    "id": 237,
+    "team": "SC Braga",
+    "crest": "sportingclubedebraga"
+  },
+  {
+    "id": 238,
+    "team": "Deportivo Alavés",
+    "crest": "deportivoalaves"
+  },
+  {
+    "id": 239,
+    "team": "Dynamo Kijów",
+    "crest": "fcdynamokyiv"
+  },
+  {
+    "id": 240,
+    "team": "Red Bull Salzburg",
+    "crest": "fcredbullsalzburg"
+  },
+  {
+    "id": 241,
+    "team": "Garbarnia Kraków",
+    "crest": "ksgarbarniakrakow"
+  },
+  {
+    "id": 242,
+    "team": "NEC Nijmegen",
+    "crest": "necnijmegen"
+  },
+  {
+    "id": 243,
+    "team": "Nottingham Forest",
+    "crest": "nottinghamforestfc"
+  },
+  {
+    "id": 244,
+    "team": "Oldham Athletic",
+    "crest": "oldhamathleticafc"
+  },
+  {
+    "id": 245,
+    "team": "Maccabi Haifa",
+    "crest": "maccabihaifa"
+  },
+  {
+    "id": 246,
+    "team": "MKS Kluczbork",
+    "crest": "mkskluczbork"
+  },
+  {
+    "id": 247,
+    "team": "Ludogorets Razgrad",
+    "crest": "pfcludogoretsrrazgrad"
+  },
+  {
+    "id": 248,
+    "team": "Legionovia Legionowo",
+    "crest": "kslegionovialegionowo"
+  },
+  {
+    "id": 249,
+    "team": "Konyaspor",
+    "crest": "konyaspor"
+  },
+  {
+    "id": 250,
+    "team": "Kairat Almaty",
+    "crest": "fckairat"
+  },
+  {
+    "id": 251,
+    "team": "HNK Gorica",
+    "crest": "hnkgorica"
+  },
+  {
+    "id": 252,
+    "team": "Granada CF",
+    "crest": "granadacf"
+  },
+  {
+    "id": 253,
+    "team": "Frosinone Calcio",
+    "crest": "Frosinonestemma"
+  },
+  {
+    "id": 254,
+    "team": "FC Nantes",
+    "crest": "fcnantes"
+  },
+  {
+    "id": 255,
+    "team": "Flamengo Rio de Janeiro",
+    "crest": "Flamengorj"
+  },
+  {
+    "id": 256,
+    "team": "Grasshopper Club Zurych",
+    "crest": "grasshopperclubzurych"
+  },
+  {
+    "id": 257,
+    "team": "ESTAC Troyes",
+    "crest": "estroyesac"
+  },
+  {
+    "id": 258,
+    "team": "Esbjerg fB",
+    "crest": "EfB"
+  },
+  {
+    "id": 259,
+    "team": "FC Lorient",
+    "crest": "fclorient"
+  },
+  {
+    "id": 260,
+    "team": "FC Middlesbrough",
+    "crest": "middlesbroughfc"
+  },
+  {
+    "id": 261,
+    "team": "FC Portsmouth",
+    "crest": "portsmouthfc"
+  },
+  {
+    "id": 262,
+    "team": "FC Reading",
+    "crest": "readingfc"
+  },
+  {
+    "id": 263,
+    "team": "SC Bastia",
+    "crest": "scbastia"
+  },
+  {
+    "id": 264,
+    "team": "Reggina 1914",
+    "crest": "reggina1914"
+  },
+  {
+    "id": 265,
+    "team": "MKE Ankaragücü",
+    "crest": "ankaragucu"
+  },
+  {
+    "id": 266,
+    "team": "Grenoble Foot 38",
+    "crest": "grenoblefoot38"
+  },
+  {
+    "id": 267,
+    "team": "Caykur Rizespor",
+    "crest": "caykurrivespor"
+  },
+  {
+    "id": 268,
+    "team": "FC Koper",
+    "crest": "fckoper"
+  },
+  {
+    "id": 269,
+    "team": "LB Châteauroux",
+    "crest": "lbchateauroux"
+  },
+  {
+    "id": 270,
+    "team": "Real Murcia CF",
+    "crest": "realmurcia"
   }
 ]

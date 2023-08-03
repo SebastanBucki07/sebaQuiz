@@ -223,6 +223,8 @@ export class FootballCrossComponent implements OnInit {
     })
     //remove already used clubs
     this.doesNotExist = this.doesNotExist.filter((value, index) => this.doesNotExist.indexOf(value) === index)
+    this.doesNotExist = this.doesNotExist.sort()
+    console.log(`not found: ${JSON.stringify(this.doesNotExist)}`)
   }
 
   setPlayersForCross(): void {

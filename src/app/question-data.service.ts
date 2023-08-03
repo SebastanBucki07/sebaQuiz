@@ -146,7 +146,8 @@ export class QuestionDataService {
   }
 
   getFootballerQuestion() {
-    const links = ClubLinks.readFromPlayerList(players)
+    const pf: string[] = []
+    let links = ClubLinks.readFromPlayerList(players, pf)
     console.log(`links: ${JSON.stringify(links)}`)
     const generator = new BoardCreator(links)
     const result = generator.generateBoard()
@@ -162,7 +163,8 @@ export class QuestionDataService {
   }
 
   getActorsQuestion() {
-    const links = MovieLinks.readFromActorsList(actors)
+    const pf: string[] = []
+    const links = MovieLinks.readFromActorsList(actors, pf)
     console.log(`links: ${JSON.stringify(links)}`)
     const generator = new BoardMovieCreator(links)
     const result = generator.generateBoard()
@@ -340,14 +342,12 @@ export class QuestionDataService {
 
   getWritingsCategoryDataQuestion(): WrittingData[] {
     const category = this.getWritingsCategoryQuestion()
-    const tmp = this.writtingsData.filter((data) => data.category === category.category)
-    return tmp
+    return this.writtingsData.filter((data) => data.category === category.category)
   }
 
   getWritingsFootballCategoryDataQuestion(): WrittingData[] {
     const category = this.getWritingsFootballCategoryQuestion()
-    const tmp = this.writtingsData.filter((data) => data.category === category.category)
-    return tmp
+    return this.writtingsData.filter((data) => data.category === category.category)
   }
 
   getCountries(question: string): Country[] | string[] | any {
