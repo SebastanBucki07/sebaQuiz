@@ -1,23 +1,22 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed } from '@angular/core/testing'
 
-import {FamousPeopleComponent, PhotosComponent} from './photos.component';
+import { FamousPeopleComponent, PhotosComponent } from './photos.component'
 
 describe('PhotosComponent', () => {
-  let component: PhotosComponent;
-  let fixture: ComponentFixture<PhotosComponent>;
+  let component: PhotosComponent
+  let fixture: ComponentFixture<PhotosComponent>
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PhotosComponent ]
-    })
-    .compileComponents();
+      declarations: [PhotosComponent],
+    }).compileComponents()
 
-    fixture = TestBed.createComponent(FamousPeopleComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  });
+    fixture = TestBed.createComponent(FamousPeopleComponent)
+    component = fixture.componentInstance
+    fixture.detectChanges()
+  })
 
   it('should create', () => {
-    expect(component).toBeTruthy();
-  });
-});
+    expect(component).toBeTruthy()
+  })
+})

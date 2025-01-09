@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "heroku-postbuild": "ng build --configuration production --aot",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "prettier-format": "prettier --config .prettierrc \"./**/*.ts\" --write"
   },
   "private": true,
   "dependencies": {

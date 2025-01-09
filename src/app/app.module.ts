@@ -44,8 +44,8 @@ import { AnswerComponent } from './answer/answer.component'
 import { QuestionComponent } from './question/question.component'
 import { CategoryListComponent } from './category-list/category-list.component'
 import { MatCardModule } from '@angular/material/card'
-import { DragDropModule } from '@angular/cdk/drag-drop';
-import { MovieCrossComponent } from './movie-cross/movie-cross.component';
+import { DragDropModule } from '@angular/cdk/drag-drop'
+import { MovieCrossComponent } from './movie-cross/movie-cross.component'
 import { LogoComponentComponent } from './logo-component/logo-component.component'
 
 @NgModule({
