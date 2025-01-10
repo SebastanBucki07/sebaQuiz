@@ -1,5 +1,7 @@
 export class ClubLinks {
-  private constructor() {}
+  private constructor() {
+    console.log()
+  }
 
   private readonly clubs: Map<string, Map<string, string[]>> = new Map()
 

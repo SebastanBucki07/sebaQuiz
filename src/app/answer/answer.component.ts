@@ -3,6 +3,7 @@ import { TimerService } from '../timer.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
 import { Subscription } from 'rxjs'
 import { PlayersService } from '../players.service'
+import { ChangeDetectorRef } from '@angular/core'
 
 @Component({
   selector: 'app-answer',
@@ -15,8 +16,10 @@ export class AnswerComponent implements OnInit {
   protected isAnswerButtonVisible = true
   protected timeout = false
   private subscription: Subscription
+  private subscription2!: Subscription
 
   constructor(
+    private cdr: ChangeDetectorRef,
     protected playerService: PlayersService,
     protected timerService: TimerService,
     protected questionAnswerService: QuestionAndAnswerService
@@ -32,18 +35,22 @@ export class AnswerComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.setAnswer()
+    // Subskrybuj zmiany wartości
+    this.subscription2 = this.questionAnswerService.answer$.subscribe((value) => {
+      this.answer = value // Aktualizuj widok, gdy wartość się zmieni
+    })
     this.questionAnswerService.setWinner(this.playerService.actualPlayer)
-    this.setQuestion()
+    // this.setQuestion()
     this.timerService.setTimer(0.5)
   }
 
-  setAnswer(): void {
-    this.answer = this.questionAnswerService.getAnswer()
+  ngOnDestroy() {
+    // Usuń subskrypcję, aby uniknąć wycieków pamięci
+    this.subscription2.unsubscribe()
   }
 
-  setQuestion(): void {
-    this.answer = this.questionAnswerService.getAnswer()
+  getAnswerVisibleInfo(): string {
+    return this.answer
   }
 
   setIsDisplayed(displayed: boolean): void {

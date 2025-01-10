@@ -7,6 +7,7 @@ import { QuestionDataService } from '../question-data.service'
 import { TimerService } from '../timer.service'
 import { QuestionTypesService } from '../question-types.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
+import { getAllActorsPhotos } from '../helper/images/images.helper'
 
 @Component({
   template: '',
@@ -27,44 +28,25 @@ export abstract class ActorsComponent {
   ) {}
 
   close(): void {
+    this.photos = []
     this.playerService.nextPlayer()
     this.questionTypeService.setActiveCategory(-1)
   }
 
-  getPhoto(name: string): void {
-    const actor = this.photosData.find((el) => el.name == name)
-    if (actor !== undefined) {
-      this.photos.push(actor)
-    } else {
-      this.photos.push({
-        id: 901,
-        name: name,
-        photo: 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
-      })
-    }
-  }
-
-  getAllPhotos(tips: string[]): void {
-    tips.forEach((tip) => {
-      this.getPhoto(tip)
-    })
-    this.photos.forEach((el) => {
-      const index = this.tips.indexOf(el.name)
-      this.tips.slice(index, 1)
-    })
-  }
-
-  getQuestion(): void {
+  async getQuestion(): Promise<void> {
     switch (this.category) {
       case 'movieActors': {
-        this.randomActorForQuestion = this.questionDataService.getMoviesActorsQuestion()
+        this.randomActorForQuestion = await this.questionDataService.getMoviesActorsQuestion()
+
         this.questionAnswerService.setQuestion('W jakim filmie była taka obsada?')
+        this.questionAnswerService.setAnswer(this.randomActorForQuestion.title)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
       case 'serialsActors': {
         this.randomActorForQuestion = this.questionDataService.getSerialsActorsQuestion()
         this.questionAnswerService.setQuestion('W jakim serialu była taka obsada?')
+        this.questionAnswerService.setAnswer(this.randomActorForQuestion.title)
         this.questionAnswerService.setPointsForQuestion(2)
         break
       }
@@ -72,9 +54,7 @@ export abstract class ActorsComponent {
         break
       }
     }
-    this.questionAnswerService.setAnswer(this.randomActorForQuestion.title)
-    this.tips = this.randomActorForQuestion.actors
-    this.getAllPhotos(this.tips)
+    this.photos = await getAllActorsPhotos(this.randomActorForQuestion.actors)
   }
 
   init(): void {

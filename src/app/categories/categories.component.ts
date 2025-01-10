@@ -18,7 +18,7 @@ export class CategoriesComponent implements OnInit {
   private subscription: Subscription | any
   private playerSubscription: Subscription | any
   public categoriesForChoose: Category[] = allCategories
-  playerAdded: boolean = false
+  playerAdded = false
 
   protected moveAllCategoriesTo(chosen: boolean) {
     if (chosen) {

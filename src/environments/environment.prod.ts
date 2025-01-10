@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
-};
+  production: true,
+  apiToken:
+    'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYzFiMGVlMGYzNTY4MTljMTg2NTI3ZGRiOWUxYjk5OCIsIm5iZiI6MTY4ODEyMzIzNy42NDk5OTk5LCJzdWIiOiI2NDllYjc2NWM5ZGJmOTAxMDdlMWM4NjUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.CNrDSuVCqf3mBnrhvL_0c_UF1XGSK5tmdOgIpQVCCfU',
+}

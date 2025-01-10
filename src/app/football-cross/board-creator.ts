@@ -68,6 +68,7 @@ export class BoardCreator {
         return true
       } else {
         mainList.splice(-1)
+        // eslint-disable-next-line no-extra-boolean-cast
         if (!!linkingPlayers.length) {
           usedPlayers.splice(-linkingPlayers.length)
         }

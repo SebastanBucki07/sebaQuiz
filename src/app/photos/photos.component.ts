@@ -5,6 +5,7 @@ import { QuestionDataService } from '../question-data.service'
 import { TimerService } from '../timer.service'
 import { QuestionTypesService } from '../question-types.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
+import { getAllActorsPhotos } from '../helper/images/images.helper'
 
 @Component({
   template: '',
@@ -26,12 +27,18 @@ export abstract class PhotosComponent {
     this.getQuestion()
   }
 
-  getQuestion(): void {
+  async getQuestion(): Promise<void> {
     switch (this.category) {
       case 'famousPeople': {
         this.randomPhoto = this.questionDataService.getFamousPeoplePhotoQuestion()
         this.questionAnswerService.setQuestion('Kim jest osoba ze zdjęcia?')
-        this.questionAnswerService.setTip(this.randomPhoto.photo)
+        if (this.randomPhoto.type === 'actor') {
+          const actor = await getAllActorsPhotos([this.randomPhoto.name])
+          this.questionAnswerService.setTip(actor[0].photo)
+        } else {
+          this.questionAnswerService.setTip(this.randomPhoto.photo)
+        }
+
         break
       }
       case 'buildings': {

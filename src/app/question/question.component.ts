@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
+import { Subscription } from 'rxjs'
 
 @Component({
   selector: 'app-question',
@@ -11,29 +12,37 @@ export class QuestionComponent implements OnInit {
   protected tip = ''
   protected isFlague = false
   protected isPhoto = false
+  private subscription!: Subscription
 
   constructor(protected questionAndAnswerService: QuestionAndAnswerService) {}
 
   ngOnInit(): void {
     this.setQuestion()
-    this.setTip()
+    // this.setTip()
+    // Subskrybuj zmiany wartości
+    this.subscription = this.questionAndAnswerService.tip$.subscribe((value) => {
+      this.tip = value // Aktualizuj widok, gdy wartość się zmieni
+    })
+    this.subscription = this.questionAndAnswerService.isPhoto$.subscribe((value) => {
+      this.isPhoto = value // Aktualizuj widok, gdy wartość się zmieni
+    })
     this.setFlague()
-    this.setPhoto()
+    // this.setPhoto()
   }
 
   setQuestion(): void {
     this.question = this.questionAndAnswerService.getQuestion()
   }
 
-  setTip(): void {
-    this.tip = this.questionAndAnswerService.getTip()
-  }
+  // setTip(): void {
+  //   this.tip = this.questionAndAnswerService.getTip()
+  // }
 
   setFlague(): void {
     this.isFlague = this.questionAndAnswerService.getIsFlague()
   }
 
-  setPhoto(): void {
-    this.isPhoto = this.questionAndAnswerService.getIsPhoto()
-  }
+  // setPhoto(): void {
+  //   this.isPhoto = this.questionAndAnswerService.getIsPhoto()
+  // }
 }

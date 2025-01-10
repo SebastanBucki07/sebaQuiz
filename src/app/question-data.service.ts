@@ -147,7 +147,7 @@ export class QuestionDataService {
 
   getFootballerQuestion() {
     const pf: string[] = []
-    let links = ClubLinks.readFromPlayerList(players, pf)
+    const links = ClubLinks.readFromPlayerList(players, pf)
     console.log(`links: ${JSON.stringify(links)}`)
     const generator = new BoardCreator(links)
     const result = generator.generateBoard()
@@ -410,7 +410,7 @@ export class QuestionDataService {
     return getAndDeleteRandomElementFromArray(this.allSerialsActors)
   }
 
-  getMoviesActorsQuestion() {
+  async getMoviesActorsQuestion() {
     if (!this.init) {
       this.initial()
     }

@@ -1,5 +1,5 @@
 export interface DescriptionModel {
-  id: number,
-  title: string,
+  id: number
+  title: string
   description: string
 }

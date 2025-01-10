@@ -1,5 +1,7 @@
 export class MovieLinks {
-  private constructor() {}
+  private constructor() {
+    console.log()
+  }
 
   private readonly actors: Map<string, Map<string, string[]>> = new Map()
 
