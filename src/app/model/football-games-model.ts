@@ -1,6 +1,6 @@
 export interface FootballGamesModel {
   id: number
-  mecz: string
+  game: string
   squad: string[]
 }
 

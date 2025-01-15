@@ -51,7 +51,7 @@ export class TimerService {
     )
   }
 
-  getBooleean(): Observable<boolean> {
+  getBoolean(): Observable<boolean> {
     return interval(1000).pipe(map(() => this.timeout))
   }
 

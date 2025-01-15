@@ -2,15 +2,15 @@ import { Component, OnInit } from '@angular/core'
 import { Country } from '../model/country-model'
 import { randomFromArray } from '../../common/randomize.helper'
 import { PlayersService } from '../players.service'
-import data from '../../assets/flagues/countries.td.json'
+import data from '../../assets/flags/countries.td.json'
 import { QuestionDataService } from '../question-data.service'
 import { PlayerForFamiliada } from '../players/players.component'
-import { InputAnswerModel } from '../model/footballgames-model'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
 import { formatStrings } from '../../common/string.helper'
 import { QuestionTypesService } from '../question-types.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
+import { InputAnswerModel } from '../model/football-games-model'
 
 export class Question {
   id = 0
@@ -67,15 +67,15 @@ export class CountryComponent implements OnInit {
     if (this.players.length >= 1) {
       this.players = []
     }
-    const tmp = this.playerService.getPlayers()
-    tmp.forEach((player) => {
+    const playersList = this.playerService.getPlayers()
+    playersList.forEach((player) => {
       this.players.push({
         id: player.id,
         name: player.name,
         wrong: 0,
       })
     })
-    const playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
+    const playerIndex = this.players.findIndex((player) => player.id === this.playerService.actualPlayer)
     this.setActualPlayer(this.players[playerIndex])
   }
 
@@ -91,7 +91,7 @@ export class CountryComponent implements OnInit {
 
   getQuestion(): void {
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.setWrong()
         this.nextPlayer()
@@ -106,8 +106,8 @@ export class CountryComponent implements OnInit {
   }
 
   getCountryForLetter(letter: string): void {
-    const tmp = [...this.countries.filter((country) => country.name[0] === letter)]
-    tmp.forEach((country) => {
+    const countriesForLetter = [...this.countries.filter((country) => country.name[0] === letter)]
+    countriesForLetter.forEach((country) => {
       this.answersForCountries.push({
         inputAnswer: country.name,
         display: false,
@@ -116,8 +116,8 @@ export class CountryComponent implements OnInit {
   }
 
   getCapitalsForLetter(letter: string): void {
-    const tmp = [...this.countries.filter((country) => country.capital[0] === letter)]
-    tmp.forEach((country) => {
+    const capitalsForLetter = [...this.countries.filter((country) => country.capital[0] === letter)]
+    capitalsForLetter.forEach((country) => {
       this.answersForCountries.push({
         inputAnswer: country.capital,
         display: false,
@@ -126,8 +126,8 @@ export class CountryComponent implements OnInit {
   }
 
   getCountryForContinent(continent: string): void {
-    const tmp = [...this.countries.filter((country) => country.continent === continent)]
-    tmp.forEach((country) => {
+    const countryForContinent = [...this.countries.filter((country) => country.continent === continent)]
+    countryForContinent.forEach((country) => {
       this.answersForCountries.push({
         inputAnswer: country.name,
         display: false,
@@ -136,8 +136,8 @@ export class CountryComponent implements OnInit {
   }
 
   getCapitalsForContinent(continent: string): void {
-    const tmp = [...this.countries.filter((country) => country.continent === continent)]
-    tmp.forEach((country) => {
+    const capitalsForContinent = [...this.countries.filter((country) => country.continent === continent)]
+    capitalsForContinent.forEach((country) => {
       this.answersForCountries.push({
         inputAnswer: country.capital,
         display: false,
@@ -224,10 +224,12 @@ export class CountryComponent implements OnInit {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input.value
     if (input) {
-      const tmp = this.answersForCountries.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
-      if (tmp !== -1) {
-        if (!this.answersForCountries[tmp].display) {
-          this.answersForCountries[tmp].display = true
+      const playerAnswer = this.answersForCountries.findIndex(
+        (answer) => formatStrings(answer.inputAnswer) === formatStrings(value)
+      )
+      if (playerAnswer !== -1) {
+        if (!this.answersForCountries[playerAnswer].display) {
+          this.answersForCountries[playerAnswer].display = true
           this.inputAnswer = ''
           const audio = new Audio('../../assets/mp3/1z10dobrzee.mp3')
           audio.play()

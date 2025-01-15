@@ -20,11 +20,11 @@ export class MultipleChoiceComponent implements OnInit {
   protected isModalVisible = false
   protected answer = ''
   protected correct = false
-  protected settedQuestion: QuestionMultipleChoice | any = {}
+  protected setQuestion: QuestionMultipleChoice | any = {}
   protected submitAnswerButtonEnabled = true
   protected answerButtonsDisabled = false
 
-  @Input() question = this.settedQuestion as QuestionMultipleChoice
+  @Input() question = this.setQuestion as QuestionMultipleChoice
   @Input() number = 0
   @Output() setAnswer = new EventEmitter<UserAnswer>()
 
@@ -40,26 +40,26 @@ export class MultipleChoiceComponent implements OnInit {
 
   init(): void {
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.isVisible = true
         this.submitAnswerButtonEnabled = true
         this.answerButtonsDisabled = true
       }
     })
-    this.settedQuestion = this.questionDataService.getMultipleChoiceQuestion()
-    const arrray = [this.settedQuestion.a, this.settedQuestion.b, this.settedQuestion.c]
+    this.setQuestion = this.questionDataService.getMultipleChoiceQuestion()
+    const array = [this.setQuestion.a, this.setQuestion.b, this.setQuestion.c]
     const indexes = [0, 1, 2]
     const array2 = []
     do {
-      const tmp = getAndDeleteRandomElementFromArray(indexes)
-      array2.push(arrray[tmp])
+      const randomIndex = getAndDeleteRandomElementFromArray(indexes)
+      array2.push(array[randomIndex])
     } while (indexes.length > 0)
-    this.settedQuestion.a = array2[0]
-    this.settedQuestion.b = array2[1]
-    this.settedQuestion.c = array2[2]
+    this.setQuestion.a = array2[0]
+    this.setQuestion.b = array2[1]
+    this.setQuestion.c = array2[2]
     this.isModalVisible = true
-    this.answer = this.settedQuestion.answer
+    this.answer = this.setQuestion.answer
     this.questionAnswerService.setPointsForQuestion(2)
   }
 
@@ -85,7 +85,7 @@ export class MultipleChoiceComponent implements OnInit {
     this.isVisible = true
     this.answerButtonsDisabled = true
     this.submitAnswerButtonEnabled = true
-    if (this.selectedAnswer.includes(this.settedQuestion.answer)) {
+    if (this.selectedAnswer.includes(this.setQuestion.answer)) {
       this.correct = true
       this.questionAnswerService.setWinner(this.playerService.actualPlayer)
     }

@@ -110,3 +110,17 @@ export function formatStrings(text: string): string {
   }
   return result.toLowerCase()
 }
+
+export function splitStringAfterSpace(input: string, x: number): string {
+  const rest = input.slice(x)
+  const spaceIndex = rest.indexOf(' ')
+
+  if (spaceIndex === -1) {
+    // If there's no space in the rest of the string
+    return input
+  }
+
+  // Split the string at the first space after `x` characters
+  const splitIndex = x + spaceIndex
+  return input.slice(0, splitIndex)
+}

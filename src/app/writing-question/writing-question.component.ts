@@ -3,12 +3,12 @@ import { QuestionDataService } from '../question-data.service'
 import { PlayersService } from '../players.service'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
-import { InputAnswerModel } from '../model/footballgames-model'
 import { PlayerForFamiliada } from '../players/players.component'
 import { formatStrings } from '../../common/string.helper'
-import { WrittingData } from '../model/writtingsCategory-model'
+import { WritingData } from '../model/writingsCategory-model'
 import { QuestionTypesService } from '../question-types.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
+import { InputAnswerModel } from '../model/football-games-model'
 
 @Component({
   template: '',
@@ -16,7 +16,7 @@ import { QuestionAndAnswerService } from '../question-and-answer.service'
 })
 export abstract class WritingQuestionComponent {
   private subscription: Subscription | any
-  protected writingQuestion: WrittingData | any = {}
+  protected writingQuestion: WritingData | any = {}
   protected answerForSquad: InputAnswerModel[] = []
   protected question = ''
   protected tip = ''
@@ -39,7 +39,7 @@ export abstract class WritingQuestionComponent {
 
   init(): void {
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.setWrong()
         this.nextPlayer()
@@ -53,15 +53,15 @@ export abstract class WritingQuestionComponent {
     if (this.players.length >= 1) {
       this.players = []
     }
-    const tmp = this.playerService.getPlayers()
-    tmp.forEach((player) => {
+    const allPlayers = this.playerService.getPlayers()
+    allPlayers.forEach((player) => {
       this.players.push({
         id: player.id,
         name: player.name,
         wrong: 0,
       })
     })
-    const playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
+    const playerIndex = this.players.findIndex((player) => player.id === this.playerService.actualPlayer)
     this.setActualPlayer(this.players[playerIndex])
   }
 
@@ -107,7 +107,7 @@ export abstract class WritingQuestionComponent {
       }
     }
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.setWrong()
         this.nextPlayer()
@@ -123,7 +123,7 @@ export abstract class WritingQuestionComponent {
   }
 
   setAnswerForSquads(): void {
-    this.writingQuestion.forEach((answer: WrittingData) => {
+    this.writingQuestion.forEach((answer: WritingData) => {
       this.answerForSquad.push({
         inputAnswer: answer.name,
         display: false,
@@ -168,10 +168,12 @@ export abstract class WritingQuestionComponent {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input?.value
     if (input != null) {
-      const tmp = this.answerForSquad.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
-      if (tmp !== -1) {
-        if (!this.answerForSquad[tmp].display) {
-          this.answerForSquad[tmp].display = true
+      const foundAnswer = this.answerForSquad.findIndex(
+        (answer) => formatStrings(answer.inputAnswer) === formatStrings(value)
+      )
+      if (foundAnswer !== -1) {
+        if (!this.answerForSquad[foundAnswer].display) {
+          this.answerForSquad[foundAnswer].display = true
           this.inputAnswer = ''
           const audio = new Audio('../../assets/mp3/1z10dobrzee.mp3')
           audio.play()

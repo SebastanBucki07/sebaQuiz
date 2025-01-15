@@ -51,7 +51,7 @@ export abstract class PhotosComponent {
         this.randomPhoto = this.questionDataService.getCountries('countriesForFlags')
         this.questionAnswerService.setQuestion('Z jakiego kraju jest ta flaga?')
         this.questionAnswerService.setTip(this.randomPhoto.code.toLowerCase())
-        this.questionAnswerService.setIsFlague(true)
+        this.questionAnswerService.setIsFlag(true)
         break
       }
       default: {
@@ -69,7 +69,7 @@ export abstract class PhotosComponent {
     this.questionTypeService.setActiveCategory(-1)
     this.questionAnswerService.setTip('')
     this.questionAnswerService.setIsPhoto(false)
-    this.questionAnswerService.setIsFlague(false)
+    this.questionAnswerService.setIsFlag(false)
   }
 }
 

@@ -1,1196 +1,1714 @@
 [
-  {
-    "id": 1,
-    "title": "CZARNOBYL",
-    "actors": ["Jared Harris", "Stellan Skarsgård", "Emily Watson", "Jessie Buckley", "Robert Emms", "Paul Ritter"]
-  },
-  {
-    "id": 2,
-    "title": "GRA O TRON",
-    "actors": [
-      "Peter Dinklage",
-      "Lena Headey",
-      "Emilia Clarke",
-      "Kit Harington",
-      "Sophie Turner",
-      "Maisie Williams",
-      "Nikolaj Coster-Waldau",
-      "Iain Glen",
-      "John Bradley"
-    ]
-  },
-  {
-    "id": 3,
-    "title": "BREAKING BAD",
-    "actors": [
-      "Bryan Cranston",
-      "Aaron Paul",
-      "Anna Gunn",
-      "Dean Norris",
-      "Betsy Brandt",
-      "RJ Mitte",
-      "Bob Odenkirk",
-      "Giancarlo Esposito",
-      "Jonathan Banks"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "OSTATNI TANIEC",
-    "actors": ["Michael Jordan", "Phil Jackson", "Scottie Pippen", "Dennis Rodman"]
-  },
-  {
-    "id": 5,
-    "title": "SHERLOCK",
-    "actors": ["Benedict Cumberbatch", "Martin Freeman", "Mark Gatiss", "Rupert Graves", "Andrew Scott"]
-  },
-  {
-    "id": 6,
-    "title": "PEAKY BLINDERS",
-    "actors": ["Cillian Murphy", "Helen McCrory", "Paul Anderson", "Joe Cole", "Annabelle Wallis"]
-  },
-  {
-    "id": 7,
-    "title": "NARCOS",
-    "actors": [
-      "Pedro Pascal",
-      "Boyd Holbrook",
-      "Wagner Moura",
-      "Damián Alcázar",
-      "Francisco Denis",
-      "Alberto Ammann",
-      "Stephanie Sigman",
-      "Maurice Compte",
-      "Juan Pablo Raba"
-    ]
-  },
-  {
-    "id": 8,
-    "title": "MIASTECZKO TWIN PEAKS",
-    "actors": [
-      "Kyle MacLachlan",
-      "Michael Ontkean",
-      "Richard Beymer",
-      "Sherilyn Fenn",
-      "Mädchen Amick",
-      "Dana Ashbrook",
-      "Lara Flynn Boyle"
-    ]
-  },
-  {
-    "id": 9,
-    "title": "HOUSE OF CARDS",
-    "actors": [
-      "Kevin Spacey",
-      "Robin Wright",
-      "Michael Kelly",
-      "Kate Mara",
-      "Corey Stoll",
-      "Rachel Brosnahan",
-      "Michel Gill"
-    ]
-  },
-  {
-    "id": 10,
-    "title": "WIKINGOWIE",
-    "actors": [
-      "Travis Fimmel",
-      "Katheryn Winnick",
-      "Alexander Ludwig",
-      "Clive Standen",
-      "Gustaf Skarsgård",
-      "George Blagden",
-      "Alyssa Sutherland",
-      "Jordan Patrick Smith"
-    ]
-  },
-  {
-    "id": 11,
-    "title": "GOMORRA",
-    "actors": ["Salvatore Esposito", "Marco D'Amore", "Cristiana Dell'Anna", "Fortunato Cerlino"]
-  },
-  {
-    "id": 12,
-    "title": "STRANGER THINGS",
-    "actors": [
-      "Winona Ryder",
-      "David Harbour",
-      "Finn Wolfhard",
-      "Millie Bobby Brown",
-      "Gaten Matarazzo",
-      "Caleb McLaughlin",
-      "Noah Schnapp",
-      "Natalia Dyer",
-      "Charlie Heaton"
-    ]
-  },
-  {
-    "id": 13,
-    "title": "CZARNE LUSTRO",
-    "actors": ["Daniel Kaluuya", "Jessica Brown Findlay", "Rory Kinnear", "Hayley Atwell", "Domhnall Gleeson"]
-  },
-  {
-    "id": 14,
-    "title": "PRZYJACIELE",
-    "actors": [
-      "Jennifer Aniston",
-      "Courteney Cox",
-      "Lisa Kudrow",
-      "Matt LeBlanc",
-      "Matthew Perry",
-      "David Schwimmer",
-      "James Michael Tyler",
-      "Maggie Wheeler",
-      "Jane Sibbett"
-    ]
-  },
-  {
-    "id": 15,
-    "title": "DOM Z PAPIERU",
-    "actors": [
-      "Úrsula Corberó",
-      "Álvaro Morte",
-      "Paco Tous",
-      "Alba Flores",
-      "Miguel Herrán",
-      "Pedro Alonso",
-      "Enrique Arce",
-      "María Pedraza",
-      "Itziar Ituño"
-    ]
-  },
-  {
-    "id": 16,
-    "title": "DR HOUSE",
-    "actors": [
-      "Hugh Laurie",
-      "Robert Sean Leonard",
-      "Omar Epps",
-      "Jesse Spencer",
-      "Lisa Edelstein",
-      "Jennifer Morrison",
-      "Peter Jacobson",
-      "Olivia Wilde",
-      "Kal Penn"
-    ]
-  },
-  {
-    "id": 17,
-    "title": "DARK",
-    "actors": [
-      "Oliver Masucci",
-      "Karoline Eichhorn",
-      "Jördis Triebel",
-      "Louis Hofmann",
-      "Maja Schöne",
-      "Stephan Kampwirth",
-      "Daan Lennard Liebrenz",
-      "Andreas Pietschmann",
-      "Deborah Kaufmann"
-    ]
-  },
-  {
-    "id": 18,
-    "title": "PitBull",
-    "actors": [
-      "Marcin Dorociński",
-      "Andrzej Grabowski",
-      "Paweł Królikowski",
-      "Joachim Lamża",
-      "Elena Rutkowska",
-      "Weronika Rosati",
-      "Michał Kula"
-    ]
-  },
-  {
-    "id": 19,
-    "title": "THE CROWN",
-    "actors": ["Claire Foy", "Matt Smith", "John Lithgow", "Vanessa Kirby", "Jeremy Northam", "Victoria Hamilton"]
-  },
-  {
-    "id": 20,
-    "title": "DEXTER",
-    "actors": [
-      "Michael C. Hall",
-      "Jennifer Carpenter",
-      "Luna Lauren Velez",
-      "David Zayas",
-      "James Remar",
-      "C.S. Lee",
-      "Julie Benz",
-      "Desmond Harrington",
-      "Christina Robinson"
-    ]
-  },
-  {
-    "id": 21,
-    "title": "UTOPIA",
-    "actors": [
-      "Nathan Stewart-Jarrett",
-      "Alexandra Roach",
-      "Adeel Akhtar",
-      "Oliver Woollford",
-      "Neil Maskell",
-      "Fiona O'Shaughnessy",
-      "Paul Higgins",
-      "Emilia Jones",
-      "Michael Smiley"
-    ]
-  },
-  {
-    "id": 22,
-    "title": "GAMBIT KRÓLOWEJ",
-    "actors": [
-      "Anya Taylor-Joy",
-      "Moses Ingram",
-      "Janina Elkin",
-      "Marcin Dorociński",
-      "Chloe Pirrie",
-      "Rebecca Root",
-      "Christiane Seidel"
-    ]
-  },
-  {
-    "id": 23,
-    "title": "W GARNITURACH",
-    "actors": [
-      "Gabriel Macht",
-      "Patrick J. Adams",
-      "Rick Hoffman",
-      "Meghan Markle",
-      "Sarah Rafferty",
-      "Gina Torres",
-      "Katherine Heigl",
-      "Amanda Schull",
-      "Rachael Harris"
-    ]
-  },
-  {
-    "id": 24,
-    "title": "SYNOWIE ANARCHII",
-    "actors": [
-      "Charlie Hunnam",
-      "Katey Sagal",
-      "Mark Boone Junior",
-      "Tommy Flanagan",
-      "Kim Coates",
-      "Theo Rossi",
-      "Ron Perlman"
-    ]
-  },
-  {
-    "id": 25,
-    "title": "MŁODY PAPIEŻ",
-    "actors": ["Jude Law", "Diane Keaton", "Silvio Orlando", "Javier Cámara"]
-  },
-  {
-    "id": 26,
-    "title": "WATAHA",
-    "actors": [
-      "Leszek Lichota",
-      "Bartłomiej Topa",
-      "Aleksandra Popławska",
-      "Andrzej Zieliński",
-      "Dagmara Bąk",
-      "Maciej Mikołajczyk",
-      "Marian Dziędziel",
-      "Magdalena Popławska",
-      "Julia Pogrebińska"
-    ]
-  },
-  {
-    "id": 27,
-    "title": "MR. ROBOT",
-    "actors": ["Rami Malek", "Christian Slater", "Portia Doubleday", "Carly Chaikin"]
-  },
-  {
-    "id": 28,
-    "title": "AMERICAN HORROR STORY: ASYLUM",
-    "actors": ["Jessica Lange", "Sarah Paulson", "James Cromwell", "Lily Rabe"]
-  },
-  {
-    "id": 29,
-    "title": "JAK POZNAŁEM WASZĄ MATKĘ",
-    "actors": [
-      "Josh Radnor",
-      "Jason Segel",
-      "Alyson Hannigan",
-      "Cobie Smulders",
-      "Neil Patrick Harris",
-      "Lyndsy Fonseca",
-      "David Henrie",
-      "Bob Saget",
-      "Cristin Milioti"
-    ]
-  },
-  {
-    "id": 30,
-    "title": "SPARTAKUS: KREW I PIACH",
-    "actors": [
-      "Andy Whitfield",
-      "John Hannah",
-      "Lucy Lawless",
-      "Manu Bennett",
-      "Viva Bianca",
-      "Peter Mensah",
-      "Nick E. Tarabay",
-      "Jai Courtney",
-      "Antonio Te Maioha"
-    ]
-  },
-  {
-    "id": 31,
-    "title": "CZAS HONORU",
-    "actors": [
-      "Maciej Zakościelny",
-      "Jakub Wesołowski",
-      "Jan Wieczorkowski",
-      "Antoni Pawlicki",
-      "Magdalena Różczka",
-      "Lucyna Malec",
-      "Magdalena Kuta",
-      "Krystian Wieczorek",
-      "Michał Meyer"
-    ]
-  },
-  {
-    "id": 32,
-    "title": "RZYM",
-    "actors": ["Kevin McKidd", "Ray Stevenson", "Ciarán Hinds", "James Purefoy"]
-  },
-  {
-    "id": 33,
-    "title": "TEORIA WIELKIEGO PODRYWU",
-    "actors": [
-      "Jim Parsons",
-      "Johnny Galecki",
-      "Kaley Cuoco",
-      "Simon Helberg",
-      "Kunal Nayyar",
-      "Mayim Bialik",
-      "Melissa Rauch"
-    ]
-  },
-  {
-    "id": 34,
-    "title": "SQUID GAME",
-    "actors": ["Jung-Jae Lee", "Hae-soo Park", "Sung-tae Heo", "Ha-joon Wi", "Yeong-su Oh", "Ho-yeon Jung"]
-  },
-  {
-    "id": 35,
-    "title": "Z ARCHIWUM X",
-    "actors": ["Gillian Anderson", "David Duchovny", "Tom Braidwood", "Mitch Pileggi", "Robert Patrick"]
-  },
-  {
-    "id": 36,
-    "title": "EL CHAPO",
-    "actors": ["Marco de la O", "Humberto Busto", "Diego Vásquez", "Alejandro Aguilar", "Héctor Holten"]
-  },
-  {
-    "id": 37,
-    "title": "THE WALKING DEAD",
-    "actors": [
-      "Andrew Lincoln",
-      "Norman Reedus",
-      "Laurie Holden",
-      "Melissa McBride",
-      "Steven Yeun",
-      "Jon Bernthal",
-      "Sarah Wayne Callies",
-      "Jeffrey DeMunn",
-      "Chandler Riggs"
-    ]
-  },
-  {
-    "id": 38,
-    "title": "PACYFIK",
-    "actors": ["James Badge Dale", "Joseph Mazzello", "Jon Seda", "Rami Malek"]
-  },
-  {
-    "id": 39,
-    "title": "KOMPANIA BRACI",
-    "actors": ["Damian Lewis", "Dale Dye", "Ron Livingston", "David Schwimmer"]
-  },
-  {
-    "id": 40,
-    "title": "LOST",
-    "actors": ["Matthew Fox", "Evangeline Lilly", "Josh Holloway", "Naveen Andrews", "Emilie de Ravin"]
-  },
-  {
-    "id": 41,
-    "title": "PAMIĘTNIKI WAMPIRÓW",
-    "actors": [
-      "Paul Wesley",
-      "Ian Somerhalder",
-      "Kat Graham",
-      "Candice King",
-      "Zach Roerig",
-      "Nina Dobrev",
-      "Steven R. McQueen",
-      "Michael Trevino",
-      "Joseph Morgan"
-    ]
-  },
-  {
-    "id": 42,
-    "title": "THE ORIGINALS",
-    "actors": [
-      "Joseph Morgan",
-      "Daniel Gillies",
-      "Phoebe Tonkin",
-      "Charles Michael Davis",
-      "Danielle Campbell",
-      "Leah Pipes",
-      "Eka Darville",
-      "Steven Krueger",
-      "Todd Stashwick"
-    ]
-  },
-  {
-    "id": 43,
-    "title": "WAMPIRY: DZIEDZICTWO",
-    "actors": [
-      "Danielle Rose Russell",
-      "Kaylee Bryant",
-      "Jenny Boyd",
-      "Matthew Davis",
-      "Aria Shahghasemi",
-      "Quincy Fouse",
-      "Peyton 'Alex' Smith",
-      "Karen David"
-    ]
-  },
-  {
-    "id": 44,
-    "title": "SHADOWHUNTERS",
-    "actors": [
-      "Katherine McNamara",
-      "Dominic Sherwood",
-      "Matthew Daddario",
-      "Alberto Rosende",
-      "Harry Shum Jr.",
-      "Emeraude Toubia",
-      "Isaiah Mustafa",
-      "David Castro"
-    ]
-  },
-  {
-    "id": 45,
-    "title": "CZYSTA KREW",
-    "actors": ["Anna Paquin", "Stephen Moyer", "Alexander Skarsgård", "Sam Trammell"]
-  },
-  {
-    "id": 46,
-    "title": "SKAZANY NA SMIERĆ",
-    "actors": [
-      "Wentworth Miller",
-      "Dominic Purcell",
-      "Sarah Wayne Callies",
-      "Robin Tunney",
-      "Peter Stormare",
-      "Amaury Nolasco",
-      "Marshall Allman",
-      "Wade Williams",
-      "Paul Adelstein"
-    ]
-  },
-  {
-    "id": 47,
-    "title": "SŁONECZNY PATROL",
-    "actors": ["David Hasselhoff", "Nicole Eggert", "Pamela Anderson", "Erika Eleniak"]
-  },
-  {
-    "id": 48,
-    "title": "SKAZANA",
-    "actors": [
-      "Agata Kulesza",
-      "Michał Czernecki",
-      "Bartłomiej Topa",
-      "Aleksandra Adamska",
-      "Tomasz Schuchardt",
-      "Jan Jankowski"
-    ]
-  },
-  {
-    "id": 49,
-    "title": "KRUK",
-    "actors": [
-      "Michał Żurawski",
-      "Cezary Łukaszewicz",
-      "Andrzej Zaborski",
-      "Jerzy Schejbal",
-      "Mariusz Jakus",
-      "Marcin Bosak",
-      "Leszek Lichota"
-    ]
-  },
-  {
-    "id": 50,
-    "title": "BELFER",
-    "actors": [
-      "Maciej Stuhr",
-      "Magdalena Cielecka",
-      "Michalina Łabacz",
-      "Eliza Rycembel",
-      "Zofia Wichłacz",
-      "Aleksandra Popławska",
-      "Robert Gonera",
-      "Piotr Głowacki",
-      "Krzysztof Pieczyński"
-    ]
-  },
-  {
-    "id": 51,
-    "title": "DOLINA KRZEMOWA",
-    "actors": [
-      "Thomas Middleditch",
-      "T.J. Miller",
-      "Kumail Nanjiani",
-      "Martin Starr",
-      "Zach Woods",
-      "Amanda Crew",
-      "Christopher Evan Welch",
-      "Josh Brener",
-      "Matt Ross"
-    ]
-  },
-  {
-    "id": 52,
-    "title": "ODWRÓCENI",
-    "actors": [
-      "Robert Więckiewicz",
-      "Artur Żmijewski",
-      "Małgorzata Foremniak",
-      "Anna Radwan",
-      "Andrzej Zieliński",
-      "Maciej Kozłowski",
-      "Andrzej Grabowski",
-      "Janusz Chabior",
-      "Szymon Bobrowski"
-    ]
-  },
-  {
-    "id": 53,
-    "title": "WESTWORLD",
-    "actors": ["Anthony Hopkins", "Evan Rachel Wood", "Jeffrey Wright", "Rodrigo Santoro", "Shannon Woodward"]
-  },
-  {
-    "id": 54,
-    "title": "KLANGOR",
-    "actors": [
-      "Arkadiusz Jakubik",
-      "Maja Ostaszewska",
-      "Piotr Witkowski",
-      "Wojciech Mecwaldowski",
-      "Konrad Eleryk",
-      "Magdalena Czerwińska",
-      "Matylda Giegżno",
-      "Maciej Musiał"
-    ]
-  },
-  {
-    "id": 55,
-    "title": "ŚLEPNĄC OD ŚWIATEŁ",
-    "actors": [
-      "Kamil Nożyński",
-      "Jan Frycz",
-      "Robert Więckiewicz",
-      "Janusz Chabior",
-      "Marta Malikowska",
-      "Cezary Pazura",
-      "Marzena Pokrzywińska",
-      "Eryk Lubos",
-      "Agnieszka Żulewska"
-    ]
-  },
-  {
-    "id": 56,
-    "title": "PAKT",
-    "actors": [
-      "Marcin Dorociński",
-      "Magdalena Popławska",
-      "Adam Woronowicz",
-      "Filip Pławiak",
-      "Mariusz Bonaszewski",
-      "Borys Szyc",
-      "Zbigniew Zamachowski",
-      "Kinga Preis",
-      "Łukasz Simlat"
-    ]
-  },
-  {
-    "id": 57,
-    "title": "STULECIE WINNYCH",
-    "actors": [
-      "Kinga Preis",
-      "Jan Wieczorkowski",
-      "Olaf Lubaszenko",
-      "Iwona Bielska",
-      "Zuzanna Lit",
-      "Katarzyna Wajda",
-      "Katarzyna Kwiatkowska",
-      "Arkadiusz Janiczek",
-      "Adam Ferency"
-    ]
-  },
-  {
-    "id": 58,
-    "title": "OFICER",
-    "actors": [
-      "Borys Szyc",
-      "Andrzej Chyra",
-      "Magdalena Różczka",
-      "Karolina Gruszka",
-      "Jan Frycz",
-      "Krzysztof Globisz",
-      "Paweł Małaszyński",
-      "Rafał Cieszyński",
-      "Eryk Lubos"
-    ]
-  },
-  {
-    "id": 59,
-    "title": "CZTEREJ PANCERNI I PIES",
-    "actors": [
-      "Janusz Gajos",
-      "Franciszek Pieczka",
-      "Włodzimierz Press",
-      "Pola Raksa",
-      "Wiesław Gołas",
-      "Witold Pyrkosz"
-    ]
-  },
-  {
-    "id": 60,
-    "title": "WIEDŹMIN",
-    "actors": ["Henry Cavill", "Anya Chalotra", "Freya Allan", "Joey Batey", "MyAnna Buring"]
-  },
-  {
-    "id": 61,
-    "title": "KRÓL",
-    "actors": [
-      "Michał Żurawski",
-      "Kacper Olszewski",
-      "Arkadiusz Jakubik",
-      "Magdalena Boczarska",
-      "Borys Szyc",
-      "Aleksandra Pisula",
-      "Bartłomiej Topa",
-      "Adam Ferency"
-    ]
-  },
-  {
-    "id": 62,
-    "title": "07 ZGŁOŚ SIĘ",
-    "actors": ["Bronisław Cieślak", "Zdzisław Kozień", "Zdzisław Tobiasz", "Ewa Florczak"]
-  },
-  {
-    "id": 63,
-    "title": "JANOSIK",
-    "actors": [
-      "Ewa Lemańska",
-      "Bogusz Bilewski",
-      "Marian Kociniak",
-      "Janusz Kłosiński",
-      "Marek Perepeczko",
-      "Witold Pyrkosz"
-    ]
-  },
-  {
-    "id": 64,
-    "title": "O MNIE SIĘ NIE MARTW",
-    "actors": [
-      "Aleksandra Adamska",
-      "Marcin Korcz",
-      "Joanna Kulig",
-      "Stefan Pawłowski",
-      "Aleksandra Domańska",
-      "Paweł Domagała",
-      "Katarzyna Maciąg",
-      "Katarzyna Zielińska",
-      "Karol Dziuba"
-    ]
-  },
-  {
-    "id": 65,
-    "title": "CZTERDZIESTOLATEK",
-    "actors": ["Andrzej Kopiczyński", "Anna Seniuk", "Irena Kwiatkowska", "Leonard Pietraszak"]
-  },
-  {
-    "id": 66,
-    "title": "RANCZO",
-    "actors": [
-      "Ilona Ostrowska",
-      "Cezary Żak",
-      "Paweł Królikowski",
-      "Artur Barciś",
-      "Dorota Nowakowska",
-      "Bogdan Kalus",
-      "Katarzyna Żak",
-      "Arkadiusz Nader",
-      "Violetta Arlak"
-    ]
-  },
-  {
-    "id": 67,
-    "title": "POD POWIERZCHNIĄ",
-    "actors": [
-      "Magdalena Boczarska",
-      "Bartłomiej Topa",
-      "Łukasz Simlat",
-      "Michalina Łabacz",
-      "Monika Kwiatkowska",
-      "Weronika Warchoł"
-    ]
-  },
-  {
-    "id": 68,
-    "title": "DOLINA KRZEMOWA",
-    "actors": [
-      "Thomas Middleditch",
-      "T.J. Miller",
-      "Kumail Nanjiani",
-      "Martin Starr",
-      "Zach Woods",
-      "Amanda Crew",
-      "Christopher Evan Welch",
-      "Josh Brener",
-      "Matt Ross"
-    ]
-  },
-  {
-    "id": 69,
-    "title": "SKAZANE",
-    "actors": [
-      "Monika Krzywkowska",
-      "Ireneusz Czop",
-      "Paulina Gałązka",
-      "Antoni Pawlicki",
-      "Olga Bołądź",
-      "Wojciech Błach",
-      "Beata Ścibakówna",
-      "Rafał Fudalej",
-      "Leszek Piskorz"
-    ]
-  },
-  {
-    "id": 70,
-    "title": "DIAGNOZA",
-    "actors": [
-      "Maja Ostaszewska",
-      "Maciej Zakościelny",
-      "Adam Woronowicz",
-      "Anna Smołowik",
-      "Beata Ścibakówna",
-      "Magdalena Popławska",
-      "Sonia Bohosiewicz",
-      "Antoni Królikowski",
-      "Aleksandra Konieczna"
-    ]
-  },
-  {
-    "id": 71,
-    "title": "ROJST",
-    "actors": [
-      "Dawid Ogrodnik",
-      "Andrzej Seweryn",
-      "Magdalena Różczka",
-      "Łukasz Simlat",
-      "Zofia Wichłacz",
-      "Magdalena Walach",
-      "Agnieszka Żulewska",
-      "Jacek Beler",
-      "Ireneusz Czop"
-    ]
-  },
-  {
-    "id": 72,
-    "title": "PARADOKS",
-    "actors": [
-      "Anna Grycewicz",
-      "Bogusław Linda",
-      "Cezary Łukaszewicz",
-      "Gabriela Muskała",
-      "Sebastian Pawlak",
-      "Ewa Skibińska",
-      "Arkadiusz Jakubik",
-      "Witold Dębicki",
-      "Andrzej Zieliński"
-    ]
-  },
-  {
-    "id": 73,
-    "title": "KOWALSCY KONTRA KOWALSCY",
-    "actors": [
-      "Piotr Adamczyk",
-      "Marieta Żukowska",
-      "Katarzyna Kwiatkowska",
-      "Wojciech Mecwaldowski",
-      "Patryk Cebulski",
-      "Jakub Zdrójkowski",
-      "Paweł Wawrzecki",
-      "Wiktoria Gąsiewska"
-    ]
-  },
-  {
-    "id": 74,
-    "title": "SINGIELKA",
-    "actors": [
-      "Paulina Chruściel",
-      "Filip Bobek",
-      "Mateusz Janicki",
-      "Julia Kamińska",
-      "Izabela Kuna",
-      "Karolina Gorczyca",
-      "Dorota Pomykała",
-      "Dominika Gwit-Dunaszewska",
-      "Zofia Charewicz"
-    ]
-  },
-  {
-    "id": 75,
-    "title": "ZAWSZE WARTO",
-    "actors": [
-      "Weronika Rosati",
-      "Katarzyna Zielińska",
-      "Julia Wieniawa-Narkiewicz",
-      "Jacek Knap",
-      "Joanna Kuberska",
-      "Joanna Balasz",
-      "Mariusz Bonaszewski",
-      "Karol Dziuba"
-    ]
-  },
-  {
-    "id": 76,
-    "title": "MOTYW",
-    "actors": [
-      "Małgorzata Kożuchowska",
-      "Agnieszka Grochowska",
-      "Andrzej Konopka",
-      "Michał Czernecki",
-      "Olga Bołądź",
-      "Magdalena Turczeniewicz",
-      "Magdalena Walach",
-      "Adam Ferency",
-      "Maria Mamona"
-    ]
-  },
-  {
-    "id": 77,
-    "title": "PRAWO AGATY",
-    "actors": [
-      "Agnieszka Dygant",
-      "Leszek Lichota",
-      "Daria Widawska",
-      "Marian Opania",
-      "Tomasz Karolak",
-      "Małgorzata Kożuchowska",
-      "Michał Mikołajczak"
-    ]
-  },
-  {
-    "id": 78,
-    "title": "KOD GENETYCZNY",
-    "actors": [
-      "Adam Woronowicz",
-      "Karolina Gruszka",
-      "Maciej Musiałowski",
-      "Julia Kijowska",
-      "Katarzyna Herman",
-      "Michał Żurawski",
-      "Krzysztof Pieczyński",
-      "Joachim Lamża"
-    ]
-  },
-  {
-    "id": 79,
-    "title": "ŻYWIOŁY SASZY – OGIEŃ",
-    "actors": [
-      "Magdalena Boczarska",
-      "Mirosław Haniszewski",
-      "Andrzej Konopka",
-      "Piotr Cyrwus",
-      "Erika Karkuszewska",
-      "Arkadiusz Jakubik",
-      "Jędrzej Hycnar",
-      "Marcin Czarnik"
-    ]
-  },
-  {
-    "id": 80,
-    "title": "PAJĘCZYNA",
-    "actors": [
-      "Joanna Kulig",
-      "Anna Radwan",
-      "Marek Kalita",
-      "Liliana Głąbczyńska",
-      "Michalina Olszańska",
-      "Mirosław Baka",
-      "Mateusz Banasiuk",
-      "Eryk Lubos",
-      "Szymon Bobrowski"
-    ]
-  },
-  {
-    "id": 81,
-    "title": "SZADŹ",
-    "actors": [
-      "Maciej Stuhr",
-      "Aleksandra Popławska",
-      "Bartosz Gelner",
-      "Cezary Łukaszewicz",
-      "Anna Cieślak",
-      "Zofia Domalik",
-      "Barbara Jonak",
-      "Emma Giegżno",
-      "Mirosław Zbrojewicz"
-    ]
-  },
-  {
-    "id": 82,
-    "title": "SEXIFY",
-    "actors": [
-      "Aleksandra Skraba",
-      "Maria Sobocińska",
-      "Sandra Drzymalska",
-      "Małgorzata Foremniak",
-      "Cezary Pazura",
-      "Bartosz Gelner",
-      "Sebastian Stankiewicz"
-    ]
-  },
-  {
-    "id": 83,
-    "title": "OTWÓRZ OCZY",
-    "actors": [
-      "Maria Wawreniuk",
-      "Ignacy Liss",
-      "Marcin Czarnik",
-      "Sara Celler-Jezierska",
-      "Klaudia Koścista",
-      "Marta Nieradkiewicz",
-      "Dawid Kartaszewicz"
-    ]
-  },
-  {
-    "id": 84,
-    "title": "THE RAIN",
-    "actors": [
-      "Alba August",
-      "Lucas Lynggaard Tønnesen",
-      "Mikkel Boe Følsgaard",
-      "Angela Bundalovic",
-      "Sonny Lindberg",
-      "Jessica Dinnage"
-    ]
-  },
-  {
-    "id": 85,
-    "title": "MROCZNE POŻĄDANIE",
-    "actors": ["Maite Perroni", "Erik Hayser", "Alejandro Speitzer", "Jorge Poza"]
-  },
-  {
-    "id": 86,
-    "title": "TOY BOY",
-    "actors": ["María Pedraza", "Cristina Castaño", "Pedro Casablanc", "María Pujalte", "Adelfa Calvo"]
-  },
-  {
-    "id": 87,
-    "title": "DARE ME",
-    "actors": [
-      "Herizen F. Guardiola",
-      "Willa Fitzgerald",
-      "Alison Thornton",
-      "Rob Heaps",
-      "Zach Roerig",
-      "Taveeta Szymanowicz"
-    ]
-  },
-  {
-    "id": 88,
-    "title": "EL CLUB",
-    "actors": ["Aurora Gil", "Alejandro Speitzer", "Axel Arenas", "Aldo Escalante"]
-  },
-  {
-    "id": 89,
-    "title": "COBRA KAI",
-    "actors": [
-      "William Zabka",
-      "Ralph Macchio",
-      "Xolo Mariduena",
-      "Tanner Buchanan",
-      "Mary Mouser",
-      "Courtney Henggeler",
-      "Jacob Bertrand",
-      "Gianni Decenzo",
-      "Bo Mitchell"
-    ]
-  },
-  {
-    "id": 90,
-    "title": "ARROW",
-    "actors": [
-      "Stephen Amell",
-      "David Ramsey",
-      "Emily Bett Rickards",
-      "Katie Cassidy",
-      "Willa Holland",
-      "Colton Haynes",
-      "Paul Blackthorne",
-      "Susanna Thompson",
-      "Colin Donnell"
-    ]
-  },
-  {
-    "id": 91,
-    "title": "PRZEKLĘTA",
-    "actors": [
-      "Katherine Langford",
-      "Devon Terrell",
-      "Gustaf Skarsgård",
-      "Lily Newmark",
-      "Shalom Brune-Franklin",
-      "Daniel Sharman",
-      "Sebastian Armesto"
-    ]
-  },
-  {
-    "id": 92,
-    "title": "BERLIŃSKIE PSY",
-    "actors": [
-      "Alina Stiegler",
-      "Felix Kramer",
-      "Anna Maria Mühe",
-      "Katharina Schüttler",
-      "Fahri Yardim",
-      "Sebastian Achilles"
-    ]
-  },
-  {
-    "id": 93,
-    "title": "LUKE CAGE",
-    "actors": ["Mike Colter", "Alfre Woodard", "Mahershala Ali", "Theo Rossi", "Rosario Dawson"]
-  },
-  {
-    "id": 94,
-    "title": "DOPASOWANI",
-    "actors": [
-      "Hannah Ware",
-      "Diarmaid Murtagh",
-      "Stephen Campbell Moore",
-      "Olivia Chenery",
-      "Albano Jerónimo",
-      "Eric Kofi-Abrefa"
-    ]
-  },
-  {
-    "id": 95,
-    "title": "1983",
-    "actors": [
-      "Robert Więckiewicz",
-      "Maciej Musiał",
-      "Michalina Olszańska",
-      "Andrzej Chyra",
-      "Zofia Wichłacz",
-      "Mirosław Zbrojewicz",
-      "Ewa Błaszczyk",
-      "Wojciech Kalarus",
-      "Edyta Olszówka"
-    ]
-  },
-  {
-    "id": 96,
-    "title": "GRZESZNICA",
-    "actors": ["Frances Fisher", "Alice Kremelberg", "Jessica Biel", "Bill Pullman"]
-  },
-  {
-    "id": 97,
-    "title": "THE A LIST",
-    "actors": ["Lisa Ambalavanar", "Ellie Duckles", "Savannah Baker", "Cian Barry"]
-  },
-  {
-    "id": 98,
-    "title": "RIVERDALLE",
-    "actors": ["K.J. Apa", "Lili Reinhart", "Cole Sprouse", "Camila Mendes"]
-  },
-  {
-    "id": 99,
-    "title": "THE GOOD DOCTOR",
-    "actors": ["Freddie Highmore", "Antonia Thomas", "Nicholas Gonzalez", "Chuku Modu"]
-  },
-  {
-    "id": 100,
-    "title": "SZKOŁA DLA ELITY",
-    "actors": [
-      "Álvaro Rico",
-      "Itzan Escamilla",
-      "Ester Expósito",
-      "Miguel Bernardeau",
-      "Arón Piper",
-      "Danna Paola",
-      "Miguel Herrán",
-      "Omar Ayuso"
-    ]
-  },
-  {
-    "id": 101,
-    "title": "PLEMIONA EUROPY",
-    "actors": ["Henriette Confurius", "Emilio Sakraya", "Melika Foroutan", "Oliver Masucci", "Robert Finster"]
-  },
-  {
-    "id": 102,
-    "title": "MARCO POLO",
-    "actors": ["Lorenzo Richelmy", "Benedict Wong", "Zhu Zhu", "Tom Wu"]
-  },
-  {
-    "id": 103,
-    "title": "FRONTIER",
-    "actors": ["Jason Momoa", "Alun Armstrong", "Allan Hawco", "Landon Liboiron"]
-  },
-  {
-    "id": 104,
-    "title": "SEX/LIFE",
-    "actors": ["Sarah Shahi", "Mike Vogel", "Adam Demos", "Margaret Odette"]
-  },
-  {
-    "id": 105,
-    "title": "THE 100",
-    "actors": ["Eliza Taylor", "Paige Turco", "Thomas McDonell", "Bob Morley"]
-  },
-  {
-    "id": 106,
-    "title": "ALTERED CARBON",
-    "actors": ["Joel Kinnaman", "James Purefoy", "Martha Higareda", "Dichen Lachman"]
-  },
-  {
-    "id": 107,
-    "title": "PIRACI",
-    "actors": ["Toby Stephens", "Hannah New", "Luke Arnold", "Jessica Parker Kennedy", "Tom Hopper", "Zach McGowan"]
-  },
-  {
-    "id": 108,
-    "title": "DWÓCH I PÓŁ",
-    "actors": ["Charlie Sheen", "Jon Cryer", "Angus T. Jones", "Holland Taylor"]
-  },
-  {
-    "id": 109,
-    "title": "SEE",
-    "actors": ["Jason Momoa", "Alfre Woodard", "Christian Camargo", "Nesta Cooper"]
-  },
-  {
-    "id": 110,
-    "title": "UPADEK KRÓLESTWA",
-    "actors": ["Alexander Dreymon", "Ian Hart", "David Dawson", "Adrian Bower"]
-  },
-  {
-    "id": 111,
-    "title": "STRAŻNIK TEKSASU",
-    "actors": ["Chuck Norris", "Clarence Gilyard Jr.", "Sheree J. Wilson", "Noble Willingham", "James Wlcek"]
-  },
-  {
-    "id": 112,
-    "title": "KOŁO CZASU",
-    "actors": ["Rosamund Pike", "Josha Stradowski", "Marcus Rutherford", "Barney Harris"]
-  }
+	{
+		"id": 1,
+		"title": "Czarnobyl",
+		"actors": [
+			"Jared Harris",
+			"Stellan Skarsgård",
+			"Emily Watson",
+			"Paul Ritter",
+			"Jessie Buckley",
+			"Adam Nagaitis",
+			"Sam Troughton",
+			"Robert Emms"
+		]
+	},
+	{
+		"id": 2,
+		"title": "GRA O TRON",
+		"actors": [
+			"Peter Dinklage",
+			"Lena Headey",
+			"Emilia Clarke",
+			"Kit Harington",
+			"Sophie Turner",
+			"Maisie Williams",
+			"Nikolaj Coster-Waldau",
+			"Iain Glen",
+			"John Bradley"
+		]
+	},
+	{
+		"id": 3,
+		"title": "BREAKING BAD",
+		"actors": [
+			"Bryan Cranston",
+			"Aaron Paul",
+			"Anna Gunn",
+			"Dean Norris",
+			"Betsy Brandt",
+			"RJ Mitte",
+			"Bob Odenkirk",
+			"Giancarlo Esposito",
+			"Jonathan Banks"
+		]
+	},
+	{
+		"id": 4,
+		"title": "Ostatni taniec",
+		"actors": [
+			"Michael Jordan",
+			"Scottie Pippen",
+			"Dennis Rodman",
+			"Steve Kerr",
+			"Phil Jackson"
+		]
+	},
+	{
+		"id": 5,
+		"title": "SHERLOCK",
+		"actors": [
+			"Benedict Cumberbatch",
+			"Martin Freeman",
+			"Mark Gatiss",
+			"Rupert Graves",
+			"Andrew Scott"
+		]
+	},
+	{
+		"id": 6,
+		"title": "PEAKY BLINDERS",
+		"actors": [
+			"Cillian Murphy",
+			"Helen McCrory",
+			"Paul Anderson",
+			"Joe Cole",
+			"Annabelle Wallis"
+		]
+	},
+	{
+		"id": 7,
+		"title": "NARCOS",
+		"actors": [
+			"Pedro Pascal",
+			"Boyd Holbrook",
+			"Wagner Moura",
+			"Damián Alcázar",
+			"Francisco Denis",
+			"Alberto Ammann",
+			"Stephanie Sigman",
+			"Maurice Compte",
+			"Juan Pablo Raba"
+		]
+	},
+	{
+		"id": 8,
+		"title": "MIASTECZKO TWIN PEAKS",
+		"actors": [
+			"Kyle MacLachlan",
+			"Michael Ontkean",
+			"Richard Beymer",
+			"Sherilyn Fenn",
+			"Mädchen Amick",
+			"Dana Ashbrook",
+			"Lara Flynn Boyle"
+		]
+	},
+	{
+		"id": 9,
+		"title": "HOUSE OF CARDS",
+		"actors": [
+			"Kevin Spacey",
+			"Robin Wright",
+			"Michael Kelly",
+			"Kate Mara",
+			"Corey Stoll",
+			"Rachel Brosnahan",
+			"Michel Gill"
+		]
+	},
+	{
+		"id": 10,
+		"title": "WIKINGOWIE",
+		"actors": [
+			"Travis Fimmel",
+			"Katheryn Winnick",
+			"Alexander Ludwig",
+			"Clive Standen",
+			"Gustaf Skarsgård",
+			"George Blagden",
+			"Alyssa Sutherland",
+			"Jordan Patrick Smith"
+		]
+	},
+	{
+		"id": 11,
+		"title": "Gomorra",
+		"actors": [
+			"Salvatore Esposito",
+			"Marco D'Amore",
+			"Ivana Lotito",
+			"Arturo Muselli",
+			"Mimmo Borrelli",
+			"Tania Garribba",
+			"Carmine Paternoster",
+			"Nunzia Schiano"
+		]
+	},
+	{
+		"id": 12,
+		"title": "STRANGER THINGS",
+		"actors": [
+			"Winona Ryder",
+			"David Harbour",
+			"Finn Wolfhard",
+			"Millie Bobby Brown",
+			"Gaten Matarazzo",
+			"Caleb McLaughlin",
+			"Noah Schnapp",
+			"Natalia Dyer",
+			"Charlie Heaton"
+		]
+	},
+	{
+		"id": 13,
+		"title": "CZARNE LUSTRO",
+		"actors": [
+			"Daniel Kaluuya",
+			"Jessica Brown Findlay",
+			"Rory Kinnear",
+			"Hayley Atwell",
+			"Domhnall Gleeson"
+		]
+	},
+	{
+		"id": 14,
+		"title": "PRZYJACIELE",
+		"actors": [
+			"Jennifer Aniston",
+			"Courteney Cox",
+			"Lisa Kudrow",
+			"Matt LeBlanc",
+			"Matthew Perry",
+			"David Schwimmer",
+			"James Michael Tyler",
+			"Maggie Wheeler",
+			"Jane Sibbett"
+		]
+	},
+	{
+		"id": 15,
+		"title": "DOM Z PAPIERU",
+		"actors": [
+			"Úrsula Corberó",
+			"Álvaro Morte",
+			"Paco Tous",
+			"Alba Flores",
+			"Miguel Herrán",
+			"Pedro Alonso",
+			"Enrique Arce",
+			"María Pedraza",
+			"Itziar Ituño"
+		]
+	},
+	{
+		"id": 16,
+		"title": "DR HOUSE",
+		"actors": [
+			"Hugh Laurie",
+			"Robert Sean Leonard",
+			"Omar Epps",
+			"Jesse Spencer",
+			"Lisa Edelstein",
+			"Jennifer Morrison",
+			"Peter Jacobson",
+			"Olivia Wilde",
+			"Kal Penn"
+		]
+	},
+	{
+		"id": 17,
+		"title": "DARK",
+		"actors": [
+			"Oliver Masucci",
+			"Karoline Eichhorn",
+			"Jördis Triebel",
+			"Louis Hofmann",
+			"Maja Schöne",
+			"Stephan Kampwirth",
+			"Daan Lennard Liebrenz",
+			"Andreas Pietschmann",
+			"Deborah Kaufmann"
+		]
+	},
+	{
+		"id": 18,
+		"title": "PitBull",
+		"actors": [
+			"Marcin Dorociński",
+			"Andrzej Grabowski",
+			"Paweł Królikowski",
+			"Joachim Lamża",
+			"Elena Rutkowska",
+			"Weronika Rosati",
+			"Michał Kula"
+		]
+	},
+	{
+		"id": 19,
+		"title": "THE CROWN",
+		"actors": [
+			"Claire Foy",
+			"Matt Smith",
+			"John Lithgow",
+			"Vanessa Kirby",
+			"Jeremy Northam",
+			"Victoria Hamilton"
+		]
+	},
+	{
+		"id": 20,
+		"title": "DEXTER",
+		"actors": [
+			"Michael C. Hall",
+			"Jennifer Carpenter",
+			"Luna Lauren Velez",
+			"David Zayas",
+			"James Remar",
+			"C.S. Lee",
+			"Julie Benz",
+			"Desmond Harrington",
+			"Christina Robinson"
+		]
+	},
+	{
+		"id": 21,
+		"title": "UTOPIA",
+		"actors": [
+			"Nathan Stewart-Jarrett",
+			"Alexandra Roach",
+			"Adeel Akhtar",
+			"Oliver Woollford",
+			"Neil Maskell",
+			"Fiona O'Shaughnessy",
+			"Paul Higgins",
+			"Emilia Jones",
+			"Michael Smiley"
+		]
+	},
+	{
+		"id": 22,
+		"title": "GAMBIT KRÓLOWEJ",
+		"actors": [
+			"Anya Taylor-Joy",
+			"Moses Ingram",
+			"Janina Elkin",
+			"Marcin Dorociński",
+			"Chloe Pirrie",
+			"Rebecca Root",
+			"Christiane Seidel"
+		]
+	},
+	{
+		"id": 23,
+		"title": "W GARNITURACH",
+		"actors": [
+			"Gabriel Macht",
+			"Patrick J. Adams",
+			"Rick Hoffman",
+			"Meghan Markle",
+			"Sarah Rafferty",
+			"Gina Torres",
+			"Katherine Heigl",
+			"Amanda Schull",
+			"Rachael Harris"
+		]
+	},
+	{
+		"id": 24,
+		"title": "SYNOWIE ANARCHII",
+		"actors": [
+			"Charlie Hunnam",
+			"Katey Sagal",
+			"Mark Boone Junior",
+			"Tommy Flanagan",
+			"Kim Coates",
+			"Theo Rossi",
+			"Ron Perlman"
+		]
+	},
+	{
+		"id": 25,
+		"title": "Młody papież",
+		"actors": [
+			"Jude Law",
+			"Diane Keaton",
+			"Silvio Orlando",
+			"Javier Cámara",
+			"Scott Shepherd",
+			"Cécile de France",
+			"Ludivine Sagnier",
+			"Toni Bertorelli"
+		]
+	},
+	{
+		"id": 26,
+		"title": "WATAHA",
+		"actors": [
+			"Leszek Lichota",
+			"Bartłomiej Topa",
+			"Aleksandra Popławska",
+			"Andrzej Zieliński",
+			"Dagmara Bąk",
+			"Maciej Mikołajczyk",
+			"Marian Dziędziel",
+			"Magdalena Popławska",
+			"Julia Pogrebińska"
+		]
+	},
+	{
+		"id": 27,
+		"title": "MR. ROBOT",
+		"actors": [
+			"Rami Malek",
+			"Christian Slater",
+			"Portia Doubleday",
+			"Carly Chaikin"
+		]
+	},
+	{
+		"id": 28,
+		"title": "AMERICAN HORROR STORY: ASYLUM",
+		"actors": [
+			"Jessica Lange",
+			"Sarah Paulson",
+			"James Cromwell",
+			"Lily Rabe"
+		]
+	},
+	{
+		"id": 29,
+		"title": "JAK POZNAŁEM WASZĄ MATKĘ",
+		"actors": [
+			"Josh Radnor",
+			"Jason Segel",
+			"Alyson Hannigan",
+			"Cobie Smulders",
+			"Neil Patrick Harris",
+			"Lyndsy Fonseca",
+			"David Henrie",
+			"Bob Saget",
+			"Cristin Milioti"
+		]
+	},
+	{
+		"id": 30,
+		"title": "SPARTAKUS: KREW I PIACH",
+		"actors": [
+			"Andy Whitfield",
+			"John Hannah",
+			"Lucy Lawless",
+			"Manu Bennett",
+			"Viva Bianca",
+			"Peter Mensah",
+			"Nick E. Tarabay",
+			"Jai Courtney",
+			"Antonio Te Maioha"
+		]
+	},
+	{
+		"id": 31,
+		"title": "CZAS HONORU",
+		"actors": [
+			"Maciej Zakościelny",
+			"Jakub Wesołowski",
+			"Jan Wieczorkowski",
+			"Antoni Pawlicki",
+			"Magdalena Różczka",
+			"Lucyna Malec",
+			"Magdalena Kuta",
+			"Krystian Wieczorek",
+			"Michał Meyer"
+		]
+	},
+	{
+		"id": 32,
+		"title": "RZYM",
+		"actors": [
+			"Kevin McKidd",
+			"Ray Stevenson",
+			"Ciarán Hinds",
+			"James Purefoy"
+		]
+	},
+	{
+		"id": 33,
+		"title": "TEORIA WIELKIEGO PODRYWU",
+		"actors": [
+			"Jim Parsons",
+			"Johnny Galecki",
+			"Kaley Cuoco",
+			"Simon Helberg",
+			"Kunal Nayyar",
+			"Mayim Bialik",
+			"Melissa Rauch"
+		]
+	},
+	{
+		"id": 34,
+		"title": "SQUID GAME",
+		"actors": [
+			"Jung-Jae Lee",
+			"Hae-soo Park",
+			"Sung-tae Heo",
+			"Ha-joon Wi",
+			"Yeong-su Oh",
+			"Ho-yeon Jung"
+		]
+	},
+	{
+		"id": 35,
+		"title": "Z ARCHIWUM X",
+		"actors": [
+			"Gillian Anderson",
+			"David Duchovny",
+			"Tom Braidwood",
+			"Mitch Pileggi",
+			"Robert Patrick"
+		]
+	},
+	{
+		"id": 36,
+		"title": "EL CHAPO",
+		"actors": [
+			"Marco de la O",
+			"Humberto Busto",
+			"Diego Vásquez",
+			"Alejandro Aguilar",
+			"Héctor Holten"
+		]
+	},
+	{
+		"id": 37,
+		"title": "THE WALKING DEAD",
+		"actors": [
+			"Andrew Lincoln",
+			"Norman Reedus",
+			"Laurie Holden",
+			"Melissa McBride",
+			"Steven Yeun",
+			"Jon Bernthal",
+			"Sarah Wayne Callies",
+			"Jeffrey DeMunn",
+			"Chandler Riggs"
+		]
+	},
+	{
+		"id": 38,
+		"title": "PACYFIK",
+		"actors": [
+			"James Badge Dale",
+			"Joseph Mazzello",
+			"Jon Seda",
+			"Rami Malek"
+		]
+	},
+	{
+		"id": 39,
+		"title": "KOMPANIA BRACI",
+		"actors": [
+			"Damian Lewis",
+			"Dale Dye",
+			"Ron Livingston",
+			"David Schwimmer"
+		]
+	},
+	{
+		"id": 40,
+		"title": "LOST",
+		"actors": [
+			"Matthew Fox",
+			"Evangeline Lilly",
+			"Josh Holloway",
+			"Naveen Andrews",
+			"Emilie de Ravin"
+		]
+	},
+	{
+		"id": 41,
+		"title": "PAMIĘTNIKI WAMPIRÓW",
+		"actors": [
+			"Paul Wesley",
+			"Ian Somerhalder",
+			"Kat Graham",
+			"Candice King",
+			"Zach Roerig",
+			"Nina Dobrev",
+			"Steven R. McQueen",
+			"Michael Trevino",
+			"Joseph Morgan"
+		]
+	},
+	{
+		"id": 42,
+		"title": "THE ORIGINALS",
+		"actors": [
+			"Joseph Morgan",
+			"Daniel Gillies",
+			"Phoebe Tonkin",
+			"Charles Michael Davis",
+			"Danielle Campbell",
+			"Leah Pipes",
+			"Eka Darville",
+			"Steven Krueger",
+			"Todd Stashwick"
+		]
+	},
+	{
+		"id": 43,
+		"title": "WAMPIRY: DZIEDZICTWO",
+		"actors": [
+			"Danielle Rose Russell",
+			"Kaylee Bryant",
+			"Jenny Boyd",
+			"Matthew Davis",
+			"Aria Shahghasemi",
+			"Quincy Fouse",
+			"Peyton 'Alex' Smith",
+			"Karen David"
+		]
+	},
+	{
+		"id": 44,
+		"title": "SHADOWHUNTERS",
+		"actors": [
+			"Katherine McNamara",
+			"Dominic Sherwood",
+			"Matthew Daddario",
+			"Alberto Rosende",
+			"Harry Shum Jr.",
+			"Emeraude Toubia",
+			"Isaiah Mustafa",
+			"David Castro"
+		]
+	},
+	{
+		"id": 45,
+		"title": "CZYSTA KREW",
+		"actors": [
+			"Anna Paquin",
+			"Stephen Moyer",
+			"Alexander Skarsgård",
+			"Sam Trammell"
+		]
+	},
+	{
+		"id": 46,
+		"title": "SKAZANY NA SMIERĆ",
+		"actors": [
+			"Wentworth Miller",
+			"Dominic Purcell",
+			"Sarah Wayne Callies",
+			"Robin Tunney",
+			"Peter Stormare",
+			"Amaury Nolasco",
+			"Marshall Allman",
+			"Wade Williams",
+			"Paul Adelstein"
+		]
+	},
+	{
+		"id": 47,
+		"title": "SŁONECZNY PATROL",
+		"actors": [
+			"David Hasselhoff",
+			"Nicole Eggert",
+			"Pamela Anderson",
+			"Erika Eleniak"
+		]
+	},
+	{
+		"id": 48,
+		"title": "SKAZANA",
+		"actors": [
+			"Agata Kulesza",
+			"Michał Czernecki",
+			"Bartłomiej Topa",
+			"Aleksandra Adamska",
+			"Tomasz Schuchardt",
+			"Jan Jankowski"
+		]
+	},
+	{
+		"id": 49,
+		"title": "KRUK",
+		"actors": [
+			"Michał Żurawski",
+			"Cezary Łukaszewicz",
+			"Andrzej Zaborski",
+			"Jerzy Schejbal",
+			"Mariusz Jakus",
+			"Marcin Bosak",
+			"Leszek Lichota"
+		]
+	},
+	{
+		"id": 50,
+		"title": "BELFER",
+		"actors": [
+			"Maciej Stuhr",
+			"Magdalena Cielecka",
+			"Michalina Łabacz",
+			"Eliza Rycembel",
+			"Zofia Wichłacz",
+			"Aleksandra Popławska",
+			"Robert Gonera",
+			"Piotr Głowacki",
+			"Krzysztof Pieczyński"
+		]
+	},
+	{
+		"id": 51,
+		"title": "DOLINA KRZEMOWA",
+		"actors": [
+			"Thomas Middleditch",
+			"T.J. Miller",
+			"Kumail Nanjiani",
+			"Martin Starr",
+			"Zach Woods",
+			"Amanda Crew",
+			"Christopher Evan Welch",
+			"Josh Brener",
+			"Matt Ross"
+		]
+	},
+	{
+		"id": 52,
+		"title": "ODWRÓCENI",
+		"actors": [
+			"Robert Więckiewicz",
+			"Artur Żmijewski",
+			"Małgorzata Foremniak",
+			"Anna Radwan",
+			"Andrzej Zieliński",
+			"Maciej Kozłowski",
+			"Andrzej Grabowski",
+			"Janusz Chabior",
+			"Szymon Bobrowski"
+		]
+	},
+	{
+		"id": 53,
+		"title": "WESTWORLD",
+		"actors": [
+			"Anthony Hopkins",
+			"Evan Rachel Wood",
+			"Jeffrey Wright",
+			"Rodrigo Santoro",
+			"Shannon Woodward"
+		]
+	},
+	{
+		"id": 54,
+		"title": "KLANGOR",
+		"actors": [
+			"Arkadiusz Jakubik",
+			"Maja Ostaszewska",
+			"Piotr Witkowski",
+			"Wojciech Mecwaldowski",
+			"Konrad Eleryk",
+			"Magdalena Czerwińska",
+			"Matylda Giegżno",
+			"Maciej Musiał"
+		]
+	},
+	{
+		"id": 55,
+		"title": "ŚLEPNĄC OD ŚWIATEŁ",
+		"actors": [
+			"Kamil Nożyński",
+			"Jan Frycz",
+			"Robert Więckiewicz",
+			"Janusz Chabior",
+			"Marta Malikowska",
+			"Cezary Pazura",
+			"Marzena Pokrzywińska",
+			"Eryk Lubos",
+			"Agnieszka Żulewska"
+		]
+	},
+	{
+		"id": 56,
+		"title": "PAKT",
+		"actors": [
+			"Marcin Dorociński",
+			"Magdalena Popławska",
+			"Adam Woronowicz",
+			"Filip Pławiak",
+			"Mariusz Bonaszewski",
+			"Borys Szyc",
+			"Zbigniew Zamachowski",
+			"Kinga Preis",
+			"Łukasz Simlat"
+		]
+	},
+	{
+		"id": 57,
+		"title": "STULECIE WINNYCH",
+		"actors": [
+			"Kinga Preis",
+			"Jan Wieczorkowski",
+			"Olaf Lubaszenko",
+			"Iwona Bielska",
+			"Zuzanna Lit",
+			"Katarzyna Wajda",
+			"Katarzyna Kwiatkowska",
+			"Arkadiusz Janiczek",
+			"Adam Ferency"
+		]
+	},
+	{
+		"id": 58,
+		"title": "OFICER",
+		"actors": [
+			"Borys Szyc",
+			"Andrzej Chyra",
+			"Magdalena Różczka",
+			"Karolina Gruszka",
+			"Jan Frycz",
+			"Krzysztof Globisz",
+			"Paweł Małaszyński",
+			"Rafał Cieszyński",
+			"Eryk Lubos"
+		]
+	},
+	{
+		"id": 59,
+		"title": "CZTEREJ PANCERNI I PIES",
+		"actors": [
+			"Janusz Gajos",
+			"Franciszek Pieczka",
+			"Włodzimierz Press",
+			"Pola Raksa",
+			"Wiesław Gołas",
+			"Witold Pyrkosz"
+		]
+	},
+	{
+		"id": 60,
+		"title": "WIEDŹMIN",
+		"actors": [
+			"Henry Cavill",
+			"Anya Chalotra",
+			"Freya Allan",
+			"Joey Batey",
+			"MyAnna Buring"
+		]
+	},
+	{
+		"id": 61,
+		"title": "KRÓL",
+		"actors": [
+			"Michał Żurawski",
+			"Kacper Olszewski",
+			"Arkadiusz Jakubik",
+			"Magdalena Boczarska",
+			"Borys Szyc",
+			"Aleksandra Pisula",
+			"Bartłomiej Topa",
+			"Adam Ferency"
+		]
+	},
+	{
+		"id": 62,
+		"title": "07 ZGŁOŚ SIĘ",
+		"actors": [
+			"Bronisław Cieślak",
+			"Zdzisław Kozień",
+			"Zdzisław Tobiasz",
+			"Ewa Florczak"
+		]
+	},
+	{
+		"id": 63,
+		"title": "JANOSIK",
+		"actors": [
+			"Ewa Lemańska",
+			"Bogusz Bilewski",
+			"Marian Kociniak",
+			"Janusz Kłosiński",
+			"Marek Perepeczko",
+			"Witold Pyrkosz"
+		]
+	},
+	{
+		"id": 64,
+		"title": "O MNIE SIĘ NIE MARTW",
+		"actors": [
+			"Aleksandra Adamska",
+			"Marcin Korcz",
+			"Joanna Kulig",
+			"Stefan Pawłowski",
+			"Aleksandra Domańska",
+			"Paweł Domagała",
+			"Katarzyna Maciąg",
+			"Katarzyna Zielińska",
+			"Karol Dziuba"
+		]
+	},
+	{
+		"id": 65,
+		"title": "CZTERDZIESTOLATEK",
+		"actors": [
+			"Andrzej Kopiczyński",
+			"Anna Seniuk",
+			"Irena Kwiatkowska",
+			"Leonard Pietraszak"
+		]
+	},
+	{
+		"id": 66,
+		"title": "RANCZO",
+		"actors": [
+			"Ilona Ostrowska",
+			"Cezary Żak",
+			"Paweł Królikowski",
+			"Artur Barciś",
+			"Dorota Nowakowska",
+			"Bogdan Kalus",
+			"Katarzyna Żak",
+			"Arkadiusz Nader",
+			"Violetta Arlak"
+		]
+	},
+	{
+		"id": 67,
+		"title": "POD POWIERZCHNIĄ",
+		"actors": [
+			"Magdalena Boczarska",
+			"Bartłomiej Topa",
+			"Łukasz Simlat",
+			"Michalina Łabacz",
+			"Monika Kwiatkowska",
+			"Weronika Warchoł"
+		]
+	},
+	{
+		"id": 68,
+		"title": "DOLINA KRZEMOWA",
+		"actors": [
+			"Thomas Middleditch",
+			"T.J. Miller",
+			"Kumail Nanjiani",
+			"Martin Starr",
+			"Zach Woods",
+			"Amanda Crew",
+			"Christopher Evan Welch",
+			"Josh Brener",
+			"Matt Ross"
+		]
+	},
+	{
+		"id": 69,
+		"title": "SKAZANE",
+		"actors": [
+			"Monika Krzywkowska",
+			"Ireneusz Czop",
+			"Paulina Gałązka",
+			"Antoni Pawlicki",
+			"Olga Bołądź",
+			"Wojciech Błach",
+			"Beata Ścibakówna",
+			"Rafał Fudalej",
+			"Leszek Piskorz"
+		]
+	},
+	{
+		"id": 70,
+		"title": "DIAGNOZA",
+		"actors": [
+			"Maja Ostaszewska",
+			"Maciej Zakościelny",
+			"Adam Woronowicz",
+			"Anna Smołowik",
+			"Beata Ścibakówna",
+			"Magdalena Popławska",
+			"Sonia Bohosiewicz",
+			"Antoni Królikowski",
+			"Aleksandra Konieczna"
+		]
+	},
+	{
+		"id": 71,
+		"title": "ROJST",
+		"actors": [
+			"Dawid Ogrodnik",
+			"Andrzej Seweryn",
+			"Magdalena Różczka",
+			"Łukasz Simlat",
+			"Zofia Wichłacz",
+			"Magdalena Walach",
+			"Agnieszka Żulewska",
+			"Jacek Beler",
+			"Ireneusz Czop"
+		]
+	},
+	{
+		"id": 72,
+		"title": "PARADOKS",
+		"actors": [
+			"Anna Grycewicz",
+			"Bogusław Linda",
+			"Cezary Łukaszewicz",
+			"Gabriela Muskała",
+			"Sebastian Pawlak",
+			"Ewa Skibińska",
+			"Arkadiusz Jakubik",
+			"Witold Dębicki",
+			"Andrzej Zieliński"
+		]
+	},
+	{
+		"id": 73,
+		"title": "KOWALSCY KONTRA KOWALSCY",
+		"actors": [
+			"Piotr Adamczyk",
+			"Marieta Żukowska",
+			"Katarzyna Kwiatkowska",
+			"Wojciech Mecwaldowski",
+			"Patryk Cebulski",
+			"Jakub Zdrójkowski",
+			"Paweł Wawrzecki",
+			"Wiktoria Gąsiewska"
+		]
+	},
+	{
+		"id": 74,
+		"title": "SINGIELKA",
+		"actors": [
+			"Paulina Chruściel",
+			"Filip Bobek",
+			"Mateusz Janicki",
+			"Julia Kamińska",
+			"Izabela Kuna",
+			"Karolina Gorczyca",
+			"Dorota Pomykała",
+			"Dominika Gwit-Dunaszewska",
+			"Zofia Charewicz"
+		]
+	},
+	{
+		"id": 75,
+		"title": "ZAWSZE WARTO",
+		"actors": [
+			"Weronika Rosati",
+			"Katarzyna Zielińska",
+			"Julia Wieniawa-Narkiewicz",
+			"Jacek Knap",
+			"Joanna Kuberska",
+			"Joanna Balasz",
+			"Mariusz Bonaszewski",
+			"Karol Dziuba"
+		]
+	},
+	{
+		"id": 76,
+		"title": "MOTYW",
+		"actors": [
+			"Małgorzata Kożuchowska",
+			"Agnieszka Grochowska",
+			"Andrzej Konopka",
+			"Michał Czernecki",
+			"Olga Bołądź",
+			"Magdalena Turczeniewicz",
+			"Magdalena Walach",
+			"Adam Ferency",
+			"Maria Mamona"
+		]
+	},
+	{
+		"id": 77,
+		"title": "PRAWO AGATY",
+		"actors": [
+			"Agnieszka Dygant",
+			"Leszek Lichota",
+			"Daria Widawska",
+			"Marian Opania",
+			"Tomasz Karolak",
+			"Małgorzata Kożuchowska",
+			"Michał Mikołajczak"
+		]
+	},
+	{
+		"id": 78,
+		"title": "KOD GENETYCZNY",
+		"actors": [
+			"Adam Woronowicz",
+			"Karolina Gruszka",
+			"Maciej Musiałowski",
+			"Julia Kijowska",
+			"Katarzyna Herman",
+			"Michał Żurawski",
+			"Krzysztof Pieczyński",
+			"Joachim Lamża"
+		]
+	},
+	{
+		"id": 79,
+		"title": "ŻYWIOŁY SASZY – OGIEŃ",
+		"actors": [
+			"Magdalena Boczarska",
+			"Mirosław Haniszewski",
+			"Andrzej Konopka",
+			"Piotr Cyrwus",
+			"Erika Karkuszewska",
+			"Arkadiusz Jakubik",
+			"Jędrzej Hycnar",
+			"Marcin Czarnik"
+		]
+	},
+	{
+		"id": 80,
+		"title": "PAJĘCZYNA",
+		"actors": [
+			"Joanna Kulig",
+			"Anna Radwan",
+			"Marek Kalita",
+			"Liliana Głąbczyńska",
+			"Michalina Olszańska",
+			"Mirosław Baka",
+			"Mateusz Banasiuk",
+			"Eryk Lubos",
+			"Szymon Bobrowski"
+		]
+	},
+	{
+		"id": 81,
+		"title": "SZADŹ",
+		"actors": [
+			"Maciej Stuhr",
+			"Aleksandra Popławska",
+			"Bartosz Gelner",
+			"Cezary Łukaszewicz",
+			"Anna Cieślak",
+			"Zofia Domalik",
+			"Barbara Jonak",
+			"Emma Giegżno",
+			"Mirosław Zbrojewicz"
+		]
+	},
+	{
+		"id": 82,
+		"title": "SEXIFY",
+		"actors": [
+			"Aleksandra Skraba",
+			"Maria Sobocińska",
+			"Sandra Drzymalska",
+			"Małgorzata Foremniak",
+			"Cezary Pazura",
+			"Bartosz Gelner",
+			"Sebastian Stankiewicz"
+		]
+	},
+	{
+		"id": 83,
+		"title": "OTWÓRZ OCZY",
+		"actors": [
+			"Maria Wawreniuk",
+			"Ignacy Liss",
+			"Marcin Czarnik",
+			"Sara Celler-Jezierska",
+			"Klaudia Koścista",
+			"Marta Nieradkiewicz",
+			"Dawid Kartaszewicz"
+		]
+	},
+	{
+		"id": 84,
+		"title": "THE RAIN",
+		"actors": [
+			"Alba August",
+			"Lucas Lynggaard Tønnesen",
+			"Mikkel Boe Følsgaard",
+			"Angela Bundalovic",
+			"Sonny Lindberg",
+			"Jessica Dinnage"
+		]
+	},
+	{
+		"id": 85,
+		"title": "MROCZNE POŻĄDANIE",
+		"actors": [
+			"Maite Perroni",
+			"Erik Hayser",
+			"Alejandro Speitzer",
+			"Jorge Poza"
+		]
+	},
+	{
+		"id": 86,
+		"title": "TOY BOY",
+		"actors": [
+			"María Pedraza",
+			"Cristina Castaño",
+			"Pedro Casablanc",
+			"María Pujalte",
+			"Adelfa Calvo"
+		]
+	},
+	{
+		"id": 87,
+		"title": "DARE ME",
+		"actors": [
+			"Herizen F. Guardiola",
+			"Willa Fitzgerald",
+			"Alison Thornton",
+			"Rob Heaps",
+			"Zach Roerig",
+			"Taveeta Szymanowicz"
+		]
+	},
+	{
+		"id": 88,
+		"title": "EL CLUB",
+		"actors": [
+			"Aurora Gil",
+			"Alejandro Speitzer",
+			"Axel Arenas",
+			"Aldo Escalante"
+		]
+	},
+	{
+		"id": 89,
+		"title": "COBRA KAI",
+		"actors": [
+			"William Zabka",
+			"Ralph Macchio",
+			"Xolo Mariduena",
+			"Tanner Buchanan",
+			"Mary Mouser",
+			"Courtney Henggeler",
+			"Jacob Bertrand",
+			"Gianni Decenzo",
+			"Bo Mitchell"
+		]
+	},
+	{
+		"id": 90,
+		"title": "ARROW",
+		"actors": [
+			"Stephen Amell",
+			"David Ramsey",
+			"Emily Bett Rickards",
+			"Katie Cassidy",
+			"Willa Holland",
+			"Colton Haynes",
+			"Paul Blackthorne",
+			"Susanna Thompson",
+			"Colin Donnell"
+		]
+	},
+	{
+		"id": 91,
+		"title": "PRZEKLĘTA",
+		"actors": [
+			"Katherine Langford",
+			"Devon Terrell",
+			"Gustaf Skarsgård",
+			"Lily Newmark",
+			"Shalom Brune-Franklin",
+			"Daniel Sharman",
+			"Sebastian Armesto"
+		]
+	},
+	{
+		"id": 92,
+		"title": "BERLIŃSKIE PSY",
+		"actors": [
+			"Alina Stiegler",
+			"Felix Kramer",
+			"Anna Maria Mühe",
+			"Katharina Schüttler",
+			"Fahri Yardim",
+			"Sebastian Achilles"
+		]
+	},
+	{
+		"id": 93,
+		"title": "LUKE CAGE",
+		"actors": [
+			"Mike Colter",
+			"Alfre Woodard",
+			"Mahershala Ali",
+			"Theo Rossi",
+			"Rosario Dawson"
+		]
+	},
+	{
+		"id": 94,
+		"title": "DOPASOWANI",
+		"actors": [
+			"Hannah Ware",
+			"Diarmaid Murtagh",
+			"Stephen Campbell Moore",
+			"Olivia Chenery",
+			"Albano Jerónimo",
+			"Eric Kofi-Abrefa"
+		]
+	},
+	{
+		"id": 95,
+		"title": "1983",
+		"actors": [
+			"Robert Więckiewicz",
+			"Maciej Musiał",
+			"Michalina Olszańska",
+			"Andrzej Chyra",
+			"Zofia Wichłacz",
+			"Mirosław Zbrojewicz",
+			"Ewa Błaszczyk",
+			"Wojciech Kalarus",
+			"Edyta Olszówka"
+		]
+	},
+	{
+		"id": 96,
+		"title": "GRZESZNICA",
+		"actors": [
+			"Frances Fisher",
+			"Alice Kremelberg",
+			"Jessica Biel",
+			"Bill Pullman"
+		]
+	},
+	{
+		"id": 97,
+		"title": "THE A LIST",
+		"actors": [
+			"Lisa Ambalavanar",
+			"Ellie Duckles",
+			"Savannah Baker",
+			"Cian Barry"
+		]
+	},
+	{
+		"id": 98,
+		"title": "RIVERDALLE",
+		"actors": [
+			"K.J. Apa",
+			"Lili Reinhart",
+			"Cole Sprouse",
+			"Camila Mendes"
+		]
+	},
+	{
+		"id": 99,
+		"title": "THE GOOD DOCTOR",
+		"actors": [
+			"Freddie Highmore",
+			"Antonia Thomas",
+			"Nicholas Gonzalez",
+			"Chuku Modu"
+		]
+	},
+	{
+		"id": 100,
+		"title": "SZKOŁA DLA ELITY",
+		"actors": [
+			"Álvaro Rico",
+			"Itzan Escamilla",
+			"Ester Expósito",
+			"Miguel Bernardeau",
+			"Arón Piper",
+			"Danna Paola",
+			"Miguel Herrán",
+			"Omar Ayuso"
+		]
+	},
+	{
+		"id": 101,
+		"title": "PLEMIONA EUROPY",
+		"actors": [
+			"Henriette Confurius",
+			"Emilio Sakraya",
+			"Melika Foroutan",
+			"Oliver Masucci",
+			"Robert Finster"
+		]
+	},
+	{
+		"id": 102,
+		"title": "MARCO POLO",
+		"actors": [
+			"Lorenzo Richelmy",
+			"Benedict Wong",
+			"Zhu Zhu",
+			"Tom Wu"
+		]
+	},
+	{
+		"id": 103,
+		"title": "FRONTIER",
+		"actors": [
+			"Jason Momoa",
+			"Alun Armstrong",
+			"Allan Hawco",
+			"Landon Liboiron"
+		]
+	},
+	{
+		"id": 104,
+		"title": "SEX/LIFE",
+		"actors": [
+			"Sarah Shahi",
+			"Mike Vogel",
+			"Adam Demos",
+			"Margaret Odette"
+		]
+	},
+	{
+		"id": 105,
+		"title": "THE 100",
+		"actors": [
+			"Eliza Taylor",
+			"Paige Turco",
+			"Thomas McDonell",
+			"Bob Morley"
+		]
+	},
+	{
+		"id": 106,
+		"title": "ALTERED CARBON",
+		"actors": [
+			"Joel Kinnaman",
+			"James Purefoy",
+			"Martha Higareda",
+			"Dichen Lachman"
+		]
+	},
+	{
+		"id": 107,
+		"title": "PIRACI",
+		"actors": [
+			"Toby Stephens",
+			"Hannah New",
+			"Luke Arnold",
+			"Jessica Parker Kennedy",
+			"Tom Hopper",
+			"Zach McGowan"
+		]
+	},
+	{
+		"id": 108,
+		"title": "DWÓCH I PÓŁ",
+		"actors": [
+			"Charlie Sheen",
+			"Jon Cryer",
+			"Angus T. Jones",
+			"Holland Taylor"
+		]
+	},
+	{
+		"id": 109,
+		"title": "SEE",
+		"actors": [
+			"Jason Momoa",
+			"Alfre Woodard",
+			"Christian Camargo",
+			"Nesta Cooper"
+		]
+	},
+	{
+		"id": 110,
+		"title": "UPADEK KRÓLESTWA",
+		"actors": [
+			"Alexander Dreymon",
+			"Ian Hart",
+			"David Dawson",
+			"Adrian Bower"
+		]
+	},
+	{
+		"id": 111,
+		"title": "STRAŻNIK TEKSASU",
+		"actors": [
+			"Chuck Norris",
+			"Clarence Gilyard Jr.",
+			"Sheree J. Wilson",
+			"Noble Willingham",
+			"James Wlcek"
+		]
+	},
+	{
+		"id": 112,
+		"title": "KOŁO CZASU",
+		"actors": [
+			"Rosamund Pike",
+			"Josha Stradowski",
+			"Marcus Rutherford",
+			"Barney Harris"
+		]
+	},
+	{
+		"id": 113,
+		"title": "Pingwin",
+		"actors": [
+			"Colin Farrell",
+			"Cristin Milioti",
+			"Rhenzy Feliz",
+			"Deirdre O'Connell",
+			"Clancy Brown",
+			"Carmen Ejogo",
+			"Shohreh Aghdashloo",
+			"Theo Rossi"
+		]
+	},
+	{
+		"id": 114,
+		"title": "Matki pingwinów",
+		"actors": [
+			"Masza Wągrocka",
+			"Magdalena Różczka",
+			"Barbara Wypych",
+			"Tomasz Tyndyk",
+			"Jan Lubas",
+			"Tola Będzikowska",
+			"Maksymilian Młodawski"
+		]
+	},
+	{
+		"id": 115,
+		"title": "Szogun",
+		"actors": [
+			"Hiroyuki Sanada",
+			"Cosmo Jarvis",
+			"Anna Sawai",
+			"浅野忠信",
+			"平岳大",
+			"Tommy Bastow",
+			"二階堂ふみ"
+		]
+	},
+	{
+		"id": 116,
+		"title": "Prosta sprawa",
+		"actors": [
+			"Mateusz Damięcki",
+			"Piotr Adamczyk",
+			"Magdalena Wieczorek",
+			"Mateusz Kmiecik",
+			"Mateusz Więcławek",
+			"Oskar Stoczyński"
+		]
+	},
+	{
+		"id": 117,
+		"title": "Idź przodem, bracie",
+		"actors": [
+			"Piotr Witkowski",
+			"Konrad Eleryk",
+			"Marcin Kowalczyk",
+			"Aleksandra Adamska",
+			"Анастасія Пустовіт",
+			"Cezary Żak",
+			"Maja Szopa"
+		]
+	},
+	{
+		"id": 118,
+		"title": "Stamtąd",
+		"actors": [
+			"Harold Perrineau",
+			"Catalina Sandino Moreno",
+			"Eion Bailey",
+			"David Alpay",
+			"Elizabeth Saunders",
+			"Scott McCord",
+			"Ricky He",
+			"Chloe Van Landschoot"
+		]
+	},
+	{
+		"id": 119,
+		"title": "Dexter: Grzech pierworodny",
+		"actors": [
+			"Patrick Gibson",
+			"Christian Slater",
+			"Molly Brown",
+			"Christina Milian",
+			"James Martinez",
+			"Alex Shimizu",
+			"Reno Wilson",
+			"Patrick Dempsey"
+		]
+	},
+	{
+		"id": 120,
+		"title": "Profilerka",
+		"actors": [
+			"Wiktoria Gorodeckaja",
+			"Michał Czernecki",
+			"Aleksandra Pisula",
+			"Tomasz Taranta",
+			"Hubert Woliński",
+			"Maciej Maciejewski"
+		]
+	},
+	{
+		"id": 121,
+		"title": "Bez tchu",
+		"actors": [
+			"Manu Ríos",
+			"Borja Luna",
+			"Blanca Suárez",
+			"Najwa Nimri",
+			"Aitana Sánchez-Gijón",
+			"Ana Rayo",
+			"Alfonso Bassave",
+			"Xóan Fórneas"
+		]
+	},
+	{
+		"id": 122,
+		"title": "1670",
+		"actors": [
+			"Bartłomiej Topa",
+			"Katarzyna Herman",
+			"Martyna Byczkowska",
+			"Michał Sikorski",
+			"Andrzej Kłak",
+			"Dobromir Dymecki",
+			"Kirył Pietruczuk",
+			"Paulina Matusewicz"
+		]
+	},
+	{
+		"id": 123,
+		"title": "The Last of Us",
+		"actors": [
+			"Pedro Pascal",
+			"Bella Ramsey"
+		]
+	},
+	{
+		"id": 124,
+		"title": "Silos",
+		"actors": [
+			"Rebecca Ferguson",
+			"Common",
+			"Harriet Walter",
+			"Chinaza Uche",
+			"Avi Nash",
+			"Rick Gomez",
+			"Tim Robbins",
+			"Shane McRae"
+		]
+	},
+	{
+		"id": 125,
+		"title": "Infamia",
+		"actors": [
+			"Zofia Jastrzębska",
+			"Sebastian Łach",
+			"Magdalena Czerwińska",
+			"Kamil Piotrowski",
+			"Artur Dziurman",
+			"Wanda Ranii Kozłowska",
+			"Bożena Paczkowska",
+			"Konrad Bogusławski"
+		]
+	},
+	{
+		"id": 126,
+		"title": "Informacja zwrotna",
+		"actors": [
+			"Arkadiusz Jakubik",
+			"Jakub Sierenberg",
+			"Dominika Bednarczyk",
+			"Nel Kaczmarek",
+			"Juliusz Chrząstowski",
+			"Agata Wątróbska",
+			"Przemysław Bluszcz",
+			"Kamil Studnicki"
+		]
+	},
+	{
+		"id": 127,
+		"title": "Pati",
+		"actors": [
+			"Aleksandra Adamska",
+			"Konrad Eleryk",
+			"Natalia Wolska",
+			"Fryderyk Surowiec",
+			"Ina Sobala"
+		]
+	},
+	{
+		"id": 128,
+		"title": "The Walking Dead: Daryl Dixon",
+		"actors": [
+			"Norman Reedus",
+			"Melissa McBride",
+			"Clémence Poésy",
+			"Louis Puech Scigliuzzi",
+			"Laïka Blanc-Francard",
+			"Anne Charrier",
+			"Romain Levi",
+			"Joel de la Fuente"
+		]
+	},
+	{
+		"id": 129,
+		"title": "Minuta ciszy",
+		"actors": [
+			"Robert Więckiewicz",
+			"Piotr Rogucki",
+			"Aleksandra Konieczna",
+			"Karolina Bruchnicka",
+			"Aleksandra Popławska",
+			"Adam Bobik",
+			"Wojciech Skibiński",
+			"Ireneusz Kozioł"
+		]
+	},
+	{
+		"id": 130,
+		"title": "Wielka woda",
+		"actors": [
+			"Agnieszka Żulewska",
+			"Tomasz Schuchardt",
+			"Ireneusz Czop",
+			"Anna Dymna",
+			"Jerzy Trela",
+			"Blanka Kot"
+		]
+	},
+	{
+		"id": 131,
+		"title": "Ród Smoka",
+		"actors": [
+			"Emma D'Arcy",
+			"Matt Smith",
+			"Olivia Cooke",
+			"Patrick Sass"
+		]
+	},
+	{
+		"id": 132,
+		"title": "Wednesday",
+		"actors": [
+			"Jenna Ortega",
+			"Emma Myers",
+			"Joy Sunday",
+			"Percy Hynes White",
+			"Hunter Doohan",
+			"Gwendoline Christie",
+			"Riki Lindhome",
+			"Jamie McShane"
+		]
+	},
+	{
+		"id": 133,
+		"title": "Wzgórze psów",
+		"actors": [
+			"Jaśmina Polak",
+			"Mateusz Kościukiewicz",
+			"Robert Więckiewicz",
+			"Wojciech Zieliński",
+			"Kamila Urzędowska",
+			"Helena Sujecka",
+			"Andrzej Konopka",
+			"Rafael Stachowiak"
+		]
+	}
 ]

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "mecz": "15.02.2019  Piast Lech 4-0 Ekstraklasa 2018/2019",
+    "game": "15.02.2019  Piast Lech 4-0 Ekstraklasa 2018/2019",
     "squad": [
       "Plach",
       "Burić",
@@ -35,7 +35,7 @@
   },
   {
     "id": 2,
-    "mecz": "04.05.2022  Real Madryt - Manchaster City 3:1 Liga Mistrzów  2021/2022",
+    "game": "04.05.2022  Real Madryt - Manchaster City 3:1 Liga Mistrzów  2021/2022",
     "squad": [
       "Courtois",
       "Ederson",
@@ -74,7 +74,7 @@
   },
   {
     "id": 3,
-    "mecz": "05.03.2019 Real Madryt  - Ajax Amsterdam 1:4 Liga mistrzów 2018/2019",
+    "game": "05.03.2019 Real Madryt  - Ajax Amsterdam 1:4 Liga mistrzów 2018/2019",
     "squad": [
       "Courtois",
       "Varane",
@@ -108,7 +108,7 @@
   },
   {
     "id": 4,
-    "mecz": "15.06.2018 Portugalia - Hiszpania 3-3 Mundial 2018",
+    "game": "15.06.2018 Portugalia - Hiszpania 3-3 Mundial 2018",
     "squad": [
       "Patricio",
       "Soares",
@@ -136,7 +136,7 @@
   },
   {
     "id": 5,
-    "mecz": "31.01.2021 Wisła Kraków - Piast Gliwice 3-4 Ekstraklasa 2020/2021",
+    "game": "31.01.2021 Wisła Kraków - Piast Gliwice 3-4 Ekstraklasa 2020/2021",
     "squad": [
       "Buchalik",
       "Burliga",
@@ -173,7 +173,7 @@
   },
   {
     "id": 6,
-    "mecz": "29.11.2010 Barcleona - Real Madryt  5-0 Primera Division 2010/2011",
+    "game": "29.11.2010 Barcleona - Real Madryt  5-0 Primera Division 2010/2011",
     "squad": [
       "Valdes",
       "Pique",
@@ -206,7 +206,7 @@
   },
   {
     "id": 7,
-    "mecz": "03.05.2022 Villareal - Liverpool 2-3 Liga mistrzów 2021/2022",
+    "game": "03.05.2022 Villareal - Liverpool 2-3 Liga mistrzów 2021/2022",
     "squad": [
       "Rulli",
       "Foyth",
@@ -234,7 +234,7 @@
   },
   {
     "id": 8,
-    "mecz": "25.05.2005 Liverpoll - Milan 3:3 Liga mistrzów 2004/2005",
+    "game": "25.05.2005 Liverpoll - Milan 3:3 Liga mistrzów 2004/2005",
     "squad": [
       "Dida",
       "Nesta",
@@ -268,7 +268,7 @@
   },
   {
     "id": 9,
-    "mecz": "07.05.2019 Liverpoll - Barcelona  4-0 Liga mistrzów 2018/2019",
+    "game": "07.05.2019 Liverpoll - Barcelona  4-0 Liga mistrzów 2018/2019",
     "squad": [
       "Alisson",
       "van Dijk",
@@ -302,7 +302,7 @@
   },
   {
     "id": 10,
-    "mecz": "17.12.2022 Argentyna Francja 3-3  Finał Mundialu 2022",
+    "game": "17.12.2022 Argentyna Francja 3-3  Finał Mundialu 2022",
     "squad": [
       "Martinez",
       "Tagliafico",
@@ -343,7 +343,7 @@
   },
   {
     "id": 11,
-    "mecz": "14.04.2016  Liverpol - Borussia 4-3 Liga Europy 2015/2016",
+    "game": "14.04.2016  Liverpol - Borussia 4-3 Liga Europy 2015/2016",
     "squad": [
       "Mignolet",
       "Weidenfeller",
@@ -377,7 +377,7 @@
   },
   {
     "id": 12,
-    "mecz": "11.10.2014   Polska Niemcy 2-0 Eliminacje Mistrzostw Europy 2016",
+    "game": "11.10.2014   Polska Niemcy 2-0 Eliminacje Mistrzostw Europy 2016",
     "squad": [
       "Szczęsny",
       "Neuer",
@@ -411,7 +411,7 @@
   },
   {
     "id": 13,
-    "mecz": "27.05.2012 Piast Gliwice 3-0 Zawisza Bydgoszcz 1liga 2011/2012",
+    "game": "27.05.2012 Piast Gliwice 3-0 Zawisza Bydgoszcz 1liga 2011/2012",
     "squad": [
       "Trela",
       "Witan",
@@ -443,7 +443,7 @@
   },
   {
     "id": 14,
-    "mecz": "27.06.16 Anglia - Islandia 1-2  Mistrzostwa Europy 2020",
+    "game": "27.06.16 Anglia - Islandia 1-2  Mistrzostwa Europy 2020",
     "squad": [
       "Hart",
       "Halldorsson",
@@ -471,7 +471,7 @@
   },
   {
     "id": 15,
-    "mecz": "30.06.16 Polska - Portugalia 1-1 Mistrzostwa Europy  2016",
+    "game": "30.06.16 Polska - Portugalia 1-1 Mistrzostwa Europy  2016",
     "squad": [
       "Fabiański",
       "Patricio",
@@ -504,7 +504,7 @@
   },
   {
     "id": 16,
-    "mecz": "12.05.2012 Borussia Dortmund - Bayern Monachium 5-2 DFB Pokal 2011/2012",
+    "game": "12.05.2012 Borussia Dortmund - Bayern Monachium 5-2 DFB Pokal 2011/2012",
     "squad": [
       "Weidenfeller",
       "Subotic",
@@ -537,7 +537,7 @@
   },
   {
     "id": 17,
-    "mecz": "15.05.2013 Borussia Dortmund 1-2 Bayern Monachium Finał Ligi mistrzów 2012/2013",
+    "game": "15.05.2013 Borussia Dortmund 1-2 Bayern Monachium Finał Ligi mistrzów 2012/2013",
     "squad": [
       "Weidenfeller",
       "Neuer",
@@ -569,7 +569,7 @@
   },
   {
     "id": 18,
-    "mecz": "24.04.2013 Borussia Dortmund 4-1 Real Madryt Liga mistrzów 2012/2103",
+    "game": "24.04.2013 Borussia Dortmund 4-1 Real Madryt Liga mistrzów 2012/2103",
     "squad": [
       "Weidenfeller",
       "Subotic",
@@ -603,7 +603,7 @@
   },
   {
     "id": 19,
-    "mecz": "12.05.2015 Piast Gliwice 2 - 1 Jagiellonia Białystok Ekstraklasa 2018/2019",
+    "game": "12.05.2015 Piast Gliwice 2 - 1 Jagiellonia Białystok Ekstraklasa 2018/2019",
     "squad": [
       "Szmatuła",
       "Sandomierski",
@@ -637,7 +637,7 @@
   },
   {
     "id": 20,
-    "mecz": "16.04.2022 Manchaster City 2-3 Liverpool Fc Puchar FA 2021/2022",
+    "game": "16.04.2022 Manchaster City 2-3 Liverpool Fc Puchar FA 2021/2022",
     "squad": [
       "Jesus",
       "Salah",
@@ -670,7 +670,7 @@
   },
   {
     "id": 21,
-    "mecz": "02.05.2009 Real Madryt 2-6 FC Barcelona Primera Division 2008/2009",
+    "game": "02.05.2009 Real Madryt 2-6 FC Barcelona Primera Division 2008/2009",
     "squad": [
       "Casillas",
       "Cannavaro",
@@ -704,7 +704,7 @@
   },
   {
     "id": 22,
-    "mecz": "04.11.2010 Lech poznań 3-1 Manchaster City Liga Europy 2010/2011",
+    "game": "04.11.2010 Lech poznań 3-1 Manchaster City Liga Europy 2010/2011",
     "squad": [
       "Burić",
       "Given",
@@ -738,7 +738,7 @@
   },
   {
     "id": 23,
-    "mecz": "27.05.2009 FC Barcelona 2-0 Manchaster United Finał LM 2008/2009",
+    "game": "27.05.2009 FC Barcelona 2-0 Manchaster United Finał LM 2008/2009",
     "squad": [
       "Valdes",
       "Pique",
@@ -771,7 +771,7 @@
   },
   {
     "id": 24,
-    "mecz": "02.10.2008 Lech Poznań 4-2 FK Austria Wiedeń Puchar UEFA 2008/2009 - I runda II mecz",
+    "game": "02.10.2008 Lech Poznań 4-2 FK Austria Wiedeń Puchar UEFA 2008/2009 - I runda II game",
     "squad": [
       "Kotorowski",
       "Safar",
@@ -804,7 +804,7 @@
   },
   {
     "id": 25,
-    "mecz": "23.03.2014 Real Madryt 3-4 FC Barcelona Primera Diviosion 2013/2014",
+    "game": "23.03.2014 Real Madryt 3-4 FC Barcelona Primera Diviosion 2013/2014",
     "squad": [
       "Lopez",
       "Pepe",
@@ -837,7 +837,7 @@
   },
   {
     "id": 26,
-    "mecz": "09.07.2006 Włochy 6:4 po r.k. Francja Finał mistrzostw świata 2006",
+    "game": "09.07.2006 Włochy 6:4 po r.k. Francja Finał mistrzostw świata 2006",
     "squad": [
       "Buffon",
       "Materazzi",
@@ -871,7 +871,7 @@
   },
   {
     "id": 27,
-    "mecz": "29.03.2022 Polska 2-0 Szwecja Baraże mistrzostw świata 2022",
+    "game": "29.03.2022 Polska 2-0 Szwecja Baraże mistrzostw świata 2022",
     "squad": [
       "Szczęsny",
       "Olsen",
@@ -905,7 +905,7 @@
   },
   {
     "id": 28,
-    "mecz": "21.05.2008 Manchaster United 6-5 po r.k. Chelsea FC Finał LM 2007/2008",
+    "game": "21.05.2008 Manchaster United 6-5 po r.k. Chelsea FC Finał LM 2007/2008",
     "squad": [
       "van der Sar",
       "Ferdinand",
@@ -939,7 +939,7 @@
   },
   {
     "id": 29,
-    "mecz": "26.05.1999 Manchaster United 2-1 Bayern Monachium Finał LM 1998/1999",
+    "game": "26.05.1999 Manchaster United 2-1 Bayern Monachium Finał LM 1998/1999",
     "squad": [
       "Schmeichel",
       "Johnsen",
@@ -972,7 +972,7 @@
   },
   {
     "id": 30,
-    "mecz": "08.05.2010 Piast Gliwice 2-2 Śląsk Wrocław Ekstraklasa 2008/2009",
+    "game": "08.05.2010 Piast Gliwice 2-2 Śląsk Wrocław Ekstraklasa 2008/2009",
     "squad": [
       "Nalepa",
       "Kelemen",
@@ -1005,7 +1005,7 @@
   },
   {
     "id": 31,
-    "mecz": "01.12.2015 Górnik Zabrze 5-2 Piast Gliwice  Ekstraklasa 2015/2016",
+    "game": "01.12.2015 Górnik Zabrze 5-2 Piast Gliwice  Ekstraklasa 2015/2016",
     "squad": [
       "Janukiewicz",
       "Szmatuła",
@@ -1039,7 +1039,7 @@
   },
   {
     "id": 32,
-    "mecz": "05.10.2014 Piast gliwice 3-1 Legia Warszawa Ekstraklasa 2014/2015",
+    "game": "05.10.2014 Piast gliwice 3-1 Legia Warszawa Ekstraklasa 2014/2015",
     "squad": [
       "Szmatuła",
       "Kuciak",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": 33,
-    "mecz": "18.07.2013 Qarabag Agdam 2-1 Piast Gliwice Liga Europy 2013/2014",
+    "game": "18.07.2013 Qarabag Agdam 2-1 Piast Gliwice Liga Europy 2013/2014",
     "squad": [
       "Varvodić",
       "Szumski",
@@ -1107,7 +1107,7 @@
   },
   {
     "id": 34,
-    "mecz": "14.07.2016 Piast Gliwice 0-3 IFK GOTEBORG Liga Europy 2016/2017",
+    "game": "14.07.2016 Piast Gliwice 0-3 IFK GOTEBORG Liga Europy 2016/2017",
     "squad": [
       "Szmatuła",
       "Alvbage",
@@ -1141,7 +1141,7 @@
   },
   {
     "id": 35,
-    "mecz": "03.04.2009 Piast Gliwice 1-0 Górnik Zabrze Ekstraklasa 2008/2009",
+    "game": "03.04.2009 Piast Gliwice 1-0 Górnik Zabrze Ekstraklasa 2008/2009",
     "squad": [
       "Kasprzik",
       "Nowak",
@@ -1175,7 +1175,7 @@
   },
   {
     "id": 36,
-    "mecz": "18.02.2012 Śląsk Wrocław 1-1 Ruch Chorzów Ekstraklasa 2011/2012",
+    "game": "18.02.2012 Śląsk Wrocław 1-1 Ruch Chorzów Ekstraklasa 2011/2012",
     "squad": [
       "Kelemen",
       "Pesković",
@@ -1209,7 +1209,7 @@
   },
   {
     "id": 37,
-    "mecz": "04.06.2017 Jagiellonia Białystok 2-2 Lech Poznań Ekstraklasa 2016/2017",
+    "game": "04.06.2017 Jagiellonia Białystok 2-2 Lech Poznań Ekstraklasa 2016/2017",
     "squad": [
       "Kelemen",
       "Putnocky",
@@ -1243,7 +1243,7 @@
   },
   {
     "id": 38,
-    "mecz": "29.05.2021 Manchaster City 0-1 Chelsea FC Finał LM 2020/2021",
+    "game": "29.05.2021 Manchaster City 0-1 Chelsea FC Finał LM 2020/2021",
     "squad": [
       "Moraes",
       "Mendy",
@@ -1277,7 +1277,7 @@
   },
   {
     "id": 39,
-    "mecz": "13.01.2023 SSC Napoli 5-1 Juventus Turyn Serie A 2022/2023",
+    "game": "13.01.2023 SSC Napoli 5-1 Juventus Turyn Serie A 2022/2023",
     "squad": [
       "Meret",
       "Rrahmani",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": 40,
-    "mecz": "15.01.2023 Totenham Hotspur 0-2 FC Arsenal Premier League 2022/2023",
+    "game": "15.01.2023 Totenham Hotspur 0-2 FC Arsenal Premier League 2022/2023",
     "squad": [
       "Lloris",
       "Lenglet",

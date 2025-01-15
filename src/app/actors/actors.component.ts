@@ -37,7 +37,6 @@ export abstract class ActorsComponent {
     switch (this.category) {
       case 'movieActors': {
         this.randomActorForQuestion = await this.questionDataService.getMoviesActorsQuestion()
-
         this.questionAnswerService.setQuestion('W jakim filmie była taka obsada?')
         this.questionAnswerService.setAnswer(this.randomActorForQuestion.title)
         this.questionAnswerService.setPointsForQuestion(2)

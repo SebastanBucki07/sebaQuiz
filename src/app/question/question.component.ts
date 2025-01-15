@@ -10,7 +10,7 @@ import { Subscription } from 'rxjs'
 export class QuestionComponent implements OnInit {
   protected question = ''
   protected tip = ''
-  protected isFlague = false
+  protected isFlag = false
   protected isPhoto = false
   private subscription!: Subscription
 
@@ -39,7 +39,7 @@ export class QuestionComponent implements OnInit {
   // }
 
   setFlague(): void {
-    this.isFlague = this.questionAndAnswerService.getIsFlague()
+    this.isFlag = this.questionAndAnswerService.getIsFlag()
   }
 
   // setPhoto(): void {

@@ -45,15 +45,15 @@ export class FamiliadaComponent implements OnInit {
     if (this.players.length >= 1) {
       this.players = []
     }
-    const tmp = this.playerService.getPlayers()
-    tmp.forEach((player) => {
+    const playersForFamiliada = this.playerService.getPlayers()
+    playersForFamiliada.forEach((player) => {
       this.players.push({
         id: player.id,
         name: player.name,
         wrong: 0,
       })
     })
-    const playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
+    const playerIndex = this.players.findIndex((player) => player.id === this.playerService.actualPlayer)
     this.setActualPlayer(this.players[playerIndex])
   }
 
@@ -62,7 +62,7 @@ export class FamiliadaComponent implements OnInit {
   }
 
   init(): void {
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.setWrong()
         this.nextPlayer()
@@ -158,10 +158,10 @@ export class FamiliadaComponent implements OnInit {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input.value.toString()
     if (input) {
-      const tmp = this.answers.findIndex((el) => formatStrings(el.answer) === formatStrings(value))
-      if (tmp !== -1) {
-        if (!this.answers[tmp].display) {
-          this.answers[tmp].display = true
+      const foundAnswer = this.answers.findIndex((player) => formatStrings(player.answer) === formatStrings(value))
+      if (foundAnswer !== -1) {
+        if (!this.answers[foundAnswer].display) {
+          this.answers[foundAnswer].display = true
           this.userAnswer = ''
           const audio = new Audio('../../assets/mp3/correct.mp3')
           audio.play()

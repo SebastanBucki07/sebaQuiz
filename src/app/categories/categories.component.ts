@@ -48,7 +48,7 @@ export class CategoriesComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(`init CategoriesComponent`)
-    this.subscription = this.service.getChoosen().subscribe((x) => {
+    this.subscription = this.service.getChosen().subscribe((x) => {
       this.areCategoriesChosen = x
     })
     this.playerSubscription = this.playerService.getPlayerLength().subscribe((x) => {
@@ -58,7 +58,7 @@ export class CategoriesComponent implements OnInit {
 
   sendCategories(category: Category[]): void {
     this.acceptCategoriesButtonDisabled = true
-    this.service.setChoosen(true)
+    this.service.setChosen(true)
     this.service.setCategories(category)
   }
 

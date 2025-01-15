@@ -1,0 +1,122 @@
+<p>Wysuzkaj Film!</p>
+  <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Nazwa Filmu</span>
+      <input
+        id="movieName"
+        type="text"
+        class="form-control country-input"
+        placeholder="movieName"
+        aria-label="movieName"
+        aria-describedby="basic-addon1"
+      />
+      <button type="button" class="btn btn-primary btn-lg btn-block" (click)="searchMovie()">
+        Wyszukaj film
+      </button>
+    </div>
+
+      
+<p>Serial!</p>
+  <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon2">Nazwa Serialu</span>
+      <input
+        id="tvSeriesName"
+        type="text"
+        class="form-control country-input"
+        placeholder="tvSeriesName"
+        aria-label="tvSeriesName"
+        aria-describedby="basic-addon1"
+      />
+      <button type="button" class="btn btn-primary btn-lg btn-block" (click)="searchTvSeries()">
+        Wyszukaj Serial
+      </button>
+ </div>
+
+<div ng-if="isMovieFound">
+    <div class="row" >
+        <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let movie of actors">
+      <td>{{movie.id}}</td>
+      <td>{{movie.title}}</td>
+      <td>{{movie.actors}}</td>
+    </tr>
+    <tr>
+      <button type="button" class="btn btn-success btn-lg btn-block" 
+    (click)="questionGenerator()">
+                        Generuj Pytanko film po aktorach
+                    </button>
+    </tr>
+  </tbody>
+</table>
+        <div class="col-3" style="float:left" *ngFor="let movie of movies">
+            <div class="card">
+                <div class="card-body">
+                    <img src={{movie.poster_path}} class="card-img-top" alt="...">
+                    <h5 class="card-title">{{movie.title}}</h5>
+                    <p class="card-text">{{movie.overview}}</p>
+                    <p class="card-text">Data Produkcji: {{movie.release_date}}</p>
+                    <p class="card-text">id: {{movie.id}}</p>
+                    <button type="button" class="btn btn-success btn-lg btn-block"  [attr.data-id]="movie.id" 
+    (click)="addMovieToList($event)">
+                        Dodaj film do listy
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div ng-if="isSerialFound">
+    <div class="row" >
+        <table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let serial of tvActors">
+      <td>{{serial.id}}</td>
+      <td>{{serial.title}}</td>
+      <td>{{serial.actors}}</td>
+    </tr>
+  </tbody>
+      <tr>
+      <button type="button" class="btn btn-success btn-lg btn-block" 
+    (click)="questionGenerator2()">
+                        Generuj Pytanko serial - po aktorach
+                    </button>
+                     <button type="button" class="btn btn-success btn-lg btn-block" 
+    (click)="questionGenerator3()">
+                        Generuj Pytanko serial - opis
+                    </button>
+    </tr>
+</table>
+        <div class="col-3" style="float:left" *ngFor="let serial of tvSeries">
+            <div class="card">
+                <div class="card-body">
+                    <img src={{serial.poster_path}} class="card-img-top" alt="...">
+                    <h5 class="card-title">{{serial.title}}</h5>
+                    <p class="card-text">{{serial.overview}}</p>
+                    <p class="card-text">Data Produkcji: {{serial.release_date}}</p>
+                    <p class="card-text">id: {{serial.id}}</p>
+                    <button type="button" class="btn btn-success btn-lg btn-block"  [attr.data-id]="serial.id" 
+    (click)="addTvSeriesToList($event)">
+                        Dodaj serial do listy
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
