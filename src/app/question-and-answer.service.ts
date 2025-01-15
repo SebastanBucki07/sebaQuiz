@@ -55,11 +55,11 @@ export class QuestionAndAnswerService {
     return this.points
   }
 
-  setIsFlague(isFlague: boolean): void {
+  setIsFlag(isFlague: boolean): void {
     this.isFlague = isFlague
   }
 
-  getIsFlague(): boolean {
+  getIsFlag(): boolean {
     return this.isFlague
   }
 

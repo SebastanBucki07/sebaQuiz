@@ -1,9 +1,8 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit, ChangeDetectorRef } from '@angular/core'
 import { TimerService } from '../timer.service'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
 import { Subscription } from 'rxjs'
 import { PlayersService } from '../players.service'
-import { ChangeDetectorRef } from '@angular/core'
 
 @Component({
   selector: 'app-answer',
@@ -24,7 +23,7 @@ export class AnswerComponent implements OnInit {
     protected timerService: TimerService,
     protected questionAnswerService: QuestionAndAnswerService
   ) {
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.timerService.timeout = true
         this.timeout = true

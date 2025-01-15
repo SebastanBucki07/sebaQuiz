@@ -35,7 +35,7 @@ export class LogoComponentComponent implements OnInit {
   }
 
   init(): void {
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.isVisible = true
       }

@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core'
 import { QuestionDataService } from '../question-data.service'
 import { PlayersService } from '../players.service'
-import { InputAnswerModel, FootballGamesModel } from '../model/footballgames-model'
 import { PlayerForFamiliada } from '../players/players.component'
 import { TimerService } from '../timer.service'
 import { Subscription } from 'rxjs'
 import { formatStrings } from '../../common/string.helper'
 import { QuestionAndAnswerService } from '../question-and-answer.service'
 import { QuestionTypesService } from '../question-types.service'
+import { FootballGamesModel, InputAnswerModel } from '../model/football-games-model'
 
 @Component({
   selector: 'app-football-games',
@@ -46,15 +46,15 @@ export class FootballGamesComponent implements OnInit {
     if (this.players.length >= 1) {
       this.players = []
     }
-    const tmp = this.playerService.getPlayers()
-    tmp.forEach((player) => {
+    const players = this.playerService.getPlayers()
+    players.forEach((player) => {
       this.players.push({
         id: player.id,
         name: player.name,
         wrong: 0,
       })
     })
-    const playerIndex = this.players.findIndex((el) => el.id === this.playerService.actualPlayer)
+    const playerIndex = this.players.findIndex((player) => player.id === this.playerService.actualPlayer)
     this.setActualPlayer(this.players[playerIndex])
   }
 
@@ -87,7 +87,7 @@ export class FootballGamesComponent implements OnInit {
 
   getQuestion(): void {
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.setWrong()
         this.nextPlayer()
@@ -99,7 +99,7 @@ export class FootballGamesComponent implements OnInit {
     this.footballGames = this.questionDataService.getFootballGameQuestion()
     this.setAnswerForSquads()
     this.question = 'Wymień piłkarzy z meczu'
-    this.tip = this.footballGames.mecz
+    this.tip = this.footballGames.game
     this.isVisible = false
   }
 
@@ -150,10 +150,12 @@ export class FootballGamesComponent implements OnInit {
     const input = document.getElementById('userAnswer') as HTMLInputElement
     const value = input?.value
     if (input != null) {
-      const tmp = this.answerForSquad.findIndex((el) => formatStrings(el.inputAnswer) === formatStrings(value))
-      if (tmp !== -1) {
-        if (!this.answerForSquad[tmp].display) {
-          this.answerForSquad[tmp].display = true
+      const foundAnswer = this.answerForSquad.findIndex(
+        (answer) => formatStrings(answer.inputAnswer) === formatStrings(value)
+      )
+      if (foundAnswer !== -1) {
+        if (!this.answerForSquad[foundAnswer].display) {
+          this.answerForSquad[foundAnswer].display = true
           this.inputAnswer = ''
           const audio = new Audio('../../assets/mp3/1z10dobrzee.mp3')
           audio.play()

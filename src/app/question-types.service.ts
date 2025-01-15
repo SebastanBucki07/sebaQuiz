@@ -14,12 +14,12 @@ export class QuestionTypesService {
     console.log(`question-types service`)
   }
 
-  getChoosen(): Observable<boolean> {
+  getChosen(): Observable<boolean> {
     return interval(1000).pipe(map(() => this.chosen))
   }
 
-  setChoosen(choosen: boolean): void {
-    this.chosen = choosen
+  setChosen(chosen: boolean): void {
+    this.chosen = chosen
   }
 
   setCategories(categories: Category[]): void {
@@ -31,12 +31,10 @@ export class QuestionTypesService {
   }
 
   setActiveCategory(category: number): void {
-    console.log(`set category to ${category}`)
     this.activeCategory = category
   }
 
   getActiveCategory(): Observable<number> {
-    console.log(`active category: ${this.activeCategory}`)
     return interval(1000).pipe(map(() => this.activeCategory))
   }
 }

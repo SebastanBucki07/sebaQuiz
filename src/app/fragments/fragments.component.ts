@@ -47,7 +47,7 @@ export abstract class Fragments {
 
   getQuestion(): void {
     this.timerService.setTimer(0.5)
-    this.subscription = this.timerService.getBooleean().subscribe((x) => {
+    this.subscription = this.timerService.getBoolean().subscribe((x) => {
       if (x) {
         this.isAnswer1Visible = true
         this.isAnswer2Visible = true

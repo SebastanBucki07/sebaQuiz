@@ -38,7 +38,6 @@ export class MovieCrossComponent implements OnInit {
 
   ngOnInit(): void {
     this.randomTeams = this.questionDataService.getActorsQuestion()
-    console.log(`randomTeams2: ${JSON.stringify(this.randomTeams)}`)
     //this.countClubPairs()
     //this.countPairs()
     this.init()
@@ -56,8 +55,8 @@ export class MovieCrossComponent implements OnInit {
   }
 
   foundWinner(winner: string): Player | undefined {
-    const tmp = this.playerService.getPlayers().find((el) => el.name === winner)
-    return tmp
+    const foundWinner = this.playerService.getPlayers().find((player) => player.name === winner)
+    return foundWinner
   }
 
   changeEnd(bool: boolean): void {
@@ -173,7 +172,7 @@ export class MovieCrossComponent implements OnInit {
     } else if (this.board[x][y] !== 'blocked') {
       this.board[x][y] = this.actualChar
       this.validBoard()
-      const playerIndex = this.players.findIndex((el) => el.name === this.actualChar)
+      const playerIndex = this.players.findIndex((player) => player.name === this.actualChar)
       if (playerIndex === 0) {
         this.changeChar(1)
       } else {
@@ -221,8 +220,8 @@ export class MovieCrossComponent implements OnInit {
     if (this.players.length >= 1) {
       this.players = []
     }
-    const tmp = this.playerService.getPlayers()
-    const player = tmp.find((el) => el.id === this.playerService.actualPlayer)
+    const allPlayers = this.playerService.getPlayers()
+    const player = allPlayers.find((player) => player.id === this.playerService.actualPlayer)
     if (player) {
       this.players.push({
         id: player.id,
@@ -230,9 +229,9 @@ export class MovieCrossComponent implements OnInit {
         wrong: 0,
       })
     }
-    let randomPlayer = randomFromArray(tmp)
+    let randomPlayer = randomFromArray(allPlayers)
     do {
-      randomPlayer = randomFromArray(tmp)
+      randomPlayer = randomFromArray(allPlayers)
     } while (randomPlayer.id === this.players[0].id)
     this.players.push({
       id: randomPlayer.id,

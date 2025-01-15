@@ -6,10 +6,10 @@
   </ng-container>
   <ng-container *ngIf="isPhoto">
     <div class="card" style="width: 30rem">
-      <ng-container *ngIf="isFlague">
-        <img class="card-img-top" src="assets/flagues/{{ tip }}.png" alt="flaga {{ tip }}" />
+      <ng-container *ngIf="isFlag">
+        <img class="card-img-top" src="assets/flags/{{ tip }}.png" alt="flaga {{ tip }}" />
       </ng-container>
-      <ng-container *ngIf="!isFlague">
+      <ng-container *ngIf="!isFlag">
         <img class="card-img-top" src="{{ tip }}" alt="{{ tip }}" />
       </ng-container>
     </div>

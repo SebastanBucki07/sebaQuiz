@@ -50,7 +50,7 @@ export class PlayersComponent implements OnInit {
   }
 
   isPlayerOnList(name: string) {
-    return this.players.find((el) => el.name === name)
+    return this.players.find((player) => player.name === name)
   }
 
   addTeam(name: string): void {

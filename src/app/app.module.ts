@@ -1,5 +1,6 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core'
 import { BrowserModule } from '@angular/platform-browser'
+import { RouterModule, Routes } from '@angular/router'
 
 import { AppComponent } from './app.component'
 import { PlayersComponent } from './players/players.component'
@@ -47,6 +48,13 @@ import { MatCardModule } from '@angular/material/card'
 import { DragDropModule } from '@angular/cdk/drag-drop'
 import { MovieCrossComponent } from './movie-cross/movie-cross.component'
 import { LogoComponentComponent } from './logo-component/logo-component.component'
+import { GenerateMovieQuestionsComponent } from './generate-movie-questions/generate-movie-questions.component'
+import { MainComponent } from './main/main.component'
+
+const routes: Routes = [
+  { path: '', component: MainComponent }, // Main page
+  { path: 'configure', component: GenerateMovieQuestionsComponent }, // Subpage
+]
 
 @NgModule({
   declarations: [
@@ -98,8 +106,18 @@ import { LogoComponentComponent } from './logo-component/logo-component.componen
     CategoryListComponent,
     MovieCrossComponent,
     LogoComponentComponent,
+    GenerateMovieQuestionsComponent,
+    MainComponent,
   ],
-  imports: [BrowserModule, NgbModule, MatCheckboxModule, MatSortModule, MatCardModule, DragDropModule],
+  imports: [
+    BrowserModule,
+    NgbModule,
+    MatCheckboxModule,
+    MatSortModule,
+    MatCardModule,
+    DragDropModule,
+    RouterModule.forRoot(routes),
+  ],
   providers: [],
   bootstrap: [AppComponent],
   exports: [TimerComponent],

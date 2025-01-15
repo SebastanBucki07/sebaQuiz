@@ -47,8 +47,8 @@ export abstract class YoutubeComponent {
         this.isNotSerial = false
         break
       }
-      case 'mundial': {
-        this.randomYoutube = this.questionDataService.getMundialQuestion()
+      case 'event': {
+        this.randomYoutube = this.questionDataService.getYoutubeEventQuestion()
         this.question = 'W jakiej imprezie sportowej ta piosenka była głowną?'
         this.isNotSerial = false
         this.answerDescription = 'Impreza:'
@@ -118,7 +118,7 @@ export class YoutubeSerialsComponent extends YoutubeComponent implements OnInit 
 })
 export class YoutubeMundialComponent extends YoutubeComponent implements OnInit {
   ngOnInit(): void {
-    this.category = 'mundial'
+    this.category = 'event'
     this.init()
   }
 }

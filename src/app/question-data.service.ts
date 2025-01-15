@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core'
 import youtubeSongData from '../assets/youTube/youtubeSongs.json'
 import youtubeSerialsIntroData from '../assets/youTube/youtubeSerialsIntros.json'
-import youtubeMundialData from '../assets/youTube/youtubeMundialSongs.json'
+import youtubeEventsData from '../assets/youTube/youtubeEventsSongs.json'
 import { getAndDeleteRandomElementFromArray } from '../common/randomize.helper'
 import { YoutubeModel } from './model/youtube-model'
 import famousPeopleData from '../assets/photos/famousPeopleForCategory.json'
@@ -13,8 +13,8 @@ import moviesData from '../assets/movies/movies.json'
 import allMoviesHeroData from '../assets/movies/moviesHero.json'
 import allSerialsHeroData from '../assets/movies/serialsHero.json'
 import serialsData from '../assets/movies/serials.json'
-import writtingsCattegory from '../assets/writings/writtingsCategory.json'
-import writtingsFootballCattegory from '../assets/writings/writtingsFootballCategory.json'
+import writingsCategory from '../assets/writings/writingsCategory.json'
+import writingsFootballCategory from '../assets/writings/writingsFootballCategory.json'
 import movieActors from '../assets/actors/movieActors.json'
 import directorsData from '../assets/movies/directors.json'
 import familiadaData from '../assets/familiada/familiada.json'
@@ -23,10 +23,10 @@ import playersData from '../assets/football/footballerClubData.json'
 import gamesData from '../assets/games/games.json'
 import allDistricts from '../assets/poland/citiesPL.json'
 import allFootballData from '../assets/football/football.json'
-import allStadiums from '../assets/stadions/stadions.json'
+import allStadiums from '../assets/stadiums/stadiums.json'
 import allProverbs from '../assets/proverbs/proverbs.json'
 import allHistory from '../assets/history/history.json'
-import writtingsData from '../assets/writings/writings.json'
+import writingsData from '../assets/writings/writings.json'
 import { DescriptionModel } from './model/description-model'
 import { Country } from './model/country-model'
 import countriesData from '../assets/countries/country.json'
@@ -43,14 +43,14 @@ import { ActorModel } from './model/actor-model'
 import { TipsModel } from './model/tips-model'
 import { QuestionMultipleChoice } from './model/question-model'
 import { FamiliadaModel } from './model/familiada-model'
-import { FootballGamesModel } from './model/footballgames-model'
-import { WrittingData, WrittingsCategoryModel } from './model/writtingsCategory-model'
+import { WritingData, WritingsCategoryModel } from './model/writingsCategory-model'
 import { ClubLinks } from './football-cross/club-links'
 import { BoardCreator } from './football-cross/board-creator'
 import { players } from '../assets/football/players'
 import { MovieLinks } from './movie-cross/movie-links'
 import { actors } from '../assets/actors/actors'
 import { BoardMovieCreator } from './movie-cross/board-creator'
+import { FootballGamesModel } from './model/football-games-model'
 
 @Injectable({
   providedIn: 'root',
@@ -60,7 +60,7 @@ export class QuestionDataService {
   protected allFootballGames: FootballGamesModel[] = []
   protected allYoutubeSongs: YoutubeModel[] = []
   protected allYoutubeSerialIntros: YoutubeModel[] = []
-  protected allYoutubeMundial: YoutubeModel[] = []
+  protected allYoutubeEventSongs: YoutubeModel[] = []
   protected allFamousPeople: PhotoModel[] = []
   protected allBuilding: PhotoModel[] = []
   protected allMovies: DescriptionModel[] = []
@@ -70,7 +70,7 @@ export class QuestionDataService {
   protected allDirectorsData: TipsModel[] = []
   protected allGames: DescriptionModel[] = []
   protected allBiology: DescriptionModel[] = []
-  protected allDisctricts: DescriptionModel[] = []
+  protected allDistricts: DescriptionModel[] = []
   protected allStadiums: DescriptionModel[] = []
   protected allProverbs: DescriptionModel[] = []
   protected allFootball: DescriptionModel[] = []
@@ -82,9 +82,9 @@ export class QuestionDataService {
   protected allSerialsActors: ActorModel[] = []
   protected allClubsHistoryQuestion: ClubHistory[] = []
   protected allChemicalElements: DescriptionModel[] = []
-  protected writtingsCategoryElements: WrittingsCategoryModel[] = []
-  protected writtingsCategoryFootballElements: WrittingsCategoryModel[] = []
-  protected writtingsData: WrittingData[] = []
+  protected writingsCategoryElements: WritingsCategoryModel[] = []
+  protected writingsCategoryFootballElements: WritingsCategoryModel[] = []
+  protected writingsData: WritingData[] = []
   protected playersData: ClubLinks | any = null
   protected countriesForFlags: Country[] | any = null
   protected countriesForCapitals: Country[] | any = null
@@ -98,7 +98,7 @@ export class QuestionDataService {
 
   initial(): void {
     this.allYoutubeSongs = youtubeSongData
-    this.allYoutubeMundial = youtubeMundialData
+    this.allYoutubeEventSongs = youtubeEventsData
     this.allClubsCrests = clubCrestsData
     this.allLogo = logoData
     this.allYoutubeSerialIntros = youtubeSerialsIntroData
@@ -116,7 +116,7 @@ export class QuestionDataService {
     this.allMoviesActors = movieActors
     this.allGods = godsData
     this.allSerialsActors = serialActors
-    this.allDisctricts = allDistricts
+    this.allDistricts = allDistricts
     this.allDirectorsData = directorsData
     this.allStadiums = allStadiums
     this.allChemicalElements = chemicalElements
@@ -131,9 +131,9 @@ export class QuestionDataService {
     this.continentsForCapitals = [...this.continentsForCountries]
     this.countriesLetters = lettersData
     this.capitalsLetters = [...this.countriesLetters]
-    this.writtingsCategoryElements = writtingsCattegory
-    this.writtingsCategoryFootballElements = writtingsFootballCattegory
-    this.writtingsData = writtingsData
+    this.writingsCategoryElements = writingsCategory
+    this.writingsCategoryFootballElements = writingsFootballCategory
+    this.writingsData = writingsData
     this.playersData = ClubLinks.readFromPlayerList(playersData)
     this.init = true
   }
@@ -148,10 +148,10 @@ export class QuestionDataService {
   getFootballerQuestion() {
     const pf: string[] = []
     const links = ClubLinks.readFromPlayerList(players, pf)
-    console.log(`links: ${JSON.stringify(links)}`)
+
     const generator = new BoardCreator(links)
     const result = generator.generateBoard()
-    console.log(`Result: ${JSON.stringify(result)}`)
+
     if (result != null) {
       for (const club1 of result!.row) {
         for (const club2 of result!.column) {
@@ -186,11 +186,11 @@ export class QuestionDataService {
     return getAndDeleteRandomElementFromArray(this.allMultipleChoice)
   }
 
-  getMundialQuestion() {
+  getYoutubeEventQuestion() {
     if (!this.init) {
       this.initial()
     }
-    return getAndDeleteRandomElementFromArray(this.allYoutubeMundial)
+    return getAndDeleteRandomElementFromArray(this.allYoutubeEventSongs)
   }
 
   getFamiliadaQuestion() {
@@ -288,7 +288,7 @@ export class QuestionDataService {
     if (!this.init) {
       this.initial()
     }
-    return getAndDeleteRandomElementFromArray(this.allDisctricts)
+    return getAndDeleteRandomElementFromArray(this.allDistricts)
   }
 
   getStadiumQuestion() {
@@ -326,28 +326,28 @@ export class QuestionDataService {
     return getAndDeleteRandomElementFromArray(this.allSerialsHero)
   }
 
-  getWritingsCategoryQuestion(): WrittingsCategoryModel {
+  getWritingsCategoryQuestion(): WritingsCategoryModel {
     if (!this.init) {
       this.initial()
     }
-    return getAndDeleteRandomElementFromArray(this.writtingsCategoryElements)
+    return getAndDeleteRandomElementFromArray(this.writingsCategoryElements)
   }
 
-  getWritingsFootballCategoryQuestion(): WrittingsCategoryModel {
+  getWritingsFootballCategoryQuestion(): WritingsCategoryModel {
     if (!this.init) {
       this.initial()
     }
-    return getAndDeleteRandomElementFromArray(this.writtingsCategoryFootballElements)
+    return getAndDeleteRandomElementFromArray(this.writingsCategoryFootballElements)
   }
 
-  getWritingsCategoryDataQuestion(): WrittingData[] {
+  getWritingsCategoryDataQuestion(): WritingData[] {
     const category = this.getWritingsCategoryQuestion()
-    return this.writtingsData.filter((data) => data.category === category.category)
+    return this.writingsData.filter((data) => data.category === category.category)
   }
 
-  getWritingsFootballCategoryDataQuestion(): WrittingData[] {
+  getWritingsFootballCategoryDataQuestion(): WritingData[] {
     const category = this.getWritingsFootballCategoryQuestion()
-    return this.writtingsData.filter((data) => data.category === category.category)
+    return this.writingsData.filter((data) => data.category === category.category)
   }
 
   getCountries(question: string): Country[] | string[] | any {

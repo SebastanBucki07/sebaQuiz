@@ -31,7 +31,7 @@ export class CategoryListComponent implements OnInit {
     this.subscription = this.categoryService.getActiveCategory().subscribe((x) => {
       this.questionType = x
     })
-    this.subscription2 = this.categoryService.getChoosen().subscribe((x) => {
+    this.subscription2 = this.categoryService.getChosen().subscribe((x) => {
       if (x) {
         this.areCategoriesChosen = true
         this.confirm()
@@ -53,13 +53,11 @@ export class CategoryListComponent implements OnInit {
     let category = question
     if (question === 50) {
       do {
-        console.log(`array: ${JSON.stringify(this.categories)}`)
-        const tmp = randomFromArray(this.categories)
-        console.log(`tmp: ${JSON.stringify(tmp)}`)
-        category = tmp.id
+        const randomCategory = randomFromArray(this.categories)
+        category = randomCategory.id
       } while (actualCategory === category)
     }
-    console.log(`category: ${JSON.stringify(category)}`)
+
     this.categoryService.setActiveCategory(category)
   }
 }

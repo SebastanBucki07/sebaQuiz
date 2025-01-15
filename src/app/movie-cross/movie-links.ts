@@ -34,7 +34,6 @@ export class MovieLinks {
         }
       }
     }
-    console.log(`result: ${JSON.stringify(result)}`)
     return result
   }
 
@@ -59,7 +58,6 @@ export class MovieLinks {
   }
 
   linkActorsExists(club1: string, club2: string) {
-    //console.log(`getLinkingPlayers: ${this.getLinkingPlayers(club1, club2).length}`)
     return this.getLinkingActors(club1, club2).length > 1
   }
 }

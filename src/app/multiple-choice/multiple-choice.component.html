@@ -2,13 +2,13 @@
   <button type="button" class="close-button" aria-label="Close" (click)="close()"></button>
   <app-timer></app-timer>
   <div class="d-flex flex-column text-center justify-content-center align-items-center question-bg">
-    <h2 class="d-none d-lg-flex font-weight-bold questionCategory">Kategoria: {{ settedQuestion.category }}</h2>
-    <h4 class="d-md-flex d-lg-none font-weight-bold questionCategory">Kateogria: {{ settedQuestion.category }}</h4>
-    <h2 class="d-none d-lg-flex font-weight-bold question">Pytanie: {{ settedQuestion.text }}</h2>
-    <h4 class="d-md-flex d-lg-none font-weight-bold question">Pytanie:{{ settedQuestion.text }}</h4>
+    <h2 class="d-none d-lg-flex font-weight-bold questionCategory">Kategoria: {{ setQuestion.category }}</h2>
+    <h4 class="d-md-flex d-lg-none font-weight-bold questionCategory">Kateogria: {{ setQuestion.category }}</h4>
+    <h2 class="d-none d-lg-flex font-weight-bold question">Pytanie: {{ setQuestion.text }}</h2>
+    <h4 class="d-md-flex d-lg-none font-weight-bold question">Pytanie:{{ setQuestion.text }}</h4>
     <ng-container *ngIf="isVisible">
-      <h2 class="d-none d-lg-flex font-weight-bold answer">Poprawna odpowiedź: {{ settedQuestion.answer }}</h2>
-      <h4 class="d-md-flex d-lg-none font-weight-bold answer">Poprawna odpowiedź: {{ settedQuestion.answer }}</h4>
+      <h2 class="d-none d-lg-flex font-weight-bold answer">Poprawna odpowiedź: {{ setQuestion.answer }}</h2>
+      <h4 class="d-md-flex d-lg-none font-weight-bold answer">Poprawna odpowiedź: {{ setQuestion.answer }}</h4>
       <ng-container *ngIf="correct">
         <app-add-points></app-add-points>
       </ng-container>
@@ -27,12 +27,12 @@
       <button
         *ngFor="
           let option of [
-            { label: 'A', value: settedQuestion.a, color: 'green' },
-            { label: 'B', value: settedQuestion.b, color: 'red' },
-            { label: 'C', value: settedQuestion.c, color: 'yellow' }
+            { label: 'A', value: setQuestion.a, color: 'green' },
+            { label: 'B', value: setQuestion.b, color: 'red' },
+            { label: 'C', value: setQuestion.c, color: 'yellow' }
           ]
         "
-        (click)="pickAnswer(settedQuestion.id, option.label, option.value)"
+        (click)="pickAnswer(setQuestion.id, option.label, option.value)"
         type="button"
         [disabled]="answerButtonsDisabled"
         class="btn answers-btn text-left font-weight-bold d-flex align-items-center"

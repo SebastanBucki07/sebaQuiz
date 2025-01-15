@@ -8,10 +8,10 @@ export function randomFromArray(array: any[]) {
 
 export function getAndDeleteRandomElementFromArray(array: any[]): any {
   if (array.length > 0) {
-    const el = randomFromArray(array)
-    const elementToBeDeleted = array.indexOf(el)
+    const randomElement = randomFromArray(array)
+    const elementToBeDeleted = array.indexOf(randomElement)
     array.splice(elementToBeDeleted, 1)
-    return el
+    return randomElement
   }
   return {
     errorCode: 404,

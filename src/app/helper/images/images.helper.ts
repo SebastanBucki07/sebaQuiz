@@ -50,7 +50,7 @@ export async function getAllActorsPhotos(actors: string[]): Promise<PhotoModel[]
   const photos: PhotoModel[] = []
   for (const actor of actors) {
     const actorID = await getActorId(actor)
-    console.log(actorID)
+
     let photo = ''
 
     const url = `https://api.themoviedb.org/3/person/${actorID}/images`
